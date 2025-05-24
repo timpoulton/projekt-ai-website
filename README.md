@@ -1,45 +1,54 @@
-# Projekt AI Website
+# Projekt AI - AI & Automation Platform
 
-This repository contains the source code for the [Projekt AI](https://projekt-ai.net) website, hosted on GitHub Pages.
+This repository contains the website for Projekt AI, an AI and automation platform for enterprise use cases.
 
 ## Overview
 
-Projekt AI is a personal initiative focused on artificial intelligence solutions and services.
+The website showcases Projekt AI's services, platform features, and expertise in AI implementation and business process automation. It's designed with a modern, professional aesthetic inspired by leading AI/tech companies like Deepgram.
 
 ## Features
 
-- Modern, responsive design
-- Single-page layout with smooth scrolling
-- Dark theme with teal accents
-- Mobile-friendly interface
+- Responsive design that works across all devices
+- Interactive demo section to showcase platform capabilities
+- Workflow visualization diagrams for process automation examples
+- Portfolio section highlighting real-world projects
+- Testimonials from satisfied customers
+- Clean, professional design with modern UI elements and animations
 
-## Tech Stack
+## Structure
+
+- `index.html` - Main HTML file
+- `assets/css/style.css` - Stylesheet
+- `assets/js/main.js` - JavaScript functionality
+- `assets/img/` - Images including workflow diagrams
+
+## Technologies
 
 - HTML5
-- CSS3 (Custom styling, no frameworks)
-- Vanilla JavaScript
-- GitHub Pages for hosting
+- CSS3 (with modern features like custom properties, flexbox, and grid)
+- Vanilla JavaScript (no frameworks)
+- Google Fonts (Inter)
 
-## Local Development
+## Website Design
 
-To run this website locally:
+The website has been designed to focus on enterprise AI and automation services, including:
 
-1. Clone the repository
-   ```
-   git clone https://github.com/<username>/projekt-ai-website.git
-   cd projekt-ai-website
-   ```
+- Key platform capabilities and statistics
+- Interactive demos of AI and automation features
+- Workflow diagrams showing automation processes
+- Client testimonials demonstrating business impact
+- Clear calls-to-action for lead generation
 
-2. Open the `index.html` file in your browser or use a local development server
+## Design Inspiration
 
-## Deployment
+The design is inspired by modern AI platforms like Deepgram, featuring:
+- Dark theme with accent colors for a professional tech aesthetic
+- Clean section layouts with clear visual hierarchy
+- Interactive elements to demonstrate functionality
+- Metrics and statistics to highlight platform value
+- Testimonials to build trust and credibility
 
-The website is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+## Contact
 
-## Custom Domain
-
-This site is configured to use the custom domain [projekt-ai.net](https://projekt-ai.net).
-
-## License
-
-MIT License 
+For inquiries about Projekt AI or website services, please contact:
+- Email: contact@projekt-ai.net 

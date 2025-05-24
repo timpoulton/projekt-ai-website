@@ -3,79 +3,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projekt AI - Artificial Intelligence Solutions</title>
+    <title>Projekt AI - AI & Automation Platform</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Projekt AI</div>
+            <div class="logo">Projekt<span>AI</span></div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#try-apis">Platform</a></li>
+                <li><a href="#workflow">Workflows</a></li>
+                <li><a href="#portfolio">Solutions</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="nav-buttons">
+                <a href="#contact" class="btn btn-primary">Try It Free</a>
+            </div>
         </nav>
     </header>
 
     <section id="hero">
         <div class="container">
-            <h1>Innovative AI Solutions</h1>
-            <p>Building the future with artificial intelligence</p>
-            <button class="cta-button">Get Started</button>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>About <span class="accent">Projekt AI</span></h2>
-            <p>Projekt AI is a personal initiative focused on developing and implementing artificial intelligence solutions. We combine cutting-edge technology with practical applications to solve real-world problems.</p>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <h2>Our <span class="accent">Services</span></h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Machine Learning</h3>
-                    <p>Custom machine learning models tailored to your specific needs and data.</p>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>The <span class="gradient-text">AI & Automation</span> platform for enterprise use cases</h1>
+                    <p>Transforming manual processes into intelligent automated workflows that drive business outcomes at scale</p>
+                    <div class="hero-buttons">
+                        <a href="#try-apis" class="btn btn-primary">Try It Free</a>
+                        <a href="#services" class="btn btn-secondary">View Solutions</a>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h3>Natural Language Processing</h3>
-                    <p>Text analysis, sentiment detection, and conversational AI solutions.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Computer Vision</h3>
-                    <p>Image recognition, object detection, and visual data processing.</p>
-                </div>
-                <div class="service-card">
-                    <h3>AI Integration</h3>
-                    <p>Seamlessly integrate AI capabilities into your existing systems and workflows.</p>
+                <div class="hero-demo">
+                    <img src="assets/img/workflow-data.png" alt="AI Platform Demo" class="hero-image">
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects">
+    <section id="stats">
         <div class="container">
-            <h2>Featured <span class="accent">Projects</span></h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>30%</h3>
+                    <p>More accurate automation</p>
+                </div>
+                <div class="stat-item">
+                    <h3>5x</h3>
+                    <p>Cost reduction</p>
+                </div>
+                <div class="stat-item">
+                    <h3>40x</h3>
+                    <p>Faster processes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span class="gradient-text">Projekt AI</span></h2>
+                <p class="section-subtitle">Our platform helps organizations streamline operations and leverage artificial intelligence in practical, results-driven ways</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Projekt AI is a specialized AI implementation and business process automation platform, helping organizations streamline operations and leverage artificial intelligence in practical, results-driven ways.</p>
+                    <p>With expertise in workflow automation, custom AI solutions, and process optimization, we work with businesses to identify opportunities for efficiency gains and implement technology solutions that deliver measurable results.</p>
+                    <a href="#contact" class="btn btn-primary">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <img src="assets/img/workflow-support.png" alt="About Projekt AI">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Discover our comprehensive suite of AI and automation services designed to transform your business operations</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Process Automation</h3>
+                    <p>Transform manual workflows into efficient automated systems that save time and reduce errors.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Implement practical AI solutions that enhance your existing business processes and applications.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Workflow Optimization</h3>
+                    <p>Analyze and redesign workflows to maximize efficiency and productivity in your organization.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Custom AI Development</h3>
+                    <p>Build tailored AI solutions that address specific business challenges and opportunities.</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="try-apis">
+        <div class="container">
+            <div class="section-header">
+                <h2>Try Our <span class="gradient-text">AI Platform</span></h2>
+                <p class="section-subtitle">Explore how our AI and automation capabilities work with these interactive examples</p>
+            </div>
+            
+            <div class="api-demo-container">
+                <div class="api-demo-tabs">
+                    <button class="tab-button active" data-tab="automation-demo">Workflow Automation</button>
+                    <button class="tab-button" data-tab="ai-demo">AI Integration</button>
+                    <button class="tab-button" data-tab="analytics-demo">Analytics</button>
+                </div>
+                
+                <div class="demo-panel active" id="automation-demo">
+                    <div class="demo-interface">
+                        <div class="demo-preview">
+                            <img src="assets/img/workflow-support.png" alt="Workflow Automation Demo">
+                        </div>
+                        <div class="demo-controls">
+                            <h3>Workflow Automation</h3>
+                            <p>See how our workflow automation platform can transform your business processes by reducing manual tasks, eliminating errors, and accelerating operations.</p>
+                            <button class="demo-button">Try Automation Demo</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="demo-panel" id="ai-demo">
+                    <div class="demo-interface">
+                        <div class="demo-preview">
+                            <img src="assets/img/workflow-data.png" alt="AI Integration Demo">
+                        </div>
+                        <div class="demo-controls">
+                            <h3>AI Integration</h3>
+                            <p>Experience how our AI solutions integrate with existing systems to provide intelligent insights, automate decision-making, and enhance user experiences.</p>
+                            <button class="demo-button">Try AI Demo</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="demo-panel" id="analytics-demo">
+                    <div class="demo-interface">
+                        <div class="demo-preview">
+                            <img src="assets/img/workflow-sales.png" alt="Analytics Demo">
+                        </div>
+                        <div class="demo-controls">
+                            <h3>Analytics & Insights</h3>
+                            <p>See how our analytics tools provide deep insights from your business data, helping you make better decisions and identify new opportunities.</p>
+                            <button class="demo-button">Try Analytics Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workflow">
+        <div class="container">
+            <div class="section-header">
+                <h2>Automation <span class="gradient-text">Workflows</span></h2>
+                <p class="section-subtitle">Browse sample automation workflows that showcase how we approach process optimization. Each diagram represents a real business problem solved through automation.</p>
+            </div>
+            
+            <div class="workflow-library">
+                <div class="workflow-card">
+                    <div class="workflow-preview">
+                        <img src="assets/img/workflow-support.png" alt="Customer Support Workflow" class="workflow-image">
+                    </div>
+                    <div class="workflow-content">
+                        <h3>Customer Support Automation</h3>
+                        <p>Automated ticket routing, response generation, and follow-up system that reduced response times by 68%.</p>
+                        <button class="workflow-button">View Workflow</button>
+                    </div>
+                </div>
+                
+                <div class="workflow-card">
+                    <div class="workflow-preview">
+                        <img src="assets/img/workflow-data.png" alt="Data Processing Workflow" class="workflow-image">
+                    </div>
+                    <div class="workflow-content">
+                        <h3>Data Processing Pipeline</h3>
+                        <p>End-to-end automation of data collection, cleaning, analysis and reporting, saving 15+ hours weekly.</p>
+                        <button class="workflow-button">View Workflow</button>
+                    </div>
+                </div>
+                
+                <div class="workflow-card">
+                    <div class="workflow-preview">
+                        <img src="assets/img/workflow-sales.png" alt="Sales Qualification Workflow" class="workflow-image">
+                    </div>
+                    <div class="workflow-content">
+                        <h3>Sales Lead Qualification</h3>
+                        <p>AI-powered lead scoring and qualification system that increased conversion rates by 32%.</p>
+                        <button class="workflow-button">View Workflow</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="workflow-request">
+                <h3>Need a Custom Workflow Analysis?</h3>
+                <p>We can create a personalized workflow diagram for your specific business process. Contact us to discuss your needs.</p>
+                <a href="#contact" class="btn btn-primary">Request Custom Workflow</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted by <span class="gradient-text">Industry Leaders</span></h2>
+                <p class="section-subtitle">See what our clients say about working with Projekt AI</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Projekt AI transformed our customer service operations, reducing response times by 70% while improving quality scores.</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <!-- Placeholder for author image -->
+                        </div>
+                        <div class="author-info">
+                            <p class="author-name">Sarah Johnson</p>
+                            <p class="author-position">CTO, TechSolutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">The automation workflows they implemented saved us over $200,000 annually in operational costs.</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <!-- Placeholder for author image -->
+                        </div>
+                        <div class="author-info">
+                            <p class="author-name">Michael Chen</p>
+                            <p class="author-position">Operations Director, Global Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Their AI integration expertise helped us leverage our data in ways we never thought possible.</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <!-- Placeholder for author image -->
+                        </div>
+                        <div class="author-info">
+                            <p class="author-name">Jessica Rivera</p>
+                            <p class="author-position">Data Science Lead, FinTech Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industry <span class="gradient-text">Solutions</span></h2>
+                <p class="section-subtitle">Explore how our platform adapts to different industries and use cases</p>
+            </div>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Speech Analysis</h3>
-                    <p>Automated transcription and analysis of audio recordings.</p>
+                    <h3>Contact Centers</h3>
+                    <p>Automated transcription and sentiment analysis of customer calls with actionable insights dashboard and agent performance metrics.</p>
+                    <div class="tags-container">
+                        <span class="tag">AI</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Process Automation</span>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>Predictive Analytics</h3>
-                    <p>Data-driven forecasting for business intelligence.</p>
+                    <h3>Medical Transcription</h3>
+                    <p>End-to-end system for automating medical documentation, ensuring accuracy, compliance, and significant time savings for healthcare professionals.</p>
+                    <div class="tags-container">
+                        <span class="tag">Healthcare</span>
+                        <span class="tag">Compliance</span>
+                        <span class="tag">API</span>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>Recommendation Engine</h3>
-                    <p>Personalized content and product recommendations.</p>
+                    <h3>Media Processing</h3>
+                    <p>Automated content creation, analysis, and publishing system with AI-assisted editing and metadata generation for media companies.</p>
+                    <div class="tags-container">
+                        <span class="tag">Automation</span>
+                        <span class="tag">Media</span>
+                        <span class="tag">Content</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,17 +321,137 @@
 
     <section id="contact">
         <div class="container">
-            <h2>Get in <span class="accent">Touch</span></h2>
-            <p>Interested in working together? Reach out to discuss your project.</p>
-            <a href="mailto:contact@projekt-ai.net" class="contact-button">contact@projekt-ai.net</a>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get <span class="gradient-text">Started</span></h2>
+                    <p>Ready to transform your business processes? Let's discuss how Projekt AI can help you automate workflows and integrate AI into your operations.</p>
+                    
+                    <div class="contact-options">
+                        <div class="contact-option">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <a href="mailto:contact@projekt-ai.net" class="contact-link">contact@projekt-ai.net</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-option">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call Us</h4>
+                                <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-option">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Visit Us</h4>
+                                <p class="contact-link">123 AI Street, Tech City</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="signup-offer">
+                <h3>Get $200 in free credits!</h3>
+                <p>Start your automation journey with no commitment. No credit card needed.</p>
+                <a href="#" class="btn btn-primary">Sign Up Free</a>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Projekt AI. All rights reserved.</p>
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">Projekt<span>AI</span></div>
+                    <p>AI & Automation Platform for Enterprise Use Cases</p>
+                    <p>Transform your business with intelligent automation solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Process Automation</a></li>
+                        <li><a href="#">AI Integration</a></li>
+                        <li><a href="#">Workflow Optimization</a></li>
+                        <li><a href="#">Custom AI Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">API Reference</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Projekt AI - All rights reserved</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/timpoulton" class="social-link"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <!-- Workflow Modal -->
+    <div class="workflow-modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h3 class="modal-title"></h3>
+            <div class="modal-image-container">
+                <img class="modal-image" src="" alt="Workflow Diagram">
+            </div>
+            <div class="modal-description"></div>
+            <div class="modal-actions">
+                <button class="btn btn-primary request-customization">Request Customization</button>
+                <button class="btn btn-secondary download-workflow">Download Diagram</button>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/js/main.js"></script>
 </body>
