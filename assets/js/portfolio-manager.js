@@ -9,18 +9,23 @@ class PortfolioManager {
     }
 
     init() {
+        console.log('🚀 Initializing Portfolio Manager...');
+        
         // Find the portfolio container
         this.portfolioContainer = document.querySelector('#portfolio .services-grid');
         if (!this.portfolioContainer) {
-            console.warn('Portfolio container not found');
+            console.warn('❌ Portfolio container not found');
             return;
         }
+        console.log('✅ Portfolio container found');
 
         // Load saved showcases from localStorage
         this.loadSavedShowcases();
         
         // Add management controls
         this.addManagementControls();
+        
+        console.log('✅ Portfolio Manager initialized successfully');
     }
 
     // Add a new automation showcase to the portfolio
@@ -226,6 +231,13 @@ class PortfolioManager {
 
     // Add management controls
     addManagementControls() {
+        // Check if button already exists (either from HTML or previous JS execution)
+        const existingButton = document.querySelector('a[href="automation-showcase-generator.html"]');
+        if (existingButton) {
+            console.log('✅ Automation showcase button already exists');
+            return;
+        }
+        
         // Add a "Manage Portfolio" button to the portfolio section
         const portfolioSection = document.querySelector('#portfolio');
         if (portfolioSection) {
@@ -239,6 +251,9 @@ class PortfolioManager {
                 </div>
             `;
             portfolioSection.appendChild(manageBtn);
+            console.log('✅ Added automation showcase button via JavaScript');
+        } else {
+            console.warn('❌ Portfolio section not found - cannot add button');
         }
     }
 
