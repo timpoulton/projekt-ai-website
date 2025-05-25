@@ -1,0 +1,149 @@
+# Netlify Configuration for Projekt-AI Website
+# Automation Portfolio Platform with AI Content Generation
+
+[build]
+  # Publish directory (where the built site files are located)
+  publish = "."
+  
+  # Build command (if using a build process)
+  # command = "npm run build"
+
+[build.environment]
+  # Node.js version for serverless functions
+  NODE_VERSION = "18"
+
+# Redirect rules for clean URLs and SPA behavior
+[[redirects]]
+  from = "/workflows/*"
+  to = "/workflows/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Form handling for lead generation
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Security headers
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # Cache control
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Environment variables for serverless functions
+[build.environment]
+  # OpenAI API for AI content generation
+  OPENAI_API_KEY = ""
+  
+  # Email service configuration
+  SMTP_HOST = ""
+  SMTP_PORT = "587"
+  SMTP_USER = ""
+  SMTP_PASS = ""
+  
+  # Analytics and tracking
+  GOOGLE_ANALYTICS_ID = ""
+  
+  # Site configuration
+  SITE_URL = "https://projekt-ai.net"
+  CONTACT_EMAIL = "hello@projekt-ai.net"
+
+# Functions configuration for AI content generation
+[functions]
+  directory = "functions"
+  
+  # Increase timeout for AI processing
+  [functions."ai-generator"]
+    timeout = 30
+  
+  [functions."email-capture"]
+    timeout = 10
+    
+  [functions."blueprint-download"]
+    timeout = 15
+
+# Form submissions for lead generation
+[build.processing.html]
+  pretty_urls = true
+
+# Custom form handling
+[[redirects]]
+  from = "/contact"
+  to = "/contact-success"
+  status = 200
+  conditions = {Role = ["admin"], Country = ["US"]}
+
+# Development configuration
+[context.development]
+  command = "echo 'Development build'"
+  
+[context.development.environment]
+  NODE_ENV = "development"
+  DEBUG = "true"
+
+# Production configuration  
+[context.production]
+  command = "echo 'Production build'"
+  
+[context.production.environment]
+  NODE_ENV = "production"
+  DEBUG = "false"
+
+# Deploy previews for pull requests
+[context.deploy-preview]
+  command = "echo 'Deploy preview build'"
+
+# Branch-specific configuration
+[context.branch-deploy]
+  command = "echo 'Branch deploy build'"
+
+# Plugin configuration for additional functionality
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+  
+  # Lighthouse performance monitoring
+  [plugins.inputs]
+    performance_budget = 0.8
+    accessibility_threshold = 0.9
+
+# Analytics and monitoring
+[build.environment]
+  # Netlify Analytics
+  NETLIFY_ANALYTICS = "true"
+  
+  # Error tracking
+  SENTRY_DSN = ""
+  
+  # Performance monitoring
+  LIGHTHOUSE_BUDGET = "true" 
