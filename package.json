@@ -1,0 +1,38 @@
+{
+  "name": "projekt-ai-website",
+  "version": "2.0.0",
+  "description": "Professional AI & Automation Services Portfolio - Netlify Enhanced",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build required'",
+    "dev": "npx http-server . -p 3000",
+    "test": "echo 'No tests configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timpoulton/projekt-ai-website.git"
+  },
+  "keywords": [
+    "automation",
+    "ai",
+    "make.com",
+    "workflows",
+    "nightlife",
+    "hospitality",
+    "portfolio"
+  ],
+  "author": "Tim Poulton - Projekt AI",
+  "license": "MIT",
+  "homepage": "https://projekt-ai.net",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "netlify": {
+    "functions": "./functions",
+    "publish": ".",
+    "command": "echo 'Static site ready for deployment'"
+  }
+} 
