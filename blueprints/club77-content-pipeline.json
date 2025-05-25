@@ -1,20 +1,23 @@
 {
   "name": "Club77 Content Pipeline",
-  "description": "Automated Instagram content creation and posting system for nightlife venues",
+  "description": "Automated Instagram content creation and posting system for nightlife industry. Generates event promotions, manages guest lists, and tracks engagement metrics.",
   "version": "1.0",
   "platform": "Make.com",
   "industry": "Nightlife/Entertainment",
   "complexity": "Intermediate",
   "estimated_setup_time": "2-3 hours",
+  "automation_url": "https://eu2.make.com/603847/scenarios/content-pipeline/edit",
   "requirements": {
     "apis": [
-      "Instagram Basic Display API",
+      "Instagram Business API",
+      "Facebook Graph API",
       "Google Sheets API",
       "OpenAI API"
     ],
     "tools": [
       "Make.com account",
       "Instagram Business Account",
+      "Facebook Business Manager",
       "Google Sheets",
       "Canva Pro (optional)"
     ]
@@ -22,86 +25,91 @@
   "workflow_steps": [
     {
       "step": 1,
-      "module": "Google Sheets - Watch Rows",
-      "description": "Monitors event calendar for new events",
+      "module": "Event Detection",
+      "description": "Monitors event calendar and detects new events or updates",
       "configuration": {
-        "spreadsheet_id": "YOUR_SPREADSHEET_ID",
-        "sheet_name": "Events",
-        "trigger": "New row added"
+        "source": "Google Sheets or Calendar API",
+        "trigger": "New event added or modified",
+        "frequency": "Every 30 minutes"
       }
     },
     {
       "step": 2,
-      "module": "OpenAI - Create Completion",
-      "description": "Generates promotional content based on event details",
+      "module": "AI Content Generation",
+      "description": "Creates promotional content using AI based on event details",
       "configuration": {
-        "model": "gpt-4",
-        "prompt": "Create engaging Instagram post content for nightclub event: {{event_name}} on {{event_date}}. Include hashtags and call-to-action.",
-        "max_tokens": 200
+        "ai_model": "OpenAI GPT-4",
+        "content_types": "Captions, hashtags, descriptions",
+        "brand_voice": "Club77 style guidelines"
       }
     },
     {
       "step": 3,
-      "module": "HTTP - Make a Request",
-      "description": "Generates branded graphics using Canva API",
+      "module": "Visual Design",
+      "description": "Generates branded graphics and promotional images",
       "configuration": {
-        "url": "https://api.canva.com/v1/designs",
-        "method": "POST",
-        "headers": {
-          "Authorization": "Bearer YOUR_CANVA_TOKEN"
-        }
+        "design_tool": "Canva API or custom templates",
+        "brand_assets": "Club77 logos, colors, fonts",
+        "output_formats": "Instagram post, story, carousel"
       }
     },
     {
       "step": 4,
-      "module": "Instagram - Create Media Object",
-      "description": "Uploads content to Instagram",
+      "module": "Auto Posting",
+      "description": "Publishes content to Instagram at optimal times",
       "configuration": {
-        "image_url": "{{canva_image_url}}",
-        "caption": "{{ai_generated_content}}",
-        "access_token": "YOUR_INSTAGRAM_TOKEN"
+        "platform": "Instagram Business API",
+        "scheduling": "Optimal engagement times",
+        "approval_workflow": "Optional manual review"
       }
     },
     {
       "step": 5,
-      "module": "Instagram - Publish Media",
-      "description": "Publishes the post to Instagram feed",
+      "module": "Analytics Tracking",
+      "description": "Tracks engagement metrics and performance",
       "configuration": {
-        "creation_id": "{{media_object_id}}"
-      }
-    },
-    {
-      "step": 6,
-      "module": "Google Sheets - Update Row",
-      "description": "Updates event status and post metrics",
-      "configuration": {
-        "spreadsheet_id": "YOUR_SPREADSHEET_ID",
-        "range": "Events!F{{row_number}}",
-        "values": "Posted - {{post_id}}"
+        "metrics": "Likes, comments, shares, reach",
+        "reporting": "Weekly performance summaries",
+        "optimization": "Content performance insights"
       }
     }
   ],
   "benefits": [
-    "400% increase in social media efficiency",
-    "Consistent brand messaging",
+    "Consistent social media presence",
     "Automated event promotion",
-    "Real-time engagement tracking",
-    "Reduced manual content creation time"
+    "Brand-consistent content",
+    "Optimal posting times",
+    "Performance tracking and optimization"
   ],
   "customization_options": [
-    "Custom AI prompts for different event types",
-    "Multiple social media platforms",
-    "Advanced analytics integration",
-    "Custom graphic templates",
-    "Automated story posting"
+    "Custom brand voice and tone",
+    "Multiple content formats",
+    "Flexible posting schedules",
+    "Manual approval workflows",
+    "Custom analytics dashboards"
+  ],
+  "technical_features": [
+    "Event calendar integration",
+    "AI-powered content generation",
+    "Automated visual design",
+    "Social media API integration",
+    "Performance analytics"
   ],
   "setup_instructions": [
-    "1. Set up Instagram Business Account and get API access",
-    "2. Create Google Sheets with event calendar template",
-    "3. Configure OpenAI API for content generation",
-    "4. Import Make.com blueprint and configure modules",
-    "5. Test workflow with sample event data",
-    "6. Schedule regular monitoring and optimization"
+    "1. Set up Make.com scenario with event monitoring",
+    "2. Configure OpenAI for content generation",
+    "3. Connect Instagram Business API",
+    "4. Set up visual design templates",
+    "5. Configure posting schedules",
+    "6. Test end-to-end workflow",
+    "7. Set up analytics tracking"
+  ],
+  "results_achieved": [
+    "Increased social media efficiency by 400%",
+    "Consistent brand presence across platforms",
+    "Automated event promotion workflow",
+    "Improved engagement rates",
+    "Reduced manual content creation time"
   ],
   "support_contact": "hello@projekt-ai.net",
   "last_updated": "2025-01-25"

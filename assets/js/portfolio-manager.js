@@ -71,7 +71,7 @@ class PortfolioManager {
     }
 
     loadPortfolioData() {
-        // Default portfolio data - this will be dynamically managed
+        // Real portfolio data - only actual implemented automations
         this.portfolioData = {
             0: {
                 title: "Club77 Content Pipeline",
@@ -89,81 +89,6 @@ class PortfolioManager {
                 blueprintUrl: "blueprints/club77-content-pipeline.json"
             },
             1: {
-                title: "E-commerce Order Automation",
-                description: "End-to-end order processing automation for retail industry. From payment verification to inventory management and shipping notifications.",
-                industry: "Retail Industry",
-                results: "Reduced processing time by 85%",
-                workflow: [
-                    { icon: "fas fa-shopping-cart", title: "Order Received", desc: "New order detected" },
-                    { icon: "fas fa-credit-card", title: "Payment Check", desc: "Verifies payment status" },
-                    { icon: "fas fa-warehouse", title: "Inventory Update", desc: "Updates stock levels" },
-                    { icon: "fas fa-truck", title: "Shipping Label", desc: "Generates shipping" },
-                    { icon: "fas fa-bell", title: "Notifications", desc: "Sends updates" }
-                ],
-                technologies: ["Shopify", "Zapier", "Webhooks"],
-                blueprintUrl: "blueprints/ecommerce-order-automation.json"
-            },
-            2: {
-                title: "Revenue Analytics Dashboard",
-                description: "Real-time revenue tracking and predictive analytics system for SaaS industry. Automatically generates reports, identifies trends, and sends alerts.",
-                industry: "SaaS Industry",
-                results: "Improved decision making speed by 300%",
-                workflow: [
-                    { icon: "fas fa-database", title: "Data Collection", desc: "Gathers revenue data" },
-                    { icon: "fas fa-calculator", title: "Processing", desc: "Calculates metrics" },
-                    { icon: "fas fa-brain", title: "AI Analysis", desc: "Predicts trends" },
-                    { icon: "fas fa-chart-bar", title: "Dashboard", desc: "Updates visualizations" },
-                    { icon: "fas fa-exclamation", title: "Alerts", desc: "Sends notifications" }
-                ],
-                technologies: ["Python", "Machine Learning", "APIs"],
-                blueprintUrl: "blueprints/revenue-analytics-dashboard.json"
-            },
-            3: {
-                title: "Customer Support AI",
-                description: "Intelligent customer support system with natural language processing. Automatically categorizes tickets, suggests responses, and escalates complex issues.",
-                industry: "Technology Industry",
-                results: "Reduced response time by 70%",
-                workflow: [
-                    { icon: "fas fa-envelope", title: "Ticket Received", desc: "New support request" },
-                    { icon: "fas fa-tags", title: "Auto Categorize", desc: "AI classifies issue" },
-                    { icon: "fas fa-lightbulb", title: "Response Gen", desc: "Suggests solutions" },
-                    { icon: "fas fa-user", title: "Human Review", desc: "Agent approval" },
-                    { icon: "fas fa-paper-plane", title: "Send Response", desc: "Delivers solution" }
-                ],
-                technologies: ["OpenAI", "NLP", "Zendesk"],
-                blueprintUrl: "blueprints/customer-support-ai.json"
-            },
-            4: {
-                title: "Email Marketing Automation",
-                description: "Personalized email campaign automation with behavioral triggers. Dynamic content generation based on user actions and preferences.",
-                industry: "Marketing Industry",
-                results: "300% increase in engagement",
-                workflow: [
-                    { icon: "fas fa-user-check", title: "User Action", desc: "Tracks behavior" },
-                    { icon: "fas fa-filter", title: "Segmentation", desc: "Groups users" },
-                    { icon: "fas fa-edit", title: "Content Gen", desc: "Creates personalized content" },
-                    { icon: "fas fa-clock", title: "Timing", desc: "Optimal send time" },
-                    { icon: "fas fa-chart-line", title: "Track Results", desc: "Measures performance" }
-                ],
-                technologies: ["Mailchimp", "Segmentation", "A/B Testing"],
-                blueprintUrl: "blueprints/email-marketing-automation.json"
-            },
-            5: {
-                title: "Manufacturing Process Control",
-                description: "IoT-enabled production line monitoring with predictive maintenance. Real-time quality control and automated reporting.",
-                industry: "Manufacturing Industry",
-                results: "Reduced downtime by 60%",
-                workflow: [
-                    { icon: "fas fa-wifi", title: "IoT Sensors", desc: "Monitors equipment" },
-                    { icon: "fas fa-chart-area", title: "Data Analysis", desc: "Processes metrics" },
-                    { icon: "fas fa-exclamation-triangle", title: "Anomaly Detection", desc: "Identifies issues" },
-                    { icon: "fas fa-tools", title: "Maintenance Alert", desc: "Schedules repairs" },
-                    { icon: "fas fa-file-alt", title: "Reports", desc: "Generates insights" }
-                ],
-                technologies: ["IoT", "Sensors", "Predictive AI"],
-                blueprintUrl: "blueprints/manufacturing-process-control.json"
-            },
-            6: {
                 title: "Club77 Blog Post Generator",
                 description: "Automated content pipeline that takes news article links, rewrites them in Club77's tone, publishes to website, and creates social media content across multiple platforms.",
                 industry: "Media/Entertainment Industry",
