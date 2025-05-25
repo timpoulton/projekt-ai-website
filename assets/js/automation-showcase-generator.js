@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // API Configuration
     const API_BASE_URL = window.location.hostname === 'localhost' 
-        ? 'http://localhost:3003/api' 
+        ? 'http://localhost:3000/api' 
         : 'https://automation-api.projekt-ai.net/api';
     
     // Store generated showcase data
@@ -200,12 +200,165 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
     
-    window.addToWebsite = function() {
+    window.addToWebsite = async function() {
         if (!currentShowcase) return;
         
-        // This would integrate with your website's CMS
-        showNotification('This feature will automatically add the showcase to your website portfolio!', 'info');
+        try {
+            // Check if we're on the main website (has portfolio manager)
+            if (window.parent && window.parent.portfolioManager) {
+                // We're in an iframe or popup - use parent's portfolio manager
+                const success = window.parent.portfolioManager.addShowcase(currentShowcase);
+                if (success) {
+                    showNotification('✅ Automation showcase added to your website portfolio!', 'success');
+                    // Optionally close the generator window/iframe
+                    setTimeout(() => {
+                        if (window.parent !== window) {
+                            window.parent.focus();
+                        }
+                    }, 2000);
+                    return;
+                }
+            }
+            
+            // Check if portfolio manager is available in current window
+            if (window.portfolioManager) {
+                const success = window.portfolioManager.addShowcase(currentShowcase);
+                if (success) {
+                    showNotification('✅ Automation showcase added to your website portfolio!', 'success');
+                    return;
+                }
+            }
+            
+            // Fallback: Generate downloadable HTML
+            const portfolioCard = generatePortfolioCard(currentShowcase);
+            showPortfolioPreview(portfolioCard);
+            
+            const htmlSnippet = `<!-- Add this to your portfolio section -->\n${portfolioCard}`;
+            downloadFile('portfolio-card.html', htmlSnippet, 'text/html');
+            
+            showNotification('Portfolio card generated! Add the downloaded HTML to your website portfolio section.', 'success');
+            
+        } catch (error) {
+            console.error('Error adding to website:', error);
+            showNotification('Error adding to portfolio. Please try the download option.', 'error');
+        }
     };
+    
+    // Generate portfolio card HTML that matches your website style
+    function generatePortfolioCard(showcase) {
+        const technologies = detectTechnologies(showcase);
+        const techTags = technologies.map(tech => 
+            `<span style="background: rgba(0,255,136,0.2); color: #00ff88; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; margin-right: 0.5rem;">${tech}</span>`
+        ).join('');
+        
+        return `
+                <div class="card">
+                    <div class="service-icon">
+                        <i class="${getIconForCategory(showcase.category)}"></i>
+                    </div>
+                    <h3>${showcase.content.title.replace(/🎯|📊|📧|🛒|📱|⚡|🔗|📈/g, '').trim()}</h3>
+                    <p><strong>${getCategoryDisplayName(showcase.category)}</strong><br>
+                    ${showcase.content.description}</p>
+                    <div class="automation-metrics" style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; font-size: 0.85rem;">
+                            <div>⏱️ Time Saved: <strong>${showcase.metrics.timeSaved}%</strong></div>
+                            <div>🎯 Accuracy: <strong>${showcase.metrics.accuracy}%</strong></div>
+                            <div>📊 Volume: <strong>${showcase.metrics.volume}+</strong></div>
+                            <div>💰 ROI: <strong>${showcase.metrics.roi}%</strong></div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        ${techTags}
+                    </div>
+                </div>`;
+    }
+    
+    // Detect technologies from the showcase
+    function detectTechnologies(showcase) {
+        const description = showcase.content.description.toLowerCase();
+        const technologies = [];
+        
+        // Common automation platforms
+        if (description.includes('make.com') || description.includes('make')) technologies.push('Make.com');
+        if (description.includes('zapier')) technologies.push('Zapier');
+        if (description.includes('n8n')) technologies.push('n8n');
+        
+        // AI/ML services
+        if (description.includes('openai') || description.includes('gpt') || description.includes('ai')) technologies.push('OpenAI');
+        if (description.includes('claude')) technologies.push('Claude');
+        
+        // Social platforms
+        if (description.includes('instagram')) technologies.push('Instagram API');
+        if (description.includes('facebook')) technologies.push('Facebook');
+        if (description.includes('twitter') || description.includes('x.com')) technologies.push('Twitter/X');
+        if (description.includes('linkedin')) technologies.push('LinkedIn');
+        
+        // Business tools
+        if (description.includes('google')) technologies.push('Google Workspace');
+        if (description.includes('slack')) technologies.push('Slack');
+        if (description.includes('discord')) technologies.push('Discord');
+        if (description.includes('notion')) technologies.push('Notion');
+        if (description.includes('airtable')) technologies.push('Airtable');
+        if (description.includes('shopify')) technologies.push('Shopify');
+        if (description.includes('wordpress')) technologies.push('WordPress');
+        
+        // Development
+        if (description.includes('webhook')) technologies.push('Webhooks');
+        if (description.includes('api')) technologies.push('APIs');
+        if (description.includes('python')) technologies.push('Python');
+        if (description.includes('javascript')) technologies.push('JavaScript');
+        
+        return technologies.length > 0 ? technologies.slice(0, 3) : ['Automation', 'AI', 'Integration'];
+    }
+    
+    // Get appropriate icon for category
+    function getIconForCategory(category) {
+        const icons = {
+            'content': 'fas fa-edit',
+            'data': 'fas fa-database',
+            'communication': 'fas fa-comments',
+            'ecommerce': 'fas fa-shopping-cart',
+            'social': 'fas fa-share-alt',
+            'productivity': 'fas fa-tasks',
+            'integration': 'fas fa-plug',
+            'analytics': 'fas fa-chart-line'
+        };
+        return icons[category] || 'fas fa-cogs';
+    }
+    
+    // Get display name for category
+    function getCategoryDisplayName(category) {
+        const names = {
+            'content': 'Content Automation',
+            'data': 'Data Processing',
+            'communication': 'Communication',
+            'ecommerce': 'E-commerce',
+            'social': 'Social Media',
+            'productivity': 'Productivity',
+            'integration': 'System Integration',
+            'analytics': 'Analytics'
+        };
+        return names[category] || 'Automation';
+    }
+    
+    // Show preview of portfolio card
+    function showPortfolioPreview(cardHtml) {
+        const preview = document.createElement('div');
+        preview.className = 'portfolio-preview';
+        preview.innerHTML = `
+            <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 2rem;">
+                <div style="background: var(--bg-card); border-radius: 12px; padding: 2rem; max-width: 600px; width: 100%; max-height: 80vh; overflow-y: auto;">
+                    <h3 style="margin-bottom: 1rem; color: var(--text-primary);">Portfolio Card Preview</h3>
+                    <div style="border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 1rem; margin-bottom: 1rem;">
+                        ${cardHtml}
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem;">This card will be downloaded as HTML. Add it to your website's portfolio section.</p>
+                    <button onclick="this.closest('.portfolio-preview').remove()" style="background: var(--accent-gradient); color: var(--bg-primary); border: none; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer;">Close Preview</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(preview);
+    }
     
     window.generateBlueprint = async function() {
         if (!currentShowcase) return;
