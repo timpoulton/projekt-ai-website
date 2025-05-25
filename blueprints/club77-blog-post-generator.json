@@ -1,0 +1,137 @@
+{
+  "name": "Club77 Blog Post Generator and Social Media Post",
+  "description": "Automated content pipeline that takes news article links, rewrites them in Club77's tone, publishes to website, and creates social media content across multiple platforms",
+  "version": "1.0",
+  "platform": "Make.com",
+  "industry": "Media/Entertainment",
+  "complexity": "Advanced",
+  "estimated_setup_time": "4-6 hours",
+  "automation_url": "https://eu2.make.com/603847/scenarios/2705805/edit",
+  "requirements": {
+    "apis": [
+      "Apify Web Scraper API",
+      "OpenAI GPT-4 API",
+      "Webflow CMS API",
+      "Facebook/Instagram Business API",
+      "Creatomate Video API",
+      "Telegram Bot API"
+    ],
+    "tools": [
+      "Make.com account",
+      "Webflow CMS",
+      "Facebook Business Manager",
+      "Instagram Business Account",
+      "Creatomate account",
+      "Telegram Bot",
+      "OpenAI API access"
+    ]
+  },
+  "workflow_steps": [
+    {
+      "step": 1,
+      "module": "Custom Webhook",
+      "description": "Receives article URL and image inputs via webhook trigger",
+      "configuration": {
+        "webhook_url": "Custom webhook endpoint",
+        "expected_data": "article_link, card_image_url, headline_image_url, chat_id"
+      }
+    },
+    {
+      "step": 2,
+      "module": "Apify Web Scraper",
+      "description": "Extracts article content from provided URL",
+      "configuration": {
+        "actor_id": "MaDZ0kwc28H8KKLJA",
+        "scrape_content": true,
+        "extract_text": true,
+        "get_metadata": true
+      }
+    },
+    {
+      "step": 3,
+      "module": "OpenAI GPT-4 Content Rewriter",
+      "description": "Rewrites article in Club77's authoritative electronic music tone",
+      "configuration": {
+        "model": "gpt-4o-2024-08-06",
+        "temperature": 0.6,
+        "custom_prompts": "Club77 tone guidelines with banned words list",
+        "output_format": "Structured article with intro, body, summary"
+      }
+    },
+    {
+      "step": 4,
+      "module": "Webflow CMS Publisher",
+      "description": "Publishes formatted article to Club77 website",
+      "configuration": {
+        "site_id": "659df657bfc102e175b74a93",
+        "collection": "News",
+        "auto_publish": true,
+        "seo_optimization": true
+      }
+    },
+    {
+      "step": 5,
+      "module": "Creatomate Visual Generator",
+      "description": "Creates Instagram carousel slides with article content",
+      "configuration": {
+        "templates": ["NEWS_TITLE", "NEW_SLIDE_2", "NEW_SLIDE_3"],
+        "dynamic_content": "Title, intro, bullet points",
+        "output_format": "Instagram-optimized images"
+      }
+    },
+    {
+      "step": 6,
+      "module": "Multi-Platform Social Publisher",
+      "description": "Posts to Instagram carousel, Facebook, and sends notifications",
+      "configuration": {
+        "instagram_account": "club77sydney",
+        "facebook_page": "Club 77 Syd",
+        "telegram_notifications": true,
+        "auto_schedule": false
+      }
+    }
+  ],
+  "benefits": [
+    "Automated content pipeline from source to publication",
+    "Consistent brand voice across all platforms",
+    "Multi-platform social media distribution",
+    "SEO-optimized website content",
+    "Visual content generation for social media",
+    "Real-time notifications and tracking"
+  ],
+  "customization_options": [
+    "Custom tone and style guidelines",
+    "Multiple social media platforms",
+    "Custom visual templates",
+    "Automated scheduling options",
+    "Content approval workflows",
+    "Analytics integration"
+  ],
+  "technical_features": [
+    "Advanced web scraping with Apify",
+    "AI-powered content rewriting",
+    "Dynamic visual content generation",
+    "Multi-platform API integration",
+    "Webhook-based triggering",
+    "Error handling and notifications"
+  ],
+  "setup_instructions": [
+    "1. Configure Make.com scenario with all required modules",
+    "2. Set up Apify web scraper for content extraction",
+    "3. Configure OpenAI with Club77 tone guidelines",
+    "4. Connect Webflow CMS for automated publishing",
+    "5. Set up Creatomate templates for visual content",
+    "6. Configure Facebook/Instagram Business APIs",
+    "7. Set up Telegram bot for notifications",
+    "8. Test end-to-end workflow with sample content"
+  ],
+  "results_achieved": [
+    "Reduced content creation time by 80%",
+    "Consistent brand voice across all platforms",
+    "Automated multi-platform distribution",
+    "Professional visual content generation",
+    "Real-time publishing and notifications"
+  ],
+  "support_contact": "hello@projekt-ai.net",
+  "last_updated": "2025-01-25"
+} 

@@ -162,6 +162,21 @@ class PortfolioManager {
                 ],
                 technologies: ["IoT", "Sensors", "Predictive AI"],
                 blueprintUrl: "blueprints/manufacturing-process-control.json"
+            },
+            6: {
+                title: "Club77 Blog Post Generator",
+                description: "Automated content pipeline that takes news article links, rewrites them in Club77's tone, publishes to website, and creates social media content across multiple platforms.",
+                industry: "Media/Entertainment Industry",
+                results: "Reduced content creation time by 80%",
+                workflow: [
+                    { icon: "fas fa-link", title: "Article Input", desc: "Receives article URL via webhook" },
+                    { icon: "fas fa-spider", title: "Content Extraction", desc: "Scrapes article with Apify" },
+                    { icon: "fas fa-robot", title: "AI Rewriting", desc: "Rewrites in Club77 tone" },
+                    { icon: "fas fa-globe", title: "Website Publishing", desc: "Publishes to Webflow CMS" },
+                    { icon: "fas fa-share-alt", title: "Social Distribution", desc: "Posts to Instagram & Facebook" }
+                ],
+                technologies: ["Make.com", "OpenAI GPT-4", "Webflow", "Instagram API", "Creatomate"],
+                blueprintUrl: "blueprints/club77-blog-post-generator.json"
             }
         };
     }
