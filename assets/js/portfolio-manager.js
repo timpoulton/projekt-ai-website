@@ -1,307 +1,234 @@
-// Portfolio Manager - Dynamic Automation Showcase Integration
-// This script manages the portfolio section and integrates with the AI showcase generator
+// Portfolio Manager - Simple Modal System for Automation Showcases
+// Handles clickable portfolio cards with animated workflow demonstrations
 
 class PortfolioManager {
     constructor() {
-        this.portfolioContainer = null;
-        this.showcases = [];
+        this.portfolioData = {};
         this.init();
     }
 
     init() {
-        console.log('🚀 Initializing Portfolio Manager...');
-        
-        // Find the portfolio container
-        this.portfolioContainer = document.querySelector('#portfolio .services-grid');
-        if (!this.portfolioContainer) {
-            console.warn('❌ Portfolio container not found');
-            return;
-        }
-        console.log('✅ Portfolio container found');
-
-        // Load saved showcases from localStorage
-        this.loadSavedShowcases();
-        
-        // Add management controls
-        this.addManagementControls();
-        
-        console.log('✅ Portfolio Manager initialized successfully');
+        this.createModal();
+        this.bindEvents();
+        this.loadPortfolioData();
     }
 
-    // Add a new automation showcase to the portfolio
-    addShowcase(showcase) {
-        const portfolioCard = this.generatePortfolioCard(showcase);
-        
-        // Add to the portfolio grid
-        const cardElement = document.createElement('div');
-        cardElement.innerHTML = portfolioCard;
-        cardElement.className = 'portfolio-item';
-        cardElement.dataset.showcaseId = showcase.id;
-        
-        // Insert before the last card (or at the end)
-        this.portfolioContainer.appendChild(cardElement.firstElementChild);
-        
-        // Save to localStorage
-        this.showcases.push(showcase);
-        this.saveShowcases();
-        
-        // Animate in
-        this.animateCardIn(cardElement.firstElementChild);
-        
-        return true;
-    }
-
-    // Generate portfolio card HTML that matches website style
-    generatePortfolioCard(showcase) {
-        const technologies = this.detectTechnologies(showcase);
-        const techTags = technologies.map(tech => 
-            `<span style="background: rgba(0,255,136,0.2); color: #00ff88; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; margin-right: 0.5rem;">${tech}</span>`
-        ).join('');
-        
-        const metrics = showcase.metrics || {};
-        
-        return `
-            <div class="card" data-showcase-id="${showcase.id}">
-                <div class="service-icon">
-                    <i class="${this.getIconForCategory(showcase.category)}"></i>
+    createModal() {
+        const modal = document.createElement('div');
+        modal.className = 'portfolio-modal';
+        modal.id = 'portfolioModal';
+        modal.innerHTML = `
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">Automation Showcase</h2>
+                    <button class="modal-close" id="modalClose">
+                        <i class="fas fa-times"></i>
+                    </button>
                 </div>
-                <h3>${this.cleanTitle(showcase.content.title)}</h3>
-                <p><strong>${this.getCategoryDisplayName(showcase.category)}</strong><br>
-                ${showcase.content.description}</p>
-                <div class="automation-metrics" style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 8px;">
-                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; font-size: 0.85rem;">
-                        <div>⏱️ Time Saved: <strong>${metrics.timeSaved || 0}%</strong></div>
-                        <div>🎯 Accuracy: <strong>${metrics.accuracy || 0}%</strong></div>
-                        <div>📊 Volume: <strong>${metrics.volume || 0}+</strong></div>
-                        <div>💰 ROI: <strong>${metrics.roi || 0}%</strong></div>
+                <div class="modal-body">
+                    <div id="modalDescription"></div>
+                    <div class="workflow-animation" id="workflowAnimation">
+                        <div class="workflow-steps" id="workflowSteps">
+                            <!-- Workflow steps will be dynamically generated -->
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <h3>Get This Automation</h3>
+                        <p>Download the complete blueprint and implementation guide</p>
+                        <a href="#" class="download-btn" id="downloadBtn">
+                            <i class="fas fa-download"></i>
+                            Download Blueprint
+                        </a>
                     </div>
                 </div>
-                <div style="margin-top: 1.5rem;">
-                    ${techTags}
-                </div>
-                <div class="showcase-actions" style="margin-top: 1rem; display: flex; gap: 0.5rem; justify-content: flex-end;">
-                    <button onclick="portfolioManager.editShowcase('${showcase.id}')" style="background: rgba(0,128,255,0.2); color: #0080ff; border: none; padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">Edit</button>
-                    <button onclick="portfolioManager.removeShowcase('${showcase.id}')" style="background: rgba(255,0,128,0.2); color: #ff0080; border: none; padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.8rem; cursor: pointer;">Remove</button>
-                </div>
-            </div>`;
+            </div>
+        `;
+        document.body.appendChild(modal);
     }
 
-    // Clean title by removing emoji prefixes
-    cleanTitle(title) {
-        return title.replace(/^[🎯📊📧🛒📱⚡🔗📈]\s*/, '').trim();
+    bindEvents() {
+        // Close modal events
+        document.getElementById('modalClose').addEventListener('click', () => this.closeModal());
+        document.getElementById('portfolioModal').addEventListener('click', (e) => {
+            if (e.target.id === 'portfolioModal') this.closeModal();
+        });
+
+        // Escape key to close
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') this.closeModal();
+        });
+
+        // Portfolio card clicks
+        this.bindPortfolioCards();
     }
 
-    // Detect technologies from showcase content
-    detectTechnologies(showcase) {
-        const description = (showcase.content.description + ' ' + (showcase.workflow || []).map(step => step.title + ' ' + step.description).join(' ')).toLowerCase();
-        const technologies = [];
-        
-        // Automation platforms
-        if (description.includes('make.com') || description.includes('make')) technologies.push('Make.com');
-        if (description.includes('zapier')) technologies.push('Zapier');
-        if (description.includes('n8n')) technologies.push('n8n');
-        
-        // AI services
-        if (description.includes('openai') || description.includes('gpt') || description.includes('ai')) technologies.push('OpenAI');
-        if (description.includes('claude')) technologies.push('Claude');
-        
-        // Social platforms
-        if (description.includes('instagram')) technologies.push('Instagram API');
-        if (description.includes('facebook')) technologies.push('Facebook');
-        if (description.includes('twitter') || description.includes('x.com')) technologies.push('Twitter/X');
-        if (description.includes('linkedin')) technologies.push('LinkedIn');
-        
-        // Business tools
-        if (description.includes('google')) technologies.push('Google Workspace');
-        if (description.includes('slack')) technologies.push('Slack');
-        if (description.includes('notion')) technologies.push('Notion');
-        if (description.includes('airtable')) technologies.push('Airtable');
-        if (description.includes('shopify')) technologies.push('Shopify');
-        if (description.includes('wordpress')) technologies.push('WordPress');
-        
-        // Development
-        if (description.includes('webhook')) technologies.push('Webhooks');
-        if (description.includes('api')) technologies.push('APIs');
-        if (description.includes('python')) technologies.push('Python');
-        
-        return technologies.length > 0 ? technologies.slice(0, 3) : ['Automation', 'AI', 'Integration'];
+    bindPortfolioCards() {
+        const portfolioCards = document.querySelectorAll('#portfolio .card');
+        portfolioCards.forEach((card, index) => {
+            card.classList.add('portfolio-card');
+            card.addEventListener('click', () => this.openModal(index));
+        });
     }
 
-    // Get icon for category
-    getIconForCategory(category) {
-        const icons = {
-            'content': 'fas fa-edit',
-            'data': 'fas fa-database', 
-            'communication': 'fas fa-comments',
-            'ecommerce': 'fas fa-shopping-cart',
-            'social': 'fas fa-share-alt',
-            'productivity': 'fas fa-tasks',
-            'integration': 'fas fa-plug',
-            'analytics': 'fas fa-chart-line'
-        };
-        return icons[category] || 'fas fa-cogs';
-    }
-
-    // Get display name for category
-    getCategoryDisplayName(category) {
-        const names = {
-            'content': 'Content Automation',
-            'data': 'Data Processing',
-            'communication': 'Communication',
-            'ecommerce': 'E-commerce',
-            'social': 'Social Media',
-            'productivity': 'Productivity',
-            'integration': 'System Integration',
-            'analytics': 'Analytics'
-        };
-        return names[category] || 'Automation';
-    }
-
-    // Animate card entrance
-    animateCardIn(cardElement) {
-        cardElement.style.opacity = '0';
-        cardElement.style.transform = 'translateY(20px)';
-        cardElement.style.transition = 'all 0.6s ease';
-        
-        setTimeout(() => {
-            cardElement.style.opacity = '1';
-            cardElement.style.transform = 'translateY(0)';
-        }, 100);
-    }
-
-    // Remove showcase from portfolio
-    removeShowcase(showcaseId) {
-        const cardElement = document.querySelector(`[data-showcase-id="${showcaseId}"]`);
-        if (cardElement) {
-            cardElement.style.transition = 'all 0.3s ease';
-            cardElement.style.opacity = '0';
-            cardElement.style.transform = 'translateY(-20px)';
-            
-            setTimeout(() => {
-                cardElement.remove();
-            }, 300);
-        }
-        
-        // Remove from array and save
-        this.showcases = this.showcases.filter(s => s.id !== showcaseId);
-        this.saveShowcases();
-    }
-
-    // Edit showcase (placeholder for future enhancement)
-    editShowcase(showcaseId) {
-        const showcase = this.showcases.find(s => s.id === showcaseId);
-        if (showcase) {
-            // For now, just show the showcase data
-            console.log('Edit showcase:', showcase);
-            alert('Edit functionality coming soon! For now, you can remove and recreate the showcase.');
-        }
-    }
-
-    // Save showcases to localStorage
-    saveShowcases() {
-        localStorage.setItem('portfolio_showcases', JSON.stringify(this.showcases));
-    }
-
-    // Load showcases from localStorage
-    loadSavedShowcases() {
-        try {
-            const saved = localStorage.getItem('portfolio_showcases');
-            if (saved) {
-                this.showcases = JSON.parse(saved);
-                // Re-add saved showcases to the portfolio
-                this.showcases.forEach(showcase => {
-                    // Check if already exists in DOM
-                    if (!document.querySelector(`[data-showcase-id="${showcase.id}"]`)) {
-                        this.addShowcaseToDOM(showcase);
-                    }
-                });
+    loadPortfolioData() {
+        // Default portfolio data - this will be dynamically managed
+        this.portfolioData = {
+            0: {
+                title: "Club77 Content Pipeline",
+                description: "Automated Instagram content creation and posting system for nightlife industry. Generates event promotions, manages guest lists, and tracks engagement metrics.",
+                industry: "Nightlife Industry",
+                results: "Increased social media efficiency by 400%",
+                workflow: [
+                    { icon: "fas fa-calendar", title: "Event Detection", desc: "Monitors event calendar" },
+                    { icon: "fas fa-robot", title: "AI Content Gen", desc: "Creates promotional content" },
+                    { icon: "fas fa-image", title: "Visual Design", desc: "Generates branded graphics" },
+                    { icon: "fas fa-share", title: "Auto Posting", desc: "Publishes to Instagram" },
+                    { icon: "fas fa-chart-line", title: "Analytics", desc: "Tracks engagement" }
+                ],
+                technologies: ["Make.com", "Instagram API", "AI Content"],
+                blueprintUrl: "blueprints/club77-content-pipeline.json"
+            },
+            1: {
+                title: "E-commerce Order Automation",
+                description: "End-to-end order processing automation for retail industry. From payment verification to inventory management and shipping notifications.",
+                industry: "Retail Industry",
+                results: "Reduced processing time by 85%",
+                workflow: [
+                    { icon: "fas fa-shopping-cart", title: "Order Received", desc: "New order detected" },
+                    { icon: "fas fa-credit-card", title: "Payment Check", desc: "Verifies payment status" },
+                    { icon: "fas fa-warehouse", title: "Inventory Update", desc: "Updates stock levels" },
+                    { icon: "fas fa-truck", title: "Shipping Label", desc: "Generates shipping" },
+                    { icon: "fas fa-bell", title: "Notifications", desc: "Sends updates" }
+                ],
+                technologies: ["Shopify", "Zapier", "Webhooks"],
+                blueprintUrl: "blueprints/ecommerce-order-automation.json"
+            },
+            2: {
+                title: "Revenue Analytics Dashboard",
+                description: "Real-time revenue tracking and predictive analytics system for SaaS industry. Automatically generates reports, identifies trends, and sends alerts.",
+                industry: "SaaS Industry",
+                results: "Improved decision making speed by 300%",
+                workflow: [
+                    { icon: "fas fa-database", title: "Data Collection", desc: "Gathers revenue data" },
+                    { icon: "fas fa-calculator", title: "Processing", desc: "Calculates metrics" },
+                    { icon: "fas fa-brain", title: "AI Analysis", desc: "Predicts trends" },
+                    { icon: "fas fa-chart-bar", title: "Dashboard", desc: "Updates visualizations" },
+                    { icon: "fas fa-exclamation", title: "Alerts", desc: "Sends notifications" }
+                ],
+                technologies: ["Python", "Machine Learning", "APIs"],
+                blueprintUrl: "blueprints/revenue-analytics-dashboard.json"
+            },
+            3: {
+                title: "Customer Support AI",
+                description: "Intelligent customer support system with natural language processing. Automatically categorizes tickets, suggests responses, and escalates complex issues.",
+                industry: "Technology Industry",
+                results: "Reduced response time by 70%",
+                workflow: [
+                    { icon: "fas fa-envelope", title: "Ticket Received", desc: "New support request" },
+                    { icon: "fas fa-tags", title: "Auto Categorize", desc: "AI classifies issue" },
+                    { icon: "fas fa-lightbulb", title: "Response Gen", desc: "Suggests solutions" },
+                    { icon: "fas fa-user", title: "Human Review", desc: "Agent approval" },
+                    { icon: "fas fa-paper-plane", title: "Send Response", desc: "Delivers solution" }
+                ],
+                technologies: ["OpenAI", "NLP", "Zendesk"],
+                blueprintUrl: "blueprints/customer-support-ai.json"
+            },
+            4: {
+                title: "Email Marketing Automation",
+                description: "Personalized email campaign automation with behavioral triggers. Dynamic content generation based on user actions and preferences.",
+                industry: "Marketing Industry",
+                results: "300% increase in engagement",
+                workflow: [
+                    { icon: "fas fa-user-check", title: "User Action", desc: "Tracks behavior" },
+                    { icon: "fas fa-filter", title: "Segmentation", desc: "Groups users" },
+                    { icon: "fas fa-edit", title: "Content Gen", desc: "Creates personalized content" },
+                    { icon: "fas fa-clock", title: "Timing", desc: "Optimal send time" },
+                    { icon: "fas fa-chart-line", title: "Track Results", desc: "Measures performance" }
+                ],
+                technologies: ["Mailchimp", "Segmentation", "A/B Testing"],
+                blueprintUrl: "blueprints/email-marketing-automation.json"
+            },
+            5: {
+                title: "Manufacturing Process Control",
+                description: "IoT-enabled production line monitoring with predictive maintenance. Real-time quality control and automated reporting.",
+                industry: "Manufacturing Industry",
+                results: "Reduced downtime by 60%",
+                workflow: [
+                    { icon: "fas fa-wifi", title: "IoT Sensors", desc: "Monitors equipment" },
+                    { icon: "fas fa-chart-area", title: "Data Analysis", desc: "Processes metrics" },
+                    { icon: "fas fa-exclamation-triangle", title: "Anomaly Detection", desc: "Identifies issues" },
+                    { icon: "fas fa-tools", title: "Maintenance Alert", desc: "Schedules repairs" },
+                    { icon: "fas fa-file-alt", title: "Reports", desc: "Generates insights" }
+                ],
+                technologies: ["IoT", "Sensors", "Predictive AI"],
+                blueprintUrl: "blueprints/manufacturing-process-control.json"
             }
-        } catch (error) {
-            console.warn('Error loading saved showcases:', error);
-        }
+        };
     }
 
-    // Add showcase to DOM without saving (for loading saved ones)
-    addShowcaseToDOM(showcase) {
-        const portfolioCard = this.generatePortfolioCard(showcase);
-        const cardElement = document.createElement('div');
-        cardElement.innerHTML = portfolioCard;
-        this.portfolioContainer.appendChild(cardElement.firstElementChild);
+    openModal(cardIndex) {
+        const data = this.portfolioData[cardIndex];
+        if (!data) return;
+
+        // Update modal content
+        document.getElementById('modalTitle').textContent = data.title;
+        document.getElementById('modalDescription').innerHTML = `
+            <h3>${data.industry}</h3>
+            <p>${data.description}</p>
+            <div style="margin: 1rem 0; padding: 1rem; background: var(--bg-secondary); border-radius: var(--border-radius);">
+                <strong>Results:</strong> ${data.results}
+            </div>
+        `;
+
+        // Generate workflow animation
+        this.generateWorkflowAnimation(data.workflow);
+
+        // Update download button
+        document.getElementById('downloadBtn').href = data.blueprintUrl;
+
+        // Show modal
+        document.getElementById('portfolioModal').classList.add('active');
+        document.body.style.overflow = 'hidden';
     }
 
-    // Add management controls
-    addManagementControls() {
-        // Check if button already exists (either from HTML or previous JS execution)
-        const existingButton = document.querySelector('a[href="automation-showcase-generator.html"]');
-        if (existingButton) {
-            console.log('✅ Automation showcase button already exists');
-            return;
-        }
-        
-        // Add a "Manage Portfolio" button to the portfolio section
-        const portfolioSection = document.querySelector('#portfolio');
-        if (portfolioSection) {
-            const manageBtn = document.createElement('div');
-            manageBtn.innerHTML = `
-                <div style="text-align: center; margin-top: 2rem;">
-                    <a href="automation-showcase-generator.html" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
-                        <i class="fas fa-plus"></i>
-                        Add New Automation Showcase
-                    </a>
-                </div>
+    generateWorkflowAnimation(workflow) {
+        const container = document.getElementById('workflowSteps');
+        container.innerHTML = '';
+
+        workflow.forEach((step, index) => {
+            const stepElement = document.createElement('div');
+            stepElement.className = 'workflow-step';
+            stepElement.innerHTML = `
+                <i class="${step.icon}" style="font-size: 2rem; color: var(--accent-primary); margin-bottom: 0.5rem;"></i>
+                <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem;">${step.title}</h4>
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">${step.desc}</p>
             `;
-            portfolioSection.appendChild(manageBtn);
-            console.log('✅ Added automation showcase button via JavaScript');
-        } else {
-            console.warn('❌ Portfolio section not found - cannot add button');
-        }
-    }
+            container.appendChild(stepElement);
 
-    // Export all showcases
-    exportShowcases() {
-        const data = {
-            showcases: this.showcases,
-            exported: new Date().toISOString(),
-            version: '1.0'
-        };
-        
-        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'portfolio-showcases.json';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-    }
-
-    // Import showcases
-    importShowcases(file) {
-        const reader = new FileReader();
-        reader.onload = (e) => {
-            try {
-                const data = JSON.parse(e.target.result);
-                if (data.showcases && Array.isArray(data.showcases)) {
-                    data.showcases.forEach(showcase => {
-                        if (!this.showcases.find(s => s.id === showcase.id)) {
-                            this.addShowcase(showcase);
-                        }
-                    });
-                }
-            } catch (error) {
-                console.error('Error importing showcases:', error);
+            // Add arrow between steps (except last)
+            if (index < workflow.length - 1) {
+                const arrow = document.createElement('div');
+                arrow.className = 'workflow-arrow';
+                arrow.innerHTML = '<i class="fas fa-arrow-right"></i>';
+                container.appendChild(arrow);
             }
-        };
-        reader.readAsText(file);
+        });
+    }
+
+    closeModal() {
+        document.getElementById('portfolioModal').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    // Method to add new portfolio items (for future use)
+    addPortfolioItem(data) {
+        const newIndex = Object.keys(this.portfolioData).length;
+        this.portfolioData[newIndex] = data;
+        this.bindPortfolioCards(); // Rebind events
     }
 }
 
-// Initialize portfolio manager when DOM is loaded
-let portfolioManager;
-document.addEventListener('DOMContentLoaded', function() {
-    portfolioManager = new PortfolioManager();
-});
-
-// Make it globally available for the showcase generator
-window.portfolioManager = portfolioManager; 
+// Initialize when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    window.portfolioManager = new PortfolioManager();
+}); 

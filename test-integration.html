@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Integration Test - Projekt AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div style="max-width: 1200px; margin: 0 auto; padding: 2rem;">
+        <h1>🧪 Portfolio Integration Test</h1>
+        <p>This page tests the automation showcase integration functionality.</p>
+        
+        <div style="background: var(--bg-card); padding: 2rem; border-radius: 12px; margin: 2rem 0;">
+            <h2>Test Controls</h2>
+            <button onclick="testAddShowcase()" class="btn btn-primary" style="margin-right: 1rem;">
+                <i class="fas fa-plus"></i> Test Add Showcase
+            </button>
+            <button onclick="testPortfolioManager()" class="btn btn-secondary" style="margin-right: 1rem;">
+                <i class="fas fa-cog"></i> Test Portfolio Manager
+            </button>
+            <button onclick="clearShowcases()" class="btn" style="background: rgba(255,0,128,0.2); color: #ff0080;">
+                <i class="fas fa-trash"></i> Clear All Showcases
+            </button>
+        </div>
+        
+        <div id="test-results" style="background: var(--bg-secondary); padding: 1rem; border-radius: 8px; margin: 2rem 0; font-family: monospace; white-space: pre-wrap;"></div>
+        
+        <section id="portfolio">
+            <div class="container">
+                <h2>Test Portfolio Section</h2>
+                <div class="services-grid">
+                    <!-- Existing test card -->
+                    <div class="card">
+                        <div class="service-icon">
+                            <i class="fas fa-test-tube"></i>
+                        </div>
+                        <h3>Test Automation</h3>
+                        <p><strong>Test Category</strong><br>This is a test automation card to verify the portfolio layout.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="assets/js/portfolio-manager.js"></script>
+    <script>
+        function log(message) {
+            const results = document.getElementById('test-results');
+            results.textContent += new Date().toLocaleTimeString() + ': ' + message + '\n';
+            console.log(message);
+        }
+
+        function testAddShowcase() {
+            log('🧪 Testing add showcase functionality...');
+            
+            const testShowcase = {
+                id: 'test-' + Date.now(),
+                category: 'content',
+                content: {
+                    title: '🎯 Test AI Content Pipeline',
+                    description: 'This is a test automation showcase generated for integration testing. It demonstrates the AI-powered content creation workflow with Make.com and OpenAI integration.'
+                },
+                metrics: {
+                    timeSaved: 85,
+                    accuracy: 99,
+                    volume: 500,
+                    roi: 400
+                },
+                workflow: [
+                    {
+                        title: 'Content Trigger',
+                        description: 'Automatically detects new content requirements',
+                        icon: 'fas fa-play-circle'
+                    },
+                    {
+                        title: 'AI Processing',
+                        description: 'Uses OpenAI to generate engaging content',
+                        icon: 'fas fa-brain'
+                    }
+                ]
+            };
+            
+            if (window.portfolioManager) {
+                try {
+                    const success = window.portfolioManager.addShowcase(testShowcase);
+                    if (success) {
+                        log('✅ Test showcase added successfully!');
+                    } else {
+                        log('❌ Failed to add test showcase');
+                    }
+                } catch (error) {
+                    log('❌ Error adding showcase: ' + error.message);
+                }
+            } else {
+                log('❌ Portfolio manager not available');
+            }
+        }
+
+        function testPortfolioManager() {
+            log('🧪 Testing portfolio manager status...');
+            
+            if (window.portfolioManager) {
+                log('✅ Portfolio manager is available');
+                log('📊 Current showcases: ' + window.portfolioManager.showcases.length);
+                
+                const container = window.portfolioManager.portfolioContainer;
+                if (container) {
+                    log('✅ Portfolio container found');
+                    log('📋 Container has ' + container.children.length + ' cards');
+                } else {
+                    log('❌ Portfolio container not found');
+                }
+            } else {
+                log('❌ Portfolio manager not available');
+            }
+        }
+
+        function clearShowcases() {
+            log('🧹 Clearing all showcases...');
+            
+            if (window.portfolioManager) {
+                // Remove all showcase cards
+                const showcaseCards = document.querySelectorAll('[data-showcase-id]');
+                showcaseCards.forEach(card => card.remove());
+                
+                // Clear the showcases array and localStorage
+                window.portfolioManager.showcases = [];
+                window.portfolioManager.saveShowcases();
+                
+                log('✅ All showcases cleared');
+            } else {
+                log('❌ Portfolio manager not available');
+            }
+        }
+
+        // Auto-test on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                log('🚀 Starting integration tests...');
+                testPortfolioManager();
+            }, 1000);
+        });
+    </script>
+</body>
+</html> 

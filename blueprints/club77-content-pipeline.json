@@ -1,0 +1,108 @@
+{
+  "name": "Club77 Content Pipeline",
+  "description": "Automated Instagram content creation and posting system for nightlife venues",
+  "version": "1.0",
+  "platform": "Make.com",
+  "industry": "Nightlife/Entertainment",
+  "complexity": "Intermediate",
+  "estimated_setup_time": "2-3 hours",
+  "requirements": {
+    "apis": [
+      "Instagram Basic Display API",
+      "Google Sheets API",
+      "OpenAI API"
+    ],
+    "tools": [
+      "Make.com account",
+      "Instagram Business Account",
+      "Google Sheets",
+      "Canva Pro (optional)"
+    ]
+  },
+  "workflow_steps": [
+    {
+      "step": 1,
+      "module": "Google Sheets - Watch Rows",
+      "description": "Monitors event calendar for new events",
+      "configuration": {
+        "spreadsheet_id": "YOUR_SPREADSHEET_ID",
+        "sheet_name": "Events",
+        "trigger": "New row added"
+      }
+    },
+    {
+      "step": 2,
+      "module": "OpenAI - Create Completion",
+      "description": "Generates promotional content based on event details",
+      "configuration": {
+        "model": "gpt-4",
+        "prompt": "Create engaging Instagram post content for nightclub event: {{event_name}} on {{event_date}}. Include hashtags and call-to-action.",
+        "max_tokens": 200
+      }
+    },
+    {
+      "step": 3,
+      "module": "HTTP - Make a Request",
+      "description": "Generates branded graphics using Canva API",
+      "configuration": {
+        "url": "https://api.canva.com/v1/designs",
+        "method": "POST",
+        "headers": {
+          "Authorization": "Bearer YOUR_CANVA_TOKEN"
+        }
+      }
+    },
+    {
+      "step": 4,
+      "module": "Instagram - Create Media Object",
+      "description": "Uploads content to Instagram",
+      "configuration": {
+        "image_url": "{{canva_image_url}}",
+        "caption": "{{ai_generated_content}}",
+        "access_token": "YOUR_INSTAGRAM_TOKEN"
+      }
+    },
+    {
+      "step": 5,
+      "module": "Instagram - Publish Media",
+      "description": "Publishes the post to Instagram feed",
+      "configuration": {
+        "creation_id": "{{media_object_id}}"
+      }
+    },
+    {
+      "step": 6,
+      "module": "Google Sheets - Update Row",
+      "description": "Updates event status and post metrics",
+      "configuration": {
+        "spreadsheet_id": "YOUR_SPREADSHEET_ID",
+        "range": "Events!F{{row_number}}",
+        "values": "Posted - {{post_id}}"
+      }
+    }
+  ],
+  "benefits": [
+    "400% increase in social media efficiency",
+    "Consistent brand messaging",
+    "Automated event promotion",
+    "Real-time engagement tracking",
+    "Reduced manual content creation time"
+  ],
+  "customization_options": [
+    "Custom AI prompts for different event types",
+    "Multiple social media platforms",
+    "Advanced analytics integration",
+    "Custom graphic templates",
+    "Automated story posting"
+  ],
+  "setup_instructions": [
+    "1. Set up Instagram Business Account and get API access",
+    "2. Create Google Sheets with event calendar template",
+    "3. Configure OpenAI API for content generation",
+    "4. Import Make.com blueprint and configure modules",
+    "5. Test workflow with sample event data",
+    "6. Schedule regular monitoring and optimization"
+  ],
+  "support_contact": "hello@projekt-ai.net",
+  "last_updated": "2025-01-25"
+} 

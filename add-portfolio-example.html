@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Portfolio Example - Projekt AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">ProjektAI</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Back to Website</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="padding: 120px 0 60px;">
+        <div class="container">
+            <div class="section-header">
+                <h1>Add New Portfolio Example</h1>
+                <p class="section-subtitle">Create a new automation showcase for your portfolio</p>
+            </div>
+
+            <div class="card" style="max-width: 800px; margin: 0 auto;">
+                <form id="portfolioForm">
+                    <div style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Project Title</label>
+                        <input type="text" id="title" required style="width: 100%; padding: 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary);">
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Industry</label>
+                        <input type="text" id="industry" required style="width: 100%; padding: 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary);">
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Description</label>
+                        <textarea id="description" required rows="4" style="width: 100%; padding: 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary); resize: vertical;"></textarea>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Results/Impact</label>
+                        <input type="text" id="results" required placeholder="e.g., Increased efficiency by 300%" style="width: 100%; padding: 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary);">
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Icon (Font Awesome class)</label>
+                        <input type="text" id="icon" required placeholder="e.g., fas fa-robot" style="width: 100%; padding: 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary);">
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 1rem; font-weight: 600;">Workflow Steps (5 steps)</label>
+                        <div id="workflowSteps">
+                            <!-- Workflow steps will be generated here -->
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Technologies (comma-separated)</label>
+                        <input type="text" id="technologies" required placeholder="e.g., Make.com, OpenAI, Zapier" style="width: 100%; padding: 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary);">
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Blueprint JSON (paste your automation blueprint)</label>
+                        <textarea id="blueprint" rows="10" style="width: 100%; padding: 1rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary); font-family: monospace; resize: vertical;"></textarea>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-plus"></i>
+                            Generate Portfolio Example
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div id="output" style="margin-top: 3rem; display: none;">
+                <div class="card">
+                    <h3>Generated Code</h3>
+                    <p>Copy the code below and add it to your website:</p>
+                    
+                    <div style="margin: 2rem 0;">
+                        <h4>1. HTML Card (add to index.html portfolio section):</h4>
+                        <pre id="htmlOutput" style="background: var(--bg-secondary); padding: 1rem; border-radius: 8px; overflow-x: auto; white-space: pre-wrap;"></pre>
+                    </div>
+
+                    <div style="margin: 2rem 0;">
+                        <h4>2. JavaScript Data (add to portfolio-manager.js):</h4>
+                        <pre id="jsOutput" style="background: var(--bg-secondary); padding: 1rem; border-radius: 8px; overflow-x: auto; white-space: pre-wrap;"></pre>
+                    </div>
+
+                    <div style="margin: 2rem 0;">
+                        <h4>3. Blueprint File (save as blueprints/[filename].json):</h4>
+                        <pre id="blueprintOutput" style="background: var(--bg-secondary); padding: 1rem; border-radius: 8px; overflow-x: auto; white-space: pre-wrap;"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Generate workflow step inputs
+        function generateWorkflowInputs() {
+            const container = document.getElementById('workflowSteps');
+            for (let i = 1; i <= 5; i++) {
+                const stepDiv = document.createElement('div');
+                stepDiv.style.marginBottom = '1rem';
+                stepDiv.style.padding = '1rem';
+                stepDiv.style.background = 'var(--bg-secondary)';
+                stepDiv.style.borderRadius = '8px';
+                stepDiv.innerHTML = `
+                    <h4>Step ${i}</h4>
+                    <div style="display: grid; grid-template-columns: 1fr 2fr 3fr; gap: 1rem; margin-top: 0.5rem;">
+                        <input type="text" id="step${i}Icon" placeholder="Icon (e.g., fas fa-robot)" style="padding: 0.5rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 4px; background: var(--bg-card); color: var(--text-primary);">
+                        <input type="text" id="step${i}Title" placeholder="Step Title" style="padding: 0.5rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 4px; background: var(--bg-card); color: var(--text-primary);">
+                        <input type="text" id="step${i}Desc" placeholder="Step Description" style="padding: 0.5rem; border: 1px solid rgba(255,255,255,0.2); border-radius: 4px; background: var(--bg-card); color: var(--text-primary);">
+                    </div>
+                `;
+                container.appendChild(stepDiv);
+            }
+        }
+
+        // Handle form submission
+        document.getElementById('portfolioForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const title = document.getElementById('title').value;
+            const industry = document.getElementById('industry').value;
+            const description = document.getElementById('description').value;
+            const results = document.getElementById('results').value;
+            const icon = document.getElementById('icon').value;
+            const technologies = document.getElementById('technologies').value.split(',').map(t => t.trim());
+            const blueprint = document.getElementById('blueprint').value;
+
+            // Collect workflow steps
+            const workflow = [];
+            for (let i = 1; i <= 5; i++) {
+                const stepIcon = document.getElementById(`step${i}Icon`).value;
+                const stepTitle = document.getElementById(`step${i}Title`).value;
+                const stepDesc = document.getElementById(`step${i}Desc`).value;
+                
+                if (stepIcon && stepTitle && stepDesc) {
+                    workflow.push({
+                        icon: stepIcon,
+                        title: stepTitle,
+                        desc: stepDesc
+                    });
+                }
+            }
+
+            // Generate filename
+            const filename = title.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-');
+
+            // Generate HTML card
+            const htmlCard = `<div class="card">
+    <div class="service-icon">
+        <i class="${icon}"></i>
+    </div>
+    <h3>${title}</h3>
+    <p><strong>${industry}</strong><br>
+    ${description}</p>
+    <div style="margin-top: 1.5rem;">
+        ${technologies.map(tech => `<span style="background: rgba(0,255,136,0.2); color: #00ff88; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; margin-right: 0.5rem;">${tech}</span>`).join('\n        ')}
+    </div>
+</div>`;
+
+            // Generate JavaScript data
+            const jsData = `{
+    title: "${title}",
+    description: "${description}",
+    industry: "${industry}",
+    results: "${results}",
+    workflow: ${JSON.stringify(workflow, null, 8)},
+    technologies: ${JSON.stringify(technologies)},
+    blueprintUrl: "blueprints/${filename}.json"
+}`;
+
+            // Generate blueprint file content
+            const blueprintContent = blueprint || `{
+    "name": "${title}",
+    "description": "${description}",
+    "industry": "${industry}",
+    "results": "${results}",
+    "workflow_steps": ${JSON.stringify(workflow.map((step, index) => ({
+        step: index + 1,
+        title: step.title,
+        description: step.desc,
+        icon: step.icon
+    })), null, 2)},
+    "technologies": ${JSON.stringify(technologies)},
+    "last_updated": "${new Date().toISOString().split('T')[0]}"
+}`;
+
+            // Display outputs
+            document.getElementById('htmlOutput').textContent = htmlCard;
+            document.getElementById('jsOutput').textContent = jsData;
+            document.getElementById('blueprintOutput').textContent = blueprintContent;
+            document.getElementById('output').style.display = 'block';
+            
+            // Scroll to output
+            document.getElementById('output').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Initialize
+        generateWorkflowInputs();
+    </script>
+</body>
+</html> 
