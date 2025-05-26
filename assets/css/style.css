@@ -106,12 +106,11 @@ nav {
 .logo-img {
     height: 32px;
     width: auto;
-    filter: brightness(0) invert(1);
     transition: var(--transition);
 }
 
 .logo-img:hover {
-    filter: brightness(0) invert(1) drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
+    filter: drop-shadow(0 0 15px rgba(0, 255, 136, 0.6));
     transform: scale(1.05);
 }
 
