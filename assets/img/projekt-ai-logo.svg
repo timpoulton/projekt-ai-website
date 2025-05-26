@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 886.28 190.93">
+  <defs>
+    <linearGradient id="projektGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff0080;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      .cls-1 {
+        font-family: Ebrima, Ebrima;
+        font-size: 155.81px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: url(#projektGradient);
+      }
+
+      .cls-2 {
+        font-family: NCLGesrob-Demo, 'NCL Gesrob';
+        font-size: 159.43px;
+      }
+
+      .cls-3 {
+        font-family: Ebrima-Bold, Ebrima;
+        font-size: 143.95px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(0 142.51)"><tspan x="0" y="0">P</tspan></text>
+  <text class="cls-3" transform="translate(245.72 132.46)"><tspan x="0" y="0">Projekt</tspan></text>
+  <text class="cls-1" transform="translate(744.32 132.46)"><tspan x="0" y="0">AI</tspan></text>
+</svg>

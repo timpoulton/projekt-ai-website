@@ -98,13 +98,21 @@ nav {
 }
 
 .logo {
-    font-size: 2rem;
-    font-weight: 800;
-    background: var(--accent-gradient);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 32px;
+    width: auto;
+    filter: brightness(0) invert(1);
+    transition: var(--transition);
+}
+
+.logo-img:hover {
+    filter: brightness(0) invert(1) drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
+    transform: scale(1.05);
 }
 
 .nav-links {
@@ -567,11 +575,11 @@ section {
     from {
         opacity: 0;
         transform: translateY(30px);
-    }
+}
     to {
         opacity: 1;
         transform: translateY(0);
-    }
+}
 }
 
 /* Footer */

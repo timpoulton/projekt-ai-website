@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Together Agency Automation Proposal - Projekt AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .proposal-header {
+            text-align: center;
+            padding: 4rem 0;
+            background: var(--accent-gradient);
+            color: var(--bg-primary);
+            margin-bottom: 3rem;
+        }
+        
+        .proposal-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .workflow-step {
+            background: var(--bg-secondary);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-left: 4px solid var(--accent-primary);
+        }
+        
+        .step-number {
+            background: var(--accent-primary);
+            color: var(--bg-primary);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .metric-card {
+            background: var(--bg-secondary);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .metric-value {
+            font-size: 3rem;
+            font-weight: 800;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        
+        .cta-section {
+            background: var(--bg-secondary);
+            border-radius: var(--border-radius-lg);
+            padding: 3rem;
+            text-align: center;
+            margin: 3rem 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .cta-button {
+            background: var(--accent-gradient);
+            color: var(--bg-primary);
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            display: inline-block;
+            transition: var(--transition);
+            margin-top: 1rem;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="assets/img/projekt-ai-logo.svg" alt="ProjektAI" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="proposal-header">
+        <div class="container">
+            <h1><i class="fas fa-bullhorn"></i> Together Agency Automation Proposal</h1>
+            <p class="hero-subtitle">Custom Marketing Agency Solution</p>
+        </div>
+    </section>
+
+    <section class="proposal-content">
+        <div class="container">
+            <div class="section-header">
+                <h2>🎯 Project Overview</h2>
+                <p><strong>Current Challenge:</strong> Currently manually creating Tally form links for each client booking. After clients make deposits, they need to send personalized form links with pre-filled customer data. This involves copying client information from booking emails and manually creating custom URLs for each Tally form.</p>
+                <p><strong>Desired Outcome:</strong> Automate the entire process of extracting client data from booking emails and generating pre-populated Tally form links. Want to eliminate manual data entry and ensure consistent, professional follow-up with clients immediately after they make deposits.</p>
+                <p><strong>Tools Integration:</strong> Tally.so, Email systems, Manual processes</p>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-value">85%</div>
+                    <p>Time Saved</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">99%</div>
+                    <p>Accuracy Rate</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">400%</div>
+                    <p>Efficiency Gain</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">3-4</div>
+                    <p>Delivery Time (weeks)</p>
+                </div>
+            </div>
+
+            <div class="section-header">
+                <h2>🔄 Proposed Automation Workflow</h2>
+            </div>
+            
+            <div class="workflow-step">
+                <span class="step-number">1</span>
+                <h3>Email Monitoring & Detection</h3>
+                <p>Automatically monitor your email inbox for booking confirmation emails. The system will detect new client deposits and trigger the automation workflow instantly, ensuring no client falls through the cracks.</p>
+            </div>
+
+            <div class="workflow-step">
+                <span class="step-number">2</span>
+                <h3>Intelligent Data Extraction</h3>
+                <p>Extract client information from booking emails using advanced parsing algorithms. Captures names, contact details, booking specifics, and any custom data fields you need for your Tally forms.</p>
+            </div>
+
+            <div class="workflow-step">
+                <span class="step-number">3</span>
+                <h3>Dynamic Tally Link Generation</h3>
+                <p>Generate personalized Tally form URLs with pre-populated fields based on extracted client data. Each link is unique and contains all relevant client information, eliminating manual data entry.</p>
+            </div>
+
+            <div class="workflow-step">
+                <span class="step-number">4</span>
+                <h3>Professional Email Delivery</h3>
+                <p>Send beautifully formatted emails to clients with their personalized Tally form links. Includes professional branding, clear instructions, and automated follow-up sequences if needed.</p>
+            </div>
+
+            <div class="workflow-step">
+                <span class="step-number">5</span>
+                <h3>Tracking & Analytics</h3>
+                <p>Monitor form completion rates, track client engagement, and provide insights on your booking-to-completion conversion rates. Includes automated notifications when forms are submitted.</p>
+            </div>
+
+            <div class="cta-section">
+                <h2>💰 Investment & Timeline</h2>
+                <p><strong>Estimated Investment:</strong> $1,500-$3,000</p>
+                <p><strong>Delivery Timeline:</strong> 3-4 weeks</p>
+                <p><strong>Includes:</strong> Complete automation setup, testing, documentation, and 30 days of support</p>
+                
+                <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
+                    <h3>🚀 Ready to Get Started?</h3>
+                    <p>Let's schedule a 30-minute discovery call to discuss your specific requirements and customize this solution for Together Agency.</p>
+                    <a href="mailto:hello@projekt-ai.net?subject=Automation Proposal - Together Agency" class="cta-button">
+                        <i class="fas fa-calendar"></i> Schedule Discovery Call
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Projekt AI. Transforming businesses through intelligent automation.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
