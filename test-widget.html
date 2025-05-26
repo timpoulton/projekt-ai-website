@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blueprint Widget Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0a0a;
+            color: white;
+            margin: 0;
+            padding: 50px;
+            min-height: 100vh;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            background: linear-gradient(135deg, #00ff88, #ff0080);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 30px;
+        }
+        .test-info {
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #333;
+            margin-bottom: 30px;
+        }
+        .status {
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin: 10px;
+            display: inline-block;
+        }
+        .status.success { background: rgba(0, 255, 136, 0.2); color: #00ff88; }
+        .status.error { background: rgba(255, 0, 128, 0.2); color: #ff0080; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🤖 Blueprint Generator Widget Test</h1>
+        
+        <div class="test-info">
+            <h3>Widget Test Page</h3>
+            <p>This page tests the Blueprint Generator AI widget independently.</p>
+            
+            <div id="test-results">
+                <div class="status" id="script-status">⏳ Loading script...</div>
+                <div class="status" id="widget-status">⏳ Initializing widget...</div>
+                <div class="status" id="backend-status">⏳ Testing backend...</div>
+            </div>
+            
+            <p style="margin-top: 30px;">
+                <strong>Expected behavior:</strong><br>
+                You should see a pulsing chat button in the bottom-right corner.<br>
+                Click it to test the AI consultation flow.
+            </p>
+        </div>
+        
+        <div style="background: #1a1a1a; padding: 20px; border-radius: 10px; border: 1px solid #333;">
+            <h4>Manual Test Button</h4>
+            <button onclick="testWidget()" style="background: linear-gradient(135deg, #00ff88, #ff0080); border: none; color: white; padding: 15px 30px; border-radius: 25px; cursor: pointer; font-weight: 600;">
+                <i class="fas fa-robot"></i> Test Widget Manually
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Test script loading
+        function updateStatus(id, status, message) {
+            const element = document.getElementById(id);
+            element.className = `status ${status}`;
+            element.innerHTML = status === 'success' ? `✅ ${message}` : `❌ ${message}`;
+        }
+
+        // Test backend connectivity
+        async function testBackend() {
+            try {
+                const response = await fetch('https://blueprint.projekt-ai.net/health');
+                const data = await response.json();
+                if (data.status === 'ok') {
+                    updateStatus('backend-status', 'success', 'Backend connected');
+                } else {
+                    updateStatus('backend-status', 'error', 'Backend unhealthy');
+                }
+            } catch (error) {
+                updateStatus('backend-status', 'error', 'Backend unreachable');
+                console.error('Backend test failed:', error);
+            }
+        }
+
+        // Manual widget test
+        function testWidget() {
+            const button = document.getElementById('blueprint-chat-button');
+            if (button) {
+                button.click();
+            } else {
+                alert('Widget not found! Check console for errors.');
+            }
+        }
+
+        // Check if widget loaded
+        function checkWidget() {
+            setTimeout(() => {
+                const button = document.getElementById('blueprint-chat-button');
+                if (button) {
+                    updateStatus('widget-status', 'success', 'Widget loaded');
+                } else {
+                    updateStatus('widget-status', 'error', 'Widget not found');
+                }
+            }, 2000);
+        }
+
+        // Run tests
+        document.addEventListener('DOMContentLoaded', () => {
+            updateStatus('script-status', 'success', 'Script loaded');
+            checkWidget();
+            testBackend();
+        });
+    </script>
+
+    <!-- Load the Blueprint Widget -->
+    <script src="assets/js/blueprint-widget.js"></script>
+</body>
+</html> 
