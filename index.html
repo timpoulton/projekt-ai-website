@@ -16,21 +16,29 @@
     <meta name="description" content="Projekt AI creates intelligent automation solutions that transform how businesses operate. Custom AI integration, workflow automation, and process optimization.">
 </head>
 <body>
-    <!-- Animated Background - Replicating Extra Medium's flowing shapes -->
-    <div class="animated-background">
-        <div class="flowing-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-        </div>
+    <!-- Video Background - Replacing animated shapes -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="assets/videos/background-animation.mp4" type="video/mp4">
+            <!-- Fallback for browsers that don't support video -->
+            <div class="animated-background-fallback">
+                <div class="flowing-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </video>
+        <div class="video-overlay"></div>
     </div>
 
     <!-- Navigation - Clean and minimal like Extra Medium -->
     <header>
         <nav class="container">
             <a href="#" class="logo">
-                <img src="assets/img/logos/projekt-ai-logo-light.svg" alt="Projekt AI" style="height: 28px; width: auto;">
+                <img src="assets/img/logos/projekt-ai-logo-dark.svg" alt="Projekt AI" style="height: 28px; width: auto;">
             </a>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
             <ul class="nav-links">
                 <li><a href="#work">Work</a></li>
                 <li><a href="#about">About</a></li>
@@ -198,5 +206,40 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (menuToggle && navLinks) {
+                menuToggle.addEventListener('click', function() {
+                    navLinks.classList.toggle('open');
+                    
+                    // Update aria-expanded for accessibility
+                    const isOpen = navLinks.classList.contains('open');
+                    menuToggle.setAttribute('aria-expanded', isOpen);
+                });
+                
+                // Close menu when clicking on a link (for mobile)
+                const navLinkItems = navLinks.querySelectorAll('a');
+                navLinkItems.forEach(link => {
+                    link.addEventListener('click', function() {
+                        navLinks.classList.remove('open');
+                        menuToggle.setAttribute('aria-expanded', 'false');
+                    });
+                });
+                
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!e.target.closest('nav')) {
+                        navLinks.classList.remove('open');
+                        menuToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html> 
