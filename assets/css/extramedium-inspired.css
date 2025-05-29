@@ -77,22 +77,23 @@ body {
 }
 
 .gif-background img {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
     opacity: 1;
+    z-index: -9999;
 }
 
 .background-overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.5);
     z-index: -9998;
     pointer-events: none;
@@ -148,7 +149,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: transparent;
+    background: transparent !important;
     backdrop-filter: none;
     z-index: 100;
     padding: var(--spacing-md) 0;
@@ -160,6 +161,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background: transparent !important;
 }
 
 .logo {
