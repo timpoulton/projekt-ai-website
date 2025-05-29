@@ -150,11 +150,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: transparent !important;
+    background: none !important;
+    background-color: transparent !important;
     backdrop-filter: none;
     z-index: 1000;
     padding: var(--spacing-md) 0;
     border-bottom: none;
+    border: none;
+    box-shadow: none;
 }
 
 nav {
@@ -162,7 +165,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background: transparent !important;
+    background: none !important;
+    background-color: transparent !important;
 }
 
 .logo {
@@ -171,6 +175,7 @@ nav {
     font-weight: 600;
     font-size: var(--font-size-lg);
     z-index: 1001;
+    background: none !important;
 }
 
 .nav-links {
@@ -178,6 +183,8 @@ nav {
     list-style: none;
     width: 100%;
     margin-top: var(--spacing-sm);
+    background: none !important;
+    background-color: transparent !important;
 }
 
 .nav-links.open {
@@ -433,6 +440,8 @@ footer a:hover {
         width: auto;
         margin-top: 0;
         gap: var(--spacing-lg);
+        background: none !important;
+        background-color: transparent !important;
     }
     
     .nav-links li {
