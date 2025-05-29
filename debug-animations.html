@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Debug - Projekt AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Debug styles to make animations more obvious */
+        .debug-box {
+            background: #ff0080;
+            color: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .debug-counter {
+            font-size: 4rem !important;
+            color: #00ff88 !important;
+            text-shadow: 0 0 20px #00ff88;
+        }
+        
+        .debug-card {
+            background: #1a1a1a;
+            border: 2px solid #00ff88;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .debug-card:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 255, 136, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div style="padding: 2rem; max-width: 1200px; margin: 0 auto;">
+        <h1 style="text-align: center; color: #00ff88; margin-bottom: 3rem;">🔧 Animation Debug Page</h1>
+        
+        <!-- Test 1: Basic Animation Classes -->
+        <div class="debug-box animate-on-scroll fade-up">
+            <h2>Test 1: Fade Up Animation</h2>
+            <p>This box should fade in from below when you scroll to it</p>
+        </div>
+        
+        <div class="debug-box animate-on-scroll fade-left">
+            <h2>Test 2: Fade Left Animation</h2>
+            <p>This box should slide in from the left</p>
+        </div>
+        
+        <div class="debug-box animate-on-scroll scale-in">
+            <h2>Test 3: Scale In Animation</h2>
+            <p>This box should grow into view</p>
+        </div>
+        
+        <!-- Test 2: Counter Animation -->
+        <div class="debug-box">
+            <h2>Test 4: Animated Counter</h2>
+            <div class="counter-container">
+                <div class="debug-counter animated-counter" data-count="1337">0</div>
+                <p>This number should count up to 1337</p>
+            </div>
+        </div>
+        
+        <!-- Test 3: Stagger Animation -->
+        <div class="debug-box">
+            <h2>Test 5: Stagger Animation</h2>
+            <div class="stagger-animation" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+                <div class="debug-card">Card 1</div>
+                <div class="debug-card">Card 2</div>
+                <div class="debug-card">Card 3</div>
+                <div class="debug-card">Card 4</div>
+                <div class="debug-card">Card 5</div>
+                <div class="debug-card">Card 6</div>
+            </div>
+            <p>These cards should appear one by one with delays</p>
+        </div>
+        
+        <!-- Test 4: Hover Effects -->
+        <div class="debug-box">
+            <h2>Test 6: Hover Effects</h2>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                <div class="debug-card enhanced-card">
+                    <h3>Hover Me!</h3>
+                    <p>I should lift up and glow when you hover</p>
+                </div>
+                <div class="debug-card enhanced-card">
+                    <h3>Me Too!</h3>
+                    <p>Same here - hover for effects</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Debug Info -->
+        <div style="background: #333; padding: 2rem; border-radius: 12px; margin-top: 3rem;">
+            <h2 style="color: #00ff88;">🔍 Debug Information</h2>
+            <div id="debug-info" style="font-family: monospace; color: #ccc; line-height: 1.6;">
+                <p>Loading debug info...</p>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div style="position: fixed; top: 20px; right: 20px; background: #00ff88; color: black; padding: 1rem; border-radius: 8px; font-weight: bold;">
+            Scroll down to test animations!
+        </div>
+    </div>
+
+    <!-- Load scripts and add debug logging -->
+    <script>
+        console.log('🔧 Animation Debug Script Loading...');
+        
+        // Debug function to log animation states
+        function debugLog(message) {
+            console.log('🎬 ANIMATION DEBUG:', message);
+            const debugInfo = document.getElementById('debug-info');
+            if (debugInfo) {
+                debugInfo.innerHTML += '<br>' + new Date().toLocaleTimeString() + ': ' + message;
+            }
+        }
+        
+        // Check if CSS files are loaded
+        debugLog('Checking CSS files...');
+        const stylesheets = Array.from(document.styleSheets);
+        debugLog('Found ' + stylesheets.length + ' stylesheets');
+        
+        // Check if animation classes exist
+        debugLog('Checking animation classes...');
+        const testElement = document.createElement('div');
+        testElement.className = 'animate-on-scroll fade-up';
+        document.body.appendChild(testElement);
+        const computedStyle = window.getComputedStyle(testElement);
+        debugLog('animate-on-scroll opacity: ' + computedStyle.opacity);
+        debugLog('fade-up transform: ' + computedStyle.transform);
+        document.body.removeChild(testElement);
+        
+        // Log when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            debugLog('DOM Content Loaded');
+            
+            // Check for animation elements
+            const animElements = document.querySelectorAll('.animate-on-scroll');
+            debugLog('Found ' + animElements.length + ' elements with animate-on-scroll class');
+            
+            // Check for counter elements
+            const counterElements = document.querySelectorAll('[data-count]');
+            debugLog('Found ' + counterElements.length + ' counter elements');
+            
+            // Check if Intersection Observer is supported
+            if ('IntersectionObserver' in window) {
+                debugLog('✅ IntersectionObserver is supported');
+            } else {
+                debugLog('❌ IntersectionObserver is NOT supported');
+            }
+        });
+        
+        // Log when window loads
+        window.addEventListener('load', () => {
+            debugLog('Window fully loaded');
+        });
+    </script>
+    
+    <!-- Load the animation script -->
+    <script src="assets/js/scroll-animations.js"></script>
+    
+    <script>
+        // Additional debug after script loads
+        setTimeout(() => {
+            debugLog('Checking if ScrollAnimations class exists...');
+            if (typeof ScrollAnimations !== 'undefined') {
+                debugLog('✅ ScrollAnimations class found');
+            } else {
+                debugLog('❌ ScrollAnimations class NOT found');
+            }
+            
+            if (typeof window.ScrollAnimations !== 'undefined') {
+                debugLog('✅ ScrollAnimations available on window');
+            } else {
+                debugLog('❌ ScrollAnimations NOT available on window');
+            }
+        }, 1000);
+    </script>
+</body>
+</html> 

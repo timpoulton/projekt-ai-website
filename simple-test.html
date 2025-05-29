@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Animation Test</title>
+    <style>
+        body {
+            background: #0a0a0a;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 2rem;
+        }
+        
+        .test-box {
+            background: linear-gradient(135deg, #00ff88, #ff0080);
+            padding: 3rem;
+            margin: 3rem 0;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1s ease;
+        }
+        
+        .test-box.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .counter {
+            font-size: 4rem;
+            color: #00ff88;
+            text-shadow: 0 0 20px #00ff88;
+        }
+        
+        .hover-test {
+            background: #1a1a1a;
+            border: 2px solid #00ff88;
+            padding: 2rem;
+            margin: 2rem;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .hover-test:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 255, 136, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; font-size: 3rem; margin-bottom: 2rem;">🧪 Simple Animation Test</h1>
+    
+    <div class="test-box" id="box1">
+        <h2>Test 1: Scroll Animation</h2>
+        <p>This should fade in when you scroll to it</p>
+    </div>
+    
+    <div class="test-box" id="box2">
+        <h2>Test 2: Counter Animation</h2>
+        <div class="counter" id="counter">0</div>
+        <p>This should count to 100</p>
+    </div>
+    
+    <div class="test-box" id="box3">
+        <h2>Test 3: Hover Effects</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="hover-test">
+                <h3>Hover Me!</h3>
+                <p>I should lift and glow</p>
+            </div>
+            <div class="hover-test">
+                <h3>Me Too!</h3>
+                <p>Same effect here</p>
+            </div>
+        </div>
+    </div>
+    
+    <div style="height: 100vh; display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+        <p>Scroll back up to see the animations!</p>
+    </div>
+
+    <script>
+        console.log('🧪 Simple test script loaded');
+        
+        // Simple scroll animation
+        function checkScroll() {
+            const boxes = document.querySelectorAll('.test-box');
+            boxes.forEach(box => {
+                const rect = box.getBoundingClientRect();
+                const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+                
+                if (isVisible && !box.classList.contains('visible')) {
+                    box.classList.add('visible');
+                    console.log('📦 Box became visible:', box.id);
+                    
+                    // Trigger counter if it's the counter box
+                    if (box.id === 'box2') {
+                        animateCounter();
+                    }
+                }
+            });
+        }
+        
+        // Simple counter animation
+        function animateCounter() {
+            const counter = document.getElementById('counter');
+            let current = 0;
+            const target = 100;
+            const duration = 2000;
+            const increment = target / (duration / 16);
+            
+            function updateCounter() {
+                current += increment;
+                if (current < target) {
+                    counter.textContent = Math.floor(current);
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    counter.textContent = target;
+                    console.log('🔢 Counter animation complete');
+                }
+            }
+            
+            console.log('🔢 Starting counter animation');
+            updateCounter();
+        }
+        
+        // Listen for scroll
+        window.addEventListener('scroll', checkScroll);
+        window.addEventListener('load', checkScroll);
+        
+        console.log('✅ Simple test ready - scroll to see animations!');
+    </script>
+</body>
+</html> 

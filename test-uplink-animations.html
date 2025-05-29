@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uplink-Style Animations Test - Projekt AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">
+                <img src="assets/img/projekt-ai-logo.svg" alt="ProjektAI" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#animations">Animations</a></li>
+                <li><a href="#counters">Counters</a></li>
+                <li><a href="#layouts">Layouts</a></li>
+                <li><a href="/">Back to Main</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Animations -->
+    <section id="hero" class="section-spacer-lg">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text animate-on-scroll fade-left">
+                    <h1>🎨 Uplink-Style<br>Animations & Layout</h1>
+                    <p>Testing the new animation effects and layout improvements inspired by the Uplink website. Scroll down to see all the effects in action!</p>
+                    <div class="hero-buttons">
+                        <a href="#animations" class="btn btn-primary btn-enhanced">
+                            <i class="fas fa-play"></i>
+                            See Animations
+                        </a>
+                        <a href="#layouts" class="btn btn-secondary btn-enhanced">
+                            <i class="fas fa-layout"></i>
+                            View Layouts
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-demo animate-on-scroll scale-in">
+                    <div class="demo-header">
+                        <div class="demo-status"></div>
+                        <div class="demo-title">Animation Test Dashboard</div>
+                    </div>
+                    <div class="demo-content">
+// Animation system status
+{
+  "scroll_animations": "✅ active",
+  "counter_animations": "✅ active", 
+  "parallax_effects": "✅ active",
+  "hover_effects": "✅ enhanced",
+  "layout_system": "✅ uplink-style",
+  "performance": "🚀 optimized"
+}
+
+// Test results:
+✅ Fade animations working
+✅ Scale animations working  
+✅ Stagger animations working
+✅ Counter animations working
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Stats Section -->
+    <section id="stats" class="animate-on-scroll fade-up">
+        <div class="container">
+            <div class="stats-grid stagger-animation">
+                <div class="stat-item counter-container enhanced-card">
+                    <h3 class="animated-counter" data-count="47">0</h3>
+                    <p>Animations Implemented</p>
+                </div>
+                <div class="stat-item counter-container enhanced-card">
+                    <h3 class="animated-counter" data-count="99">0</h3>
+                    <p>Performance Score</p>
+                </div>
+                <div class="stat-item counter-container enhanced-card">
+                    <h3 class="animated-counter" data-count="100">0</h3>
+                    <p>Uplink Inspiration</p>
+                </div>
+                <div class="stat-item counter-container enhanced-card">
+                    <h3 class="animated-counter" data-count="60">0</h3>
+                    <p>FPS Smooth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternating Layout Section 1 -->
+    <section id="animations" class="section-spacer full-width-section" style="background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);">
+        <div class="container">
+            <div class="alternating-section">
+                <div class="animate-on-scroll fade-left">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; background: var(--accent-gradient); -webkit-background-clip: text; background-clip: text; color: transparent;">
+                        🎬 Scroll Animations
+                    </h2>
+                    <p style="font-size: 1.2rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 2rem;">
+                        Elements fade in smoothly as you scroll, creating an engaging and modern user experience. Each animation is optimized for performance and accessibility.
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                        <div class="enhanced-card" style="padding: 1rem; background: rgba(0,255,136,0.1); border-radius: 12px; border: 1px solid rgba(0,255,136,0.2);">
+                            <i class="fas fa-arrow-up" style="color: var(--accent-primary); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="color: var(--text-primary); font-weight: 600;">Fade Up</p>
+                        </div>
+                        <div class="enhanced-card" style="padding: 1rem; background: rgba(255,0,128,0.1); border-radius: 12px; border: 1px solid rgba(255,0,128,0.2);">
+                            <i class="fas fa-expand" style="color: var(--accent-secondary); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="color: var(--text-primary); font-weight: 600;">Scale In</p>
+                        </div>
+                        <div class="enhanced-card" style="padding: 1rem; background: rgba(0,128,255,0.1); border-radius: 12px; border: 1px solid rgba(0,128,255,0.2);">
+                            <i class="fas fa-arrow-left" style="color: var(--accent-tertiary); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="color: var(--text-primary); font-weight: 600;">Fade Left</p>
+                        </div>
+                        <div class="enhanced-card" style="padding: 1rem; background: rgba(255,255,0,0.1); border-radius: 12px; border: 1px solid rgba(255,255,0,0.2);">
+                            <i class="fas fa-layer-group" style="color: #ffff00; font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="color: var(--text-primary); font-weight: 600;">Stagger</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="animate-on-scroll scale-in">
+                    <div style="background: var(--bg-card); padding: 2rem; border-radius: var(--border-radius-lg); border: 1px solid rgba(255,255,255,0.1);">
+                        <h4 style="color: var(--accent-primary); margin-bottom: 1rem;">📱 Animation Classes</h4>
+                        <div style="font-family: 'Courier New', monospace; color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+.animate-on-scroll<br>
+.fade-up<br>
+.fade-left<br>
+.fade-right<br>
+.scale-in<br>
+.stagger-animation<br>
+<br>
+<span style="color: var(--accent-primary);">// Intersection Observer</span><br>
+<span style="color: var(--accent-secondary);">threshold: 0.1</span><br>
+<span style="color: var(--accent-tertiary);">rootMargin: '-50px'</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alternating Layout Section 2 (Reversed) -->
+    <section id="counters" class="section-spacer">
+        <div class="container">
+            <div class="alternating-section reverse">
+                <div class="animate-on-scroll fade-right">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; background: var(--accent-gradient); -webkit-background-clip: text; background-clip: text; color: transparent;">
+                        🔢 Animated Counters
+                    </h2>
+                    <p style="font-size: 1.2rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 2rem;">
+                        Numbers count up smoothly when they come into view, creating an impressive visual effect for statistics and metrics. Perfect for showcasing achievements and KPIs.
+                    </p>
+                    <div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
+                        <div class="counter-container">
+                            <div class="animated-counter" data-count="1337" style="font-size: 2.5rem;">0</div>
+                            <p style="color: var(--text-secondary);">Lines of Code</p>
+                        </div>
+                        <div class="counter-container">
+                            <div class="animated-counter" data-count="42" style="font-size: 2.5rem;">0</div>
+                            <p style="color: var(--text-secondary);">Coffee Cups</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="animate-on-scroll scale-in">
+                    <div style="background: var(--bg-card); padding: 2rem; border-radius: var(--border-radius-lg); border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: -50%; right: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255,0,128,0.1) 0%, transparent 70%); animation: pulse 3s ease-in-out infinite;"></div>
+                        <div style="position: relative; z-index: 2;">
+                            <h4 style="color: var(--accent-secondary); margin-bottom: 1rem;">⚡ Counter Animation</h4>
+                            <div style="font-family: 'Courier New', monospace; color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6;">
+<span style="color: var(--accent-primary);">// Counter setup</span><br>
+data-count="1337"<br>
+duration: 2000ms<br>
+easing: requestAnimationFrame<br>
+<br>
+<span style="color: var(--accent-secondary);">// Trigger on scroll</span><br>
+IntersectionObserver<br>
+threshold: 0.1<br>
+<br>
+<span style="color: var(--accent-tertiary);">✅ Smooth counting</span><br>
+<span style="color: var(--accent-tertiary);">✅ Performance optimized</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Cards Grid -->
+    <section id="layouts" class="section-spacer">
+        <div class="container">
+            <div class="section-header animate-on-scroll fade-up">
+                <h2 class="section-title">Enhanced Card Effects</h2>
+                <p class="section-subtitle">Hover over the cards below to see the enhanced animations and effects</p>
+            </div>
+            <div class="services-grid stagger-animation">
+                <div class="service-card enhanced-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Smooth Hover</h3>
+                    <p>Cards lift up smoothly on hover with enhanced shadows and glow effects.</p>
+                </div>
+                <div class="service-card enhanced-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Stagger Animation</h3>
+                    <p>Cards appear in sequence with perfectly timed delays for visual impact.</p>
+                </div>
+                <div class="service-card enhanced-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Enhanced Shadows</h3>
+                    <p>Dynamic shadows and glow effects that respond to user interaction.</p>
+                </div>
+                <div class="service-card enhanced-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Smooth Transitions</h3>
+                    <p>All animations use cubic-bezier easing for natural, smooth motion.</p>
+                </div>
+                <div class="service-card enhanced-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Performance</h3>
+                    <p>Optimized animations that run at 60fps without impacting performance.</p>
+                </div>
+                <div class="service-card enhanced-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive</h3>
+                    <p>All animations work perfectly across desktop, tablet, and mobile devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section-spacer-lg full-width-section" style="background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);">
+        <div class="container">
+            <div class="section-header animate-on-scroll fade-up" style="text-align: center;">
+                <h2 class="section-title" style="background: linear-gradient(135deg, #00ff88, #ff0080); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                    🎉 Animations Complete!
+                </h2>
+                <p class="section-subtitle">Your website now has Uplink-inspired animations and layout improvements</p>
+                <div style="margin-top: 3rem;">
+                    <a href="/" class="btn btn-primary btn-enhanced" style="margin-right: 1rem;">
+                        <i class="fas fa-home"></i>
+                        Back to Main Site
+                    </a>
+                    <a href="#hero" class="btn btn-secondary btn-enhanced">
+                        <i class="fas fa-arrow-up"></i>
+                        Back to Top
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Projekt AI - Now with Uplink-inspired animations!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/scroll-animations.js"></script>
+</body>
+</html> 
