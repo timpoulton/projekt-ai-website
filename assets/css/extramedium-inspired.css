@@ -70,22 +70,20 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
     overflow: hidden;
 }
 
 .video-background video {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .video-overlay {
@@ -94,8 +92,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(1px);
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
 }
 
 /* Fallback animated background for browsers that don't support video */
@@ -295,10 +293,12 @@ nav {
     padding: var(--spacing-2xl) 0;
     background: transparent;
     position: relative;
+    z-index: 1;
 }
 
 .hero .container {
-    z-index: 1;
+    z-index: 2;
+    position: relative;
 }
 
 .hero h1 {
