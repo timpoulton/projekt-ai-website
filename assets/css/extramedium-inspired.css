@@ -74,6 +74,7 @@ body {
     height: 100vh;
     z-index: -2;
     overflow: hidden;
+    background: #000000; /* Fallback background color */
 }
 
 .video-background video {
@@ -84,6 +85,13 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Show fallback when video is not loaded or supported */
+.video-background video:not([data-loaded="true"]) + .animated-background-fallback {
+    display: block;
 }
 
 .video-overlay {
@@ -94,6 +102,7 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
     z-index: -1;
+    pointer-events: none;
 }
 
 /* Fallback animated background for browsers that don't support video */
@@ -106,6 +115,7 @@ body {
     background: linear-gradient(-45deg, #000000, #1a1a1a, #000000, #0a0a0a);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
+    display: none; /* Hidden by default, shown when video fails */
 }
 
 .animated-background-fallback::before {

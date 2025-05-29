@@ -18,17 +18,18 @@
 <body>
     <!-- Video Background - Replacing animated shapes -->
     <div class="video-background">
-        <video autoplay muted loop playsinline>
+        <video autoplay muted loop playsinline preload="auto">
             <source src="assets/videos/background-animation.mp4" type="video/mp4">
-            <!-- Fallback for browsers that don't support video -->
-            <div class="animated-background-fallback">
-                <div class="flowing-shapes">
-                    <div class="shape shape-1"></div>
-                    <div class="shape shape-2"></div>
-                    <div class="shape shape-3"></div>
-                </div>
-            </div>
+            Your browser does not support the video tag.
         </video>
+        <!-- Fallback for browsers that don't support video -->
+        <div class="animated-background-fallback">
+            <div class="flowing-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
         <div class="video-overlay"></div>
     </div>
 
@@ -237,6 +238,35 @@
                         navLinks.classList.remove('open');
                         menuToggle.setAttribute('aria-expanded', 'false');
                     }
+                });
+            }
+
+            // Video background handling
+            const video = document.querySelector('.video-background video');
+            const fallback = document.querySelector('.animated-background-fallback');
+            
+            if (video && fallback) {
+                // Show fallback initially
+                fallback.style.display = 'block';
+                
+                // Hide fallback when video loads successfully
+                video.addEventListener('loadeddata', function() {
+                    video.setAttribute('data-loaded', 'true');
+                    fallback.style.display = 'none';
+                });
+                
+                // Show fallback if video fails to load
+                video.addEventListener('error', function() {
+                    fallback.style.display = 'block';
+                    video.style.display = 'none';
+                });
+                
+                // Ensure video starts playing
+                video.addEventListener('canplay', function() {
+                    video.play().catch(function(error) {
+                        console.log('Video autoplay failed:', error);
+                        fallback.style.display = 'block';
+                    });
                 });
             }
         });
