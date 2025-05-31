@@ -3,284 +3,1092 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projekt AI - AI & Automation Solutions That Actually Work</title>
-    <link rel="stylesheet" href="assets/css/extramedium-inspired.css">
+    <title>Projekt AI - Timothy Poulton</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Favicon using uploaded logo -->
-    <link rel="icon" type="image/svg+xml" href="assets/img/logos/projekt-ai-icon-dark.svg">
-    <link rel="alternate icon" href="assets/img/favicon.ico">
-    
-    <meta name="description" content="Projekt AI creates intelligent automation solutions that transform how businesses operate. Custom AI integration, workflow automation, and process optimization.">
+    <style>
+        /* EXACT EXTRA MEDIUM REPLICA - REFINED SPACING */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Container - Refined Padding */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 60px;
+        }
+
+        /* Header - Fixed Positioning with Color Transitions */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: transparent;
+            z-index: 1000;
+            padding: 40px 0;
+            transition: all 0.3s ease;
+        }
+
+        header.dark {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            align-items: center;
+            transition: color 0.3s ease;
+        }
+
+        .logo.dark {
+            color: #333;
+        }
+
+        .menu-toggle {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            z-index: 1001;
+            position: relative;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 2px;
+            background: #fff;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .menu-toggle.dark span {
+            background: #333;
+        }
+
+        /* Slide-out Menu - Extra Medium Style */
+        .slide-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            max-width: 400px;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            transition: right 0.4s ease;
+            padding: 80px 60px 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide-menu.active {
+            right: 0;
+        }
+
+        .menu-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 80px;
+        }
+
+        .menu-logo {
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            letter-spacing: 0.02em;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 0;
+            line-height: 1;
+            font-weight: 300;
+        }
+
+        .menu-nav {
+            flex: 1;
+        }
+
+        .menu-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-nav li {
+            margin-bottom: 32px;
+        }
+
+        .menu-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 1.2;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        .menu-nav a:hover {
+            color: #1dd1a1;
+            transform: translateX(8px);
+        }
+
+        .menu-footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 40px;
+        }
+
+        .menu-footer a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            transition: color 0.3s ease;
+        }
+
+        .menu-footer a:hover {
+            color: #1dd1a1;
+        }
+
+        /* Menu Toggle Animation */
+        .menu-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .menu-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .menu-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -6px);
+        }
+
+        /* Overlay */
+        .menu-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.3);
+            opacity: 0;
+            visibility: hidden;
+            z-index: 999;
+            transition: all 0.3s ease;
+        }
+
+        .menu-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Hero Section - Improved Spacing with Animated Background */
+        .hero {
+            background: #1a1a1a;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding: 140px 0 80px;
+        }
+
+        /* Animated Background Video */
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.35;
+            z-index: 1;
+        }
+
+        /* Dark overlay to ensure text readability */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(26, 26, 26, 0.5);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: clamp(48px, 7vw, 88px);
+            font-weight: 400;
+            line-height: 1.05;
+            color: #fff;
+            margin-bottom: 32px;
+            letter-spacing: -0.025em;
+        }
+
+        .hero h1 span.highlight {
+            color: #1dd1a1;
+        }
+
+        .hero p {
+            font-size: 20px;
+            line-height: 1.5;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 48px;
+            max-width: 680px;
+        }
+
+        /* CTA Box - Refined Spacing */
+        .cta-box {
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            padding: 32px;
+            max-width: 380px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+        }
+
+        .cta-box p {
+            font-size: 15px;
+            line-height: 1.5;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 28px;
+        }
+
+        /* Button - EXACT Extra Medium Style */
+        .button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 28px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            background: transparent;
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 400;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .button:hover {
+            background: rgba(29, 209, 161, 0.1);
+            border-color: #1dd1a1;
+            transform: translateY(-1px);
+        }
+
+        .button .arrow {
+            width: 18px;
+            height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
+
+        .button:hover .arrow {
+            transform: translateX(3px);
+        }
+
+        .button .arrow::after {
+            content: "→";
+            font-size: 16px;
+            line-height: 1;
+        }
+
+        /* Button Dark Theme */
+        .button.dark {
+            border-color: rgba(0, 0, 0, 0.2);
+            color: #333;
+        }
+
+        .button.dark:hover {
+            background: rgba(0, 0, 0, 0.05);
+            border-color: rgba(0, 0, 0, 0.3);
+        }
+
+        /* About Section - Perfect Spacing */
+        .about-section {
+            background: #f5f5f5;
+            padding: 140px 0;
+        }
+
+        .section-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #999;
+            margin-bottom: 64px;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 120px;
+            align-items: start;
+        }
+
+        .about-text h2 {
+            font-size: clamp(36px, 4.5vw, 64px);
+            font-weight: 400;
+            line-height: 1.15;
+            color: #333;
+            margin-bottom: 0;
+            letter-spacing: -0.02em;
+        }
+
+        .about-text h2 span.highlight {
+            color: #666;
+            font-weight: 300;
+        }
+
+        .about-right {
+            padding-top: 80px;
+        }
+
+        .about-right .button {
+            margin-bottom: 48px;
+        }
+
+        .about-right p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 24px;
+        }
+
+        /* Clients Section - Better Spacing */
+        .clients-section {
+            padding: 100px 0 140px;
+        }
+
+        .clients-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #999;
+            margin-bottom: 64px;
+        }
+
+        .clients-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 16px;
+            align-items: center;
+        }
+
+        .client-logo {
+            font-size: 15px;
+            font-weight: 500;
+            color: #333;
+            text-align: center;
+            padding: 16px 8px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .client-logo:hover {
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        /* Work Section - Enhanced Spacing */
+        .work-section {
+            background: #1a1a1a;
+            padding: 140px 0;
+        }
+
+        .work-header {
+            margin-bottom: 100px;
+        }
+
+        .work-header h2 {
+            font-size: clamp(36px, 4.5vw, 56px);
+            font-weight: 400;
+            color: #fff;
+            margin-bottom: 64px;
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+        }
+
+        .work-intro {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 120px;
+        }
+
+        .work-intro p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Project Cards - Refined Layout */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 100px;
+        }
+
+        .project-card {
+            aspect-ratio: 4/3;
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+            background: #333;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .project-card.large {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .project-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.85));
+            padding: 32px;
+            color: #fff;
+        }
+
+        .project-overlay h3 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .project-overlay p {
+            font-size: 14px;
+            opacity: 0.8;
+            font-weight: 400;
+        }
+
+        /* Contact Section - Perfect Spacing */
+        .contact-section {
+            background: #1a1a1a;
+            padding: 140px 0;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: clamp(48px, 7vw, 88px);
+            font-weight: 400;
+            line-height: 1.05;
+            color: #fff;
+            margin-bottom: 64px;
+            letter-spacing: -0.025em;
+        }
+
+        .contact-section .button {
+            margin-bottom: 64px;
+        }
+
+        .contact-section p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        /* Footer - Enhanced Layout */
+        .footer {
+            background: #1a1a1a;
+            padding: 100px 0 60px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 120px;
+            margin-bottom: 80px;
+        }
+
+        .footer-left h3 {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 32px;
+            line-height: 1.4;
+        }
+
+        .footer-left .button {
+            margin-bottom: 48px;
+        }
+
+        .footer-email {
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 0;
+            display: block;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .footer-email:hover {
+            color: #1dd1a1;
+        }
+
+        .footer-right h3 {
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            margin-bottom: 32px;
+            line-height: 1.3;
+        }
+
+        .footer-right p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .footer-links {
+            margin-bottom: 60px;
+        }
+
+        .footer-links h4 {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 24px;
+        }
+
+        .footer-nav {
+            display: flex;
+            gap: 48px;
+        }
+
+        .footer-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-nav a:hover {
+            color: #1dd1a1;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-bottom p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Mobile Responsive - Enhanced */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 40px;
+            }
+            
+            .about-content,
+            .work-intro,
+            .footer-content {
+                gap: 80px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 24px;
+            }
+
+            header {
+                padding: 24px 0;
+            }
+
+            .hero {
+                padding: 120px 0 60px;
+            }
+
+            .hero p {
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+            .cta-box {
+                padding: 24px;
+                max-width: 100%;
+            }
+
+            .about-section,
+            .work-section,
+            .contact-section {
+                padding: 80px 0;
+            }
+
+            .clients-section {
+                padding: 60px 0 80px;
+            }
+
+            .about-content,
+            .work-intro,
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .about-right {
+                padding-top: 0;
+            }
+
+            .work-header {
+                margin-bottom: 60px;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+                margin-top: 60px;
+            }
+
+            .project-card.large {
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+
+            .clients-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+            }
+
+            .footer {
+                padding: 60px 0 40px;
+            }
+
+            .footer-nav {
+                flex-direction: column;
+                gap: 24px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 16px;
+                text-align: center;
+            }
+
+            .button {
+                padding: 10px 24px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 20px;
+            }
+
+            .hero h1 {
+                font-size: clamp(32px, 8vw, 48px);
+            }
+
+            .contact-section h2 {
+                font-size: clamp(32px, 8vw, 48px);
+            }
+
+            .clients-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+        }
+    </style>
+    <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
 </head>
 <body>
-    <!-- Animated GIF Background -->
-    <div class="gif-background">
-        <img src="assets/videos/new-background-optimized.gif" alt="Animated Background" />
-        <div class="background-overlay"></div>
+
+<!-- Header -->
+<header>
+    <nav class="container">
+        <a href="#" class="logo">Projekt AI®</a>
+        <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+
+<!-- Menu Overlay -->
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<!-- Slide-out Menu -->
+<div class="slide-menu" id="slideMenu">
+    <div class="menu-header">
+        <div class="menu-logo">Projekt AI®</div>
+        <button class="close-btn" id="closeMenu">✕</button>
     </div>
+    
+    <nav class="menu-nav">
+        <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="menu-footer">
+        <!-- LinkedIn link removed -->
+    </div>
+</div>
 
-    <!-- Navigation - Clean and minimal like Extra Medium -->
-    <header>
-        <nav class="container">
-            <a href="#" class="logo">
-                <img src="assets/img/logos/header-logo.png" alt="Projekt AI" class="logo-image">
-            </a>
-            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-            <ul class="nav-links">
-                <li><a href="#work">Work</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://linkedin.com/in/timpoulton">LinkedIn</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section - Dark with animated background like Extra Medium -->
-    <section class="hero animate-on-scroll">
-        <div class="container">
-            <h1 class="hero-title">I'm Timothy Poulton. I create intelligent automation solutions that transform how hospitality and nightlife businesses operate.</h1>
-            <p class="animate-on-scroll">With 20 years of experience in digital marketing for music and nightlife industries, I specialize in bespoke automation solutions for venues, promoters, and hospitality groups who want to scale through intelligent systems.</p>
-            <a href="#contact" class="btn animate-on-scroll">Start a Project</a>
-        </div>
-    </section>
-
-    <!-- About Section - Light background -->
-    <section class="section section-light animate-on-scroll" id="about">
-        <div class="container">
-            <div class="animate-slide-left" style="border-bottom: 1px solid #eee; padding-bottom: 1rem; margin-bottom: 3rem;">
-                <p class="section-label">WHO I AM</p>
-            </div>
+<!-- Hero Section -->
+<section class="hero">
+    <!-- Animated Background Video -->
+    <video class="hero-background" autoplay muted loop playsinline id="heroVideo">
+        <source src="assets/videos/b34eeeda413b88bb8a9016808345bfb6.mp4" type="video/mp4" id="videoSource">
+        <!-- Fallback message -->
+        <p>Your browser doesn't support video backgrounds.</p>
+    </video>
+    
+    <!-- Video Background Switcher (Development Tool) -->
+    <div style="position: fixed; top: 120px; right: 20px; z-index: 1000; background: rgba(0,0,0,0.8); padding: 16px; border-radius: 8px;">
+        <p style="color: #fff; font-size: 12px; margin-bottom: 8px; font-weight: 500;">Test Backgrounds:</p>
+        <button onclick="switchVideo('animated_header-1.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Header 1 (1.4MB)</button>
+        <button onclick="switchVideo('b34eeeda413b88bb8a9016808345bfb6.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #1dd1a1; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Video 1 (1.8MB) ✓</button>
+        <button onclick="switchVideo('2380372b7c7f0532c16eb21b6d289fc5.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Video 2 (3.3MB)</button>
+        <button onclick="switchVideo('8e63fd1f95d2a7f04d85bc27b9b559c8.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Video 3 (3.7MB)</button>
+        <button onclick="switchVideo('81832857bf8148b00b673f680b4217f3__1_.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Video 4 (7.6MB)</button>
+    </div>
+    
+    <div class="container">
+        <div class="hero-content">
+            <h1>Projekt AI creates <span class="highlight">intelligent automation solutions</span> that transform how hospitality and nightlife businesses operate.</h1>
+            <p>My studio understands the importance of industry expertise, operational efficiency, and genuine partnerships. I work with ambitious venues, promoters, and hospitality groups who want to become great digitally.</p>
             
-            <h2 class="section-title animate-on-scroll">About Timothy</h2>
-            <div class="about-content stagger-group">
-                <h3 class="animate-on-scroll">I'm Timothy Poulton, a freelance automation specialist with 20 years of experience in the music and nightlife industries. I love to problem solve, collaborate and intelligently create bespoke solutions for venues, promoters, and hospitality businesses.</h3>
-                
-                <a href="#contact" class="btn btn-dark animate-on-scroll">Contact me</a>
-                
-                <p class="animate-on-scroll">I know life inside hospitality and nightlife can be challenging, and - like you - I embrace it. At Projekt AI, I pair my refined technical process with deep industry knowledge to establish genuine partnerships. I work closely with my clients and act as an extension of your team, giving form to new ideas and creative ways to achieve clarity in automation projects.</p>
-            </div>
-
-            <!-- Featured Clients Section -->
-            <div class="animate-on-scroll" style="margin-top: 6rem;">
-                <div style="border-bottom: 1px solid #eee; padding-bottom: 1rem; margin-bottom: 3rem;">
-                    <p class="section-label">INDUSTRY CLIENTS</p>
-                </div>
-                
-                <div class="stagger-group" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; align-items: center; opacity: 0.7;">
-                    <div class="animate-on-scroll" style="text-align: center; padding: 1rem; font-weight: 500;">CLUB77</div>
-                    <div class="animate-on-scroll" style="text-align: center; padding: 1rem; font-weight: 500;">MUSIC VENUES</div>
-                    <div class="animate-on-scroll" style="text-align: center; padding: 1rem; font-weight: 500;">EVENT PROMOTERS</div>
-                    <div class="animate-on-scroll" style="text-align: center; padding: 1rem; font-weight: 500;">HOSPITALITY GROUPS</div>
-                </div>
+            <div class="cta-box">
+                <p>Join the Projekt AI creative pool by submitting your portfolio. I'm actively seeking talented automation partners, venue operators, and hospitality innovators.</p>
+                <a href="#contact" class="button">
+                    Contact me
+                    <span class="arrow"></span>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Portfolio Section - Dark background like Extra Medium -->
-    <section class="section section-dark animate-on-scroll" id="work">
-        <div class="container">
-            <div class="animate-slide-left" style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem; margin-bottom: 3rem;">
-                <p class="section-label">RECENT PROJECTS</p>
+<script>
+function switchVideo(videoFile) {
+    const video = document.getElementById('heroVideo');
+    const source = document.getElementById('videoSource');
+    
+    // Update source
+    source.src = 'assets/videos/' + videoFile;
+    
+    // Reload video
+    video.load();
+    video.play();
+    
+    // Update button styles
+    const buttons = document.querySelectorAll('[onclick^="switchVideo"]');
+    buttons.forEach(btn => btn.style.background = '#333');
+    event.target.style.background = '#1dd1a1';
+    
+    console.log('Switched to:', videoFile);
+}
+</script>
+
+<!-- About Section -->
+<section class="about-section">
+    <div class="container">
+        <div class="section-label">WHO I AM</div>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <h2>My Studio</h2>
+                <h2>I am <span class="highlight">Timothy Poulton</span>, a freelance automation specialist who loves to problem solve, collaborate and intelligently create. My capabilities include workflow automation, AI integration, system analysis, full-stack development, process optimization and strategic consulting.</h2>
             </div>
             
-            <h2 class="section-title animate-on-scroll">Here's what we've been up to lately</h2>
+            <div class="about-right">
+                <a href="#contact" class="button dark">
+                    Contact me
+                    <span class="arrow"></span>
+                </a>
+                
+                <p>I know life inside hospitality and nightlife can be challenging, and - like you - I embrace it. At Projekt AI, I pair my refined technical process with 20 years of industry experience to establish genuine partnerships. I work closely with my clients and act as an extension of your team, giving form to new ideas and creative ways to achieve clarity in automation projects.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Clients Section -->
+<section class="clients-section">
+    <div class="container">
+        <div class="clients-label">FEATURED CLIENTS</div>
+        
+        <!-- Client Logos Grid -->
+        <div class="clients-grid">
+            <div class="client-logo">
+                <img src="assets/img/uploads/1.png" alt="Client Logo 1" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/2.png" alt="Client Logo 2" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/3.png" alt="Client Logo 3" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/4.png" alt="Client Logo 4" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/5.png" alt="Client Logo 5" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Work Section -->
+<section class="work-section">
+    <div class="container">
+        <div class="work-header">
+            <h2>Here's what I've been up to lately</h2>
             
-            <div class="portfolio-intro animate-on-scroll">
+            <div class="work-intro">
                 <p>I love working with passionate venues, promoters, and hospitality businesses.</p>
-                <p>I work with my clients from initial automation strategy, right through to design, development and final deployment of their solutions. I focus on building intelligent systems that understand the unique challenges of the nightlife and hospitality industries.</p>
+                <p>I work with my clients from initial automation strategy, right through to design, development and final deployment of their solutions. I focus on building innovative digital experiences and exceptional automation outcomes.</p>
             </div>
-
-            <div class="portfolio-grid stagger-group">
-                <div class="portfolio-item animate-on-scroll">
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card large">
+                <div class="project-overlay">
                     <h3>Club77 Content Pipeline</h3>
-                    <p><strong>Nightlife Venue</strong><br>
-                    Automated Instagram content creation and social media management system. Generates event promotions, manages guest lists, and tracks engagement metrics. 400% efficiency increase in social content production.</p>
-                    <a href="club77-automation.html" class="btn">View Case Study</a>
-                </div>
-
-                <div class="portfolio-item animate-on-scroll">
-                    <h3>Music Venue Email Automation</h3>
-                    <p><strong>Live Music Venue</strong><br>
-                    AI-powered customer segmentation and event marketing automation. Automated ticket sales follow-ups, VIP communications, and post-event engagement. 300% increase in email revenue.</p>
-                    <a href="#" class="btn">View Case Study</a>
-                </div>
-
-                <div class="portfolio-item animate-on-scroll">
-                    <h3>Event Promoter Workflow Suite</h3>
-                    <p><strong>Electronic Music Promoter</strong><br>
-                    End-to-end event management automation from artist booking to post-event analysis. Integrates social media, ticketing, and CRM systems. Reduced admin time by 60%.</p>
-                    <a href="#" class="btn">View Case Study</a>
-                </div>
-
-                <div class="portfolio-item animate-on-scroll">
-                    <h3>Restaurant Social Media AI</h3>
-                    <p><strong>Multi-Location Restaurant Group</strong><br>
-                    AI-powered content creation system generating location-specific social media posts, menu promotions, and customer engagement campaigns. Scales content across 12 locations.</p>
-                    <a href="#" class="btn">View Case Study</a>
-                </div>
-
-                <div class="portfolio-item animate-on-scroll">
-                    <h3>Booking System Integration</h3>
-                    <p><strong>Hospitality Management</strong><br>
-                    Unified booking and operations hub connecting reservation systems, staff scheduling, and customer communications. Real-time sync across multiple venues and platforms.</p>
-                    <a href="#" class="btn">View Case Study</a>
-                </div>
-
-                <div class="portfolio-item animate-on-scroll">
-                    <h3>Festival Data Analytics</h3>
-                    <p><strong>Music Festival Organization</strong><br>
-                    Real-time insights and predictive analytics system for festival operations. Tracks attendance, vendor performance, and customer sentiment. Improved operations efficiency by 45%.</p>
-                    <a href="#" class="btn">View Case Study</a>
+                    <p>Nightlife Venue</p>
                 </div>
             </div>
-
-            <div class="animate-on-scroll" style="text-align: center; margin-top: 4rem;">
-                <a href="#contact" class="btn">View all work</a>
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Venue Email Automation</h3>
+                    <p>Live Music Venue</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Event Promoter Suite</h3>
+                    <p>Electronic Music Promoter</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Restaurant Social AI</h3>
+                    <p>Multi-Location Restaurant</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-overlay">
+                    <h3>Booking Integration</h3>
+                    <p>Hospitality Management</p>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Contact Section - Dark background like Extra Medium -->
-    <section class="contact-section section animate-on-scroll" id="contact">
-        <div class="container">
-            <h2 class="animate-on-scroll">You've made it this far. Let's chat?</h2>
-            <a href="mailto:tim@projekt-ai.net" class="btn animate-on-scroll">Contact me</a>
-            
-            <p class="contact-tagline animate-on-scroll">Whether you know a little or a lot about your next venue automation project, want to collaborate, have questions about my services, or simply want to say hi - drop me a line.</p>
-            
-            <p class="animate-on-scroll" style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">I LOVE WORKING WITH PASSIONATE VENUES AND HOSPITALITY BUSINESSES</p>
-            
-            <a href="mailto:tim@projekt-ai.net" class="btn animate-on-scroll">Contact me</a>
-        </div>
-    </section>
+<!-- Contact Section -->
+<section class="contact-section">
+    <div class="container">
+        <h2>You've made it this far. Let's chat?</h2>
+        
+        <a href="mailto:tim@projekt-ai.net" class="button">
+            Contact me
+            <span class="arrow"></span>
+        </a>
+        
+        <p>Whether you know a little or a lot about your next automation project, want to collaborate, have questions about my services, or simply want to say hi - drop me a line.</p>
+    </div>
+</section>
 
-    <!-- Final Contact - Light background -->
-    <section class="section section-light animate-on-scroll">
-        <div class="container" style="text-align: center;">
-            <h2 class="animate-on-scroll"><a href="mailto:tim@projekt-ai.net" class="contact-email" style="color: #000;">tim@projekt-ai.net</a></h2>
-            <h3 class="animate-on-scroll" style="color: #000; margin-bottom: 2rem;">Let's collaborate</h3>
-            <p class="contact-tagline animate-on-scroll" style="max-width: 600px; margin: 0 auto; color: #000;">Whether you know a little or a lot about your next automation project, want to collaborate, have questions about my services, or simply want to say hi - drop me a line.</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="section">
-        <div class="container">
-            <div style="border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem; margin-bottom: 3rem;">
-                <p style="text-transform: uppercase; font-size: 0.875rem; color: rgba(255,255,255,0.7); margin: 0;">I LOVE WORKING WITH PASSIONATE VENUES AND HOSPITALITY BUSINESSES</p>
-            </div>
-            
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-bottom: 3rem;">
-                <div>
-                    <h3 style="color: rgba(255,255,255,0.9); margin-bottom: 1rem;">LINKS</h3>
-                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-                        <a href="#work">Work</a>
-                        <a href="#about">About</a>
-                        <a href="#contact">Contact</a>
-                        <a href="https://linkedin.com/in/timpoulton">LinkedIn</a>
-                    </div>
-                </div>
-                <div style="text-align: right;">
-                    <h3 style="color: rgba(255,255,255,0.9); margin-bottom: 1rem;">Let's collaborate</h3>
-                    <p style="color: rgba(255,255,255,0.7);">Whether you know a little or a lot about your next venue automation project, want to collaborate, have questions about my services, or simply want to say hi - drop me a line.</p>
-                </div>
-            </div>
-            
-            <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem; text-align: center;">
-                <p style="color: rgba(255,255,255,0.9); font-weight: 500; margin-bottom: 0.5rem;">Timothy Poulton - Projekt AI®</p>
-                <p style="color: rgba(255,255,255,0.5); font-size: 0.875rem; margin-bottom: 0.5rem;">PROJEKT AI © 2025</p>
-                <p style="color: rgba(255,255,255,0.5); font-size: 0.875rem;">Nightlife & Hospitality Automation Specialist</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Professional Scroll Animations with Intersection Observer
-        document.addEventListener('DOMContentLoaded', function() {
-            // Intersection Observer for scroll animations
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animate');
-                        // Optional: stop observing after animation
-                        // observer.unobserve(entry.target);
-                    }
-                });
-            }, observerOptions);
-
-            // Observe all elements with animation classes
-            const animateElements = document.querySelectorAll('.animate-on-scroll, .animate-fade, .animate-slide-left');
-            animateElements.forEach(element => {
-                observer.observe(element);
-            });
-
-            // Enhanced hover effects for portfolio items
-            const portfolioItems = document.querySelectorAll('.portfolio-item');
-            portfolioItems.forEach(item => {
-                item.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-8px) scale(1.02)';
-                });
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>I LOVE WORKING WITH PASSIONATE VENUES AND HOSPITALITY BUSINESSES</h3>
                 
-                item.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(0) scale(1)';
-                });
-            });
-
-            // Enhanced button hover effects
-            const buttons = document.querySelectorAll('.btn');
-            buttons.forEach(button => {
-                button.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-3px) scale(1.05)';
-                });
+                <a href="mailto:tim@projekt-ai.net" class="button">
+                    Contact me
+                    <span class="arrow"></span>
+                </a>
                 
-                button.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(0) scale(1)';
-                });
-            });
-
-            // Smooth scroll for navigation links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
-                });
-            });
-
-            // Mobile menu toggle (if needed)
-            const menuToggle = document.querySelector('.menu-toggle');
-            const navLinks = document.querySelector('.nav-links');
+                <a href="mailto:tim@projekt-ai.net" class="footer-email">TIM@PROJEKT-AI.NET</a>
+            </div>
             
-            if (menuToggle && navLinks) {
-                menuToggle.addEventListener('click', function() {
-                    navLinks.classList.toggle('open');
-                    this.textContent = navLinks.classList.contains('open') ? '✕' : '☰';
-                });
-            }
+            <div class="footer-right">
+                <h3>Let's collaborate</h3>
+                <p>Whether you know a little or a lot about your next automation project, want to collaborate, have questions about my services, or simply want to say hi - drop me a line.</p>
+            </div>
+        </div>
+        
+        <div class="footer-links">
+            <h4>LINKS</h4>
+            <nav class="footer-nav">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><strong>Timothy Poulton - Projekt AI®</strong></p>
+            <p>PROJEKT AI © 2025</p>
+        </div>
+    </div>
+</footer>
 
-            console.log('🎨 Projekt AI - Professional animations loaded');
-        });
-
-        // Hero text reveal animation
-        window.addEventListener('load', function() {
-            const heroTitle = document.querySelector('.hero-title');
-            if (heroTitle) {
-                heroTitle.style.animation = 'fadeInUp 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both';
+<script>
+// Header Color Change on Scroll
+function handleHeaderScroll() {
+    const header = document.querySelector('header');
+    const logo = document.querySelector('.logo');
+    const menuToggle = document.querySelector('.menu-toggle');
+    
+    // Define light background sections
+    const lightSections = [
+        document.querySelector('.about-section'),
+        document.querySelector('.clients-section')
+    ];
+    
+    const scrollY = window.scrollY;
+    const headerHeight = header.offsetHeight;
+    
+    let isOverLightSection = false;
+    
+    // Check if header is over any light section
+    lightSections.forEach(section => {
+        if (section) {
+            const sectionTop = section.offsetTop;
+            const sectionBottom = sectionTop + section.offsetHeight;
+            
+            if (scrollY + headerHeight > sectionTop && scrollY < sectionBottom) {
+                isOverLightSection = true;
             }
-        });
-    </script>
+        }
+    });
+    
+    // Apply dark class when over light sections
+    if (isOverLightSection) {
+        header.classList.add('dark');
+        logo.classList.add('dark');
+        menuToggle.classList.add('dark');
+    } else {
+        header.classList.remove('dark');
+        logo.classList.remove('dark');
+        menuToggle.classList.remove('dark');
+    }
+}
+
+// Menu Functionality
+function initializeMenu() {
+    const menuToggle = document.getElementById('menuToggle');
+    const slideMenu = document.getElementById('slideMenu');
+    const menuOverlay = document.getElementById('menuOverlay');
+    const closeMenu = document.getElementById('closeMenu');
+    
+    function openMenu() {
+        slideMenu.classList.add('active');
+        menuOverlay.classList.add('active');
+        menuToggle.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closeMenuFunc() {
+        slideMenu.classList.remove('active');
+        menuOverlay.classList.remove('active');
+        menuToggle.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    menuToggle.addEventListener('click', openMenu);
+    closeMenu.addEventListener('click', closeMenuFunc);
+    menuOverlay.addEventListener('click', closeMenuFunc);
+    
+    // Close menu when clicking on menu links
+    const menuLinks = document.querySelectorAll('.menu-nav a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', closeMenuFunc);
+    });
+}
+
+// Initialize everything when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize menu
+    initializeMenu();
+    
+    // Handle scroll for header color changes
+    window.addEventListener('scroll', handleHeaderScroll);
+    
+    // Initial check
+    handleHeaderScroll();
+});
+</script>
+
 </body>
 </html> 
