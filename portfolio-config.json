@@ -1,0 +1,134 @@
+{
+  "portfolio_system": {
+    "version": "1.0.0",
+    "last_updated": "2025-05-31",
+    "base_url": "https://projekt-ai.net",
+    "template_version": "dark_theme_v1"
+  },
+  "global_settings": {
+    "theme": "dark",
+    "brand_colors": {
+      "primary": "#1dd1a1",
+      "background": "#000",
+      "text_primary": "#fff",
+      "text_secondary": "rgba(255,255,255,0.8)",
+      "card_background": "rgba(255,255,255,0.05)",
+      "border": "rgba(255,255,255,0.1)"
+    },
+    "typography": {
+      "font_family": "Inter",
+      "heading_sizes": {
+        "h1": "clamp(48px, 6vw, 72px)",
+        "h2": "clamp(36px, 4.5vw, 56px)",
+        "h3": "24px",
+        "h4": "20px"
+      }
+    },
+    "spacing": {
+      "section_padding": "140px",
+      "grid_gaps": "120px",
+      "card_gaps": "48px"
+    }
+  },
+  "portfolio_projects": [
+    {
+      "id": "club77_content_pipeline",
+      "status": "live",
+      "title": "Club77 Content Pipeline",
+      "client": "Club77 Adelaide",
+      "category": "AI Content Generation",
+      "description": "AI-powered blog post generation and automated social media content creation system",
+      "short_description": "AI Content Generation & Social Media Automation",
+      "services": [
+        "AI Content Generation",
+        "Workflow Automation", 
+        "Social Media Integration",
+        "Content Management Systems",
+        "API Development"
+      ],
+      "live_url": "https://guestlist.club77.com.au",
+      "portfolio_url": "/club77-content-pipeline.html",
+      "featured": true,
+      "card_size": "large",
+      "header_image": "assets/img/uploads/portfolio_header_image.jpg",
+      "process_steps": [
+        {
+          "number": "01",
+          "title": "Content Strategy & Analysis",
+          "description": "Analyzed Club77's existing content, brand voice, and audience engagement patterns. Developed content templates and guidelines that maintain consistency while allowing for creative variation in automated posts."
+        },
+        {
+          "number": "02", 
+          "title": "AI Model Training & Integration",
+          "description": "Configured and fine-tuned AI models to understand Club77's unique brand voice, event types, and target audience. Integrated with OpenAI's GPT models for natural language generation with custom prompts and guardrails."
+        },
+        {
+          "number": "03",
+          "title": "Automation Pipeline Development", 
+          "description": "Built a comprehensive automation system using n8n workflows that connects event data, generates content, formats posts for different platforms, and schedules publication across Instagram, Facebook, and the website blog."
+        },
+        {
+          "number": "04",
+          "title": "Quality Control & Deployment",
+          "description": "Implemented content review workflows, A/B testing for engagement optimization, and performance monitoring. Deployed the system with comprehensive logging and the ability for manual override when needed."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Intelligent Content Generation",
+          "description": "The system generates contextually relevant blog posts and social media content based on event data, weather, local trends, and historical engagement patterns. AI models are trained on Club77's brand voice and automatically adapt content tone for different platforms - from professional blog posts to engaging Instagram captions. Content includes automatic hashtag generation, call-to-actions, and cross-platform optimization."
+        },
+        {
+          "title": "Multi-Platform Automation",
+          "description": "Seamless integration with Instagram, Facebook, and Club77's website blog ensures consistent messaging across all channels. The system automatically formats content for each platform's requirements, schedules posts for optimal engagement times, and maintains a content calendar that prevents conflicts or overlap. Each piece of content is optimized for platform-specific best practices."
+        },
+        {
+          "title": "Performance & Analytics", 
+          "description": "Since implementation, Club77 has seen a 300% increase in content consistency, 75% reduction in content creation time, and 40% improvement in social media engagement rates. The system generates detailed analytics on content performance, suggesting optimizations and learning from successful posts to improve future content generation."
+        }
+      ],
+      "challenge": "Club77 needed consistent, engaging content across multiple social media platforms to maintain their position as Adelaide's premier nightlife destination. Manual content creation was time-consuming and inconsistent, taking valuable time away from event planning and venue operations. The team needed a solution that could generate high-quality blog posts and social media content automatically while maintaining their distinctive brand voice.",
+      "approach": "I developed an intelligent automation pipeline that combines AI content generation with Club77's event data and brand guidelines. The system automatically creates blog posts, social media captions, and promotional content based on upcoming events, venue updates, and industry trends. The solution integrates seamlessly with their existing workflows and maintains consistent brand messaging across all platforms.",
+      "results": [
+        "300% increase in content consistency",
+        "75% reduction in content creation time", 
+        "40% improvement in social media engagement rates",
+        "Automated content calendar management",
+        "Cross-platform optimization and scheduling"
+      ],
+      "technologies": ["OpenAI GPT", "n8n Workflows", "Instagram API", "Facebook API", "Content Management"],
+      "project_date": "2024",
+      "project_duration": "3 months",
+      "created_at": "2025-05-31",
+      "updated_at": "2025-05-31"
+    }
+  ],
+  "portfolio_templates": {
+    "dark_theme_v1": {
+      "name": "Dark Theme Portfolio",
+      "description": "Professional dark theme with glass morphism cards",
+      "template_file": "templates/portfolio-dark-theme.html",
+      "css_file": "templates/portfolio-dark-theme.css",
+      "required_fields": [
+        "title", "client", "description", "services", "process_steps", "highlights"
+      ],
+      "optional_fields": [
+        "live_url", "header_image", "challenge", "approach", "results"
+      ]
+    }
+  },
+  "deployment": {
+    "staging_url": "http://localhost:9000",
+    "production_url": "https://projekt-ai.net",
+    "auto_deploy": true,
+    "build_command": "npm run build:portfolio",
+    "deploy_command": "npm run deploy:portfolio"
+  },
+  "seo": {
+    "default_meta": {
+      "author": "Timothy Poulton - Projekt AI",
+      "keywords": "automation, AI, hospitality, nightlife, content generation",
+      "og_image": "assets/img/og-portfolio-default.jpg"
+    }
+  }
+} 
