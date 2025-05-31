@@ -84,11 +84,22 @@ async function syncLogos() {
         
         // Find logo components
         const logoComponents = [];
+        const allComponents = [];
         
         function findLogoComponents(node) {
-            if (node.type === 'COMPONENT' && node.name) {
+            // Look for both components and frames
+            if ((node.type === 'COMPONENT' || node.type === 'FRAME') && node.name) {
+                allComponents.push({
+                    id: node.id,
+                    name: node.name,
+                    type: node.type
+                });
+                
                 const name = node.name.toLowerCase();
-                if (name.includes('logo') || name.includes('icon') || name.includes('brand')) {
+                // More flexible search criteria
+                if (name.includes('logo') || name.includes('icon') || name.includes('brand') || 
+                    name.includes('projekt') || name.includes('ai') || name.includes('monochrome') || 
+                    name.includes('color')) {
                     logoComponents.push({
                         id: node.id,
                         name: node.name
@@ -103,9 +114,14 @@ async function syncLogos() {
         
         fileData.document.children.forEach(findLogoComponents);
         
+        console.log(`🔍 Found ${allComponents.length} total components in file:`);
+        allComponents.forEach(comp => console.log(`   • ${comp.name} (${comp.type})`));
+        console.log('');
+        
         if (logoComponents.length === 0) {
-            console.log('⚠️ No logo components found!');
-            console.log('💡 Make sure component names include "logo", "icon", or "brand"');
+            console.log('⚠️ No logo components found with current search criteria!');
+            console.log('💡 Searched for names containing: logo, icon, brand, projekt, ai, monochrome, color');
+            console.log('📋 All available components are listed above');
             return;
         }
         
