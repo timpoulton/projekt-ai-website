@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <style>
-        /* PORTFOLIO PROJECT TEMPLATE - EXTRA MEDIUM INSPIRED */
+        /* DARK THEME PORTFOLIO - PROJEKT AI DESIGN */
         * {
             margin: 0;
             padding: 0;
@@ -19,29 +19,30 @@
         html, body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: #fff;
+            color: #fff;
+            background: #000;
             overflow-x: hidden;
         }
 
-        /* Container */
+        /* Container - Dark Theme */
         .container {
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 60px;
         }
 
-        /* Header - Consistent with main site */
+        /* Header - Dark Theme */
         header {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(0, 0, 0, 0.95);
             backdrop-filter: blur(20px);
             z-index: 1000;
             padding: 40px 0;
             transition: all 0.3s ease;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         nav {
@@ -53,9 +54,13 @@
         .logo {
             font-size: 20px;
             font-weight: 500;
-            color: #333;
+            color: #fff;
             text-decoration: none;
             letter-spacing: 0.02em;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            align-items: center;
+            transition: color 0.3s ease;
         }
 
         .nav-links {
@@ -65,7 +70,7 @@
         }
 
         .nav-links a {
-            color: #333;
+            color: #fff;
             text-decoration: none;
             font-size: 16px;
             font-weight: 400;
@@ -77,23 +82,78 @@
         }
 
         .back-link {
-            color: #666;
+            color: rgba(255, 255, 255, 0.7);
             text-decoration: none;
-            font-size: 14px;
+            font-size: 16px;
             display: flex;
             align-items: center;
             gap: 8px;
             transition: color 0.3s ease;
+            font-weight: 400;
         }
 
         .back-link:hover {
             color: #1dd1a1;
         }
 
-        /* Hero Section */
+        /* Button - Dark Theme */
+        .button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 32px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            background: transparent;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background: rgba(29, 209, 161, 0.1);
+            border-color: #1dd1a1;
+            transform: translateY(-2px);
+            color: #1dd1a1;
+        }
+
+        .arrow::after {
+            content: '→';
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .button:hover .arrow::after {
+            transform: translateX(4px);
+        }
+
+        /* Hero Section with Header Image - Dark Theme */
         .project-hero {
-            padding: 180px 0 120px;
-            background: #f9f9f9;
+            padding: 140px 0 0;
+            background: #000;
+        }
+
+        .header-image {
+            width: 100%;
+            height: 60vh;
+            background-image: url('assets/img/uploads/portfolio_header_image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            margin-bottom: 100px;
+        }
+
+        .header-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.9));
+            padding: 80px 0 60px;
         }
 
         .hero-content {
@@ -101,58 +161,50 @@
             grid-template-columns: 2fr 1fr;
             gap: 120px;
             align-items: start;
+            padding: 0 0 140px;
         }
 
         .hero-left h1 {
             font-size: clamp(48px, 6vw, 72px);
             font-weight: 400;
             line-height: 1.1;
-            color: #333;
-            margin-bottom: 24px;
+            color: #fff;
+            margin-bottom: 32px;
             letter-spacing: -0.02em;
         }
 
         .hero-left .subtitle {
-            font-size: 20px;
-            color: #666;
+            font-size: 17px;
+            color: rgba(255, 255, 255, 0.8);
             font-weight: 400;
             margin-bottom: 48px;
+            line-height: 1.6;
         }
 
-        .collaboration {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            margin-bottom: 32px;
-        }
-
-        .collaboration span {
-            font-size: 14px;
-            color: #999;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
-
-        .collaboration .client {
+        .client-name {
             font-size: 16px;
-            color: #333;
+            color: #1dd1a1;
             font-weight: 500;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
         }
 
         .hero-right .services {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 16px;
             padding: 40px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+            backdrop-filter: blur(20px);
         }
 
         .services h3 {
-            font-size: 14px;
+            font-size: 11px;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #999;
-            margin-bottom: 24px;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 32px;
         }
 
         .services ul {
@@ -161,8 +213,8 @@
 
         .services li {
             font-size: 16px;
-            color: #333;
-            margin-bottom: 12px;
+            color: #fff;
+            margin-bottom: 16px;
             font-weight: 400;
         }
 
@@ -182,105 +234,116 @@
             transform: translateX(4px);
         }
 
-        /* Project Image */
+        .live-link::after {
+            content: '→';
+        }
+
+        /* Project Image - Dark Theme */
         .project-image {
-            padding: 80px 0;
+            padding: 100px 0;
+            background: #000;
         }
 
         .project-image img {
             width: 100%;
             border-radius: 16px;
-            box-shadow: 0 8px 48px rgba(0,0,0,0.12);
+            box-shadow: 0 8px 48px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
-        /* Overview Section */
-        .overview-section {
-            padding: 120px 0;
-            background: #f9f9f9;
-        }
-
+        /* Section Headers - Dark Theme */
         .section-header {
             display: grid;
             grid-template-columns: 1fr 2fr;
             gap: 120px;
-            margin-bottom: 80px;
+            margin-bottom: 100px;
         }
 
         .section-title {
-            font-size: 14px;
+            font-size: 11px;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #999;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Overview Section - Dark Theme */
+        .overview-section {
+            padding: 140px 0;
+            background: #111;
         }
 
         .overview-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 80px;
+            gap: 120px;
         }
 
         .overview-content h3 {
             font-size: 24px;
             font-weight: 500;
-            color: #333;
+            color: #fff;
             margin-bottom: 24px;
         }
 
         .overview-content p {
-            font-size: 16px;
+            font-size: 17px;
             line-height: 1.6;
-            color: #666;
+            color: rgba(255, 255, 255, 0.8);
         }
 
-        /* Process Section */
+        /* Process Section - Dark Theme */
         .process-section {
-            padding: 120px 0;
+            padding: 140px 0;
+            background: #000;
         }
 
         .process-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 48px;
-            margin-top: 80px;
         }
 
         .process-item {
             padding: 40px;
-            background: #f9f9f9;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 16px;
+            backdrop-filter: blur(20px);
         }
 
         .process-number {
-            font-size: 14px;
+            font-size: 11px;
             font-weight: 600;
             color: #1dd1a1;
             margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
         }
 
         .process-item h4 {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 500;
-            color: #333;
+            color: #fff;
             margin-bottom: 16px;
         }
 
         .process-item p {
-            font-size: 15px;
+            font-size: 17px;
             line-height: 1.6;
-            color: #666;
+            color: rgba(255, 255, 255, 0.8);
         }
 
-        /* Highlights Section */
+        /* Highlights Section - Dark Theme */
         .highlights-section {
-            padding: 120px 0;
-            background: #f9f9f9;
+            padding: 140px 0;
+            background: #111;
         }
 
         .highlight-item {
-            margin-bottom: 80px;
-            padding-bottom: 80px;
-            border-bottom: 1px solid #e6e6e6;
+            margin-bottom: 100px;
+            padding-bottom: 100px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .highlight-item:last-child {
@@ -292,126 +355,110 @@
         .highlight-content {
             display: grid;
             grid-template-columns: 1fr 2fr;
-            gap: 80px;
+            gap: 120px;
             align-items: start;
         }
 
         .highlight-content h3 {
             font-size: 24px;
             font-weight: 500;
-            color: #333;
+            color: #fff;
             margin-bottom: 24px;
         }
 
         .highlight-content p {
-            font-size: 16px;
+            font-size: 17px;
             line-height: 1.6;
-            color: #666;
+            color: rgba(255, 255, 255, 0.8);
         }
 
-        /* Related Projects Section */
+        /* Related Projects Section - Dark Theme */
         .related-section {
-            padding: 120px 0;
+            padding: 140px 0;
+            background: #000;
         }
 
         .related-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 32px;
-            margin-top: 80px;
+            gap: 24px;
         }
 
         .related-card {
-            background: #f9f9f9;
+            aspect-ratio: 4/3;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 16px;
             overflow: hidden;
             transition: transform 0.3s ease;
             text-decoration: none;
             color: inherit;
+            position: relative;
+            backdrop-filter: blur(20px);
         }
 
         .related-card:hover {
-            transform: translateY(-8px);
+            transform: translateY(-4px);
+            border-color: rgba(29, 209, 161, 0.3);
         }
 
-        .related-card img {
-            width: 100%;
-            height: 240px;
-            object-fit: cover;
-        }
-
-        .related-card-content {
+        .project-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.9));
             padding: 32px;
+            color: #fff;
         }
 
-        .related-card h4 {
+        .project-overlay h4 {
             font-size: 18px;
             font-weight: 500;
-            color: #333;
             margin-bottom: 8px;
         }
 
-        .related-card p {
+        .project-overlay p {
             font-size: 14px;
-            color: #666;
+            opacity: 0.8;
+            font-weight: 400;
             margin-bottom: 16px;
         }
 
-        .related-card .view-link {
+        .project-overlay .view-link {
             font-size: 14px;
             color: #1dd1a1;
             font-weight: 500;
         }
 
-        /* Contact Section */
+        /* Contact Section - Dark Theme */
         .contact-section {
             background: #1a1a1a;
-            padding: 120px 0;
+            padding: 140px 0;
             text-align: center;
         }
 
         .contact-section h2 {
-            font-size: clamp(36px, 5vw, 56px);
+            font-size: clamp(48px, 7vw, 88px);
             font-weight: 400;
-            line-height: 1.2;
+            line-height: 1.05;
             color: #fff;
-            margin-bottom: 48px;
-            letter-spacing: -0.02em;
+            margin-bottom: 64px;
+            letter-spacing: -0.025em;
         }
 
         .contact-section p {
-            font-size: 18px;
+            font-size: 17px;
             line-height: 1.6;
             color: rgba(255, 255, 255, 0.8);
             max-width: 640px;
-            margin: 0 auto 48px;
+            margin: 0 auto 64px;
         }
 
-        .button {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            padding: 16px 32px;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50px;
-            background: transparent;
-            color: #fff;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 400;
-            transition: all 0.3s ease;
-        }
-
-        .button:hover {
-            background: rgba(29, 209, 161, 0.1);
-            border-color: #1dd1a1;
-            transform: translateY(-2px);
-        }
-
-        /* Footer */
+        /* Footer - Dark Theme */
         .footer {
-            background: #1a1a1a;
-            padding: 60px 0;
+            background: #000;
+            padding: 100px 0 60px;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
 
@@ -442,10 +489,10 @@
             color: #1dd1a1;
         }
 
-        /* Mobile Responsive */
+        /* Mobile Responsive - Dark Theme */
         @media (max-width: 768px) {
             .container {
-                padding: 0 24px;
+                padding: 0 20px;
             }
 
             .hero-content,
@@ -465,7 +512,12 @@
             }
 
             .project-hero {
-                padding: 140px 0 80px;
+                padding: 120px 0 0;
+            }
+
+            .header-image {
+                height: 40vh;
+                margin-bottom: 60px;
             }
 
             .process-grid {
@@ -478,7 +530,14 @@
                 text-align: center;
             }
         }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 20px;
+            }
+        }
     </style>
+    <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
 </head>
 <body>
 
@@ -495,21 +554,24 @@
     </nav>
 </header>
 
-<!-- Project Hero -->
+<!-- Project Hero with Header Image -->
 <section class="project-hero">
+    <div class="header-image">
+        <div class="header-overlay">
+            <div class="container">
+                <div class="client-name">Club77 Adelaide</div>
+                <h1>Club77 Content Pipeline</h1>
+            </div>
+        </div>
+    </div>
+    
     <div class="container">
         <div class="hero-content">
             <div class="hero-left">
-                <div class="collaboration">
-                    <span>In collaboration with</span>
-                    <div class="client">Club77 Adelaide</div>
-                </div>
-                
-                <h1>Club77 Content Pipeline</h1>
                 <p class="subtitle">AI-powered blog post generation and automated social media content creation system that transforms how Adelaide's premier nightlife venue engages with their audience.</p>
                 
                 <a href="https://guestlist.club77.com.au" class="live-link" target="_blank">
-                    Visit live project →
+                    Visit live project
                 </a>
             </div>
             
@@ -631,8 +693,7 @@
         
         <div class="related-grid">
             <a href="club77-guestlist-automation.html" class="related-card">
-                <img src="assets/img/projects/club77-guestlist-thumb.jpg" alt="Club77 Guestlist Automation" />
-                <div class="related-card-content">
+                <div class="project-overlay">
                     <h4>Club77 Guestlist System</h4>
                     <p>Nightlife Venue</p>
                     <span class="view-link">View Case Study</span>
@@ -640,8 +701,7 @@
             </a>
             
             <a href="venue-email-automation.html" class="related-card">
-                <img src="assets/img/projects/email-automation-thumb.jpg" alt="Venue Email Automation" />
-                <div class="related-card-content">
+                <div class="project-overlay">
                     <h4>Venue Email Automation</h4>
                     <p>Live Music Venue</p>
                     <span class="view-link">View Case Study</span>
@@ -649,8 +709,7 @@
             </a>
             
             <a href="promoter-suite.html" class="related-card">
-                <img src="assets/img/projects/promoter-suite-thumb.jpg" alt="Event Promoter Suite" />
-                <div class="related-card-content">
+                <div class="project-overlay">
                     <h4>Event Promoter Suite</h4>
                     <p>Electronic Music Promoter</p>
                     <span class="view-link">View Case Study</span>
@@ -665,7 +724,10 @@
     <div class="container">
         <h2>Ready to automate your content creation?</h2>
         <p>Whether you're a venue, promoter, or hospitality business looking to streamline your content workflow, I can help you build intelligent automation solutions that maintain your brand voice while saving time and increasing engagement.</p>
-        <a href="mailto:tim@projekt-ai.net" class="button">Contact me</a>
+        <a href="mailto:tim@projekt-ai.net" class="button">
+            Contact me
+            <span class="arrow"></span>
+        </a>
     </div>
 </section>
 
