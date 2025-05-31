@@ -420,23 +420,30 @@
 
         .clients-grid {
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            gap: 16px;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 40px;
             align-items: center;
+            justify-items: center;
+            padding: 0 20px;
         }
 
         .client-logo {
-            font-size: 15px;
-            font-weight: 500;
-            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
             text-align: center;
-            padding: 16px 8px;
-            border-radius: 8px;
-            transition: all 0.3s ease;
+            transition: none;
         }
 
-        .client-logo:hover {
-            background: rgba(0, 0, 0, 0.02);
+        .client-logo img {
+            max-height: 120px !important;
+            max-width: 280px !important;
+            width: auto;
+            height: auto;
+            opacity: 0.9 !important;
+            object-fit: contain !important;
+            filter: grayscale(100%) !important;
         }
 
         /* Work Section - Enhanced Spacing */
@@ -887,19 +894,19 @@ function switchVideo(videoFile) {
         <!-- Client Logos Grid -->
         <div class="clients-grid">
             <div class="client-logo">
-                <img src="assets/img/uploads/1.png" alt="Client Logo 1" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+                <img src="assets/img/uploads/1.png" alt="Client Logo 1">
             </div>
             <div class="client-logo">
-                <img src="assets/img/uploads/2.png" alt="Client Logo 2" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+                <img src="assets/img/uploads/2.png" alt="Client Logo 2">
             </div>
             <div class="client-logo">
-                <img src="assets/img/uploads/3.png" alt="Client Logo 3" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+                <img src="assets/img/uploads/3.png" alt="Client Logo 3">
             </div>
             <div class="client-logo">
-                <img src="assets/img/uploads/4.png" alt="Client Logo 4" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+                <img src="assets/img/uploads/4.png" alt="Client Logo 4">
             </div>
             <div class="client-logo">
-                <img src="assets/img/uploads/5.png" alt="Client Logo 5" style="max-height: 80px; max-width: 240px; opacity: 0.9; object-fit: contain; filter: grayscale(100%);">
+                <img src="assets/img/uploads/5.png" alt="Client Logo 5">
             </div>
         </div>
     </div>
