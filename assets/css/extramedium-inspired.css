@@ -289,14 +289,17 @@ nav {
 /* LOGO SYSTEM - Professional sizing */
 .logo-image {
     object-fit: contain;
-    height: 60px;
+    height: 40px;
     width: auto;
+    max-width: 200px;
+    max-height: 50px;
     transition: all var(--transition-smooth);
 }
 
 @media (min-width: 768px) {
     .logo-image {
-        height: 70px;
+        height: 45px;
+        max-height: 60px;
     }
 }
 

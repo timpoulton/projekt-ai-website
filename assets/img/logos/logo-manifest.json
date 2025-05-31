@@ -1,76 +1,26 @@
 {
-  "sync_date": "2025-05-31T00:25:03.894Z",
-  "figma_file_id": "m1q2uLdTauiOPvzQx0yV7B",
+  "sync_date": "2025-05-31T02:04:52.275Z",
+  "figma_file_id": "DegzkaFinaMjSokEJoNC6w",
   "components": [
     {
       "name": "Favicon",
       "filename": "favicon.png",
-      "figma_id": "2007:87"
+      "figma_id": "2:31"
     },
     {
-      "name": "Dark Logo",
-      "filename": "dark-logo.png",
-      "figma_id": "2008:18"
+      "name": "Header Logo",
+      "filename": "header-logo.png",
+      "figma_id": "2:24"
     },
     {
-      "name": "MONOCHROME",
-      "filename": "monochrome.png",
-      "figma_id": "2022:27"
+      "name": "Header Logo Light",
+      "filename": "header-logo-light.png",
+      "figma_id": "2:22"
     },
     {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2011:58"
-    },
-    {
-      "name": "LOGO ICON",
+      "name": "Logo Icon",
       "filename": "logo-icon.png",
-      "figma_id": "2024:33"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:73"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:71"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:70"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:69"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:68"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:67"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:72"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:74"
-    },
-    {
-      "name": "Light Logo",
-      "filename": "light-logo.png",
-      "figma_id": "2025:76"
+      "figma_id": "2:27"
     }
   ]
 }
