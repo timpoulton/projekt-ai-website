@@ -1,0 +1,617 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Projekt AI - Timothy Poulton</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="Projekt AI creates intelligent automation solutions for hospitality and nightlife businesses. Timothy Poulton - 20+ years industry experience." />
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* PROFESSIONAL TEMPLATE - HTML5 UP INSPIRED */
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: "Source Sans Pro", Helvetica, sans-serif;
+            font-size: 16pt;
+            font-weight: 300;
+            line-height: 1.75;
+            color: #39454b;
+            background: #fff;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            color: #3c4449;
+            font-weight: 300;
+            line-height: 1.5;
+            margin: 0 0 1rem 0;
+        }
+
+        h1 { font-size: 2.5rem; }
+        h2 { font-size: 2rem; }
+        h3 { font-size: 1.35rem; }
+        h4 { font-size: 1.1rem; }
+        h5 { font-size: 0.9rem; }
+        h6 { font-size: 0.7rem; }
+
+        p { margin: 0 0 2rem 0; }
+
+        strong, b { font-weight: 600; }
+
+        /* Containers */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .wrapper {
+            padding: 6rem 0;
+        }
+
+        .wrapper.style1 { background: #fff; }
+        .wrapper.style2 { background: #f7f7f7; }
+        .wrapper.style3 { background: #39454b; color: #c5c7c8; }
+        .wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
+            color: #fff;
+        }
+
+        /* Header */
+        #header {
+            background: #fff;
+            padding: 1rem 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 10000;
+            transition: all 0.35s ease-in-out;
+            border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+        }
+
+        #header.alt {
+            background: transparent;
+            border-bottom: none;
+        }
+
+        #header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #header .logo {
+            font-weight: 600;
+            font-size: 1rem;
+            color: #39454b;
+            text-decoration: none;
+        }
+
+        #header .nav {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        #header .nav a {
+            color: #39454b;
+            text-decoration: none;
+            font-weight: 300;
+            transition: color 0.2s ease;
+        }
+
+        #header .nav a:hover {
+            color: #47D3D3;
+        }
+
+        /* Banner */
+        #banner {
+            background: linear-gradient(45deg, #47D3D3, #00B4DB);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+
+        #banner .inner {
+            max-width: 900px;
+            padding: 0 2rem;
+        }
+
+        #banner h1 {
+            font-size: 3.5rem;
+            font-weight: 200;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        #banner p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        /* Buttons - FIXED STYLING */
+        .button {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #47D3D3;
+            border-radius: 0.25rem;
+            color: #47D3D3;
+            cursor: pointer;
+            display: inline-block;
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 600;
+            line-height: 1;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.025rem;
+            transition: all 0.25s ease;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button:hover {
+            background-color: #47D3D3;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        .button.primary {
+            background-color: #47D3D3;
+            color: #fff;
+        }
+
+        .button.primary:hover {
+            background-color: #3bb8b8;
+            transform: translateY(-2px);
+        }
+
+        .button.alt {
+            border-color: #fff;
+            color: #fff;
+        }
+
+        .button.alt:hover {
+            background-color: #fff;
+            color: #47D3D3;
+        }
+
+        /* Grid */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -1rem;
+        }
+
+        .col-4 {
+            width: 33.3333%;
+            padding: 1rem;
+        }
+
+        .col-6 {
+            width: 50%;
+            padding: 1rem;
+        }
+
+        .col-12 {
+            width: 100%;
+            padding: 1rem;
+        }
+
+        /* Sections */
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            font-size: 1.1rem;
+            color: #7f888f;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Features */
+        .feature {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .feature .icon {
+            display: inline-block;
+            width: 5rem;
+            height: 5rem;
+            background: linear-gradient(45deg, #47D3D3, #00B4DB);
+            border-radius: 50%;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+
+        .feature .icon:before {
+            content: "⚡";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            color: #fff;
+        }
+
+        .feature h3 {
+            margin-bottom: 1rem;
+        }
+
+        /* Portfolio */
+        .portfolio-item {
+            background: #fff;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.25s ease;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+        }
+
+        .portfolio-item .category {
+            color: #47D3D3;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .portfolio-item h3 {
+            margin-bottom: 1rem;
+        }
+
+        .portfolio-item p {
+            color: #7f888f;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Stats */
+        .stats {
+            background: #39454b;
+            color: #fff;
+            padding: 4rem 0;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat .number {
+            font-size: 3rem;
+            font-weight: 600;
+            color: #47D3D3;
+            display: block;
+        }
+
+        .stat .label {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+
+        /* Footer */
+        #footer {
+            background: #39454b;
+            color: #c5c7c8;
+            padding: 4rem 0 2rem;
+        }
+
+        #footer .contact {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        #footer .contact h3 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        #footer .contact a {
+            color: #47D3D3;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        #footer .contact a:hover {
+            color: #fff;
+        }
+
+        #footer .social {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        #footer .social a {
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            background: #47D3D3;
+            color: #fff;
+            border-radius: 50%;
+            line-height: 3rem;
+            text-align: center;
+            margin: 0 0.5rem;
+            text-decoration: none;
+            transition: all 0.25s ease;
+        }
+
+        #footer .social a:hover {
+            background: #fff;
+            color: #47D3D3;
+            transform: translateY(-2px);
+        }
+
+        #footer .copyright {
+            text-align: center;
+            border-top: 1px solid #4f5a61;
+            padding-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            #header .nav {
+                display: none;
+            }
+
+            #banner h1 {
+                font-size: 2.5rem;
+            }
+
+            .col-4, .col-6 {
+                width: 100%;
+            }
+
+            .container {
+                padding: 0 1rem;
+            }
+
+            .wrapper {
+                padding: 3rem 0;
+            }
+
+            .section-header h2 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Utility */
+        .text-center { text-align: center; }
+        .mb-4 { margin-bottom: 4rem; }
+        .mt-4 { margin-top: 4rem; }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header id="header" class="alt">
+    <nav class="container">
+        <a href="#" class="logo">Projekt AI®</a>
+        <ul class="nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://linkedin.com/in/timpoulton">LinkedIn</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h1>Intelligent Automation for Hospitality</h1>
+        <p>I create AI-powered solutions that transform how nightlife venues, restaurants, and event promoters operate. 20+ years industry experience meets cutting-edge technology.</p>
+        <div class="actions">
+            <a href="#contact" class="button primary alt">Start a Project</a>
+            <a href="#work" class="button alt">View Work</a>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="wrapper style1">
+    <div class="container">
+        <div class="section-header">
+            <h2>Who I Am</h2>
+            <p>I'm Timothy Poulton, a freelance automation specialist who bridges the gap between hospitality operations and intelligent technology.</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <h3>My Expertise</h3>
+                <p><strong>I specialize in workflow automation, AI integration, system analysis, full-stack development, and strategic consulting.</strong> With 20 years inside hospitality and nightlife, I understand the unique challenges venues face.</p>
+                <p>I work with ambitious venues, promoters, and hospitality groups who want to become great digitally. My approach combines refined technical processes with genuine industry partnerships.</p>
+                <a href="#contact" class="button primary">Let's Collaborate</a>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="feature">
+                            <div class="icon"></div>
+                            <h4>Industry Expertise</h4>
+                            <p>20+ years inside hospitality, nightlife, and events. I know the business.</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="feature">
+                            <div class="icon"></div>
+                            <h4>Technical Excellence</h4>
+                            <p>Full-stack development, AI integration, and process optimization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="stat">
+                    <span class="number">400%</span>
+                    <span class="label">Content Efficiency Increase</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="stat">
+                    <span class="number">60%</span>
+                    <span class="label">Admin Time Reduction</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="stat">
+                    <span class="number">20+</span>
+                    <span class="label">Years Industry Experience</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Work -->
+<section id="work" class="wrapper style2">
+    <div class="container">
+        <div class="section-header">
+            <h2>Recent Projects</h2>
+            <p>I love working with passionate venues, promoters, and hospitality businesses. Here's what we've built together.</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <div class="portfolio-item">
+                    <div class="category">Nightlife Venue</div>
+                    <h3>Club77 Content Pipeline</h3>
+                    <p>Automated Instagram content creation and social media management system. Generates event promotions, manages guest lists, and tracks engagement metrics.</p>
+                    <a href="#" class="button">View Case Study</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="portfolio-item">
+                    <div class="category">Live Music Venue</div>
+                    <h3>Venue Email Automation</h3>
+                    <p>AI-powered customer segmentation and event marketing automation. Automated ticket sales follow-ups and VIP communications.</p>
+                    <a href="#" class="button">View Case Study</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="portfolio-item">
+                    <div class="category">Electronic Music Promoter</div>
+                    <h3>Event Promoter Workflow Suite</h3>
+                    <p>End-to-end event management automation from artist booking to post-event analysis. Integrates social media, ticketing, and CRM systems.</p>
+                    <a href="#" class="button">View Case Study</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="portfolio-item">
+                    <div class="category">Multi-Location Restaurant</div>
+                    <h3>Restaurant Social Media AI</h3>
+                    <p>AI-powered content creation system generating location-specific social media posts, menu promotions, and customer engagement campaigns.</p>
+                    <a href="#" class="button">View Case Study</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="wrapper style3">
+    <div class="container">
+        <div class="section-header">
+            <h2>Let's Build Something Amazing</h2>
+            <p>Whether you know a little or a lot about your next automation project, want to collaborate, or simply want to say hi - I'd love to hear from you.</p>
+        </div>
+        
+        <div class="text-center">
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; text-transform: uppercase; letter-spacing: 0.1rem; font-weight: 600;">I Love Working with Passionate Venues and Hospitality Businesses</p>
+            <a href="mailto:tim@projekt-ai.net" class="button primary alt" style="margin-right: 1rem;">Get In Touch</a>
+            <a href="https://linkedin.com/in/timpoulton" class="button alt">LinkedIn</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="contact">
+            <h3>Ready to Collaborate?</h3>
+            <a href="mailto:tim@projekt-ai.net">tim@projekt-ai.net</a>
+        </div>
+        
+        <div class="social">
+            <a href="https://linkedin.com/in/timpoulton">Li</a>
+            <a href="mailto:tim@projekt-ai.net">✉</a>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Timothy Poulton - Projekt AI®. All rights reserved. | Nightlife & Hospitality Automation Specialist</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+// Header scroll effect
+window.addEventListener('scroll', function() {
+    const header = document.getElementById('header');
+    if (window.scrollY > 50) {
+        header.classList.remove('alt');
+    } else {
+        header.classList.add('alt');
+    }
+});
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+</script>
+
+</body>
+</html> 

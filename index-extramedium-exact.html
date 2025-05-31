@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt AI - AI & Automation Solutions That Actually Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/logos/favicon.png">
+    
+    <style>
+        /* EXACT EXTRA MEDIUM DESIGN REPLICATION */
+        /* Using Timothy's content with Extra Medium's structure */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #000;
+            background: #fff;
+            font-size: 16px;
+        }
+        
+        /* Container - matches Extra Medium's max-width and centering */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Navigation - exact Extra Medium style */
+        header {
+            padding: 20px 0;
+            border-bottom: none;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-weight: 600;
+            font-size: 18px;
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #000;
+            font-weight: 400;
+            transition: opacity 0.2s;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.6;
+        }
+        
+        .cta-button {
+            background: #000;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        
+        .cta-button:hover {
+            opacity: 0.8;
+        }
+        
+        /* Hero Section - Extra Medium's large typography style */
+        .hero {
+            padding: 80px 0 120px;
+            text-align: left;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 40px;
+            max-width: 900px;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+            max-width: 700px;
+            margin-bottom: 40px;
+        }
+        
+        /* About Section - "Who We Are" style from Extra Medium */
+        .about-section {
+            padding: 80px 0;
+            border-top: 1px solid #eee;
+        }
+        
+        .section-header {
+            margin-bottom: 60px;
+        }
+        
+        .section-title {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 40px;
+        }
+        
+        .section-subtitle {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+        
+        .about-text {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #333;
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+        }
+        
+        /* Client Section - matches Extra Medium's client display */
+        .clients-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+        }
+        
+        .clients-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .client-item {
+            text-align: center;
+            font-weight: 500;
+            color: #666;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+        
+        /* Portfolio Section - Extra Medium's "Recent Projects" style */
+        .portfolio-section {
+            padding: 80px 0;
+            border-top: 1px solid #eee;
+        }
+        
+        .portfolio-intro {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+        
+        .portfolio-intro-text {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #333;
+        }
+        
+        .portfolio-intro-text p {
+            margin-bottom: 20px;
+        }
+        
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .portfolio-item {
+            padding: 40px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .portfolio-item h3 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        
+        .portfolio-item .category {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .portfolio-item p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .portfolio-item a {
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .portfolio-item a:hover {
+            opacity: 0.6;
+        }
+        
+        .view-all {
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .view-all a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        
+        .view-all a:hover {
+            opacity: 0.6;
+        }
+        
+        /* Contact Section - Extra Medium's "You've made it this far" style */
+        .contact-section {
+            padding: 100px 0;
+            text-align: center;
+            border-top: 1px solid #eee;
+        }
+        
+        .contact-section h2 {
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+        
+        .contact-tagline {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        
+        .contact-emphasis {
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 40px 0;
+        }
+        
+        /* Footer - Extra Medium style */
+        .footer-section {
+            padding: 60px 0;
+            border-top: 1px solid #eee;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-email {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        
+        .footer-email a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .footer-email a:hover {
+            opacity: 0.6;
+        }
+        
+        .footer-links {
+            text-align: right;
+        }
+        
+        .footer-links h4 {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        
+        .footer-links a:hover {
+            color: #000;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #eee;
+            padding-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .about-content,
+            .portfolio-intro,
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .clients-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .footer-links {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation - Extra Medium style -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Projekt AI®</a>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://linkedin.com/in/timpoulton">LinkedIn</a></li>
+                <li><a href="#contact" class="cta-button">Start a project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section - Extra Medium large typography style -->
+    <section class="hero">
+        <div class="container">
+            <h1>Projekt AI creates intelligent automation solutions that transform how hospitality and nightlife businesses operate.</h1>
+            <p>My studio understands the importance of industry expertise, operational efficiency, and genuine partnerships. I work with ambitious venues, promoters, and hospitality groups who want to become great digitally.</p>
+        </div>
+    </section>
+
+    <!-- About Section - "Who We Are" style with Timothy's content -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Who I Am</h2>
+                <h3 class="section-subtitle">My Studio</h3>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p><strong>I am Timothy Poulton, a freelance automation specialist who loves to problem solve, collaborate and intelligently create.</strong> My capabilities include workflow automation, AI integration, system analysis, full-stack development, process optimization and strategic consulting.</p>
+                    
+                    <p><a href="#contact" class="cta-button">Contact me</a></p>
+                </div>
+                
+                <div class="about-text">
+                    <p>I know life inside hospitality and nightlife can be challenging, and - like you - I embrace it. At Projekt AI, I pair my refined technical process with 20 years of industry experience to establish genuine partnerships. I work closely with my clients and act as an extension of your team, giving form to new ideas and creative ways to achieve clarity in automation projects.</p>
+                </div>
+            </div>
+
+            <!-- Featured Clients Section -->
+            <div class="clients-section">
+                <h3 class="section-subtitle">Industry Clients</h3>
+                <div class="clients-grid">
+                    <div class="client-item">Club77</div>
+                    <div class="client-item">Music Venues</div>
+                    <div class="client-item">Event Promoters</div>
+                    <div class="client-item">Hospitality Groups</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section - "Recent Projects" style -->
+    <section class="portfolio-section" id="work">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Recent Projects</h2>
+                <h3 class="section-subtitle">Here's what we've been up to lately</h3>
+            </div>
+            
+            <div class="portfolio-intro">
+                <div class="portfolio-intro-text">
+                    <p>I love working with passionate venues, promoters, and hospitality businesses.</p>
+                </div>
+                <div class="portfolio-intro-text">
+                    <p>I work with my clients from initial automation strategy, right through to design, development and final deployment of their solutions. I focus on building intelligent systems that understand the unique challenges of the nightlife and hospitality industries.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <h3>Club77 Content Pipeline</h3>
+                    <div class="category">Nightlife Venue</div>
+                    <p>Automated Instagram content creation and social media management system. Generates event promotions, manages guest lists, and tracks engagement metrics. 400% efficiency increase in social content production.</p>
+                    <a href="club77-automation.html">View Case Study</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Music Venue Email Automation</h3>
+                    <div class="category">Live Music Venue</div>
+                    <p>AI-powered customer segmentation and event marketing automation. Automated ticket sales follow-ups, VIP communications, and post-event engagement. 300% increase in email revenue.</p>
+                    <a href="#">View Case Study</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Event Promoter Workflow Suite</h3>
+                    <div class="category">Electronic Music Promoter</div>
+                    <p>End-to-end event management automation from artist booking to post-event analysis. Integrates social media, ticketing, and CRM systems. Reduced admin time by 60%.</p>
+                    <a href="#">View Case Study</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Restaurant Social Media AI</h3>
+                    <div class="category">Multi-Location Restaurant Group</div>
+                    <p>AI-powered content creation system generating location-specific social media posts, menu promotions, and customer engagement campaigns. Scales content across 12 locations.</p>
+                    <a href="#">View Case Study</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Booking System Integration</h3>
+                    <div class="category">Hospitality Management</div>
+                    <p>Unified booking and operations hub connecting reservation systems, staff scheduling, and customer communications. Real-time sync across multiple venues and platforms.</p>
+                    <a href="#">View Case Study</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Festival Data Analytics</h3>
+                    <div class="category">Music Festival Organization</div>
+                    <p>Real-time insights and predictive analytics system for festival operations. Tracks attendance, vendor performance, and customer sentiment. Improved operations efficiency by 45%.</p>
+                    <a href="#">View Case Study</a>
+                </div>
+            </div>
+
+            <div class="view-all">
+                <a href="#contact">View all work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Extra Medium's "You've made it this far" style -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>You've made it this far. Let's chat?</h2>
+            <a href="mailto:tim@projekt-ai.net" class="cta-button">Contact me</a>
+            
+            <p class="contact-tagline">Whether you know a little or a lot about your next venue automation project, want to collaborate, have questions about my services, or simply want to say hi - drop me a line.</p>
+            
+            <p class="contact-emphasis">I LOVE WORKING WITH PASSIONATE VENUES AND HOSPITALITY BUSINESSES</p>
+            
+            <a href="mailto:tim@projekt-ai.net" class="cta-button">Contact me</a>
+        </div>
+    </section>
+
+    <!-- Footer Contact - Extra Medium style -->
+    <section class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-email">
+                        <a href="mailto:tim@projekt-ai.net">tim@projekt-ai.net</a>
+                    </div>
+                    <h3>Let's collaborate</h3>
+                    <p class="contact-tagline">Whether you know a little or a lot about your next automation project, want to collaborate, have questions about my services, or simply want to say hi - drop me a line.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>LINKS</h4>
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href="https://linkedin.com/in/timpoulton">LinkedIn</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p><strong>Timothy Poulton - Projekt AI®</strong></p>
+                <p>PROJEKT AI © 2025</p>
+                <p>Nightlife & Hospitality Automation Specialist</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
