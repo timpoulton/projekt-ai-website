@@ -492,6 +492,9 @@
             position: relative;
             background: #333;
             transition: transform 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
         }
 
         .project-card:hover {
@@ -511,6 +514,7 @@
             background: linear-gradient(transparent, rgba(0,0,0,0.85));
             padding: 32px;
             color: #fff;
+            pointer-events: none;
         }
 
         .project-overlay h3 {
@@ -523,6 +527,23 @@
             font-size: 14px;
             opacity: 0.8;
             font-weight: 400;
+        }
+
+        /* Stretched Link - Makes entire card clickable */
+        .stretched-link::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+            pointer-events: auto;
+            content: "";
+            background-color: rgba(0,0,0,0);
+        }
+
+        .project-card {
+            position: relative;
         }
 
         /* Contact Section - Perfect Spacing */
@@ -925,12 +946,12 @@ function switchVideo(videoFile) {
         </div>
         
         <div class="projects-grid">
-            <div class="project-card large">
+            <a href="club77-content-pipeline.html" class="project-card large" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('assets/img/uploads/portfolio_header_image.jpg'); background-size: cover; background-position: center;">
                 <div class="project-overlay">
                     <h3>Club77 Content Pipeline</h3>
-                    <p>Nightlife Venue</p>
+                    <p>AI Content Generation & Social Media Automation</p>
                 </div>
-            </div>
+            </a>
             <div class="project-card">
                 <div class="project-overlay">
                     <h3>Venue Email Automation</h3>
