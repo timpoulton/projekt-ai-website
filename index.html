@@ -104,9 +104,9 @@
             width: 100%;
             max-width: 400px;
             height: 100vh;
-            background: rgba(0, 0, 0, 0.95);
+            background: rgba(0, 0, 0, 0.98);
             backdrop-filter: blur(20px);
-            z-index: 1000;
+            z-index: 10000;
             transition: right 0.4s ease;
             padding: 80px 60px 60px;
             display: flex;
@@ -153,35 +153,38 @@
         }
 
         .menu-nav li {
-            margin-bottom: 32px;
+            margin-bottom: 24px;
         }
 
         .menu-nav a {
             color: #fff;
             text-decoration: none;
-            font-size: 32px;
+            font-size: 28px;
             font-weight: 400;
             line-height: 1.2;
             transition: all 0.3s ease;
             display: block;
+            letter-spacing: -0.01em;
         }
 
         .menu-nav a:hover {
             color: #1dd1a1;
-            transform: translateX(8px);
+            transform: translateX(6px);
         }
 
         .menu-footer {
             border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding-top: 40px;
+            padding-top: 32px;
+            margin-top: 40px;
         }
 
         .menu-footer a {
-            color: rgba(255, 255, 255, 0.7);
+            color: rgba(255, 255, 255, 0.6);
             text-decoration: none;
             font-size: 16px;
             font-weight: 400;
             transition: color 0.3s ease;
+            letter-spacing: 0.01em;
         }
 
         .menu-footer a:hover {
@@ -208,16 +211,21 @@
             left: 0;
             width: 100%;
             height: 100vh;
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.7);
             opacity: 0;
             visibility: hidden;
-            z-index: 999;
+            z-index: 9999;
             transition: all 0.3s ease;
         }
 
         .menu-overlay.active {
             opacity: 1;
             visibility: visible;
+        }
+
+        /* Hide custom cursor when menu is open */
+        .slide-menu.active ~ .custom-cursor {
+            display: none !important;
         }
 
         /* Hero Section - Improved Spacing with Animated Background */
@@ -788,10 +796,64 @@
                 gap: 16px;
             }
         }
+
+        /* Custom Cursor Blend Effect */
+        .custom-cursor {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            background: #fff;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            mix-blend-mode: difference;
+            transform: translate(-50%, -50%);
+            transition: width 0.2s ease, height 0.2s ease;
+            will-change: transform;
+        }
+
+        /* Hide default cursor on hover areas */
+        body {
+            cursor: none;
+        }
+
+        /* Cursor hover states */
+        .custom-cursor.hover {
+            width: 50px;
+            height: 50px;
+        }
+
+        /* Optional: Show default cursor on specific elements */
+        input, textarea, select, button {
+            cursor: pointer;
+        }
+
+        a:hover ~ .custom-cursor,
+        button:hover ~ .custom-cursor,
+        .button:hover ~ .custom-cursor {
+            width: 50px;
+            height: 50px;
+        }
+
+        /* Mobile - hide custom cursor */
+        @media (max-width: 768px) {
+            .custom-cursor {
+                display: none;
+            }
+            
+            body {
+                cursor: default;
+            }
+        }
     </style>
     <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
 </head>
 <body>
+
+<!-- Custom Cursor Blend Element -->
+<div class="custom-cursor"></div>
 
 <!-- Header -->
 <header>
@@ -837,52 +899,24 @@
         <p>Your browser doesn't support video backgrounds.</p>
     </video>
     
-    <!-- Video Background Switcher (Development Tool) -->
-    <div style="position: fixed; top: 120px; right: 20px; z-index: 1000; background: rgba(0,0,0,0.8); padding: 16px; border-radius: 8px;">
-        <p style="color: #fff; font-size: 12px; margin-bottom: 8px; font-weight: 500;">Test Backgrounds:</p>
-        <button onclick="switchVideo('animated_header-1.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Header 1 (1.4MB)</button>
-        <button onclick="switchVideo('b34eeeda413b88bb8a9016808345bfb6.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #1dd1a1; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Video 1 (1.8MB) ✓</button>
-        <button onclick="switchVideo('2380372b7c7f0532c16eb21b6d289fc5.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Video 2 (3.3MB)</button>
-        <button onclick="switchVideo('8e63fd1f95d2a7f04d85bc27b9b559c8.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Video 3 (3.7MB)</button>
-        <button onclick="switchVideo('81832857bf8148b00b673f680b4217f3__1_.mp4')" style="display: block; width: 100%; margin-bottom: 4px; padding: 4px 8px; font-size: 11px; background: #333; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Video 4 (7.6MB)</button>
-    </div>
-    
     <div class="container">
         <div class="hero-content">
-            <h1>Projekt AI creates <span class="highlight">intelligent automation solutions</span> that transform how hospitality and nightlife businesses operate.</h1>
-            <p>My studio understands the importance of industry expertise, operational efficiency, and genuine partnerships. I work with ambitious venues, promoters, and hospitality groups who want to become great digitally.</p>
+            <h1>Turn Your Biggest Operational <span class="highlight">Time Drains</span> Into Automated Revenue Engines</h1>
+            <p>I'm Tim Poulton, and I've spent 20 years in hospitality watching the same problems crush brilliant venue owners. Manual processes that eat 6+ hours daily. Staff burnout from repetitive tasks. Revenue opportunities missed because you're stuck managing operations instead of growing your business.</p>
+            
+            <p><strong>Here's what I know:</strong> The best venues aren't just offering great experiences—they're using intelligent automation to deliver them consistently while their competitors are still drowning in spreadsheets.</p>
             
             <div class="cta-box">
-                <p>Join the Projekt AI creative pool by submitting your portfolio. I'm actively seeking talented automation partners, venue operators, and hospitality innovators.</p>
-                <a href="#contact" class="button">
-                    Contact me
+                <p><strong>Ready to see what 6 hours of daily work automated into 6 minutes looks like?</strong></p>
+                <a href="#contact" class="button primary">
+                    Show me the transformation
                     <span class="arrow"></span>
                 </a>
+                <span class="cta-note">Free 30-minute strategy session • No sales pitch, just solutions</span>
             </div>
         </div>
     </div>
 </section>
-
-<script>
-function switchVideo(videoFile) {
-    const video = document.getElementById('heroVideo');
-    const source = document.getElementById('videoSource');
-    
-    // Update source
-    source.src = 'assets/videos/' + videoFile;
-    
-    // Reload video
-    video.load();
-    video.play();
-    
-    // Update button styles
-    const buttons = document.querySelectorAll('[onclick^="switchVideo"]');
-    buttons.forEach(btn => btn.style.background = '#333');
-    event.target.style.background = '#1dd1a1';
-    
-    console.log('Switched to:', videoFile);
-}
-</script>
 
 <!-- About Section -->
 <section class="about-section">
@@ -891,17 +925,21 @@ function switchVideo(videoFile) {
         
         <div class="about-content">
             <div class="about-text">
-                <h2>My Studio</h2>
-                <h2>I am <span class="highlight">Timothy Poulton</span>, a freelance automation specialist who loves to problem solve, collaborate and intelligently create. My capabilities include workflow automation, AI integration, system analysis, full-stack development, process optimization and strategic consulting.</h2>
+                <h2>Why Venues Choose Me</h2>
+                <h2>I'm <span class="highlight">Timothy Poulton</span>, and I've automated over $16M in hospitality operations. I don't just build systems—I solve the specific problems that keep you awake at 3 AM worrying about tomorrow's chaos.</h2>
             </div>
             
             <div class="about-right">
                 <a href="#contact" class="button dark">
-                    Contact me
+                    Let's talk solutions
                     <span class="arrow"></span>
                 </a>
                 
-                <p>I know life inside hospitality and nightlife can be challenging, and - like you - I embrace it. At Projekt AI, I pair my refined technical process with 20 years of industry experience to establish genuine partnerships. I work closely with my clients and act as an extension of your team, giving form to new ideas and creative ways to achieve clarity in automation projects.</p>
+                <p><strong>Here's my promise:</strong> While other consultants talk about "digital transformation," I focus on one thing—turning your biggest operational headaches into automated revenue engines that run while you sleep.</p>
+                
+                <p>I've helped venues go from chaos to predictable operations. From manual content creation taking 6 hours to automated systems delivering results in 6 minutes. From staff burnout to teams focused on what matters: creating exceptional experiences.</p>
+                
+                <p><em>Ready to stop managing every detail and start scaling what works?</em></p>
             </div>
         </div>
     </div>
@@ -937,11 +975,11 @@ function switchVideo(videoFile) {
 <section class="work-section">
     <div class="container">
         <div class="work-header">
-            <h2>Here's what I've been up to lately</h2>
+            <h2>Transformations That Pay For Themselves</h2>
             
             <div class="work-intro">
-                <p>I love working with passionate venues, promoters, and hospitality businesses.</p>
-                <p>I work with my clients from initial automation strategy, right through to design, development and final deployment of their solutions. I focus on building innovative digital experiences and exceptional automation outcomes.</p>
+                <p><strong>Real businesses. Real problems. Real results.</strong> Every automation I build starts with one question: "What would change your entire day if this just worked automatically?"</p>
+                <p>Here are three ways I've turned hospitality chaos into competitive advantages—complete with the exact systems that made it possible.</p>
             </div>
         </div>
         
@@ -983,14 +1021,16 @@ function switchVideo(videoFile) {
 <!-- Contact Section -->
 <section class="contact-section">
     <div class="container">
-        <h2>You've made it this far. Let's chat?</h2>
+        <h2>Stop Letting Manual Processes Steal Your Profits</h2>
         
         <a href="mailto:tim@projekt-ai.net" class="button">
-            Contact me
+            Get my free automation audit
             <span class="arrow"></span>
         </a>
         
-        <p>Whether you know a little or a lot about your next automation project, want to collaborate, have questions about my services, or simply want to say hi - drop me a line.</p>
+        <p><strong>Here's what happens next:</strong> We'll spend 30 minutes identifying your biggest operational time drains, and I'll show you exactly how other venues automated those same problems. No sales pitch—just a clear roadmap to reclaim your time and multiply your results.</p>
+        
+        <p class="contact-urgency"><em>Fair warning: I only work with 3 new clients per quarter. If you're ready to transform your operations instead of just talking about it, let's make sure you're one of them.</em></p>
     </div>
 </section>
 
@@ -1105,6 +1145,57 @@ function initializeMenu() {
     });
 }
 
+// Custom Cursor Functionality
+function initializeCursor() {
+    const cursor = document.querySelector('.custom-cursor');
+    let mouseX = 0;
+    let mouseY = 0;
+    let cursorX = 0;
+    let cursorY = 0;
+
+    // Track mouse movement
+    document.addEventListener('mousemove', function(e) {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+    });
+
+    // Smooth cursor animation
+    function animateCursor() {
+        // Much more responsive follow with less easing
+        cursorX += (mouseX - cursorX) * 0.25;
+        cursorY += (mouseY - cursorY) * 0.25;
+        
+        cursor.style.transform = `translate(${cursorX}px, ${cursorY}px) translate(-50%, -50%)`;
+        
+        requestAnimationFrame(animateCursor);
+    }
+
+    // Start animation
+    animateCursor();
+
+    // Hover effects for interactive elements
+    const hoverElements = document.querySelectorAll('a, button, .button, .project-card, .client-logo');
+    
+    hoverElements.forEach(element => {
+        element.addEventListener('mouseenter', function() {
+            cursor.classList.add('hover');
+        });
+        
+        element.addEventListener('mouseleave', function() {
+            cursor.classList.remove('hover');
+        });
+    });
+
+    // Hide cursor when leaving window
+    document.addEventListener('mouseleave', function() {
+        cursor.style.opacity = '0';
+    });
+
+    document.addEventListener('mouseenter', function() {
+        cursor.style.opacity = '1';
+    });
+}
+
 // Initialize everything when page loads
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize menu
@@ -1115,6 +1206,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initial check
     handleHeaderScroll();
+
+    // Initialize cursor
+    initializeCursor();
 });
 </script>
 
