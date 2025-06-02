@@ -1,7 +1,103 @@
 {
-  "generated_at": "2025-06-02T09:35:01.559832",
+  "generated_at": "2025-06-02T09:40:01.362861",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748856910",
+      "job_title": "Smart Home System Design Specialist Needed for Villa",
+      "client_name": "Client",
+      "budget": "$100.00",
+      "description": "We are seeking a smart home specialist to design an advanced smart home system for our villa, which covers approximately 800 sqm. The ideal candidate will have experience in integrating various smart technologies and will work closely with us to create a fully automated environment that enhances comfort, security, and energy efficiency. Your expertise will help us choose the right devices and ensure seamless connectivity throughout the property. If you have a passion for smart home technology an...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T09:35:10.028428",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Smart-Home-System-Design-Specialist-Needed-for-Vil-1748856910028.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748856908",
+      "job_title": "Update Multiple PDF Links & Connect Multiple Webpages to HubSpot CRM",
+      "client_name": "Client",
+      "budget": "$25.00",
+      "description": "We are seeking an experienced Webflow and HubSpot expert to assist us with two key tasks:\n\n1\ufe0f\u20e3 Update and Link Multiple PDFs Across Several Pages\n\t\u2022\tIdentify all existing PDFs hosted in HubSpot (likely in the File Manager).\n\t\u2022\tReplace each old PDF with its updated version OR upload new PDFs.\n\t\u2022\tUpdate all links in HubSpot forms, workflows, automated emails, and associated Webflow pages to point to the new PDFs.\n\t\u2022\tEnsure multiple Webflow landing pages are correctly linked to their respective PDF...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T09:35:08.768032",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Update-Multiple-PDF-Links--Connect-Multiple-Webpag-1748856908768.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748856907",
+      "job_title": "Manychat/N8N/Calling - Ai Agent",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "Hey, we\u2019re a marketing agency that helps coaches and creators to scale with AI Chatbots and Ai Callers.\n\nWe already have a working N8N Agent and an Ai Caller, however they need to be improved in quality and system.\n\nYour main job would be helping us fixing bugs, improving quality and creating new systems.\n\nOur current AI Setter runs with Manychat and N8N and we need someone with an in-depth and technical understanding of Ai Agents to fix and improve our setup.\n\nIn order to be considered for this...",
+      "analysis": {
+        "tools": [
+          "N8N"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using N8N\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T09:35:07.512456",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-ManychatN8NCalling---Ai-Agent-1748856907512.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748856907",
+      "job_title": "CANVA SDK Integration Expert Needed for an Ecommerce Website",
+      "client_name": "Client",
+      "budget": "$400.00",
+      "description": "I am looking for an experienced web developer to integrate the Canva SDK into my e-commerce website. The goal is to allow customers to customize promotional products (such as tote bags, t-shirts, mugs) directly on the site using Canva\u2019s embedded editor.\n\nScope of Work:\n\nIntegrate Canva SDK into product pages.\n\nSet up product-specific templates (with print areas).\n\nEnsure design files are properly saved and attached to customer orders.\n\nCustomize the Canva editor interface to match site branding ...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "e-commerce",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your e-commerce.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T09:35:07.097905",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-CANVA-SDK-Integration-Expert-Needed-for-an-Ecommer-1748856907097.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748856611",
       "job_title": "AI Business Consultant for Automation and Content Strategy",
@@ -1093,101 +1189,6 @@
       "score": 80,
       "created_at": "2025-06-02T06:39:33.324156",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Generative-AI-Expert-to-Develop-Custom-AI-Solution-1748846373324.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748846372",
-      "job_title": "Midjourney AI professional 3D character designer",
-      "client_name": "Client",
-      "budget": "$500.00",
-      "description": "We are seeking a highly creative and detail-oriented Midjourney professional with expertise in 3D character design to create and manage a unique, reusable character rendered in realistic, colorful 3D, customized for various themes and holiday celebrations (such as Summer, Winter, Christmas, Halloween, Eid Al-Adha, and more).\n\nYour main responsibility will be to create a single consistent character and produce theme-based versions of that character, all while ensuring:\n\n1- Visual consistency acro...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T06:39:32.902152",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Midjourney-AI-professional-3D-character-designer-1748846372902.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748846372",
-      "job_title": "Email Marketing Specialist (Real Estate Services \u2013 Twilio SendGrid)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "\ud83d\udcdd Job Description:\nWe are a real estate services company offering buyer advocacy, strata management, and conveyancing. We're looking to turn our newsletter subscribers into active clients using strategic, high-converting email campaigns.\n\nWe\u2019re seeking an experienced Email Marketing Specialist to plan, write, manage, and optimize campaigns using Twilio SendGrid.\n\n\ud83d\udcbc Responsibilities:\nCreate, schedule, and manage email campaigns in Twilio SendGrid\nBuild email flows such as welcome sequences, nurtu...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "real estate",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your real estate.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T06:39:32.475701",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email-Marketing-Specialist-Real-Estate-Services--T-1748846372475.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748846372",
-      "job_title": "Experienced Python Django Developer with AI expertise",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Hi there!\nI\u2019m working on an educational platform built with Django, and I\u2019m looking for a skilled Python developer to help me move the project forward. The platform includes AI integration, so experience or interest in working with AI tools is a big plus!\n\nWhat the platform does:\nOffers online educational courses\nIncludes an AI bot that acts as a personal companion and customer support agent\nThe AI bot helps users progress through courses and unlock achievements (like a gamified mentor!)\n\nWhat I...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T06:39:32.071365",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-Python-Django-Developer-with-AI-expert-1748846372071.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748846370",
-      "job_title": "Looking For A Faceless Youtube Video Creator",
-      "client_name": "Client",
-      "budget": "$500.00",
-      "description": "looking for a freelancer to create youtube automation videos for nba/basketball niche\n\n- $20 per video \n- 1 video per day\n- english voiceover only. (Elevenlabs preferred)\n\nAre you good with the price?",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T06:39:30.801802",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Looking-For-A-Faceless-Youtube-Video-Creator-1748846370801.html",
       "original_job_url": "",
       "status": "pending"
     }
