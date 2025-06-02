@@ -1,7 +1,126 @@
 {
-  "generated_at": "2025-06-02T13:45:01.840276",
+  "generated_at": "2025-06-02T13:50:01.673684",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748872099",
+      "job_title": "Braze CRM & Communication Manager \u2013 Long-term role at the fastest growing camping app \ud83d\ude90\ud83d\udca8",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Join the adventure. We\u2019re Campy, a startup with over 1 million users. We help motorhome campers find the best camp spots across Europe. We\u2019re now hiring a Communication Manager to bring our messaging to life through email, push, and in-app experiences, using Braze CRM. \n\nThis is a remote, flexible, freelance position with serious long-term potential. We\u2019re looking for someone who wants to grow with us over the next 2+ years \u2013 not just complete a few tasks and move on. You\u2019ll have autonomy, varie...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:48:19.903353",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Braze-CRM--Communication-Manager--Long-term-role-a-1748872099903.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748872098",
+      "job_title": ".Net Developer - minor update for an endpoint",
+      "client_name": "Client",
+      "budget": "$50.00",
+      "description": "We are seeking an experienced .Net Developer to assist in solving problem with the existing endpoint.\n\nIssue: the endpoint triggers the old integration service instead the new one.\n\nOur expectation: instead of triggering the old integration service, the logic should add the appropriate integration message to the specific table. The message will be automatically picked up by the new integration service and processed accordingly. \n\nIf you are a talented, experienced .Net expert that is able to sol...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:48:18.655426",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Net-Developer---minor-update-for-an-endpoint-1748872098655.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748872098",
+      "job_title": "SaaS Dashboard Developer & Service Monster / Service Titan Expert",
+      "client_name": "Client",
+      "budget": "$2,000.00",
+      "description": "We are seeking an experienced developer with deep expertise in ServiceMonster to create a custom SaaS dashboard that will automatically pull and visualize data from ServiceMonster. The ideal candidate will have a strong background in dashboard development, data visualization, API integration, and a thorough understanding of ServiceMonster.\n\nKey Responsibilities:\n\nDesign and develop a user-friendly SaaS dashboard to visualize data from ServiceMonster.\nImplement API integration to automatically pu...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "SaaS",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T13:48:18.256627",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-SaaS-Dashboard-Developer--Service-Monster--Service-1748872098256.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748872097",
+      "job_title": "YouTube Video Editing",
+      "client_name": "Client",
+      "budget": "$30.00",
+      "description": "Project Description:\n\nI am launching a faceless YouTube channel that focuses on murder investigation stories\u2014localized and narrated in Arabic. I am looking for a skilled video editor who can help me create high-quality, engaging videos using existing English source material.\n\nWorkflow Overview:\n\n1- I will provide a link to an English-language YouTube video.\n\n2- You will extract the narration transcript from that video and send me back only the voice-over parts (the narrator\u2019s lines) as a script....",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:48:17.030699",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-YouTube-Video-Editing-1748872097030.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748872096",
+      "job_title": "Social Media Assistant with Graphic Design Skills",
+      "client_name": "Client",
+      "budget": "$200.00",
+      "description": "Job Title:\nSocial Media Assistant with Graphic Design Skills | Weekly Carousels + B-Roll Videos\n\nJob Description:\nI\u2019m looking for a reliable, creative Social Media Assistant to support my weekly content production across platforms like Instagram, Threads, and Pinterest. You\u2019ll primarily be responsible for putting together carousel posts and editing simple video content using assets and guidance I provide.\n\nWhat You\u2019ll Do:\n\nAssemble carousel posts using provided assets (text, visuals, templates)\n...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:48:16.629333",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Social-Media-Assistant-with-Graphic-Design-Skills-1748872096629.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748871801",
       "job_title": "Creat Google Contacts via n8n to Notion 2-way sync",
@@ -1076,125 +1195,6 @@
       "score": 70,
       "created_at": "2025-06-02T13:02:42.340800",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-AD-Exchange-and-Endpoint-Migration-to-Office-365---1748869362340.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869361",
-      "job_title": "TikTok Shop & Affiliate Community VA \u2014 Growth-Minded, Fast-Learning Individual (No Agencies)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "HypeHive is a UK creator-commerce agency helping wellness and lifestyle brands grow on TikTok Shop. We\u2019re looking for a detail-oriented Virtual Assistant who can follow SOPs, manage creator outreach, and keep daily operations running smoothly.\n\nMindset first: you learn quickly, love metrics, and constantly look for process tweaks that boost results.\nIndividuals only\u2014no agencies, please.\n\nCore Responsibilities\nArea\tTasks You\u2019ll Own\nTikTok Shop Admin\tApprove/decline Target-Collab & sample requests...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:02:41.104363",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-TikTok-Shop--Affiliate-Community-VA--Growth-Minded-1748869361104.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869359",
-      "job_title": "FDI Configuration SME",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an experienced FDI (Fusion Data Integration) Configuration SME to support our Oracle Cloud implementation. The ideal candidate will have deep expertise in configuring, troubleshooting, and optimizing FDI data flows between Oracle Fusion modules and external systems.\n\nResponsibilities:\n\nConfigure and manage FDI integrations in Oracle Fusion\n\nTroubleshoot data flow issues and ensure data integrity\n\nCollaborate with technical and functional teams to implement best practices\n\nProvide ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:02:39.840171",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-FDI-Configuration-SME-1748869359840.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869359",
-      "job_title": "Need an Oracle developer to work on our ERP and Salesforce systems",
-      "client_name": "Client",
-      "budget": "$400.00",
-      "description": "Hi there!\nWe\u2019re looking for someone who\u2019s experienced with Oracle to help us make a few updates to our internal ERP system. It\u2019s built using Oracle APEX and EBS.\n\nWe need help with things like:\n- adding a couple of new forms and reports\n- making small changes to existing business workflows\n- writing or adjusting some PL/SQL logic\n- connecting the system to a small external service via API\n\nWe also need help with some Salesforce work, mainly writing Apex code and making small changes to LWC compo...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:02:39.447234",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Need-an-Oracle-developer-to-work-on-our-ERP-and-Sa-1748869359447.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869359",
-      "job_title": "Odoo Specialist \u2013 CRM Integration & Automation",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I am seeking an experienced Odoo specialist to design, implement, and manage the following functionalities within our organization:\n\nKey Responsibilities\n\nAutomations\n\nEstablish integrations between multiple CRM environments\n\nConfigure logic to seamlessly switch processes between sales and finance teams (e.g., when a deal reaches a certain stage, automatically route it to the financing workflow)\n\nSet up webhooks and triggers to ensure real-time data synchronization across relevant modules\n\nMulti...",
-      "analysis": {
-        "tools": [
-          "Api",
-          "Webhook"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T13:02:39.044834",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Odoo-Specialist--CRM-Integration--Automation-1748869359044.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869357",
-      "job_title": "Multiplatform simple web - NextJS & V0",
-      "client_name": "Client",
-      "budget": "$1,200.00",
-      "description": "Front-end\nApplication Type: Now Website and I'll do a Multi-platform Android & iOS (one single application) in a next stage\nLanguage: NextJS\nClean and Commented Code: No copy-pasting functionalities; it is mandatory to use software design patterns.\nResponsive Design: Must adapt to various mobile screen sizes.\nSecurity Requirements:\n\nNo outdated libraries with known critical or high vulnerabilities are allowed.\nBefore using any third-party library or service, you must discuss it with me for evalu...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "restaurant/hospitality",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your restaurant/hospitality.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:02:37.786974",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Multiplatform-simple-web---NextJS--V0-1748869357787.html",
       "original_job_url": "",
       "status": "pending"
     }
