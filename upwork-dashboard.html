@@ -660,7 +660,7 @@
                 timestamp: item.created_at || item.timestamp || new Date().toISOString(),
                 status: item.status || 'pending',
                 proposalUrl: item.url || item.proposal_url || `/proposals/${item.filename}`,
-                originalJobUrl: item.original_job_url || item.job_url || item.link || '#',
+                originalJobUrl: item.original_job_url || item.job_url || item.link || '',
                 message: item.message || '',
                 filename: item.filename || ''
             }));
@@ -766,7 +766,7 @@
                         <button class="action-btn btn-view" onclick="viewProposal('${proposal.proposalUrl}')">
                             👁️ View Proposal
                         </button>
-                        ${proposal.originalJobUrl && proposal.originalJobUrl !== '#' ? `
+                        ${proposal.originalJobUrl && proposal.originalJobUrl !== '' && proposal.originalJobUrl.includes('upwork.com') ? `
                             <button class="action-btn btn-upwork" onclick="viewUpworkJob('${proposal.originalJobUrl}')">
                                 🔗 Upwork Job
                             </button>
