@@ -1,7 +1,102 @@
 {
-  "generated_at": "2025-06-02T12:55:01.158390",
+  "generated_at": "2025-06-02T13:00:01.557359",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748869059",
+      "job_title": "Integrate AI-Powered Chatbot into\na Static Website",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an intermediate-level web developer to integrate a simple AI-powered\nchatbot into our existing static website. The chatbot should answer basic questions about\nour products or services using a pre-trained language model, such as OpenAI's GPT-3.5 or a\nsimilar API. The integration should feature a user-friendly chat window on the website,\nenabling seamless user interaction. This project aligns with the trending use case of\nleveraging AI agents for customer support and engagement.\nReq...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T12:57:39.445526",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Integrate-AI-Powered-Chatbot-intoa-Static-Website-1748869059445.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748869059",
+      "job_title": "Saas platform to launch your online business",
+      "client_name": "Client",
+      "budget": "$2,000.00",
+      "description": "We're developing an all-in-one SaaS platform that makes it easy for anyone to create an online business (e-commerce site or sales tunnel) without any technical skills. The aim is to make creating and managing a business as simple and intuitive as using Notion or Canva, while integrating powerful tools suitable for beginners and experienced entrepreneurs alike.\n\nI called in an agency to develop a first prototype. After several years' work and several thousand euros invested, the result is unfortu...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "SaaS",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:57:39.049865",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Saas-platform-to-launch-your-online-business-1748869059049.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748869057",
+      "job_title": "Cold Email Outreach Manager (Instantly Expert) Needed for Growing Exterior Cleaning Company",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hi! I'm Jon, the owner of Edgewater Pro-Wash \u2014 a fast-growing exterior cleaning company with 400+ 5-star reviews. We serve Ashtabula and Lake counties in Ohio, offering pressure washing, window cleaning, roof washing, and more. Our mission is simple: Life is better clean \u2014 and we want to keep growing while staying true to our no-pushy-sales vibe.\n\nWe're looking for an experienced Cold Email Specialist who knows their way around Instantly and can help us run efficient, strategic, and high-convert...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:57:37.806496",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Cold-Email-Outreach-Manager-Instantly-Expert-Neede-1748869057806.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748869057",
+      "job_title": "iOS, Android and IoT development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I am looking someone or an agency who is experienced in building Android OS based TV application. This application will have to connect with mobile apps for seamless integration. Think about Mobile app acting as a remote for TV application. \n\nThis will be a fixed price contract and we can negotiate final price based on the scope and deliverables. \n\nAs you send your proposal please share any recent IoT based examples and Android TV based application building examples.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:57:37.381251",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-iOS-Android-and-IoT-development-1748869057381.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748868747",
       "job_title": "Semantic search specialist",
@@ -1094,101 +1189,6 @@
       "score": 80,
       "created_at": "2025-06-02T12:01:47.477347",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Simple-Web-Interface--n8nPython-Integration-for-Op-1748865707477.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865707",
-      "job_title": "Email Marketing Specialist (Customer.io Expert)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are looking for a results-driven Email Marketing Specialist with hands-on experience in Customer.io to help us create, execute, and optimize high-performing email campaigns. You'll be responsible for driving engagement, retention, and conversion through smart segmentation, automation, and data-backed strategies.\n\nKey Responsibilities:\n\nPlan, build, and manage email marketing campaigns using Customer.io\n\nCreate targeted email flows, automation, and drip campaigns for user onboarding, renewals,...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:01:47.069752",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email-Marketing-Specialist-Customerio-Expert-1748865707069.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865706",
-      "job_title": "React, MongoDB Laravel | Web App Development (Cloud Hosting - AWS)",
-      "client_name": "Client",
-      "budget": "$3,000.00",
-      "description": "Description:\nWe're looking for a highly skilled Full-Stack Developer with strong experience in React (frontend), MongoDB (database), and Laravel (backend) to join our project.\n\nYou\u2019ll be working on an existing web application that requires new features, performance optimizations, and long-term maintenance. The project involves both front-end and back-end development, API integrations, and data handling using MongoDB.\n\nWhat We\u2019re Looking For:\n\nProven expertise in React.js, including component-bas...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T12:01:46.681807",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-React-MongoDB-Laravel--Web-App-Development-Cloud-H-1748865706681.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865706",
-      "job_title": "AI Developer Needed for Real-Time Padel Tennis Ball Tracking and Scorekeeping",
-      "client_name": "Client",
-      "budget": "$5,000.00",
-      "description": "We are looking for an experienced AI/Computer Vision developer to create a real-time ball tracking and automated scorekeeping system for padel tennis using video footage.\n\nWe are open to adapting or building upon existing open-source solutions, especially padel_analytics (https://github.com/Joao-M-Silva/padel_analytics) and tennis-tracking (https://github.com/ArtLabss/tennis-tracking) . Please review these repositories and let us know how you would leverage or improve it for our use case.\n\nThe p...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:01:46.286159",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Developer-Needed-for-Real-Time-Padel-Tennis-Bal-1748865706286.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865705",
-      "job_title": "vCloud Director 10.4 (vCD) consultant or subject matter expert for consulting engagement",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a VMware vCloud Director (vCD) Subject Matter Expert or consultant to provide help and guidance one vCloud Director. The expert will provide guidance on vCD setup, configuration, and management, assist in designing a scalable, secure, and high-performance architecture, and review our existing deployment for improvements. Responsibilities include integration recommendations with NSX, vCenter, and other VMware tools",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:01:45.023178",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-vCloud-Director-104-vCD-consultant-or-subject-matt-1748865705023.html",
       "original_job_url": "",
       "status": "pending"
     }
