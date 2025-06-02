@@ -17,16 +17,17 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: #1a1a1a;
+            background: #0a0a0a;
             color: #ffffff;
             min-height: 100vh;
+            line-height: 1.6;
         }
 
-        /* Header */
+        /* Header - Matching main website */
         .header {
-            background: rgba(26, 26, 26, 0.8);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
             padding: 20px 0;
             position: sticky;
             top: 0;
@@ -43,7 +44,9 @@
         }
 
         .logo {
-            height: 40px;
+            height: 50px;
+            width: auto;
+            object-fit: contain;
         }
 
         .header-nav {
@@ -53,27 +56,29 @@
         }
 
         .nav-btn {
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.1);
             padding: 10px 20px;
             border-radius: 8px;
-            color: #ffffff;
+            color: rgba(255, 255, 255, 0.8);
             text-decoration: none;
             font-size: 14px;
+            font-weight: 500;
             transition: all 0.3s ease;
             cursor: pointer;
         }
 
         .nav-btn:hover {
-            background: rgba(255, 255, 255, 0.15);
-            border-color: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
         }
 
         /* Main Container */
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 40px;
+            padding: 60px 40px;
         }
 
         .page-title {
@@ -81,6 +86,13 @@
             font-weight: 700;
             margin-bottom: 20px;
             color: #fff;
+            letter-spacing: -0.02em;
+        }
+
+        .page-subtitle {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 40px;
         }
 
         /* Stats Bar */
@@ -92,23 +104,31 @@
         }
 
         .stat-card {
-            background: rgba(255, 255, 255, 0.03);
+            background: rgba(255, 255, 255, 0.02);
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.08);
             border-radius: 12px;
             padding: 24px;
             text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(255, 255, 255, 0.1);
         }
 
         .stat-value {
-            font-size: 32px;
+            font-size: 36px;
             font-weight: 700;
             margin-bottom: 8px;
+            letter-spacing: -0.02em;
         }
 
         .stat-label {
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(255, 255, 255, 0.5);
             font-size: 14px;
+            font-weight: 500;
         }
 
         /* Filter Tabs */
@@ -121,21 +141,25 @@
 
         .filter-tab {
             padding: 12px 24px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.08);
             border-radius: 8px;
             cursor: pointer;
             transition: all 0.3s ease;
             font-size: 14px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.7);
         }
 
         .filter-tab.active {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.15);
+            color: #ffffff;
         }
 
         .filter-tab:hover:not(.active) {
-            background: rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.02);
+            color: #ffffff;
         }
 
         /* Proposals List */
@@ -145,17 +169,18 @@
         }
 
         .proposal-card {
-            background: rgba(255, 255, 255, 0.03);
+            background: rgba(255, 255, 255, 0.02);
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.08);
             border-radius: 16px;
             padding: 30px;
             transition: all 0.3s ease;
         }
 
         .proposal-card:hover {
-            border-color: rgba(255, 255, 255, 0.3);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(255, 255, 255, 0.12);
+            transform: translateY(-2px);
         }
 
         .proposal-header {
@@ -163,51 +188,61 @@
             justify-content: space-between;
             align-items: start;
             margin-bottom: 20px;
+            gap: 20px;
         }
 
         .proposal-title {
             font-size: 20px;
             font-weight: 600;
             margin-bottom: 8px;
+            line-height: 1.4;
         }
 
         .proposal-client {
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(255, 255, 255, 0.5);
             font-size: 14px;
+            font-weight: 500;
         }
 
         .proposal-score {
             display: flex;
             align-items: center;
             gap: 10px;
+            flex-shrink: 0;
         }
 
         .score-badge {
             padding: 6px 12px;
             border-radius: 20px;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
         .score-must {
-            background: rgba(255, 255, 255, 0.1);
-            color: #ffffff;
+            background: rgba(76, 175, 80, 0.15);
+            color: #4CAF50;
+            border: 1px solid rgba(76, 175, 80, 0.3);
         }
 
         .score-should {
-            background: rgba(255, 255, 255, 0.1);
-            color: #ffffff;
+            background: rgba(255, 193, 7, 0.15);
+            color: #FFC107;
+            border: 1px solid rgba(255, 193, 7, 0.3);
         }
 
         .score-consider {
-            background: rgba(255, 255, 255, 0.1);
-            color: #ffffff;
+            background: rgba(33, 150, 243, 0.15);
+            color: #2196F3;
+            border: 1px solid rgba(33, 150, 243, 0.3);
         }
 
         .proposal-description {
-            color: rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 0.7);
             line-height: 1.6;
             margin-bottom: 20px;
+            font-size: 15px;
         }
 
         .proposal-meta {
@@ -215,12 +250,21 @@
             gap: 20px;
             margin-bottom: 20px;
             font-size: 14px;
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(255, 255, 255, 0.5);
+            flex-wrap: wrap;
+        }
+
+        .proposal-meta span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         .proposal-actions {
             display: flex;
             gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
         }
 
         .action-btn {
@@ -230,43 +274,93 @@
             cursor: pointer;
             transition: all 0.3s ease;
             font-weight: 500;
+            border: 1px solid transparent;
+            background: transparent;
+            color: rgba(255, 255, 255, 0.8);
         }
 
         .btn-approve {
-            background: rgba(255, 255, 255, 0.1);
-            color: #ffffff;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(76, 175, 80, 0.1);
+            border-color: rgba(76, 175, 80, 0.3);
+            color: #4CAF50;
         }
 
         .btn-approve:hover {
-            background: rgba(255, 255, 255, 0.15);
+            background: rgba(76, 175, 80, 0.2);
+            border-color: rgba(76, 175, 80, 0.5);
         }
 
         .btn-reject {
-            background: rgba(255, 255, 255, 0.1);
-            color: #ffffff;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(244, 67, 54, 0.1);
+            border-color: rgba(244, 67, 54, 0.3);
+            color: #F44336;
         }
 
         .btn-reject:hover {
-            background: rgba(255, 255, 255, 0.15);
+            background: rgba(244, 67, 54, 0.2);
+            border-color: rgba(244, 67, 54, 0.5);
+        }
+
+        .btn-edit {
+            background: rgba(255, 193, 7, 0.1);
+            border-color: rgba(255, 193, 7, 0.3);
+            color: #FFC107;
+        }
+
+        .btn-edit:hover {
+            background: rgba(255, 193, 7, 0.2);
+            border-color: rgba(255, 193, 7, 0.5);
         }
 
         .btn-view {
-            background: rgba(255, 255, 255, 0.1);
-            color: #ffffff;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.1);
         }
 
         .btn-view:hover {
-            background: rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-upwork {
+            background: rgba(108, 99, 255, 0.1);
+            border-color: rgba(108, 99, 255, 0.3);
+            color: #6C63FF;
+        }
+
+        .btn-upwork:hover {
+            background: rgba(108, 99, 255, 0.2);
+            border-color: rgba(108, 99, 255, 0.5);
+        }
+
+        /* Status Badge */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .status-approved {
+            background: rgba(76, 175, 80, 0.15);
+            color: #4CAF50;
+        }
+
+        .status-rejected {
+            background: rgba(244, 67, 54, 0.15);
+            color: #F44336;
         }
 
         /* Empty State */
         .empty-state {
             text-align: center;
             padding: 80px 20px;
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(255, 255, 255, 0.5);
         }
 
         .empty-icon {
@@ -279,7 +373,7 @@
         .loading {
             text-align: center;
             padding: 40px;
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(255, 255, 255, 0.5);
         }
 
         .spinner {
@@ -296,6 +390,90 @@
             to { transform: rotate(360deg); }
         }
 
+        /* Edit Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #1a1a1a;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            margin-bottom: 30px;
+        }
+
+        .modal-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .modal-subtitle {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .form-textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+            font-family: inherit;
+            font-size: 14px;
+            resize: vertical;
+            transition: all 0.3s ease;
+        }
+
+        .form-textarea:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 30px;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .container {
@@ -309,6 +487,14 @@
             .stats-bar {
                 grid-template-columns: 1fr 1fr;
             }
+
+            .proposal-header {
+                flex-direction: column;
+            }
+
+            .proposal-score {
+                align-self: flex-start;
+            }
         }
     </style>
 </head>
@@ -316,7 +502,7 @@
     <!-- Header -->
     <header class="header">
         <div class="header-content">
-            <img src="assets/img/logos/header-logo-light.svg" alt="Projekt AI" class="logo">
+            <img src="assets/img/logos/projekt-ai-logo-white.svg" alt="Projekt AI" class="logo">
             <div class="header-nav">
                 <button class="nav-btn" onclick="refreshProposals()">🔄 Refresh</button>
                 <a href="admin-dashboard.html" class="nav-btn">← Back to Dashboard</a>
@@ -327,6 +513,7 @@
     <!-- Main Content -->
     <div class="container">
         <h1 class="page-title">Upwork Automation</h1>
+        <p class="page-subtitle">AI-powered proposal generation and management system</p>
 
         <!-- Stats Bar -->
         <div class="stats-bar">
@@ -368,6 +555,26 @@
         </div>
     </div>
 
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Edit Proposal</h2>
+                <p class="modal-subtitle">Provide feedback to regenerate the proposal with AI</p>
+            </div>
+            <form id="editForm">
+                <div class="form-group">
+                    <label class="form-label">What changes would you like to make?</label>
+                    <textarea class="form-textarea" id="editFeedback" placeholder="e.g., Make it more technical, emphasize our experience with similar projects, adjust the timeline to 2 weeks, etc."></textarea>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="action-btn btn-view" onclick="closeEditModal()">Cancel</button>
+                    <button type="submit" class="action-btn btn-approve">Regenerate Proposal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script>
         // Check authentication
         function checkAuth() {
@@ -378,59 +585,77 @@
         }
         checkAuth();
 
-        // Sample data (in production, this would come from your API)
+        // Global variables
         let proposals = [];
         let currentFilter = 'all';
+        let editingProposalId = null;
 
-        // Load proposals
+        // Load proposals from the actual queue file
         async function loadProposals() {
             try {
-                // In production, fetch from your API
-                // const response = await fetch('/api/proposals');
-                // proposals = await response.json();
+                // Use the proxied API endpoint to avoid CORS issues
+                const response = await fetch('/api/proposals');
+                if (!response.ok) {
+                    throw new Error('Failed to load proposals');
+                }
                 
-                // For now, using sample data
-                proposals = [
-                    {
-                        id: 1,
-                        title: "Advanced E-commerce Automation Expert for Multi-Store Integration",
-                        client: "MultiStore Solutions LLC",
-                        description: "We need an experienced automation specialist to integrate our 5 Shopify stores with our central inventory management system...",
-                        score: 95,
-                        category: "MUST_APPLY",
-                        budget: "$2000-4000",
-                        timeline: "3-4 weeks",
-                        timestamp: new Date().toISOString(),
-                        status: "pending",
-                        proposalUrl: "/proposals/multistore-solutions-proposal.html"
-                    },
-                    {
-                        id: 2,
-                        title: "Zapier Expert for CRM Integration",
-                        client: "TechFlow Enterprises",
-                        description: "Looking for someone to connect our Salesforce CRM with our email marketing platform using Zapier automation...",
-                        score: 75,
-                        category: "SHOULD_APPLY",
-                        budget: "$1000-1500",
-                        timeline: "1-2 weeks",
-                        timestamp: new Date().toISOString(),
-                        status: "pending",
-                        proposalUrl: "/proposals/techflow-proposal.html"
-                    }
-                ];
+                const queueData = await response.json();
+                processProposalData(queueData);
                 
-                updateStats();
-                displayProposals();
             } catch (error) {
                 console.error('Error loading proposals:', error);
+                // Show error state
+                document.getElementById('proposalsContainer').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <h3>Error loading proposals</h3>
+                        <p>${error.message}</p>
+                        <button class="action-btn btn-view" onclick="loadProposals()">Try Again</button>
+                    </div>
+                `;
             }
+        }
+
+        function processProposalData(queueData) {
+            // Transform queue data to match our format
+            proposals = queueData.map((item, index) => ({
+                id: item.job_id || `proposal-${index}`,
+                title: item.title || item.job_title || 'Untitled Job',
+                client: item.client_name || 'Unknown Client',
+                description: item.analysis?.problem_analysis || item.message || 'No description available',
+                score: item.score || 0,
+                category: item.priority ? item.priority.toUpperCase() : (
+                    item.score >= 80 ? 'MUST_APPLY' :
+                    item.score >= 60 ? 'SHOULD_APPLY' :
+                    item.score >= 40 ? 'CONSIDER' : 'SKIP'
+                ),
+                budget: item.budget || 'Not specified',
+                timeline: item.analysis?.timeline || 'To be determined',
+                timestamp: item.created_at || item.timestamp || new Date().toISOString(),
+                status: item.status || 'pending',
+                proposalUrl: item.url || item.proposal_url || `/proposals/${item.filename}`,
+                originalJobUrl: item.original_job_url || item.job_url || item.link || '#',
+                message: item.message || '',
+                filename: item.filename || ''
+            }));
+            
+            // Sort by timestamp (newest first)
+            proposals.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+            
+            updateStats();
+            displayProposals();
         }
 
         // Update statistics
         function updateStats() {
+            const today = new Date().toDateString();
+            const todayProposals = proposals.filter(p => 
+                new Date(p.timestamp).toDateString() === today
+            );
+            
             document.getElementById('totalProposals').textContent = proposals.length;
             document.getElementById('pendingReview').textContent = proposals.filter(p => p.status === 'pending').length;
-            document.getElementById('approvedToday').textContent = proposals.filter(p => p.status === 'approved').length;
+            document.getElementById('approvedToday').textContent = todayProposals.filter(p => p.status === 'approved').length;
             
             const avgScore = proposals.length > 0 
                 ? Math.round(proposals.reduce((sum, p) => sum + p.score, 0) / proposals.length)
@@ -479,45 +704,75 @@
             container.innerHTML = filteredProposals.map(proposal => `
                 <div class="proposal-card" data-id="${proposal.id}">
                     <div class="proposal-header">
-                        <div>
-                            <h3 class="proposal-title">${proposal.title}</h3>
-                            <p class="proposal-client">${proposal.client}</p>
+                        <div style="flex: 1;">
+                            <h3 class="proposal-title">${escapeHtml(proposal.title)}</h3>
+                            <p class="proposal-client">${escapeHtml(proposal.client)}</p>
                         </div>
                         <div class="proposal-score">
                             <span class="score-badge ${getScoreClass(proposal.score)}">
-                                ${proposal.category.replace('_', ' ')}
+                                ${proposal.category.replace(/_/g, ' ')}
                             </span>
                             <span style="font-size: 24px; font-weight: 700;">${proposal.score}</span>
                         </div>
                     </div>
-                    <p class="proposal-description">${proposal.description}</p>
+                    <p class="proposal-description">${escapeHtml(proposal.description.substring(0, 200))}...</p>
                     <div class="proposal-meta">
-                        <span>💰 ${proposal.budget}</span>
-                        <span>⏱️ ${proposal.timeline}</span>
-                        <span>📅 ${new Date(proposal.timestamp).toLocaleString()}</span>
+                        <span>💰 ${escapeHtml(proposal.budget)}</span>
+                        <span>⏱️ ${escapeHtml(proposal.timeline)}</span>
+                        <span>📅 ${formatDate(proposal.timestamp)}</span>
                     </div>
                     <div class="proposal-actions">
                         ${proposal.status === 'pending' ? `
-                            <button class="action-btn btn-approve" onclick="approveProposal(${proposal.id})">
+                            <button class="action-btn btn-approve" onclick="approveProposal('${proposal.id}')">
                                 ✅ Approve & Send
                             </button>
-                            <button class="action-btn btn-reject" onclick="rejectProposal(${proposal.id})">
+                            <button class="action-btn btn-reject" onclick="rejectProposal('${proposal.id}')">
                                 ❌ Reject
                             </button>
+                            <button class="action-btn btn-edit" onclick="editProposal('${proposal.id}')">
+                                ✏️ Edit
+                            </button>
                         ` : `
-                            <span style="color: ${proposal.status === 'approved' ? '#ffffff' : '#ffffff'}">
+                            <span class="status-badge status-${proposal.status}">
                                 ${proposal.status === 'approved' ? '✅ Approved' : '❌ Rejected'}
                             </span>
                         `}
                         <button class="action-btn btn-view" onclick="viewProposal('${proposal.proposalUrl}')">
                             👁️ View Proposal
                         </button>
+                        ${proposal.originalJobUrl && proposal.originalJobUrl !== '#' ? `
+                            <button class="action-btn btn-upwork" onclick="viewUpworkJob('${proposal.originalJobUrl}')">
+                                🔗 Upwork Job
+                            </button>
+                        ` : ''}
                     </div>
                 </div>
             `).join('');
         }
 
-        // Get score class
+        // Helper functions
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text || '';
+            return div.innerHTML;
+        }
+
+        function formatDate(timestamp) {
+            const date = new Date(timestamp);
+            const now = new Date();
+            const diff = now - date;
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            
+            if (hours < 1) {
+                const minutes = Math.floor(diff / (1000 * 60));
+                return `${minutes} minutes ago`;
+            } else if (hours < 24) {
+                return `${hours} hours ago`;
+            } else {
+                return date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+            }
+        }
+
         function getScoreClass(score) {
             if (score >= 80) return 'score-must';
             if (score >= 60) return 'score-should';
@@ -538,40 +793,127 @@
         }
 
         // Approve proposal
-        function approveProposal(id) {
+        async function approveProposal(id) {
             const proposal = proposals.find(p => p.id === id);
             if (proposal) {
                 proposal.status = 'approved';
                 updateStats();
                 displayProposals();
                 
-                // In production, send to API
-                console.log('Approved proposal:', id);
+                // Send to API
+                try {
+                    await fetch('/api/proposals/approve', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ id, message: proposal.message })
+                    });
+                } catch (error) {
+                    console.error('Error approving proposal:', error);
+                }
             }
         }
 
         // Reject proposal
-        function rejectProposal(id) {
+        async function rejectProposal(id) {
             const proposal = proposals.find(p => p.id === id);
             if (proposal) {
                 proposal.status = 'rejected';
                 updateStats();
                 displayProposals();
                 
-                // In production, send to API
-                console.log('Rejected proposal:', id);
+                // Send to API
+                try {
+                    await fetch('/api/proposals/reject', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ id })
+                    });
+                } catch (error) {
+                    console.error('Error rejecting proposal:', error);
+                }
             }
         }
 
+        // Edit proposal
+        function editProposal(id) {
+            editingProposalId = id;
+            document.getElementById('editModal').classList.add('active');
+            document.getElementById('editFeedback').value = '';
+            document.getElementById('editFeedback').focus();
+        }
+
+        // Close edit modal
+        function closeEditModal() {
+            document.getElementById('editModal').classList.remove('active');
+            editingProposalId = null;
+        }
+
+        // Handle edit form submission
+        document.getElementById('editForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const feedback = document.getElementById('editFeedback').value.trim();
+            if (!feedback) return;
+            
+            const proposal = proposals.find(p => p.id === editingProposalId);
+            if (!proposal) return;
+            
+            // Send edit request to server
+            try {
+                const response = await fetch('/api/proposals/edit', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        id: editingProposalId,
+                        feedback: feedback,
+                        originalJob: {
+                            title: proposal.title,
+                            description: proposal.description,
+                            budget: proposal.budget,
+                            client: proposal.client
+                        }
+                    })
+                });
+                
+                if (response.ok) {
+                    // Reload proposals to get updated version
+                    await loadProposals();
+                    closeEditModal();
+                }
+            } catch (error) {
+                console.error('Error editing proposal:', error);
+                alert('Failed to update proposal. Please try again.');
+            }
+        });
+
         // View proposal
         function viewProposal(url) {
-            window.open('http://192.168.1.107' + url, '_blank');
+            window.open(url.startsWith('http') ? url : 'http://192.168.1.107' + url, '_blank');
+        }
+
+        // View Upwork job
+        function viewUpworkJob(url) {
+            window.open(url, '_blank');
         }
 
         // Refresh proposals
         function refreshProposals() {
             loadProposals();
         }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && document.getElementById('editModal').classList.contains('active')) {
+                closeEditModal();
+            }
+        });
+
+        // Close modal on background click
+        document.getElementById('editModal').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                closeEditModal();
+            }
+        });
 
         // Load proposals on page load
         loadProposals();

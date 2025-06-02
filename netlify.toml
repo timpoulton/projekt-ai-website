@@ -146,4 +146,16 @@
   SENTRY_DSN = ""
   
   # Performance monitoring
-  LIGHTHOUSE_BUDGET = "true" 
+  LIGHTHOUSE_BUDGET = "true"
+
+[[redirects]]
+  from = "/api/proposals"
+  to = "http://192.168.1.107:5001/api/proposals"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/*"
+  to = "http://192.168.1.107:5001/api/:splat"
+  status = 200
+  force = true 

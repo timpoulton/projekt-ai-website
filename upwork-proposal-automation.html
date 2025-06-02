@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upwork Proposal Automation - Projekt AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Mermaid.js for workflow diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'dark',
+            themeVariables: {
+                primaryColor: '#333',
+                primaryTextColor: '#fff',
+                primaryBorderColor: '#666',
+                lineColor: '#666',
+                sectionBkgColor: '#333',
+                altSectionBkgColor: '#444',
+                gridColor: '#666',
+                c0: '#1a1a1a',
+                c1: '#333',
+                c2: '#666',
+                c3: '#999'
+            }
+        });
+    </script>
+    
+    <style>
+        /* DARK THEME PORTFOLIO - PROJEKT AI DESIGN */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #fff;
+            background: #1a1a1a;
+            overflow-x: hidden;
+        }
+
+        /* Container - Dark Theme */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 60px;
+        }
+
+        /* Header - Dark Theme */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: 40px 0;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            align-items: center;
+            transition: color 0.3s ease;
+        }
+
+        /* Navigation Menu */
+        .menu-toggle {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            z-index: 1001;
+            position: relative;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 2px;
+            background: #fff;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        /* Slide-out Menu */
+        .slide-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            max-width: 400px;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.98);
+            backdrop-filter: blur(20px);
+            z-index: 10000;
+            transition: right 0.4s ease;
+            padding: 80px 60px 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .slide-menu.active {
+            right: 0;
+        }
+
+        .menu-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 1.2;
+            transition: all 0.3s ease;
+            display: block;
+            letter-spacing: -0.01em;
+            margin-bottom: 24px;
+        }
+
+        .menu-nav li:first-child {
+            margin-bottom: 48px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .menu-nav li:first-child a {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .menu-nav a:hover {
+            color: #b0b0b0;
+            transform: translateX(6px);
+        }
+
+        .menu-nav li:first-child a:hover {
+            transform: translateX(-4px);
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 120px;
+        }
+
+        /* Hero Section - Matching Club77 Layout */
+        .hero {
+            background: #1a1a1a;
+            padding: 140px 0;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 120px;
+            align-items: start;
+            padding: 0 0 140px;
+        }
+
+        .hero-left {
+            text-align: right;
+        }
+
+        .client-name {
+            font-size: 16px;
+            color: #b0b0b0;
+            font-weight: 500;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        .hero-left h1 {
+            font-size: clamp(48px, 6vw, 72px);
+            font-weight: 400;
+            line-height: 1.1;
+            color: #fff;
+            margin-bottom: 32px;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-left .subtitle {
+            font-size: 17px;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+            margin-bottom: 48px;
+            line-height: 1.6;
+        }
+
+        .hero-right {
+            text-align: left;
+        }
+
+        .services {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            backdrop-filter: blur(20px);
+        }
+
+        .services h3 {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 32px;
+        }
+
+        .services ul {
+            list-style: none;
+        }
+
+        .services li {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 16px;
+            font-weight: 400;
+        }
+
+        .live-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 32px;
+            transition: all 0.3s ease;
+        }
+
+        .live-link:hover {
+            transform: translateX(4px);
+        }
+
+        .live-link::after {
+            content: '→';
+        }
+
+        /* Workflow Section */
+        .workflow-section {
+            padding: 140px 0;
+            background: #111;
+        }
+
+        .workflow-diagram {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .workflow-title {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .workflow-title h3 {
+            font-size: 32px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .workflow-title p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 400;
+        }
+
+        .workflow-steps {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 80px;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+
+        .workflow-step {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 32px 24px;
+            text-align: center;
+            flex: 1;
+            min-width: 200px;
+            backdrop-filter: blur(20px);
+            transition: all 0.3s ease;
+        }
+
+        .workflow-step:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .step-icon {
+            font-size: 32px;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .step-content h4 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .step-content p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.4;
+        }
+
+        .workflow-arrow {
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 300;
+            margin: 0 16px;
+        }
+
+        .workflow-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 48px;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 24px;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: 600;
+            color: #1dd1a1;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+        }
+
+        /* Mermaid diagram styling */
+        .mermaid {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Section Headers - Dark Theme */
+        .section-header {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 120px;
+            margin-bottom: 100px;
+        }
+
+        .section-title {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* Overview Section - Dark Theme */
+        .overview-section {
+            padding: 140px 0;
+            background: #111;
+        }
+
+        .overview-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 120px;
+        }
+
+        .overview-content h3 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 24px;
+        }
+
+        .overview-content p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Process Section */
+        .process-section {
+            padding: 140px 0;
+            background: #1a1a1a;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px 120px;
+        }
+
+        .process-item {
+            position: relative;
+        }
+
+        .process-number {
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 24px;
+            letter-spacing: 0.12em;
+        }
+
+        .process-item h4 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }
+
+        .process-item p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Project Highlights */
+        .highlights-section {
+            padding: 140px 0;
+            background: #111;
+        }
+
+        .highlight-item {
+            margin-bottom: 80px;
+        }
+
+        .highlight-content h3 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 24px;
+        }
+
+        .highlight-content p {
+            font-size: 17px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 800px;
+        }
+
+        /* Related Section */
+        .related-section {
+            padding: 140px 0;
+            background: #1a1a1a;
+        }
+
+        .related-section .section-header h2 {
+            font-size: clamp(32px, 4vw, 48px);
+            font-weight: 400;
+            color: #fff;
+            line-height: 1.2;
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .related-card {
+            aspect-ratio: 4/3;
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+            background: #333;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .related-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .project-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.85));
+            padding: 32px;
+            color: #fff;
+        }
+
+        .project-overlay h4 {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .project-overlay p {
+            font-size: 14px;
+            opacity: 0.8;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .button .arrow::after {
+            content: "→";
+            transition: transform 0.3s ease;
+        }
+
+        .button:hover .arrow::after {
+            transform: translateX(4px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container { padding: 0 30px; }
+            .hero-content { grid-template-columns: 1fr; gap: 60px; }
+            .section-header { grid-template-columns: 1fr; gap: 40px; }
+            .overview-content { grid-template-columns: 1fr; gap: 60px; }
+            .process-grid { grid-template-columns: 1fr; gap: 60px; }
+            .related-grid { grid-template-columns: 1fr; }
+            .workflow-steps { flex-direction: column; }
+            .workflow-stats { grid-template-columns: 1fr; gap: 32px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">Projekt AI®</a>
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Slide-out Menu -->
+    <div class="slide-menu" id="slideMenu">
+        <div class="menu-nav">
+            <ul>
+                <li><a href="index.html">← Back to Portfolio</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <div class="client-name">Advanced Business Development</div>
+                        <h1>Systematic Proposal Automation</h1>
+                        <p class="subtitle">When you're selling automation expertise, your business development process itself must demonstrate that expertise. This system transforms proposal generation from operational overhead into competitive proof-of-concept, where efficiency becomes the primary selling point.</p>
+                    </div>
+                    
+                    <div class="hero-right">
+                        <div class="services">
+                            <h3>Core Components</h3>
+                            <ul>
+                                <li>Intelligent Market Monitoring</li>
+                                <li>Quality-Controlled AI Generation</li>
+                                <li>Multi-Touch Value Demonstration</li>
+                                <li>Systematic Competitive Positioning</li>
+                                <li>Scalable Business Development</li>
+                            </ul>
+                            <a href="#overview" class="live-link">View Implementation Framework</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workflow Section -->
+        <section class="workflow-section">
+            <div class="container">
+                <div class="workflow-diagram">
+                    <div class="workflow-title">
+                        <h3>Automated Business Development Framework</h3>
+                        <p>RSS-driven systematic opportunity capture with 80/20 template methodology and multi-asset coordination</p>
+                    </div>
+                    
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <div class="step-icon">🎯</div>
+                            <div class="step-content">
+                                <h4>Market Intelligence</h4>
+                                <p>Continuous opportunity identification</p>
+                            </div>
+                        </div>
+                        
+                        <div class="workflow-arrow">→</div>
+                        
+                        <div class="workflow-step">
+                            <div class="step-icon">⚡</div>
+                            <div class="step-content">
+                                <h4>Intelligent Filtering</h4>
+                                <p>Advanced opportunity qualification</p>
+                            </div>
+                        </div>
+                        
+                        <div class="workflow-arrow">→</div>
+                        
+                        <div class="workflow-step">
+                            <div class="step-icon">🎨</div>
+                            <div class="step-content">
+                                <h4>Value Demonstration</h4>
+                                <p>Multi-asset capability proof</p>
+                            </div>
+                        </div>
+                        
+                        <div class="workflow-arrow">→</div>
+                        
+                        <div class="workflow-step">
+                            <div class="step-icon">🚀</div>
+                            <div class="step-content">
+                                <h4>Professional Delivery</h4>
+                                <p>Expert relationship initiation</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mermaid">
+                        flowchart LR
+                            A[RSS Feed Monitor] --> B[Job Filtering]
+                            B --> C[Proposal Generation]
+                            B --> D[Project Page Creation]
+                            B --> E[Workflow Diagram]
+                            C --> F[Asset Coordination]
+                            D --> F
+                            E --> F
+                            F --> G[Quality Review]
+                            G --> H[Manual Submission]
+                            
+                            subgraph "30min Intervals"
+                                A
+                            end
+                            
+                            subgraph "AI Generation"
+                                C
+                                D
+                                E
+                            end
+                            
+                            subgraph "Human Oversight"
+                                G
+                                H
+                            end
+                    </div>
+                    
+                    <div class="workflow-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">80/20</div>
+                            <div class="stat-label">Template/AI Ratio</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">$1,000+</div>
+                            <div class="stat-label">Target Project Value</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Coordinated Assets</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="overview-section" id="overview">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-title">Overview</div>
+                    <div></div>
+                </div>
+                
+                <div class="overview-content">
+                    <div>
+                        <h3>Market Challenge</h3>
+                        <p>As demonstrated by successful automation freelancers earning $500k+ on Upwork: "Your ability to automate the job application process is basically example A for why the person should hire you in the first place." The fundamental challenge isn't just winning projects—it's proving automation expertise through your own systematized business development process while competing against manual proposal writers.</p>
+                    </div>
+                    <div>
+                        <h3>Competitive Solution</h3>
+                        <p>Following the proven 80/20 methodology: "Don't have the AI generate everything—have the AI generate a very small portion of a thing that you've already templated." This system monitors Upwork RSS feeds (automation, CRM, workflow projects $1,000+), generates three coordinated assets per opportunity, and positions automated responses as premium consulting demonstrations rather than mass applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process-section" id="process">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-title">Process</div>
+                    <div></div>
+                </div>
+                
+                <div class="process-grid">
+                    <div class="process-item">
+                        <div class="process-number">01</div>
+                        <h4>Intelligent Market Intelligence</h4>
+                        <p>RSS monitoring via `https://www.upwork.com/ab/feed/jobs/rss?q=automation&sort=recency` targets automation, CRM systems, project management, no-code, and workflow automation projects. Advanced filtering prioritizes $1,000+ budgets, verified clients, and projects where automated professional response demonstrates relevant capability—creating qualified pipeline for systematic engagement.</p>
+                    </div>
+                    <div class="process-item">
+                        <div class="process-number">02</div>
+                        <h4>Quality-Controlled Response Generation</h4>
+                        <p>Two-part AI prompt system: system prompt ("You are a helpful intelligent upwork application writer") defines behavior, user prompt provides job context. Template structure: "Hi I do {{THING}} all the time I'm really confident the right fit for it so I've actually just done something custom for you in this case I created a workflow diagram plus a demo of your {{BLANK}} in no code"—ensuring professional consistency with targeted customization.</p>
+                    </div>
+                    <div class="process-item">
+                        <div class="process-number">03</div>
+                        <h4>Multi-Touch Value Demonstration</h4>
+                        <p>Three coordinated deliverables per opportunity: (1) customized proposal copy with job-specific variables, (2) professional Google Doc project breakdown with templated structure, (3) Mermaid workflow diagram visualizing proposed automation process. This multi-asset approach creates impression of significant custom effort while demonstrating systematic thinking and technical capability through coordinated professional delivery.</p>
+                    </div>
+                    <div class="process-item">
+                        <div class="process-number">04</div>
+                        <h4>Professional Relationship Architecture</h4>
+                        <p>Expert human oversight ensures each engagement begins with appropriate positioning and relationship foundation. While automation provides scalability and consistency, human intelligence governs tactical decisions, ensuring each potential client relationship receives the appropriate level of consideration and professional positioning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Highlights -->
+        <section class="highlights-section" id="highlights">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-title">Project Highlights</div>
+                    <div></div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-content">
+                        <h3>Competitive Market Differentiation</h3>
+                        <p>Core insight from $500k+ Upwork automation freelancers: when targeting automation and systems jobs specifically, "the automated response itself demonstrates relevant capability." This meta-automation approach transforms the proposal process from operational cost into competitive proof-of-concept, where prospects immediately understand your systematic thinking and automation mastery through direct experience rather than theoretical promises.</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-content">
+                        <h3>Enterprise-Grade Quality Control</h3>
+                        <p>The 80/20 methodology ensures enterprise-level deliverable quality by prioritizing professional content architecture over AI improvisation. This framework eliminates the reputation risks associated with inconsistent AI outputs while maintaining the targeted personalization necessary for premium market positioning in sophisticated automation consulting engagements.</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-item">
+                    <div class="highlight-content">
+                        <h3>Systematic Competitive Positioning</h3>
+                        <p>Multi-asset delivery architecture creates comprehensive demonstration of analytical methodology and systematic thinking. This coordinated approach positions automated responses as evidence of thorough professional analysis rather than efficient mass communication—establishing immediate credibility and expert authority in high-value automation consulting markets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Projects -->
+        <section class="related-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-title">Related Projects</div>
+                    <h2>Check out some of my other automations</h2>
+                </div>
+                
+                <div class="related-grid">
+                    <a href="club77-content-pipeline.html" class="related-card">
+                        <div class="project-overlay">
+                            <h4>AI Blog & Social Generator</h4>
+                            <p>Content Automation</p>
+                            <span class="button">
+                                View Case Study
+                                <span class="arrow"></span>
+                            </span>
+                        </div>
+                    </a>
+                    
+                    <a href="venue-email-automation.html" class="related-card">
+                        <div class="project-overlay">
+                            <h4>Venue Email Automation</h4>
+                            <p>Customer Communication</p>
+                            <span class="button">
+                                View Case Study
+                                <span class="arrow"></span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('slideMenu');
+            menu.classList.toggle('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const menu = document.getElementById('slideMenu');
+            const toggle = document.querySelector('.menu-toggle');
+            
+            if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+                menu.classList.remove('active');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html> 

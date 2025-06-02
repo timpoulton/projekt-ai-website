@@ -316,7 +316,7 @@ function updateWebsite(logos) {
         const logosToUse = iconsForGrid.length > 0 ? iconsForGrid : logos.slice(0, 6);
         
         if (logosToUse.length > 0) {
-            // Create a mix of logos and text to fill 6 slots
+            // Create a mix of logos and text to fill 6 slots]
             const clientItems = [];
             
             // Add actual logos first
