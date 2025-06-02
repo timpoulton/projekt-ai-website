@@ -1,7 +1,79 @@
 {
-  "generated_at": "2025-06-02T12:40:01.408388",
+  "generated_at": "2025-06-02T12:45:01.390013",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748868138",
+      "job_title": "Neural bot yfinance python scriptlet new features",
+      "client_name": "Client",
+      "budget": "$150.00",
+      "description": "Hi Marmik as discussed, need this extra features , from beural bot beta form, the top grid shows our searched list of comma seperated stocks in the form of dataframe grid and should have feature to click any individual stock and it opens a new window and presents only that stock related complete details plus, more data in terms of how valatility. meaning if the trend is picking up on that selected stock or not. based on volume and percentage moves etc. should provided various analysis type detai...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:42:18.407482",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Neural-bot-yfinance-python-scriptlet-new-features-1748868138407.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868138",
+      "job_title": "Quick Zoho CRM Setup for Sales Tracking (1-2 Hours)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I need a Zoho CRM expert to assist with a quick setup to enable:\n\nSales tracking with geo-tracking for field sales representatives.\n\nCheck-in/check-out functionality to monitor field visits.\n\nBasic reporting to track sales team activity.\n\nThis is a simple setup (estimated 1-2 hours of work) for an existing Zoho CRM.\n\nSkills Required:\n\u2714 Proven experience with Zoho CRM customization\n\u2714 Knowledge of location/geo-tracking features in Zoho\n\u2714 Ability to configure check-in/check-out workflows\n\u2714 Basic re...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:42:18.015296",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Quick-Zoho-CRM-Setup-for-Sales-Tracking-1-2-Hours-1748868138015.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868137",
+      "job_title": "Project Manager",
+      "client_name": "Client",
+      "budget": "$1,000.00",
+      "description": "I'm seeking a skilled project manager to oversee the project in automobile company for factory automation You\u2019ll be responsible for: - Creating detailed project plans and timelines - Coordinating with suppliers to ensure timely delivery of materials - Generating quality control reports to maintain high standards Ideal skills and experience: - Background in Factory automation, especially in the automotive sector - Strong organizational and communication skills - Experience with project management...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:42:17.618524",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Project-Manager-1748868137618.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748867828",
       "job_title": "AWS Infrastructure - Migrate from single VM to Elastic Bean or alternatively ECS Fargate",
@@ -1118,78 +1190,6 @@
       "score": 70,
       "created_at": "2025-06-02T11:46:45.701889",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Dynamics-365-Supply-Chain-Functional-Consultant--R-1748864805701.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748864805",
-      "job_title": "Lawyer / Paralegal / Case Manager for an Immigration Law Firm",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a full-time Lawyer/ Paralegal / Case Manager to join our dynamic law firm. You will work closely with attorneys and other legal assistants in immigration cases, assisting with case management, client communication, and administrative tasks using Clio Grow & Clio Manage systems. The ideal candidate is professional, punctual, organized, and eager to contribute to a fast-paced legal environment. Bilingual in Spanish and English is a plus. You must have Immigration experience.\n\n\ud83d\udd0d Key ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:46:45.328484",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Lawyer--Paralegal--Case-Manager-for-an-Immigration-1748864805328.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748864804",
-      "job_title": "MS Teams Adaptive Card Developer Needed for Dynamic Field Updates",
-      "client_name": "Client",
-      "budget": "$400.00",
-      "description": "We are seeking a skilled developer to create an MS Teams Adaptive Card that allows for dynamic updates or additions to fields based on user selections in a Choice List, all without requiring a Submit button. The ideal candidate will have experience with Adaptive Cards and MS Teams integration. This is a proof of concept. We can easily get forms to adapt (using the refresh property and action.execute) when a Submit button is pressed, but we need updates to happen as soon as the user makes a chang...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:46:44.914508",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-MS-Teams-Adaptive-Card-Developer-Needed-for-Dynami-1748864804914.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748864804",
-      "job_title": "WordPress SEO-Safe Site Rebuild Using Elementor",
-      "client_name": "Client",
-      "budget": "$300.00",
-      "description": "We\u2019re looking for an experienced WordPress developer to help us manually migrate and rebuild an existing live site page-by-page, using a modern Elementor-based design that is already fully built and functional on a staging environment.\n\nThe existing site is running on WordPress 4.9.26 with a SiteOrigin theme and contains over 400 indexed pages, including blog posts, service pages, and location-specific content. These pages are all indexed on Google, and we must preserve their exact URLs, meta da...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:46:44.505856",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-WordPress-SEO-Safe-Site-Rebuild-Using-Elementor-1748864804505.html",
       "original_job_url": "",
       "status": "pending"
     }
