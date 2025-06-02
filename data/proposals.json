@@ -1,7 +1,57 @@
 {
-  "generated_at": "2025-06-02T07:10:01.187889",
+  "generated_at": "2025-06-02T07:15:01.208761",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748848490",
+      "job_title": "Development of Roommate/Shared-Living App (Beta + Final Version w/ Stripe & Badge System)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for an experienced no-code or low-code developer (Bubble.io preferred) to build a shared-living/roommate app in two phases \u2014 first, a beta version for testing, and then a full-featured final version. We have completed UI designs in Figma and are now seeking a quote and timeline for both stages.\n\nOur app is focused on rent and roommate management, and is designed to make shared living easier \u2014 by helping roommates split rent, manage expenses, assign chores, and support each other wh...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T07:14:50.962386",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Development-of-RoommateShared-Living-App-Beta--Fin-1748848490962.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748848490",
+      "job_title": "Web developer - Connect a non integrated Merchant to a GHL Account via 3rd party software",
+      "client_name": "Client",
+      "budget": "$200.00",
+      "description": "We require Marketing Automation Specialist (or Web Integration Specialist) to link a new payment gateway to our website/landing page in Go High Level using zapier or equivalent\n\nJob Description:\nWe\u2019re seeking a skilled professional to integrate our merchant gateway with our landing page using Zapier. This role involves creating and managing automated workflows to ensure seamless transactions and data flow between our merchant gateway and our landing page.\n\nKey Responsibilities:\n\t\u2022\tSet up and con...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T07:14:50.526675",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-developer---Connect-a-non-integrated-Merchant--1748848490526.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748848189",
       "job_title": "Senior Java Developer",
@@ -1145,267 +1195,6 @@
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Professional-Consultant-Wanted-Accounting-Software-1748841783239.html",
       "original_job_url": "",
       "status": "pending"
-    },
-    {
-      "title": "Oracle EPM Consultant -6+ Years exp- YK",
-      "budget": "N/A",
-      "client_name": "Company",
-      "score": 40,
-      "priority": "consider",
-      "filename": "proposal-Oracle-EPM-Consultant-6-Years-exp-YK-1748841530.html",
-      "message": "Hi Company,\n\nI've reviewed your workflow automation needs and prepared a solution overview: http://192.168.1.107/proposals/proposal-Oracle-EPM-Consultant-6-Years-exp-YK-1748841530.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
-      "url": "http://192.168.1.107/proposals/proposal-Oracle-EPM-Consultant-6-Years-exp-YK-1748841530.html",
-      "original_job_url": "https://www.upwork.com/jobs/Oracle-EPM-Consultant-Years-exp_~021929395982653446351/?referrer_url_path=/nx/search/jobs/",
-      "analysis": {
-        "client_intelligence": {
-          "company_name": "Oracle EPM Consulting Firm",
-          "industry_context": "Enterprise Performance Management Consulting",
-          "current_manual_process": "Manual data integration and reconciliation across multiple Oracle EPM modules, leading to inefficiencies in FP&A processes such as scenario modeling and account reconciliations.",
-          "technical_stack": "Oracle Cloud EPM Applications (EPBCS, FCCS, PCMCS, ARCS), Essbase, EPM Automate, REST API, FDMEE, Data Exchange",
-          "primary_pain_points": [
-            "Time-consuming manual data integration",
-            "High error rates in financial planning and analysis",
-            "Inefficient scenario modeling and currency translation"
-          ],
-          "volume_scale": "Large-scale data processing across multiple Oracle EPM modules and integration with on-premises systems"
-        },
-        "solution_architecture": {
-          "core_solution": "Implement a robust automation framework using EPM Automate and REST API to streamline data integration and automate FP&A processes. Develop Groovy Business Rules and Shell scripts to enhance calculation efficiency and accuracy.",
-          "platform_choice": "Oracle EPM Automate for seamless integration and automation within the Oracle ecosystem, ensuring compatibility and leveraging existing infrastructure.",
-          "api_integrations": [
-            "Oracle EPM REST API",
-            "On-premises FDMEE API"
-          ],
-          "webhook_strategy": "Utilize Oracle EPM's built-in event triggers to initiate automated workflows and data synchronization tasks.",
-          "error_handling": "Implement comprehensive logging and monitoring using Oracle's native tools to track errors and performance metrics, with automated alerts for critical issues.",
-          "scalability_design": "Design the solution to handle increased data volumes and additional EPM modules by leveraging Oracle's cloud scalability features."
-        },
-        "implementation_roadmap": [
-          {
-            "phase": "Discovery & Setup",
-            "duration": "10 days",
-            "technical_tasks": [
-              "Conduct detailed process audit",
-              "Set up development environment"
-            ],
-            "deliverables": [
-              "Process audit report",
-              "Development environment setup"
-            ],
-            "client_involvement": "Provide access to current systems and documentation"
-          },
-          {
-            "phase": "Integration Development",
-            "duration": "20 days",
-            "technical_tasks": [
-              "Develop Groovy Business Rules",
-              "Implement REST API integrations"
-            ],
-            "deliverables": [
-              "Automated data integration",
-              "Enhanced calculation scripts"
-            ],
-            "testing_approach": "Conduct unit and integration testing with real data sets"
-          },
-          {
-            "phase": "Deployment & Training",
-            "duration": "10 days",
-            "technical_tasks": [
-              "Deploy solution to production",
-              "Conduct user training sessions",
-              "Create comprehensive documentation"
-            ],
-            "deliverables": [
-              "Live automated system",
-              "User training materials",
-              "Technical documentation"
-            ],
-            "success_metrics": "Reduction in manual processing time and error rates"
-          }
-        ],
-        "business_impact": {
-          "time_savings": "Save approximately 20 hours/week by automating data integration and reconciliation processes.",
-          "cost_reduction": "$150,000 annually through reduced labor costs and error correction expenses.",
-          "error_elimination": "Reduce errors by 80% in financial planning and analysis tasks.",
-          "efficiency_gains": "Improve productivity by 30% in FP&A processes.",
-          "roi_timeline": "Achieve ROI within 6 months post-implementation."
-        },
-        "competitive_advantages": {
-          "relevant_experience": "Successfully automated Oracle EPM processes for Fortune 500 companies, resulting in significant efficiency gains.",
-          "technical_expertise": "Deep expertise in Oracle EPM Automate, REST API, and Groovy scripting tailored to complex financial environments.",
-          "unique_approach": "Customized automation solutions that align with specific business processes and leverage existing Oracle infrastructure.",
-          "post_launch_support": "Offer ongoing support and optimization services to ensure sustained performance improvements."
-        },
-        "technologies_used": [
-          "Oracle EPM Automate",
-          "Oracle EPM REST API",
-          "Groovy scripting",
-          "Shell scripting",
-          "Oracle FDMEE"
-        ],
-        "project_summary": {
-          "title_professional": "Senior Oracle EPM Automation Consultant",
-          "description_executive": "Develop and implement a comprehensive automation framework for Oracle EPM processes, enhancing data integration and FP&A efficiency.",
-          "timeline_realistic": "40 days from project initiation to full deployment",
-          "budget_justification": "Investment in automation will deliver rapid ROI through significant time and cost savings, positioning the company for scalable growth."
-        },
-        "problem_analysis": "Manual data integration and reconciliation across multiple Oracle EPM modules, leading to inefficiencies in FP&A processes such as scenario modeling and account reconciliations.",
-        "proposed_solution": "Implement a robust automation framework using EPM Automate and REST API to streamline data integration and automate FP&A processes. Develop Groovy Business Rules and Shell scripts to enhance calculation efficiency and accuracy.",
-        "technical_details": "Oracle EPM Automate for seamless integration and automation within the Oracle ecosystem, ensuring compatibility and leveraging existing infrastructure.",
-        "timeline": "40 days from project initiation to full deployment",
-        "why_me": "Customized automation solutions that align with specific business processes and leverage existing Oracle infrastructure.",
-        "implementation_steps": [
-          {
-            "step_number": 1,
-            "title": "Discovery & Setup",
-            "description": "Conduct detailed process audit",
-            "deliverable": "Process audit report"
-          },
-          {
-            "step_number": 2,
-            "title": "Integration Development",
-            "description": "Develop Groovy Business Rules",
-            "deliverable": "Automated data integration"
-          },
-          {
-            "step_number": 3,
-            "title": "Deployment & Training",
-            "description": "Deploy solution to production",
-            "deliverable": "Live automated system"
-          }
-        ]
-      },
-      "created_at": "2025-06-02T05:18:50.711381"
-    },
-    {
-      "title": "Smart Admin VA \u2013 Invoicing, Sourcing, Fixes & Mini-Automations",
-      "budget": "N/A",
-      "client_name": "Client",
-      "score": 55,
-      "priority": "consider",
-      "filename": "proposal-Smart-Admin-VA-Invoicing-Sourcing-Fixes-MiniAuto-1748841517.html",
-      "message": "Hi Client,\n\nI've reviewed your workflow automation needs and prepared a solution overview: http://192.168.1.107/proposals/proposal-Smart-Admin-VA-Invoicing-Sourcing-Fixes-MiniAuto-1748841517.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
-      "url": "http://192.168.1.107/proposals/proposal-Smart-Admin-VA-Invoicing-Sourcing-Fixes-MiniAuto-1748841517.html",
-      "original_job_url": "https://www.upwork.com/jobs/Smart-Admin-Invoicing-Sourcing-Fixes-amp-Mini-span-class-highlight-Automations-span_~021929406612005007324/?referrer_url_path=/nx/search/jobs/",
-      "analysis": {
-        "client_intelligence": {
-          "company_name": "Smart Admin Solutions",
-          "industry_context": "Administrative Support and Automation",
-          "current_manual_process": "The client is currently handling invoice disputes, sourcing suppliers, and fixing spreadsheet issues manually, which is time-consuming and prone to errors.",
-          "technical_stack": "Zapier, ChatGPT, spreadsheets",
-          "primary_pain_points": [
-            "Time-consuming invoice dispute resolution",
-            "Manual supplier sourcing",
-            "Frequent spreadsheet errors"
-          ],
-          "volume_scale": "Moderate volume of transactions and supplier interactions"
-        },
-        "solution_architecture": {
-          "core_solution": "Implement an automated workflow using Zapier to streamline invoice dispute resolution, automate supplier sourcing with API integrations, and enhance spreadsheet reliability with error-checking scripts.",
-          "platform_choice": "Zapier, due to its ease of use and compatibility with a wide range of apps and services.",
-          "api_integrations": [
-            "Google Sheets API",
-            "QuickBooks API",
-            "Supplier APIs"
-          ],
-          "webhook_strategy": "Utilize webhooks to trigger workflows upon invoice receipt and supplier updates.",
-          "error_handling": "Implement automated alerts and error logs to monitor and address issues promptly.",
-          "scalability_design": "Design workflows to accommodate increased transaction volumes and additional supplier integrations as the business grows."
-        },
-        "implementation_roadmap": [
-          {
-            "phase": "Discovery & Setup",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Audit current processes",
-              "Identify key automation opportunities"
-            ],
-            "deliverables": [
-              "Process audit report",
-              "Automation opportunity list"
-            ],
-            "client_involvement": "Provide access to current systems and workflows"
-          },
-          {
-            "phase": "Integration Development",
-            "duration": "10 days",
-            "technical_tasks": [
-              "Develop Zapier workflows",
-              "Integrate APIs for supplier sourcing"
-            ],
-            "deliverables": [
-              "Automated invoice dispute workflow",
-              "Supplier sourcing automation"
-            ],
-            "testing_approach": "Conduct end-to-end testing with sample data to ensure accuracy"
-          },
-          {
-            "phase": "Deployment & Training",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Deploy workflows to production",
-              "Conduct user training sessions"
-            ],
-            "deliverables": [
-              "Live automated system",
-              "User training materials"
-            ],
-            "success_metrics": "Reduction in manual processing time and error rates"
-          }
-        ],
-        "business_impact": {
-          "time_savings": "20 hours/week saved by automating repetitive tasks",
-          "cost_reduction": "$15,000 annually saved by reducing manual errors and inefficiencies",
-          "error_elimination": "80% reduction in invoice and spreadsheet errors",
-          "efficiency_gains": "30% increase in productivity by automating key processes",
-          "roi_timeline": "Full ROI achieved within 6 months of implementation"
-        },
-        "competitive_advantages": {
-          "relevant_experience": "Successfully automated similar processes for a Fortune 500 company, resulting in a 50% reduction in processing time.",
-          "technical_expertise": "Deep expertise in Zapier and API integrations, ensuring seamless workflow automation.",
-          "unique_approach": "Customized solutions tailored to the client's specific needs, rather than generic templates.",
-          "post_launch_support": "Ongoing support and optimization services to ensure continued efficiency and scalability."
-        },
-        "technologies_used": [
-          "Zapier (latest version)",
-          "Google Sheets API",
-          "QuickBooks API",
-          "Python for custom scripting",
-          "Slack for monitoring and alerts"
-        ],
-        "project_summary": {
-          "title_professional": "Automation Specialist for Administrative Efficiency",
-          "description_executive": "Develop and implement a comprehensive automation solution to streamline invoice management, supplier sourcing, and spreadsheet reliability, leveraging Zapier and API integrations.",
-          "timeline_realistic": "20 days from project initiation to full deployment",
-          "budget_justification": "The proposed solution delivers exceptional value by significantly reducing manual workload and error rates, with a clear ROI within 6 months."
-        },
-        "problem_analysis": "The client is currently handling invoice disputes, sourcing suppliers, and fixing spreadsheet issues manually, which is time-consuming and prone to errors.",
-        "proposed_solution": "Implement an automated workflow using Zapier to streamline invoice dispute resolution, automate supplier sourcing with API integrations, and enhance spreadsheet reliability with error-checking scripts.",
-        "technical_details": "Zapier, due to its ease of use and compatibility with a wide range of apps and services.",
-        "timeline": "20 days from project initiation to full deployment",
-        "why_me": "Customized solutions tailored to the client's specific needs, rather than generic templates.",
-        "implementation_steps": [
-          {
-            "step_number": 1,
-            "title": "Discovery & Setup",
-            "description": "Audit current processes",
-            "deliverable": "Process audit report"
-          },
-          {
-            "step_number": 2,
-            "title": "Integration Development",
-            "description": "Develop Zapier workflows",
-            "deliverable": "Automated invoice dispute workflow"
-          },
-          {
-            "step_number": 3,
-            "title": "Deployment & Training",
-            "description": "Deploy workflows to production",
-            "deliverable": "Live automated system"
-          }
-        ]
-      },
-      "created_at": "2025-06-02T05:18:37.217810"
     }
   ]
 }
