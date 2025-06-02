@@ -1,7 +1,126 @@
 {
-  "generated_at": "2025-06-02T11:50:01.127968",
+  "generated_at": "2025-06-02T11:55:01.931833",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748865104",
+      "job_title": "Full Stack Developer Needed for Dating App Platform",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "[PLEASE NOTE THE BUDGET IS VARIABLE, PLEASE IGNORE THE FIGURE AND PROVIDE YOUR REAL, FAIR ESTIMATES. HAPPY TO HIRE ONE PERSON OR MULTIPLE.]\n\nSummary: We are seeking a skilled full stack developer to assist in building a comprehensive dating-app style platform (can use existing templates if we're happy with them first). This includes creating a web app and mobile app, along with a robust backend CMS for admin management, matching functions, notification etc. All details are below! If you have exp...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:51:44.041403",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Full-Stack-Developer-Needed-for-Dating-App-Platfor-1748865104041.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748865103",
+      "job_title": "PHP Web Development: Frontend and Backend Modifications",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "**Job Opportunity: PHP Developer**\n\nWe are seeking a skilled PHP Developer to join our team and contribute to exciting modifications on our website. This role encompasses a variety of tasks across both frontend and backend development, focusing on performance optimization, user experience enhancement, and the integration of new features. \n\nThe perfect candidate will possess a deep knowledge of PHP, as well as proficiency in HTML, CSS, and JavaScript. Experience with MySQL databases is also essen...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:51:43.636817",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-PHP-Web-Development-Frontend-and-Backend-Modificat-1748865103636.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748865102",
+      "job_title": "n8n Workflow Expert + AI + WhatsApp Integration (with CRM logging",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "how to set up an n8n workflow that performs the following tasks:\n\n\u2705 Core Workflow Requirements:\nNew Lead Trigger:\n\nTrigger when a new lead fills out a form or enters from a specific source (e.g. Typeform, website, webhook, etc.)\n\n\n communication must be 2-way\n\nIntegrate with AI Agent:\n\nConnect a conversational AI (OpenAI, Claude, RetellAI, etc.)\n\nThe AI agent should have memory and handle natural conversation with the client\n\nThe AI should be able to answer questions, guide the client, and escal...",
+      "analysis": {
+        "tools": [
+          "N8N",
+          "Webhook"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using N8N, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:51:42.372350",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-n8n-Workflow-Expert--AI--WhatsApp-Integration-with-1748865102372.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748865101",
+      "job_title": "Email Marketing & Copywriting [Kajabi] \u2013 Wellness Brand with a Purpose",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Taoist Wellness Online (taoistwellness.online) is the world's most popular Tai Chi, Qi Gong, and Daoist wellness brand. Our mission is to help people live with clarity, energy, and balance by offering accessible training in Tai Chi, Qi Gong, Meditation, Breathwork, and practical Daoist wisdom to thousands worldwide.\n\nWe\u2019re looking for someone to lead our email marketing who writes with care, converts with subtlety, and loves building thoughtful flows that reflect the heartbeat of a conscious bra...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:51:41.953835",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email-Marketing--Copywriting-Kajabi--Wellness-Bran-1748865101953.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748865101",
+      "job_title": "Social media Marketing Assistant for Relationship Niche",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Social media Marketing Assistant for Relationship Niche\nMARKETING PLAYBOOK\nRelationShift and Future Businesses\n\nType of Virtual Assistant Needed\nRole: Digital Marketing Virtual Assistant (Specializing in Relationship/Wellness Brands)\nFocus Areas:\nOrganic Content & Social Media Management\nPaid Advertising (Meta/Google Ads)\nEmail Marketing & Lead Nurturing\nCommunity Building & User-Generated Content (UGC)\nLocalization & Multilingual Campaigns\n\nKey Qualifications\nSkill/Tool\nWhy It Matters\nSocial Me...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:51:41.528157",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Social-media-Marketing-Assistant-for-Relationship--1748865101528.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748864805",
       "job_title": "Dynamics 365 Supply Chain Functional Consultant | Remote | 1-Month Contract (Part-Time)",
@@ -1079,126 +1198,6 @@
       "score": 70,
       "created_at": "2025-06-02T11:16:40.744982",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-AI--Automation-Developer-for-NFT-Insurance--Fraud--1748863000745.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748862994",
-      "job_title": "AI Cold Calling Specialist for Real Estate Lead Qualification",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are a dynamic agency focused on supporting real estate agents in streamlining their outreach efforts. We are seeking an experienced professional who can utilize AI technology to automate initial outreach and effectively qualify leads. Your expertise will help us enhance our productivity and improve our conversion rates. If you are skilled in AI applications, lead generation, and have a proven track record in this domain, we would love to hear from you. Join us to drive innovation in real esta...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "real estate",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your real estate.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:16:34.877704",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Cold-Calling-Specialist-for-Real-Estate-Lead-Qu-1748862994877.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748862994",
-      "job_title": "Video Editor for AI & Automation Short-Form Faceless Videos",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a skilled video editor to create engaging faceless short-form videos focused on AI and automation. The ideal candidate will have experience in incorporating infographics and animations to enhance storytelling and visuals. You will work with provided scripts and concepts, transforming them into captivating video content that resonates with our audience. If you have a creative eye and are proficient in video editing software, we would love to see your portfolio and discuss this exci...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:16:34.474666",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Video-Editor-for-AI--Automation-Short-Form-Faceles-1748862994474.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748862994",
-      "job_title": "Go High Level Website Designer",
-      "client_name": "Client",
-      "budget": "$100.00",
-      "description": "## Position Overview\nWe are seeking an experienced GoHighLevel (GHL) template designer for an ongoing partnership. This role involves creating high-converting website templates, sales pages, and webinar pages directly within the GoHighLevel platform.\n\n## About This Role\nThis is an **ongoing position** with consistent work. You'll be responsible for designing and building complete template packages that our clients can use across various industries and niches.\n\n## What You'll Be Creating\nFor each...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:16:34.073358",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Go-High-Level-Website-Designer-1748862994073.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748862696",
-      "job_title": "Onboarding Assistant",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "About Us\nWe are a company that partners with a wide range of merchants, providing support in areas such as technology, CRM systems, website development, and bank agreement setup. Our mission is to make it easier for merchants to build, manage, and grow their online businesses with the right tools and infrastructure in place.\n\nAbout the Role\nWe\u2019re currently seeking an experienced Onboarding Assistant to join our onboarding team. Your primary responsibility will be to facilitate the setup of bank ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:11:36.251531",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Onboarding-Assistant-1748862696251.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748862695",
-      "job_title": "APPS SCRIPT - Google Docs Script for Automated Formatting",
-      "client_name": "Client",
-      "budget": "$40.00",
-      "description": "INSTRUCTIONS AND GOALS (40$)\nCreate a Google Doc Script for automating formatting\nTo make it easier I wrote the technical requirements here with clear instructions and images of what should be the result: \nhttps://docs.google.com/document/d/1mOisFjjG6ZZEsoyvsANGjY0EGeH4Seab2KZH_RT4muk/edit?usp=sharing\nPlease have a look at it and let's me know if you have any questions. The task should be delivered today or tomorrow.\n\nAt the end with the script we will be able to:\nAutomatically identify and prev...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:11:35.830714",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-APPS-SCRIPT---Google-Docs-Script-for-Automated-For-1748862695830.html",
       "original_job_url": "",
       "status": "pending"
     }
