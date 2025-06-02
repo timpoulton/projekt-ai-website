@@ -146,7 +146,7 @@
   SENTRY_DSN = ""
   
   # Performance monitoring
-  LIGHTHOUSE_BUDGET = "true"
+  LIGHTHOUSE_BUDGET = "true" 
 
 [[redirects]]
   from = "/api/proposals"
