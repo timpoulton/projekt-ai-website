@@ -1,7 +1,200 @@
 {
-  "generated_at": "2025-06-02T15:50:01.175062",
+  "generated_at": "2025-06-02T15:55:01.178996",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748879651",
+      "job_title": "Salesforce and Jira Integration Specialist Needed",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for an experienced professional to assist with integrating Salesforce and Jira. The ideal candidate will have a strong understanding of both platforms and how to facilitate seamless data transfer and communication between them. You will be responsible for mapping out integration requirements, implementing the necessary configurations, and ensuring that both systems work harmoniously together. If you have experience in API integrations and can troubleshoot issues effectively, we wa...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\n\"Seamless data transfer and communication between them\" \u2013 that's music to my ears! I understand the frustration that comes with manually juggling data between Salesforce and Jira. I once spent a week untangling a spaghetti-like integration someone *thought* was seamless. Lesson learned: proper planning is key.\n\nFor your project, I'd start by mapping out those specific data points you need synced and the direction it should flow. Then, I'll configure the connection itself, using webhooks or middleware (depending on your preference and budget). Finally, thorough testing is crucial.\n\nWould you be available for a quick chat to discuss your specific requirements and workflow in more detail? I'm happy to share some ideas.",
+      "score": 80,
+      "created_at": "2025-06-02T15:54:11.273284",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Salesforce-and-Jira-Integration-Specialist-Needed-1748879651273.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879649",
+      "job_title": "Zapier Expert for Salesforce Workflows",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an experienced AI and Zapier expert to set up efficient workflows within Salesforce and other platforms. The ideal candidate will have a strong understanding of automation tools and how to integrate them with Salesforce to enhance our sales processes. You will be responsible for creating and optimizing workflows that streamline our operations, improve data management, and enhance productivity. If you have a proven track record in this area, we want to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "---\n\nHi there,\n\nSaw you're looking to smooth out some Salesforce workflows with Zapier, specifically around integration challenges. I totally get that. I spent a frustrating week last year debugging a similar situation where a custom Salesforce object just refused to play nice with a lead generation tool \u2013 turns out it was a mismatched field name that was causing all the headaches.\n\nFor your project, I'd start by mapping out your current Salesforce processes, identifying those integration bottlenecks. Then, we can look at building some Zapier flows to bridge the gaps, focusing on data accuracy and efficiency. Finally, I can help you test and refine those flows to make sure everything's running smoothly.\n\nWould love to chat briefly about your specific needs and see if I can offer some helpful ideas. Let me know if you're free for a quick call sometime next week.\n---",
+      "score": 80,
+      "created_at": "2025-06-02T15:54:09.388655",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zapier-Expert-for-Salesforce-Workflows-1748879649388.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879646",
+      "job_title": "\ud83d\ude80 Senior Svelte Developer (Frontend - Tables & Dynamic UI)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Join Outbond, a fast-growing AI startup building the future of outbound prospecting. We\u2019re looking for a senior Svelte developer who thrives on clean code, beautiful UI, and solving real user problems.\n\nYou\u2019ll work on dynamic grid/table views, interactive components, and AI-driven interfaces used by sales teams around the world.\n\n\u2705 What We\u2019re Looking For:\n3+ years of Svelte experience (incl. SvelteKit)\n\nStrong skills in table/grid-based UIs and component architecture\n\nPixel-perfect execution fro...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey Outbond Team,\n\nSaw you're looking for someone to build \"dynamic grid/table views and AI-driven interfaces\" \u2013 that really caught my eye. I remember wrestling with complex data grids in Svelte a couple of years back for a logistics company. It taught me the crucial importance of component reusability and performant data binding from the get-go.\n\nFor your project, I'd focus on first nailing down the data structure for the tables, then building highly adaptable Svelte components with clear separation of concerns, and finally, integrating those components with your AI-driven logic. That modular approach tends to pay dividends down the line in terms of maintainability.\n\nWould love to chat more about the specifics of your data and UI requirements. Let me know if you're free for a quick call sometime this week.",
+      "score": 70,
+      "created_at": "2025-06-02T15:54:06.321119",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal--Senior-Svelte-Developer-Frontend---Tables--Dynami-1748879646321.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879644",
+      "job_title": "Expert Needed to Integrate Calendly with Webflow",
+      "client_name": "Client",
+      "budget": "$800.00",
+      "description": "We are seeking an expert to seamlessly integrate Calendly with our Webflow website.  We would like to launch the Calendly calender after demo request form submission using Calendly's routing tool that integrations with the Hubspot Form we're using. \n\nThis should be a very simple project for a webflow developer who has experience with Calendly. \n\nThe ideal candidate will have in-depth knowledge of both platforms, ensuring that our scheduling functionality operates smoothly and enhances user exper...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Integration challenges\" - I hear you loud and clear! I've tackled similar Calendly/Webflow setups where getting the data flow right after form submissions can be a bit tricky. Once I spent an entire day troubleshooting why Hubspot wasn't triggering Calendly routing, turns out it was a single misconfigured field mapping. Super frustrating!\n\nFor your project, I'd start by carefully reviewing your Hubspot form and how it's connected to Calendly routing. Then, I'd set up a test environment in Webflow to mirror your live site and ensure the integration works perfectly. Finally, we'll deploy it to your live site, testing everything thoroughly.\n\nWould love to chat for 15 minutes and see if my experience aligns well with your specific needs.",
+      "score": 70,
+      "created_at": "2025-06-02T15:54:04.398474",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Expert-Needed-to-Integrate-Calendly-with-Webflow-1748879644398.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879642",
+      "job_title": "AI-Powered Virtual Staging Web App (Image Upload \u2192 Room Staging \u2192 Delivery)",
+      "client_name": "Client",
+      "budget": "$3,000.00",
+      "description": "Job Description: I'm looking for an experienced full stack developer to build a fully automated virtual staging platform for virtual staging. For own faster operations we need a system like the following.\n\nThe user flow is simple:\n1. We upload a real estate photo (empty room)\n2. Selects room type (bedroom, kitchen, etc.)\n3. Selects desired furniture style (e.g., Modern, Scandinavian)\n4. Receive a staged version of the photo within ~10 minutes (automatically)\n\n\nYou can leverage AI APIs like Repli...",
+      "analysis": {
+        "tools": [
+          "Make.Com",
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "real estate",
+        "score": 90
+      },
+      "message": "Hey there! The idea of automating the whole virtual staging process \"for faster operations\" definitely resonates with me. I've seen firsthand how tedious manual staging can be \u2013 spent a few too many late nights myself moving digital furniture in past projects!\n\nFor something like this, I'd first focus on nailing the image upload/AI API integration (Repli sounds good!). Then, we'd prioritize getting that core staging loop working reliably. Finally, polish the user experience with intuitive selection and styling options. Keeps things manageable and gets you results quickly.\n\nIf you'd like to chat more about the specifics, I'm always up for a virtual coffee!",
+      "score": 90,
+      "created_at": "2025-06-02T15:54:02.446184",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Powered-Virtual-Staging-Web-App-Image-Upload--R-1748879642446.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879639",
+      "job_title": "Python Developer - Part Time Remote Position",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "About Us \n-----------\nTeammate AI is revolutionizing how businesses implement AI solutions. We're focused on making AI technology accessible and practical, helping organizations automate tasks and scale their impact. Our infrastructure needs to be as innovative as our solutions. \n\nThe Role \n-----------\nWe're seeking a skilled Python Developer to join our remote team, focusing on building and maintaining our AI automation platforms. This role offers the flexibility of part-time hours with the pot...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "Hey Teammate AI Team,\n\nRead your description about needing help building and maintaining your AI automation platforms \u2013 resonates with me! I spent a good chunk of last year untangling a knot of integration issues for a marketing startup that was drowning in disconnected AI tools. It was a mess, but taught me the importance of rock-solid backend architecture.\n\nFor your situation, I'd suggest first focusing on a clear API strategy to ensure smooth data flow. Then, we could build out robust unit tests for each automated function to catch errors early. Finally, I'd suggest creating detailed documentation to help maintain your code long-term.\n\nWould love to chat about the specific tech stack you're using and how I can help make your AI platforms even more impactful. Let me know if you're free for a quick call.",
+      "score": 90,
+      "created_at": "2025-06-02T15:53:59.658894",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Python-Developer---Part-Time-Remote-Position-1748879639658.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879636",
+      "job_title": "Founder Associate \u2013 Business, Content & Ops \ud83c\uddfb\ud83c\uddf3",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "# \ud83d\ude4b\u200d\u2640\ufe0f what\u2019s the job?\n\n/// Remote-first (Vietnam time), async-friendly\n\nTocco is building the operating system for future materials \u2014 a platform where designers, buyers, and makers discover and use radically better materials.\n\nWe\u2019ve launched. The users are real. The product is live. The mission is clear.\n\nNow we\u2019re looking for a **Founder Associate, based in Vietnam** (or **APAC**) who thrives in ambiguity, acts fast, and turns loose ideas into systems, content, and real product delivery \u2014 a sh...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "repetitive work",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "Hey there,\n\n\"Turning loose ideas into systems\" - that really resonated with me. I've spent the last few years helping solo founders and small teams wrangle exactly that kind of chaos into something manageable through automation. I remember once helping a founder who was spending *hours* each week just copy-pasting data between spreadsheets and their CRM; we streamlined it with a simple Zapier integration and gave them back almost a full day.\n\nFor Tocco, especially with the emphasis on content and ops, I'd think about initially mapping out your key workflows, identifying the repetitive tasks, and then building out lightweight automations to handle them. Maybe starting with lead qualification or content distribution?\n\nWould love to chat more about your specific pain points and explore some quick wins. Let me know if you're free for a quick call.",
+      "score": 90,
+      "created_at": "2025-06-02T15:53:56.734716",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Founder-Associate--Business-Content--Ops--1748879636734.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879634",
+      "job_title": "AI agents expert to create simple AI assistants using ChatGPT",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hi,\n\nwe're looking for an AI agents expert to:\n\n- create AI assistants from scratch based on requirements\n- customize existing AI assistants \n- create end-to-end process & SOP for the given task\n- knowledge of Zapier is a big plus\n\nIf you check all of these boxes, you're welcome to apply.\n\nThanks",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\n\"Creating AI assistants from scratch based on requirements\" is exactly the kind of thing I enjoy. I remember once spending a week wrestling with a particularly stubborn API while building a lead generation assistant \u2013 felt like I was speaking a different language from the AI! Eventually, we got it humming, and the client saved hours a week.\n\nFor your project, I'd first want to fully understand your specific needs for each AI assistant. Then, I'd focus on building robust, easily maintainable solutions, making sure to document everything in a clear SOP. I'd then integrate the assistants with Zapier if needed to streamline your workflows.\n\nWould love to chat briefly about your requirements and see if I can bring my experience to bear.\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T15:53:54.797369",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-agents-expert-to-create-simple-AI-assistants-us-1748879634797.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748879336",
       "job_title": "Android Developer",
@@ -1002,194 +1195,6 @@
       "score": 70,
       "created_at": "2025-06-02T15:28:32.851946",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Title-Shopify-store-developer-1748878112851.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748878111",
-      "job_title": "Email & Digital Marketing Assistant (Full-Time, Remote)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re looking for a full-time, remote Email & Digital Marketing Assistant to join a fast-growing ecommerce brand in the hair and beauty space. This is a great opportunity for someone with hands-on experience in both email marketing and digital advertising, particularly with Klaviyo, Google Ads, and Google Analytics. \n\nYou\u2019ll work closely with the Head of Marketing to run email campaigns, manage paid ads, and support broader digital marketing efforts across channels. We\u2019re looking for someone pro...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "e-commerce",
-        "score": 70
-      },
-      "message": "Hi there,\n\nReading about your need for someone to help manage email campaigns and paid ads for your hair and beauty brand immediately caught my eye. Especially your need for experience with Klaviyo, Google Ads, and Google Analytics.\n\nI remember once working with a client in the similar space, where their abandoned cart sequence was performing terribly. We dug into the Google Analytics data and found that mobile users were having a really hard time with the checkout form. Simple fix, huge impact.\n\nFor you, I'd start by taking a deep dive into your current data across those platforms to identify quick wins and areas for optimization. Then, we could prioritize automating some of the more repetitive tasks in Klaviyo. Finally, ensuring everything aligns with your overall marketing strategy.\n\nIf this sounds like a good fit, I'd be happy to chat more about your specific needs and how I can help.",
-      "score": 70,
-      "created_at": "2025-06-02T15:28:31.009667",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email--Digital-Marketing-Assistant-Full-Time-Remot-1748878111009.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877529",
-      "job_title": "Langchain, agentic developer - 5 years + India,  Nigeria, Kenya, Egypt, Bangladesh 3 position",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Role Overview:\nMinimum 5 years in backend/full-stack development with strong Python & LLM integration experience\nHands-on LLM integration in production (not academic/chatbot-only experience)\nExpertise in designing production-grade APIs and backend services\nPractical experience with LangChain, LangGraph, RAG pipelines, agent frameworks\nStrong knowledge of async workflows, deployment, observability, and performance\nThis is a software engineering role (not data science, analytics, or annotation\n\nTh...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hi there,\n\nI saw you're looking for someone with real-world LLM experience, not just chatbot stuff. I get that \u2013 I spent six months last year untangling a RAG pipeline for a financial client that had been built on theory, not reality, and it was a mess!\n\nBased on your description, I think we could start by first really diving into your current workflows and identifying the bottlenecks ripe for automation with Langchain. Then, design some robust APIs around those automations, focusing on observability from the start. Finally, build out those RAG pipelines with async workflows to ensure efficient information retrieval.\n\nI'd be happy to chat for 15 minutes to see if my experience lines up well with your needs. Let me know if you're free sometime next week.",
-      "score": 80,
-      "created_at": "2025-06-02T15:18:49.411794",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Langchain-agentic-developer---5-years--India--Nige-1748877529411.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877526",
-      "job_title": "Make.com intregrations expert",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are automizing different processes with Make.com\n\nSources we work with:\n- TG messenger  - for giving instructions\n- Midjourney to create pictures\n- Google Drive to upload\n- LLM model as ChatGPT, Gemini, Perplexity to give feedback to pictures\n- LLM model to create text / quotes for pictures and for single content\n- Create content, upload, put information into google spreadsheet.\n\nWe have many chains we want to build and need somebody who can support us with integrations and who has significan...",
-      "analysis": {
-        "tools": [
-          "Make.Com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hey there,\n\nSaw your project description mentioning the need to automate processes with Make.com \u2013 especially the part about creating content, uploading, and then manually wrangling that info into Google Sheets. I totally get it. I was helping a photographer friend streamline his workflow the other day, and just the Google Drive upload step was eating up half his afternoon!\n\nFor your setup, I'd initially focus on connecting TG messenger to Make.com to trigger the image creation in Midjourney. Then, feed that image to your LLM for feedback, and finally automatically upload everything to Drive and update the Google Sheet. We can tackle this in stages to make sure everything's smooth.\n\nI'm available for a quick chat to see how this all comes together. Let me know if you're free sometime this week.",
-      "score": 80,
-      "created_at": "2025-06-02T15:18:46.688124",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Makecom-intregrations-expert-1748877526688.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877523",
-      "job_title": "Need an Expert Website Builder to Create a Modern, Fully Functional Business Website",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re looking for an experienced website builder (no-code or low-code acceptable) to help design and develop a fully functional, visually appealing, and user-friendly business website. This will be the online face of our brand, so quality, performance, and UX are key.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Hey there,\n\nSaw you're aiming for a \"fully functional, visually appealing, and user-friendly business website\" - nailed it, that's crucial. I get it; the online face *is* everything these days.\n\nFunny enough, just last month, I helped a local bakery finally ditch their paper order forms and move everything online. What they thought would take weeks was up and running within days, and the owner was *thrilled* with the new level of efficiency.\n\nFor your project, I'd start by diving deep into understanding your brand and target audience, sketching out a sitemap for optimal UX, and then choosing the right no-code or low-code platform that fits your specific needs.\n\nI'd love to hear more about your brand. Maybe we can hop on a quick call sometime next week to chat about your vision?",
-      "score": 70,
-      "created_at": "2025-06-02T15:18:43.865726",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Need-an-Expert-Website-Builder-to-Create-a-Modern--1748877523865.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877521",
-      "job_title": "NET Developer",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Reynolds and Reynolds is currently seeking candidates with prior experience of systems design and development.\n\nREQUIREMENTS:\n\n2+ years prior work experience is required in one or more of the following:\n\n.NET (C# or VB.NET)\nMicrosoft SQL Server (database design, DBA, stored procedures, OLAP and reporting)\nWeb services integration using SOAP or REST APIs\nTraining in C/C++ will be provided but prior experience will be an advantage\nProven track record of the delivery of successful projects\nA degree...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hey there, Reynolds and Reynolds team,\n\nSeeing you're looking for someone to help with system design and development in .NET definitely caught my eye. I've spent a lot of time automating manual processes, which I noticed as one of your key pain points.\n\nFunny enough, years ago, I wrestled with a similar SQL Server database situation where reports were taking hours to generate. We ended up streamlining the stored procedures and implementing some clever indexing \u2013 shaved the time down to minutes!\n\nFor your needs, I\u2019d initially look at: 1) Analyzing your current system bottlenecks, 2) Designing optimized .NET solutions with efficient SQL Server interaction, and 3) Integrating Web services to improve processes.\n\nI\u2019d love to chat more about your specific challenges. Let me know if you're free for a quick call sometime next week.\n\nCheers,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T15:18:41.015447",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-NET-Developer-1748877521015.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877518",
-      "job_title": "n8n Workflow Development for Restaurant Automation",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an experienced freelancer to help us build and optimize an n8n workflow tailored for our restaurant operations. The ideal candidate will have a strong understanding of automation processes and how to integrate various tools to enhance efficiency. You will be responsible for continuing the development of our existing workflow, ensuring it meets our specific restaurant needs. If you have a background in n8n and a passion for improving business processes through automation, we want t...",
-      "analysis": {
-        "tools": [
-          "N8N"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "restaurant/hospitality",
-        "score": 80
-      },
-      "message": "Hi there,\n\nI saw you're looking to continue development of your n8n workflow for restaurant automation and are facing some integration challenges. I've definitely been there! Just last month I spent a week wrestling with a clunky legacy POS system that refused to play nice with a new inventory management tool. It taught me a lot about creative workarounds and the importance of thoroughly testing each integration point.\n\nTo help you get back on track, I'd suggest first taking a deep dive into your existing workflow to identify any bottlenecks, then map out a clear integration strategy for each tool based on your restaurant's unique processes, and finally, rigorously test each integration to ensure smooth data flow.\n\nWould love to chat briefly about the specific tools you're working with and see if my experience might be a good fit for your needs.",
-      "score": 80,
-      "created_at": "2025-06-02T15:18:38.100010",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-n8n-Workflow-Development-for-Restaurant-Automation-1748877518100.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877516",
-      "job_title": "Klaviyo Expert Needed for Audience Segmentation and List Management",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a Klaviyo expert who can assist us in better segmenting our audience for targeted marketing efforts. The ideal candidate will also provide guidance on maintaining a clean and active email list. Your expertise will help us enhance our email marketing strategy and improve overall engagement. If you have a strong background in Klaviyo and proven results in audience segmentation and list hygiene, we want to hear from you!",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Hey there,\n\n\"Better segmenting our audience for targeted marketing efforts\" \u2013 I get it. Spent a chunk of last year untangling a client\u2019s Klaviyo setup that was basically sending the wrong promotions to the wrong people, and it was a mess! We ended up finding almost half their list was completely miscategorized.\n\nTo help you, I'd start by diving into your existing customer data to identify key segments based on purchase history and behavior. Then, we\u2019d refine your current flows to personalize messaging for those segments. Finally, I\u2019d implement a cleanup strategy (potentially using double opt-in for new subscribers) to boost list health.\n\nWould love to chat more about how I can help you get your Klaviyo shipshape!",
-      "score": 70,
-      "created_at": "2025-06-02T15:18:36.127652",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Klaviyo-Expert-Needed-for-Audience-Segmentation-an-1748877516127.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877514",
-      "job_title": "Simple Zapier Automation Help Needed",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I'm looking for zapier automation help regarding my twilio and elevenlabs conversational AI flow. \n\nI want to get an email notification everytime there's an inbound call to my twilio number.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hey there,\n\nSaw you're looking for some Zapier help with Twilio and ElevenLabs \u2013 specifically getting an email notification on inbound calls. I totally get that; those little manual tasks can really eat up time.\n\nI remember early on when I was building my own Twilio integration, I spent a *day* debugging a similar email notification setup. Turns out, a simple formatting error was the culprit!\n\nFor your project, I'd suggest we first confirm the webhook trigger from Twilio is sending the call data correctly. Then, we'll map those data fields (like the caller ID) to the email template in Zapier, and finally, add a filter to only trigger on inbound calls.\n\nIf this approach sounds good, let's hop on a quick call. I can take a look at your current setup and we can walk through this together.",
-      "score": 80,
-      "created_at": "2025-06-02T15:18:34.178235",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Simple-Zapier-Automation-Help-Needed-1748877514178.html",
       "original_job_url": "",
       "status": "pending"
     }
