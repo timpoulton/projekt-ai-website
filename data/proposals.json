@@ -1,7 +1,78 @@
 {
-  "generated_at": "2025-06-02T09:30:01.137861",
+  "generated_at": "2025-06-02T09:35:01.559832",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748856611",
+      "job_title": "AI Business Consultant for Automation and Content Strategy",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an AI expert to help organize and accelerate our business processes. This role involves implementing automated solutions, managing content, and crafting effective direct messaging strategies. The ideal candidate will provide insightful advice on leveraging AI tools to enhance productivity and streamline operations. If you have experience in AI applications for business growth and are passionate about optimizing workflows, we would love to hear from you.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T09:30:11.203421",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Business-Consultant-for-Automation-and-Content--1748856611203.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748856609",
+      "job_title": "Machine Vision Developer to make POC for Semantic Segmentation of 3D Point Clouds",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "1. Overview\nWe are seeking to develop a machine learning pipeline capable of performing fine-grained semantic segmentation of 3D point clouds into distinct parts or components. The model should learn to generalize across object categories and configurations, similar to NVIDIA\u2019s PartField architecture, and be suitable for real-world deployment in robotic applications.\n\n2. Objectives\n\u2022 Develop a deep learning-based model (preferably transformer- or field-based) for semantic part segmentation of 3D...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T09:30:09.927284",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Machine-Vision-Developer-to-make-POC-for-Semantic--1748856609927.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748856609",
+      "job_title": "Voice Room App Development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled developer to help us create a voice room application where users can socialize, play games, and engage in various activities. The app should allow users to join rooms, stream and enjoy a seamless gaming experience. Your expertise in real-time communication and user interface design will be essential in building an engaging platform. If you have experience with voice chat technologies and game integration, we would love to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T09:30:09.517538",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Voice-Room-App-Development-1748856609517.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748856306",
       "job_title": "Experienced Python/Django Developer Needed for Project Ownership",
@@ -1117,79 +1188,6 @@
       "score": 70,
       "created_at": "2025-06-02T06:39:30.801802",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Looking-For-A-Faceless-Youtube-Video-Creator-1748846370801.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748846370",
-      "job_title": "Build DTG MVP \u2013 Quiz Funnel + Shopify + PDF Gating (~30 hrs)",
-      "client_name": "Client",
-      "budget": "$1,000.00",
-      "description": "Description\nDominate The Game (DTG) needs a lean, polished MVP to capture leads, sell merch, and deliver gated trading-edu content. \n\nYou will:\nEmbed a multi-step Typeform \u201ctribal rank\u201d quiz \u2192 Mailchimp.\n\nConfigure a Shopify Lite store with 3 SKUs, theme tweaks, and Stripe checkout.\n\nSet up Memberstack (or Outseta) gating for a single PDF guide.\n\nPolish CSS for brand consistency and ensure mobile load less than 3 sec.\n\nWhy DTG?\nWe\u2019re building a next-gen trading community\u2014fast iterations, clear s...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T06:39:30.380875",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-DTG-MVP--Quiz-Funnel--Shopify--PDF-Gating-30-1748846370380.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748845765",
-      "job_title": "\ud83d\udcab Landing Page Design & Development for Indian Artist & Singer (Music-Focused)",
-      "client_name": "Client",
-      "budget": "$15.00",
-      "description": "Hello!\n\nI am an independent artist and singer, primarily creating Indian folk music, devotional songs, and regional content (Awadhi, Bhojpuri, and more). I\u2019m looking for a skilled web designer/developer to build a beautiful, clean, and responsive landing page that introduces me, showcases my music, and connects with fans.\n\n\ud83c\udfaf Project Goals:\nCreate a modern and mobile-friendly landing page that reflects my brand as an artist.\n\nHighlight my latest songs, videos, and social media links (YouTube, Ins...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T06:29:25.433963",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal--Landing-Page-Design--Development-for-Indian-Artis-1748845765433.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748845765",
-      "job_title": "Build E-Commerce Ad listing website using PHP laravel",
-      "client_name": "Client",
-      "budget": "$1,500.00",
-      "description": "I am seeking an experienced Laravel developer to build a full-featured \u201cLost & Found\u201d web application from scratch. This project must follow enterprise-grade best practices\u2014rigorous testing, PSR-12 coding standards, complete end-to-end feature coverage, and a clean, maintainable architecture. You will be responsible for every line of backend and frontend code Blade/Vue, database schema design, security hardening, automated testing, and deployment scripts.\n\nZero Existing Codebase: We are not fork...",
-      "analysis": {
-        "tools": [
-          "Api",
-          "Webhook"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T06:29:25.032455",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-E-Commerce-Ad-listing-website-using-PHP-lara-1748845765032.html",
       "original_job_url": "",
       "status": "pending"
     }
