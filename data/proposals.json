@@ -1,7 +1,55 @@
 {
-  "generated_at": "2025-06-02T05:50:01.474658",
+  "generated_at": "2025-06-02T05:55:01.329225",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748843628",
+      "job_title": "Senior Data Modeler (40+hours a week / United states / contract)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Job Summary:\n\nWe are seeking a Senior Data Modeler with deep expertise in data architecture, data modeling, and P&C insurance data domains. The ideal candidate will work closely with business stakeholders, data engineers, and solution architects to design, develop, and maintain enterprise data models that support underwriting, claims, policy, billing, and other core functions of a P&C insurance carrier.\n\nKey Responsibilities:\n\nDesign and develop conceptual, logical, and physical data models that...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:53:48.869553",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Senior-Data-Modeler-40hours-a-week--United-states--1748843628869.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748843628",
+      "job_title": "Experienced Agency Needed for .NET and Drupal Project Updates",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for a reliable development agency to help update existing features on our current web application built with .NET backend and Drupal CMS.\n\n**Project Overview:**\nOur established platform needs several feature enhancements and updates to improve functionality and user experience. This is ongoing maintenance and development work on a stable, existing system.\n\n**What We Need:**\n- Update and enhance existing .NET backend functionality\n- Modify current Drupal frontend features and conte...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:53:48.460868",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-Agency-Needed-for-NET-and-Drupal-Proje-1748843628460.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748843320",
       "job_title": "Automate TradingView Alerts to MT4/MT5 via Webhook",
@@ -3513,28 +3561,6 @@
         "custom_approach": "I will start by gaining a deep understanding of your current processes and desired outcomes, then design a custom workflow tailored to your needs. Utilizing Make.com or n8n, I will automate the data transfer between HubSpot and Mailchimp, ensuring new leads are accurately assigned to their appropriate email sequences."
       },
       "created_at": "2025-06-01T23:28:29.694398"
-    },
-    {
-      "job_id": "",
-      "job_title": "App Development Using Appsmith and n8n for CAPEX Workflows",
-      "client_name": "CAPEX Workflows",
-      "score": 85,
-      "proposal_url": "https://projekt-ai.net/proposals/capex-workflows-proposal-1748820189818.html",
-      "message": "Hi there!\n\nI noticed you need help with workflow automation. I've actually created a custom automation workflow and project breakdown specifically for your requirements.\n\nYou can view your personalized proposal here:\n\u2192 https://projekt-ai.net/proposals/capex-workflows-proposal-1748820189818.html\n\nThis demonstrates exactly how I'd solve your specific challenges, including the tools, timeline, and investment required.\n\nI'm particularly excited about this project because it aligns perfectly with my expertise in building similar systems.\n\nLooking forward to discussing this with you!\n\nBest regards,\nTim",
-      "filename": "capex-workflows-proposal-1748820189818.html",
-      "timestamp": "2025-06-01T23:23:09.818526",
-      "priority": "must_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Cold Email Marketing Outreach Specialist Needed",
-      "client_name": "Your Company",
-      "score": 62,
-      "proposal_url": "https://projekt-ai.net/proposals/your-company-proposal-1748820189809.html",
-      "message": "Hi!\n\nI specialize in email automation and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748820189809.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
-      "filename": "your-company-proposal-1748820189809.html",
-      "timestamp": "2025-06-01T23:23:09.809675",
-      "priority": "should_apply"
     }
   ]
 }
