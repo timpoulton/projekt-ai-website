@@ -1,7 +1,31 @@
 {
-  "generated_at": "2025-06-02T05:40:01.688716",
+  "generated_at": "2025-06-02T05:45:01.551419",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748843013",
+      "job_title": "Dynamics CRM/365 Work",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Dynamics CRM/365 Customization and Configuration experience - Minimum Dynamics CRM/365 background of 5 yrs+ (with total IT experience of 10 yrs+).\n-------------\nThis is to work remotely and the requirements details will be over upWork zoom call :  \n-  Experience with Dynamic CRM on-prem setup\n- Integration experience with Dynamics CRM on-prem.\n- Strong coding background to build Plugins/Console app etc.\n-------------\nNote: Rate range $6-10/hr (else ignored) - Lower rate for people with no experi...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:43:33.056960",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Dynamics-CRM365-Work-1748843013056.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748842700",
       "job_title": "Python/Flask Dev \u2013 Speed Optimization for Real-Time AI Phone Call App (Twilio + GPT + ElevenLabs)",
@@ -3486,17 +3510,6 @@
       "filename": "travel-business-proposal-1748820189792.html",
       "timestamp": "2025-06-01T23:23:09.792230",
       "priority": "must_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Selenium Automation script needed",
-      "client_name": "Your Company",
-      "score": 65,
-      "proposal_url": "https://projekt-ai.net/proposals/your-company-proposal-1748819883255.html",
-      "message": "Hi!\n\nI specialize in automation and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748819883255.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
-      "filename": "your-company-proposal-1748819883255.html",
-      "timestamp": "2025-06-01T23:18:03.255952",
-      "priority": "should_apply"
     }
   ]
 }
