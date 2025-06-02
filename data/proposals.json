@@ -1,7 +1,127 @@
 {
-  "generated_at": "2025-06-02T14:30:01.123530",
+  "generated_at": "2025-06-02T14:35:01.594338",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748874779",
+      "job_title": "GoHighLevel Email Specalist",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "improving our email deliverability on our GoHighLevel account. Currently a lot of our emails are going to spam and im not sure what is causing this.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"A lot of our emails are going to spam\" \u2013 I totally get that frustration. I remember helping a local bakery who had the *most* amazing offers but nobody saw them because of spam filters. It's like shouting into a void.\n\nBased on your need, here's how I'd tackle it: First, I'd audit your GoHighLevel setup to pinpoint any deliverability red flags. Next, we'll dive into your email content itself to see if anything's triggering spam filters. Finally, I'd work on properly authenticating your domain and email setup so emails are coming from a verified source and are trusted.\n\nI'd be happy to jump on a quick call to chat more about your specific situation and how to get those emails landing in inboxes.",
+      "score": 70,
+      "created_at": "2025-06-02T14:32:59.803396",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-GoHighLevel-Email-Specalist-1748874779803.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748874777",
+      "job_title": "YouTube Automation Channel Development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an experienced freelancer to help us build a YouTube automation channel from the ground up. The ideal candidate will guide us through the process of content creation, video optimization, and channel management to maximize engagement and growth. You should have a creative mindset and solid knowledge of YouTube algorithms. Familiarity with automation tools is a plus. If you are passionate about YouTube and have a proven track record, we want to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Building a YouTube automation channel from the ground up\"... I get that. I remember back in 2015, trying to optimize videos manually for a client. It was basically a full-time job just keeping up!\n\nSeeing that you\u2019re aiming for engagement and growth, I\u2019d suggest a three-pronged approach: First, we'll map out a content strategy that aligns with YouTube's algorithm (I\u2019ve found niche targeting to be really effective). Second, we'll streamline the video production process to get more content out faster. Third, we\u2019ll use analytics to identify opportunities for growth.\n\nHappy to jump on a quick call if you'd like to chat about your goals and how I might be able to assist.",
+      "score": 70,
+      "created_at": "2025-06-02T14:32:57.098330",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-YouTube-Automation-Channel-Development-1748874777098.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748874774",
+      "job_title": "Data Analyst/ Market Researcher",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Job Title: Data Analyst / Market Researcher\nLocation: Remote | Type: Part Time\n\nWe\u2019re hiring a Data Analyst / Market Researcher to turn data into clear insights and compelling presentations. Ideal candidates have strong analytical skills and are fluent in:\n\n    Microsoft Excel (advanced)\n\n    PowerPoint (client-ready decks)\n\n    InDesign (report layouts)\n\n    AI tools (e.g., ChatGPT, automation tools)\n\nRequirements:\n2+ years in data analysis or market research, with a sharp eye for detail and de...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Turning data into clear insights and compelling presentations\" \u2013 I get that completely. Early in my career, I spent weeks wrestling with pivot tables and manually formatting reports; it nearly broke me! That's actually what got me into automation in the first place.\n\nFor your project, I'd start by: 1) using Excel's Power Query to pull and clean the data, focusing on efficiency, 2) leveraging AI tools for initial pattern discovery and identifying key narratives, and then 3) crafting visually engaging PowerPoint decks that tell a clear story. I can also help with the InDesign side of things to create a polished report.\n\nIf you\u2019d like to chat about how I could streamline the process for you, let me know. I\u2019m always happy to brainstorm.",
+      "score": 70,
+      "created_at": "2025-06-02T14:32:54.246913",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Data-Analyst-Market-Researcher-1748874774246.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748874771",
+      "job_title": "Google Analytics Implementation into Next.JS Commerce Site",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "About Us:\nWe are launching a brand-new Next.js eCommerce site and are seeking an experienced Google Analytics developer to implement key tracking elements that will provide deep insights into traffic and purchase behavior. If you're an expert in GA4 and event tracking, we want to hear from you.\n\nJob Description:\nAs a Google Analytics Developer, you will be responsible for implementing key triggers and data elements into our Next.js website using best practices for Google Analytics to generate th...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "e-commerce",
+        "score": 70
+      },
+      "message": "Hey there,\n\nSaw you're launching a new Next.js eCommerce site and need deep insights into traffic and purchase behavior. Makes sense, getting GA4 right from the start is crucial!\n\nI remember helping a client migrate to GA4 last year, and the biggest headache was retroactively mapping their existing events to the new data model. We ended up spending way too much time cleaning up the data.\n\nFor your project, I'd suggest first diving into the existing Next.js setup, then creating a clear event tracking plan tailored to your specific customer journey, and finally implementing those events with best-practice GA4 code and debugging.\n\nWould love to chat briefly about your store and how you envision tracking those key interactions. Let me know if you're free for a quick call!",
+      "score": 70,
+      "created_at": "2025-06-02T14:32:51.553150",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Google-Analytics-Implementation-into-NextJS-Commer-1748874771553.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748874768",
+      "job_title": "Barcode Extraction and Integration Specialist",
+      "client_name": "Client",
+      "budget": "$250.00",
+      "description": "We are seeking a skilled freelancer to develop a code solution that will extract barcodes from an Excel file and seamlessly integrate them into specific locations within our cloud-based pricing software. The ideal candidate will possess experience in data extraction and software integration. If you are proficient in automating data workflows and have a solid understanding of cloud applications, we would love to hear from you.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\n\"Seamless integration into our cloud-based pricing software\" \u2013 I get it. Those integrations can be tricky! I once spent a week wrestling with an old accounting system that just *refused* to play nice with a new inventory platform. Learned a lot about data mapping the hard way!\n\nFor your barcode project, I'd start by thoroughly examining your Excel file's structure, then focus on building a small script to extract those barcodes cleanly. After that, we'd concentrate on securely integrating them into the specific fields within your cloud software \u2013 ensuring data accuracy is paramount.\n\nWould love to chat more about the specifics of your setup and how I can help. Let me know when you're free for a quick call.",
+      "score": 70,
+      "created_at": "2025-06-02T14:32:48.791651",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Barcode-Extraction-and-Integration-Specialist-1748874768791.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "title": "Google Ads & Meta Ads Specialist with Klaviyo Automation",
       "budget": "N/A",
@@ -1817,125 +1937,6 @@
       "score": 70,
       "created_at": "2025-06-02T13:43:18.163178",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-YouTube-video-creation-and-management-1748871798163.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871796",
-      "job_title": "Custom Crypto Trading Bot Integration",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re looking for a skilled Python developer to help build and maintain a custom module for a crypto trading platform. This integration will allow automated trading strategies to interface with a spot exchange via secure REST and WebSocket APIs. The initial focus is on developing a core module for order execution and account management, with plans to expand into more advanced features over time.\n\nInitial Responsibilities:\n- Develop a plugin that supports:\n\tMarket and limit order creation\n\tOrder ...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T13:43:16.930748",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Custom-Crypto-Trading-Bot-Integration-1748871796930.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871492",
-      "job_title": "ERPNext Developer",
-      "client_name": "Client",
-      "budget": "$1,200.00",
-      "description": "Responsibilities:\n\nCustomize workflows, reports, and forms in the Stock and Accounting modules.\n\nImplement user-specific requirements and optimizations.\n\nConfigure system settings, including warehouses, item master data, GL accounts, and taxes.\n\nTest and document the customization.\n\nCollaborate with internal teams for integration and validation.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:38:12.197582",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-ERPNext-Developer-1748871492197.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871491",
-      "job_title": "Cybersecurity Consultant \u2013 CrowdStrike Falcon & Microsoft Security",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an experienced Cybersecurity Consultant with deep hands-on expertise in CrowdStrike Falcon and Microsoft\u2019s security ecosystem\u2014including Microsoft 365 Defender, Intune, Azure AD (Entra ID), and related tools.\n\nThis is a project-based consulting opportunity focused on assessing and optimizing an existing CrowdStrike Falcon deployment. The consultant will lead a structured evaluation and provide actionable recommendations for improving endpoint protection, identity security, and inte...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:38:11.805205",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Cybersecurity-Consultant--CrowdStrike-Falcon--Micr-1748871491805.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871491",
-      "job_title": "Build AI Chatbot for Cross-Platform App",
-      "client_name": "Client",
-      "budget": "$2,400.00",
-      "description": "We\u2019re on the hunt for a talented developer with a knack for AI-powered solutions to bring a conversational chatbot to life for our cross-platform mobile app. This isn\u2019t just about creating another bot\u2014it\u2019s about crafting a responsive, helpful, and intuitive digital assistant that will elevate our customer experience.\n\nWhat We\u2019re Looking For:\n\nSomeone who can build a chatbot that doesn\u2019t just talk but listens, understands, and delivers. The chatbot will tackle customer inquiries, provide basic tr...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:38:11.394008",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-AI-Chatbot-for-Cross-Platform-App-1748871491394.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871490",
-      "job_title": "Mixpanel expert for email program",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Description:\nWe\u2019re looking for an experienced Mixpanel expert to audit, enhance, and help implement product and lifecycle tracking across our web and mobile app experience to help contribute to our email program.\n\nYou\u2019ll work closely with our lifecycle marketing and product teams to improve behavioral visibility, optimize conversion funnels, and support integration with Braze (via Segment or direct API).\n\nScope of Work:\nAudit existing Mixpanel implementation and identify tracking gaps\nDefine and...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "SaaS",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:38:10.128028",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Mixpanel-expert-for-email-program-1748871490128.html",
       "original_job_url": "",
       "status": "pending"
     }
