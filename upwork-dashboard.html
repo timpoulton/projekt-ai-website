@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upwork Automation Dashboard - Projekt AI</title>
     <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -13,18 +16,15 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0a0a0a;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #1a1a1a;
             color: #ffffff;
             min-height: 100vh;
-            background-image: 
-                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(255, 119, 198, 0.1) 0%, transparent 50%);
         }
 
         /* Header */
         .header {
-            background: rgba(10, 10, 10, 0.8);
+            background: rgba(26, 26, 26, 0.8);
             backdrop-filter: blur(10px);
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             padding: 20px 0;
@@ -65,8 +65,8 @@
         }
 
         .nav-btn:hover {
-            background: rgba(120, 119, 198, 0.2);
-            border-color: rgba(120, 119, 198, 0.3);
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.3);
         }
 
         /* Main Container */
@@ -80,9 +80,7 @@
             font-size: 48px;
             font-weight: 700;
             margin-bottom: 20px;
-            background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #fff;
         }
 
         /* Stats Bar */
@@ -132,8 +130,8 @@
         }
 
         .filter-tab.active {
-            background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
-            border-color: transparent;
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
         }
 
         .filter-tab:hover:not(.active) {
@@ -156,7 +154,7 @@
         }
 
         .proposal-card:hover {
-            border-color: rgba(120, 119, 198, 0.3);
+            border-color: rgba(255, 255, 255, 0.3);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         }
 
@@ -192,17 +190,17 @@
         }
 
         .score-must {
-            background: rgba(0, 255, 136, 0.2);
-            color: #00ff88;
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
         }
 
         .score-should {
-            background: rgba(255, 193, 7, 0.2);
-            color: #ffc107;
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
         }
 
         .score-consider {
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.1);
             color: #ffffff;
         }
 
@@ -228,7 +226,6 @@
         .action-btn {
             padding: 10px 20px;
             border-radius: 8px;
-            border: none;
             font-size: 14px;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -236,33 +233,33 @@
         }
 
         .btn-approve {
-            background: rgba(0, 255, 136, 0.2);
-            color: #00ff88;
-            border: 1px solid rgba(0, 255, 136, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .btn-approve:hover {
-            background: rgba(0, 255, 136, 0.3);
+            background: rgba(255, 255, 255, 0.15);
         }
 
         .btn-reject {
-            background: rgba(255, 68, 68, 0.2);
-            color: #ff4444;
-            border: 1px solid rgba(255, 68, 68, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .btn-reject:hover {
-            background: rgba(255, 68, 68, 0.3);
+            background: rgba(255, 255, 255, 0.15);
         }
 
         .btn-view {
-            background: rgba(120, 119, 198, 0.2);
-            color: #7877c6;
-            border: 1px solid rgba(120, 119, 198, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .btn-view:hover {
-            background: rgba(120, 119, 198, 0.3);
+            background: rgba(255, 255, 255, 0.15);
         }
 
         /* Empty State */
@@ -290,7 +287,7 @@
             width: 40px;
             height: 40px;
             border: 3px solid rgba(255, 255, 255, 0.1);
-            border-top-color: #7877c6;
+            border-top-color: rgba(255, 255, 255, 0.3);
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
@@ -508,7 +505,7 @@
                                 ❌ Reject
                             </button>
                         ` : `
-                            <span style="color: ${proposal.status === 'approved' ? '#00ff88' : '#ff4444'}">
+                            <span style="color: ${proposal.status === 'approved' ? '#ffffff' : '#ffffff'}">
                                 ${proposal.status === 'approved' ? '✅ Approved' : '❌ Rejected'}
                             </span>
                         `}
