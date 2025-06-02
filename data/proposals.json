@@ -1,7 +1,54 @@
 {
-  "generated_at": "2025-06-02T12:05:01.396404",
+  "generated_at": "2025-06-02T12:10:01.313674",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748866001",
+      "job_title": "Expert in clay and other scripting and automation platforms",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "expert in clay- only apply if you are truly an expert in clay, make.com, python and other automation tools",
+      "analysis": {
+        "tools": [
+          "Make.Com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Make.Com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T12:06:41.994836",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Expert-in-clay-and-other-scripting-and-automation--1748866001994.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748866001",
+      "job_title": "BLE - Enabled Native Mobile App Developer - Swift",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for a skilled developer to build a Bluetooth Low Energy (BLE)-enabled mobile and store interaction system. \n\nThis is a full-stack role requiring BLE integration, cloud database work (Firebase, Supabase, or similar), and basic UI/UX implementation for both the customer and store apps.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:06:41.568019",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-BLE---Enabled-Native-Mobile-App-Developer---Swift-1748866001568.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748865709",
       "job_title": "n8n Automation Expert Needed for Video Creation Project",
@@ -1150,55 +1197,6 @@
       "score": 70,
       "created_at": "2025-06-02T11:31:41.615909",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-VR-Operation-Theater-Simulation--UnityUnreal-Devel-1748863901615.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863901",
-      "job_title": "Automate workflow for travel agency",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I have a travel agency that focuses on luxury safaris and holidays in East Africa. It's based in Dubai. \n\n1. I need help with automating the workflow, because I'm doing most tasks alone and and manually it takes up too much time. \n\n2. I already have a website with an enquiry form (that needs to be updated). it sends me the form results to email, and then lists the contact details on Hubspot. \n\n3. I have some ready made PDF designs in canva which I edit a little with the client details then send ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T11:31:41.194445",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Automate-workflow-for-travel-agency-1748863901194.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863610",
-      "job_title": "I need help setting up Macrodroid to automate some app interactions.",
-      "client_name": "Client",
-      "budget": "$50.00",
-      "description": "Image \"1\" is the main screen, I will open up the main screen before enable Macrodroid to do the work. IF there is any available job, it will appear on the main screen.\n\n#1 Macrodroid need to keep on refresh/swipe the screen, until the job appear.\n#2 Macrodroid need to click on the job\n#3 Macrodroid need to click \"Accept\"\n#4 Macrodroid need to click \"Confirm\"\n#5 Image 5 shows failed to grab the job \"slot are fully reserved\". At this time, Macrodroid need to click \"X\" button on the top left, or ba...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:26:50.355695",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-I-need-help-setting-up-Macrodroid-to-automate-some-1748863610355.html",
       "original_job_url": "",
       "status": "pending"
     }
