@@ -1,7 +1,196 @@
 {
-  "generated_at": "2025-06-02T15:40:01.134612",
+  "generated_at": "2025-06-02T15:45:01.346879",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748879035",
+      "job_title": "Google Actions Center",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re seeking an experienced developer to assist with the final setup and configuration of our platform\u2019s integration with Google\u2019s Actions Center for Reservations. \n\nThis is a focused, short-term project ideal for a seasoned developer with direct experience in working with Google\u2019s Action Center and secure data transfer workflows.\n\nProject Details:\nYou will collaborate with our veteran development team, who has already created the required JSON file structure. Your role will be to validate the ...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSo you're looking for someone to validate the Action Center integration \u2013 makes sense. Getting the final setup right is always crucial. I remember once spending a whole afternoon debugging a similar reservation setup where a tiny formatting error in the JSON was causing bookings to silently fail. Drove me nuts!\n\nI'd suggest we first run a quick validation check on your JSON file to ensure it adheres to the expected schema. Then, we can move on to testing the actual data transfer workflow with Google's tools. Finally, some thorough testing of the reservation process with a range of data inputs (as always) is always a must.\n\nWould be happy to hop on a quick call to chat through the specifics of your JSON structure and how your team has approached the project so far. Let me know if you're free sometime next week?",
+      "score": 80,
+      "created_at": "2025-06-02T15:43:55.261861",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Google-Actions-Center-1748879035261.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879032",
+      "job_title": "Looking for Experienced Unity Developer for Base-Building PvP/PvE Mobile Game",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hi there! \n\nI\u2019m looking for a developer who can help me build a mobile strategy game (for both Android and iOS) similar to Clash of Clans, Kingshot, Lords Mobile, and other games in that style.\n\nMy idea is to start by purchasing an existing Unity-based game template or source code and then customize and build upon it to create something unique.\n\nThe game should include core features common to this genre, such as:\n\t\u2022\tBase building and resource management (gold, wood, elixir, etc.)\n\t\u2022\tPvE missions...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there! Saw you're aiming to customize a Unity template for your base-building game \u2013 smart move! I\u2019ve been down that road a few times. One project involved tweaking a similar template, and honestly, getting the resource balancing right was a real challenge initially; almost broke the gameplay loop!\n\nFor your project, I\u2019d suggest starting with a deep dive into a few template options to nail down the perfect fit, then we\u2019d focus on customizing those core features, like the resource management, to ensure they are rock solid from the get-go. PvE missions could then be integrated and tested to ensure they align with the core game loop.\n\nIf you\u2019d like to chat more about your specific vision and how we could tackle this, I'm happy to hop on a quick call.",
+      "score": 70,
+      "created_at": "2025-06-02T15:43:52.362607",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Looking-for-Experienced-Unity-Developer-for-Base-B-1748879032362.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879029",
+      "job_title": "Klaviyo Email Marketing Expert Needed",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We're seeking an experienced Klaviyo specialist to optimize our email marketing campaigns and increase revenue for our ecommerce business. You'll set up automated flows, create engaging campaigns, and implement segmentation strategies.\n\nKey Responsibilities\n\n-Build and optimize email automation flows (welcome, abandoned cart, post-purchase, win-back)\n-Create high-converting email campaigns and newsletters\n-Implement advanced customer segmentation and A/B testing\n-Monitor performance metrics and ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "e-commerce",
+        "score": 70
+      },
+      "message": "Hey there,\n\nI noticed you're looking to optimize your email automation flows - especially the welcome, abandoned cart, post-purchase, and win-back. I get it, those are crucial touchpoints.\n\nA while back, I worked with an online retailer whose abandoned cart flow was technically *working*, but it was just\u2026 bland. We dove into their branding and infused some personality. Turns out, a little humor and personalized product recommendations worked wonders.\n\nFor you, I'd start by auditing your current flows for areas of improvement. Then, based on that data, we'll prioritize building out high-converting email content, incorporating segmentation strategies to boost personalization.\n\nI'm always happy to chat about your specific needs and if you think I'm the right fit for this project. Feel free to shoot me a message.",
+      "score": 70,
+      "created_at": "2025-06-02T15:43:49.619155",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Klaviyo-Email-Marketing-Expert-Needed-1748879029619.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879027",
+      "job_title": "AI Visual Director \u2013 Cinematic Imagery, Motion Editing & Brand Storytelling",
+      "client_name": "Client",
+      "budget": "$100.00",
+      "description": "We\u2019re hiring a top-tier AI visual artist + motion editor to deliver a complete 100-asset visual campaign for a poetic luxury brand.\nYou will own the creation of 50 polished brand-level images and 50 cinematic short videos, including real product integration, AI-built worlds, and ad-ready delivery.\n\nThis is not content. This is mythmaking through design.\n\nTotal Deliverables: 100 Visual Assets\n\u2022 50 editorial-grade images\n\u2022 Created in Midjourney v6 (or equivalent)\n\u2022 Enhanced, color-balanced, 4K-rea...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Okay, here\u2019s that proposal, aimed at sounding authentically like me:\n\n\"Mythmaking through design,\" huh? I love that. I've spent years automating content creation, and the biggest hurdle is always translating the *feeling* a brand wants to evoke into something a machine can understand and replicate. It's more than just prompts.\n\nI recently worked on a project where the client kept saying, \"It needs more soul.\" We ended up using mood boards and reference videos alongside the AI prompts, a visual language bridge that really helped.\n\nFor your project, I'd suggest starting with a deep dive into your brand's poetic core, creating that visual language guide. Then, we can translate that into detailed Midjourney prompts, ensuring real product integration. Finally, it's all about the cinematic polish in post \u2013 color balancing and resolution bump.\n\nDoes that resonate? I'd be happy to chat more about your vision and how we can make it happen.",
+      "score": 70,
+      "created_at": "2025-06-02T15:43:47.593269",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Visual-Director--Cinematic-Imagery-Motion-Editi-1748879027593.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879024",
+      "job_title": "GoHighLevel Funnel & Automation Specialist (Part-Time, Startup Agency \u2013 Dutch Market)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I run a startup marketing agency focused on helping Dutch service-based businesses grow through funnels, automation, and ads. We\u2019re looking for a GoHighLevel (GHL) specialist to assist with the technical backend \u2014 building funnels, setting up automations, and onboarding clients into GHL.\n\n\u26a0\ufe0f Note: This is a behind-the-scenes role \u2014 you won\u2019t have any client communication. You\u2019ll work directly with me, and I\u2019ll handle client contact.\n\nWe\u2019re starting at ~5 hours per week, with a strong possibility...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nSaw you're looking for someone to help with the GHL backend, building funnels and automations for your Dutch clients, especially to get away from manual processes. I get it! I remember helping a local cleaning business completely revamp their lead follow-up in GHL. Before, they were drowning in spreadsheets; now, it's all automated, and they actually have time to focus on cleaning!\n\nFor your agency, my approach would be to first deeply understand your specific funnel/automation needs per client. Then, I'd build out those flows within GHL, focusing on clean, scalable architecture. Finally, I'd create documentation and training materials specifically tailored for your team so you can confidently manage things down the line.\n\nI'm definitely interested in chatting more about how I can help. Let me know when you might be free for a quick call.",
+      "score": 70,
+      "created_at": "2025-06-02T15:43:44.582715",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-GoHighLevel-Funnel--Automation-Specialist-Part-Tim-1748879024582.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879021",
+      "job_title": "Full Stack Web Developer (Angular / PHP / Python)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a talented and experienced Full Stack Web Developer with strong proficiency in Angular for frontend development, and PHP and Python for backend development. The ideal candidate will be responsible for designing, pixel perfect developing, testing, and maintaining scalable.\n\nRequirements:\n- Proven experience developing web website with Angular (v14+).\n- Strong proficiency in PHP and Python, with experience in at least one major framework for each.\n- Solid understanding of FastAPIs a...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking for someone to tackle full-stack development, especially to get your Angular frontend humming while also leveraging PHP and Python. The mention of needing to build scalable sites really resonated with me. I spent a good chunk of last year untangling a similar project where the initial architecture just couldn't handle peak loads, resulting in a lot of late nights and frantic database tweaks.\n\nTo avoid that for you, I'd suggest first really mapping out the expected traffic and data flow, then building out a robust API layer (thinking FastAPI here would be ideal) connected to a scalable backend. Finally, tying that seamlessly to the Angular front-end.\n\nWould love to chat more about the specific requirements and how we can future-proof the project. Let me know if you're open to a quick call.",
+      "score": 80,
+      "created_at": "2025-06-02T15:43:41.511927",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Full-Stack-Web-Developer-Angular--PHP--Python-1748879021511.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879018",
+      "job_title": "Android Developer",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "Looking for an Android developer to join the team!\n\nRequirements:\n\n2+ years of Android development experience.\n\nKnowledge of Kotlin/Java.\n\nWork with Android SDK, Jetpack Components (Room, ViewModel, Coroutines).\n\nExperience with REST API, Retrofit, OkHttp.\n\nUnderstanding of Clean Architecture, MVVM/MVI principles.\n\nAbility to work with Git.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking for someone to join the team to tackle Android development, and noticed you're aiming to cut down on manual processes (I've been there!). Early in my automation career, I spent a month debugging an app that was constantly crashing because of a simple, manually updated configuration file. It taught me the value of solid, automated solutions!\n\nFor your project, I'd first focus on understanding your current workflow and identifying the key manual steps that are slowing you down. Then, I'd prioritize automating those areas using a combo of Kotlin/Java, Jetpack components, and efficient REST API calls via Retrofit or OkHttp. Finally, we could implement Clean Architecture, and MVVM/MVI to ensure scalability.\n\nWould love to chat more about the specifics when you have a moment. Let me know if you're free for a quick call!",
+      "score": 80,
+      "created_at": "2025-06-02T15:43:38.646470",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Android-Developer-1748879018646.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879016",
+      "job_title": "Kajabi Expert Needed for Course Creation and Management",
+      "client_name": "Client",
+      "budget": "$1,000.00",
+      "description": "We are looking for a skilled Kajabi expert to help us create and manage online courses. The ideal candidate will have experience in setting up Kajabi sites, integrating payment gateways, and creating engaging course content. Your role will include designing landing pages, setting up email marketing funnels, and providing ongoing support. If you are passionate about online education and have a strong understanding of Kajabi's features, we would love to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nReading your description, especially where you mention needing help with course creation and management inside Kajabi, really resonated with me. I remember a similar situation a few years back with a client selling photography courses. They were drowning in manual enrollment and payment tracking.\n\nBased on your needs, my initial approach would be to first get a handle on your existing Kajabi setup. Then, we could map out the student journey from signup to completion, pinpointing areas for automation. Finally, I'd focus on integrating your payment gateways and setting up automated email sequences to nurture student engagement.\n\nWould be happy to chat more about the specifics of your courses and see how I can help streamline things. Feel free to schedule a quick call!",
+      "score": 70,
+      "created_at": "2025-06-02T15:43:36.601476",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Kajabi-Expert-Needed-for-Course-Creation-and-Manag-1748879016601.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748878729",
       "job_title": "Automate Customer Invoice Generation for T-Shirt Business",
@@ -1001,194 +1190,6 @@
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Professional-Amazon-Storefront--Shopify-Integratio-1748877221766.html",
       "original_job_url": "",
       "status": "pending"
-    },
-    {
-      "job_id": "job_1748877219",
-      "job_title": "Seeking experienced SEO/GEO specialist for an interview on GEO Market Trends",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We're looking to speak with experienced SEO consultants who:\n- Manage SEO for clients\n- Are familiar with GEO (Generative Engine Optimization) or AI-driven search\n- Have thoughts on how SEO is evolving with the rise of generative AI\n\nWe\u2019d like to understand:\n- Whether your clients care about AI visibility yet\n- Using any GEO tool(s)\n- How a GEO tool might fit into your reporting/content workflow\n- What you'd expect such a tool to do, and whether you'd use/pay for it",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "---\n\nHey there,\n\nReading about your search for thoughts on how SEO is evolving with generative AI really hit home. I've been seeing the same thing \u2013 clients are slowly starting to ask about \"AI visibility,\" but it's still early days.\n\nA few months back, I had a client in the travel niche who was hyper-focused on ranking for local keywords. We ended up spending *hours* manually optimizing Google Business Profiles. Made me think: wouldn't it be great to automate some of that, to surface key trends more easily?\n\nIf we chat, I'd be curious to share some potential content workflow ideas:\n1.   How to integrate a GEO tool into reporting.\n2.   A brief analysis of a single GEO optimization.\n3.   Then, discuss a list of requirements that this should do in the future.\n\nI'd love to brainstorm some ideas with you. Let me know if you're free for a quick call next week!",
-      "score": 70,
-      "created_at": "2025-06-02T15:13:39.789681",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Seeking-experienced-SEOGEO-specialist-for-an-inter-1748877219789.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877217",
-      "job_title": "HubSpot Expert Needed for System Architecture and Process Development",
-      "client_name": "Client",
-      "budget": "$2,500.00",
-      "description": "We are looking for a HubSpot expert to help us create efficient system architecture and develop processes that enhance customer engagement. Your role will involve setting up communication workflows that effectively engage our customer base and streamline our operations. The ideal candidate should have a strong understanding of HubSpot features and workflows, as well as experience in process optimization. If you're a proactive problem-solver with a passion for customer success, we want to hear fr...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Hey there,\n\n\"Creating efficient system architecture and developing processes that enhance customer engagement\" really resonated with me. I get it \u2013 manual processes are a killer! I remember once, a client in the hospitality industry was spending hours manually segmenting their email list, leading to terrible open rates. After automating their customer data flows in HubSpot, they saw a 40% jump in engagement almost immediately.\n\nFor your project, I'd start by mapping out your current customer journey and pinpointing those manual bottlenecks. Then, we can design HubSpot workflows to automate communication, ensuring the right message reaches the right person at the right time. Finally, we can optimize reporting to track engagement and make data-driven improvements.\n\nIf this sounds like the right direction, I'd be happy to chat more about your specific needs. Let me know!",
-      "score": 70,
-      "created_at": "2025-06-02T15:13:37.132300",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-HubSpot-Expert-Needed-for-System-Architecture-and--1748877217132.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877214",
-      "job_title": "Expert Needed for ComfyUI & Identity Transfer Workflow Setup",
-      "client_name": "Client",
-      "budget": "$50.00",
-      "description": "Need Expert for ComfyUI + InstantID + IP-Adapter + ControlNet Workflow \u2013 Realistic Face Identity Transfer Setup\n\nDescription:\nI\u2019m working on a project that involves realistic identity transfer between two photos for internal testing of image verification systems (e.g., KYC automation, photo-matching reliability, identity consistency checks).\n\nI need someone experienced in ComfyUI, InstantID, IP-Adapter, and ControlNet (Inpaint) to help me set up and execute the following workflow:\n\nWorkflow Need...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Okay, here's my attempt at a believable, personable Upwork proposal:\n\n---\n\nHey there,\n\n\"Manual processes\" always scream \"opportunity\" to me! I totally get the desire to automate image verification \u2013 spent a good chunk of last year wrestling with similar identity consistency challenges for a facial recognition system used in secure access control. Learned a *lot* about finetuning these transfer workflows.\n\nFor your ComfyUI setup, I\u2019d suggest first tackling the core InstantID + IP-Adapter integration, then layering in ControlNet Inpaint specifically for those tricky areas that need cleaner transitions. Finally, we can test and iterate on that workflow to improve fidelity using the \"identity consistency checks\" you mentioned.\n\nIf you're interested, I'd be happy to jump on a quick call to talk through the specifics of your data and how we can dial in the realism you're looking for. Let me know!\n---",
-      "score": 70,
-      "created_at": "2025-06-02T15:13:34.440255",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Expert-Needed-for-ComfyUI--Identity-Transfer-Workf-1748877214440.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877212",
-      "job_title": "Full Stack Developer for Enterprise Applications",
-      "client_name": "Client",
-      "budget": "$400.00",
-      "description": "We are seeking an experienced full stack developer to create robust enterprise applications, including CRM systems and admin portals. The ideal candidate should possess a strong understanding of both front-end and back-end technologies, ensuring seamless integration and user functionality. You will be responsible for developing high-quality software solutions that meet our business requirements. If you are passionate about building scalable applications and have a proven track record in enterpri...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Hey there,\n\n\"Seeking an experienced full stack developer to create robust enterprise applications...\" and focusing on automating manual processes? I get it. I remember wrestling with a similar problem for a logistics company a few years back. They were drowning in spreadsheets. The turning point was mapping out their data flow visually before writing a single line of code - really helped identify the bottlenecks.\n\nFor your project, I\u2019d suggest first diving into your existing workflows to pinpoint the areas that are eating up the most time. Then, we could prioritize those areas for automation and develop custom solutions for them. Finally, thorough testing will be crucial.\n\nWould love to chat more about your specific needs and see if my experience aligns. Let me know if you're free for a quick call sometime this week.",
-      "score": 70,
-      "created_at": "2025-06-02T15:13:32.430406",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Full-Stack-Developer-for-Enterprise-Applications-1748877212430.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877209",
-      "job_title": "Excel Expert Needed for Complex Forecasting & Distribution File Optimisation",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re looking for an experienced Excel specialist to help us review, troubleshoot, and optimise a sophisticated forecasting and distribution workbook used in a global enterprise environment.\n\nThe Excel file includes a mix of formula-driven logic, dynamic links to external data sources, manual override fields, and macro functionality. It\u2019s used to manage product distribution across multiple retail locations and requires an expert eye to diagnose structural problems and improve performance without...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hey there,\n\n\"Manual processes\" and \"automation needs\" in a global distribution setup - I feel that pain! I once spent a week wrestling with a similar forecasting model for a national grocery chain. The biggest bottleneck turned out to be a hidden circular reference deep within a lookup table.\n\nFor your file, I'd suggest a phased approach: first, a thorough structural audit to identify bottlenecks and inefficiencies using Excel's built-in diagnostic tools. Then, we could focus on streamlining those manual override fields, perhaps with some user-friendly data validation techniques. Finally, we can discuss any macro adjustments or potential integrations to truly automate those repetitive steps.\n\nWould be happy to hop on a quick call and discuss the specifics of your workbook and see if my experience aligns with your needs.",
-      "score": 80,
-      "created_at": "2025-06-02T15:13:29.701220",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Excel-Expert-Needed-for-Complex-Forecasting--Distr-1748877209701.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877206",
-      "job_title": "Experienced Customer Support Rep (Gorgias + E-commerce) \u2013 30+ hrs/week",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re a fast-growing e-commerce company operating multiple DTC brands (health & beauty niche), and we\u2019re looking for an experienced, proactive, and fluent English-speaking Customer Support Rep to join our team.\n\nThis is not just a ticket-responder role\u2014we\u2019re seeking someone who can optimize our support systems, improve workflows, and be a long-term asset to our customer experience department.\n\n\u2e3b\n\n\ud83e\udde0 What You\u2019ll Be Doing:\n\t\u2022\tResponding to customer inquiries via Gorgias (email + potentially live ch...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Hey there,\n\nSaw you're looking for someone who can do more than just answer tickets and help optimize support systems, and that really resonated with me. I\u2019ve spent a good chunk of my time as an automation specialist untangling manual processes for businesses. I remember working with a skincare company struggling to manage inquiries \u2013 we streamlined their order tracking responses using a little Gorgias magic, freeing them to focus on, you know, actually *selling* skincare.\n\nFor you, I'd suggest starting with a deep dive into your current Gorgias setup, mapping out common inquiry types to pinpoint automation opportunities. Then, we could prioritize building out automated workflows (order status, returns, etc.) based on frequency and impact. Finally, we'd look at integrating data from your e-commerce platform for truly personalized responses.\n\nHappy to chat more about your specific needs and see if my experience aligns. Let me know if you're free for a quick call.",
-      "score": 70,
-      "created_at": "2025-06-02T15:13:26.964851",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-Customer-Support-Rep-Gorgias--E-commer-1748877206964.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877204",
-      "job_title": "Build a Simple Instagram Messaging Bot",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re looking for a Python developer to build a simple Instagram messaging bot using FastAPI and Meta\u2019s official Graph API. The bot should receive incoming messages via a webhook and respond automatically to predefined messages (e.g., keyword-based replies). This should be a lightweight and clean solution \u2014 no scraping, only official API use. The main goal is to automate basic Instagram DM replies and improve follower interaction. The bot must be built using FastAPI, and should include clear ins...",
-      "analysis": {
-        "tools": [
-          "Api",
-          "Webhook"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hey there,\n\nSaw you're looking for a \"lightweight and clean\" Instagram messaging bot. I get it \u2013 nobody wants bloated, scraping-dependent solutions these days.\n\nA few years back, I helped a local bookstore automate their event announcements via DMs. The biggest challenge was nailing the keyword triggers so the bot felt helpful, not spammy. We ended up doing a lot of user testing!\n\nFor your project, I'd start by getting the FastAPI webhook set up and authenticated with the Graph API. Then, we\u2019d focus on building out those key message/response pairs, making sure the logic is solid. Finally, I'd deliver it with clear instructions for ongoing maintenance.\n\nI'd love to chat more about the specific keywords and responses you have in mind. Let me know if you're free for a quick call sometime this week?",
-      "score": 80,
-      "created_at": "2025-06-02T15:13:24.653153",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-a-Simple-Instagram-Messaging-Bot-1748877204653.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871491",
-      "job_title": "Build AI Chatbot for Cross-Platform App",
-      "client_name": "TechCorp",
-      "budget": "$2,400.00",
-      "description": "We need an AI chatbot for our mobile app using automation tools like Zapier and n8n. The chatbot should handle customer inquiries and integrate with our existing systems.",
-      "analysis": {
-        "score": 85,
-        "tools": [
-          "Zapier",
-          "n8n",
-          "AI"
-        ],
-        "industry": "Technology"
-      },
-      "proposal_url": "https://proposals.projekt-ai.net/proposal-ai-chatbot-1748871491.html",
-      "status": "generated",
-      "created_at": "2025-06-02T15:10:00Z"
     }
   ]
 }
