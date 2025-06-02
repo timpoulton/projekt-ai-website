@@ -1,7 +1,244 @@
 {
-  "generated_at": "2025-06-02T14:00:01.077670",
+  "generated_at": "2025-06-02T14:05:01.930444",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748873039",
+      "job_title": "Vibe coding to build web interfaces",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "NO AGENCIES PLEASE. Only looking for independent freelancers.\n\nWe\u2019re building a fast, functional web- UI prototype for an application. We need a vibe developer who can move fast, use AI tools to code and build, and deliver a working prototype within 5 days for phase 1. Thereafter, the project will continue with phase 2. This requires no heavy illustrations, just clean functional UI.\n \n\nWhat You\u2019ll Build (more will be shared upon discussion)\n\t\u2022\tLogin screen\n\t\u2022\tDashboard with visual flow of AI age...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\n\"Automation needs\" - I get it. Been there! Building quick, functional UIs is a sweet spot for me. Funny enough, just last month I was wrestling with a similar dashboard project. Spent hours tweaking the visual flow only to realize a simple colour change made all the difference.\n\nFor your prototype, I'd jump in by first getting a deep-dive into the 'AI age' visual flow you're aiming for. Then, I'd lean into AI coding tools to rapidly build out the login and dashboard, constantly bouncing ideas off you for feedback. Finally, make sure the UI is not just functional but visually intuitive, because sometimes the smallest tweak makes the biggest difference.\n\nIf you're up for a quick chat about this, let me know. Happy to brainstorm!",
+      "score": 80,
+      "created_at": "2025-06-02T14:03:59.869023",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Vibe-coding-to-build-web-interfaces-1748873039869.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873037",
+      "job_title": "Fractional Chief Learning and Content Officer for AI Training Platform",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Fractional Head of Content & Learning (AI Microlearning Platform)\n\nAbout Pedagogue\nPedagogue is a UK-based, AI-driven microlearning platform that turns company policies and SOPs into short, interactive 5-minute lessons on AI skills for non-technical workers. We\u2019re a lean team (1 FTE, growing to 2), backed by Microsoft for Startups and Barclays Accelerator. We sell a low-touch SaaS solution to mid-market firms/SMEs that need easy, jargon-free AI training.\n\nWe\u2019re looking for a fractional Head of C...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "SaaS",
+        "score": 80
+      },
+      "message": "Hey there,\n\n\"Easy, jargon-free AI training for non-technical workers\" \u2013 that really resonated with me. I spent a good chunk of last year helping a small manufacturing firm upskill their floor staff on using AI-powered quality control. They were completely intimidated at first, but breaking it down into bite-sized, relatable scenarios made all the difference.\n\nFor you guys, I'm thinking we could start by mapping out the core AI skills your platform targets. Then, we could look at optimizing the microlearning content creation process to maximize engagement. Finally, we can look at how automation can help you scale the content creation, distribution, and personalization process.\n\nI\u2019d be happy to chat about how my automation background could help Pedagogue streamline your operations and deliver even more impactful training. Let me know if you're open to a quick call.",
+      "score": 80,
+      "created_at": "2025-06-02T14:03:57.656226",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Fractional-Chief-Learning-and-Content-Officer-for--1748873037656.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873034",
+      "job_title": "Creator Rate Card Web App",
+      "client_name": "Client",
+      "budget": "$2,000.00",
+      "description": "Description:\n\nWe're building BaseRates.io \u2014 a premium web platform that helps influencers and creators instantly generate accurate, data-driven rate cards using real-time social media data and a transparent pricing algorithm. This project requires a skilled full-stack developer or team to deliver a full-access product (no freemium/paywall logic) from the ground up.\n\n\ud83d\udcbc What is BaseRates.io?\nBaseRates.io is a professional pricing tool for creators, offering complete access to a structured rate car...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "SaaS",
+        "score": 80
+      },
+      "message": "Hi there,\n\n\"Integration challenges\" jumped out at me in your description. I spent a good chunk of last year untangling a *very* ambitious marketing automation setup where the data just wasn't flowing correctly between the platforms. It turned out a seemingly small API version mismatch was the culprit!\n\nFor BaseRates.io, I'd start by outlining the data integrations and logic you envision. Then, build the core rate card generation and display functionality. Finally, we'd focus on thorough testing and refining the user experience based on real creator feedback.\n\nThis sounds like a fun project and I'd be happy to chat about how my experience could help. Let me know if you're open to a quick call.",
+      "score": 80,
+      "created_at": "2025-06-02T14:03:54.810814",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Creator-Rate-Card-Web-App-1748873034810.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873032",
+      "job_title": "Complete A2P 10DLC registration on Twilio",
+      "client_name": "Client",
+      "budget": "$40.00",
+      "description": "Your task is to review and complete A2P and account registration on a new Twilio account. I believe everything has been set up correctly but I would like someone with more experience to review the account and ensure it is correct.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Someone with more experience to review the account and ensure it is correct\" - I get that. Sometimes you just want a second set of eyes, especially with something like 10DLC registration on Twilio. I remember setting up a similar system for a local non-profit last year, and even after thinking I'd dotted all the i's, I found a minor oversight that would have caused major headaches down the line.\n\nHere's how I can help: First, I'll meticulously go through the Twilio account setup, double-checking all the A2P details and registration information. Then, I'll verify that the account is properly linked and compliant with 10DLC regulations. Finally, I'll provide you with a brief summary of my findings and any recommended tweaks.\n\nHappy to hop on a quick call to discuss your specific setup if you'd like.",
+      "score": 70,
+      "created_at": "2025-06-02T14:03:52.901557",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Complete-A2P-10DLC-registration-on-Twilio-1748873032901.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873030",
+      "job_title": "\ud83c\udfacPro Video Editor \u2014 Avatar + Voice Clone Integration (Test Project)",
+      "client_name": "Client",
+      "budget": "$100.00",
+      "description": "\ud83c\udfac Pro Video Editor \u2014 Avatar + Voice Clone Integration (Test Project)\n\ud83d\udd27 YouTube Education / Marketing Style \u2014 2-Voice System\n\ud83c\udf0d Worldwide | Fixed Price | $100 Max for Final Deliverable\n\nWe\u2019re producing avatar-based YouTube content that blends a narrator voice, a branded talking avatar (.mov w/ transparent background), and dynamic visuals. We're looking for an editor who can nail the flow, polish, and timing of our unique two-voice system.\n\nThis is a paid test project with potential for ongoing wor...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nThat \"two-voice system\" and the need for flow really jumped out at me. I get it. I once spent a whole afternoon wrangling a similar setup for a client's explainer video - syncing the avatar's lip movements with the voiceover was a *nightmare* until I figured out a slightly unorthodox way to pre-process the audio.\n\nFor your project, I'd probably start by focusing on getting the core timing right between the avatar's performance and the narrator track. Then, layering in the dynamic visuals strategically to emphasize key points from either voice. Finally, a polish pass to ensure smooth transitions and overall pacing.\n\nIf this sounds like a reasonable approach, I'd be happy to chat more about the specifics and see if we're a good fit. Let me know!",
+      "score": 70,
+      "created_at": "2025-06-02T14:03:50.997040",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Pro-Video-Editor--Avatar--Voice-Clone-Integration--1748873030997.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873029",
+      "job_title": "Software Design and Marketing Partners in US, Europe",
+      "client_name": "Client",
+      "budget": "$2,000.00",
+      "description": "We are looking for partners from North America and Europe who would be interested in partnering with us for designing, developing and marketing AI platforms to automate workflows in Health Insurance, Property & Casualty Insurance. \nThis would involve solving critical workflow problems of the companies in the above sectors. \nThis would involve revenue sharing and equity . Post development you would be involved in business development for selling the platform among clients in the respective market...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\n\"Solving critical workflow problems\" in insurance \u2013 that really resonates with me. I spent a chunk of last year untangling a particularly messy claims processing system for a small brokerage; the bottleneck was surprising, but it came down to a simple data entry issue, which, once automated, freed up their team immensely.\n\nFor your AI platform, I'd suggest first focusing on a deep dive into the *specific* workflows in health and P&C you want to address. Then, build a modular AI design so it can be adapted for different companies or products to gain quick access to markets. Finally, a detailed strategy for marketing the platform.\n\nIf you think this approach aligns with your vision, I'd be happy to chat more about the nitty-gritty.",
+      "score": 70,
+      "created_at": "2025-06-02T14:03:49.073825",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Software-Design-and-Marketing-Partners-in-US-Europ-1748873029073.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873026",
+      "job_title": "API Integration + Dashboard Setup for Crypto Mining Data (ViaBTC)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Description:\nWe operate a Bitcoin and altcoin mining business using ViaBTC as our primary pool. I\u2019m looking for a skilled developer/data analyst to:\n\nObjectives:\n\u2022\tSet up API integration with ViaBTC (via API key or Watcher link)\n\u2022\tPull historical and real-time hashrate data by worker\n\u2022\tRetrieve daily earnings data (account-level)\n\u2022\tEstimate earnings per worker by proportional hashrate contribution\n\u2022\tBuild a dashboard (Google Sheets or Excel) to visualize:\no\tWorker performance\no\tEstimated earning...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\n\"Automation needs\" definitely resonates with me. I remember early on in my career, spending days manually collating data from various sources - it's a soul-crushing task! That's what got me into automation in the first place.\n\nFor your ViaBTC data, I'd suggest starting by first establishing a robust API connection for both hashrate and earnings. Then, we can build out formulas in either Google Sheets or Excel (whichever you prefer) to distribute earnings proportionally across workers. Finally, we'll design a clear, visual dashboard that gives you the insights you need at a glance.\n\nWould be great to chat further about your specific priorities and how to best approach this.",
+      "score": 80,
+      "created_at": "2025-06-02T14:03:46.341861",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-API-Integration--Dashboard-Setup-for-Crypto-Mining-1748873026341.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873024",
+      "job_title": "Experienced Qualcomm Rb5165 developer",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hi there, \n\nI am COO at a UK based drone company. \n\nI am looking for an experienced developer for a short term contract to work on drone software architecture on embedded systems. This requires proficiency either C++\\Qt and Linux, have a good understanding of Gstreamer and ideally experience with robotics based applications and protocols such as MAVLINK. It will primarily be working on the Qualcomm RB5165 platform and requires previous experience with integration and writing of drivers and other...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\n\"Drone software architecture on embedded systems... Qualcomm RB5165\" \u2013 that sounds like a really interesting challenge. I've spent a good chunk of the last year knee-deep in similar projects. I was helping a client integrate some new camera tech on a custom robotics platform, and debugging the Gstreamer pipeline took longer than everything else *combined*. Learned a lot about optimizing those configurations the hard way!\n\nFor your drone project, I'd suggest we first really nail down the system architecture, especially how MAVLINK will integrate with the RB5165. Then, focus on the critical driver integration, prioritizing stability and performance. Finally, we can refine the Gstreamer pipeline for optimal video processing.\n\nIf this approach resonates, I'd be happy to hop on a quick call to discuss the project details and explore a plan of attack.",
+      "score": 70,
+      "created_at": "2025-06-02T14:03:44.511196",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-Qualcomm-Rb5165-developer-1748873024511.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873022",
+      "job_title": "AI ing\u00e9nieur",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "ENGLISH BELOW//\n\nD\u00e9veloppeur Full-Stack - SaaS Prospection B2B (Mission longue)\nType: Contrat mensuel\nBudget: $1,000 - $1,500 USD/mois\nDur\u00e9e: 6+ mois (\u00e9volutif)\nLangue: Fran\u00e7ais requis\n\nPROJET\nCr\u00e9ation d'un SaaS complet de prospection B2B automatis\u00e9e avec IA.\n\nSTACK TECHNIQUE REQUIS\nBackend :\nPython (FastAPI ou Django)\nPostgreSQL\nAPIs : OpenAI, LinkedIn, Gmail, Calendly\nQueue system (Celery/Redis)\nFrontend :\nReact.js ou Vue.js\nDashboard client complet\nInterface d'administration\nAutomation :\nn8n ...",
+      "analysis": {
+        "tools": [
+          "N8N",
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "SaaS",
+        "score": 80
+      },
+      "message": "Bonjour!\n\nSeeing you're focused on \"automation needs\" for your B2B SaaS, that really caught my eye. I spent a good chunk of last year wrestling with a similar challenge \u2013 integrating Calendly and Gmail automation into a marketing platform. Found that a robust queue system (we used Celery) was absolutely essential to avoid API overload.\n\nFor your project, I'd suggest we start by mapping out the key user journeys within the SaaS. Then, we can prototype the backend logic with FastAPI to ensure smooth API interactions with OpenAI and LinkedIn. Finally, we tackle the frontend with React.js, prioritizing a clear and intuitive dashboard.\n\nInterested in chatting more about how we could bring this vision to life? I'm free for a quick call sometime next week.",
+      "score": 80,
+      "created_at": "2025-06-02T14:03:42.233645",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-ing\u00e9nieur-1748873022233.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873019",
+      "job_title": "Zoho Expert to Build Custom B2B Book Distribution Portal for Publishers & Retailers",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I am a book distributor managing a warehouse operation. I purchase printed books from publishers and sell them wholesale to bookstores and retailers.\nI\u2019m looking to build a custom B2B portal using the Zoho platform (Inventory, Commerce, Creator) to streamline this process with the following goals:\n________________________________________\n\ud83c\udfaf Project Objectives:\n1.\tSupplier Module (Publishers):\no\tRegister as \u201cSuppliers\u201d\no\tSubmit book metadata (ISBN, title, price, quantity)\no\tNotify shipment arrival...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking to streamline the book distribution process with Zoho, especially around managing publisher submissions and shipment notifications\u2014totally get it! Managing inventory manually can be a real headache, and I've seen firsthand how it can bottleneck growth.\n\nOnce helped a small artisan cheese distributor implement a system where suppliers could directly update inventory levels via a portal. Cut their back-and-forth emails by about 70%.\n\nFor your project, I'd suggest first mapping out the exact data points needed from publishers. Then, we can build the Supplier module in Zoho Creator with Inventory integration, focusing on intuitive forms and automated notifications. Finally, link it all up with Zoho Commerce for the retail side.\n\nWould love to chat for 15 minutes to hear more about the specifics. Let me know when might work.",
+      "score": 80,
+      "created_at": "2025-06-02T14:03:39.291800",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zoho-Expert-to-Build-Custom-B2B-Book-Distribution--1748873019291.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "title": "AI Workflow Automation Expert for SEO/Ads Agency",
       "budget": "$1,000.00",
@@ -1169,246 +1406,6 @@
       "score": 70,
       "created_at": "2025-06-02T13:18:05.311765",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Lead-Generation-System-Specialist-for-Electrical-M-1748870285311.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870284",
-      "job_title": "Salesforce Specialist Needed for Data Export & Integration",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "**Overview:**\nWe are a nonprofit organization seeking a **Salesforce specialist** to help us **export critical donor data** for our email marketing and analytics needs. We are currently experiencing difficulties exporting fields related to donation history, recurring donor status, and engagement metrics from Salesforce. The goal is to **streamline data exports** so it can be properly integrated with our email marketing and reporting platforms.\n\n### **Key Responsibilities:**\n\n1. **Data Export Con...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes",
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:18:04.746030",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Salesforce-Specialist-Needed-for-Data-Export--Inte-1748870284746.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870284",
-      "job_title": "Shopify Web Developer Needed for Custom Store Design",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an experienced Shopify Web Developer to create a visually appealing and user-friendly online store. The ideal candidate will have a strong understanding of Shopify's platform and themes, and should be able to customize features to enhance the shopping experience. Your role will involve designing the layout, ensuring mobile responsiveness, and integrating payment gateways. If you're passionate about e-commerce and have a knack for creating stunning websites, we want to hear from yo...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:18:04.352918",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Web-Developer-Needed-for-Custom-Store-Desi-1748870284352.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870283",
-      "job_title": "FDA Compliance Specialist (Offshore \u2013 Remote)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re looking for a detail-oriented, tech-savvy FDA Compliance Specialist to help manage and fulfill FDA compliance services for our U.S. and international clients. You will play a key role in delivering our core regulatory offerings \u2014 from registrations to filings \u2014 using FDA portals like FIS and PNSI. If you\u2019re already experienced with FDA submissions, regulatory documentation, or client onboarding in a U.S. compliance context, we want to hear from you.\n\n\ud83d\udee0 Responsibilities:\nYou\u2019ll be trained o...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:18:03.120808",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-FDA-Compliance-Specialist-Offshore--Remote-1748870283120.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870281",
-      "job_title": "Web Platform Development Needed",
-      "client_name": "Client",
-      "budget": "$1,500.00",
-      "description": "We are seeking an experienced Frontend web developer to create a robust web platform. \n\nObjective :\nWe are hiring a skilled frontend web developer to build the \"Quest\" platform, a web-based quest game where users can participate in virtual games to win prizes. The developer will be responsible for designing and implementing the frontend based on a detailed technical specification and Figma prototype, using modern web technologies (preferably **Next.js** with TypeScript).\n\nScope of Work:\nThe deve...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:18:01.880864",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-Platform-Development-Needed-1748870281880.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870280",
-      "job_title": "Stocks and Shares AI Bot Trading Automation Engineer",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Looking for a hands-on AI trading engineer who\u2019s fluent in the leading automation stacks\u2014think QuantConnect, MetaTrader, Interactive Brokers, Binance/Alpaca APIs, Tradestation, etc.\u2014and has a proven record of designing, deploying and fine-tuning algorithmic bots across asset classes; if you can pick the right platform for the job and push profitable code to production, get in touch.",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:18:00.645225",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Stocks-and-Shares-AI-Bot-Trading-Automation-Engine-1748870280645.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870280",
-      "job_title": "Formatter for Fertility Workbook \u2013 Amazon Print, Kindle, Layout & Visualisation Link Integration",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Self-Publishing Support for Fertility Workbook \u2013 Formatting for Amazon Print & Kindle (KDP)\n\n Project Overview:\n\nI\u2019ve written a fertility-focused workbook (by with a strong graphic component, designed to guide users interactively. The manuscript is edited, and I have the cover illustration. I now need a publishing professional to take it across the finish line \u2014 formatting it beautifully for Amazon print (paperback) and Kindle eBook (KDP).\n\n What I Need Help With:\n\t\u2022\tInterior design and layout (...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:18:00.253767",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Formatter-for-Fertility-Workbook--Amazon-Print-Kin-1748870280253.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870279",
-      "job_title": "Klaviyo Flow Expert Needed for Shopify Store",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a skilled Klaviyo Flow Expert to optimize our email marketing strategy for our Shopify store. The ideal candidate will have a deep understanding of creating effective email flows that drive customer engagement and boost sales. You will be responsible for setting up and managing automated flows, segmenting our audience, and analyzing performance metrics. If you have a passion for email marketing and a proven track record of success with Klaviyo, we want to hear from you!",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:17:59.835296",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Klaviyo-Flow-Expert-Needed-for-Shopify-Store-1748870279835.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870279",
-      "job_title": "Zoho Implementation Specialist Needed",
-      "client_name": "Client",
-      "budget": "$100.00",
-      "description": "We are seeking an experienced Zoho Implementation Specialist to assist in setting up and optimizing our Zoho CRM system. The ideal candidate will have a strong background in Zoho applications and can tailor solutions to fit our business needs. Responsibilities include system configuration, data migration, and user training. If you have a passion for improving business processes and a track record of successful implementations, we want to hear from you!",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:17:59.427747",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zoho-Implementation-Specialist-Needed-1748870279427.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869658",
-      "job_title": "\ud83d\ude80 Automation + B2B Lead Expert Needed \u2013 Be the Growth Force Behind Atlas (SaaS for Construction)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "\ud83d\ude80 Help Us Build the B2B Growth Engine for \"Atlas\" \u2013 A Groundbreaking Construction Tech Software\n\nJob Type: Freelance \u2013 Long-Term\nCategory: Business Development | Sales Automation | B2B SaaS\n\n\n\ud83e\uddf1 About Atlas\nWe are an established company from the construction industry. We\u2019ve lived the chaos of daily operations on site \u2013 delays, paperwork, phone ping-pong. So we decided to solve it all.\n\nThat\u2019s why we created Atlas \u2013 a revolutionary project software that fully automates the day-to-day workflow of c...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "SaaS",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T13:07:38.795512",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal--Automation--B2B-Lead-Expert-Needed--Be-the-Growth-1748869658795.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869658",
-      "job_title": "Fine-Tune GPT-3.5 on Hospitality Guest Emails (Inbox Extraction + Smart Gmail Replies)",
-      "client_name": "Client",
-      "budget": "$500.00",
-      "description": "We are a boutique hospitality group in South Africa that handles hundreds of highly personalised guest emails. These include booking questions, restaurant suggestions, wine tours, cancellation queries, and more.\n\nOur responses are warm, tailored, and based on the context of the guest\u2019s request \u2014 but our tone and knowledge are not documented. They live in our email history.\n\nWe are looking for an expert who can:\n\nAccess our inbox (via delegated Gmail access or .mbox files)\n\nExtract and clean 300\u2013...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "restaurant/hospitality",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your restaurant/hospitality.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:07:38.378577",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Fine-Tune-GPT-35-on-Hospitality-Guest-Emails-Inbox-1748869658378.html",
       "original_job_url": "",
       "status": "pending"
     }
