@@ -1,7 +1,218 @@
 {
-  "generated_at": "2025-06-02T14:10:01.079399",
+  "generated_at": "2025-06-02T14:15:02.027444",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748873589",
+      "job_title": "Full-stack dev with attention to visual detail",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "My client has a Ferry Booking system (via custom API - no documentatiion. I will act as middleman). We tried to implement the query & booking & payment system. While doing so, unfortunately the developer is no longer available to complete the work. So we need to re-implement the frontend again with the updates (without changing a dot (client is very strict on exact frontend)).\nCurrent setup is pure HTML pages. You will need to work on HTML pages and JavaScript only... Like I said, client is very...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Okay, here's my attempt:\n\nHey there,\n\n\"Need to re-implement the frontend again...client is very strict on exact frontend\" - I definitely understand the need to respect an existing, visually-defined product! I once spent a week recreating a specific font rendering bug for a client because *removing* it was a deal-breaker for them.\n\nFor this ferry booking system, I'd start by thoroughly reverse-engineering the existing HTML and Javascript to fully understand the interactions. Then, working closely with you as the middleman, implement the necessary updates while *exactly* preserving the current look and feel. After that, rigorous testing across different browsers to ensure pixel-perfect parity.\n\nIf you think this sounds good, I'm happy to hop on a quick call to discuss the API and specific challenges in more detail.",
+      "score": 80,
+      "created_at": "2025-06-02T14:13:09.303208",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Full-stack-dev-with-attention-to-visual-detail-1748873589303.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873587",
+      "job_title": "Full Stack AI Automation and Web Scraping Engineer Needed",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled Full Stack AI Automation and Web Scraping Engineer to enhance our data-driven projects. The ideal candidate will have experience in developing automated systems using AI technologies and extracting data from various web sources. You will work on building efficient pipelines for data collection and processing, as well as implementing machine learning models. A strong understanding of both front-end and back-end development is essential. If you are passionate about automat...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking for someone to really streamline your data-driven projects with automation, specifically tackling web scraping and AI implementation. That resonates \u2013 I've spent the last 20 years neck-deep in this stuff.\n\nI actually just wrapped up a project where the client was manually compiling market research data; it was taking them weeks. By building a custom scraping tool integrated with a basic NLP model, we cut that down to a few hours.\n\nFor you, I'd think we could start with a quick audit of your current data collection process, then build out a robust scraping pipeline, and finally look at integrating some AI tools to automate analysis and reporting.\n\nIf this approach sounds interesting, I'm happy to jump on a quick call to chat through the specifics. No pressure either way.",
+      "score": 80,
+      "created_at": "2025-06-02T14:13:07.297745",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Full-Stack-AI-Automation-and-Web-Scraping-Engineer-1748873587297.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873585",
+      "job_title": "Offline AI Coding Assistant Development",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "We are seeking an experienced developer to create an offline AI coding assistant using Ollama-supported models that can run locally. The ideal candidate will be well-versed in AI model integration and possess the ability to tailor the assistant for coding tasks. Responsibilities include designing the system architecture, implementing the model, and ensuring optimal performance. If you have a passion for AI and coding, and are ready to tackle a challenging project, we want to hear from you! Write...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nSaw you're looking to build an offline AI coding assistant \u2013 \"tackle a challenging project\" indeed! I've been tinkering with local AI models for a while now. Actually, just last month I was trying to get a similar setup running on a Raspberry Pi for a personal project, and learned a few things the hard way about optimizing performance on limited resources.\n\nHere's how I'd approach it for you: First, a deep dive into selecting the right Ollama model for your specific coding needs. Then, designing a lean system architecture that prioritizes speed and offline functionality. Finally, rigorous testing to ensure it's actually helpful and not just spitting out random code snippets.\n\nWould love to chat more about your vision for the assistant and see if my experience aligns with what you're hoping to achieve. Let me know if you're free for a quick call.",
+      "score": 70,
+      "created_at": "2025-06-02T14:13:05.237640",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Offline-AI-Coding-Assistant-Development-1748873585237.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873582",
+      "job_title": "MVP Development for Habit-Tracking App with Gamification Features",
+      "client_name": "Client",
+      "budget": "$3,000.00",
+      "description": "I\u2019m looking for a developer to help build an MVP for a mobile habit-forming app. The app should be clean, modern, and user-friendly\u2014visually appealing but minimal, with no fluff. It will include preset daily and weekly challenges across different categories, with the ability for users to create their own custom challenges (if they subscribe to the top tier).\n\nThe app needs to include basic gamification features, including XP, streaks, and progress tracking. There will also be a lightweight socia...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nI saw you're looking for a dev to build an MVP for your habit-tracking app with gamification \u2013 especially with the preset challenges and custom challenges for the top tier. That detail about subscriptions unlocking the custom challenges? Smart move for monetization.\n\nI remember years ago, automating a lead-gen system where that tiered access model was crucial. Initially, free users complained about limitations, but the conversion to paid once they experienced the basic value was significant. The key was making the free features *good* and the paid features *obviously better*.\n\nFor your app, I'd suggest focusing first on nailing the core habit tracking with basic gamification features. Once that\u2019s solid, we could then concentrate on the subscription model and the custom challenges, integrating them smoothly without disrupting the user experience. Then, finally we'd look at the social integration.\n\nI\u2019d love to chat more about your vision for the app. Shoot me a message if you're interested!",
+      "score": 70,
+      "created_at": "2025-06-02T14:13:02.387122",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-MVP-Development-for-Habit-Tracking-App-with-Gamifi-1748873582387.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873579",
+      "job_title": "Seeking U.S. Immigration Attorney for EB2-NIW Startup Case (Tech-based, with ProfVal support)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "My name is Phung Anh Vinh, a senior automation and IoT engineer based in Vietnam with over 30 years of experience. I am preparing to file an EB-2 NIW petition based on a startup business plan in the U.S. (Texas) focused on low-cost IoT and automation solutions for agriculture and environmental control.\n\nI have completed:\n\nA draft business plan (can be refined)\n\nA technical resume (with detailed project history)\n\nSummaries of 3 impactful IoT projects\n\nOngoing coordination with ProfVal for profess...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi Phung Anh Vinh,\n\nThe need for *low-cost* IoT solutions for agriculture definitely resonated with me. I've seen first-hand how expensive some of these systems can be, putting them out of reach for many smaller farms and businesses.\n\nA few years back, I worked on a project automating a small hydroponics operation, and the biggest hurdle was always finding affordable sensors and actuators.\n\nRegarding your EB-2 NIW petition, I'd be happy to help in any way I can. Given your focus and ProfVal support, it feels like the first step would be to refine your business plan, maybe highlighting the innovative aspects that address the need for cost reduction specifically. Then, we could see how best to tie in your impactful projects as examples of your solution.\n\nWould you be open to a quick chat to discuss how I can assist you?",
+      "score": 70,
+      "created_at": "2025-06-02T14:12:59.265397",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Seeking-US-Immigration-Attorney-for-EB2-NIW-Startu-1748873579265.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873576",
+      "job_title": "GoHighLevel + Make.com Integration Specialist Needed",
+      "client_name": "Client",
+      "budget": "$120.00",
+      "description": "We need a freelancer with experience in GoHighLevel and Make com to set up our complete landingpage system using the provided ZIP file.\n\nThis includes both:\n1. Full technical setup\n2. SEO optimized design of the landingpage\n\nPACKAGE CONTENT:\n- Backend security modules\n- GDPR functions\n- Cloudflare rate limiting worker\n- Frontend fallback file\n- Make com modules and JSON files\n- PDF documentation\n- Step-by-step instructions in FREELANCER_README md\n\nYOUR TASKS:\n- Set up everything inside GoHighLev...",
+      "analysis": {
+        "tools": [
+          "Make.Com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you need help setting up your GoHighLevel landing page system from that ZIP file, especially with the security modules and GDPR functions. I totally get that \u2013 getting those initial security layers right is crucial, and it's way easier to bake them in from the start than try to add them later. I once spent a whole weekend tracking down a single compromised endpoint on a hastily built system; learned my lesson the hard way!\n\nFor your project, I'd first focus on getting GoHighLevel configured with the backend modules and Cloudflare integration. Then, I'd tackle the landing page setup itself, making sure the design incorporates the SEO best practices and GDPR elements from the documentation. Finally, we can tie everything together using the Make.com modules you've provided.\n\nIf you're free for a quick chat, I'd love to understand your long-term vision for this system a bit better. No pressure either way!",
+      "score": 80,
+      "created_at": "2025-06-02T14:12:56.567388",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-GoHighLevel--Makecom-Integration-Specialist-Needed-1748873576567.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873574",
+      "job_title": "Developer with API Experience",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Working on an automation project that will involve creating automations into several critical ads API's, such as Google, Microsoft, Meta and more.\n\nThis will include a variety of tasks, including taking raw data from a Google Sheet and Drive and pushing through to platforms, but could also include other items as well.\n\nThe big \"push\" for the project will be the entire month of April but this is almost certainly going to be a 6 month project.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw your project description focusing on \"taking raw data from a Google Sheet and Drive and pushing through to platforms\" \u2013 that sounds like exactly the kind of challenge I enjoy. I once spent a week wrestling with a similar data-wrangling situation, only to find a single misplaced comma was the culprit. Fun times!\n\nFor your project, I'd suggest starting with a deep dive into those API docs to understand their quirks, then building out some modular scripts to handle the data transformation and pushing. Finally, we'd implement error handling and monitoring to ensure everything runs smoothly, especially during your busy month of April.\n\nWith your 6-month timeframe, this feels like a great opportunity to build something robust and sustainable. Would love to chat more about your specific needs and how I can help. Let me know if you're free for a quick call sometime.",
+      "score": 80,
+      "created_at": "2025-06-02T14:12:54.318290",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Developer-with-API-Experience-1748873574318.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873571",
+      "job_title": "DBT with Databricks",
+      "client_name": "Client",
+      "budget": "$15.00",
+      "description": "Hi All,\nI'm seeking someone with hands-on experience using dbt with Databricks to help me set up and test a simple ETL pipeline.\n\nI'll provide either:\nA Databricks personal access token (PAT) or credentials for a workspace\n\nThe goal is to:\n- Connect dbt to Databricks\n- Consume data in both tabular (CSV/Delta) and JSON format\n- Build a dbt pipeline that:\n- Loads data into the Bronze layer\n- Cleans/transforms it into a Silver layer\n- Aggregates results into a Gold layer\n\nThis will help me understa...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\n\"Seeking someone with hands-on experience... to help me set up and test a simple ETL pipeline\" - I totally get that. I spent a frustrating week last year trying to wrangle JSON data into a Delta table, only to realize a simple configuration tweak in dbt could have saved me a mountain of manual data wrangling.\n\nFor your project, I'd suggest tackling it in stages: first, confirming the dbt connection and data source access using your provided credentials. Then, we'd focus on getting data flowing smoothly into that Bronze layer, making sure CSV/Delta and JSON are both handled properly. Finally, crafting those Silver/Gold transformations to get the aggregated results you need.\n\nHappy to chat more about your specific needs and see if my approach aligns with your vision. Let me know if you're free for a quick call sometime this week.",
+      "score": 70,
+      "created_at": "2025-06-02T14:12:51.639858",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-DBT-with-Databricks-1748873571639.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873568",
+      "job_title": "Need Android App Developer - Experience in publishing app",
+      "client_name": "Client",
+      "budget": "$50.00",
+      "description": "I require an experienced Android developer to publish a native Android application. Developers should have strong experience building REST API apps from scratch and publishing them on Google Play Store. Experience with REST APIs, publishing apps on Google Play Store is essential.\nWork Details :-\n1.Change launcher Icon and some images in the existing app\n2.You have to publish the app (2) on playstore old playconsole account , I dont have one , need smooth release",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking for someone to handle the Android app publishing, especially getting those two apps live on your old Play Console account. I get it \u2013 the app store release process can be a real headache, especially with all the changes Google makes!\n\nI remember once spending an entire afternoon wrestling with a particularly stubborn image asset that wouldn't resize properly for the Play Store requirements. Little things can really eat up your time.\n\nFor your project, I'd suggest first getting the icon and image changes finalized. Next, we'd tackle prepping the apps for release. Finally, I'd handle the publishing to your Play Console, making sure everything goes smoothly.\n\nIf you're interested, I'd be happy to chat more about your timeline and specific needs for those image updates. No pressure, just happy to help if I can.",
+      "score": 80,
+      "created_at": "2025-06-02T14:12:48.766353",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Need-Android-App-Developer---Experience-in-publish-1748873568766.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748873350",
       "job_title": "Developer with API Experience",
@@ -1186,222 +1397,6 @@
       "score": 80,
       "created_at": "2025-06-02T13:38:06.411308",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Chrome-Extension-Developer--Lightweight-MVP-Using--1748871486411.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871180",
-      "job_title": "Help Needed Debugging Cloudflare CAPTCHA & Auto-Login Flow",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Help Needed Debugging Cloudflare CAPTCHA & Auto-Login Flow for Passo.com.tr\n\nI\u2019ve been working on automating a login and ticket reservation flow for passo.com.tr, specifically targeting S\u00fcper Lig matches\u2014auto-logging in, monitoring availability, and reserving tickets as soon as they go live.\n\nAt the moment, I'm handling Cloudflare Turnstile CAPTCHA using 2Captcha. I successfully retrieve the token, inject it into the hidden input field, and trigger the associated callback. However, the CAPTCHA v...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:33:00.837358",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Help-Needed-Debugging-Cloudflare-CAPTCHA--Auto-Log-1748871180837.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871179",
-      "job_title": "MAKE.com Consultant (Automation & Scenario Optimization)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Location: Remote\nEngagement Type: Freelance / Short-Term Contract / Project Based\nPay: NEGOTIABLE based on experience & expertise\n\nThe Opportunity\nWe\u2019re looking for a Make (formerly Integromat) Consultant to help us troubleshoot and improve our current automation setups. You\u2019ll work with us on a short-term basis to review our existing scenarios, identify the root causes of recurring issues, and recommend practical solutions that can stabilize and optimize our workflows.\n\nOur current automations ...",
-      "analysis": {
-        "tools": [
-          "Make.Com",
-          "Integromat",
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Make.Com, Integromat, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:32:59.591305",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-MAKEcom-Consultant-Automation--Scenario-Optimizati-1748871179591.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871178",
-      "job_title": "Robotic Process Automation",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I need a expert who can implement the RPA between CRM and ATS tool preferbaly between ZOHO and CEIPAL. I need someone who can Automate the daily data entery task and also build a data system where if we update or make chages in one Application, the same data should reflect on the other Application too.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:32:58.336746",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Robotic-Process-Automation-1748871178336.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871177",
-      "job_title": "Virtual Front Desk & Operations Support",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Anima Integrative Psychiatry (www.theanimaclinic.com) is a luxury, holistic mental health clinic at the intersection of science, soul, and strategy. Founded by Dr. Lauren Williams, the practice is expanding \u2014 and we\u2019re hiring a Founder\u2019s Assistant \u2013 Clinic & Brand Operations to take ownership of virtual clinic management and brand growth support. Dr. Williams is Jamaican American and hoping to find an assistant with a similar background.  \n\nThis is not a passive assistant role. We\u2019re looking for...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:32:57.938987",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Virtual-Front-Desk--Operations-Support-1748871177939.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871177",
-      "job_title": "Machine Learning Pipeline for Side-Channel Analysis (STM32 + ESP32 + TinyML)",
-      "client_name": "Client",
-      "budget": "$10,000.00",
-      "description": "Dear Freelancers,\n\nWe are seeking a highly skilled **embedded machine learning engineer** to join our project to develop a **compact EMV Side-Channel Analysis (SCA) device**. This device is custom-built to capture electromagnetic emissions from EMV smartcards and extract publicly accessible and semi-public data using advanced waveform analysis and TinyML techniques.\n\nThe hardware platform integrates:\n\n* **STM32 microcontroller** (for ADC control and data capture)\n* **ESP32-S3** (for wireless com...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:32:57.534193",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Machine-Learning-Pipeline-for-Side-Channel-Analysi-1748871177534.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871177",
-      "job_title": "Zapier Setup Specialist Needed",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I am looking for a skilled freelancer to assist with setting up Zapier for my business. The ideal candidate will have experience with creating automated workflows, integrating various applications, and optimizing processes for efficiency. Your expertise will help streamline operations and enhance productivity. If you have a strong understanding of Zapier and can work independently, please apply. I'd love to see examples of your previous work in automation setup.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Api"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:32:57.135493",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zapier-Setup-Specialist-Needed-1748871177135.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871175",
-      "job_title": "Realistic CGI Character Integration into Live Footage (25\u201330s, No Camera Movement)",
-      "client_name": "Client",
-      "budget": "$300.00",
-      "description": "Project Description\n\nWe are looking for an experienced VFX artist or video creator to realistically integrate a CGI character (animal-like, child-friendly \u2013 not cartoonish) into a short, real-life video. The tone is emotional, quiet, and visually subtle \u2013 think more Pixar magic than flashy effects.\n\nThis is a one-time project, part of a larger brand initiative in the children and family space.\n\n    \ud83e\udde9 The character will likely appear in future short films or a recurring mini-series \u2013 this could b...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:32:55.901024",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Realistic-CGI-Character-Integration-into-Live-Foot-1748871175901.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870880",
-      "job_title": "Developing crypto bot fot saving statistics about sizes in orderbook",
-      "client_name": "Client",
-      "budget": "$150.00",
-      "description": "Project goal \u2013 to develop a bot that will gather statistics for large orderbook densities on the OKX, Bybit, and Binance exchanges. The project can be divided into three stages, one stage per exchange. For development, it is preferable to use Python. The code must operate asynchronously. We will work with both futures and spot markets. For all detected densities, we analyze their lifetime, rebound percentages, and the volume traded at the density price.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:28:00.438273",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Developing-crypto-bot-fot-saving-statistics-about--1748870880438.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870879",
-      "job_title": "RAG-LLM Chatbot Integration to an Existing Portfolio Website",
-      "client_name": "Client",
-      "budget": "$800.00",
-      "description": "Hi there,\n\nI'm looking for freelancer who is detail-oriented, good with communicating in English, transparent at every step of the work, honest and trustworthy, to integrate RAG-LLM Chatbot to my Next.js portfolio website: www.mrjacklee.com (Entire code base will be shared)\n\nPlease read the requirements carefully. Accepting the job means you agree to the requirements below. \n\n\u2705 Milestone 1 \u2013 Fund OpenAI API Access ($400)\n- Payment Milestone Trigger: You will receive this payment after you succes...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:27:59.173412",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-RAG-LLM-Chatbot-Integration-to-an-Existing-Portfol-1748870879173.html",
       "original_job_url": "",
       "status": "pending"
     }
