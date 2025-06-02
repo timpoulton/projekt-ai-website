@@ -1,7 +1,82 @@
 {
-  "generated_at": "2025-06-02T09:40:01.362861",
+  "generated_at": "2025-06-02T09:45:01.296069",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748857214",
+      "job_title": "Notion + Make.com + Shopify Automation Expert for Financial Dashboard Setup",
+      "client_name": "Client",
+      "budget": "$50.00",
+      "description": "I\u2019m looking for an experienced automation specialist to help me set up an automated financial dashboard in Notion, using Make.com to connect with my Shopify store.\n\nThe goal is to track key financial data from my webshop on a daily and monthly basis, with as much automation as possible.\n\n\u2705 What I need:\n1. Daily financial data synced to Notion:\n\nRevenue (automatically pulled from Shopify)\n\nRefunds (automatically pulled from Shopify)\n\nCost of goods (entered manually)\n\nAdvertising costs (entered ma...",
+      "analysis": {
+        "tools": [
+          "Make.Com",
+          "Integromat",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Make.Com, Integromat, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T09:40:14.294926",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Notion--Makecom--Shopify-Automation-Expert-for-Fin-1748857214294.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748857213",
+      "job_title": "GoHighLevel CRM Expert \u2013 Build Our System + SOPs for Real Estate Workflow",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83d\udccb Job Description:\n\nWe are a house and land brokerage in Western Australia seeking a GoHighLevel (GHL) expert to take full ownership of our CRM setup and create a streamlined, automated workflow for our real estate operations.\n\nYou\u2019ll work directly with the Director to build out the system, automate tasks, and document Standard Operating Procedures (SOPs) so the process can be repeated and scaled.\n\nThis is not just a technical role \u2014 we want someone who can think critically, improve as they go, ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "real estate",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your real estate.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T09:40:13.905582",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-GoHighLevel-CRM-Expert--Build-Our-System--SOPs-for-1748857213905.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748857212",
+      "job_title": "Wordpress or Wix B2B website",
+      "client_name": "Client",
+      "budget": "$1,200.00",
+      "description": "Hey Upwork community!\n\nWe're on the lookout for a talented web designer experienced with either Wix or WordPress to help us build a B2B website for our factory.\nHere\u2019s what we need:\n* A clean, professional landing page\n* Product pages (catalog-style, no payment integration)\n* A contact form and an About Us section\n* Blog-ready structure (we\u2019ll add the posts later)\n\nWe\u2019d love a site that\u2019s easy to update and maintain after handover, and ideally completed within 3 weeks.\n\nWe already have tons of c...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T09:40:12.647567",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Wordpress-or-Wix-B2B-website-1748857212647.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748856910",
       "job_title": "Smart Home System Design Specialist Needed for Villa",
@@ -1118,77 +1193,6 @@
       "score": 70,
       "created_at": "2025-06-02T06:44:40.078273",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Job-Portal-Developer-Needed-1748846680078.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748846374",
-      "job_title": "Google AdMob & App Performance Expert Needed for Revenue Analysis and Optimization",
-      "client_name": "Client",
-      "budget": "$50.00",
-      "description": "Job Description:\nWe are seeking a Google AdMob expert with experience in mobile app monetization and performance optimization to evaluate our AdMob account and the linked apps. Recently, we have noticed a significant drop in revenue, and we need an experienced professional to analyze and identify the underlying issues, optimize the AdMob account, and improve the overall app performance to recover and boost revenue.\n\nResponsibilities:\nAdMob Account Audit: Review and analyze the current setup of t...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T06:39:34.137010",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Google-AdMob--App-Performance-Expert-Needed-for-Re-1748846374137.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748846373",
-      "job_title": "Custom AI Kiosk Agent Development for Scalable SaaS Platform",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a skilled developer to create a custom AI Kiosk Agent that offers full ownership and is designed for scalability as a SaaS platform. The ideal candidate will have experience in AI development, user interface design, and cloud integration. Also this Kiosk needs to be able to connect with POS for inventory management and based on that needs to do up sale of products .This project will involve designing a user-friendly kiosk experience that can adapt to various customer interactions ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "SaaS",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T06:39:33.729161",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Custom-AI-Kiosk-Agent-Development-for-Scalable-Saa-1748846373729.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748846373",
-      "job_title": "Generative AI Expert to Develop Custom AI Solutions",
-      "client_name": "Client",
-      "budget": "$300.00",
-      "description": "We are looking for an experienced Generative AI Engineer to develop and optimize custom AI solutions. The ideal candidate should have hands-on expertise in LLM training, fine-tuning, and multi-LLM integration to build scalable and high-performance AI applications.\n\nKey Responsibilities:\n- Develop and deploy custom AI models using state-of-the-art LLMs (Large Language Models)\n\n- Implement fine-tuning techniques to optimize model performance based on domain-specific data\n\n- Build and integrate Fla...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T06:39:33.324156",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Generative-AI-Expert-to-Develop-Custom-AI-Solution-1748846373324.html",
       "original_job_url": "",
       "status": "pending"
     }
