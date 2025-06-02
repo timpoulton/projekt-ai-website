@@ -1,7 +1,54 @@
 {
-  "generated_at": "2025-06-02T07:15:01.208761",
+  "generated_at": "2025-06-02T07:20:01.069253",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748848790",
+      "job_title": "Seeking Specialist for Chrome Extension Enhancements",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I\u2019ve developed a Chrome extension using the following technologies:\n\nExtension UI:\nVue 3 + Composition API + TypeScript + SCSS\nBackend: NuxtJS\nPayment Gateway: Stripe\n\nThis extension allows users to input text, rephrase it, and automatically update the text in the input field on websites. Additionally, the extension includes features like screenshots, shortcuts, sign-up/sign-in functionality, and payment gateway integration.\n\nI\u2019m looking for someone who can work on continuous improvements and up...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T07:19:50.632164",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Seeking-Specialist-for-Chrome-Extension-Enhancemen-1748848790632.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748848790",
+      "job_title": "Video Editor for Podcasts and Social Media Content",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled video editor to join our team, dedicated to crafting engaging content for podcasts and social media. This position requires a commitment of 8 hours per day, 40 hours per week. The ideal candidate will be proficient in tools such as Notion, Descript, Riverside, CapCut, and various AI-driven editing software. If you are creative, detail-oriented, and passionate about video content, we would love to see your portfolio!\n\nKey Responsibilities:\n\n- Edit podcast videos for YouTu...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T07:19:50.200175",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Video-Editor-for-Podcasts-and-Social-Media-Content-1748848790200.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748848490",
       "job_title": "Development of Roommate/Shared-Living App (Beta + Final Version w/ Stripe & Badge System)",
@@ -1144,55 +1191,6 @@
       "score": 70,
       "created_at": "2025-06-02T05:28:06.733846",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Performance-Media-Buyer--TrafficJunky-Campaign-Man-1748842086733.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748841783",
-      "job_title": "GSEN Knowledge Base Project - Phase 2 Development",
-      "client_name": "Client",
-      "budget": "$800.00",
-      "description": "Phase 2: Content Submission & Review (June\u2013July 2025)\nThe goal of this phase is to transition from research collection to structuring and populating\nthe GSEN Knowledge Base platform for GSEN users with the initial content contributions,\nwhile also enabling ongoing, community-driven resource submissions.\nMilestone 1\nObjective: Design a system for efficient and scalable community contributions.\n- Based on the structure and learnings from Phase 1, recommend a streamlined plan to\ncontinuously gather...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T05:23:03.646246",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-GSEN-Knowledge-Base-Project---Phase-2-Development-1748841783646.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748841783",
-      "job_title": "Professional Consultant Wanted (Accounting Software)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Seeking a knowledgeable and experienced professional with a wide range of experience in accounting, ecommerce software, and integrations between them. \n\nOur choices are open as we will need to migrate to a completely new system and we are seeking the best results. \n\nAccounting Software (with inventory application) \nEcommerce Platform (Shopify or BigCommerce)  \nPayment Processing / Processor \n\nWith Goals of : Efficiency, Integration, Automation, Simple user interface. \n\nWe want to put together th...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "e-commerce",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your e-commerce.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T05:23:03.239394",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Professional-Consultant-Wanted-Accounting-Software-1748841783239.html",
       "original_job_url": "",
       "status": "pending"
     }
