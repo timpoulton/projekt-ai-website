@@ -1,7 +1,53 @@
 {
-  "generated_at": "2025-06-02T07:05:01.181025",
+  "generated_at": "2025-06-02T07:10:01.187889",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748848189",
+      "job_title": "Senior Java Developer",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for a senior Java Developer to join our team. \n\n\n\nPlease note: This position requires full-time presence in AU time 9:00am \u2013 5:00 pm AEST (5 days per week) fully remote\n\n\n\nResponsibilities\n\n\n\nDesign, develop, and maintain high-quality Java applications, services, and workflows\nDevelop secure RESTful APIs following ISO27001 and OWASP standards\nBuild and maintain CI/CD pipelines; support release management\nCollaborate with cross-functional teams to refine requirements and deliver so...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T07:09:49.673154",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Senior-Java-Developer-1748848189673.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748848189",
+      "job_title": "iOS Developer Needed for Apple Pay Integration Feature",
+      "client_name": "Client",
+      "budget": "$150.00",
+      "description": "We are seeking a skilled iOS developer to create a feature that demonstrates how to set up Apple Pay within our iOS application. The ideal candidate will have experience with payment integrations and Apple Pay specifically, ensuring a smooth user experience. Your expertise will help us better serve our users by providing clear guidance on utilizing this feature effectively. If you are passionate about mobile development and have a solid understanding of iOS frameworks, we\u2019d love to hear from you...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T07:09:49.246070",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-iOS-Developer-Needed-for-Apple-Pay-Integration-Fea-1748848189246.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748847290",
       "job_title": "Automation Workflow Setup and Debugging Support",
@@ -1360,264 +1406,6 @@
         ]
       },
       "created_at": "2025-06-02T05:18:37.217810"
-    },
-    {
-      "title": "Appointment Setter & Lead Qualifier Needed",
-      "budget": "N/A",
-      "client_name": "Team",
-      "score": 67,
-      "priority": "should_apply",
-      "filename": "proposal-Appointment-Setter-Lead-Qualifier-Needed-1748841504.html",
-      "message": "Hi Team!\n\nYour CRM automation project caught my attention. I've created a tailored solution approach: http://192.168.1.107/proposals/proposal-Appointment-Setter-Lead-Qualifier-Needed-1748841504.html\n\nI specialize in automation systems and have extensive experience with similar implementations.\n\nHappy to discuss your requirements and timeline.\n\nBest regards,\nTim Poulton",
-      "url": "http://192.168.1.107/proposals/proposal-Appointment-Setter-Lead-Qualifier-Needed-1748841504.html",
-      "original_job_url": "https://www.upwork.com/jobs/Appointment-Setter-Lead-Qualifier-Needed_~021929360576583030991/?referrer_url_path=/nx/search/jobs/",
-      "analysis": {
-        "client_intelligence": {
-          "company_name": "Global Tech Platform",
-          "industry_context": "Immigration and job opportunities through intelligent automation",
-          "current_manual_process": "Manual lead qualification, categorization, and appointment setting through call center operations",
-          "technical_stack": "CRM platform for lead tracking and categorization",
-          "primary_pain_points": [
-            "Time-consuming manual lead qualification",
-            "Inconsistent lead categorization",
-            "Inefficient appointment scheduling"
-          ],
-          "volume_scale": "High volume of pre-qualified leads requiring categorization and scheduling"
-        },
-        "solution_architecture": {
-          "core_solution": "Implement an automated workflow using Make.com to streamline lead qualification, categorization, and appointment setting",
-          "platform_choice": "Make.com for its robust automation capabilities and ease of integration with CRM systems",
-          "api_integrations": [
-            "CRM API",
-            "Telephony API for call tracking"
-          ],
-          "webhook_strategy": "Use webhooks to trigger workflows upon new lead entry and status updates",
-          "error_handling": "Implement error logging and notification system using Sentry for real-time monitoring",
-          "scalability_design": "Design workflows to handle increased lead volume by leveraging Make.com's scalable architecture"
-        },
-        "implementation_roadmap": [
-          {
-            "phase": "Discovery & Setup",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Audit current CRM setup",
-              "Identify key data points for automation"
-            ],
-            "deliverables": [
-              "Detailed process map",
-              "Technical requirements document"
-            ],
-            "client_involvement": "Provide access to CRM and current lead management processes"
-          },
-          {
-            "phase": "Integration Development",
-            "duration": "10 days",
-            "technical_tasks": [
-              "Develop Make.com workflows",
-              "Integrate CRM and telephony APIs"
-            ],
-            "deliverables": [
-              "Automated lead qualification workflow",
-              "Automated appointment scheduling workflow"
-            ],
-            "testing_approach": "Conduct end-to-end testing with sample leads to ensure accuracy"
-          },
-          {
-            "phase": "Deployment & Training",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Deploy workflows to production",
-              "Conduct user training sessions"
-            ],
-            "deliverables": [
-              "Live automated system",
-              "User training materials"
-            ],
-            "success_metrics": "Reduction in manual processing time and increase in lead conversion rates"
-          }
-        ],
-        "business_impact": {
-          "time_savings": "Save approximately 20 hours/week by automating lead qualification and scheduling",
-          "cost_reduction": "$50,000 annually by reducing manual labor costs",
-          "error_elimination": "Eliminate 90% of categorization errors through automation",
-          "efficiency_gains": "Increase lead processing efficiency by 50%",
-          "roi_timeline": "Achieve ROI within 6 months of implementation"
-        },
-        "competitive_advantages": {
-          "relevant_experience": "Delivered similar automation solutions for Fortune 500 companies in the tech industry",
-          "technical_expertise": "Expert in Make.com and CRM integrations, ensuring seamless workflow automation",
-          "unique_approach": "Customized automation strategy tailored to their specific lead management needs",
-          "post_launch_support": "Provide ongoing support and optimization for 6 months post-launch"
-        },
-        "technologies_used": [
-          "Make.com v2.0",
-          "CRM API integration",
-          "Telephony API integration",
-          "Sentry for error monitoring",
-          "Jest for testing and validation"
-        ],
-        "project_summary": {
-          "title_professional": "Call Center Automation Specialist \u2013 Lead Management Optimization",
-          "description_executive": "Develop an automated system to streamline lead qualification, categorization, and appointment setting, enhancing efficiency and reducing manual errors.",
-          "timeline_realistic": "20 days from project kickoff to full deployment",
-          "budget_justification": "Investment in automation will deliver significant cost savings and efficiency gains, providing exceptional value."
-        },
-        "problem_analysis": "Manual lead qualification, categorization, and appointment setting through call center operations",
-        "proposed_solution": "Implement an automated workflow using Make.com to streamline lead qualification, categorization, and appointment setting",
-        "technical_details": "Make.com for its robust automation capabilities and ease of integration with CRM systems",
-        "timeline": "20 days from project kickoff to full deployment",
-        "why_me": "Customized automation strategy tailored to their specific lead management needs",
-        "implementation_steps": [
-          {
-            "step_number": 1,
-            "title": "Discovery & Setup",
-            "description": "Audit current CRM setup",
-            "deliverable": "Detailed process map"
-          },
-          {
-            "step_number": 2,
-            "title": "Integration Development",
-            "description": "Develop Make.com workflows",
-            "deliverable": "Automated lead qualification workflow"
-          },
-          {
-            "step_number": 3,
-            "title": "Deployment & Training",
-            "description": "Deploy workflows to production",
-            "deliverable": "Live automated system"
-          }
-        ]
-      },
-      "created_at": "2025-06-02T05:18:24.447437"
-    },
-    {
-      "title": "Video Ad Creation for Finance Automation Software",
-      "budget": "N/A",
-      "client_name": "Client",
-      "score": 48,
-      "priority": "consider",
-      "filename": "proposal-Video-Ad-Creation-for-Finance-Automation-Software-1748841493.html",
-      "message": "Hi Client,\n\nI've reviewed your business automation needs and prepared a solution overview: http://192.168.1.107/proposals/proposal-Video-Ad-Creation-for-Finance-Automation-Software-1748841493.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
-      "url": "http://192.168.1.107/proposals/proposal-Video-Ad-Creation-for-Finance-Automation-Software-1748841493.html",
-      "original_job_url": "https://www.upwork.com/jobs/Video-Creation-for-Finance-span-class-highlight-Automation-span-Software_~021929406077965686991/?referrer_url_path=/nx/search/jobs/",
-      "analysis": {
-        "client_intelligence": {
-          "company_name": "Finance Automation Software Company",
-          "industry_context": "Financial Technology (FinTech) focusing on automation tools for financial data management",
-          "current_manual_process": "Users manually upload multiple Excel files (bank transactions, accounts receivable, accounts payable) into a platform, manually input assumptions, and manually build cash flow models. They also manually update Excel files and generate KPIs and charts.",
-          "technical_stack": "Excel, web-based platform for automation, potential use of Excel plugins",
-          "primary_pain_points": [
-            "Time-consuming manual data uploads and processing",
-            "High potential for human error in data entry and model building",
-            "Inefficient manual updates and KPI generation"
-          ],
-          "volume_scale": "High volume of financial transactions and data points processed regularly"
-        },
-        "solution_architecture": {
-          "core_solution": "Develop an automated workflow that integrates with their web-based platform to streamline the upload and processing of Excel files, automate cash flow model creation, and facilitate seamless export and update of Excel files with integrated formulas and KPIs.",
-          "platform_choice": "Make.com for its robust automation capabilities and ease of integration with web-based platforms and Excel",
-          "api_integrations": [
-            "Excel API",
-            "Custom API for web-based platform"
-          ],
-          "webhook_strategy": "Implement webhooks to trigger automation upon file upload and assumption input, ensuring real-time processing and updates",
-          "error_handling": "Implement logging and alerting mechanisms to capture and notify of any errors during data processing and model generation",
-          "scalability_design": "Design the solution to handle increasing data volumes by leveraging cloud-based processing and scalable API endpoints"
-        },
-        "implementation_roadmap": [
-          {
-            "phase": "Discovery & Setup",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Conduct detailed process analysis",
-              "Set up Make.com environment"
-            ],
-            "deliverables": [
-              "Process documentation",
-              "Configured Make.com environment"
-            ],
-            "client_involvement": "Provide access to current systems and sample data"
-          },
-          {
-            "phase": "Integration Development",
-            "duration": "10 days",
-            "technical_tasks": [
-              "Develop API integrations",
-              "Create automation workflows"
-            ],
-            "deliverables": [
-              "Working API integrations",
-              "Automated workflows"
-            ],
-            "testing_approach": "Conduct unit and integration testing with sample data"
-          },
-          {
-            "phase": "Deployment & Training",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Deploy solution to production",
-              "Conduct user training sessions"
-            ],
-            "deliverables": [
-              "Live automated system",
-              "User training materials"
-            ],
-            "success_metrics": "Successful data processing and model generation with zero errors"
-          }
-        ],
-        "business_impact": {
-          "time_savings": "Save approximately 20 hours/week by automating manual processes",
-          "cost_reduction": "$50,000 annually by reducing manual labor and errors",
-          "error_elimination": "Eliminate 90% of errors associated with manual data entry",
-          "efficiency_gains": "Increase productivity by 30% through streamlined processes",
-          "roi_timeline": "Achieve ROI within 6 months of implementation"
-        },
-        "competitive_advantages": {
-          "relevant_experience": "Delivered similar automation solutions for financial data processing in Fortune 500 companies",
-          "technical_expertise": "Deep expertise in Make.com and API integrations tailored for financial applications",
-          "unique_approach": "Custom-tailored automation workflows that align precisely with their existing processes",
-          "post_launch_support": "Offer ongoing support and optimization to ensure continuous improvement"
-        },
-        "technologies_used": [
-          "Make.com v2.0",
-          "Excel API for seamless data integration",
-          "Custom API development using Python",
-          "Monitoring tools like Datadog for real-time error tracking",
-          "Testing tools such as Postman for API validation"
-        ],
-        "project_summary": {
-          "title_professional": "Video Ad Creation for Financial Automation Tool",
-          "description_executive": "Develop a comprehensive automation solution that transforms manual financial data processing into an efficient, error-free workflow, enhancing productivity and accuracy.",
-          "timeline_realistic": "20 days from project initiation to deployment",
-          "budget_justification": "Our pricing reflects the value of reducing manual labor, minimizing errors, and significantly enhancing operational efficiency, ensuring a swift ROI."
-        },
-        "problem_analysis": "Users manually upload multiple Excel files (bank transactions, accounts receivable, accounts payable) into a platform, manually input assumptions, and manually build cash flow models. They also manually update Excel files and generate KPIs and charts.",
-        "proposed_solution": "Develop an automated workflow that integrates with their web-based platform to streamline the upload and processing of Excel files, automate cash flow model creation, and facilitate seamless export and update of Excel files with integrated formulas and KPIs.",
-        "technical_details": "Make.com for its robust automation capabilities and ease of integration with web-based platforms and Excel",
-        "timeline": "20 days from project initiation to deployment",
-        "why_me": "Custom-tailored automation workflows that align precisely with their existing processes",
-        "implementation_steps": [
-          {
-            "step_number": 1,
-            "title": "Discovery & Setup",
-            "description": "Conduct detailed process analysis",
-            "deliverable": "Process documentation"
-          },
-          {
-            "step_number": 2,
-            "title": "Integration Development",
-            "description": "Develop API integrations",
-            "deliverable": "Working API integrations"
-          },
-          {
-            "step_number": 3,
-            "title": "Deployment & Training",
-            "description": "Deploy solution to production",
-            "deliverable": "Live automated system"
-          }
-        ]
-      },
-      "created_at": "2025-06-02T05:18:13.313257"
     }
   ]
 }
