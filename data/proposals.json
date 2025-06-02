@@ -1,7 +1,79 @@
 {
-  "generated_at": "2025-06-02T11:05:01.126506",
+  "generated_at": "2025-06-02T11:10:01.968394",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748862389",
+      "job_title": "WooCommerce Expert Developer Needed",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We're a dedicated UK-based web development agency looking for an exceptional WooCommerce developer to join our friendly, collaborative team. We're seeking someone with proven, extensive experience in bespoke WooCommerce and WordPress development. You should have an in-depth understanding of WooCommerce\u2019s complex template and directory structures, alongside advanced skills in PHP, JavaScript, AJAX, and modern CSS frameworks like Flexbox.\n\nThis role requires a developer who genuinely understands t...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:06:29.476192",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-WooCommerce-Expert-Developer-Needed-1748862389476.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862389",
+      "job_title": "Talented 2D Animator Wanted for Unique YouTube Video Series (10-15 min)",
+      "client_name": "Client",
+      "budget": "$120.00",
+      "description": "I\u2019m launching a new animated YouTube channel called Oddly Logical \u2014 a series of thought-provoking, fun, and visually engaging videos that explore unusual \"what if\" scenarios, deep questions, technology, psychology, and twists of reality.\n\nWe already have a full script written for our first video, titled:\n\n\ud83d\udc49 \u201cWhat If You Could Relive Your Childhood With Adult Knowledge?\u201d\n\nNow, I\u2019m looking for a creative and skilled animator who can bring the script to life using engaging 2D animation, similar in ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:06:29.073766",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Talented-2D-Animator-Wanted-for-Unique-YouTube-Vid-1748862389073.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862387",
+      "job_title": "Experienced SEO Content Writers Needed (Different Languages)",
+      "client_name": "Client",
+      "budget": "$15.00",
+      "description": "We are seeking several experienced SEO content writers to optimize pages in different languages to rank for the right keywords and improve performance. \n\nThe target languages are:\n\nPolish\nDutch\nGeorgian\nGerman\nHindi\nItalian\nThai\nHungarian\nChinese\nDanish\n\nNote that Payment would be made per page approved at a rate of $15 per page.  Specify your preferred target language(s) from the list above.\n\nYour Core Responsibilities:\n\n- Translate the provided English content accurately and effectively into t...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:06:27.823788",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-SEO-Content-Writers-Needed-Different-L-1748862387823.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748862089",
       "job_title": "Infrared Spray Simulation Development for Digital Graffiti",
@@ -1121,77 +1193,6 @@
       "score": 70,
       "created_at": "2025-06-02T10:25:34.772146",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Affiliate-Content-Integration-for-Lawn-Care-Websit-1748859934772.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859933",
-      "job_title": "Integrate Sentry with Codemagic CI/CD for Android Kotlin App",
-      "client_name": "Client",
-      "budget": "$150.00",
-      "description": "We are seeking a skilled developer to integrate Sentry into our Android Kotlin application using Codemagic for CI/CD. The candidate should have experience with error tracking and continuous integration, ensuring a smooth and efficient integration process. Familiarity with both Sentry's SDK and Codemagic's platform is essential. You will work closely with our team to set up monitoring and reporting for our app's performance and errors. If you have a strong background in Android development and CI...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:25:33.526158",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Integrate-Sentry-with-Codemagic-CICD-for-Android-K-1748859933526.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859335",
-      "job_title": "Web design and development for a wealth management firm",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Hi Dipan,\n\nI\u2019m looking to redesign our existing WordPress website to give it a premium, modern, and professional look. The site currently uses WPBakery, is hosted on WP Engine, and includes plugins like Zoho CRM Forms, Contact Form 7, If-So, AYS Popup Box, and Animated Counters.\n\nKey requirements:\n\nComplete design overhaul with a clean, corporate layout\n\nFully responsive and SEO-optimized\n\nIntegration of financial calculators, interactive charts, and visual tools\n\nSmooth user experience with sub...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:15:35.169738",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-design-and-development-for-a-wealth-management-1748859335169.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859333",
-      "job_title": "Create endpoint API Dolibarr",
-      "client_name": "Client",
-      "budget": "$20.00",
-      "description": "Hi, \n\nI am using Dolibarr Rest API. In front office, I am able to create a shipment for an order. It seems there is not endpoint for that using the API. However there is an API to create an invoice from an order. \nNeed to develop this endpoint.",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T10:15:33.917573",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Create-endpoint-API-Dolibarr-1748859333917.html",
       "original_job_url": "",
       "status": "pending"
     }
