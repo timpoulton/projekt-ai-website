@@ -1,7 +1,103 @@
 {
-  "generated_at": "2025-06-02T06:05:01.671891",
+  "generated_at": "2025-06-02T06:10:01.473720",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748844545",
+      "job_title": "Automation Specialist for Zapier and Notion Integration",
+      "client_name": "Client",
+      "budget": "$150.00",
+      "description": "Hi there,\n\nI'm looking for an automation expert to help streamline client onboarding and internal workflows for my web design agency.\n\nHere\u2019s what I need help automating:\n\nAutomatically sending a digital contract to new clients once a project is approved (can be triggered from Go High Level)\nAutomatically sending a payment link or invoice via MYOB\nCreating and assigning a new project space in Notion\nDuplicating and customising our client portal template in Notion with new client info (name, URL,...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Integromat",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Integromat, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T06:09:05.555363",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Automation-Specialist-for-Zapier-and-Notion-Integr-1748844545555.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748844545",
+      "job_title": "Salesforce Lightning Expert \u2013 Set Up Sales, Service, Marketing + Revenue Forecasting Dashboards",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for an experienced Salesforce Lightning specialist to build and optimize our Sales, Service, and Marketing processes inside Salesforce \u2014 including revenue forecasting dashboards \u2014 to give us full visibility across the customer journey and our growth targets.\n\nAbout Us\nWe\u2019re a fast-growing HR Tech company operating globally. Our teams use Salesforce to track sales performance, manage leads and accounts, and deliver exceptional client service. We're now ready to elevate our internal ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "SaaS",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T06:09:05.139328",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Salesforce-Lightning-Expert--Set-Up-Sales-Service--1748844545139.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748844544",
+      "job_title": "Freelancers Needed for Clothing Brand Growth",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I\u2019m the owner of a growing clothing brand and I\u2019m building a small team of skilled freelancers to help with content, marketing, editing, and research. This is your chance to be part of something dope and impactful. \ud83d\ude4c\n\nWe\u2019re currently hiring for the following roles \u2014 pick the one you specialize in and let us know:\n\n\n\n\u2705 1. Market/Product Researcher\n\t\u2022\tFind trending styles, colors, and clothing items\n\t\u2022\tRecommend what products to drop next\n\t\u2022\tProvide basic competitor analysis\n\ud83d\udcb0 Pay: $5\u2013$15 per task...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T06:09:04.722453",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Freelancers-Needed-for-Clothing-Brand-Growth-1748844544722.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748844544",
+      "job_title": "Create mobile app from FIGMA design",
+      "client_name": "Client",
+      "budget": "$600.00",
+      "description": "We are seeking an experienced mobile app developer to build a React Native application for a personalized cannabinoid wellness company using an existing FIGMA design. The app will allow users to track their progress with our products, complete assessments, view order history, and access expert tips. \n\nKey Features Required\n\n\u2022 User Authentication: Magic link email login, Google and Apple sign-in options\n\n\u2022 Multi-Profile Management: Allow users to create and switch between multiple profiles\n\n\u2022 Ass...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T06:09:04.297541",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Create-mobile-app-from-FIGMA-design-1748844544297.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748843928",
       "job_title": "Build n8n Workflow to Extract PDF Purchase Order Data (Using Azure Document Intelligence or OpenAI)",
@@ -3196,250 +3292,6 @@
         "custom_approach": "I'll start by conducting a thorough analysis of your existing operations and identifying areas for automation. Once identified, I'll leverage my expertise in Make.com, n8n, and Zapier to design custom automation workflows. I'll ensure these solutions are seamlessly integrated with your existing systems, providing continuous support and optimization to ensure maximum efficiency."
       },
       "created_at": "2025-06-01T23:38:56.525627"
-    },
-    {
-      "title": "One-Time Keitaro + FB Ads Tracking + Cloaking Setup for Affiliate Lead Gen",
-      "budget": "$5.00",
-      "client_name": "Client",
-      "score": 50,
-      "priority": "consider",
-      "filename": "proposal-OneTime-Keitaro-FB-Ads-Tracking-Cloaking-Setup-f-1748821122.html",
-      "message": "Hi Client,\n\nI've reviewed your systems integration needs and prepared a solution overview: https://projekt-ai.net/proposals/proposal-OneTime-Keitaro-FB-Ads-Tracking-Cloaking-Setup-f-1748821122.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
-      "url": "https://projekt-ai.net/proposals/proposal-OneTime-Keitaro-FB-Ads-Tracking-Cloaking-Setup-f-1748821122.html",
-      "analysis": {
-        "current_process": "The client is currently promoting offers in the home services space (windows, roofing, bath remodel) without proper tracking and cloaking setup.",
-        "desired_outcome": "The client wants a one-time setup of Keitaro tracker, custom domain, affiliate network integration, Facebook ad tracking, and cloaking so that Facebook doesn't see the actual offer they're promoting.",
-        "tools": "Keitaro, Suited.co, Facebook Ads, Loom, SSL",
-        "workflow_steps": [
-          {
-            "title": "Keitaro Setup",
-            "description": "Setting up Keitaro tracker either self-hosted or cloud as per the client's requirement."
-          },
-          {
-            "title": "Domain and SSL Setup",
-            "description": "Connecting a custom domain and setting up SSL for secure connections."
-          },
-          {
-            "title": "Affiliate Network Integration",
-            "description": "Integrating Suited.co with Keitaro and setting up postbacks."
-          },
-          {
-            "title": "Facebook Ad Tracking and Cloaking",
-            "description": "Installing Facebook tracking pixels & UTM parameters, and cloaking the Facebook ads."
-          }
-        ],
-        "services": [
-          "Keitaro setup and configuration",
-          "Custom domain and SSL setup",
-          "Affiliate network integration with postbacks",
-          "Facebook ad tracking and cloaking setup",
-          "Creating basic compliant bridge pages"
-        ],
-        "process_items": [
-          {
-            "title": "Discovery & Planning",
-            "description": "Understanding your specific requirements and creating a detailed plan for implementation."
-          },
-          {
-            "title": "Setup & Integration",
-            "description": "Carrying out the Keitaro setup, domain connection, SSL setup, and affiliate network integration."
-          },
-          {
-            "title": "Tracking & Cloaking",
-            "description": "Setting up Facebook ad tracking, UTM parameters, cloaking, and creating bridge pages if needed."
-          },
-          {
-            "title": "Documentation & Handover",
-            "description": "Recording a walkthrough of the setup using Loom and delivering the final tracking links."
-          }
-        ],
-        "unique_value": "As an expert in automation and API integrations, I have extensive experience in setting up tracking and cloaking for ads. I have a keen understanding of affiliate marketing needs and can deliver a solution that is efficient, secure, and effective.",
-        "custom_approach": "I will start by understanding your specific needs, followed by a comprehensive setup of Keitaro, domain, SSL, and Suited.co integration. After ensuring a secure and efficient tracking system, I will implement the cloaking for your Facebook ads. The entire process will be documented in a Loom video for your reference."
-      },
-      "created_at": "2025-06-01T23:38:42.470321"
-    },
-    {
-      "title": "Marketing Technology & Retargeting Specialist",
-      "budget": "$250.00",
-      "client_name": "Client",
-      "score": 100,
-      "priority": "must_apply",
-      "filename": "proposal-Marketing-Technology-Retargeting-Specialist-1748820860.html",
-      "message": "Hi Client!\n\nI've analyzed your CRM automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: https://projekt-ai.net/proposals/proposal-Marketing-Technology-Retargeting-Specialist-1748820860.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nSpecifically for your project: My approach would be to first fully understand your current process and desired outcomes, then create a comprehensive plan for the implementation of your new system. This would involve selecting the most effective tools and platforms for your needs, integrating them to create a cohesive system, and ensuring the system is easy to maintain and hand back to your staff.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "https://projekt-ai.net/proposals/proposal-Marketing-Technology-Retargeting-Specialist-1748820860.html",
-      "analysis": {
-        "current_process": "The client is currently seeking to set up a tech foundation for their marketing efforts.",
-        "desired_outcome": "The client wants to establish a cohesive retargeting and personalized messaging system across various platforms, and ensure it can be easily maintained and handed back to their staff.",
-        "tools": "CRM, email service provider, analytics, ad platforms, tag manager, Make.com, n8n, Zapier, API integrations",
-        "workflow_steps": [
-          {
-            "title": "Evaluation of Current Martech Stack",
-            "description": "Assess the current marketing tools and platforms being used by the client and identify areas for improvement or additional tools that may be beneficial."
-          },
-          {
-            "title": "Integration of Martech Tools",
-            "description": "Implement and integrate the selected marketing tools and platforms to create a cohesive system for retargeting and personalized messaging."
-          },
-          {
-            "title": "Setup of Tracking and Attribution",
-            "description": "Implement tracking pixels, UTM parameters, and conversion APIs to ensure accurate campaign measurement and attribution."
-          },
-          {
-            "title": "Data Integration",
-            "description": "Connect data across different tools and platforms to create dynamic audiences for retargeting and lookalike campaigns."
-          }
-        ],
-        "services": [
-          "Comprehensive Martech Stack Evaluation",
-          "Marketing Tools and Platforms Integration",
-          "Tracking and Attribution Setup",
-          "Audience Building for Retargeting and Lookalike Campaigns",
-          "Data Integration across Platforms"
-        ],
-        "process_items": [
-          {
-            "title": "Discovery Phase",
-            "description": "Understanding the client's current process and identifying the desired outcomes and potential challenges."
-          },
-          {
-            "title": "Planning Phase",
-            "description": "Creating a detailed plan for the implementation of the new system, including selecting appropriate tools and platforms."
-          },
-          {
-            "title": "Implementation Phase",
-            "description": "Setting up and integrating the selected tools, and creating the retargeting and personalized messaging system."
-          },
-          {
-            "title": "Review and Handoff Phase",
-            "description": "Reviewing the effectiveness of the new system, making necessary adjustments, and preparing for handoff to the client's staff."
-          }
-        ],
-        "unique_value": "With extensive experience in automation and integration, I can streamline your marketing efforts by ensuring all your platforms work together seamlessly. My deep understanding of Make.com, n8n, Zapier, and API integrations makes me uniquely qualified to deliver a solution that is tailored to your needs.",
-        "custom_approach": "My approach would be to first fully understand your current process and desired outcomes, then create a comprehensive plan for the implementation of your new system. This would involve selecting the most effective tools and platforms for your needs, integrating them to create a cohesive system, and ensuring the system is easy to maintain and hand back to your staff."
-      },
-      "created_at": "2025-06-01T23:34:20.133794"
-    },
-    {
-      "title": "Ninatrader Programmer for Automating Trading Strategy",
-      "budget": "N/A",
-      "client_name": "Team",
-      "score": 75,
-      "priority": "should_apply",
-      "filename": "proposal-Ninatrader-Programmer-for-Automating-Trading-Strat-1748820838.html",
-      "message": "Hi Team!\n\nYour business automation project caught my attention. I've created a tailored solution approach: https://projekt-ai.net/proposals/proposal-Ninatrader-Programmer-for-Automating-Trading-Strat-1748820838.html\n\nI specialize in automation systems and have extensive experience with similar implementations.\n\nSpecifically for your project: I will work closely with you to understand your trading strategy and develop a customized solution that fully automates it on the Ninjatrader platform. I will also provide continuous backtesting, optimization, and support to ensure the strategy performs consistently in different market conditions.\n\nHappy to discuss your requirements and timeline.\n\nBest regards,\nTim Poulton",
-      "url": "https://projekt-ai.net/proposals/proposal-Ninatrader-Programmer-for-Automating-Trading-Strat-1748820838.html",
-      "analysis": {
-        "current_process": "The client has attempted to code their trading strategy into the Ninjatrader 8 platform, but it is not functioning as intended.",
-        "desired_outcome": "The client wants a fully automated trading strategy on the Ninjatrader 8 platform, including entry and exit signals, stop loss, and take profit levels, with ongoing support and optimization.",
-        "tools": "Ninatrader 8, C#",
-        "workflow_steps": [
-          {
-            "title": "Understand Trading Strategy",
-            "description": "Detailed review of the client's trading strategy to fully understand its mechanisms and intended outcomes."
-          },
-          {
-            "title": "Develop Custom Indicators",
-            "description": "Use C# to code custom indicators and strategies into Ninjatrader 8 based on the client's trading strategy."
-          },
-          {
-            "title": "Backtest and Optimize",
-            "description": "Conduct comprehensive backtesting and ongoing optimization of the automated trading strategy."
-          },
-          {
-            "title": "Provide Ongoing Support",
-            "description": "Offer continuous support and further strategy modifications as market conditions and the client's needs evolve."
-          }
-        ],
-        "services": [
-          "Custom Ninjatrader 8 programming",
-          "Development of custom indicators and strategies",
-          "Backtesting of the automated trading strategy",
-          "Optimization of the trading strategy",
-          "Ongoing support and strategy modification"
-        ],
-        "process_items": [
-          {
-            "title": "Discovery and Planning",
-            "description": "Understand the client's trading strategy and plan the coding process."
-          },
-          {
-            "title": "Development",
-            "description": "Develop custom indicators and strategies on the Ninjatrader 8 platform."
-          },
-          {
-            "title": "Testing and Optimization",
-            "description": "Backtest and optimize the automated trading strategy for maximum effectiveness."
-          },
-          {
-            "title": "Support and Maintenance",
-            "description": "Provide ongoing support and necessary modifications to the automated trading strategy."
-          }
-        ],
-        "unique_value": "With my proficiency in the Ninjatrader platform and my strong C# programming skills, I can translate complex trading strategies into automated systems. I also have a deep understanding of financial markets and trading concepts, giving me the ability to optimize the strategy for improved trading outcomes.",
-        "custom_approach": "I will work closely with you to understand your trading strategy and develop a customized solution that fully automates it on the Ninjatrader platform. I will also provide continuous backtesting, optimization, and support to ensure the strategy performs consistently in different market conditions."
-      },
-      "created_at": "2025-06-01T23:33:58.975411"
-    },
-    {
-      "title": "Lead Generation Specialist \u2013 YouTube Influencer Research (Tech, Gaming, NFL/NBA)",
-      "budget": "$15.00",
-      "client_name": "Team",
-      "score": 67,
-      "priority": "should_apply",
-      "filename": "proposal-Lead-Generation-Specialist-YouTube-Influencer-Res-1748820824.html",
-      "message": "Hi Team!\n\nYour email automation project caught my attention. I've created a tailored solution approach: https://projekt-ai.net/proposals/proposal-Lead-Generation-Specialist-YouTube-Influencer-Res-1748820824.html\n\nI specialize in automation systems and have extensive experience with similar implementations.\n\nSpecifically for your project: I propose to use a combination of automation tools and my expertise in data scraping to identify the channels that meet your criteria and extract the necessary information. This data will then be cleaned, verified, and used to populate a comprehensive, high-quality database that meets your needs.\n\nHappy to discuss your requirements and timeline.\n\nBest regards,\nTim Poulton",
-      "url": "https://projekt-ai.net/proposals/proposal-Lead-Generation-Specialist-YouTube-Influencer-Res-1748820824.html",
-      "analysis": {
-        "current_process": "The client is manually researching and gathering data on YouTube influencers specific to tech, gaming, and NFL/NBA niches.",
-        "desired_outcome": "The client wants to automate this process and build a high-quality database of 5,000 YouTube influencers that meet their activity and niche criteria.",
-        "tools": "YouTube, Social Blade, Make.com, n8n, Zapier, API integrations",
-        "workflow_steps": [
-          {
-            "title": "Identify relevant YouTube channels",
-            "description": "Use automated tools to find channels that meet the client's criteria, including niche, activity, and automation."
-          },
-          {
-            "title": "Scrape necessary data",
-            "description": "Extract channel name, URL, email, subscriber count, and niche from each identified channel."
-          },
-          {
-            "title": "Verify and clean data",
-            "description": "Check the extracted data for accuracy, remove duplicates, and clean up any inconsistencies."
-          },
-          {
-            "title": "Build and populate database",
-            "description": "Create a structured database and populate it with the cleaned data."
-          }
-        ],
-        "services": [
-          "Automated YouTube channel identification based on client criteria",
-          "Data scraping for relevant channel information",
-          "Data verification and cleaning",
-          "Database creation and population",
-          "Ongoing maintenance and updates to the database as new channels emerge and existing ones evolve"
-        ],
-        "process_items": [
-          {
-            "title": "Planning and Setup",
-            "description": "Understand client's specific criteria, set up automation and scraping tools."
-          },
-          {
-            "title": "Data Extraction",
-            "description": "Run the automation tools to extract desired data from identified channels."
-          },
-          {
-            "title": "Data Cleaning",
-            "description": "Verify the extracted data for any inconsistencies or errors and clean it."
-          },
-          {
-            "title": "Database Management",
-            "description": "Create the database and populate it with cleaned data. Provide ongoing updates."
-          }
-        ],
-        "unique_value": "As an automation expert with extensive experience in influencer research and lead generation, I can efficiently automate this process, saving you time and ensuring accuracy. My expertise in Make.com, n8n, Zapier, and API integrations makes me uniquely qualified to tackle your challenge.",
-        "custom_approach": "I propose to use a combination of automation tools and my expertise in data scraping to identify the channels that meet your criteria and extract the necessary information. This data will then be cleaned, verified, and used to populate a comprehensive, high-quality database that meets your needs."
-      },
-      "created_at": "2025-06-01T23:33:44.041287"
     }
   ]
 }
