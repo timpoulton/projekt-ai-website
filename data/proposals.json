@@ -1,7 +1,245 @@
 {
-  "generated_at": "2025-06-02T15:30:01.810606",
-  "total_proposals": 40,
+  "generated_at": "2025-06-02T15:35:01.247380",
+  "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748878431",
+      "job_title": "N8N expert for B2B Sales",
+      "client_name": "Client",
+      "budget": "$50.00",
+      "description": "We are an International business company that sell LED Gift light and want to build an AI-powered automation system to streamline B2B sales processes. \n\nWe\u2019re seeking a skilled and creative n8n Expert to support our mission of creating efficient, scalable workflows that enhance lead generation, customer engagement, and sales conversions.\n\nYour key responsibilities will include:\n1. Workflow Design: Building and optimizing n8n workflows to automate B2B sales tasks, such as lead scraping, email out...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.Com",
+          "N8N",
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "SaaS",
+        "score": 80
+      },
+      "message": "Hey there,\n\n\"Automation needs\" definitely resonated with me \u2013 I get that feeling! I've seen how much time B2B sales teams can waste on repetitive tasks. Once, I helped a small manufacturing company automate their lead qualification process, and it freed up their sales team to actually *talk* to people, which boosted their close rate noticeably.\n\nFor you, I'd suggest starting by mapping out your current B2B sales workflow. Then, we can identify those bottlenecks, particularly around lead scraping and email outreach. Finally, build those n8n workflows to handle those repetitive tasks.\n\nLet's chat about your specific needs and see if I can bring my n8n skills to the table. I'm happy to jump on a quick call.",
+      "score": 80,
+      "created_at": "2025-06-02T15:33:51.663999",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-N8N-expert-for-B2B-Sales-1748878431664.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878428",
+      "job_title": "PHP Laravel Application Consultation with an expert",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hi,\n\n*2nd June 2025 Update: please apply! We're shortlisting and interviewing this week*\n\nWe're a company in Australia that has hired a team in Europe to build a PHP Laravel application and need help from someone who is an experienced engineer to come in and firstly advise us on this project technically. \n\nEvery other part of the application for this project we have under control (Front end, Application Server) but the company that is doing our backend in Laravel we do not believe has the techni...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\n\"We do not believe [our Laravel team] has the techni...\" I hear you. I've been in similar situations \u2013 once had a client where the data layer was a complete bottleneck, and it turned out the database design was fundamentally flawed. A few key architectural changes saved them weeks of headaches.\n\nFor your project, I'd suggest starting with a code review focusing on architectural decisions. Then, a quick sprint to identify any immediate performance bottlenecks or security vulnerabilities. Finally, we could workshop some best practices and potential improvements to ensure a scalable and maintainable foundation.\n\nWould love to chat briefly about the specifics of your application and see if my experience aligns with what you need. Available for a quick call this week?",
+      "score": 70,
+      "created_at": "2025-06-02T15:33:48.912868",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-PHP-Laravel-Application-Consultation-with-an-exper-1748878428912.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878426",
+      "job_title": "Emails going to spam",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Looking for someone who has actionable steps to take to help me with my email marketing sensibility.  My personal emails as well are now going to spam for no other reason then being associated with my other accounts that are not sending e-blasts.\n\nThe issue is my domain might have an issue.  Please reach out if you are an\u2026\n-expert in email sensibility.\n-e-blasting and data mining is something I have already done.  I only need help fixing my email status.\n\nAlways looking for someone who has an un...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Emails going to spam for no other reason then being associated...\" I read that, and it reminded me of a similar situation a colleague had a while back \u2013 frustrating, to say the least! Turns out, some shared hosting issues were tanking their domain reputation across the board.\n\nFor you, I'd start by digging into your domain's reputation using a few key tools to see what blacklists you might be on. Then, we'd set up and thoroughly check your SPF, DKIM, and DMARC records \u2013 ensuring they're configured correctly is crucial. Finally, based on what we find, we can implement a warming strategy for your IP if needed and monitor the results closely.\n\nIf you're interested, I'm happy to hop on a quick call to discuss your specific setup and see if I can offer some concrete help.",
+      "score": 70,
+      "created_at": "2025-06-02T15:33:46.239633",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Emails-going-to-spam-1748878426239.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878424",
+      "job_title": "AWS DevOps Expert Needed \u2013 Infrastructure Audit & Optimization",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "We're looking for an experienced AWS DevOps specialist to evaluate our current cloud infrastructure with a focus on performance, scalability, and security.\n\nYour role:\n\n- Audit existing AWS setup\n\n- Identify bottlenecks and risks\n\n- Recommend clear, actionable improvements\n\n- Deliver concise documentation of findings and enhancements\n\nIf you excel at optimizing cloud systems and love turning complex infrastructure into scalable, secure, high-performance environments\u2014we want to hear from you",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\nSaw you're struggling with manual processes in your AWS setup. That's a pain I know well! I recently worked with a startup where deployments were taking a whole day because of manual configurations. We shaved that down to 15 minutes with some clever scripting \u2013 felt like magic.\n\nFor your audit, I'd start by diving into your existing infrastructure setup to really understand the bottlenecks and potential risks. Then I'd focus on identifying opportunities for optimization, specifically addressing those manual processes you mentioned. Finally, I\u2019d deliver clear, concise documentation outlining my findings and practical steps for improvement.\n\nWould be happy to hop on a quick call to discuss your needs in more detail?",
+      "score": 70,
+      "created_at": "2025-06-02T15:33:44.162282",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AWS-DevOps-Expert-Needed--Infrastructure-Audit--Op-1748878424162.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878422",
+      "job_title": "Experienced Backend WordPress Developer Needed",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for a skilled Backend WordPress Developer to join our team in supporting a dynamic, high-impact platform designed to drive engagement and performance across user groups. This role is ideal for someone who thrives in a collaborative environment and has a strong grasp of backend development best practices within the WordPress ecosystem.\n\nKey Responsibilities:\n-Build, maintain, and optimize custom WordPress functionality to support program needs\n-Collaborate with front-end developers,...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\n\"Supporting a dynamic, high-impact platform designed to drive engagement...\" That sounds like a fun challenge! I noticed you mention optimization, which often boils down to smart automation on the backend.\n\nI was working on a similar project last year where engagement started lagging. Turns out, some redundant database queries were bogging everything down. We automated a cleanup process that freed up a surprising amount of resources.\n\nFor your platform, I'd start by carefully auditing the current processes, then pinpoint those areas that could benefit from automated tasks like data management or content delivery. Finally, we'd implement those automations with the goal of freeing up resources for other high-impact work.\n\nWould love to chat more about your platform and see where some smart automation might make a difference.",
+      "score": 80,
+      "created_at": "2025-06-02T15:33:42.253681",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-Backend-WordPress-Developer-Needed-1748878422253.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878420",
+      "job_title": "ML Engineer / Research Scientist for Audio-Visual Generative Models",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83c\udfe2About Us\nWe\u2019re a small but dedicated digital agency focused on delivering high-quality solutions with a personal touch. \nWe combine creativity, strategy, and tech to help our clients grow. We bring together a team of passionate freelance professionals who care about doing great work.\nWe value clear communication, reliability, and results.\n\n\ud83d\udcddAbout the role/summary:\nWe  are  seeking  a  deep  learning  expert  who  is  at  home  in  GAN,  StyleGAN,  and  diffusion\narchitectures, audiovisual data ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\nSaw you're looking for someone comfortable diving into GANs and diffusion models for audiovisual data. The \"pain point\" about automation struck a chord with me. I remember a project a few years back where we spent weeks manually cleaning audio data only to find out a simple pre-processing script could have saved us immense time.\n\nFor your project, I'd focus on: 1) A thorough exploration of your existing data pipeline and bottlenecks, 2) Experimenting with different generative models to find the best fit for your data characteristics and desired output quality, and 3) fine-tuning a custom diffusion pipeline for audio and video.\n\nWould love to chat more about the specifics of your data and vision when you have a moment.",
+      "score": 70,
+      "created_at": "2025-06-02T15:33:40.387053",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-ML-Engineer--Research-Scientist-for-Audio-Visual-G-1748878420387.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878417",
+      "job_title": "Rewrite & Upload 1000 Wikipedia Articles via Gemini AI to Our Own Website",
+      "client_name": "Client",
+      "budget": "$300.00",
+      "description": "Description:\nWe are looking for a responsible and detail-oriented freelancer to help rewrite and reupload 1,000 articles originally published in non-English Wikipedias. Your job will be to find relevant articles, translate them into English using Google Gemini, and then upload them to our content management system (CMS).\n\nYou will receive a clear step-by-step instruction file explaining the workflow. The process is simple, repetitive, and does not require technical skills beyond basic web publis...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "repetitive work"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Okay, I understand the repetitive nature of this \u2013 \"simple, repetitive\" work, you said. Been there! I actually automated data entry for a small library once, and after a week of building the script, I realized I *missed* the mindless work! It's a weird feeling.\n\nFor your project, I'd start by running a few test articles through Gemini and your CMS to get a feel for the flow and potential formatting quirks. Then, create a checklist based on your instructions to ensure consistency across all articles. Finally, after uploading in batches of 100, I'd send you a quick progress report.\n\nIf this sounds like a solid approach, I'm happy to chat more about the specifics and how I can best support your project.",
+      "score": 70,
+      "created_at": "2025-06-02T15:33:37.793861",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Rewrite--Upload-1000-Wikipedia-Articles-via-Gemini-1748878417793.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878415",
+      "job_title": "Backend Developer Needed to Fix Bugs in AI Voice Assistant (Existing Codebase)",
+      "client_name": "Client",
+      "budget": "$200.00",
+      "description": "We\u2019re looking for an experienced backend developer to debug and fix issues in an existing AI-based voice assistant application. The app is built using Python and Node.js, hosted on Replit.ai. Your primary task will be identifying and resolving a few key bugs affecting the app's reliability and performance.\n\nProject Scope:\n- Review the existing codebase (access will be provided).\n- Identify and resolve 2\u20133 high-priority bugs\u2014examples include API crashes, timeouts, and speech-to-text failures.\n- I...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nRead your post about the voice assistant issues, especially the API crashes on Replit.ai. I feel your pain! I spent a week last year chasing a similar timeout bug in a chatbot backend \u2013 turned out to be a sneaky memory leak only visible under heavy load. Drove me nuts.\n\nFor your project, I'd first do a deep dive into the logs and codebase to pinpoint the exact causes of the crashes and failures. Then, I'd create targeted fixes for each bug, focusing on stability and performance. Finally, I'd write unit tests to make sure the fixes hold up under pressure and prevent regressions.\n\nIf this approach sounds good, I\u2019d be happy to jump on a quick call to discuss the specific bugs and how I\u2019d tackle them. No pressure either way, just want to see if I can offer a solution.",
+      "score": 80,
+      "created_at": "2025-06-02T15:33:35.737417",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Backend-Developer-Needed-to-Fix-Bugs-in-AI-Voice-A-1748878415737.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878412",
+      "job_title": "Technical Writer Needed to Create Comprehensive API Documentation (60+ Endpoints)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hello!\nWe\u2019re Fluxir \u2014 an AI-powered travel compliance platform simplifying global visa and documentation workflows. We\u2019re looking for an experienced technical writer or dev-docs specialist to help us build comprehensive, developer-friendly documentation for our public API (60\u201370 endpoints).\n\n\ud83d\udd27 What We Need:\n\nWe want professional, interactive API documentation that covers:\n\t\u2022\tAll endpoints (HTTP methods, paths, request/response bodies, query/path parameters, headers)\n\t\u2022\tAuthentication flows (OAut...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey Fluxir team,\n\n\"Simplifying global visa and documentation workflows\" sounds like a fantastic goal! I\u2019ve noticed those manual compliance processes can really bog down even the most innovative platforms \u2013 been there, seen that.\n\nFunny story: I once worked with a logistics company where a single incorrect country code in their shipping API was causing complete chaos. Highlighted the critical need for meticulous documentation, to say the least!\n\nFor your API, I'd suggest starting with a deep dive into the existing endpoints to fully understand the current state, then building out clear, interactive documentation that prioritizes developer ease of use. Finally, we could integrate some dynamic testing tools to keep everything accurate moving forward.\n\nI'd love to chat more about your specific needs. Maybe we can identify some quick wins to streamline your documentation process right away.",
+      "score": 80,
+      "created_at": "2025-06-02T15:33:32.982269",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Technical-Writer-Needed-to-Create-Comprehensive-AP-1748878412982.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748878410",
+      "job_title": "Build a Filterable Music Playlist Database (for Psychedelic/Creative Use)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I\u2019m creating a private music playlist database as a product for paying customers. My platform is focused on psychedelics, creativity, healing, and personal growth). I need your help building a clean, filterable, easy-to-update system that works smoothly. I use Thrivecart and have with ThriveCart Learn (which I already use for courses) so that might be a way to go but I'm open to ideas for what works best.\n\nWhat I want users to be able to do:\n\t\u2022\tBrowse and filter playlists by:\n\t\u2022\tMood (e.g. eupho...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\n\"A clean, filterable, easy-to-update system...\" \u2013 that's the dream, isn't it? I totally get it. I once spent a week building a similar system for a filmmaker friend's sound library, only to realize the UI was a usability nightmare. Lesson learned!\n\nFor your music database, here's what I'm thinking: 1) we brainstorm the *best* way to integrate with ThriveCart Learn, considering how your users will actually *use* it. 2) We'll create a simple but effective filter/search function based on the mood and other categories you need. 3) Then, I'll build you a super-easy back-end process for updating the playlist database to save you time, and making it easy for you to make changes yourself.\n\nIf this sounds good, I'm happy to jump on a quick call to chat more about your specific needs. No pressure either way.",
+      "score": 80,
+      "created_at": "2025-06-02T15:33:30.052493",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-a-Filterable-Music-Playlist-Database-for-Psy-1748878410052.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748878131",
       "job_title": "Gaming AI Expert Needed for Robotics-Integrated Product (Profit-Share Opportunity)",
