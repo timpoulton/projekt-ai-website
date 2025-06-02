@@ -1,7 +1,79 @@
 {
-  "generated_at": "2025-06-02T11:10:01.968394",
+  "generated_at": "2025-06-02T11:15:01.869770",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748862696",
+      "job_title": "Onboarding Assistant",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "About Us\nWe are a company that partners with a wide range of merchants, providing support in areas such as technology, CRM systems, website development, and bank agreement setup. Our mission is to make it easier for merchants to build, manage, and grow their online businesses with the right tools and infrastructure in place.\n\nAbout the Role\nWe\u2019re currently seeking an experienced Onboarding Assistant to join our onboarding team. Your primary responsibility will be to facilitate the setup of bank ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:11:36.251531",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Onboarding-Assistant-1748862696251.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862695",
+      "job_title": "APPS SCRIPT - Google Docs Script for Automated Formatting",
+      "client_name": "Client",
+      "budget": "$40.00",
+      "description": "INSTRUCTIONS AND GOALS (40$)\nCreate a Google Doc Script for automating formatting\nTo make it easier I wrote the technical requirements here with clear instructions and images of what should be the result: \nhttps://docs.google.com/document/d/1mOisFjjG6ZZEsoyvsANGjY0EGeH4Seab2KZH_RT4muk/edit?usp=sharing\nPlease have a look at it and let's me know if you have any questions. The task should be delivered today or tomorrow.\n\nAt the end with the script we will be able to:\nAutomatically identify and prev...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:11:35.830714",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-APPS-SCRIPT---Google-Docs-Script-for-Automated-For-1748862695830.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862695",
+      "job_title": "Email Marketing Specialist (DTC Ecommerce) \u2013 Join Our Growing Team!",
+      "client_name": "Client",
+      "budget": "$875.00",
+      "description": "About Us:\nWe\u2019re a fast-growing 8-figure ecommerce business operating multiple online stores across various international markets. Our mission is simple: deliver seamless, satisfying shopping experiences through high-quality products and outstanding service.\nNow, we\u2019re looking for a strategic, creative, and data-driven Email Marketing Specialist to take full ownership of our email and SMS marketing efforts and help accelerate our growth.\n\nThe Role:\nAs our Email and SMS Marketing Specialist, you\u2019l...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "e-commerce",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your e-commerce.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:11:35.419591",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email-Marketing-Specialist-DTC-Ecommerce--Join-Our-1748862695419.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748862389",
       "job_title": "WooCommerce Expert Developer Needed",
@@ -1121,78 +1193,6 @@
       "score": 70,
       "created_at": "2025-06-02T10:25:38.541526",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-Interactive-Quiz--Tablet-Output-for-Event-Bo-1748859938541.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859937",
-      "job_title": "Go high level Strategist",
-      "client_name": "Client",
-      "budget": "$10.00",
-      "description": "We are seeking an experienced Go High Level Strategist to develop and implement marketing strategies that optimize our customer acquisition and engagement. The ideal candidate will have a deep understanding of marketing automation and CRM systems, specifically Go High Level. You will be responsible for creating effective campaigns, analyzing performance metrics, and providing recommendations for continuous improvement. If you have a proven track record in driving results through strategic market...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:25:37.279391",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Go-high-level-Strategist-1748859937279.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859936",
-      "job_title": "E-Commerce Specialist (Full time)",
-      "client_name": "Client",
-      "budget": "$5,000.00",
-      "description": "We are a leading U.S.-based sea moss superfood brand on a mission to redefine natural wellness. Aiming to make wellness simple, accessible, and affordable for everyone, everywhere. As the brand continues to scale its digital footprint, we are seeking a results-driven E-commerce Specialist to manage and optimize the online store. The right candidate will ensure smooth operations, elevate the customer experience, and drive strong performance across key e-commerce metrics.\n\nAbout the Role\nThis is a...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:25:36.029630",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-E-Commerce-Specialist-Full-time-1748859936029.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859934",
-      "job_title": "Affiliate Content Integration for Lawn Care Website",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We seek an affiliate marketing expert to enhance our niche lawn care website. With a growing traffic base, we aim to integrate effective affiliate content that resonates with our audience. The ideal candidate will have a proven track record of creating and implementing successful affiliate strategies. Responsibilities include identifying suitable affiliate programs, developing content that drives conversions, and analyzing performance metrics.\n\nWe are already signed up for one relevant affiliate...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:25:34.772146",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Affiliate-Content-Integration-for-Lawn-Care-Websit-1748859934772.html",
       "original_job_url": "",
       "status": "pending"
     }
