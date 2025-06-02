@@ -49,6 +49,24 @@
             object-fit: contain;
         }
 
+        /* Add text logo styling */
+        a.logo {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            align-items: center;
+            height: auto;
+            transition: opacity 0.3s ease;
+        }
+
+        a.logo:hover {
+            opacity: 0.8;
+        }
+
         .header-nav {
             display: flex;
             gap: 20px;
@@ -502,7 +520,7 @@
     <!-- Header -->
     <header class="header">
         <div class="header-content">
-            <img src="assets/img/logos/projekt-ai-logo-white.svg" alt="Projekt AI" class="logo">
+            <a href="/" class="logo">Projekt AI</a>
             <div class="header-nav">
                 <button class="nav-btn" onclick="refreshProposals()">🔄 Refresh</button>
                 <a href="admin-dashboard.html" class="nav-btn">← Back to Dashboard</a>
@@ -593,13 +611,21 @@
         // Load proposals from the actual queue file
         async function loadProposals() {
             try {
-                // Use the proxied API endpoint to avoid CORS issues
-                const response = await fetch('/api/proposals');
+                // Load from static data file (updated periodically)
+                const response = await fetch('/data/proposals.json');
                 if (!response.ok) {
                     throw new Error('Failed to load proposals');
                 }
                 
-                const queueData = await response.json();
+                const data = await response.json();
+                const queueData = data.proposals || [];
+                
+                // Show last update time
+                if (data.generated_at) {
+                    const updateTime = new Date(data.generated_at);
+                    console.log(`Data last updated: ${updateTime.toLocaleString()}`);
+                }
+                
                 processProposalData(queueData);
                 
             } catch (error) {
@@ -607,10 +633,10 @@
                 // Show error state
                 document.getElementById('proposalsContainer').innerHTML = `
                     <div class="empty-state">
-                        <div class="empty-icon">⚠️</div>
-                        <h3>Error loading proposals</h3>
-                        <p>${error.message}</p>
-                        <button class="action-btn btn-view" onclick="loadProposals()">Try Again</button>
+                        <div class="empty-icon">❌</div>
+                        <h3>Failed to Load Proposals</h3>
+                        <p>Unable to connect to the proposal system. Please try again later.</p>
+                        <button class="action-btn" onclick="loadProposals()">Retry</button>
                     </div>
                 `;
             }
