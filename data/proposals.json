@@ -1,7 +1,246 @@
 {
-  "generated_at": "2025-06-02T13:15:01.383237",
+  "generated_at": "2025-06-02T13:20:01.248805",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748870286",
+      "job_title": "Active Directory integration using secure port and SSL certificate using java code",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "AD integration using secure port and SSL certificate and execute powershell commands using java code\n\nUsing powershell commands we need to create Customer(sub OU, Domain) update, Delete Customers and create, update, delete - users",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:18:06.551253",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Active-Directory-integration-using-secure-port-and-1748870286551.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870285",
+      "job_title": "Lead Generation System Specialist for Electrical Materials Traders & Procurement Professionals",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Description:\nWe are seeking a freelance professional with expertise in lead generation to build an efficient and automated system for gathering high-quality leads. The primary focus will be on generating leads for electrical installation materials traders and procurement decision-makers in the construction industry responsible for procuring electrical materials.\nThe goal is to design a tailored lead generation process that consistently delivers accurate and valid contact details, including email...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:18:05.311765",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Lead-Generation-System-Specialist-for-Electrical-M-1748870285311.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870284",
+      "job_title": "Salesforce Specialist Needed for Data Export & Integration",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "**Overview:**\nWe are a nonprofit organization seeking a **Salesforce specialist** to help us **export critical donor data** for our email marketing and analytics needs. We are currently experiencing difficulties exporting fields related to donation history, recurring donor status, and engagement metrics from Salesforce. The goal is to **streamline data exports** so it can be properly integrated with our email marketing and reporting platforms.\n\n### **Key Responsibilities:**\n\n1. **Data Export Con...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes",
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T13:18:04.746030",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Salesforce-Specialist-Needed-for-Data-Export--Inte-1748870284746.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870284",
+      "job_title": "Shopify Web Developer Needed for Custom Store Design",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an experienced Shopify Web Developer to create a visually appealing and user-friendly online store. The ideal candidate will have a strong understanding of Shopify's platform and themes, and should be able to customize features to enhance the shopping experience. Your role will involve designing the layout, ensuring mobile responsiveness, and integrating payment gateways. If you're passionate about e-commerce and have a knack for creating stunning websites, we want to hear from yo...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:18:04.352918",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Web-Developer-Needed-for-Custom-Store-Desi-1748870284352.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870283",
+      "job_title": "FDA Compliance Specialist (Offshore \u2013 Remote)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for a detail-oriented, tech-savvy FDA Compliance Specialist to help manage and fulfill FDA compliance services for our U.S. and international clients. You will play a key role in delivering our core regulatory offerings \u2014 from registrations to filings \u2014 using FDA portals like FIS and PNSI. If you\u2019re already experienced with FDA submissions, regulatory documentation, or client onboarding in a U.S. compliance context, we want to hear from you.\n\n\ud83d\udee0 Responsibilities:\nYou\u2019ll be trained o...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:18:03.120808",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-FDA-Compliance-Specialist-Offshore--Remote-1748870283120.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870281",
+      "job_title": "Web Platform Development Needed",
+      "client_name": "Client",
+      "budget": "$1,500.00",
+      "description": "We are seeking an experienced Frontend web developer to create a robust web platform. \n\nObjective :\nWe are hiring a skilled frontend web developer to build the \"Quest\" platform, a web-based quest game where users can participate in virtual games to win prizes. The developer will be responsible for designing and implementing the frontend based on a detailed technical specification and Figma prototype, using modern web technologies (preferably **Next.js** with TypeScript).\n\nScope of Work:\nThe deve...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T13:18:01.880864",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-Platform-Development-Needed-1748870281880.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870280",
+      "job_title": "Stocks and Shares AI Bot Trading Automation Engineer",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Looking for a hands-on AI trading engineer who\u2019s fluent in the leading automation stacks\u2014think QuantConnect, MetaTrader, Interactive Brokers, Binance/Alpaca APIs, Tradestation, etc.\u2014and has a proven record of designing, deploying and fine-tuning algorithmic bots across asset classes; if you can pick the right platform for the job and push profitable code to production, get in touch.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T13:18:00.645225",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Stocks-and-Shares-AI-Bot-Trading-Automation-Engine-1748870280645.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870280",
+      "job_title": "Formatter for Fertility Workbook \u2013 Amazon Print, Kindle, Layout & Visualisation Link Integration",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Self-Publishing Support for Fertility Workbook \u2013 Formatting for Amazon Print & Kindle (KDP)\n\n Project Overview:\n\nI\u2019ve written a fertility-focused workbook (by with a strong graphic component, designed to guide users interactively. The manuscript is edited, and I have the cover illustration. I now need a publishing professional to take it across the finish line \u2014 formatting it beautifully for Amazon print (paperback) and Kindle eBook (KDP).\n\n What I Need Help With:\n\t\u2022\tInterior design and layout (...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:18:00.253767",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Formatter-for-Fertility-Workbook--Amazon-Print-Kin-1748870280253.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870279",
+      "job_title": "Klaviyo Flow Expert Needed for Shopify Store",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled Klaviyo Flow Expert to optimize our email marketing strategy for our Shopify store. The ideal candidate will have a deep understanding of creating effective email flows that drive customer engagement and boost sales. You will be responsible for setting up and managing automated flows, segmenting our audience, and analyzing performance metrics. If you have a passion for email marketing and a proven track record of success with Klaviyo, we want to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:17:59.835296",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Klaviyo-Flow-Expert-Needed-for-Shopify-Store-1748870279835.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870279",
+      "job_title": "Zoho Implementation Specialist Needed",
+      "client_name": "Client",
+      "budget": "$100.00",
+      "description": "We are seeking an experienced Zoho Implementation Specialist to assist in setting up and optimizing our Zoho CRM system. The ideal candidate will have a strong background in Zoho applications and can tailor solutions to fit our business needs. Responsibilities include system configuration, data migration, and user training. If you have a passion for improving business processes and a track record of successful implementations, we want to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:17:59.427747",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zoho-Implementation-Specialist-Needed-1748870279427.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748869658",
       "job_title": "\ud83d\ude80 Automation + B2B Lead Expert Needed \u2013 Be the Growth Force Behind Atlas (SaaS for Construction)",
@@ -950,247 +1189,6 @@
       "score": 70,
       "created_at": "2025-06-02T12:32:04.970489",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-ERP-Feature-Development-1748867524970.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748867524",
-      "job_title": "Ecommerce",
-      "client_name": "Client",
-      "budget": "$300.00",
-      "description": "\ud83d\udc4b Hello! Let's Build Something Great in eCommerce\n\nHi there! I'm looking for skilled and motivated talent to join me in developing or enhancing an eCommerce platform. Here's what I'm aiming for:\n\n\ud83d\udcdd What I Expect from You:\nClear understanding of tasks and deliverables\n\nAbility to meet deadlines and communicate effectively\n\nStrong grasp of eCommerce workflows and customer journeys\n\nAttention to detail and creativity in execution\n\n\ud83d\udee0 Skills I'm Looking For:\nExperience with platforms like Shopify, Wo...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "e-commerce",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your e-commerce.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:32:04.568694",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Ecommerce-1748867524568.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748867524",
-      "job_title": "Headless API Developer - Shopify Plus",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Urgently needed today\n\nShopify Plus Developer Headless API & Server Setup\nPlease only apply if you worked on this already with references. \n\nWe need to fetch content from an API and apply this in our store as a headless system",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T12:32:04.167018",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Headless-API-Developer---Shopify-Plus-1748867524167.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748867523",
-      "job_title": "Shopify Designer Needed for Lead Capture Site",
-      "client_name": "Client",
-      "budget": "$150.00",
-      "description": "We are looking for an experienced Shopify designer to create a simple yet effective lead capture site that includes payment integration. The ideal candidate should have a strong understanding of Shopify themes and best practices to optimize user experience. The site must be visually appealing, responsive, and aligned with our brand. If you have a portfolio showcasing your previous Shopify work, please apply with your samples. We are excited to collaborate with someone who can bring our vision to...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:32:03.747685",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Designer-Needed-for-Lead-Capture-Site-1748867523747.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866928",
-      "job_title": "Zoho / Freshworks integration",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Seeking Integration & Optimization Expert for Zoho, Freshworks & QuickBooks Evaluation\n\nWe are currently seeking an expert to help us evaluate, optimize, and potentially consolidate our accounting and CRM systems. Our primary tools are Zoho (Books and CRM), Freshworks, and QuickBooks, and we need a comprehensive review to determine the best path forward for growth and operational efficiency.\n\nWhat We Need Help With:\nEvaluate Integration Between Zoho & Freshworks\nEnsure that key data (invoices, p...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T12:22:08.159117",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zoho--Freshworks-integration-1748866928159.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866926",
-      "job_title": "IT Support and Website Migration Specialist",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a skilled IT professional to assist with maintaining four computers and migrating five websites from Vista to WordPress. The ideal candidate will also set up free software systems such as LibreOffice and Thunderbird, ensuring seamless integration and functionality. Attention to detail and experience with website management are essential. If you have a passion for technology and can provide excellent support, we want to hear from you!",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:22:06.920262",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-IT-Support-and-Website-Migration-Specialist-1748866926920.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866925",
-      "job_title": "Ghostwriter Needed for Sci-Fi Novel (Survival / Psychological Theme)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Seeking an experienced ghostwriter for a 90,000+ word sci-fi novel. Story is outlined using a 7-act structure with some detailed beats, strong worldbuilding, and a clear character arc. This is a psychological survival narrative with light horror elements and a focus on identity, sacrifice, and isolation.\nTone should be emotional, character-driven, and atmospheric.\n\nYou\u2019ll be working from an existing framework but expected to bring strong prose, pacing, and scene-crafting instincts. Collaboration...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:22:05.678048",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Ghostwriter-Needed-for-Sci-Fi-Novel-Survival--Psyc-1748866925678.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866924",
-      "job_title": "WordPress Website Development",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are looking for a skilled WordPress developer to create a professional and user-friendly website. You will be responsible for designing, building, and maintaining the site, ensuring it meets our specifications and is optimized for performance. Experience with theme customization and plugin integration is essential. If you have a creative mindset and a strong portfolio, we would love to see your work and discuss this opportunity further.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:22:04.422634",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-WordPress-Website-Development-1748866924422.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866621",
-      "job_title": "AI Automation media generations",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "**Upwork Job Post Draft \u2014 \u201cEnd-to-End Article-Publishing Automation\u201d**\n\n---\n\n### \ud83d\ude80 Overview\n\nWe\u2019re looking for an automation engineer (or small team) to architect and build a *zero-click* content-publishing pipeline. The system should take an idea row in a Google Sheet and automatically generate, optimize, and publish a complete article\u2014optionally to Substack **or** WordPress\u2014while remaining fully agnostic to voice, audience, tone, length, and topic. Everything (title, section count, word count,...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "N8N",
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, N8N, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T12:17:01.861999",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Automation-media-generations-1748866621862.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866610",
-      "job_title": "Linnworks specialist",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "\ud83d\udd27 Linnworks Integration Specialist (Freelance \u2013 Immediate Start)\nLocation: Remote | Start Date: Today or Tomorrow | Job Type: Freelance / Short-Term Project\n\nWe\u2019re a UK-based eCommerce business seeking a highly experienced Linnworks specialist to help set up and optimise our multichannel integrations.\n\n\ud83d\udce6 Project Overview:\nYou\u2019ll be responsible for integrating and configuring our sales channels on Linnworks, ensuring seamless syncing of inventory, listings, and order processing. This role require...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "e-commerce",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your e-commerce.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:16:50.246407",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Linnworks-specialist-1748866610246.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866609",
-      "job_title": "MS Power Automate",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Hi, \n\nI need help with automating my report updating process. I need to create a flow that takes the user inputs, update the word documents, and generate a new report.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:16:49.840796",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-MS-Power-Automate-1748866609840.html",
       "original_job_url": "",
       "status": "pending"
     }
