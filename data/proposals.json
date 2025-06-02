@@ -1,7 +1,128 @@
 {
-  "generated_at": "2025-06-02T13:40:01.985492",
+  "generated_at": "2025-06-02T13:45:01.840276",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748871801",
+      "job_title": "Creat Google Contacts via n8n to Notion 2-way sync",
+      "client_name": "Client",
+      "budget": "$150.00",
+      "description": "Hello!\nI bought this template https://n8n.io/workflows/2814-2-way-sync-google-contacts-and-notion/ The template is complex and I need you to fully set it up and modify it to my workflow.\nI have 94 fields in my Google Contacts and they all need to sync error free to my Notion database. As there are many nodes there will be a lot of fields\u2019 mapping (i.e. manual work).\nYou need to have a solid understanding of n8n, Google People API, and Notion. And have a powerful workstation/laptop and good inter...",
+      "analysis": {
+        "tools": [
+          "N8N",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using N8N, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T13:43:21.897883",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Creat-Google-Contacts-via-n8n-to-Notion-2-way-sync-1748871801897.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748871800",
+      "job_title": "Data Extraction for Athlete Status",
+      "client_name": "Client",
+      "budget": "$40.00",
+      "description": "We are looking for a detail-oriented freelancer to extract data from Google regarding the personal status of a list of athletes (exact personal details of status to be provided in contract). The ideal candidate will compile the findings into a well-organized spreadsheet (provided).\n\nThere are approximately 7000 names that need to be googled and status to be checked. \n\nAccuracy and attention to detail are crucial for this task - we will be checking the validity of findings.\n\nWe are fine if you us...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T13:43:20.643674",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Data-Extraction-for-Athlete-Status-1748871800643.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748871799",
+      "job_title": "QBO & Salesforce Integration Troubleshooting Expert",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled professional to troubleshoot and resolve issues with our QuickBooks Online (QBO) and Salesforce integration. The ideal candidate will not only fix current problems but also provide insights and recommendations for future improvements. Strong analytical skills and a deep understanding of both platforms are essential. If you have a proven track record in resolving integration issues and optimizing workflows, we want to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:43:19.394079",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-QBO--Salesforce-Integration-Troubleshooting-Expert-1748871799394.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748871798",
+      "job_title": "YouTube video creation and management",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Seeking a talented personnel and/or team to create and manage YouTube channel(s).",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:43:18.163178",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-YouTube-video-creation-and-management-1748871798163.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748871796",
+      "job_title": "Custom Crypto Trading Bot Integration",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for a skilled Python developer to help build and maintain a custom module for a crypto trading platform. This integration will allow automated trading strategies to interface with a spot exchange via secure REST and WebSocket APIs. The initial focus is on developing a core module for order execution and account management, with plans to expand into more advanced features over time.\n\nInitial Responsibilities:\n- Develop a plugin that supports:\n\tMarket and limit order creation\n\tOrder ...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T13:43:16.930748",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Custom-Crypto-Trading-Bot-Integration-1748871796930.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748871492",
       "job_title": "ERPNext Developer",
@@ -1074,125 +1195,6 @@
       "score": 80,
       "created_at": "2025-06-02T13:02:37.786974",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Multiplatform-simple-web---NextJS--V0-1748869357787.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869357",
-      "job_title": "DevOps Engineer with Golang experience",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "About the Role\n\nWe\u2019re looking for a highly skilled DevOps Engineer to join our engineering team and help us scale and automate our infrastructure. You\u2019ll play a key role in managing CI/CD pipelines, provisioning infrastructure as code, and building robust, maintainable tooling in Golang. If you\u2019re passionate about automation, infrastructure, and continuous delivery, we want to hear from you.\nResponsibilities\n\n   Design, implement, and maintain infrastructure using Terraform\n\n   Automate system c...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:02:37.384565",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-DevOps-Engineer-with-Golang-experience-1748869357384.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869059",
-      "job_title": "Integrate AI-Powered Chatbot into\na Static Website",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an intermediate-level web developer to integrate a simple AI-powered\nchatbot into our existing static website. The chatbot should answer basic questions about\nour products or services using a pre-trained language model, such as OpenAI's GPT-3.5 or a\nsimilar API. The integration should feature a user-friendly chat window on the website,\nenabling seamless user interaction. This project aligns with the trending use case of\nleveraging AI agents for customer support and engagement.\nReq...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T12:57:39.445526",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Integrate-AI-Powered-Chatbot-intoa-Static-Website-1748869059445.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869059",
-      "job_title": "Saas platform to launch your online business",
-      "client_name": "Client",
-      "budget": "$2,000.00",
-      "description": "We're developing an all-in-one SaaS platform that makes it easy for anyone to create an online business (e-commerce site or sales tunnel) without any technical skills. The aim is to make creating and managing a business as simple and intuitive as using Notion or Canva, while integrating powerful tools suitable for beginners and experienced entrepreneurs alike.\n\nI called in an agency to develop a first prototype. After several years' work and several thousand euros invested, the result is unfortu...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "SaaS",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:57:39.049865",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Saas-platform-to-launch-your-online-business-1748869059049.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869057",
-      "job_title": "Cold Email Outreach Manager (Instantly Expert) Needed for Growing Exterior Cleaning Company",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Hi! I'm Jon, the owner of Edgewater Pro-Wash \u2014 a fast-growing exterior cleaning company with 400+ 5-star reviews. We serve Ashtabula and Lake counties in Ohio, offering pressure washing, window cleaning, roof washing, and more. Our mission is simple: Life is better clean \u2014 and we want to keep growing while staying true to our no-pushy-sales vibe.\n\nWe're looking for an experienced Cold Email Specialist who knows their way around Instantly and can help us run efficient, strategic, and high-convert...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:57:37.806496",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Cold-Email-Outreach-Manager-Instantly-Expert-Neede-1748869057806.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748869057",
-      "job_title": "iOS, Android and IoT development",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I am looking someone or an agency who is experienced in building Android OS based TV application. This application will have to connect with mobile apps for seamless integration. Think about Mobile app acting as a remote for TV application. \n\nThis will be a fixed price contract and we can negotiate final price based on the scope and deliverables. \n\nAs you send your proposal please share any recent IoT based examples and Android TV based application building examples.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:57:37.381251",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-iOS-Android-and-IoT-development-1748869057381.html",
       "original_job_url": "",
       "status": "pending"
     }
