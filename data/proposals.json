@@ -1,7 +1,242 @@
 {
-  "generated_at": "2025-06-02T14:05:01.930444",
+  "generated_at": "2025-06-02T14:10:01.079399",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748873350",
+      "job_title": "Developer with API Experience",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Working on an automation project that will involve creating automations into several critical ads API's, such as Google, Microsoft, Meta and more.\n\nThis will include a variety of tasks, including taking raw data from a Google Sheet and Drive and pushing through to platforms, but could also include other items as well.\n\nThe big \"push\" for the project will be the entire month of April but this is almost certainly going to be a 6 month project.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\n\"Manual processes\" are the bane of my existence, so I totally get where you're coming from. I spent a few years wrestling with similar Google Sheets/data transfer issues at a small marketing agency. Ended up creating a small Python script that saved them about 20 hours a week \u2013 crazy how much time those tedious tasks can eat up!\n\nFor your API integration project, I'd start by mapping out the entire data flow from Google Sheets/Drive to each platform, then prioritize the platforms that will give you the biggest initial win. From there, we can build out the automations step-by-step, with plenty of testing along the way.\n\nI'd be happy to chat more about your project in detail and see if I can help. Let me know if you're free for a quick call sometime this week.",
+      "score": 80,
+      "created_at": "2025-06-02T14:09:10.701799",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Developer-with-API-Experience-1748873350701.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873347",
+      "job_title": "GoHighLevel + Make.com Integration Specialist Needed",
+      "client_name": "Client",
+      "budget": "$120.00",
+      "description": "We need a freelancer with experience in GoHighLevel and Make com to set up our complete landingpage system using the provided ZIP file.\n\nThis includes both:\n1. Full technical setup\n2. SEO optimized design of the landingpage\n\nPACKAGE CONTENT:\n- Backend security modules\n- GDPR functions\n- Cloudflare rate limiting worker\n- Frontend fallback file\n- Make com modules and JSON files\n- PDF documentation\n- Step-by-step instructions in FREELANCER_README md\n\nYOUR TASKS:\n- Set up everything inside GoHighLev...",
+      "analysis": {
+        "tools": [
+          "Make.Com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nThat landing page system setup sounds like a great project! I noticed you're aiming for a complete solution with backend security and SEO optimization, which is smart. I was once tasked with a similar integration and spent hours troubleshooting a GDPR compliance issue because the initial setup missed a small but crucial data handling detail. Lesson learned!\n\nFor your project, I'd focus on first, securely importing all the provided modules into GoHighLevel. Then, I'd meticulously configure the Make.com integrations, ensuring data flows smoothly and the backend security is solid. Finally, I'd SEO-optimize the landing page design, incorporating your provided assets.\n\nIf you'd like to chat more about the details and how I'd approach each step, I'm available to connect!",
+      "score": 80,
+      "created_at": "2025-06-02T14:09:07.995265",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-GoHighLevel--Makecom-Integration-Specialist-Needed-1748873347995.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873344",
+      "job_title": "Experienced Flutter Developer Needed to Enhance Funky Live App with Mini-Games",
+      "client_name": "Client",
+      "budget": "$100.00",
+      "description": "We're looking for a talented Flutter developer to work on our existing mobile application, Funky Live. We need a developer who can modify existing features, enhance the UI/UX, and integrate new interactive components such as mini-games and animated gift-sharing features (similar to SVGA animations in Fancy Live).\n\nResponsibilities:\n\nModify and enhance existing features of the Funky Live app\n\nIntegrate mini-games into the app to boost user engagement\n\nImplement fancy gift-sharing animations (SVGA...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "\"Integrating mini-games and SVGA animations, especially into an existing app, can definitely be tricky,\" I read that and immediately thought about a project I did last year where we had to shoehorn some Unity-based AR features into an otherwise native iOS app. The integration itself was surprisingly smooth, but the *communication* between the new and old codebases? A nightmare!\n\nHere's how I'd tackle this for Funky Live: first, I'd do a deep dive into your current code structure to understand the best way to \"plug in\" these new features without causing performance issues. Then, we can prototype one mini-game and the animation integration to make sure they feel seamless within the Funky Live experience. Finally, we\u2019d iterate based on your feedback.\n\nWould love to chat more about the specifics of your codebase and the kind of mini-games you're envisioning. Let me know if you're free for a quick call!",
+      "score": 70,
+      "created_at": "2025-06-02T14:09:04.913083",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-Flutter-Developer-Needed-to-Enhance-Fu-1748873344913.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873342",
+      "job_title": "Web Development for AI Real Estate Site",
+      "client_name": "Client",
+      "budget": "$1,000.00",
+      "description": "We are looking for a skilled web developer to create a clean, 4-page website tailored for AI agents . The site must support embeds such as Relevance and vapi, ensuring seamless integration with our tools. It should be mobile-friendly and designed for easy updates, allowing us to manage content without technical assistance. If you have experience in developing user-friendly websites that meet these criteria, we would love to hear from you!",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "real estate",
+        "score": 80
+      },
+      "message": "Okay, here's my attempt at an Upwork proposal, channeling my inner Timothy Poulton:\n\n\"Hey there,\n\nReading your description, the bit about wanting a site you can easily update yourselves really resonated. I get it \u2013 being stuck relying on a developer for every little tweak can be a real pain. I once spent three days trying to explain the difference between serif and sans-serif fonts to a client who just wanted his logo a *little* bigger. Never again, for either of us!\n\nFor your AI agent site, I'd suggest starting with a simple content management system (CMS) setup, focusing on intuitive design. Then, we'll ensure seamless integration of Relevance and vapi. Finally, I\u2019ll create training videos showing you the ropes for easy content edits.\n\nInterested in chatting through your specific needs a bit more? I'm happy to jump on a quick call whenever you have a moment.\"",
+      "score": 80,
+      "created_at": "2025-06-02T14:09:02.617875",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-Development-for-AI-Real-Estate-Site-1748873342617.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873340",
+      "job_title": "Shopify Store Setup Needed with Custom Theme Integration",
+      "client_name": "Client",
+      "budget": "$100.00",
+      "description": "We are looking for an experienced Shopify developer to build a comprehensive store using a purchased theme. The project includes creating all necessary product pages and legal documentation, as well as setting up the payment processor for seamless transactions. The ideal candidate should have a strong background in eCommerce and be able to deliver a polished, user-friendly store that aligns with the theme's design. Please provide examples of previous Shopify projects you've completed to showcase...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "e-commerce",
+        "score": 70
+      },
+      "message": "\"Saw you're looking for someone to build a comprehensive Shopify store from a purchased theme, and that includes handling all the product pages and legal stuff. That's often where things bog down, right?\n\nI remember setting up a similar store for a client selling handmade jewelry a few years back. We got so caught up in the product photography, we almost forgot the legal pages, and *that* nearly held up the launch.\n\nFor your project, I'd start by getting the core theme integrated and looking sharp. Then, we can tackle the product pages in batches to ensure consistency. Finally, I'd dedicate time to crafting those essential legal docs and properly integrating the payment gateway.\n\nI'd be happy to chat more about your specific needs and how my experience can help bring your vision to life. Let me know if you're free for a quick call sometime this week.\"",
+      "score": 70,
+      "created_at": "2025-06-02T14:09:00.383558",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Store-Setup-Needed-with-Custom-Theme-Integ-1748873340383.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873337",
+      "job_title": "Xano + Webflow Integration Expert - for Top 1% \ud83d\udc8e Upwork Partner",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "With over $2,100,000 spent on Upwork over 12 years and a 4.8-star rating, FCF is a 28-year young strategic flight information products company.\n\nProject Overview:\n\nWe're relatively new to Webflow and have been trying to integrate our content from Airtable. We thought Whalesync would be the perfect solution, but it turned out that our data structure, with many junction tables, was too complex. The result? Data that wouldn't sync properly and UI components that displayed incorrectly. We need a bet...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey FCF team,\n\n\"Data that wouldn't sync properly and UI components that displayed incorrectly\" \u2013 I felt that! Been there, wrestled with that. I once spent a week trying to wrangle data with Zapier, only to realize a custom API connection was the only way to truly tame it.\n\nSeeing as Whalesync wasn\u2019t a perfect fit for your complex data, I'd suggest we first dive deep into your Xano setup and Webflow structure. Then, we could explore building custom Xano API endpoints specifically for your Webflow components. Finally, thorough testing to ensure a seamless experience.\n\nWould be happy to chat through the specifics and see if my experience could be helpful here.",
+      "score": 70,
+      "created_at": "2025-06-02T14:08:57.469445",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Xano--Webflow-Integration-Expert---for-Top-1--Upwo-1748873337469.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873334",
+      "job_title": "Cold Outreach Campaign Setup & Management - Email Marketing Expert",
+      "client_name": "Client",
+      "budget": "$20.00",
+      "description": "We are looking for an experienced Cold Email Outreach Specialist to help us identify, contact, and qualify leads through personalized email campaigns. You will be responsible for managing outreach tools, crafting engaging email sequences, and optimizing for conversions.\n\nResponsibilities:\nResearch and build targeted lead lists based on our ideal customer profile (ICP)\n\nWrite and personalize cold email sequences (including follow-ups)\n\nUse tools like Instantly.ai, Mailshake, Lemlist, or similar f...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "\"Saw you're looking for someone to wrangle those cold email campaigns and ditch the manual grind. I get it \u2013 I remember spending a week building a single lead list by hand once, never again!\n\nMy approach would be to first really nail down that ICP with you \u2013 a solid profile means better targeting and less wasted effort. Then, craft a sequence that feels genuinely personal, not just another generic email blast. Finally, A/B test everything to see what resonates and keep tweaking for better results.\n\nHappy to chat more about your specific needs and how I can help free you from those spreadsheets. Are you available for a quick call this week?\"",
+      "score": 80,
+      "created_at": "2025-06-02T14:08:54.744225",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Cold-Outreach-Campaign-Setup--Management---Email-M-1748873334744.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873333",
+      "job_title": "Infrastructure for Web Scraping and LLM",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I need someone to set up the following, end to end. Note, GPT generated this as I am not an architect. We can discuss tools etc. \n\nAlright, let\u2019s break it down into steps and tools:\n\nStep 1: Setting Up the Web Scraper Agent\n\t\u2022\tTool: Use a web scraping framework like Scrapy or a no-code solution like Octoparse if you prefer a visual interface.\n\t\u2022\tTask: Configure the scraper to crawl predefined domains that list toddler-friendly activities. Extract the relevant URLs and metadata (e.g., event name,...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nI read your description about needing an end-to-end setup for web scraping and LLM integration, and the \"manual processes\" pain point definitely resonates. I remember automating a similar data extraction pipeline for a local historical society a few years back \u2013 what started as a simple scraping job quickly turned into a tangled web of configurations and data cleaning. Learned a lot!\n\nFor your project, I'm thinking we could start with a focused pilot: 1) nail down your target websites and preferred scraping tool (Scrapy or Octoparse \u2013 happy to discuss pros and cons), 2) then build a modular data pipeline to prep the extracted info for your LLM, and 3) finally, integrate everything with clear monitoring so you can tweak it as needed.\n\nWould love to chat more about the specific challenges you're anticipating. Let me know if you're free for a quick call sometime this week.",
+      "score": 80,
+      "created_at": "2025-06-02T14:08:53.046962",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Infrastructure-for-Web-Scraping-and-LLM-1748873333046.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873330",
+      "job_title": "Digital Display of Buffet Information",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for an experienced developer or agency to implement a digital solution for displaying food information at our buffets.\n\nInitial Situation\nWe currently label our buffets with paper signs. Information about food, allergens, etc. comes from the catering management software Sanalogic or is manually maintained in Word or Excel.\n\nProject Goal\nWe want to switch to digital screens that display the information automatically and in a visually appealing way. The content should be imported di...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "Hi there,\n\n\"Switching to digital screens that display the information automatically...\" That really resonated with me! I've seen firsthand how much time restaurants waste on manual updates. A while back, I helped a local cafe automate their daily specials board using a simple script and a Raspberry Pi; it was a game changer for them.\n\nFor your buffet, I'd suggest a phased approach: first, focus on connecting Sanalogic's data to a basic screen display. Then, we can explore incorporating data from your Word/Excel files into a more visually appealing interface. Finally, we can refine the display based on customer feedback.\n\nWould love to chat more about how to make this transition smooth and effective. Feel free to message me if you're free for a quick call.",
+      "score": 90,
+      "created_at": "2025-06-02T14:08:50.087825",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Digital-Display-of-Buffet-Information-1748873330087.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748873327",
+      "job_title": "Shopify Store Setup for Cold Pressed Juices",
+      "client_name": "Client",
+      "budget": "$800.00",
+      "description": "Total Timeline: 10 Days\nReference Design: https://eatayoh.com\n\nUnruly Smoothie is launching a premium Shopify store rooted in Caribbean wellness, faith, and vibrant culture. The website must be fast, mobile-optimized, beautiful, and high-converting \u2014 with all core ecommerce and legal elements included.\n\n\u2705 Milestone 1: Brand Setup & Theme Integration\nWhat You Need to Do:\n\nInstall and configure a premium Shopify theme modeled after eatayoh.com\n\nUpload Unruly Smoothie\u2019s brand identity:\n\nLogo, color...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "e-commerce",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Integration challenges\" - I hear you loud and clear! I once spent three days wrestling with a custom font that just refused to render correctly on mobile for a client selling organic teas. Drove me nuts!\n\nFor Unruly Smoothie, I'd start by carefully selecting a Shopify theme that not only mirrors eatayoh.com's aesthetic but also prioritizes speed and mobile responsiveness. Then, I'd meticulously integrate your vibrant brand identity \u2013 logo, colors, the whole shebang \u2013 ensuring it pops and resonates with your audience. Finally, I'd focus on setting up all the core e-commerce and legal bits, dotting every 'i' and crossing every 't' so you're good to go.\n\nWould love to chat more about your vision for Unruly Smoothie and how we can bring it to life.",
+      "score": 70,
+      "created_at": "2025-06-02T14:08:47.412978",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Store-Setup-for-Cold-Pressed-Juices-1748873327413.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748873039",
       "job_title": "Vibe coding to build web interfaces",
@@ -1167,245 +1402,6 @@
       "score": 80,
       "created_at": "2025-06-02T13:27:59.173412",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-RAG-LLM-Chatbot-Integration-to-an-Existing-Portfol-1748870879173.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870877",
-      "job_title": "Klaviyo E-Mail Flow Setup f\u00fcr Shopify Store (Deutschsprachig)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Hallo!\n\nIch betreibe den Schweizer E-Bike-Store oleyvo.ch und suche einen erfahrenen E-Mail-Marketing-Spezialisten (m/w/d) mit tiefem Know-how in Klaviyo & Shopify, der mein gesamtes E-Mail-Marketing-Setup auf ein neues Level bringt.\n\nDer Klaviyo-Account ist bereits erstellt und mit Shopify verkn\u00fcpft - aber bisher wurde nichts eingerichtet. Jetzt soll die komplette Customer Journey professionell und automatisiert aufgesetzt werden.\n\n\ud83e\udde9 Deine Aufgaben:\n\u2705 Einrichtung folgender Klaviyo-Flows:\n\nPost-...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:27:57.926262",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Klaviyo-E-Mail-Flow-Setup-f\u00fcr-Shopify-Store-Deutsc-1748870877926.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870876",
-      "job_title": "QA/UAT Tester \u2013 Crypto Automation Tools",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "About Us\nWe\u2019re a fast-growing company at the intersection of crypto trading and automation. Our tools help users\u2014from beginners to pro traders\u2014access high-efficiency trading strategies through intuitive bot interfaces, including messaging platform integrations and automation features.\n\nRole Overview\nWe\u2019re looking for a QA/UAT Tester who\u2019s highly detail-oriented, communicates clearly in written English, and thrives in a learning-focused, fast-paced environment. You\u2019ll test user-facing features, r...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:27:56.663538",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-QAUAT-Tester--Crypto-Automation-Tools-1748870876663.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870580",
-      "job_title": "Gigamon and Vectra deployments",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are looking for a freelance consultant with deep expertise in deploying Gigamon and Vectra solutions to support a client initiative focused on enhancing Network Detection and Response (NDR) capabilities. This role involves hands-on deployment, configuration, integration, and documentation of both platforms in a production environment.\n\nKey Responsibilities\n\t\u2022\tDesign and implement Gigamon visibility fabric, including TAP/SPAN integration, traffic filtering, and metadata extraction.\n\t\u2022\tDeploy a...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:23:00.557373",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Gigamon-and-Vectra-deployments-1748870580557.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870579",
-      "job_title": "Product Packaging design needed (in German) for a Kitchen Grater in 3 colours",
-      "client_name": "Client",
-      "budget": "$25.00",
-      "description": "I'm looking for an experienced graphic designer to create attractive product packaging for three manual vegetable graters (colors: white, green, and orange).\nAll necessary content (texts, mandatory information, care instructions, symbols, etc.) is already prepared and will be provided as an attachment.\n\nGoal:\nA modern, retail-ready packaging design that is both visually appealing and functional for store shelves.\n\nWhat\u2019s needed:\n\nPackaging design for three color variants (same layout, just diffe...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:22:59.307318",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Product-Packaging-design-needed-in-German-for-a-Ki-1748870579307.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870578",
-      "job_title": "WordPress Developer for Forminator and OpenAI API Integration (Quick 1-2 hour job)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Job Description\nThis is a nearly-complete job. I only need an experienced WordPress developer to debug and finalize an OpenAI-powered form that analyzes cosmetic ingredients.\n\nBackground\nWe are building a web-based MVP using:\n\nWordPress + Forminator (form builder plugin)\nCode Snippets (for custom PHP logic)\nOpenAI API (for ingredient analysis)\nShortcodes for output display\n\nWe've already completed 90% of the implementation:\n\u2705 Forminator form is fully built and live\n\u2705 OpenAI API call logic is com...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:22:58.908536",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-WordPress-Developer-for-Forminator-and-OpenAI-API--1748870578908.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870577",
-      "job_title": "SAP SuccessFactors Integration Consultant Needed for Absences and Attendances",
-      "client_name": "Client",
-      "budget": "$60.00",
-      "description": "We are seeking an experienced consultant to provide guidance on integrating SAP SuccessFactors Employee Central (EC), Employee Central Payroll (ECP), and SAP ERP Central Component (ECC). The focus will be on managing absences and attendance data effectively. Ideal candidates will possess strong knowledge and experience in SAP SF modules, integration best practices, and troubleshooting techniques. Your expertise will help streamline processes and ensure data integrity across platforms. This is a ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:22:57.653441",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-SAP-SuccessFactors-Integration-Consultant-Needed-f-1748870577653.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870576",
-      "job_title": "Company",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Hy Riya!\nI'm looking for a partner to start a company. And with your skills and my business experience i think it'll be a great fit. \nIf you're interested can you kindly give me something to contact you maybe an email ID or an Instagram ID. I know it looks like a fake but I can assure you I'm very serious. \n\nIf you're not interested I'll understand and find someone else.\n\nThank you",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:22:56.415770",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Company-1748870576415.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870576",
-      "job_title": "Data",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I will share data files focused on Public Water Systems (PWS) and National Pollutant Discharge Elimination System (NPDES) facilities. The goal is to analyze only surface water systems, including public drinking water plants (PWSID) and public wastewater treatment plants (NPDES), to identify possible PFAS contamination risks.\n\nHere's what I need from the data:\n\u2022 Align HUC, PWSID, NPDES, and PFAS/UCMR5 fields.\n\u2022 Standardize the formats across all files.\n\u2022 Find HUCs that contain both PWSID and NPDE...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:22:56.011171",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Data-1748870576011.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870286",
-      "job_title": "Active Directory integration using secure port and SSL certificate using java code",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "AD integration using secure port and SSL certificate and execute powershell commands using java code\n\nUsing powershell commands we need to create Customer(sub OU, Domain) update, Delete Customers and create, update, delete - users",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:18:06.551253",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Active-Directory-integration-using-secure-port-and-1748870286551.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748870285",
-      "job_title": "Lead Generation System Specialist for Electrical Materials Traders & Procurement Professionals",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Description:\nWe are seeking a freelance professional with expertise in lead generation to build an efficient and automated system for gathering high-quality leads. The primary focus will be on generating leads for electrical installation materials traders and procurement decision-makers in the construction industry responsible for procuring electrical materials.\nThe goal is to design a tailored lead generation process that consistently delivers accurate and valid contact details, including email...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:18:05.311765",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Lead-Generation-System-Specialist-for-Electrical-M-1748870285311.html",
       "original_job_url": "",
       "status": "pending"
     }
