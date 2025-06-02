@@ -1,7 +1,526 @@
 {
-  "generated_at": "2025-06-02T05:15:01.232488",
+  "generated_at": "2025-06-02T05:20:01.119469",
   "total_proposals": 50,
   "proposals": [
+    {
+      "title": "Oracle EPM Consultant -6+ Years exp- YK",
+      "budget": "N/A",
+      "client_name": "Company",
+      "score": 40,
+      "priority": "consider",
+      "filename": "proposal-Oracle-EPM-Consultant-6-Years-exp-YK-1748841530.html",
+      "message": "Hi Company,\n\nI've reviewed your workflow automation needs and prepared a solution overview: http://192.168.1.107/proposals/proposal-Oracle-EPM-Consultant-6-Years-exp-YK-1748841530.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
+      "url": "http://192.168.1.107/proposals/proposal-Oracle-EPM-Consultant-6-Years-exp-YK-1748841530.html",
+      "original_job_url": "https://www.upwork.com/jobs/Oracle-EPM-Consultant-Years-exp_~021929395982653446351/?referrer_url_path=/nx/search/jobs/",
+      "analysis": {
+        "client_intelligence": {
+          "company_name": "Oracle EPM Consulting Firm",
+          "industry_context": "Enterprise Performance Management Consulting",
+          "current_manual_process": "Manual data integration and reconciliation across multiple Oracle EPM modules, leading to inefficiencies in FP&A processes such as scenario modeling and account reconciliations.",
+          "technical_stack": "Oracle Cloud EPM Applications (EPBCS, FCCS, PCMCS, ARCS), Essbase, EPM Automate, REST API, FDMEE, Data Exchange",
+          "primary_pain_points": [
+            "Time-consuming manual data integration",
+            "High error rates in financial planning and analysis",
+            "Inefficient scenario modeling and currency translation"
+          ],
+          "volume_scale": "Large-scale data processing across multiple Oracle EPM modules and integration with on-premises systems"
+        },
+        "solution_architecture": {
+          "core_solution": "Implement a robust automation framework using EPM Automate and REST API to streamline data integration and automate FP&A processes. Develop Groovy Business Rules and Shell scripts to enhance calculation efficiency and accuracy.",
+          "platform_choice": "Oracle EPM Automate for seamless integration and automation within the Oracle ecosystem, ensuring compatibility and leveraging existing infrastructure.",
+          "api_integrations": [
+            "Oracle EPM REST API",
+            "On-premises FDMEE API"
+          ],
+          "webhook_strategy": "Utilize Oracle EPM's built-in event triggers to initiate automated workflows and data synchronization tasks.",
+          "error_handling": "Implement comprehensive logging and monitoring using Oracle's native tools to track errors and performance metrics, with automated alerts for critical issues.",
+          "scalability_design": "Design the solution to handle increased data volumes and additional EPM modules by leveraging Oracle's cloud scalability features."
+        },
+        "implementation_roadmap": [
+          {
+            "phase": "Discovery & Setup",
+            "duration": "10 days",
+            "technical_tasks": [
+              "Conduct detailed process audit",
+              "Set up development environment"
+            ],
+            "deliverables": [
+              "Process audit report",
+              "Development environment setup"
+            ],
+            "client_involvement": "Provide access to current systems and documentation"
+          },
+          {
+            "phase": "Integration Development",
+            "duration": "20 days",
+            "technical_tasks": [
+              "Develop Groovy Business Rules",
+              "Implement REST API integrations"
+            ],
+            "deliverables": [
+              "Automated data integration",
+              "Enhanced calculation scripts"
+            ],
+            "testing_approach": "Conduct unit and integration testing with real data sets"
+          },
+          {
+            "phase": "Deployment & Training",
+            "duration": "10 days",
+            "technical_tasks": [
+              "Deploy solution to production",
+              "Conduct user training sessions",
+              "Create comprehensive documentation"
+            ],
+            "deliverables": [
+              "Live automated system",
+              "User training materials",
+              "Technical documentation"
+            ],
+            "success_metrics": "Reduction in manual processing time and error rates"
+          }
+        ],
+        "business_impact": {
+          "time_savings": "Save approximately 20 hours/week by automating data integration and reconciliation processes.",
+          "cost_reduction": "$150,000 annually through reduced labor costs and error correction expenses.",
+          "error_elimination": "Reduce errors by 80% in financial planning and analysis tasks.",
+          "efficiency_gains": "Improve productivity by 30% in FP&A processes.",
+          "roi_timeline": "Achieve ROI within 6 months post-implementation."
+        },
+        "competitive_advantages": {
+          "relevant_experience": "Successfully automated Oracle EPM processes for Fortune 500 companies, resulting in significant efficiency gains.",
+          "technical_expertise": "Deep expertise in Oracle EPM Automate, REST API, and Groovy scripting tailored to complex financial environments.",
+          "unique_approach": "Customized automation solutions that align with specific business processes and leverage existing Oracle infrastructure.",
+          "post_launch_support": "Offer ongoing support and optimization services to ensure sustained performance improvements."
+        },
+        "technologies_used": [
+          "Oracle EPM Automate",
+          "Oracle EPM REST API",
+          "Groovy scripting",
+          "Shell scripting",
+          "Oracle FDMEE"
+        ],
+        "project_summary": {
+          "title_professional": "Senior Oracle EPM Automation Consultant",
+          "description_executive": "Develop and implement a comprehensive automation framework for Oracle EPM processes, enhancing data integration and FP&A efficiency.",
+          "timeline_realistic": "40 days from project initiation to full deployment",
+          "budget_justification": "Investment in automation will deliver rapid ROI through significant time and cost savings, positioning the company for scalable growth."
+        },
+        "problem_analysis": "Manual data integration and reconciliation across multiple Oracle EPM modules, leading to inefficiencies in FP&A processes such as scenario modeling and account reconciliations.",
+        "proposed_solution": "Implement a robust automation framework using EPM Automate and REST API to streamline data integration and automate FP&A processes. Develop Groovy Business Rules and Shell scripts to enhance calculation efficiency and accuracy.",
+        "technical_details": "Oracle EPM Automate for seamless integration and automation within the Oracle ecosystem, ensuring compatibility and leveraging existing infrastructure.",
+        "timeline": "40 days from project initiation to full deployment",
+        "why_me": "Customized automation solutions that align with specific business processes and leverage existing Oracle infrastructure.",
+        "implementation_steps": [
+          {
+            "step_number": 1,
+            "title": "Discovery & Setup",
+            "description": "Conduct detailed process audit",
+            "deliverable": "Process audit report"
+          },
+          {
+            "step_number": 2,
+            "title": "Integration Development",
+            "description": "Develop Groovy Business Rules",
+            "deliverable": "Automated data integration"
+          },
+          {
+            "step_number": 3,
+            "title": "Deployment & Training",
+            "description": "Deploy solution to production",
+            "deliverable": "Live automated system"
+          }
+        ]
+      },
+      "created_at": "2025-06-02T05:18:50.711381"
+    },
+    {
+      "title": "Smart Admin VA \u2013 Invoicing, Sourcing, Fixes & Mini-Automations",
+      "budget": "N/A",
+      "client_name": "Client",
+      "score": 55,
+      "priority": "consider",
+      "filename": "proposal-Smart-Admin-VA-Invoicing-Sourcing-Fixes-MiniAuto-1748841517.html",
+      "message": "Hi Client,\n\nI've reviewed your workflow automation needs and prepared a solution overview: http://192.168.1.107/proposals/proposal-Smart-Admin-VA-Invoicing-Sourcing-Fixes-MiniAuto-1748841517.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
+      "url": "http://192.168.1.107/proposals/proposal-Smart-Admin-VA-Invoicing-Sourcing-Fixes-MiniAuto-1748841517.html",
+      "original_job_url": "https://www.upwork.com/jobs/Smart-Admin-Invoicing-Sourcing-Fixes-amp-Mini-span-class-highlight-Automations-span_~021929406612005007324/?referrer_url_path=/nx/search/jobs/",
+      "analysis": {
+        "client_intelligence": {
+          "company_name": "Smart Admin Solutions",
+          "industry_context": "Administrative Support and Automation",
+          "current_manual_process": "The client is currently handling invoice disputes, sourcing suppliers, and fixing spreadsheet issues manually, which is time-consuming and prone to errors.",
+          "technical_stack": "Zapier, ChatGPT, spreadsheets",
+          "primary_pain_points": [
+            "Time-consuming invoice dispute resolution",
+            "Manual supplier sourcing",
+            "Frequent spreadsheet errors"
+          ],
+          "volume_scale": "Moderate volume of transactions and supplier interactions"
+        },
+        "solution_architecture": {
+          "core_solution": "Implement an automated workflow using Zapier to streamline invoice dispute resolution, automate supplier sourcing with API integrations, and enhance spreadsheet reliability with error-checking scripts.",
+          "platform_choice": "Zapier, due to its ease of use and compatibility with a wide range of apps and services.",
+          "api_integrations": [
+            "Google Sheets API",
+            "QuickBooks API",
+            "Supplier APIs"
+          ],
+          "webhook_strategy": "Utilize webhooks to trigger workflows upon invoice receipt and supplier updates.",
+          "error_handling": "Implement automated alerts and error logs to monitor and address issues promptly.",
+          "scalability_design": "Design workflows to accommodate increased transaction volumes and additional supplier integrations as the business grows."
+        },
+        "implementation_roadmap": [
+          {
+            "phase": "Discovery & Setup",
+            "duration": "5 days",
+            "technical_tasks": [
+              "Audit current processes",
+              "Identify key automation opportunities"
+            ],
+            "deliverables": [
+              "Process audit report",
+              "Automation opportunity list"
+            ],
+            "client_involvement": "Provide access to current systems and workflows"
+          },
+          {
+            "phase": "Integration Development",
+            "duration": "10 days",
+            "technical_tasks": [
+              "Develop Zapier workflows",
+              "Integrate APIs for supplier sourcing"
+            ],
+            "deliverables": [
+              "Automated invoice dispute workflow",
+              "Supplier sourcing automation"
+            ],
+            "testing_approach": "Conduct end-to-end testing with sample data to ensure accuracy"
+          },
+          {
+            "phase": "Deployment & Training",
+            "duration": "5 days",
+            "technical_tasks": [
+              "Deploy workflows to production",
+              "Conduct user training sessions"
+            ],
+            "deliverables": [
+              "Live automated system",
+              "User training materials"
+            ],
+            "success_metrics": "Reduction in manual processing time and error rates"
+          }
+        ],
+        "business_impact": {
+          "time_savings": "20 hours/week saved by automating repetitive tasks",
+          "cost_reduction": "$15,000 annually saved by reducing manual errors and inefficiencies",
+          "error_elimination": "80% reduction in invoice and spreadsheet errors",
+          "efficiency_gains": "30% increase in productivity by automating key processes",
+          "roi_timeline": "Full ROI achieved within 6 months of implementation"
+        },
+        "competitive_advantages": {
+          "relevant_experience": "Successfully automated similar processes for a Fortune 500 company, resulting in a 50% reduction in processing time.",
+          "technical_expertise": "Deep expertise in Zapier and API integrations, ensuring seamless workflow automation.",
+          "unique_approach": "Customized solutions tailored to the client's specific needs, rather than generic templates.",
+          "post_launch_support": "Ongoing support and optimization services to ensure continued efficiency and scalability."
+        },
+        "technologies_used": [
+          "Zapier (latest version)",
+          "Google Sheets API",
+          "QuickBooks API",
+          "Python for custom scripting",
+          "Slack for monitoring and alerts"
+        ],
+        "project_summary": {
+          "title_professional": "Automation Specialist for Administrative Efficiency",
+          "description_executive": "Develop and implement a comprehensive automation solution to streamline invoice management, supplier sourcing, and spreadsheet reliability, leveraging Zapier and API integrations.",
+          "timeline_realistic": "20 days from project initiation to full deployment",
+          "budget_justification": "The proposed solution delivers exceptional value by significantly reducing manual workload and error rates, with a clear ROI within 6 months."
+        },
+        "problem_analysis": "The client is currently handling invoice disputes, sourcing suppliers, and fixing spreadsheet issues manually, which is time-consuming and prone to errors.",
+        "proposed_solution": "Implement an automated workflow using Zapier to streamline invoice dispute resolution, automate supplier sourcing with API integrations, and enhance spreadsheet reliability with error-checking scripts.",
+        "technical_details": "Zapier, due to its ease of use and compatibility with a wide range of apps and services.",
+        "timeline": "20 days from project initiation to full deployment",
+        "why_me": "Customized solutions tailored to the client's specific needs, rather than generic templates.",
+        "implementation_steps": [
+          {
+            "step_number": 1,
+            "title": "Discovery & Setup",
+            "description": "Audit current processes",
+            "deliverable": "Process audit report"
+          },
+          {
+            "step_number": 2,
+            "title": "Integration Development",
+            "description": "Develop Zapier workflows",
+            "deliverable": "Automated invoice dispute workflow"
+          },
+          {
+            "step_number": 3,
+            "title": "Deployment & Training",
+            "description": "Deploy workflows to production",
+            "deliverable": "Live automated system"
+          }
+        ]
+      },
+      "created_at": "2025-06-02T05:18:37.217810"
+    },
+    {
+      "title": "Appointment Setter & Lead Qualifier Needed",
+      "budget": "N/A",
+      "client_name": "Team",
+      "score": 67,
+      "priority": "should_apply",
+      "filename": "proposal-Appointment-Setter-Lead-Qualifier-Needed-1748841504.html",
+      "message": "Hi Team!\n\nYour CRM automation project caught my attention. I've created a tailored solution approach: http://192.168.1.107/proposals/proposal-Appointment-Setter-Lead-Qualifier-Needed-1748841504.html\n\nI specialize in automation systems and have extensive experience with similar implementations.\n\nHappy to discuss your requirements and timeline.\n\nBest regards,\nTim Poulton",
+      "url": "http://192.168.1.107/proposals/proposal-Appointment-Setter-Lead-Qualifier-Needed-1748841504.html",
+      "original_job_url": "https://www.upwork.com/jobs/Appointment-Setter-Lead-Qualifier-Needed_~021929360576583030991/?referrer_url_path=/nx/search/jobs/",
+      "analysis": {
+        "client_intelligence": {
+          "company_name": "Global Tech Platform",
+          "industry_context": "Immigration and job opportunities through intelligent automation",
+          "current_manual_process": "Manual lead qualification, categorization, and appointment setting through call center operations",
+          "technical_stack": "CRM platform for lead tracking and categorization",
+          "primary_pain_points": [
+            "Time-consuming manual lead qualification",
+            "Inconsistent lead categorization",
+            "Inefficient appointment scheduling"
+          ],
+          "volume_scale": "High volume of pre-qualified leads requiring categorization and scheduling"
+        },
+        "solution_architecture": {
+          "core_solution": "Implement an automated workflow using Make.com to streamline lead qualification, categorization, and appointment setting",
+          "platform_choice": "Make.com for its robust automation capabilities and ease of integration with CRM systems",
+          "api_integrations": [
+            "CRM API",
+            "Telephony API for call tracking"
+          ],
+          "webhook_strategy": "Use webhooks to trigger workflows upon new lead entry and status updates",
+          "error_handling": "Implement error logging and notification system using Sentry for real-time monitoring",
+          "scalability_design": "Design workflows to handle increased lead volume by leveraging Make.com's scalable architecture"
+        },
+        "implementation_roadmap": [
+          {
+            "phase": "Discovery & Setup",
+            "duration": "5 days",
+            "technical_tasks": [
+              "Audit current CRM setup",
+              "Identify key data points for automation"
+            ],
+            "deliverables": [
+              "Detailed process map",
+              "Technical requirements document"
+            ],
+            "client_involvement": "Provide access to CRM and current lead management processes"
+          },
+          {
+            "phase": "Integration Development",
+            "duration": "10 days",
+            "technical_tasks": [
+              "Develop Make.com workflows",
+              "Integrate CRM and telephony APIs"
+            ],
+            "deliverables": [
+              "Automated lead qualification workflow",
+              "Automated appointment scheduling workflow"
+            ],
+            "testing_approach": "Conduct end-to-end testing with sample leads to ensure accuracy"
+          },
+          {
+            "phase": "Deployment & Training",
+            "duration": "5 days",
+            "technical_tasks": [
+              "Deploy workflows to production",
+              "Conduct user training sessions"
+            ],
+            "deliverables": [
+              "Live automated system",
+              "User training materials"
+            ],
+            "success_metrics": "Reduction in manual processing time and increase in lead conversion rates"
+          }
+        ],
+        "business_impact": {
+          "time_savings": "Save approximately 20 hours/week by automating lead qualification and scheduling",
+          "cost_reduction": "$50,000 annually by reducing manual labor costs",
+          "error_elimination": "Eliminate 90% of categorization errors through automation",
+          "efficiency_gains": "Increase lead processing efficiency by 50%",
+          "roi_timeline": "Achieve ROI within 6 months of implementation"
+        },
+        "competitive_advantages": {
+          "relevant_experience": "Delivered similar automation solutions for Fortune 500 companies in the tech industry",
+          "technical_expertise": "Expert in Make.com and CRM integrations, ensuring seamless workflow automation",
+          "unique_approach": "Customized automation strategy tailored to their specific lead management needs",
+          "post_launch_support": "Provide ongoing support and optimization for 6 months post-launch"
+        },
+        "technologies_used": [
+          "Make.com v2.0",
+          "CRM API integration",
+          "Telephony API integration",
+          "Sentry for error monitoring",
+          "Jest for testing and validation"
+        ],
+        "project_summary": {
+          "title_professional": "Call Center Automation Specialist \u2013 Lead Management Optimization",
+          "description_executive": "Develop an automated system to streamline lead qualification, categorization, and appointment setting, enhancing efficiency and reducing manual errors.",
+          "timeline_realistic": "20 days from project kickoff to full deployment",
+          "budget_justification": "Investment in automation will deliver significant cost savings and efficiency gains, providing exceptional value."
+        },
+        "problem_analysis": "Manual lead qualification, categorization, and appointment setting through call center operations",
+        "proposed_solution": "Implement an automated workflow using Make.com to streamline lead qualification, categorization, and appointment setting",
+        "technical_details": "Make.com for its robust automation capabilities and ease of integration with CRM systems",
+        "timeline": "20 days from project kickoff to full deployment",
+        "why_me": "Customized automation strategy tailored to their specific lead management needs",
+        "implementation_steps": [
+          {
+            "step_number": 1,
+            "title": "Discovery & Setup",
+            "description": "Audit current CRM setup",
+            "deliverable": "Detailed process map"
+          },
+          {
+            "step_number": 2,
+            "title": "Integration Development",
+            "description": "Develop Make.com workflows",
+            "deliverable": "Automated lead qualification workflow"
+          },
+          {
+            "step_number": 3,
+            "title": "Deployment & Training",
+            "description": "Deploy workflows to production",
+            "deliverable": "Live automated system"
+          }
+        ]
+      },
+      "created_at": "2025-06-02T05:18:24.447437"
+    },
+    {
+      "title": "Video Ad Creation for Finance Automation Software",
+      "budget": "N/A",
+      "client_name": "Client",
+      "score": 48,
+      "priority": "consider",
+      "filename": "proposal-Video-Ad-Creation-for-Finance-Automation-Software-1748841493.html",
+      "message": "Hi Client,\n\nI've reviewed your business automation needs and prepared a solution overview: http://192.168.1.107/proposals/proposal-Video-Ad-Creation-for-Finance-Automation-Software-1748841493.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
+      "url": "http://192.168.1.107/proposals/proposal-Video-Ad-Creation-for-Finance-Automation-Software-1748841493.html",
+      "original_job_url": "https://www.upwork.com/jobs/Video-Creation-for-Finance-span-class-highlight-Automation-span-Software_~021929406077965686991/?referrer_url_path=/nx/search/jobs/",
+      "analysis": {
+        "client_intelligence": {
+          "company_name": "Finance Automation Software Company",
+          "industry_context": "Financial Technology (FinTech) focusing on automation tools for financial data management",
+          "current_manual_process": "Users manually upload multiple Excel files (bank transactions, accounts receivable, accounts payable) into a platform, manually input assumptions, and manually build cash flow models. They also manually update Excel files and generate KPIs and charts.",
+          "technical_stack": "Excel, web-based platform for automation, potential use of Excel plugins",
+          "primary_pain_points": [
+            "Time-consuming manual data uploads and processing",
+            "High potential for human error in data entry and model building",
+            "Inefficient manual updates and KPI generation"
+          ],
+          "volume_scale": "High volume of financial transactions and data points processed regularly"
+        },
+        "solution_architecture": {
+          "core_solution": "Develop an automated workflow that integrates with their web-based platform to streamline the upload and processing of Excel files, automate cash flow model creation, and facilitate seamless export and update of Excel files with integrated formulas and KPIs.",
+          "platform_choice": "Make.com for its robust automation capabilities and ease of integration with web-based platforms and Excel",
+          "api_integrations": [
+            "Excel API",
+            "Custom API for web-based platform"
+          ],
+          "webhook_strategy": "Implement webhooks to trigger automation upon file upload and assumption input, ensuring real-time processing and updates",
+          "error_handling": "Implement logging and alerting mechanisms to capture and notify of any errors during data processing and model generation",
+          "scalability_design": "Design the solution to handle increasing data volumes by leveraging cloud-based processing and scalable API endpoints"
+        },
+        "implementation_roadmap": [
+          {
+            "phase": "Discovery & Setup",
+            "duration": "5 days",
+            "technical_tasks": [
+              "Conduct detailed process analysis",
+              "Set up Make.com environment"
+            ],
+            "deliverables": [
+              "Process documentation",
+              "Configured Make.com environment"
+            ],
+            "client_involvement": "Provide access to current systems and sample data"
+          },
+          {
+            "phase": "Integration Development",
+            "duration": "10 days",
+            "technical_tasks": [
+              "Develop API integrations",
+              "Create automation workflows"
+            ],
+            "deliverables": [
+              "Working API integrations",
+              "Automated workflows"
+            ],
+            "testing_approach": "Conduct unit and integration testing with sample data"
+          },
+          {
+            "phase": "Deployment & Training",
+            "duration": "5 days",
+            "technical_tasks": [
+              "Deploy solution to production",
+              "Conduct user training sessions"
+            ],
+            "deliverables": [
+              "Live automated system",
+              "User training materials"
+            ],
+            "success_metrics": "Successful data processing and model generation with zero errors"
+          }
+        ],
+        "business_impact": {
+          "time_savings": "Save approximately 20 hours/week by automating manual processes",
+          "cost_reduction": "$50,000 annually by reducing manual labor and errors",
+          "error_elimination": "Eliminate 90% of errors associated with manual data entry",
+          "efficiency_gains": "Increase productivity by 30% through streamlined processes",
+          "roi_timeline": "Achieve ROI within 6 months of implementation"
+        },
+        "competitive_advantages": {
+          "relevant_experience": "Delivered similar automation solutions for financial data processing in Fortune 500 companies",
+          "technical_expertise": "Deep expertise in Make.com and API integrations tailored for financial applications",
+          "unique_approach": "Custom-tailored automation workflows that align precisely with their existing processes",
+          "post_launch_support": "Offer ongoing support and optimization to ensure continuous improvement"
+        },
+        "technologies_used": [
+          "Make.com v2.0",
+          "Excel API for seamless data integration",
+          "Custom API development using Python",
+          "Monitoring tools like Datadog for real-time error tracking",
+          "Testing tools such as Postman for API validation"
+        ],
+        "project_summary": {
+          "title_professional": "Video Ad Creation for Financial Automation Tool",
+          "description_executive": "Develop a comprehensive automation solution that transforms manual financial data processing into an efficient, error-free workflow, enhancing productivity and accuracy.",
+          "timeline_realistic": "20 days from project initiation to deployment",
+          "budget_justification": "Our pricing reflects the value of reducing manual labor, minimizing errors, and significantly enhancing operational efficiency, ensuring a swift ROI."
+        },
+        "problem_analysis": "Users manually upload multiple Excel files (bank transactions, accounts receivable, accounts payable) into a platform, manually input assumptions, and manually build cash flow models. They also manually update Excel files and generate KPIs and charts.",
+        "proposed_solution": "Develop an automated workflow that integrates with their web-based platform to streamline the upload and processing of Excel files, automate cash flow model creation, and facilitate seamless export and update of Excel files with integrated formulas and KPIs.",
+        "technical_details": "Make.com for its robust automation capabilities and ease of integration with web-based platforms and Excel",
+        "timeline": "20 days from project initiation to deployment",
+        "why_me": "Custom-tailored automation workflows that align precisely with their existing processes",
+        "implementation_steps": [
+          {
+            "step_number": 1,
+            "title": "Discovery & Setup",
+            "description": "Conduct detailed process analysis",
+            "deliverable": "Process documentation"
+          },
+          {
+            "step_number": 2,
+            "title": "Integration Development",
+            "description": "Develop API integrations",
+            "deliverable": "Working API integrations"
+          },
+          {
+            "step_number": 3,
+            "title": "Deployment & Training",
+            "description": "Deploy solution to production",
+            "deliverable": "Live automated system"
+          }
+        ]
+      },
+      "created_at": "2025-06-02T05:18:13.313257"
+    },
     {
       "title": "Ops Troubleshooter \u2013 Eliminate Refunds & Fix Root-Cause Issues",
       "budget": "N/A",
@@ -2898,50 +3417,6 @@
       "message": "Hi there!\n\nI noticed you need help with email automation. I've actually created a custom automation workflow and project breakdown specifically for your requirements.\n\nYou can view your personalized proposal here:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748819275285.html\n\nThis demonstrates exactly how I'd solve your specific challenges, including the tools, timeline, and investment required.\n\nI'm particularly excited about this project because it aligns perfectly with my expertise in building similar systems.\n\nLooking forward to discussing this with you!\n\nBest regards,\nTim",
       "filename": "your-company-proposal-1748819275285.html",
       "timestamp": "2025-06-01T23:07:55.285956",
-      "priority": "must_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "In search for a experienced Youtube Editor",
-      "client_name": "a experienced Youtube Editor",
-      "score": 68,
-      "proposal_url": "https://projekt-ai.net/proposals/a-experienced-youtube-editor-proposal-1748819275276.html",
-      "message": "Hi!\n\nI specialize in workflow automation and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/a-experienced-youtube-editor-proposal-1748819275276.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
-      "filename": "a-experienced-youtube-editor-proposal-1748819275276.html",
-      "timestamp": "2025-06-01T23:07:55.276463",
-      "priority": "should_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Entry-Level Software Builder for OpenWebUI and n8n AI Agents - spec work",
-      "client_name": "OpenWebUI and n8n AI Agents - spec work",
-      "score": 65,
-      "proposal_url": "https://projekt-ai.net/proposals/openwebui-and-n8n-ai-agents-spec-work-proposal-1748818976644.html",
-      "message": "Hi!\n\nI specialize in workflow automation and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/openwebui-and-n8n-ai-agents-spec-work-proposal-1748818976644.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
-      "filename": "openwebui-and-n8n-ai-agents-spec-work-proposal-1748818976644.html",
-      "timestamp": "2025-06-01T23:02:56.644802",
-      "priority": "should_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Klaviyo Expert",
-      "client_name": "Your Company",
-      "score": 58,
-      "proposal_url": "https://projekt-ai.net/proposals/your-company-proposal-1748818976636.html",
-      "message": "Hi!\n\nI specialize in email automation and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748818976636.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
-      "filename": "your-company-proposal-1748818976636.html",
-      "timestamp": "2025-06-01T23:02:56.637131",
-      "priority": "consider"
-    },
-    {
-      "job_id": "",
-      "job_title": "Need Make.com Expert to Automate Our Sales Process",
-      "client_name": "Your Company",
-      "score": 235,
-      "proposal_url": "https://projekt-ai.net/proposals/your-company-proposal-1748818963145.html",
-      "message": "Hi there!\n\nI noticed you need help with CRM automation. I've actually created a custom automation workflow and project breakdown specifically for your requirements.\n\nYou can view your personalized proposal here:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748818963145.html\n\nThis demonstrates exactly how I'd solve your specific challenges, including the tools, timeline, and investment required.\n\nI'm particularly excited about this project because it aligns perfectly with my expertise in building similar systems.\n\nLooking forward to discussing this with you!\n\nBest regards,\nTim",
-      "filename": "your-company-proposal-1748818963145.html",
-      "timestamp": "2025-06-01T23:02:43.145791",
       "priority": "must_apply"
     }
   ]
