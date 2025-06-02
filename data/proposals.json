@@ -1,7 +1,80 @@
 {
-  "generated_at": "2025-06-02T06:25:01.972015",
+  "generated_at": "2025-06-02T06:30:01.295005",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748845765",
+      "job_title": "\ud83d\udcab Landing Page Design & Development for Indian Artist & Singer (Music-Focused)",
+      "client_name": "Client",
+      "budget": "$15.00",
+      "description": "Hello!\n\nI am an independent artist and singer, primarily creating Indian folk music, devotional songs, and regional content (Awadhi, Bhojpuri, and more). I\u2019m looking for a skilled web designer/developer to build a beautiful, clean, and responsive landing page that introduces me, showcases my music, and connects with fans.\n\n\ud83c\udfaf Project Goals:\nCreate a modern and mobile-friendly landing page that reflects my brand as an artist.\n\nHighlight my latest songs, videos, and social media links (YouTube, Ins...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T06:29:25.433963",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal--Landing-Page-Design--Development-for-Indian-Artis-1748845765433.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748845765",
+      "job_title": "Build E-Commerce Ad listing website using PHP laravel",
+      "client_name": "Client",
+      "budget": "$1,500.00",
+      "description": "I am seeking an experienced Laravel developer to build a full-featured \u201cLost & Found\u201d web application from scratch. This project must follow enterprise-grade best practices\u2014rigorous testing, PSR-12 coding standards, complete end-to-end feature coverage, and a clean, maintainable architecture. You will be responsible for every line of backend and frontend code Blade/Vue, database schema design, security hardening, automated testing, and deployment scripts.\n\nZero Existing Codebase: We are not fork...",
+      "analysis": {
+        "tools": [
+          "Api",
+          "Webhook"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T06:29:25.032455",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-E-Commerce-Ad-listing-website-using-PHP-lara-1748845765032.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748845764",
+      "job_title": "Playwright Tester Needed for ERP System Testing",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We're looking for an experienced QA engineer to set up and implement Playwright-based automated testing for our custom SaaS platform. This will be the first implementation of automated end-to-end testing for our system, so we\u2019re looking for someone who can lead the setup and make smart decisions around test structure, maintainability, and scalability.\n\nOur platform includes modules like planning, document handling, workflows, and user management \u2014 all built for intensive daily use in a professio...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "SaaS",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T06:29:24.587044",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Playwright-Tester-Needed-for-ERP-System-Testing-1748845764587.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748845461",
       "job_title": "Senior Full-Stack Developer (Laravel + PHP + WordPress) - Spanish Native",
@@ -2724,198 +2797,6 @@
         "why_me": "With over 20 years of experience in automation and a track record of over $16M in automated operations, I have extensive experience in creating effective automation solutions. I have worked with similar e-commerce platforms and inventory management systems, and I'm well-versed in Zapier, making me uniquely qualified to solve your specific problem."
       },
       "created_at": "2025-06-02T00:00:14.840258"
-    },
-    {
-      "title": "Make.com Automation Expert Needed - Connect CRM to Email Marketing",
-      "budget": "$2,500",
-      "client_name": "Sarah Johnson",
-      "score": 167,
-      "priority": "must_apply",
-      "filename": "proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748822392.html",
-      "message": "Hi Sarah Johnson!\n\nI've analyzed your CRM automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: http://192.168.1.107/proposals/proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748822392.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "http://192.168.1.107/proposals/proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748822392.html",
-      "original_job_url": "",
-      "analysis": {
-        "problem_analysis": "TechStartup Inc. is currently struggling with a manual, time-consuming, and error-prone process of exporting leads from HubSpot and importing them to Mailchimp every week. They want to automate this process and ensure that new leads are added to appropriate email sequences based on their source and lead score.",
-        "proposed_solution": "I propose to create an automated system that links HubSpot CRM to Mailchimp, leveraging HubSpot's API and Mailchimp's API. This system will automatically export new leads from HubSpot, categorize them based on their source and lead score, and import them into the appropriate Mailchimp email sequences.",
-        "implementation_steps": [
-          {
-            "step_number": 1,
-            "title": "Analysis of Current Process and System",
-            "description": "I will thoroughly analyze your current process of exporting and importing leads between HubSpot and Mailchimp, and understand the categorization criteria based on source and lead score.",
-            "deliverable": "A detailed report of the current process and system, and the requirements for the new automated system."
-          },
-          {
-            "step_number": 2,
-            "title": "Design of the Automated System",
-            "description": "I will design the automated system, defining how it will use HubSpot's and Mailchimp's APIs to export, categorize, and import leads.",
-            "deliverable": "A design document detailing the architecture and workflow of the automated system."
-          },
-          {
-            "step_number": 3,
-            "title": "Development of the Automated System",
-            "description": "I will develop the automated system as per the design, ensuring it meets all the requirements.",
-            "deliverable": "The developed automated system."
-          },
-          {
-            "step_number": 4,
-            "title": "Testing of the Automated System",
-            "description": "I will thoroughly test the automated system to ensure it works correctly and meets all the requirements.",
-            "deliverable": "A tested and verified automated system."
-          },
-          {
-            "step_number": 5,
-            "title": "Deployment and Training",
-            "description": "I will deploy the automated system and train your team on how to use it.",
-            "deliverable": "A deployed automated system and training materials."
-          }
-        ],
-        "technical_details": "The automated system will be developed using Python, leveraging HubSpot's API to export leads and their details, and Mailchimp's API to import the leads into the appropriate email sequences. The categorization of leads based on their source and lead score will be done using Python's data analysis libraries.",
-        "timeline": "The entire project, from analysis to deployment and training, will take approximately 4-6 weeks.",
-        "deliverables": "You will receive a detailed report of the current process and system, a design document of the automated system, the developed automated system, a report of the testing results, and training materials.",
-        "success_metrics": "The success of the project will be measured by the reduction in time spent on exporting and importing leads, the accuracy of the categorization of leads, and the increase in the number of leads added to the email sequences.",
-        "why_me": "With over 20 years of experience in automation and a track record of over $16M in automated operations, I have extensive experience in automating processes and systems. I have worked with both HubSpot and Mailchimp APIs in the past, and I have a deep understanding of their capabilities and how to leverage them to automate processes."
-      },
-      "created_at": "2025-06-01T23:59:52.111618"
-    },
-    {
-      "title": "n8n Integration Project",
-      "budget": "$1,500",
-      "client_name": "Client",
-      "score": 100,
-      "priority": "must_apply",
-      "filename": "proposal-n8n-Integration-Project-1748822200.html",
-      "message": "Hi Client!\n\nI've analyzed your workflow automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: http://192.168.1.107/proposals/proposal-n8n-Integration-Project-1748822200.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nSpecifically for your project: My approach is to firstly understand your current process in-depth, identifying bottlenecks and areas for potential automation. From there, I will design and implement a custom n8n workflow that not only meets your needs today, but is also scalable for your future growth.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "http://192.168.1.107/proposals/proposal-n8n-Integration-Project-1748822200.html",
-      "original_job_url": "",
-      "analysis": {
-        "current_process": "The client is currently dealing with inefficient and likely manual workflows.",
-        "desired_outcome": "The client wants to improve the efficiency of their workflows using n8n.",
-        "tools": "n8n, API integrations",
-        "workflow_steps": [
-          {
-            "title": "Analysis of Current Workflow",
-            "description": "Identify bottlenecks and inefficiencies in the current workflow, establishing a baseline for improvement."
-          },
-          {
-            "title": "Designing the Improved Workflow",
-            "description": "Create a new, more efficient workflow design utilizing n8n's capabilities and any necessary API integrations."
-          },
-          {
-            "title": "Implementation",
-            "description": "Implement the new workflow design in n8n, testing and tweaking as necessary to ensure optimal performance."
-          },
-          {
-            "title": "Ongoing Maintenance and Improvement",
-            "description": "Provide ongoing support and enhancements to the workflow, ensuring it continues to meet the client's evolving needs."
-          }
-        ],
-        "services": [
-          "Custom n8n Workflow Design",
-          "API Integration",
-          "Workflow Automation",
-          "Testing and Optimization",
-          "Ongoing Support and Workflow Improvement"
-        ],
-        "process_items": [
-          {
-            "title": "Workflow Analysis and Design",
-            "description": "Analyze current state, identify improvements, and create a custom, efficient workflow design."
-          },
-          {
-            "title": "Workflow Implementation",
-            "description": "Implement the new workflow in n8n, including necessary API integrations."
-          },
-          {
-            "title": "Testing and Optimization",
-            "description": "Test the new workflow, optimize for performance, and make necessary adjustments."
-          },
-          {
-            "title": "Maintenance and Continuous Improvement",
-            "description": "Provide ongoing support, monitor workflow performance, and execute continuous improvement efforts."
-          }
-        ],
-        "unique_value": "With my extensive experience in both n8n and API integrations, I am uniquely positioned to streamline and automate your workflows. I am committed to not just implementing a solution, but ensuring it continues to serve your needs over time.",
-        "custom_approach": "My approach is to firstly understand your current process in-depth, identifying bottlenecks and areas for potential automation. From there, I will design and implement a custom n8n workflow that not only meets your needs today, but is also scalable for your future growth."
-      },
-      "created_at": "2025-06-01T23:56:40.863874"
-    },
-    {
-      "title": "Zapier Workflow for E-commerce Inventory Management",
-      "budget": "$1,200",
-      "client_name": "RetailCorp needs to automate inventory updates between Shopify",
-      "score": 100,
-      "priority": "must_apply",
-      "filename": "proposal-Zapier-Workflow-for-Ecommerce-Inventory-Management-1748822181.html",
-      "message": "Hi RetailCorp needs to automate inventory updates between Shopify!\n\nI've analyzed your workflow automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: http://192.168.1.107/proposals/proposal-Zapier-Workflow-for-Ecommerce-Inventory-Management-1748822181.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nSpecifically for your project: I will work closely with your team to understand your current processes and design a solution that seamlessly integrates with your existing systems. I will provide comprehensive training and support, ensuring your team is comfortable with the new workflow. My goal is to not only solve your current challenge but also set you up for future success.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "http://192.168.1.107/proposals/proposal-Zapier-Workflow-for-Ecommerce-Inventory-Management-1748822181.html",
-      "original_job_url": "",
-      "analysis": {
-        "current_process": "The client manually updates inventory levels between Shopify and their warehouse management system.",
-        "desired_outcome": "The client wants real-time inventory synchronization between Shopify and their warehouse management system using Zapier workflows.",
-        "tools": "Shopify, Zapier, Warehouse Management System",
-        "workflow_steps": [
-          {
-            "title": "Identify Current Inventory Management System",
-            "description": "Get an understanding of your current warehouse management system and how it interacts with Shopify."
-          },
-          {
-            "title": "Design Zapier Workflow",
-            "description": "Design and develop a custom Zapier workflow that automatically syncs inventory levels between Shopify and your warehouse management system."
-          },
-          {
-            "title": "Test Workflow",
-            "description": "Thoroughly test the workflow to ensure it's syncing inventory data in real-time without any errors."
-          },
-          {
-            "title": "Deploy and Monitor",
-            "description": "Deploy the workflow and continue monitoring its performance for any necessary adjustments."
-          }
-        ],
-        "services": [
-          {
-            "service": "Consultation and Analysis",
-            "description": "Deep analysis of your current systems and processes, identifying areas for improvement."
-          },
-          {
-            "service": "Custom Workflow Design",
-            "description": "Design and creation of a custom Zapier workflow tailored to your specific needs."
-          },
-          {
-            "service": "Testing and Deployment",
-            "description": "Complete testing and deployment of your new Zapier workflow, ensuring everything works perfectly."
-          },
-          {
-            "service": "Training and Support",
-            "description": "Training your team on how to use and manage the new workflow, plus ongoing support for any issues."
-          },
-          {
-            "service": "Performance Monitoring",
-            "description": "Continuous monitoring of the workflow's performance to ensure optimal operation and make necessary adjustments."
-          }
-        ],
-        "process_items": [
-          {
-            "title": "Discovery and Analysis",
-            "description": "Understand your current inventory management system, identify pain points, and define requirements for the new workflow."
-          },
-          {
-            "title": "Workflow Design and Development",
-            "description": "Design and develop the custom Zapier workflow, ensuring it meets all your requirements for real-time inventory syncing."
-          },
-          {
-            "title": "Testing and Review",
-            "description": "Conduct rigorous testing of the workflow, fix any issues, and review the workflow with your team."
-          },
-          {
-            "title": "Deployment and Monitoring",
-            "description": "Deploy the workflow to your live environment and monitor its performance, adjusting as necessary for optimal results."
-          }
-        ],
-        "unique_value": "With my extensive experience in Zapier, Shopify, and warehouse management system integrations, I am uniquely equipped to deliver a solution that meets your specific needs. I have a deep understanding of inventory management challenges in e-commerce, and a proven track record of delivering effective automation solutions.",
-        "custom_approach": "I will work closely with your team to understand your current processes and design a solution that seamlessly integrates with your existing systems. I will provide comprehensive training and support, ensuring your team is comfortable with the new workflow. My goal is to not only solve your current challenge but also set you up for future success."
-      },
-      "created_at": "2025-06-01T23:56:21.907545"
     }
   ]
 }
