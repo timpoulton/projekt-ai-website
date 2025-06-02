@@ -1,7 +1,125 @@
 {
-  "generated_at": "2025-06-02T07:30:01.144760",
+  "generated_at": "2025-06-02T07:35:01.543132",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748849692",
+      "job_title": "Jotform/Humanitix to Stripe integration",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We have a number of Jotform forms that are integrated with Stripe. In the payment intent in Stripe, we need to capture the Source and the Description from Jotform. These are both currently showing as NULL.\n\nWe also require similar for Humanitix.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T07:34:52.901397",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-JotformHumanitix-to-Stripe-integration-1748849692901.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748849692",
+      "job_title": "Web Developer & Automation Specialist",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Join an elite agency that transforms fitness coahes and creators into business powerhouses.\n\nWe\u2019re looking for a highly experienced Web Developer with a proven track record in GoHighLevel and WordPress (Elementor). This isn\u2019t just a code-and-go role \u2013 you\u2019ll be building high-performing landing pages and digital ecosystems for fitness creators and coaches (some with audiences of 5M+), with a sharp eye for conversion optimization and design quality.\n\nYour role:\nBuild, customize, and optimize landi...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T07:34:52.482534",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-Developer--Automation-Specialist-1748849692482.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748849692",
+      "job_title": "Development of Wear OS Integration for AiCarer",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "Project Details\nAndroid Developer for Wear OS Integration\n\nProject Brief\nWe're seeking a skilled Android developer to build a Wear OS integration for AiCarer, our health monitoring platform. This project involves creating a library module that enables our app to collect health metrics from Wear OS devices in both continuous and on-demand modes.\n\nPlease see the attached file for the remainder of the project description.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T07:34:52.070417",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Development-of-Wear-OS-Integration-for-AiCarer-1748849692070.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748849691",
+      "job_title": "Suitedash Specialist Needed for Dashboard Development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled Suitedash specialist to assist in building an engaging and functional dashboard. The ideal candidate will have experience with Suitedash and be capable of customizing features to meet our specific needs. Additional tasks may include data integration, user interface adjustments, and optimizing the dashboard for performance. If you have a keen eye for detail and a knack for creating user-friendly dashboards, we'd love to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T07:34:51.636300",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Suitedash-Specialist-Needed-for-Dashboard-Developm-1748849691636.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748849691",
+      "job_title": "Email Marketing Executive For Fitness Coaches/Creators",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Join a game-changing agency that scales fitness creators to seven figures and beyond.\n\nWe\u2019re looking for an absolute A-player to join our growing team as an Email Marketing Executive. If you\u2019ve written killer campaigns, built out high-converting automations, and driven sales in the fitness industry, we want to hear from you.\n\nYour mission:\nCraft engaging newsletters, launch campaigns, and sales sequences for fitness coaches and influencers (some with 5M+ followers).\n\nDive deep into audience anal...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T07:34:51.186834",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email-Marketing-Executive-For-Fitness-CoachesCreat-1748849691186.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748849390",
       "job_title": "Need Email Specialist to Warm Domain + Set Up Cold Outreach (Smartleads, Gmail, Klaviyo)",
@@ -1072,125 +1190,6 @@
       "score": 70,
       "created_at": "2025-06-02T05:53:48.869553",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Senior-Data-Modeler-40hours-a-week--United-states--1748843628869.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748843628",
-      "job_title": "Experienced Agency Needed for .NET and Drupal Project Updates",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are looking for a reliable development agency to help update existing features on our current web application built with .NET backend and Drupal CMS.\n\n**Project Overview:**\nOur established platform needs several feature enhancements and updates to improve functionality and user experience. This is ongoing maintenance and development work on a stable, existing system.\n\n**What We Need:**\n- Update and enhance existing .NET backend functionality\n- Modify current Drupal frontend features and conte...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T05:53:48.460868",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-Agency-Needed-for-NET-and-Drupal-Proje-1748843628460.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748843320",
-      "job_title": "Automate TradingView Alerts to MT4/MT5 via Webhook",
-      "client_name": "Client",
-      "budget": "$200.00",
-      "description": "We are seeking a skilled developer to automate the integration of TradingView alerts into MT4/MT5 using webhooks. The ideal candidate will have experience in setting up webhook connections and translating TradingView signals into automated trading actions on the MT4/MT5 platforms. This project involves configuring alerts on TradingView, creating a webhook for signal processing, and ensuring seamless execution in the trading platforms. Please provide examples of similar projects you have complete...",
-      "analysis": {
-        "tools": [
-          "Webhook"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T05:48:40.658558",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Automate-TradingView-Alerts-to-MT4MT5-via-Webhook-1748843320658.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748843320",
-      "job_title": "Automation of excel data and website integration",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Looking for someone who can automate to download data from my brands q com ads site to excel and also to automatically fill the data from my excel sheet to my ad campaign page",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T05:48:40.222452",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Automation-of-excel-data-and-website-integration-1748843320222.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748843013",
-      "job_title": "Dynamics CRM/365 Work",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Dynamics CRM/365 Customization and Configuration experience - Minimum Dynamics CRM/365 background of 5 yrs+ (with total IT experience of 10 yrs+).\n-------------\nThis is to work remotely and the requirements details will be over upWork zoom call :  \n-  Experience with Dynamic CRM on-prem setup\n- Integration experience with Dynamics CRM on-prem.\n- Strong coding background to build Plugins/Console app etc.\n-------------\nNote: Rate range $6-10/hr (else ignored) - Lower rate for people with no experi...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T05:43:33.056960",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Dynamics-CRM365-Work-1748843013056.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748842700",
-      "job_title": "Python/Flask Dev \u2013 Speed Optimization for Real-Time AI Phone Call App (Twilio + GPT + ElevenLabs)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Project: ConvoReps \u2014 Real-Time AI Phone Call Simulation\nWe're building an AI-powered phone call platform to help people improve cold calling, interviewing, and small talk skills through real-time voice conversations.\n\n\u2705 What\u2019s Built So Far:\nInbound phone call flow via Twilio\nAI voice replies using ElevenLabs TTS\nVoice transcription with OpenAI Whisper\nFlask app handling session logic and intent detection\nMultiple conversation modes: Cold call, Interview, Small talk\nDynamic personality logic and ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T05:38:20.350764",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-PythonFlask-Dev--Speed-Optimization-for-Real-Time--1748842700350.html",
       "original_job_url": "",
       "status": "pending"
     }
