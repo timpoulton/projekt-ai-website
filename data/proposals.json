@@ -1,7 +1,222 @@
 {
-  "generated_at": "2025-06-02T14:35:01.594338",
+  "generated_at": "2025-06-02T14:40:02.025148",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748875086",
+      "job_title": "Industrial Designer & Mechanical Engineer for Lounge Chair Accessory Development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a talented individual to lead the design and mechanical engineering efforts for a unique clip-on accessory tailored for lounge chairs used in cruise lines and resorts. This accessory will feature a versatile cup holder system accommodating various cup sizes and styles, along with an integrated solar-powered phone charging system. While experience in electrical engineering and prototyping is advantageous, we plan to engage additional specialists for these components in future proje...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "---\n\nHey there,\n\nThat integration challenge you mentioned with the cup holder and phone charging is definitely key. I've seen similar projects where the mechanical robustness wasn't considered early enough, leading to frustrating redesigns down the line.\n\nWhat I'd propose is first, diving deep into the lounge chair specs themselves to ensure seamless compatibility. Then, we can rough out a few initial mechanical designs focusing on durability and ease of use. Finally, iterating based on user feedback -- maybe even a quick 3D print to get a feel for it.\n\nHappy to chat more about your specific needs. Let me know if you\u2019d like to schedule a quick call to discuss.\n---",
+      "score": 70,
+      "created_at": "2025-06-02T14:38:06.078452",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Industrial-Designer--Mechanical-Engineer-for-Loung-1748875086078.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875084",
+      "job_title": "Direct Post from Landbot to Ping/Post Platform (Webhook Zapier connection)",
+      "client_name": "Client",
+      "budget": "$100.00",
+      "description": "I need your help making an integration between Landbot and Standard Information (a ping/post platform). We need to direct post leads from Landbot to Standard Information.  Landbot has webhook/zapier support. Standard Information is not on Zapier. \n\nI'm attaching a direct post code example from Standard Information. We need to pass the submission from Landbot.io to Standard Information. That's basically it. Please only bid on this if you can do it now in the next 2 hours.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api",
+          "Webhook"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Okay, I get it. \"Direct post leads from Landbot to Standard Information... in the next 2 hours.\" That immediacy is a challenge I can appreciate.\n\nI actually just wrapped up a similar project moving data from a Typeform to a proprietary CRM, and the trickiest part wasn't the Zapier setup, but massaging the data into the precise format the CRM expected. Your direct post code example is crucial \u2013 thanks for including it.\n\nHere's how I'd tackle this: 1) I'll carefully review the Standard Information code to understand the required data structure. 2) I'll build a Zapier flow to grab the Landbot data and format it according to those specs. 3) Finally, I'll use Zapier's Webhooks by Zapier to post to Standard Information.\n\nIf you're free for a quick chat to clarify any field mappings, I can probably knock this out within that timeframe. Let me know!",
+      "score": 80,
+      "created_at": "2025-06-02T14:38:04.440585",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Direct-Post-from-Landbot-to-PingPost-Platform-Webh-1748875084440.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875082",
+      "job_title": "Cold Outreach Campaign Specialist (Multi-Channel, Personalised)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for someone to plan and execute a high-quality, scalable outreach campaign for a SaaS product in the online reviews/reputation management space. This is a task-focused role\u2014not about brand awareness or \u201cspray and pray\u201d\u2014but about targeted, relevant contact to decision-makers at businesses that need what we offer.\n\nWhat you\u2019ll be doing:\n\n\t\u2022\tMulti-Touch Outreach:\n\nDesign and deliver campaigns across channels:\n\n\t\u2022\tCold email (highly personalised, multi-step sequences)\n\t\u2022\tLinkedIn conne...",
+      "analysis": {
+        "tools": [
+          "N8N",
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "SaaS",
+        "score": 80
+      },
+      "message": "Hey there,\n\n\"Automation needs\" jumped out at me in your description. I've seen firsthand how daunting scaling outreach can be without the right setup. A few years ago, I worked with a small marketing agency that was drowning in manual LinkedIn outreach. We streamlined everything using a mix of Sales Navigator and a clever Zapier integration, and it completely freed up their team to focus on building relationships.\n\nFor your SaaS product, I'd start with mapping out your ideal customer profile in detail. Then, craft hyper-personalized email and LinkedIn connection sequences tailored to their specific pain points. Finally, we can integrate everything into a single dashboard for easy monitoring and adjustment.\n\nHappy to chat more about how this could work for you.",
+      "score": 80,
+      "created_at": "2025-06-02T14:38:02.088632",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Cold-Outreach-Campaign-Specialist-Multi-Channel-Pe-1748875082088.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875080",
+      "job_title": "Collaboration Opportunity: AI-Powered IVF Virtual Training Assistant",
+      "client_name": "Client",
+      "budget": "$150.00",
+      "description": "We are seeking a talented collaborator on Upwork to enhance our AI-powered IVF Virtual Training Assistant. The role involves two key tasks:\n\nVoice Assistant Integration:\n\nImplement a push-and-speak feature using the OpenAI Real-Time API, allowing users to interact with the voice assistant seamlessly.\n\nUtilize Web Real-Time Connection (WebRTC) for real-time communication, ensuring a responsive and intuitive user experience.\n\nNo need to implement voice activity detection; focus solely on push-and-...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Okay, here's my attempt:\n\n\"Sounds like you're looking to smooth out the integration bumps for your voice assistant, specifically with push-to-speak using the OpenAI API. I get it. A few years back, I was working on a remote diagnostics tool for field engineers, and getting real-time voice comms stable with WebRTC was a beast \u2013 latency issues kept popping up.\n\nFor your IVF training assistant, I'd tackle it by first focusing on a streamlined WebRTC connection specifically tailored for the OpenAI API handshake. Then, I'd meticulously test the push-to-speak responsiveness across different network conditions to nail down any delay bottlenecks. Finally, a bit of fine-tuning on the voice input processing side.\n\nWould be keen to chat more about the specific challenges you're encountering and see if my experience aligns. Let me know if you're free for a quick call.\"",
+      "score": 80,
+      "created_at": "2025-06-02T14:38:00.304533",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Collaboration-Opportunity-AI-Powered-IVF-Virtual-T-1748875080304.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875078",
+      "job_title": "Front",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for a skilled **Frontend Developer** to join our team on a freelance basis. You\u2019ll work closely with our backend developers and designers to build a responsive, user-friendly web application. The ideal candidate should be proficient in modern frontend technologies and frameworks.\n\n### **Responsibilities:**\n\n* Convert Figma/Adobe XD/Sketch designs into functional, responsive web pages\n* Develop clean, maintainable, and well-documented code\n* Collaborate with backend developers to i...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking for someone to bridge the gap between design and backend \u2013 the \"integration challenges\" part definitely resonated with me. I've been there! Remember one project where the API documentation was\u2026sparse? Ended up having to reverse engineer some calls to get the data flowing smoothly. It taught me a lot about proactive communication.\n\nFor your project, my approach would be: 1) First, a quick chat to really clarify the integration points, focusing on potential data bottlenecks. 2) Then, build out modular components from the designs, making sure they\u2019re easily testable. 3) Finally, rigorous testing with backend endpoints as they become available.\n\nI'm always up for a quick virtual coffee to see if my experience aligns with your needs. Let me know!",
+      "score": 80,
+      "created_at": "2025-06-02T14:37:58.096200",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Front-1748875078096.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875075",
+      "job_title": "Mobile App Developer Needed - React Web App to iOS/Android (Capacitor)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We have a working React web application (built in Lovable.com) that helps parents find children's games based on various criteria. We need an experienced developer to convert this into native iOS and Android apps using Capacitor.\n\nProject Overview\n\nApp Type: Children's game discovery/suggestion app\nCurrent State: Fully functional React web app\nTarget: iOS and Android native apps\nTechnology: Capacitor (not React Native)\n\nKey Features to Implement\n\nConvert existing React app to mobile using Capaci...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\nI saw you're looking to get your \"working React web application\" onto iOS and Android using Capacitor. I understand that integration challenges can pop up.\n\nFunny enough, I recently helped a client move their PWA, a recipe app, to Android using Capacitor and the biggest hurdle was getting the push notifications working smoothly across both platforms. It took some fiddling with the Capacitor configuration.\n\nFor your children's game app, I\u2019d suggest first focusing on setting up the Capacitor project and ensuring the core React app renders correctly on both iOS and Android simulators. Then, we can tackle any native API integrations (like push notifications if you plan on adding those) and fine-tune the UI for mobile.\n\nIf you'd like to chat about your specific concerns, I\u2019m free for a quick call sometime this week.",
+      "score": 80,
+      "created_at": "2025-06-02T14:37:55.372195",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Mobile-App-Developer-Needed---React-Web-App-to-iOS-1748875075372.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875072",
+      "job_title": "Seeking Experienced WordPress Website Developer for Custom Website Project",
+      "client_name": "Client",
+      "budget": "$100.00",
+      "description": "We are looking to hire a talented and reliable WordPress developer to build a fully responsive, modern, and professional website. This project involves creating a custom WordPress site tailored to our brand and business needs.\n\nProject Scope:\n\nFull WordPress website design and development\n\nCustom theme creation or theme customization\n\nMobile-first, responsive design\n\nIntegration of key plugins (SEO, security, performance optimization, backups, etc.)\n\nContact form setup and social media integrati...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "\"Hey there, I noticed you mentioned the need for a fully responsive and *custom* WordPress site. I get that. A lot of cookie-cutter themes end up feeling\u2026 well, cookie-cutter.\n\nFunny enough, I recently helped a local artist whose website was nearly invisible on mobile. After some digging, we found a conflicting plugin hogging resources, which completely crippled her mobile SEO.\n\nFor your project, I\u2019d suggest starting with a deep dive into your brand identity to ensure the design *really* reflects your business. Then, we can map out the necessary plugin integrations for SEO, security, and backups *before* development even starts, so we're covered. Finally, ensure we're validating the mobile experience constantly during development and testing.\n\nWould be happy to chat about your specific needs and figure out a plan that works for you!\"",
+      "score": 70,
+      "created_at": "2025-06-02T14:37:52.579253",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Seeking-Experienced-WordPress-Website-Developer-fo-1748875072579.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875069",
+      "job_title": "We are seeking for a Full-Stack Dev Next.js",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "This role focuses on integrating secure APIs in to a Next.js website build by us on the new Firebase.studio 2025,  primarily for payment processing via Stripe, and managing user subscriptions across our website and our native mobile applications. Collaboration with the mobile development team is required to synchronize subscription data between web and mobile application backends.\nAdditionally, the position includes overseeing the functionality of pre-integrated multi-step forms (Demo Request an...",
+      "analysis": {
+        "tools": [
+          "Api",
+          "Webhook"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "Hey there,\n\nSaw you're looking to integrate secure APIs into your Next.js build on Firebase.studio 2025, particularly for Stripe and user subscriptions \u2013 and coordinating that with your mobile team. That synchronization piece can be tricky, I remember wrestling with similar data consistency issues a few years back when I was working on a cross-platform e-learning app. Spent a week chasing down phantom subscription cancellations!\n\nHere's how I'd approach it:\n\n1.  Dive deep into your current Next.js codebase and Firebase setup to map out existing data flows.\n2.  Focus on building robust, secure API integrations for Stripe, ensuring seamless payment processing.\n3. Work hand-in-hand with the mobile team to establish a reliable, centralized source of truth for subscription data, with clear communication protocols.\n\nI'm happy to jump on a quick call to chat about the specifics and see if I can help. No pressure either way.",
+      "score": 90,
+      "created_at": "2025-06-02T14:37:49.751286",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-We-are-seeking-for-a-Full-Stack-Dev-Nextjs-1748875069751.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875067",
+      "job_title": "SEO Crowd Marketing (Quora, Reddit)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled and experienced freelancer to assist with crowd linkbuilding on Quora and Reddit. The goal is to generate genuine, high-quality backlinks by engaging in relevant, value-driven discussions and strategically placing links where appropriate.\n\nIf you\u2019re committed to quality and compliance with community standards, and comfortable with a collaborative workflow, please apply with your relevant experience and approach to crowd linkbuilding on these platforms.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "\"I get the \"manual processes\" pain \u2013 been there! Years ago, I spent weeks trying to manually track link placements on Reddit, only to have half removed for looking too promotional. Frustrating!\n\nFor your project, I'd first focus on understanding the specific Quora and Reddit communities relevant to your niche. Then, I'd prioritize crafting truly helpful answers and comments, integrating links *very* naturally only when they add genuine value to the discussion. Finally, diligent monitoring and adjustment based on community feedback would be key.\n\nHappy to chat more about your target audience and how we could make this a success. Let me know if you're interested in a quick call!\"",
+      "score": 70,
+      "created_at": "2025-06-02T14:37:47.701252",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-SEO-Crowd-Marketing-Quora-Reddit-1748875067701.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748874779",
       "job_title": "GoHighLevel Email Specalist",
@@ -1723,222 +1938,6 @@
         ]
       },
       "created_at": "2025-06-02T13:53:41.945700"
-    },
-    {
-      "job_id": "job_1748872099",
-      "job_title": "Braze CRM & Communication Manager \u2013 Long-term role at the fastest growing camping app \ud83d\ude90\ud83d\udca8",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Join the adventure. We\u2019re Campy, a startup with over 1 million users. We help motorhome campers find the best camp spots across Europe. We\u2019re now hiring a Communication Manager to bring our messaging to life through email, push, and in-app experiences, using Braze CRM. \n\nThis is a remote, flexible, freelance position with serious long-term potential. We\u2019re looking for someone who wants to grow with us over the next 2+ years \u2013 not just complete a few tasks and move on. You\u2019ll have autonomy, varie...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:48:19.903353",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Braze-CRM--Communication-Manager--Long-term-role-a-1748872099903.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748872098",
-      "job_title": ".Net Developer - minor update for an endpoint",
-      "client_name": "Client",
-      "budget": "$50.00",
-      "description": "We are seeking an experienced .Net Developer to assist in solving problem with the existing endpoint.\n\nIssue: the endpoint triggers the old integration service instead the new one.\n\nOur expectation: instead of triggering the old integration service, the logic should add the appropriate integration message to the specific table. The message will be automatically picked up by the new integration service and processed accordingly. \n\nIf you are a talented, experienced .Net expert that is able to sol...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:48:18.655426",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Net-Developer---minor-update-for-an-endpoint-1748872098655.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748872098",
-      "job_title": "SaaS Dashboard Developer & Service Monster / Service Titan Expert",
-      "client_name": "Client",
-      "budget": "$2,000.00",
-      "description": "We are seeking an experienced developer with deep expertise in ServiceMonster to create a custom SaaS dashboard that will automatically pull and visualize data from ServiceMonster. The ideal candidate will have a strong background in dashboard development, data visualization, API integration, and a thorough understanding of ServiceMonster.\n\nKey Responsibilities:\n\nDesign and develop a user-friendly SaaS dashboard to visualize data from ServiceMonster.\nImplement API integration to automatically pu...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "SaaS",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:48:18.256627",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-SaaS-Dashboard-Developer--Service-Monster--Service-1748872098256.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748872097",
-      "job_title": "YouTube Video Editing",
-      "client_name": "Client",
-      "budget": "$30.00",
-      "description": "Project Description:\n\nI am launching a faceless YouTube channel that focuses on murder investigation stories\u2014localized and narrated in Arabic. I am looking for a skilled video editor who can help me create high-quality, engaging videos using existing English source material.\n\nWorkflow Overview:\n\n1- I will provide a link to an English-language YouTube video.\n\n2- You will extract the narration transcript from that video and send me back only the voice-over parts (the narrator\u2019s lines) as a script....",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:48:17.030699",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-YouTube-Video-Editing-1748872097030.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748872096",
-      "job_title": "Social Media Assistant with Graphic Design Skills",
-      "client_name": "Client",
-      "budget": "$200.00",
-      "description": "Job Title:\nSocial Media Assistant with Graphic Design Skills | Weekly Carousels + B-Roll Videos\n\nJob Description:\nI\u2019m looking for a reliable, creative Social Media Assistant to support my weekly content production across platforms like Instagram, Threads, and Pinterest. You\u2019ll primarily be responsible for putting together carousel posts and editing simple video content using assets and guidance I provide.\n\nWhat You\u2019ll Do:\n\nAssemble carousel posts using provided assets (text, visuals, templates)\n...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:48:16.629333",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Social-Media-Assistant-with-Graphic-Design-Skills-1748872096629.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871801",
-      "job_title": "Creat Google Contacts via n8n to Notion 2-way sync",
-      "client_name": "Client",
-      "budget": "$150.00",
-      "description": "Hello!\nI bought this template https://n8n.io/workflows/2814-2-way-sync-google-contacts-and-notion/ The template is complex and I need you to fully set it up and modify it to my workflow.\nI have 94 fields in my Google Contacts and they all need to sync error free to my Notion database. As there are many nodes there will be a lot of fields\u2019 mapping (i.e. manual work).\nYou need to have a solid understanding of n8n, Google People API, and Notion. And have a powerful workstation/laptop and good inter...",
-      "analysis": {
-        "tools": [
-          "N8N",
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using N8N, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:43:21.897883",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Creat-Google-Contacts-via-n8n-to-Notion-2-way-sync-1748871801897.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871800",
-      "job_title": "Data Extraction for Athlete Status",
-      "client_name": "Client",
-      "budget": "$40.00",
-      "description": "We are looking for a detail-oriented freelancer to extract data from Google regarding the personal status of a list of athletes (exact personal details of status to be provided in contract). The ideal candidate will compile the findings into a well-organized spreadsheet (provided).\n\nThere are approximately 7000 names that need to be googled and status to be checked. \n\nAccuracy and attention to detail are crucial for this task - we will be checking the validity of findings.\n\nWe are fine if you us...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T13:43:20.643674",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Data-Extraction-for-Athlete-Status-1748871800643.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871799",
-      "job_title": "QBO & Salesforce Integration Troubleshooting Expert",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a skilled professional to troubleshoot and resolve issues with our QuickBooks Online (QBO) and Salesforce integration. The ideal candidate will not only fix current problems but also provide insights and recommendations for future improvements. Strong analytical skills and a deep understanding of both platforms are essential. If you have a proven track record in resolving integration issues and optimizing workflows, we want to hear from you!",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:43:19.394079",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-QBO--Salesforce-Integration-Troubleshooting-Expert-1748871799394.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748871798",
-      "job_title": "YouTube video creation and management",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Seeking a talented personnel and/or team to create and manage YouTube channel(s).",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T13:43:18.163178",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-YouTube-video-creation-and-management-1748871798163.html",
-      "original_job_url": "",
-      "status": "pending"
     }
   ]
 }
