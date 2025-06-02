@@ -1,7 +1,56 @@
 {
-  "generated_at": "2025-06-02T06:40:01.980871",
+  "generated_at": "2025-06-02T06:45:01.813869",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748846681",
+      "job_title": "Build out an Automatic no-code Lead Mgt Process across Pipedive + Airtable + Learnworlds using Make",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83d\udd27 Build an Automation System for Our Mentorship Leads (Pipedrive + Make + LearnWorlds)\nWe're looking for an experienced no-code automation assistant to help us build a clean, fully integrated lead management system for our Mentorship Program. The work involves setting up flows between LearnWorlds, Pipedrive, Make.com, Airtable, and a messaging platform \u2014 all tools we already use internally.\n\nThis is a project-based role, but a great performer could unlock ongoing, long-term opportunities inside ...",
+      "analysis": {
+        "tools": [
+          "Make.Com",
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Make.Com, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T06:44:41.353291",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-out-an-Automatic-no-code-Lead-Mgt-Process-ac-1748846681353.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748846680",
+      "job_title": "Job Portal Developer Needed",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an experienced job portal developer to create a robust platform for job listings and applications. The ideal candidate will have a strong background in web development, including experience with user-friendly interfaces and backend integration. You'll be responsible for designing and implementing features such as job search filters, application tracking, and employer dashboards. Strong communication skills and the ability to work collaboratively with our team are essential.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T06:44:40.078273",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Job-Portal-Developer-Needed-1748846680078.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748846374",
       "job_title": "Google AdMob & App Performance Expert Needed for Revenue Analysis and Optimization",
@@ -2212,266 +2261,6 @@
         ]
       },
       "created_at": "2025-06-02T04:47:47.703316"
-    },
-    {
-      "title": "Odoo ERP Admin Expert",
-      "budget": "N/A",
-      "client_name": "Team",
-      "score": 87,
-      "priority": "must_apply",
-      "filename": "proposal-Odoo-ERP-Admin-Expert-1748839065.html",
-      "message": "Hi Team!\n\nI've analyzed your CRM automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: http://192.168.1.107/proposals/proposal-Odoo-ERP-Admin-Expert-1748839065.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "http://192.168.1.107/proposals/proposal-Odoo-ERP-Admin-Expert-1748839065.html",
-      "original_job_url": "https://www.upwork.com/jobs/Odoo-ERP-Admin-Expert_~021929395611700525168/?referrer_url_path=/nx/search/jobs/",
-      "analysis": {
-        "client_intelligence": {
-          "company_name": "Cidroy Infotech Private Limited",
-          "industry_context": "IT Consulting and Software Development",
-          "current_manual_process": "Currently, Cidroy Infotech may be handling their core business processes such as accounting, inventory management, sales tracking, and CRM manually or through disparate systems, leading to inefficiencies and data silos.",
-          "technical_stack": "Odoo ERP, Python, XML, PostgreSQL, Linux/Ubuntu",
-          "primary_pain_points": [
-            "Inefficient manual processes in accounting and inventory",
-            "Lack of integration between sales and CRM systems",
-            "High error rates due to manual data entry"
-          ],
-          "volume_scale": "Medium to large scale transactions typical of a growing IT consulting firm"
-        },
-        "solution_architecture": {
-          "core_solution": "Implement a fully integrated Odoo ERP system tailored to automate accounting, inventory, sales, and CRM processes. Customize modules using Python and XML to meet specific business needs.",
-          "platform_choice": "Odoo ERP is the primary platform due to its comprehensive suite of business applications and customization capabilities.",
-          "api_integrations": [
-            "Stripe API for payment processing",
-            "Mailchimp API for email marketing"
-          ],
-          "webhook_strategy": "Utilize Odoo's built-in webhook capabilities to trigger real-time updates between modules and external systems.",
-          "error_handling": "Implement logging and monitoring using Odoo's built-in tools and custom scripts to capture and alert on errors.",
-          "scalability_design": "Design the system to handle increased transaction volumes by optimizing PostgreSQL queries and leveraging Odoo's modular architecture."
-        },
-        "implementation_roadmap": [
-          {
-            "phase": "Discovery & Setup",
-            "duration": "10 days",
-            "technical_tasks": [
-              "Conduct needs assessment",
-              "Set up Odoo environment"
-            ],
-            "deliverables": [
-              "Requirements document",
-              "Configured Odoo instance"
-            ],
-            "client_involvement": "Provide access to current systems and data"
-          },
-          {
-            "phase": "Integration Development",
-            "duration": "15 days",
-            "technical_tasks": [
-              "Develop custom modules",
-              "Integrate third-party APIs"
-            ],
-            "deliverables": [
-              "Custom Odoo modules",
-              "Integrated APIs"
-            ],
-            "testing_approach": "Unit and integration testing using test scripts"
-          },
-          {
-            "phase": "Deployment & Training",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Deploy to production",
-              "Conduct user training",
-              "Create documentation"
-            ],
-            "deliverables": [
-              "Live Odoo system",
-              "Training sessions",
-              "User manuals"
-            ],
-            "success_metrics": "System uptime, user adoption rate, error reduction"
-          }
-        ],
-        "business_impact": {
-          "time_savings": "Approximately 20 hours/week saved by automating manual processes",
-          "cost_reduction": "$50,000 annually by reducing manual labor and errors",
-          "error_elimination": "80% reduction in data entry errors",
-          "efficiency_gains": "30% improvement in process efficiency",
-          "roi_timeline": "ROI expected within 6 months post-implementation"
-        },
-        "competitive_advantages": {
-          "relevant_experience": "Successfully implemented Odoo ERP for a similar IT consulting firm, resulting in a 40% increase in operational efficiency.",
-          "technical_expertise": "Deep expertise in Odoo customization and integration, with a strong background in Python and XML.",
-          "unique_approach": "Focus on tailored solutions that align with specific business processes, ensuring maximum ROI.",
-          "post_launch_support": "Offer 3 months of post-launch support and optimization to ensure smooth operation and address any issues."
-        },
-        "technologies_used": [
-          "Odoo ERP v15",
-          "Stripe API, Mailchimp API",
-          "Python 3.9, XML",
-          "PostgreSQL 13",
-          "Linux/Ubuntu 20.04"
-        ],
-        "project_summary": {
-          "title_professional": "Odoo ERP Implementation and Customization Consultant",
-          "description_executive": "Implement a customized Odoo ERP solution to streamline Cidroy Infotech's core business processes, enhancing efficiency and reducing errors through automation and integration.",
-          "timeline_realistic": "30 days from project initiation to full deployment",
-          "budget_justification": "The proposed pricing reflects the complexity and customization required, ensuring a robust solution that delivers significant operational improvements and cost savings."
-        },
-        "problem_analysis": "Currently, Cidroy Infotech may be handling their core business processes such as accounting, inventory management, sales tracking, and CRM manually or through disparate systems, leading to inefficiencies and data silos.",
-        "proposed_solution": "Implement a fully integrated Odoo ERP system tailored to automate accounting, inventory, sales, and CRM processes. Customize modules using Python and XML to meet specific business needs.",
-        "technical_details": "Odoo ERP is the primary platform due to its comprehensive suite of business applications and customization capabilities.",
-        "timeline": "30 days from project initiation to full deployment",
-        "why_me": "Focus on tailored solutions that align with specific business processes, ensuring maximum ROI.",
-        "implementation_steps": [
-          {
-            "step_number": 1,
-            "title": "Discovery & Setup",
-            "description": "Conduct needs assessment",
-            "deliverable": "Requirements document"
-          },
-          {
-            "step_number": 2,
-            "title": "Integration Development",
-            "description": "Develop custom modules",
-            "deliverable": "Custom Odoo modules"
-          },
-          {
-            "step_number": 3,
-            "title": "Deployment & Training",
-            "description": "Deploy to production",
-            "deliverable": "Live Odoo system"
-          }
-        ]
-      },
-      "created_at": "2025-06-02T04:37:45.488495"
-    },
-    {
-      "title": "Using OCR for reading details from ID and Trade License",
-      "budget": "$800.00",
-      "client_name": "Client",
-      "score": 85,
-      "priority": "must_apply",
-      "filename": "proposal-Using-OCR-for-reading-details-from-ID-and-Trade-Li-1748839053.html",
-      "message": "Hi Client!\n\nI've analyzed your API integration requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: http://192.168.1.107/proposals/proposal-Using-OCR-for-reading-details-from-ID-and-Trade-Li-1748839053.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "http://192.168.1.107/proposals/proposal-Using-OCR-for-reading-details-from-ID-and-Trade-Li-1748839053.html",
-      "original_job_url": "https://www.upwork.com/jobs/Using-OCR-for-reading-details-from-and-Trade-License_~021929396645185699753/?referrer_url_path=/nx/search/jobs/",
-      "analysis": {
-        "client_intelligence": {
-          "company_name": "Not provided in description",
-          "industry_context": "Document processing and data extraction",
-          "current_manual_process": "Manually reading and entering data from National IDs, Passports, and Trade Licenses into their application, leading to inefficiencies and potential errors.",
-          "technical_stack": "Not explicitly mentioned, but involves an application that can receive data via API.",
-          "primary_pain_points": [
-            "Time-consuming manual data entry",
-            "High potential for human error",
-            "Inability to quickly adapt to new document formats"
-          ],
-          "volume_scale": "Assumed to be high due to the need for automation and the types of documents involved"
-        },
-        "solution_architecture": {
-          "core_solution": "Implement an OCR-based automation solution using Tesseract OCR integrated with a custom API to extract data from National IDs, Passports, and Trade Licenses. The extracted data will be formatted and sent to their application via API.",
-          "platform_choice": "Make.com for its robust automation capabilities and ease of integration with custom APIs.",
-          "api_integrations": [
-            "Custom API for data transfer",
-            "Tesseract OCR for text extraction"
-          ],
-          "webhook_strategy": "Set up webhooks to trigger data extraction and API calls upon document upload.",
-          "error_handling": "Implement a validation layer to check data accuracy and provide feedback if data is unreadable or unclear.",
-          "scalability_design": "Design the solution to handle increased document volume by leveraging cloud-based OCR processing and scalable API infrastructure."
-        },
-        "implementation_roadmap": [
-          {
-            "phase": "Discovery & Setup",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Assess current application and API capabilities",
-              "Set up Tesseract OCR environment"
-            ],
-            "deliverables": [
-              "Technical requirements document",
-              "Initial OCR setup"
-            ],
-            "client_involvement": "Provide access to current application and sample documents"
-          },
-          {
-            "phase": "Integration Development",
-            "duration": "10 days",
-            "technical_tasks": [
-              "Develop OCR integration with Tesseract",
-              "Create API endpoints for data transfer"
-            ],
-            "deliverables": [
-              "Working OCR integration",
-              "API documentation"
-            ],
-            "testing_approach": "Conduct unit and integration testing with sample documents"
-          },
-          {
-            "phase": "Deployment & Training",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Deploy solution to production environment",
-              "Conduct staff training sessions"
-            ],
-            "deliverables": [
-              "Live OCR solution",
-              "Training materials and user guides"
-            ],
-            "success_metrics": "Successful data extraction and transfer with minimal errors"
-          }
-        ],
-        "business_impact": {
-          "time_savings": "Estimated 20 hours/week saved by automating data entry",
-          "cost_reduction": "$15,000 annually saved in labor costs",
-          "error_elimination": "Reduction of data entry errors by 90%",
-          "efficiency_gains": "Improved processing speed by 50%",
-          "roi_timeline": "Full ROI expected within 6 months"
-        },
-        "competitive_advantages": {
-          "relevant_experience": "Implemented similar OCR solutions for Fortune 500 companies, improving data accuracy and processing speed.",
-          "technical_expertise": "Deep knowledge of OCR technologies and API integrations tailored to document processing needs.",
-          "unique_approach": "Customizable solution that allows for easy adaptation to new document formats and client-specific requirements.",
-          "post_launch_support": "Offer ongoing support and optimization services to ensure continued performance and adaptability."
-        },
-        "technologies_used": [
-          "Make.com for automation workflows",
-          "Tesseract OCR for text extraction",
-          "Custom API development",
-          "AWS for scalable cloud processing",
-          "Postman for API testing"
-        ],
-        "project_summary": {
-          "title_professional": "Automated OCR Data Extraction for ID and Trade License Processing",
-          "description_executive": "Develop a robust OCR-based automation solution to extract and process data from National IDs, Passports, and Trade Licenses, integrating seamlessly with the client's application via API.",
-          "timeline_realistic": "20 days from project initiation to deployment",
-          "budget_justification": "The proposed solution delivers exceptional value by significantly reducing manual labor costs, minimizing errors, and enhancing processing efficiency, ensuring a rapid return on investment."
-        },
-        "problem_analysis": "Manually reading and entering data from National IDs, Passports, and Trade Licenses into their application, leading to inefficiencies and potential errors.",
-        "proposed_solution": "Implement an OCR-based automation solution using Tesseract OCR integrated with a custom API to extract data from National IDs, Passports, and Trade Licenses. The extracted data will be formatted and sent to their application via API.",
-        "technical_details": "Make.com for its robust automation capabilities and ease of integration with custom APIs.",
-        "timeline": "20 days from project initiation to deployment",
-        "why_me": "Customizable solution that allows for easy adaptation to new document formats and client-specific requirements.",
-        "implementation_steps": [
-          {
-            "step_number": 1,
-            "title": "Discovery & Setup",
-            "description": "Assess current application and API capabilities",
-            "deliverable": "Technical requirements document"
-          },
-          {
-            "step_number": 2,
-            "title": "Integration Development",
-            "description": "Develop OCR integration with Tesseract",
-            "deliverable": "Working OCR integration"
-          },
-          {
-            "step_number": 3,
-            "title": "Deployment & Training",
-            "description": "Deploy solution to production environment",
-            "deliverable": "Live OCR solution"
-          }
-        ]
-      },
-      "created_at": "2025-06-02T04:37:33.965908"
     }
   ]
 }
