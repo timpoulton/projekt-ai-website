@@ -1,7 +1,55 @@
 {
-  "generated_at": "2025-06-02T05:30:01.328638",
+  "generated_at": "2025-06-02T05:35:01.789782",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748842400",
+      "job_title": "Systeme.io Expert Needed for Project",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a Systeme.io expert to assist us with setting up and optimizing our online sales funnels and marketing campaigns. The ideal candidate will have extensive experience with Systeme.io features and functionalities to ensure effective integration and performance. You will be responsible for creating engaging landing pages, automating email sequences, and analyzing data to improve conversion rates. If you have a passion for digital marketing and a proven track record of success with Sys...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:33:20.981220",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Systemeio-Expert-Needed-for-Project-1748842400981.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748842400",
+      "job_title": "Forex Factory Calendar Automation Developer",
+      "client_name": "Client",
+      "budget": "$5.00",
+      "description": "We are seeking a skilled developer to create an automation tool that integrates with the Forex Factory calendar. The tool should analyze the week's data and determine which days are favorable for trading based on collected metrics. The ideal candidate will have experience in financial data processing and automation technologies to ensure accurate trading alerts. If you have a passion for forex trading and can deliver a robust solution, we would love to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:33:20.559755",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Forex-Factory-Calendar-Automation-Developer-1748842400559.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748842086",
       "job_title": "Performance Media Buyer \u2013 TrafficJunky Campaign Manager (Intimacy & Wellness Brand)",
@@ -3436,28 +3484,6 @@
       "filename": "your-company-proposal-1748819883246.html",
       "timestamp": "2025-06-01T23:18:03.247278",
       "priority": "must_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Experienced AI Developer Needed for Synthflow Callers Integration",
-      "client_name": "Synthflow Callers Integration",
-      "score": 65,
-      "proposal_url": "https://projekt-ai.net/proposals/synthflow-callers-integration-proposal-1748819883232.html",
-      "message": "Hi!\n\nI specialize in systems integration and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/synthflow-callers-integration-proposal-1748819883232.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
-      "filename": "synthflow-callers-integration-proposal-1748819883232.html",
-      "timestamp": "2025-06-01T23:18:03.232888",
-      "priority": "should_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Stripe Radar Expert Needed for Fraud Prevention",
-      "client_name": "Fraud Prevention",
-      "score": 63,
-      "proposal_url": "https://projekt-ai.net/proposals/fraud-prevention-proposal-1748819575902.html",
-      "message": "Hi!\n\nI specialize in systems integration and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/fraud-prevention-proposal-1748819575902.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
-      "filename": "fraud-prevention-proposal-1748819575902.html",
-      "timestamp": "2025-06-01T23:12:55.902699",
-      "priority": "should_apply"
     }
   ]
 }
