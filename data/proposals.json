@@ -1,7 +1,56 @@
 {
-  "generated_at": "2025-06-02T06:15:01.315277",
+  "generated_at": "2025-06-02T06:20:01.199443",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748845158",
+      "job_title": "Embedded Systems Engineers",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "We are seeking an experienced GUI and UI Developer to design, develop, and maintain user\ninterfaces for Linux-based lab instruments with Wi-Fi and IoT capabilities. This role involves\ncreating intuitive, responsive, and efficient GUIs for real-time data monitoring, device\ninteraction, and compliance-based logging.\n\nKey Responsibilities:\n\uf0b7 Design and develop touchscreen-based or desktop UIs for embedded Linux instruments.\n\uf0b7 Integrate the GUI with hardware interfaces, sensor data, and network modu...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T06:19:18.514966",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Embedded-Systems-Engineers-1748845158514.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748845158",
+      "job_title": "Find New 300 Indonesia (JKT) Companies with WhatsApp Numbers",
+      "client_name": "Client",
+      "budget": "$85.00",
+      "description": "Hi, we are looking for 100 additional/new companies WatApp numbers to be added to our current list...\n\nYou'd need to Google and then likely to go into the website to find the WatApp link, or icon, or on their social media profile.\n\nWe need someone to manually find them and populate into our spreadsheet, or if you have the technical tools to automate this, it's a fair game too =)\n\n*typo deliberate as Upwork is sensitive abt the word!\n\nDEADLINE: We are looking for someone who is available to work ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T06:19:18.084296",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Find-New-300-Indonesia-JKT-Companies-with-WhatsApp-1748845158084.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748844857",
       "job_title": "Online Course Launch & Marketing for Online Course",
@@ -3094,129 +3143,6 @@
         "custom_approach": "I believe in a collaborative, iterative approach. I will work closely with your team throughout the process, from understanding your needs in depth to designing a solution, implementing it, and refining it based on feedback and testing. My goal is to create a solution that not only meets your needs today, but is flexible and scalable for the future."
       },
       "created_at": "2025-06-01T23:46:57.316296"
-    },
-    {
-      "title": "Make.com Automation Expert Needed - Connect CRM to Email Marketing",
-      "budget": "$2,500",
-      "client_name": "Sarah Johnson",
-      "score": 167,
-      "priority": "must_apply",
-      "filename": "proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748821597.html",
-      "message": "Hi Sarah Johnson!\n\nI've analyzed your CRM automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: http://192.168.1.107/proposals/proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748821597.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nSpecifically for your project: I will approach this project by first gaining a deep understanding of your current processes and desired outcomes. Then, I'll design a custom automation workflow tailored to your specific needs, set it up using the most suitable tools, and provide thorough testing and support to ensure everything runs smoothly.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "http://192.168.1.107/proposals/proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748821597.html",
-      "original_job_url": "",
-      "analysis": {
-        "current_process": "You are currently manually exporting leads from HubSpot and importing them into Mailchimp every week.",
-        "desired_outcome": "You want new leads from HubSpot CRM to be automatically added to appropriate Mailchimp email sequences based on their source and lead score.",
-        "tools": "Make.com, n8n, Zapier, HubSpot CRM, Mailchimp, API",
-        "workflow_steps": [
-          {
-            "title": "Understanding Business Needs",
-            "description": "I will start by understanding your business model, lead management process, and the specifics of how you use HubSpot CRM and Mailchimp."
-          },
-          {
-            "title": "Designing Automation Workflow",
-            "description": "Next, I will design an automation workflow that includes triggers and actions based on lead source and score in HubSpot, and corresponding sequence assignment in Mailchimp."
-          },
-          {
-            "title": "Setting Up and Testing Integration",
-            "description": "I will set up the integration using n8n or Zapier, test it thoroughly, and make adjustments as needed to ensure reliable operation."
-          },
-          {
-            "title": "Training and Support",
-            "description": "Finally, I will train your team on how to manage the integration and provide support for any issues that arise."
-          }
-        ],
-        "services": [
-          "Business process analysis",
-          "Automation workflow design",
-          "HubSpot-Mailchimp integration setup",
-          "Integration testing and adjustment",
-          "Training and support"
-        ],
-        "process_items": [
-          {
-            "title": "Initial Consultation and Analysis",
-            "description": "Understanding your business needs, assessing current usage of HubSpot and Mailchimp, and identifying key automation requirements."
-          },
-          {
-            "title": "Workflow Design and Approval",
-            "description": "Designing a custom automation workflow and getting approval on the design before proceeding with setup."
-          },
-          {
-            "title": "Integration Setup and Testing",
-            "description": "Setting up the integration, testing it thoroughly, and making necessary adjustments to ensure it works reliably."
-          },
-          {
-            "title": "Training and Ongoing Support",
-            "description": "Training your team on how to manage the new setup and providing ongoing support for any issues."
-          }
-        ],
-        "unique_value": "I am uniquely qualified for this project because of my deep expertise in Make.com, n8n, Zapier, and API integrations. I'm also experienced in both HubSpot and Mailchimp, giving me a full understanding of your needs from both a CRM and email marketing perspective.",
-        "custom_approach": "I will approach this project by first gaining a deep understanding of your current processes and desired outcomes. Then, I'll design a custom automation workflow tailored to your specific needs, set it up using the most suitable tools, and provide thorough testing and support to ensure everything runs smoothly."
-      },
-      "created_at": "2025-06-01T23:46:37.930341"
-    },
-    {
-      "title": "Referral Tracking System Development Using Power Automate, Excel, or Google Sheets",
-      "budget": "N/A",
-      "client_name": "Team",
-      "score": 50,
-      "priority": "consider",
-      "filename": "proposal-Referral-Tracking-System-Development-Using-Power-A-1748821169.html",
-      "message": "Hi Team,\n\nI've reviewed your workflow automation needs and prepared a solution overview: https://projekt-ai.net/proposals/proposal-Referral-Tracking-System-Development-Using-Power-A-1748821169.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
-      "url": "https://projekt-ai.net/proposals/proposal-Referral-Tracking-System-Development-Using-Power-A-1748821169.html",
-      "analysis": {
-        "current_process": "The client is currently managing referrals manually or with an inefficient system.",
-        "desired_outcome": "The client wants an efficient, user-friendly referral tracking system that streamlines data management and improves overall effectiveness.",
-        "tools": "Power Automate, Excel, Google Sheets",
-        "workflow_steps": [
-          {
-            "title": "Requirement Gathering",
-            "description": "Understand the current referral process and identify the key requirements for the new system."
-          },
-          {
-            "title": "Design",
-            "description": "Design the layout and structure of the new system based on the requirements."
-          },
-          {
-            "title": "Development",
-            "description": "Implement the design using the identified tools, ensuring all requirements are met."
-          },
-          {
-            "title": "Testing & Deployment",
-            "description": "Test the new system for any issues and deploy it upon successful validation."
-          }
-        ],
-        "services": [
-          "Custom System Development",
-          "Automation Implementation",
-          "Data Management Solutions",
-          "Workflow Optimization",
-          "User Training & Support"
-        ],
-        "process_items": [
-          {
-            "title": "Discovery Phase",
-            "description": "Understand the client's current referral process, challenges and objectives."
-          },
-          {
-            "title": "Plan & Design Phase",
-            "description": "Formulate a plan, select the right tools, and design the system blueprint."
-          },
-          {
-            "title": "Development Phase",
-            "description": "Build the system, integrate necessary tools and ensure data accuracy."
-          },
-          {
-            "title": "Delivery & Support Phase",
-            "description": "Deliver the solution, provide training to users and offer ongoing support."
-          }
-        ],
-        "unique_value": "As an expert in automation and system development, I can create a robust, efficient and user-friendly referral tracking system tailored to your needs. My deep understanding of Power Automate, Excel, and Google Sheets will ensure a seamless integration and improved data management.",
-        "custom_approach": "My approach will focus on understanding your specific needs, then designing and implementing a solution that maximizes efficiency and user friendliness. I'll leverage the power of automation to streamline your referral process and improve overall effectiveness."
-      },
-      "created_at": "2025-06-01T23:39:29.891831"
     }
   ]
 }
