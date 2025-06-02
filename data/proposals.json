@@ -1,7 +1,78 @@
 {
-  "generated_at": "2025-06-02T12:45:01.390013",
+  "generated_at": "2025-06-02T12:50:01.212544",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748868438",
+      "job_title": "Excel costing tool",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Costing tool in excel for interior design firm with output in pdf (Costing presentation, first page client name. Second page greetings, static. Quote (which may be from 5-20 pages). Third last page, services, static. Second last page, why our design firm, static. Last page, thank you, static. Timeline is 7 days.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:47:18.126325",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Excel-costing-tool-1748868438126.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868437",
+      "job_title": "Cost reduction audit for automations workflow",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Conduct a detailed audit on a 7 scenario automation workflow to help reduce costs and eliminate a list of bugs we are trying to remove from the system. The automation platform is make.com and we are using Open AI.",
+      "analysis": {
+        "tools": [
+          "Make.Com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Make.Com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T12:47:17.716891",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Cost-reduction-audit-for-automations-workflow-1748868437716.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868436",
+      "job_title": "High Ticket Remote Closer!",
+      "client_name": "Client",
+      "budget": "$3,000.00",
+      "description": "We're currently searching for a high ticket remote closer to join our team.\n\nWe offer AI based lead generation services at $3,000-$9,000\n\nWhat We\u2019re Looking For:\n- Experience in closing high-ticket B2B deals\n- Excellent communication and rapport-building skills\n- Comfortable working across EST and PST time zones\n- Self-motivated with a strong drive to succeed\n\nYou\u2019ll be supported with qualified leads, appointment setters, advanced automation tools, and a full-service CRM setup.\n\nTo be considered...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:47:16.471061",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-High-Ticket-Remote-Closer-1748868436471.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748868138",
       "job_title": "Neural bot yfinance python scriptlet new features",
@@ -1119,77 +1190,6 @@
       "score": 80,
       "created_at": "2025-06-02T11:51:42.372350",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-n8n-Workflow-Expert--AI--WhatsApp-Integration-with-1748865102372.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865101",
-      "job_title": "Email Marketing & Copywriting [Kajabi] \u2013 Wellness Brand with a Purpose",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Taoist Wellness Online (taoistwellness.online) is the world's most popular Tai Chi, Qi Gong, and Daoist wellness brand. Our mission is to help people live with clarity, energy, and balance by offering accessible training in Tai Chi, Qi Gong, Meditation, Breathwork, and practical Daoist wisdom to thousands worldwide.\n\nWe\u2019re looking for someone to lead our email marketing who writes with care, converts with subtlety, and loves building thoughtful flows that reflect the heartbeat of a conscious bra...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:51:41.953835",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email-Marketing--Copywriting-Kajabi--Wellness-Bran-1748865101953.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865101",
-      "job_title": "Social media Marketing Assistant for Relationship Niche",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Social media Marketing Assistant for Relationship Niche\nMARKETING PLAYBOOK\nRelationShift and Future Businesses\n\nType of Virtual Assistant Needed\nRole: Digital Marketing Virtual Assistant (Specializing in Relationship/Wellness Brands)\nFocus Areas:\nOrganic Content & Social Media Management\nPaid Advertising (Meta/Google Ads)\nEmail Marketing & Lead Nurturing\nCommunity Building & User-Generated Content (UGC)\nLocalization & Multilingual Campaigns\n\nKey Qualifications\nSkill/Tool\nWhy It Matters\nSocial Me...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T11:51:41.528157",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Social-media-Marketing-Assistant-for-Relationship--1748865101528.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748864805",
-      "job_title": "Dynamics 365 Supply Chain Functional Consultant | Remote | 1-Month Contract (Part-Time)",
-      "client_name": "Client",
-      "budget": "$357.00",
-      "description": "We are seeking an experienced Microsoft Dynamics 365 Supply Chain Functional Consultant for a 1-month contract (Remote | Part-time: 4 hours/day). The consultant will work on implementing and optimizing Dynamics 365 solutions, specifically focusing on Project Production Control, Inventory, Logistics, and Manufacturing.\n\n Responsibilities include:\n1. Business Process Analysis: Analyze and document client supply chain workflows (procurement, inventory, logistics, manufacturing). Identify inefficien...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:46:45.701889",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Dynamics-365-Supply-Chain-Functional-Consultant--R-1748864805701.html",
       "original_job_url": "",
       "status": "pending"
     }
