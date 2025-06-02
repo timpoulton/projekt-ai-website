@@ -1,7 +1,102 @@
 {
-  "generated_at": "2025-06-02T13:25:01.122359",
+  "generated_at": "2025-06-02T13:30:01.550991",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748870880",
+      "job_title": "Developing crypto bot fot saving statistics about sizes in orderbook",
+      "client_name": "Client",
+      "budget": "$150.00",
+      "description": "Project goal \u2013 to develop a bot that will gather statistics for large orderbook densities on the OKX, Bybit, and Binance exchanges. The project can be divided into three stages, one stage per exchange. For development, it is preferable to use Python. The code must operate asynchronously. We will work with both futures and spot markets. For all detected densities, we analyze their lifetime, rebound percentages, and the volume traded at the density price.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:28:00.438273",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Developing-crypto-bot-fot-saving-statistics-about--1748870880438.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870879",
+      "job_title": "RAG-LLM Chatbot Integration to an Existing Portfolio Website",
+      "client_name": "Client",
+      "budget": "$800.00",
+      "description": "Hi there,\n\nI'm looking for freelancer who is detail-oriented, good with communicating in English, transparent at every step of the work, honest and trustworthy, to integrate RAG-LLM Chatbot to my Next.js portfolio website: www.mrjacklee.com (Entire code base will be shared)\n\nPlease read the requirements carefully. Accepting the job means you agree to the requirements below. \n\n\u2705 Milestone 1 \u2013 Fund OpenAI API Access ($400)\n- Payment Milestone Trigger: You will receive this payment after you succes...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T13:27:59.173412",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-RAG-LLM-Chatbot-Integration-to-an-Existing-Portfol-1748870879173.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870877",
+      "job_title": "Klaviyo E-Mail Flow Setup f\u00fcr Shopify Store (Deutschsprachig)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hallo!\n\nIch betreibe den Schweizer E-Bike-Store oleyvo.ch und suche einen erfahrenen E-Mail-Marketing-Spezialisten (m/w/d) mit tiefem Know-how in Klaviyo & Shopify, der mein gesamtes E-Mail-Marketing-Setup auf ein neues Level bringt.\n\nDer Klaviyo-Account ist bereits erstellt und mit Shopify verkn\u00fcpft - aber bisher wurde nichts eingerichtet. Jetzt soll die komplette Customer Journey professionell und automatisiert aufgesetzt werden.\n\n\ud83e\udde9 Deine Aufgaben:\n\u2705 Einrichtung folgender Klaviyo-Flows:\n\nPost-...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:27:57.926262",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Klaviyo-E-Mail-Flow-Setup-f\u00fcr-Shopify-Store-Deutsc-1748870877926.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748870876",
+      "job_title": "QA/UAT Tester \u2013 Crypto Automation Tools",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "About Us\nWe\u2019re a fast-growing company at the intersection of crypto trading and automation. Our tools help users\u2014from beginners to pro traders\u2014access high-efficiency trading strategies through intuitive bot interfaces, including messaging platform integrations and automation features.\n\nRole Overview\nWe\u2019re looking for a QA/UAT Tester who\u2019s highly detail-oriented, communicates clearly in written English, and thrives in a learning-focused, fast-paced environment. You\u2019ll test user-facing features, r...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:27:56.663538",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-QAUAT-Tester--Crypto-Automation-Tools-1748870876663.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748870580",
       "job_title": "Gigamon and Vectra deployments",
@@ -1096,99 +1191,6 @@
       "score": 80,
       "created_at": "2025-06-02T12:37:07.446934",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Flutter-Healthcare-MVP---AI-Powered-Patient-Care-P-1748867827446.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748867826",
-      "job_title": "LinkedIn Activity Scraper (1st-degree connections)",
-      "client_name": "Client",
-      "budget": "$1,000.00",
-      "description": "`I'm building a product called Lead Align, part of my B2B outreach automation platform Work Align. The goal of Lead Align is to help users understand what content resonates with their LinkedIn audience by analyzing the activity of their 1st-degree connections.\n\nTo support this, I need a developer to build a scalable, reliable, and stealthy LinkedIn activity scraper. This scraper should collect recent public activity from a list of LinkedIn profile URLs (1st-degree connections only).\n\nWhat the sc...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "SaaS",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T12:37:06.180315",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-LinkedIn-Activity-Scraper-1st-degree-connections-1748867826180.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748867824",
-      "job_title": "\ud83d\ude80 Frontend & Backend Engineer (React) for AI Learning Platform Website Redesign",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "About Schol\u00e9 AI\nAt Schol\u00e9 AI, we believe learning should adapt to the learner\u2014not the other way around. We\u2019re building an AI platform that helps learners master AI skills through personalized, interactive learning journeys. Our small, driven team includes PhD technical founders with expertise in computer science, AI, and education.\n\nThe Role\nWe\u2019re looking for a skilled full-stack developer (frontend and backend) to take full ownership of our website redesign. Our current site (schole.ai) is a si...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T12:37:04.915037",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal--Frontend--Backend-Engineer-React-for-AI-Learning--1748867824915.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748867824",
-      "job_title": "Shopify CRO Expert Needed \u2014 PDP + Homepage Redesign",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "\ud83e\uddfe Job Description:\nWe\u2019re DryStep \u2014 a premium sock brand for modern professionals who move from office to workout without missing a step. Think \u201cStep One meets Lululemon, for your feet.\u201d\n\nWe're ready to scale, and we\u2019re looking for a Shopify CRO-focused designer/developer to revamp our Product Page, Homepage, and Slide Cart using a Shopify 2.0 theme (Horizon or Impact preferred). This isn\u2019t just a visual refresh \u2014 we want a performance-driven upgrade that lifts conversion rate, AOV, and trust. We...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:37:04.505992",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-CRO-Expert-Needed--PDP--Homepage-Redesign-1748867824506.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748867529",
-      "job_title": "QA Engineer",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a meticulous QA Engineer to ensure the quality and stability of our Rich Engage customer data platform (CDP). The ideal candidate will have hands-on experience writing test cases, reporting bugs in Jira, and performing stress tests using JMeter. You will collaborate closely with product managers, developers, and other stakeholders to verify that every feature of Rich Engage meets our high standards before release.\n\nResponsibilities\nDetail-Oriented Quality Assurance\n\nAnalyze Rich E...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "SaaS",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T12:32:09.051899",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-QA-Engineer-1748867529051.html",
       "original_job_url": "",
       "status": "pending"
     }
