@@ -1,7 +1,56 @@
 {
-  "generated_at": "2025-06-02T05:20:01.119469",
+  "generated_at": "2025-06-02T05:25:01.941143",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748841783",
+      "job_title": "GSEN Knowledge Base Project - Phase 2 Development",
+      "client_name": "Client",
+      "budget": "$800.00",
+      "description": "Phase 2: Content Submission & Review (June\u2013July 2025)\nThe goal of this phase is to transition from research collection to structuring and populating\nthe GSEN Knowledge Base platform for GSEN users with the initial content contributions,\nwhile also enabling ongoing, community-driven resource submissions.\nMilestone 1\nObjective: Design a system for efficient and scalable community contributions.\n- Based on the structure and learnings from Phase 1, recommend a streamlined plan to\ncontinuously gather...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T05:23:03.646246",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-GSEN-Knowledge-Base-Project---Phase-2-Development-1748841783646.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748841783",
+      "job_title": "Professional Consultant Wanted (Accounting Software)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Seeking a knowledgeable and experienced professional with a wide range of experience in accounting, ecommerce software, and integrations between them. \n\nOur choices are open as we will need to migrate to a completely new system and we are seeking the best results. \n\nAccounting Software (with inventory application) \nEcommerce Platform (Shopify or BigCommerce)  \nPayment Processing / Processor \n\nWith Goals of : Efficiency, Integration, Automation, Simple user interface. \n\nWe want to put together th...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "e-commerce",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your e-commerce.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:23:03.239394",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Professional-Consultant-Wanted-Accounting-Software-1748841783239.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "title": "Oracle EPM Consultant -6+ Years exp- YK",
       "budget": "N/A",
@@ -3396,28 +3445,6 @@
       "filename": "your-company-proposal-1748819575892.html",
       "timestamp": "2025-06-01T23:12:55.893374",
       "priority": "should_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Airtable - production management",
-      "client_name": "production management",
-      "score": 92,
-      "proposal_url": "https://projekt-ai.net/proposals/production-management-proposal-1748819275292.html",
-      "message": "Hi there!\n\nI noticed you need help with automation. I've actually created a custom automation workflow and project breakdown specifically for your requirements.\n\nYou can view your personalized proposal here:\n\u2192 https://projekt-ai.net/proposals/production-management-proposal-1748819275292.html\n\nThis demonstrates exactly how I'd solve your specific challenges, including the tools, timeline, and investment required.\n\nI'm particularly excited about this project because it aligns perfectly with my expertise in building similar systems.\n\nLooking forward to discussing this with you!\n\nBest regards,\nTim",
-      "filename": "production-management-proposal-1748819275292.html",
-      "timestamp": "2025-06-01T23:07:55.293032",
-      "priority": "must_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Experienced Affiliate Marketing Specialist Needed",
-      "client_name": "Your Company",
-      "score": 95,
-      "proposal_url": "https://projekt-ai.net/proposals/your-company-proposal-1748819275285.html",
-      "message": "Hi there!\n\nI noticed you need help with email automation. I've actually created a custom automation workflow and project breakdown specifically for your requirements.\n\nYou can view your personalized proposal here:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748819275285.html\n\nThis demonstrates exactly how I'd solve your specific challenges, including the tools, timeline, and investment required.\n\nI'm particularly excited about this project because it aligns perfectly with my expertise in building similar systems.\n\nLooking forward to discussing this with you!\n\nBest regards,\nTim",
-      "filename": "your-company-proposal-1748819275285.html",
-      "timestamp": "2025-06-01T23:07:55.285956",
-      "priority": "must_apply"
     }
   ]
 }
