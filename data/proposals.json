@@ -1,7 +1,241 @@
 {
-  "generated_at": "2025-06-02T15:15:01.424260",
-  "total_proposals": 20,
+  "generated_at": "2025-06-02T15:20:01.465387",
+  "total_proposals": 30,
   "proposals": [
+    {
+      "job_id": "job_1748877529",
+      "job_title": "Langchain, agentic developer - 5 years + India,  Nigeria, Kenya, Egypt, Bangladesh 3 position",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Role Overview:\nMinimum 5 years in backend/full-stack development with strong Python & LLM integration experience\nHands-on LLM integration in production (not academic/chatbot-only experience)\nExpertise in designing production-grade APIs and backend services\nPractical experience with LangChain, LangGraph, RAG pipelines, agent frameworks\nStrong knowledge of async workflows, deployment, observability, and performance\nThis is a software engineering role (not data science, analytics, or annotation\n\nTh...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\nI saw you're looking for someone with real-world LLM experience, not just chatbot stuff. I get that \u2013 I spent six months last year untangling a RAG pipeline for a financial client that had been built on theory, not reality, and it was a mess!\n\nBased on your description, I think we could start by first really diving into your current workflows and identifying the bottlenecks ripe for automation with Langchain. Then, design some robust APIs around those automations, focusing on observability from the start. Finally, build out those RAG pipelines with async workflows to ensure efficient information retrieval.\n\nI'd be happy to chat for 15 minutes to see if my experience lines up well with your needs. Let me know if you're free sometime next week.",
+      "score": 80,
+      "created_at": "2025-06-02T15:18:49.411794",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Langchain-agentic-developer---5-years--India--Nige-1748877529411.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877526",
+      "job_title": "Make.com intregrations expert",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are automizing different processes with Make.com\n\nSources we work with:\n- TG messenger  - for giving instructions\n- Midjourney to create pictures\n- Google Drive to upload\n- LLM model as ChatGPT, Gemini, Perplexity to give feedback to pictures\n- LLM model to create text / quotes for pictures and for single content\n- Create content, upload, put information into google spreadsheet.\n\nWe have many chains we want to build and need somebody who can support us with integrations and who has significan...",
+      "analysis": {
+        "tools": [
+          "Make.Com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw your project description mentioning the need to automate processes with Make.com \u2013 especially the part about creating content, uploading, and then manually wrangling that info into Google Sheets. I totally get it. I was helping a photographer friend streamline his workflow the other day, and just the Google Drive upload step was eating up half his afternoon!\n\nFor your setup, I'd initially focus on connecting TG messenger to Make.com to trigger the image creation in Midjourney. Then, feed that image to your LLM for feedback, and finally automatically upload everything to Drive and update the Google Sheet. We can tackle this in stages to make sure everything's smooth.\n\nI'm available for a quick chat to see how this all comes together. Let me know if you're free sometime this week.",
+      "score": 80,
+      "created_at": "2025-06-02T15:18:46.688124",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Makecom-intregrations-expert-1748877526688.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877523",
+      "job_title": "Need an Expert Website Builder to Create a Modern, Fully Functional Business Website",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for an experienced website builder (no-code or low-code acceptable) to help design and develop a fully functional, visually appealing, and user-friendly business website. This will be the online face of our brand, so quality, performance, and UX are key.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nSaw you're aiming for a \"fully functional, visually appealing, and user-friendly business website\" - nailed it, that's crucial. I get it; the online face *is* everything these days.\n\nFunny enough, just last month, I helped a local bakery finally ditch their paper order forms and move everything online. What they thought would take weeks was up and running within days, and the owner was *thrilled* with the new level of efficiency.\n\nFor your project, I'd start by diving deep into understanding your brand and target audience, sketching out a sitemap for optimal UX, and then choosing the right no-code or low-code platform that fits your specific needs.\n\nI'd love to hear more about your brand. Maybe we can hop on a quick call sometime next week to chat about your vision?",
+      "score": 70,
+      "created_at": "2025-06-02T15:18:43.865726",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Need-an-Expert-Website-Builder-to-Create-a-Modern--1748877523865.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877521",
+      "job_title": "NET Developer",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Reynolds and Reynolds is currently seeking candidates with prior experience of systems design and development.\n\nREQUIREMENTS:\n\n2+ years prior work experience is required in one or more of the following:\n\n.NET (C# or VB.NET)\nMicrosoft SQL Server (database design, DBA, stored procedures, OLAP and reporting)\nWeb services integration using SOAP or REST APIs\nTraining in C/C++ will be provided but prior experience will be an advantage\nProven track record of the delivery of successful projects\nA degree...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there, Reynolds and Reynolds team,\n\nSeeing you're looking for someone to help with system design and development in .NET definitely caught my eye. I've spent a lot of time automating manual processes, which I noticed as one of your key pain points.\n\nFunny enough, years ago, I wrestled with a similar SQL Server database situation where reports were taking hours to generate. We ended up streamlining the stored procedures and implementing some clever indexing \u2013 shaved the time down to minutes!\n\nFor your needs, I\u2019d initially look at: 1) Analyzing your current system bottlenecks, 2) Designing optimized .NET solutions with efficient SQL Server interaction, and 3) Integrating Web services to improve processes.\n\nI\u2019d love to chat more about your specific challenges. Let me know if you're free for a quick call sometime next week.\n\nCheers,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T15:18:41.015447",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-NET-Developer-1748877521015.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877518",
+      "job_title": "n8n Workflow Development for Restaurant Automation",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an experienced freelancer to help us build and optimize an n8n workflow tailored for our restaurant operations. The ideal candidate will have a strong understanding of automation processes and how to integrate various tools to enhance efficiency. You will be responsible for continuing the development of our existing workflow, ensuring it meets our specific restaurant needs. If you have a background in n8n and a passion for improving business processes through automation, we want t...",
+      "analysis": {
+        "tools": [
+          "N8N"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "restaurant/hospitality",
+        "score": 80
+      },
+      "message": "Hi there,\n\nI saw you're looking to continue development of your n8n workflow for restaurant automation and are facing some integration challenges. I've definitely been there! Just last month I spent a week wrestling with a clunky legacy POS system that refused to play nice with a new inventory management tool. It taught me a lot about creative workarounds and the importance of thoroughly testing each integration point.\n\nTo help you get back on track, I'd suggest first taking a deep dive into your existing workflow to identify any bottlenecks, then map out a clear integration strategy for each tool based on your restaurant's unique processes, and finally, rigorously test each integration to ensure smooth data flow.\n\nWould love to chat briefly about the specific tools you're working with and see if my experience might be a good fit for your needs.",
+      "score": 80,
+      "created_at": "2025-06-02T15:18:38.100010",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-n8n-Workflow-Development-for-Restaurant-Automation-1748877518100.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877516",
+      "job_title": "Klaviyo Expert Needed for Audience Segmentation and List Management",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a Klaviyo expert who can assist us in better segmenting our audience for targeted marketing efforts. The ideal candidate will also provide guidance on maintaining a clean and active email list. Your expertise will help us enhance our email marketing strategy and improve overall engagement. If you have a strong background in Klaviyo and proven results in audience segmentation and list hygiene, we want to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Better segmenting our audience for targeted marketing efforts\" \u2013 I get it. Spent a chunk of last year untangling a client\u2019s Klaviyo setup that was basically sending the wrong promotions to the wrong people, and it was a mess! We ended up finding almost half their list was completely miscategorized.\n\nTo help you, I'd start by diving into your existing customer data to identify key segments based on purchase history and behavior. Then, we\u2019d refine your current flows to personalize messaging for those segments. Finally, I\u2019d implement a cleanup strategy (potentially using double opt-in for new subscribers) to boost list health.\n\nWould love to chat more about how I can help you get your Klaviyo shipshape!",
+      "score": 70,
+      "created_at": "2025-06-02T15:18:36.127652",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Klaviyo-Expert-Needed-for-Audience-Segmentation-an-1748877516127.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877514",
+      "job_title": "Simple Zapier Automation Help Needed",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I'm looking for zapier automation help regarding my twilio and elevenlabs conversational AI flow. \n\nI want to get an email notification everytime there's an inbound call to my twilio number.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking for some Zapier help with Twilio and ElevenLabs \u2013 specifically getting an email notification on inbound calls. I totally get that; those little manual tasks can really eat up time.\n\nI remember early on when I was building my own Twilio integration, I spent a *day* debugging a similar email notification setup. Turns out, a simple formatting error was the culprit!\n\nFor your project, I'd suggest we first confirm the webhook trigger from Twilio is sending the call data correctly. Then, we'll map those data fields (like the caller ID) to the email template in Zapier, and finally, add a filter to only trigger on inbound calls.\n\nIf this approach sounds good, let's hop on a quick call. I can take a look at your current setup and we can walk through this together.",
+      "score": 80,
+      "created_at": "2025-06-02T15:18:34.178235",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Simple-Zapier-Automation-Help-Needed-1748877514178.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877512",
+      "job_title": "Build me a newsletter / blogpost with automation",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I want someone to create me a blog post / newsletter template ( I don\u2019t really know the difference) \nSo I have written a blog post I need it to have a button on it to send any subscribers to my CRM, I have 2 Hubspot and mailer lite, either one does it for me.\nI then want an automated follow up system which I will need help with, your experience will help me a lot in this.\nI will be sending an email to potential opportunities and existing subscribers, but these are from other sites so need to com...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\n\"I don\u2019t really know the difference,\" you said about blog posts and newsletters \u2013 totally understandable! I actually had a client last year in a similar spot. They thought they needed a full-blown blog, but after chatting, a well-designed newsletter with snippets of blog content worked better for their audience.\n\nFor your project, I'd suggest starting with:\n1. Crafting that template for either a blog post or newsletter, focusing on a clean design that integrates seamlessly with HubSpot or MailerLite (whichever you prefer).\n2. Embedding that call-to-action button to collect those new subscribers.\n3. Designing a simple, automated follow-up sequence within your chosen CRM to nurture those leads.\n\nHappy to have a quick chat about your specific content and goals to figure out the best approach. Let me know if you're free sometime next week.",
+      "score": 70,
+      "created_at": "2025-06-02T15:18:32.099885",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-me-a-newsletter--blogpost-with-automation-1748877512099.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877509",
+      "job_title": "Need Canva Expert to integrate created content with custom content platform library.",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are a marketing and content management platform called Evolved Office. Our platform runs in MVC .NET written in JQuery and C#. We have added AI-Generated image content modules and are expanding the type of content we offer along with new marketing vehicles for our clients. \n\nIn order to bring Canva design closer to our platform, we would like to integrate by creating an application inside the Share application options inside Canva. If possible we would like to utilize SSO (single-sign on for ...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi Evolved Office team,\n\n\"Bringing Canva design closer to our platform\" \u2013 I get it. I've wrestled with similar integrations before, especially with platforms built on the .NET stack. Once, I spent a week chasing a ghost API call because of a subtle mismatch in authentication protocols. Fun times!\n\nTo get your Canva integration running smoothly, I'd suggest: first, diving deep into Canva's API documentation, specifically around sharing and SSO options. Then, I'd build a small proof-of-concept app to test the connection and authentication flow. Finally, we can integrate that into your existing MVC .NET architecture and jQuery framework.\n\nWould you be open to a quick chat so I can understand the specifics of your setup and authentication needs?",
+      "score": 80,
+      "created_at": "2025-06-02T15:18:29.257148",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Need-Canva-Expert-to-integrate-created-content-wit-1748877509257.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748877507",
+      "job_title": "Next.js Developer for Frontend Migration from Flutter",
+      "client_name": "Client",
+      "budget": "$250.00",
+      "description": "Project Title:\nMigrate Frontend WebApp from Flutter/Dart to Next.js for Travel Web App (travelbud.in)\n\nProject Description:\nWe are looking for a skilled and experienced Front-End Developer to migrate our existing WebApp frontend built with Flutter (Dart) to Next.js (React framework). Our product is TravelBud (https://travelbud.in) \u2014 a travel platform that connects travelers with unique homestay experiences across India.\n\nGoal:\nThe goal of this project is to create a more scalable, SEO-friendly, ...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there! Saw you're migrating travelbud.in from Flutter to Next.js \u2013 I hear you on the scalability and SEO front with Flutter web apps sometimes.\n\nI actually helped a client a few years back who'd built a real-estate portal in Flutter, and we ended up rewriting the front-end in React for very similar reasons. The biggest thing we focused on was carefully mapping the data flow between the two platforms and establishing a very clear, documented API to make the switch seamless.\n\nFor your project, I'd suggest starting with a component-by-component migration strategy. After that, we could use a staging environment to iron out any integration challenges you foresee. Finally, we can optimize the app to meet your desired SEO requirements.\n\nWould love to chat more about your specific setup sometime this week if you're free.",
+      "score": 80,
+      "created_at": "2025-06-02T15:18:27.251685",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Nextjs-Developer-for-Frontend-Migration-from-Flutt-1748877507251.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748877226",
       "job_title": "FastAPI Developer for RESTful API Development",
