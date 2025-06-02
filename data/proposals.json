@@ -1,7 +1,78 @@
 {
-  "generated_at": "2025-06-02T10:15:01.823637",
+  "generated_at": "2025-06-02T10:20:01.768463",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748859335",
+      "job_title": "Web design and development for a wealth management firm",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hi Dipan,\n\nI\u2019m looking to redesign our existing WordPress website to give it a premium, modern, and professional look. The site currently uses WPBakery, is hosted on WP Engine, and includes plugins like Zoho CRM Forms, Contact Form 7, If-So, AYS Popup Box, and Animated Counters.\n\nKey requirements:\n\nComplete design overhaul with a clean, corporate layout\n\nFully responsive and SEO-optimized\n\nIntegration of financial calculators, interactive charts, and visual tools\n\nSmooth user experience with sub...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:15:35.169738",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-design-and-development-for-a-wealth-management-1748859335169.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748859333",
+      "job_title": "Create endpoint API Dolibarr",
+      "client_name": "Client",
+      "budget": "$20.00",
+      "description": "Hi, \n\nI am using Dolibarr Rest API. In front office, I am able to create a shipment for an order. It seems there is not endpoint for that using the API. However there is an API to create an invoice from an order. \nNeed to develop this endpoint.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T10:15:33.917573",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Create-endpoint-API-Dolibarr-1748859333917.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748859332",
+      "job_title": "Video Editor for 'About Cars' YouTube Channel",
+      "client_name": "Client",
+      "budget": "$20.00",
+      "description": "Hi,\nI run a YouTube Automation Coaching service, and I am looking to hire team members for my students.\n\nI\u2019m currently looking for a YouTube VIDEO EDITOR o work with one of my students.\nThe niche is focused on \"Cars, including Vintage Cars and Advanced Automotive Technology.\"\nWe\u2019re seeking someone with a strong sense of pacing, visual storytelling, and experience working in automotive-related content.\n\n**Each student needs around 10 videos per month.\n** 8-9 mins duration per video for $20\n**Fami...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:15:32.629829",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Video-Editor-for-About-Cars-YouTube-Channel-1748859332629.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748859038",
       "job_title": "School App",
@@ -1121,76 +1192,6 @@
       "score": 80,
       "created_at": "2025-06-02T09:15:07.803481",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Senior-Go-High-Level-Automation--CRM-Migration-Spe-1748855707803.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748855707",
-      "job_title": "Android Developer Needed to Fix Firebase Push Notifications + Integrate OneSignal as Backup",
-      "client_name": "Client",
-      "budget": "$30.00",
-      "description": "Hi,\nWe're looking for an experienced Android developer to help us with the following tasks:\n\nFix Firebase Push Notifications \u2013 Our app is currently not receiving push notifications reliably. We need someone to diagnose and fix the issue so that Firebase Cloud Messaging (FCM) works consistently across all devices and OS versions.\nIntegrate OneSignal as an Alternative \u2013 In addition to Firebase, we want to set up OneSignal as a fallback option to send push notifications, ensuring we have a backup s...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T09:15:07.377976",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Android-Developer-Needed-to-Fix-Firebase-Push-Noti-1748855707378.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748849692",
-      "job_title": "Jotform/Humanitix to Stripe integration",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We have a number of Jotform forms that are integrated with Stripe. In the payment intent in Stripe, we need to capture the Source and the Description from Jotform. These are both currently showing as NULL.\n\nWe also require similar for Humanitix.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T07:34:52.901397",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-JotformHumanitix-to-Stripe-integration-1748849692901.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748849692",
-      "job_title": "Web Developer & Automation Specialist",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Join an elite agency that transforms fitness coahes and creators into business powerhouses.\n\nWe\u2019re looking for a highly experienced Web Developer with a proven track record in GoHighLevel and WordPress (Elementor). This isn\u2019t just a code-and-go role \u2013 you\u2019ll be building high-performing landing pages and digital ecosystems for fitness creators and coaches (some with audiences of 5M+), with a sharp eye for conversion optimization and design quality.\n\nYour role:\nBuild, customize, and optimize landi...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T07:34:52.482534",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-Developer--Automation-Specialist-1748849692482.html",
       "original_job_url": "",
       "status": "pending"
     }
