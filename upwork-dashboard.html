@@ -612,7 +612,9 @@
         async function loadProposals() {
             try {
                 // Load from static data file (updated periodically)
-                const response = await fetch('/data/proposals.json');
+                // Use local IP to bypass Cloudflare routing issues
+                const timestamp = new Date().getTime();
+                const response = await fetch(`http://192.168.1.107/data/proposals.json?v=${timestamp}&_=${Math.random()}`);
                 if (!response.ok) {
                     throw new Error('Failed to load proposals');
                 }
@@ -914,6 +916,10 @@
 
         // View proposal
         function viewProposal(url) {
+            // Use direct IP to bypass Cloudflare routing issues
+            if (url.startsWith('https://projekt-ai.net/')) {
+                url = url.replace('https://projekt-ai.net/', 'http://192.168.1.107/');
+            }
             window.open(url.startsWith('http') ? url : 'http://192.168.1.107' + url, '_blank');
         }
 
