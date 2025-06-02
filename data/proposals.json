@@ -1,7 +1,54 @@
 {
-  "generated_at": "2025-06-02T05:45:01.551419",
+  "generated_at": "2025-06-02T05:50:01.474658",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748843320",
+      "job_title": "Automate TradingView Alerts to MT4/MT5 via Webhook",
+      "client_name": "Client",
+      "budget": "$200.00",
+      "description": "We are seeking a skilled developer to automate the integration of TradingView alerts into MT4/MT5 using webhooks. The ideal candidate will have experience in setting up webhook connections and translating TradingView signals into automated trading actions on the MT4/MT5 platforms. This project involves configuring alerts on TradingView, creating a webhook for signal processing, and ensuring seamless execution in the trading platforms. Please provide examples of similar projects you have complete...",
+      "analysis": {
+        "tools": [
+          "Webhook"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T05:48:40.658558",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Automate-TradingView-Alerts-to-MT4MT5-via-Webhook-1748843320658.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748843320",
+      "job_title": "Automation of excel data and website integration",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Looking for someone who can automate to download data from my brands q com ads site to excel and also to automatically fill the data from my excel sheet to my ad campaign page",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:48:40.222452",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Automation-of-excel-data-and-website-integration-1748843320222.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748843013",
       "job_title": "Dynamics CRM/365 Work",
@@ -3488,28 +3535,6 @@
       "filename": "your-company-proposal-1748820189809.html",
       "timestamp": "2025-06-01T23:23:09.809675",
       "priority": "should_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Dropshipping Customer Service",
-      "client_name": "Your Company",
-      "score": 45,
-      "proposal_url": "https://projekt-ai.net/proposals/your-company-proposal-1748820189798.html",
-      "message": "Hi!\n\nI specialize in email automation and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748820189798.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
-      "filename": "your-company-proposal-1748820189798.html",
-      "timestamp": "2025-06-01T23:23:09.799118",
-      "priority": "consider"
-    },
-    {
-      "job_id": "",
-      "job_title": "AI Chatbot + Social Media Automation for Travel Business",
-      "client_name": "Travel Business",
-      "score": 97,
-      "proposal_url": "https://projekt-ai.net/proposals/travel-business-proposal-1748820189792.html",
-      "message": "Hi there!\n\nI noticed you need help with CRM automation. I've actually created a custom automation workflow and project breakdown specifically for your requirements.\n\nYou can view your personalized proposal here:\n\u2192 https://projekt-ai.net/proposals/travel-business-proposal-1748820189792.html\n\nThis demonstrates exactly how I'd solve your specific challenges, including the tools, timeline, and investment required.\n\nI'm particularly excited about this project because it aligns perfectly with my expertise in building similar systems.\n\nLooking forward to discussing this with you!\n\nBest regards,\nTim",
-      "filename": "travel-business-proposal-1748820189792.html",
-      "timestamp": "2025-06-01T23:23:09.792230",
-      "priority": "must_apply"
     }
   ]
 }
