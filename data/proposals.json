@@ -1,7 +1,80 @@
 {
-  "generated_at": "2025-06-02T12:15:01.222899",
+  "generated_at": "2025-06-02T12:20:01.320336",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748866621",
+      "job_title": "AI Automation media generations",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "**Upwork Job Post Draft \u2014 \u201cEnd-to-End Article-Publishing Automation\u201d**\n\n---\n\n### \ud83d\ude80 Overview\n\nWe\u2019re looking for an automation engineer (or small team) to architect and build a *zero-click* content-publishing pipeline. The system should take an idea row in a Google Sheet and automatically generate, optimize, and publish a complete article\u2014optionally to Substack **or** WordPress\u2014while remaining fully agnostic to voice, audience, tone, length, and topic. Everything (title, section count, word count,...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "N8N",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, N8N, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T12:17:01.861999",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Automation-media-generations-1748866621862.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748866610",
+      "job_title": "Linnworks specialist",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83d\udd27 Linnworks Integration Specialist (Freelance \u2013 Immediate Start)\nLocation: Remote | Start Date: Today or Tomorrow | Job Type: Freelance / Short-Term Project\n\nWe\u2019re a UK-based eCommerce business seeking a highly experienced Linnworks specialist to help set up and optimise our multichannel integrations.\n\n\ud83d\udce6 Project Overview:\nYou\u2019ll be responsible for integrating and configuring our sales channels on Linnworks, ensuring seamless syncing of inventory, listings, and order processing. This role require...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "e-commerce",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your e-commerce.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:16:50.246407",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Linnworks-specialist-1748866610246.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748866609",
+      "job_title": "MS Power Automate",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hi, \n\nI need help with automating my report updating process. I need to create a flow that takes the user inputs, update the word documents, and generate a new report.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:16:49.840796",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-MS-Power-Automate-1748866609840.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748866306",
       "job_title": "WordPress WooCommerce Integration and UI Enhancement",
@@ -1123,81 +1196,6 @@
       "score": 90,
       "created_at": "2025-06-02T11:36:42.084473",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-an-Automated-Real-Estate-Presentation-System-1748864202084.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863906",
-      "job_title": "Automated Test Case Development for Django Inventory Management Application",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an experienced tester to develop automated test cases for our Inventory Management Application built on Django. Your primary responsibility will be to create comprehensive testing scripts that ensure the functionality and reliability of our application. The ideal candidate will have a strong background in automated testing and familiarity with Django and inventory management systems. If you are detail-oriented and passionate about quality assurance, we would love to hear from you!",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:31:46.084587",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Automated-Test-Case-Development-for-Django-Invento-1748863906084.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863904",
-      "job_title": "Expert Vibe Marketer Needed for Automated Marketing Workflows",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "\ud83c\udfaf Job Title: Vibe Marketer \u2013 Creative Growth Hacker for Consultancy Service\nRole Type: Freelance / Part-Time\nLocation: Remote\nGoal: Drive net-new appointments with 7-8 figure DTC brands\n\n\ud83d\ude80 The Mission\nThe Growth Co-Pilot is a consultancy for DTC brands looking to scale profitably. We help founder-led teams cut through noise, reduce wasted spend, and focus on what truly moves the needle, growth that actually sticks. We've worked with some of the biggest brands worldwide: Gymshark, GHOST and Many ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:31:44.844207",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Expert-Vibe-Marketer-Needed-for-Automated-Marketin-1748863904844.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863904",
-      "job_title": "Build an Automated Real Estate Presentation System (Stripe + GPT-4 + GoHighLevel + n8n)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Description:\nWe\u2019re looking for a reliable and creative automation expert (or team) to build an end-to-end workflow for real estate agents. The goal is to generate branded property presentations automatically, triggered by a simple form submission and integrated with payment and messaging systems.\n\nProject Overview:\nWe want to create a streamlined system where an agent can:\n- Submit basic property info (address, price, client details)\n- Instantly collect payment through a checkout interface\n\nTrig...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "N8N",
-          "Api",
-          "Webhook"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "real estate",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with integration challenges in your real estate.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, N8N, Api, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T11:31:44.454876",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-an-Automated-Real-Estate-Presentation-System-1748863904454.html",
       "original_job_url": "",
       "status": "pending"
     }
