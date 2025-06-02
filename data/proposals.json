@@ -1,7 +1,150 @@
 {
-  "generated_at": "2025-06-02T10:40:01.286711",
+  "generated_at": "2025-06-02T10:45:01.206702",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748860858",
+      "job_title": "Zoho One Expert Needed for Implementation and Support",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a knowledgeable Zoho One expert to assist with the implementation and ongoing support of the Zoho One suite. The ideal candidate will have extensive experience in customizing Zoho applications to suit our business needs. Your expertise will help streamline our operations and improve productivity. If you are passionate about Zoho and have a proven track record of successful implementations, we would love to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:40:58.027794",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zoho-One-Expert-Needed-for-Implementation-and-Supp-1748860858027.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748860856",
+      "job_title": "RAG Pipeline Development from OneDrive/SharePoint to ChatGPT",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for a skilled developer to create a Retrieval-Augmented Generation (RAG) pipeline that seamlessly integrates files from our OneDrive or SharePoint location to ChatGPT. The goal is to automate the process such that any new files added to the designated location will trigger an update in the RAG system. This involves setting up the infrastructure for continuous integration and ensuring that the data flow efficiently supports the ChatGPT model. Strong experience with cloud storage in...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T10:40:56.778120",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-RAG-Pipeline-Development-from-OneDriveSharePoint-t-1748860856778.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748860856",
+      "job_title": "Financial Modeling Expert for M&A-Driven Growth Company (Short-Term Assignment)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for a highly skilled financial modeling consultant to refine and extend our current Excel model, tailored for an acquisition-driven business in the automotive services sector. The model will support capital planning (Incl EV-bridges), acquisition tracking, and group-level financial forecasting.\n\nYou will be working from a pre-built model that needs to be cleaned up and enhanced for better functionality and scalability.\n\n1. Capital Structure Module\nCreate a clear capital stack with...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T10:40:56.362157",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Financial-Modeling-Expert-for-MA-Driven-Growth-Com-1748860856362.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748860855",
+      "job_title": "Need Help with FusionPBX (FreeSWITCH) Integration for WebRTC Application Using Node.js",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hello!\n\nI hope you're doing well. I\u2019m currently working on a project to build my own WebRTC-based application using JavaScript, and I need help integrating it with my existing PBX system (FusionPBX).\n\nI'm looking for a skilled and experienced developer who can:\n\nAssist with WebRTC implementation using JavaScript\nIntegrate WebRTC with FusionPBX (FreeSWITCH)\nEnsure compatibility, proper audio/video signaling, and call handling\n\nIf you\u2019ve worked on something similar or have the required skills, I\u2019d...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:40:55.116311",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Need-Help-with-FusionPBX-FreeSWITCH-Integration-fo-1748860855116.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748860853",
+      "job_title": "Integrate products in realistic interiours",
+      "client_name": "Client",
+      "budget": "$3,000.00",
+      "description": "Please do not respond to this post unless you have read the attached brief!\n\nIn short it is about taking an image of a furniture product, made in a product configurator, and creating an image where the product is integrated in a normal home or office environment. \n\nI cannot pay for test images (Unless you are picked to do the job).\n\nPrice and quality is key on this project. We can work with flexible timelines, there is no urgency.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:40:53.857609",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Integrate-products-in-realistic-interiours-1748860853857.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748860853",
+      "job_title": "Experienced Bubble Developer Needed to Build AI-Integrated Subscription Web App",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I'm seeking a skilled and experienced Bubble.io developer to partner with me in building a subscription-based web application tailored for the construction industry. I have a clear product vision, but I need someone who can help scope the project, advise on technical direction, and build the solution in Bubble.\n\nKey Features Will Include:\n- User registration and subscription billing\n- Project dashboards and progress tracking\n- Document uploads and role-based access\n- AI agent/chat integration to...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "SaaS",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:40:53.418714",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Experienced-Bubble-Developer-Needed-to-Build-AI-In-1748860853418.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748860557",
       "job_title": "Senior Full-Stack Developer Next.js, Voice AI, and Chatbot",
@@ -1050,151 +1193,6 @@
       "score": 90,
       "created_at": "2025-06-02T09:40:14.294926",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Notion--Makecom--Shopify-Automation-Expert-for-Fin-1748857214294.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748857213",
-      "job_title": "GoHighLevel CRM Expert \u2013 Build Our System + SOPs for Real Estate Workflow",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "\ud83d\udccb Job Description:\n\nWe are a house and land brokerage in Western Australia seeking a GoHighLevel (GHL) expert to take full ownership of our CRM setup and create a streamlined, automated workflow for our real estate operations.\n\nYou\u2019ll work directly with the Director to build out the system, automate tasks, and document Standard Operating Procedures (SOPs) so the process can be repeated and scaled.\n\nThis is not just a technical role \u2014 we want someone who can think critically, improve as they go, ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "real estate",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your real estate.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T09:40:13.905582",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-GoHighLevel-CRM-Expert--Build-Our-System--SOPs-for-1748857213905.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748857212",
-      "job_title": "Wordpress or Wix B2B website",
-      "client_name": "Client",
-      "budget": "$1,200.00",
-      "description": "Hey Upwork community!\n\nWe're on the lookout for a talented web designer experienced with either Wix or WordPress to help us build a B2B website for our factory.\nHere\u2019s what we need:\n* A clean, professional landing page\n* Product pages (catalog-style, no payment integration)\n* A contact form and an About Us section\n* Blog-ready structure (we\u2019ll add the posts later)\n\nWe\u2019d love a site that\u2019s easy to update and maintain after handover, and ideally completed within 3 weeks.\n\nWe already have tons of c...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T09:40:12.647567",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Wordpress-or-Wix-B2B-website-1748857212647.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748856910",
-      "job_title": "Smart Home System Design Specialist Needed for Villa",
-      "client_name": "Client",
-      "budget": "$100.00",
-      "description": "We are seeking a smart home specialist to design an advanced smart home system for our villa, which covers approximately 800 sqm. The ideal candidate will have experience in integrating various smart technologies and will work closely with us to create a fully automated environment that enhances comfort, security, and energy efficiency. Your expertise will help us choose the right devices and ensure seamless connectivity throughout the property. If you have a passion for smart home technology an...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T09:35:10.028428",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Smart-Home-System-Design-Specialist-Needed-for-Vil-1748856910028.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748856908",
-      "job_title": "Update Multiple PDF Links & Connect Multiple Webpages to HubSpot CRM",
-      "client_name": "Client",
-      "budget": "$25.00",
-      "description": "We are seeking an experienced Webflow and HubSpot expert to assist us with two key tasks:\n\n1\ufe0f\u20e3 Update and Link Multiple PDFs Across Several Pages\n\t\u2022\tIdentify all existing PDFs hosted in HubSpot (likely in the File Manager).\n\t\u2022\tReplace each old PDF with its updated version OR upload new PDFs.\n\t\u2022\tUpdate all links in HubSpot forms, workflows, automated emails, and associated Webflow pages to point to the new PDFs.\n\t\u2022\tEnsure multiple Webflow landing pages are correctly linked to their respective PDF...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T09:35:08.768032",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Update-Multiple-PDF-Links--Connect-Multiple-Webpag-1748856908768.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748856907",
-      "job_title": "Manychat/N8N/Calling - Ai Agent",
-      "client_name": "Client",
-      "budget": "$500.00",
-      "description": "Hey, we\u2019re a marketing agency that helps coaches and creators to scale with AI Chatbots and Ai Callers.\n\nWe already have a working N8N Agent and an Ai Caller, however they need to be improved in quality and system.\n\nYour main job would be helping us fixing bugs, improving quality and creating new systems.\n\nOur current AI Setter runs with Manychat and N8N and we need someone with an in-depth and technical understanding of Ai Agents to fix and improve our setup.\n\nIn order to be considered for this...",
-      "analysis": {
-        "tools": [
-          "N8N"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using N8N\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T09:35:07.512456",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-ManychatN8NCalling---Ai-Agent-1748856907512.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748856907",
-      "job_title": "CANVA SDK Integration Expert Needed for an Ecommerce Website",
-      "client_name": "Client",
-      "budget": "$400.00",
-      "description": "I am looking for an experienced web developer to integrate the Canva SDK into my e-commerce website. The goal is to allow customers to customize promotional products (such as tote bags, t-shirts, mugs) directly on the site using Canva\u2019s embedded editor.\n\nScope of Work:\n\nIntegrate Canva SDK into product pages.\n\nSet up product-specific templates (with print areas).\n\nEnsure design files are properly saved and attached to customer orders.\n\nCustomize the Canva editor interface to match site branding ...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "e-commerce",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your e-commerce.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T09:35:07.097905",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-CANVA-SDK-Integration-Expert-Needed-for-an-Ecommer-1748856907097.html",
       "original_job_url": "",
       "status": "pending"
     }
