@@ -1,7 +1,172 @@
 {
-  "generated_at": "2025-06-02T11:00:01.326203",
+  "generated_at": "2025-06-02T11:05:01.126506",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748862089",
+      "job_title": "Infrared Spray Simulation Development for Digital Graffiti",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are an Interactive digital art museum located in Miami, Florida, USA. We're currently building Digital Graffiti, a groundbreaking exhibit that lets users \u201cspray paint\u201d on a digital wall using a custom infrared-based spray can.\n\nWe\u2019re looking for a creative and technically skilled Interactive Developer or Creative Technologist to help us develop this custom experience.\n\nResponsibilities\n\n* Build a real-time digital graffiti system simulating spray-paint effects on a large wall or screen\n* Buil...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:01:29.525289",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Infrared-Spray-Simulation-Development-for-Digital--1748862089525.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862089",
+      "job_title": "AI Automation Specialist Needed for Innovative Project",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for someone that can build custom n8n workflows to streamline our startup\u2019s marketing, content, and operations. Must have experience with multiple AI tools and AI agents.\n\nYour mission:\n- Audit our processes in a few short calls.\n- Recommend AI Automation\n- Build AI-powered n8n automations and document them.\n\nYou bring:\n- Proven n8n + AI integration skills.\n- Clear, fast execution.\n\nInterested?\nSend one example of an AI-driven n8n workflow you built, plus any demo link.",
+      "analysis": {
+        "tools": [
+          "N8N"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using N8N\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:01:29.137882",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Automation-Specialist-Needed-for-Innovative-Pro-1748862089137.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862087",
+      "job_title": "AI Workflow For Creating Unique WordPress Sites Across Multiple Domains (v0, GPT or Similar)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Project Overview:\n\nWe are seeking an experienced WordPress developer or AI workflow architect to help us create and implement a scalable solution for generating unique WordPress websites across a large number of domains. The goal is to utilize AI tools like v0.dev, GPT-based generation, or other automation frameworks to streamline the creation and deployment of WordPress themes/templates for each domain.\n\nKey Objectives:\n\n1. Mass Site Generation: We own a large portfolio of domains that all need...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:01:27.901055",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Workflow-For-Creating-Unique-WordPress-Sites-Ac-1748862087901.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862086",
+      "job_title": "Linux developer - core systems",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83e\udde0 Job Overview:\nWe\u2019re looking for a highly skilled Linux Developer (Freelancer) to help build core system-level components for Time Champ\u2014a productivity intelligence platform designed for real-time tracking, monitoring, and performance optimization.\n\nThis is not traditional application development\u2014you\u2019ll work close to the OS, handling screen capture, input events, kernel modules, and secure communication protocols.\n\nIf you're passionate about Linux internals and building high-performance, low-le...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:01:26.649250",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Linux-developer---core-systems-1748862086649.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862085",
+      "job_title": "Sage and Quickbook Analyst",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Required Skills:\n- 4\u20136 years of experience working with Sage 300 (Sage 300, or Sage Intacct) and QuickBooks.\n-Strong understanding of accounting principles, functional workflows, and business processes in both systems.\n-Hands-on experience with data extraction from Sage and QuickBooks, including familiarity with data structures and APIs.\n-Experience with SQL, Excel, and/or data transformation tools (e.g., Alteryx, Power Query) is a plus.\n-Strong problem-solving and communication skills.\n\nKey Res...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:01:25.382792",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Sage-and-Quickbook-Analyst-1748862085382.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862084",
+      "job_title": "XR/AR Developer",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled and creative VR developer with experience in building applications for the Meta Quest platform. The project involves developing a custom virtual reality meeting application tailored for our company, with the flexibility to adapt it for other organizations in the future.\n\nProject Scope:\n\nThe core idea is to build a branded virtual meeting environment that includes:\n\nA fully immersive VR meeting room\n\nCustom 3D design reflecting our company branding and logo\n\nThe ability f...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:01:24.986638",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-XRAR-Developer-1748862084986.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748862083",
+      "job_title": "Expert Adobe Acrobat Pro Specialist Needed for Workflow Automation",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an experienced Adobe Acrobat Pro specialist to enhance our document workflows. The ideal candidate will have extensive knowledge of creating interactive buttons and implementing JavaScript for form automation. Your expertise will help us streamline our processes and improve document usability. If you have a proven track record in managing complex PDF workflows and can provide innovative solutions, we'd love to hear from you. Please include examples of your previous work with Adobe...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:01:23.709624",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Expert-Adobe-Acrobat-Pro-Specialist-Needed-for-Wor-1748862083709.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748861794",
       "job_title": "[DO NOT APPLY - TEST JOB] Frontend Engineer with Nuxt.js Experience Needed",
@@ -1027,173 +1192,6 @@
       "score": 80,
       "created_at": "2025-06-02T10:15:33.917573",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Create-endpoint-API-Dolibarr-1748859333917.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859332",
-      "job_title": "Video Editor for 'About Cars' YouTube Channel",
-      "client_name": "Client",
-      "budget": "$20.00",
-      "description": "Hi,\nI run a YouTube Automation Coaching service, and I am looking to hire team members for my students.\n\nI\u2019m currently looking for a YouTube VIDEO EDITOR o work with one of my students.\nThe niche is focused on \"Cars, including Vintage Cars and Advanced Automotive Technology.\"\nWe\u2019re seeking someone with a strong sense of pacing, visual storytelling, and experience working in automotive-related content.\n\n**Each student needs around 10 videos per month.\n** 8-9 mins duration per video for $20\n**Fami...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:15:32.629829",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Video-Editor-for-About-Cars-YouTube-Channel-1748859332629.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859038",
-      "job_title": "School App",
-      "client_name": "Client",
-      "budget": "$999.00",
-      "description": "Mobile App for School using Adalo\n\nProject goal\nDevelop, design, and publish a mobile app for iOS and Android to connect school parents and staff.\n\nScope:\n- Design a clean, modern, branded user interface aligned with school values.\n- Set up Adalo collections (databases) and user roles.\n- Configure permissions for child-specific record access for parents.\n- Create modules for messaging, event calendar, grades/report, and lunch pre-orders.\n- Set up push notifications and integrate Google Workspace...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T10:10:38.426005",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-School-App-1748859038426.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859037",
-      "job_title": "React Native Developer to design & integrate api of web application",
-      "client_name": "Client",
-      "budget": "$500.00",
-      "description": "The project is already developed in laravel/php . But need to integrate api (i provide) in react native application to make it work similar to web application. The app should be production ready and need to complete urgent basis. \nPerson should have strong knowledge of react native and proven work record.",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T10:10:37.171923",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-React-Native-Developer-to-design--integrate-api-of-1748859037171.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859035",
-      "job_title": "Looking for Site Reliability Engineer (SRE)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a Site Reliability Engineer with a strong background in C#/.NET, modern JavaScript frameworks like Vue.js, and hands-on experience with Docker and Kubernetes is a plus. This role focuses on building and supporting resilient, observable, and performant systems that power our applications. You\u2019ll work across infrastructure, development, and operations to ensure our services are reliable, scalable, and continuously improving.\n\nTechnical Skills\n\n\u2022 Programming: Proficiency in C#/.NET; ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:10:35.930242",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Looking-for-Site-Reliability-Engineer-SRE-1748859035930.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859034",
-      "job_title": "VBA Developer Needed for Slicer-Based Name Filtering",
-      "client_name": "Client",
-      "budget": "$5.00",
-      "description": "seeking VBA expert to write macro, based on powerpivot slicer, select each name in the slicer and cut and paste the result into a new worksheet. stacking the result, prevents overwriting and ensure dynamic filtering. loop to ensure all selections are made in the slicer.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:10:34.678141",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-VBA-Developer-Needed-for-Slicer-Based-Name-Filteri-1748859034678.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748859033",
-      "job_title": "GIS App development",
-      "client_name": "Client",
-      "budget": "$7,600.00",
-      "description": "1. BACKGROUND\nThe CSIRO 1 -developed Looc-C (Landscape Options and Opportunities for Carbon Abatement Calculator) model provides accurate data on land yield but does not allow reverse inquiries, such as identifying land holdings with the highest yield based on specific methodologies (e.g., vegetation) and price competitiveness. Similarly, the Looc- B (Landscape Options and Opportunities Calculator for Biodiversity) model, focused on biodiversity persistence, has the same limitation.\nThis absence...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:10:33.387100",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-GIS-App-development-1748859033387.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748858737",
-      "job_title": "AI Agent Developer Needed for Custom Agent Solutions",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "**Job Opportunity: AI Agent Developer**\n\nJoin our rapidly growing global digital marketing agency as we venture into the exciting realm of artificial intelligence. We're seeking an innovative AI Agent Developer who can craft intelligent, automated agents that enhance our marketing solutions.\n\nIn this role, you will have the opportunity to develop bespoke AI agents tailored to various functions, including lead qualification, internal operations, customer engagement, and industry-specific applicat...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T10:05:37.670614",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Agent-Developer-Needed-for-Custom-Agent-Solutio-1748858737670.html",
       "original_job_url": "",
       "status": "pending"
     }
