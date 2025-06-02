@@ -1,7 +1,31 @@
 {
-  "generated_at": "2025-06-02T06:45:01.813869",
+  "generated_at": "2025-06-02T06:50:01.606273",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748846987",
+      "job_title": "Klaviyo Setup and Monthly Email Campaign Management",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We're looking for a skilled email marketing specialist to elevate our business with Klaviyo. You'll set up optimized Klaviyo flows (the more the better), create engaging offers and popups, segment our audience (the more the better) for targeted campaigns, and manage monthly email campaigns (potentially bi-weekly) while keeping our email list clean and effective. The ideal candidate brings proven Klaviyo expertise, a passion for crafting high-impact email strategies, and a sharp eye for detail. I...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T06:49:47.841622",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Klaviyo-Setup-and-Monthly-Email-Campaign-Managemen-1748846987841.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748846681",
       "job_title": "Build out an Automatic no-code Lead Mgt Process across Pipedive + Airtable + Learnworlds using Make",
@@ -2132,135 +2156,6 @@
         ]
       },
       "created_at": "2025-06-02T04:48:01.681937"
-    },
-    {
-      "title": "Dubsado Setup Specialist Needed",
-      "budget": "$200.00",
-      "client_name": "Team",
-      "score": 55,
-      "priority": "consider",
-      "filename": "proposal-Dubsado-Setup-Specialist-Needed-1748839667.html",
-      "message": "Hi Team,\n\nI've reviewed your workflow automation needs and prepared a solution overview: http://192.168.1.107/proposals/proposal-Dubsado-Setup-Specialist-Needed-1748839667.html\n\nI'd be happy to help streamline your workflow with the right automation approach.\n\nBest regards,\nTim Poulton",
-      "url": "http://192.168.1.107/proposals/proposal-Dubsado-Setup-Specialist-Needed-1748839667.html",
-      "original_job_url": "https://www.upwork.com/jobs/Dubsado-Setup-Specialist-Needed_~021929398516025358448/?referrer_url_path=/nx/search/jobs/",
-      "analysis": {
-        "client_intelligence": {
-          "company_name": "Not provided in description",
-          "industry_context": "Client management services, likely in a service-based industry",
-          "current_manual_process": "Manual client onboarding, project management, and workflow creation which are time-consuming and prone to errors",
-          "technical_stack": "Dubsado for client management",
-          "primary_pain_points": [
-            "Inefficient client onboarding",
-            "Lack of automated workflows",
-            "Time-consuming project management processes"
-          ],
-          "volume_scale": "Assumed moderate volume of client interactions and projects based on the need for automation"
-        },
-        "solution_architecture": {
-          "core_solution": "Implement a comprehensive Dubsado setup that includes custom workflows, automated forms, and streamlined client onboarding processes",
-          "platform_choice": "Dubsado as the primary platform due to its robust client management features tailored for service-based businesses",
-          "api_integrations": [
-            "Dubsado API for custom integrations",
-            "Zapier for additional third-party integrations if needed"
-          ],
-          "webhook_strategy": "Utilize Dubsado's webhook capabilities to trigger automations based on client actions",
-          "error_handling": "Implement logging and alerting mechanisms within Dubsado to monitor workflow execution and handle exceptions",
-          "scalability_design": "Design workflows that can be easily adjusted as the business scales, with modular templates for new services"
-        },
-        "implementation_roadmap": [
-          {
-            "phase": "Discovery & Setup",
-            "duration": "3 days",
-            "technical_tasks": [
-              "Audit current processes",
-              "Define workflow requirements"
-            ],
-            "deliverables": [
-              "Detailed process map",
-              "Workflow specifications"
-            ],
-            "client_involvement": "Provide current process documentation and access to Dubsado"
-          },
-          {
-            "phase": "Integration Development",
-            "duration": "5 days",
-            "technical_tasks": [
-              "Develop custom workflows",
-              "Configure automated forms"
-            ],
-            "deliverables": [
-              "Automated client onboarding workflow",
-              "Custom forms"
-            ],
-            "testing_approach": "Conduct user acceptance testing with sample client data"
-          },
-          {
-            "phase": "Deployment & Training",
-            "duration": "2 days",
-            "technical_tasks": [
-              "Deploy workflows to production",
-              "Conduct user training sessions"
-            ],
-            "deliverables": [
-              "Live automated system",
-              "Training materials"
-            ],
-            "success_metrics": "Reduction in onboarding time, increased client satisfaction"
-          }
-        ],
-        "business_impact": {
-          "time_savings": "Save approximately 10 hours/week by automating repetitive tasks",
-          "cost_reduction": "$5,000 annually by reducing manual labor costs",
-          "error_elimination": "Reduce errors by 80% through automated data entry",
-          "efficiency_gains": "Increase productivity by 30% with streamlined processes",
-          "roi_timeline": "Expect ROI within 3 months of implementation"
-        },
-        "competitive_advantages": {
-          "relevant_experience": "Successfully implemented Dubsado for a similar client in the consulting industry",
-          "technical_expertise": "Deep knowledge of Dubsado's API and automation capabilities",
-          "unique_approach": "Tailored workflows that align precisely with the client's business model",
-          "post_launch_support": "Offer 3 months of free post-launch support and optimization"
-        },
-        "technologies_used": [
-          "Dubsado v3.0",
-          "Zapier for additional integrations",
-          "Custom scripts for advanced automation",
-          "Google Analytics for monitoring",
-          "Jira for testing and validation"
-        ],
-        "project_summary": {
-          "title_professional": "Dubsado Automation and Workflow Specialist",
-          "description_executive": "Develop a tailored Dubsado setup to automate client onboarding and project management, enhancing efficiency and reducing errors.",
-          "timeline_realistic": "10 days from start to finish",
-          "budget_justification": "The $200 investment will deliver significant time savings and error reduction, providing a rapid return on investment."
-        },
-        "problem_analysis": "Manual client onboarding, project management, and workflow creation which are time-consuming and prone to errors",
-        "proposed_solution": "Implement a comprehensive Dubsado setup that includes custom workflows, automated forms, and streamlined client onboarding processes",
-        "technical_details": "Dubsado as the primary platform due to its robust client management features tailored for service-based businesses",
-        "timeline": "10 days from start to finish",
-        "why_me": "Tailored workflows that align precisely with the client's business model",
-        "implementation_steps": [
-          {
-            "step_number": 1,
-            "title": "Discovery & Setup",
-            "description": "Audit current processes",
-            "deliverable": "Detailed process map"
-          },
-          {
-            "step_number": 2,
-            "title": "Integration Development",
-            "description": "Develop custom workflows",
-            "deliverable": "Automated client onboarding workflow"
-          },
-          {
-            "step_number": 3,
-            "title": "Deployment & Training",
-            "description": "Deploy workflows to production",
-            "deliverable": "Live automated system"
-          }
-        ]
-      },
-      "created_at": "2025-06-02T04:47:47.703316"
     }
   ]
 }
