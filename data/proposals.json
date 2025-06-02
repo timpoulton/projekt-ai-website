@@ -1,7 +1,31 @@
 {
-  "generated_at": "2025-06-02T14:50:01.223679",
+  "generated_at": "2025-06-02T14:55:01.097864",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748876064",
+      "job_title": "Zapier Expert Needed for Restaurant Automation",
+      "client_name": "Restaurant Owner",
+      "budget": "$2,000",
+      "description": "We need help automating our order management system. Currently doing everything manually and its taking too much time. Need integration between our POS system and inventory management.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "restaurant/hospitality",
+        "score": 80
+      },
+      "message": "\"I understand you're doing everything manually and it's taking too much time \u2013 I've been there! I once helped a small bakery chain that was drowning in spreadsheets. The owner was ready to throw in the towel, but we automated their ordering and inventory, and he actually got to take a vacation for the first time in years.\n\nFor your restaurant, I'd start by mapping out your current POS and inventory workflows to identify the biggest time-sucks. Then, we'd build a Zapier integration to automatically update inventory as orders come in. Finally, we'd set up alerts for low stock items.\n\nWould love to chat more about the specifics of your POS system and see how we can streamline things for you.\"",
+      "score": 80,
+      "created_at": "2025-06-02T14:54:24.757556",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zapier-Expert-Needed-for-Restaurant-Automation-1748876064757.html",
+      "original_job_url": "https://upwork.com/test-job",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748875703",
       "job_title": "C++ Control Module Developer Needed",
@@ -1697,30 +1721,6 @@
       "score": 80,
       "created_at": "2025-06-02T14:09:02.617875",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-Development-for-AI-Real-Estate-Site-1748873342617.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873340",
-      "job_title": "Shopify Store Setup Needed with Custom Theme Integration",
-      "client_name": "Client",
-      "budget": "$100.00",
-      "description": "We are looking for an experienced Shopify developer to build a comprehensive store using a purchased theme. The project includes creating all necessary product pages and legal documentation, as well as setting up the payment processor for seamless transactions. The ideal candidate should have a strong background in eCommerce and be able to deliver a polished, user-friendly store that aligns with the theme's design. Please provide examples of previous Shopify projects you've completed to showcase...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "e-commerce",
-        "score": 70
-      },
-      "message": "\"Saw you're looking for someone to build a comprehensive Shopify store from a purchased theme, and that includes handling all the product pages and legal stuff. That's often where things bog down, right?\n\nI remember setting up a similar store for a client selling handmade jewelry a few years back. We got so caught up in the product photography, we almost forgot the legal pages, and *that* nearly held up the launch.\n\nFor your project, I'd start by getting the core theme integrated and looking sharp. Then, we can tackle the product pages in batches to ensure consistency. Finally, I'd dedicate time to crafting those essential legal docs and properly integrating the payment gateway.\n\nI'd be happy to chat more about your specific needs and how my experience can help bring your vision to life. Let me know if you're free for a quick call sometime this week.\"",
-      "score": 70,
-      "created_at": "2025-06-02T14:09:00.383558",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Store-Setup-Needed-with-Custom-Theme-Integ-1748873340383.html",
       "original_job_url": "",
       "status": "pending"
     }
