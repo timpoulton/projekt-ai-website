@@ -1,7 +1,31 @@
 {
-  "generated_at": "2025-06-02T05:35:01.789782",
+  "generated_at": "2025-06-02T05:40:01.688716",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748842700",
+      "job_title": "Python/Flask Dev \u2013 Speed Optimization for Real-Time AI Phone Call App (Twilio + GPT + ElevenLabs)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Project: ConvoReps \u2014 Real-Time AI Phone Call Simulation\nWe're building an AI-powered phone call platform to help people improve cold calling, interviewing, and small talk skills through real-time voice conversations.\n\n\u2705 What\u2019s Built So Far:\nInbound phone call flow via Twilio\nAI voice replies using ElevenLabs TTS\nVoice transcription with OpenAI Whisper\nFlask app handling session logic and intent detection\nMultiple conversation modes: Cold call, Interview, Small talk\nDynamic personality logic and ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:38:20.350764",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-PythonFlask-Dev--Speed-Optimization-for-Real-Time--1748842700350.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748842400",
       "job_title": "Systeme.io Expert Needed for Project",
@@ -3473,17 +3497,6 @@
       "filename": "your-company-proposal-1748819883255.html",
       "timestamp": "2025-06-01T23:18:03.255952",
       "priority": "should_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "\ud83e\udde0 Affiliate/Creator Director \u2014 Stampede Network (thestampedenetwork.com)",
-      "client_name": "Your Company",
-      "score": 100,
-      "proposal_url": "https://projekt-ai.net/proposals/your-company-proposal-1748819883246.html",
-      "message": "Hi there!\n\nI noticed you need help with automation. I've actually created a custom automation workflow and project breakdown specifically for your requirements.\n\nYou can view your personalized proposal here:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748819883246.html\n\nThis demonstrates exactly how I'd solve your specific challenges, including the tools, timeline, and investment required.\n\nI'm particularly excited about this project because it aligns perfectly with my expertise in building similar systems.\n\nLooking forward to discussing this with you!\n\nBest regards,\nTim",
-      "filename": "your-company-proposal-1748819883246.html",
-      "timestamp": "2025-06-01T23:18:03.247278",
-      "priority": "must_apply"
     }
   ]
 }
