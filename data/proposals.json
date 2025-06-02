@@ -1,7 +1,150 @@
 {
-  "generated_at": "2025-06-02T15:45:01.346879",
+  "generated_at": "2025-06-02T15:50:01.175062",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748879336",
+      "job_title": "Android Developer",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "Looking for an Android developer to join the team!\n\nRequirements:\n\n2+ years of Android development experience.\n\nKnowledge of Kotlin/Java.\n\nWork with Android SDK, Jetpack Components (Room, ViewModel, Coroutines).\n\nExperience with REST API, Retrofit, OkHttp.\n\nUnderstanding of Clean Architecture, MVVM/MVI principles.\n\nAbility to work with Git.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\nI noticed you're looking to \"join the team\" with an Android developer \u2013 always a good sign when collaboration is valued! I've been doing solo freelance automation work for about 20 years now. I remember early on, wrestling with manual deployments that kept me up all night \u2013 it's a painful way to spend your time.\n\nFor this project, I'd suggest initially focusing on a streamlined API integration using Retrofit and Kotlin Coroutines, then refactoring for a solid MVVM structure, and finally, setting up a robust Git workflow for smoother team contributions.\n\nWould you be open to a quick chat to discuss the specific architectural needs of your project and how we could tackle this?",
+      "score": 80,
+      "created_at": "2025-06-02T15:48:56.724039",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Android-Developer-1748879336724.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879334",
+      "job_title": "Zapier and CRM automation specialist needed for marketing funnels implementation",
+      "client_name": "Client",
+      "budget": "$10.00",
+      "description": "We have an E-Commerce site and we need automations to trigger and send Emails and notifications to multiple channels for internal reporting for all the usual commerce events like product view, abandonment, order completion.\n\nThe ideal candidate needs to have a strong understanding of automations using ActiveCampaign, Zapier and WooCommerce.\n\nUnderstanding of webhooks and API integrations is a plus.\n\nPotential for long term\u00a0opportunity.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api",
+          "Webhook"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\n\"Automations to trigger and send Emails and notifications for all the usual commerce events\" - I get it. The manual process of keeping track of everything in an e-commerce business is a nightmare!\n\nI remember helping a small online bookstore a few years ago. They were manually pulling sales data from WooCommerce into a spreadsheet every week. We set up a Zapier integration that automated the process, and they freed up hours each week.\n\nFor your project, I'd suggest starting with mapping out your current workflows and identifying the key data points you want to track. Then, we can design the Zaps to connect WooCommerce, ActiveCampaign, and your internal reporting channels. Finally, we'll implement the webhooks and API integrations needed for those events and notifications.\n\nWould you be open to a quick chat to discuss your specific needs? No pressure, just want to make sure I'm the right fit.",
+      "score": 80,
+      "created_at": "2025-06-02T15:48:54.786995",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Zapier-and-CRM-automation-specialist-needed-for-ma-1748879334787.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879332",
+      "job_title": "Build Chatbot running Locally on LLM - With proven experience only",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I'm looking for an experienced chatbot developer to build a custom AI chatbot for hotel customer support, handling pre- and post-booking questions (availability, check-in/out, amenities, etc.). The bot will be based on an existing tool but fully customized and run on a local LLM (not API-based). Only apply if you have proven experience building and deploying chatbots (please share real examples), ideally using tools like LangChain, RAG pipelines, or LocalAI. Experience with hotels, multilingual ...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hi there,\n\nI saw you're looking to build a custom chatbot to handle hotel customer support questions locally, which makes total sense considering the amount of time manual processes can soak up.\n\nI remember a project last year where a similar business was drowning in repetitive inquiries; implementing a localized LLM chatbot freed up their staff significantly, allowing them to focus on personalized guest experiences.\n\nFor your project, I'd propose starting with a deep dive into your existing customer support data to identify key question patterns. Then, we can leverage that to customize a LangChain-based chatbot using LocalAI, ensuring it accurately handles availability, check-in, and other common queries in multiple languages. Finally, we'll thoroughly test and fine-tune the model.\n\nIf you're open to a quick chat about how to approach this, I'd be happy to discuss your requirements in detail.",
+      "score": 80,
+      "created_at": "2025-06-02T15:48:52.814582",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-Chatbot-running-Locally-on-LLM---With-proven-1748879332814.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879330",
+      "job_title": "Website/WordPress/WooCommerce/Square Expert Needed, Translation, Upload & Cart Flow Improvements",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I run a fashion e-commerce store built with WordPress and WooCommerce, hosted on IONOS. The site is styled to resemble Zara and needs to be finalized.\nMost work was previously done, but due to a backup issue, progress after May 5 has been lost. I\u2019ve restored images, but updates completed up to May 30, including product descriptions, checkout flow, and static pages wich must be redone.\n\nI have all the content and a video recording of the previous workflow so it will be simple to have a crystal cl...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Progress after May 5 has been lost\u2026updates completed up to May 30...must be redone.\" Ouch, that's a tough spot! I had a similar issue once with a client migrating to a new server \u2013 lost a ton of custom CSS changes right before launch. Learned my lesson about offsite backups *real* quick!\n\nLooking at your situation, I'd tackle it in three stages: first, a careful review of your video to get a clear picture of the lost work. Second, systematically rebuild the content, checkout flow, and static pages. Finally, thorough testing to ensure everything's running smoothly before you go live again.\n\nWould you be open to a quick chat so I can better understand your vision for the site? I can take a look at the recording and give you an idea of timeline and pricing.",
+      "score": 70,
+      "created_at": "2025-06-02T15:48:50.746141",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-WebsiteWordPressWooCommerceSquare-Expert-Needed-Tr-1748879330746.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879327",
+      "job_title": "Mobile App Developer ( proficient both IOS and Android)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Job Description:\n- Perform periodic testing and improve the usability of the mobile app\n- Build the design interface as per the client\u2019s needs\nFix bugs and other performance issues as an iOS and Android mobile developer\n- Develop new features as a mobile software developer.\nCommunicate with the users to understand their exact requirements\n- Translate code to create dynamic, functional and relevant mobile apps\n- Manage, maintain and improve the application as a mobile app developer\n-Write and exe...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking for someone to \"fix bugs and other performance issues\" and generally improve the app. Been there! I remember one time, a tiny, almost invisible memory leak was driving users crazy. Turns out, it was a poorly optimized image caching function. Little gremlins, those things.\n\nFor this, I'd start with a deep dive into your app's analytics and crash reports to identify the biggest friction points. Then, I'd implement a rigorous testing and debugging cycle, working closely with you on design improvements. Finally, I can handle writing the executables so that everything flows.\n\nIf you're open to chatting more about your mobile app, I'd be happy to jump on a quick call to discuss your overall vision and goals for the app.",
+      "score": 80,
+      "created_at": "2025-06-02T15:48:47.812634",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Mobile-App-Developer--proficient-both-IOS-and-Andr-1748879327812.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748879325",
+      "job_title": "Product Engineer \u2013 Growth & Automation \ud83e\udd16",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "# \ud83d\ude4b\u200d\u2640\ufe0f what\u2019s the job?\n\n/// please note that this job is only for Vietnam/Malalysia-based candidates ///\n\nTocco was born in 2022 to reimagine how we produce, not just how we consume. We\u2019re building a B2B platform to make sustainable sourcing radically accessible \u2014 combining the most extensive alt-materials database with the tools and editorial context that make it actually usable.\n\nWe\u2019ve launched [tocco.earth](https://www.tocco.earth/), users are onboarding, and systems are growing fast.\n\nNow we...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api",
+          "Webhook"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there! \"Automation needs\" jumped out at me in your description. I completely get it. As systems grow, those manual processes quickly become a bottleneck.\n\nI remember one time helping a small e-commerce business struggling with order fulfillment \u2013 they were spending hours each day just copying and pasting data between platforms. We ended up automating their entire workflow with a few custom scripts, and it freed up their team to focus on marketing.\n\nFor Tocco, I'd suggest starting with a quick audit of your current processes to identify the biggest time-sinks. Then, we could prioritize automating those areas, focusing first on integrations between your database and user onboarding. Finally, we would set up monitoring so you can track the improvements.\n\nIf you're interested in exploring some initial ideas, I'd be happy to chat for a few minutes about your specific challenges.",
+      "score": 80,
+      "created_at": "2025-06-02T15:48:45.452255",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Product-Engineer--Growth--Automation--1748879325452.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748879035",
       "job_title": "Google Actions Center",
@@ -1047,147 +1190,6 @@
       "score": 80,
       "created_at": "2025-06-02T15:18:34.178235",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Simple-Zapier-Automation-Help-Needed-1748877514178.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877512",
-      "job_title": "Build me a newsletter / blogpost with automation",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I want someone to create me a blog post / newsletter template ( I don\u2019t really know the difference) \nSo I have written a blog post I need it to have a button on it to send any subscribers to my CRM, I have 2 Hubspot and mailer lite, either one does it for me.\nI then want an automated follow up system which I will need help with, your experience will help me a lot in this.\nI will be sending an email to potential opportunities and existing subscribers, but these are from other sites so need to com...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Hi there,\n\n\"I don\u2019t really know the difference,\" you said about blog posts and newsletters \u2013 totally understandable! I actually had a client last year in a similar spot. They thought they needed a full-blown blog, but after chatting, a well-designed newsletter with snippets of blog content worked better for their audience.\n\nFor your project, I'd suggest starting with:\n1. Crafting that template for either a blog post or newsletter, focusing on a clean design that integrates seamlessly with HubSpot or MailerLite (whichever you prefer).\n2. Embedding that call-to-action button to collect those new subscribers.\n3. Designing a simple, automated follow-up sequence within your chosen CRM to nurture those leads.\n\nHappy to have a quick chat about your specific content and goals to figure out the best approach. Let me know if you're free sometime next week.",
-      "score": 70,
-      "created_at": "2025-06-02T15:18:32.099885",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-me-a-newsletter--blogpost-with-automation-1748877512099.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877509",
-      "job_title": "Need Canva Expert to integrate created content with custom content platform library.",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are a marketing and content management platform called Evolved Office. Our platform runs in MVC .NET written in JQuery and C#. We have added AI-Generated image content modules and are expanding the type of content we offer along with new marketing vehicles for our clients. \n\nIn order to bring Canva design closer to our platform, we would like to integrate by creating an application inside the Share application options inside Canva. If possible we would like to utilize SSO (single-sign on for ...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hi Evolved Office team,\n\n\"Bringing Canva design closer to our platform\" \u2013 I get it. I've wrestled with similar integrations before, especially with platforms built on the .NET stack. Once, I spent a week chasing a ghost API call because of a subtle mismatch in authentication protocols. Fun times!\n\nTo get your Canva integration running smoothly, I'd suggest: first, diving deep into Canva's API documentation, specifically around sharing and SSO options. Then, I'd build a small proof-of-concept app to test the connection and authentication flow. Finally, we can integrate that into your existing MVC .NET architecture and jQuery framework.\n\nWould you be open to a quick chat so I can understand the specifics of your setup and authentication needs?",
-      "score": 80,
-      "created_at": "2025-06-02T15:18:29.257148",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Need-Canva-Expert-to-integrate-created-content-wit-1748877509257.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877507",
-      "job_title": "Next.js Developer for Frontend Migration from Flutter",
-      "client_name": "Client",
-      "budget": "$250.00",
-      "description": "Project Title:\nMigrate Frontend WebApp from Flutter/Dart to Next.js for Travel Web App (travelbud.in)\n\nProject Description:\nWe are looking for a skilled and experienced Front-End Developer to migrate our existing WebApp frontend built with Flutter (Dart) to Next.js (React framework). Our product is TravelBud (https://travelbud.in) \u2014 a travel platform that connects travelers with unique homestay experiences across India.\n\nGoal:\nThe goal of this project is to create a more scalable, SEO-friendly, ...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hey there! Saw you're migrating travelbud.in from Flutter to Next.js \u2013 I hear you on the scalability and SEO front with Flutter web apps sometimes.\n\nI actually helped a client a few years back who'd built a real-estate portal in Flutter, and we ended up rewriting the front-end in React for very similar reasons. The biggest thing we focused on was carefully mapping the data flow between the two platforms and establishing a very clear, documented API to make the switch seamless.\n\nFor your project, I'd suggest starting with a component-by-component migration strategy. After that, we could use a staging environment to iron out any integration challenges you foresee. Finally, we can optimize the app to meet your desired SEO requirements.\n\nWould love to chat more about your specific setup sometime this week if you're free.",
-      "score": 80,
-      "created_at": "2025-06-02T15:18:27.251685",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Nextjs-Developer-for-Frontend-Migration-from-Flutt-1748877507251.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877226",
-      "job_title": "FastAPI Developer for RESTful API Development",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an experienced FastAPI Developer to create robust RESTful APIs using Python. The ideal candidate should be proficient in modern development workflows, including Docker and Git, to ensure seamless collaboration and deployment. Experience with SQLAlchemy or Pydantic is essential for effective data handling and validation. If you have a passion for building efficient APIs and enjoy working in a dynamic environment, we would love to hear from you!",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Okay, here's my Upwork proposal:\n\nHey there,\n\nSeeing that you're aiming to build efficient APIs to free up time from manual processes immediately caught my eye. I remember back when I first automated a client's inventory system, they were spending *hours* each week just manually updating spreadsheets. Once we integrated the API, it was like a weight lifted.\n\nFor your project, I'd start by diving into your specific data structures and workflow to design the API endpoints using FastAPI and Pydantic for robust validation. Then, I'd build out the core logic with SQLAlchemy for database interactions. Finally, I'd containerize it all with Docker for easy deployment.\n\nIf you're open to a quick chat about your current manual process and how an API could streamline things, I'm happy to share some initial ideas.",
-      "score": 80,
-      "created_at": "2025-06-02T15:13:46.633569",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-FastAPI-Developer-for-RESTful-API-Development-1748877226633.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877223",
-      "job_title": "Selenium Python Bot Development for Color Change Detection",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are looking for a skilled developer to create a bot using Selenium with Python that will monitor a specific website for color changes. The ideal candidate should have a strong understanding of web automation and experience with Python programming. You will be responsible for developing, testing, and deploying the bot to ensure it effectively detects color variations. Please provide examples of previous work with Selenium and Python in your application.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Hey there,\n\nI saw you're looking for someone to handle color change detection and move away from manual monitoring \u2013 I get it! I helped a small e-commerce site a while back that was doing the same thing to track competitor pricing, and it was a total time sink for them. They were basically glued to their screens.\n\nFor your project, I'd start by nailing down the specific color detection method on that website, making sure it's super accurate. Then, I'd build the Selenium/Python bot to continuously check and flag those changes. Finally, we'd set up a notification system (email, maybe?) so you're alerted immediately.\n\nIf that sounds like a reasonable approach, I'd love to chat more and understand the nuances of the website you're monitoring. Let me know if you're free for a quick call!",
-      "score": 70,
-      "created_at": "2025-06-02T15:13:43.865858",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Selenium-Python-Bot-Development-for-Color-Change-D-1748877223865.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748877221",
-      "job_title": "Professional Amazon Storefront & Shopify Integration Specialist",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a skilled professional to create an engaging and professional Amazon storefront that showcases our brand effectively. Additionally, we require integration of our existing Shopify website to sync seamlessly with both Amazon and Walmart platforms. The ideal candidate should have experience with e-commerce platforms and be able to optimize our storefront for maximum visibility and sales. If you have a passion for e-commerce and a track record of successful integrations, we would love...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Okay, I read your job description and here's what I'd send:\n\nHey there,\n\nSaw you're looking for someone to streamline things between Shopify, Amazon, and Walmart \u2013 especially syncing up with your new Amazon storefront. I get it, manual processes are a killer.\n\nI remember helping a small business owner who was literally spending half his week just updating inventory across platforms. We linked everything up, and he told me he felt like he'd gained a whole extra day.\n\nFor you, I'd start by diving into your existing Shopify setup, then mapping out a clear plan for the Amazon storefront design. After that, we can set up the integration itself, making sure everything flows smoothly.\n\nIf this sounds good, let\u2019s schedule a quick chat so I can learn more about your products and specific integration needs.\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T15:13:41.766340",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Professional-Amazon-Storefront--Shopify-Integratio-1748877221766.html",
       "original_job_url": "",
       "status": "pending"
     }
