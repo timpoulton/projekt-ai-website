@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upwork Automation Dashboard - Projekt AI</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 119, 198, 0.1) 0%, transparent 50%);
+        }
+
+        /* Header */
+        .header {
+            background: rgba(10, 10, 10, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            height: 40px;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nav-btn:hover {
+            background: rgba(120, 119, 198, 0.2);
+            border-color: rgba(120, 119, 198, 0.3);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .page-title {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+        }
+
+        /* Filter Tabs */
+        .filter-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .filter-tab {
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .filter-tab.active {
+            background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
+            border-color: transparent;
+        }
+
+        .filter-tab:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        /* Proposals List */
+        .proposals-container {
+            display: grid;
+            gap: 20px;
+        }
+
+        .proposal-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .proposal-card:hover {
+            border-color: rgba(120, 119, 198, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .proposal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 20px;
+        }
+
+        .proposal-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .proposal-client {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+        }
+
+        .proposal-score {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .score-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .score-must {
+            background: rgba(0, 255, 136, 0.2);
+            color: #00ff88;
+        }
+
+        .score-should {
+            background: rgba(255, 193, 7, 0.2);
+            color: #ffc107;
+        }
+
+        .score-consider {
+            background: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+        }
+
+        .proposal-description {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .proposal-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .proposal-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .action-btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .btn-approve {
+            background: rgba(0, 255, 136, 0.2);
+            color: #00ff88;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+        }
+
+        .btn-approve:hover {
+            background: rgba(0, 255, 136, 0.3);
+        }
+
+        .btn-reject {
+            background: rgba(255, 68, 68, 0.2);
+            color: #ff4444;
+            border: 1px solid rgba(255, 68, 68, 0.3);
+        }
+
+        .btn-reject:hover {
+            background: rgba(255, 68, 68, 0.3);
+        }
+
+        .btn-view {
+            background: rgba(120, 119, 198, 0.2);
+            color: #7877c6;
+            border: 1px solid rgba(120, 119, 198, 0.3);
+        }
+
+        .btn-view:hover {
+            background: rgba(120, 119, 198, 0.3);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .empty-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #7877c6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .page-title {
+                font-size: 32px;
+            }
+            
+            .stats-bar {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <img src="assets/img/logos/header-logo-light.svg" alt="Projekt AI" class="logo">
+            <div class="header-nav">
+                <button class="nav-btn" onclick="refreshProposals()">🔄 Refresh</button>
+                <a href="admin-dashboard.html" class="nav-btn">← Back to Dashboard</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1 class="page-title">Upwork Automation</h1>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-value" id="totalProposals">0</div>
+                <div class="stat-label">Total Proposals</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="pendingReview">0</div>
+                <div class="stat-label">Pending Review</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="approvedToday">0</div>
+                <div class="stat-label">Approved Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgScore">0</div>
+                <div class="stat-label">Average Score</div>
+            </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <div class="filter-tab active" onclick="filterProposals('all')">All Proposals</div>
+            <div class="filter-tab" onclick="filterProposals('must_apply')">Must Apply (80+)</div>
+            <div class="filter-tab" onclick="filterProposals('should_apply')">Should Apply (60-79)</div>
+            <div class="filter-tab" onclick="filterProposals('consider')">Consider (40-59)</div>
+            <div class="filter-tab" onclick="filterProposals('pending')">Pending Review</div>
+            <div class="filter-tab" onclick="filterProposals('approved')">Approved</div>
+            <div class="filter-tab" onclick="filterProposals('rejected')">Rejected</div>
+        </div>
+
+        <!-- Proposals Container -->
+        <div id="proposalsContainer" class="proposals-container">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading proposals...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check authentication
+        function checkAuth() {
+            const isAuthenticated = sessionStorage.getItem('adminAuthenticated');
+            if (!isAuthenticated) {
+                window.location.href = 'admin-login.html';
+            }
+        }
+        checkAuth();
+
+        // Sample data (in production, this would come from your API)
+        let proposals = [];
+        let currentFilter = 'all';
+
+        // Load proposals
+        async function loadProposals() {
+            try {
+                // In production, fetch from your API
+                // const response = await fetch('/api/proposals');
+                // proposals = await response.json();
+                
+                // For now, using sample data
+                proposals = [
+                    {
+                        id: 1,
+                        title: "Advanced E-commerce Automation Expert for Multi-Store Integration",
+                        client: "MultiStore Solutions LLC",
+                        description: "We need an experienced automation specialist to integrate our 5 Shopify stores with our central inventory management system...",
+                        score: 95,
+                        category: "MUST_APPLY",
+                        budget: "$2000-4000",
+                        timeline: "3-4 weeks",
+                        timestamp: new Date().toISOString(),
+                        status: "pending",
+                        proposalUrl: "/proposals/multistore-solutions-proposal.html"
+                    },
+                    {
+                        id: 2,
+                        title: "Zapier Expert for CRM Integration",
+                        client: "TechFlow Enterprises",
+                        description: "Looking for someone to connect our Salesforce CRM with our email marketing platform using Zapier automation...",
+                        score: 75,
+                        category: "SHOULD_APPLY",
+                        budget: "$1000-1500",
+                        timeline: "1-2 weeks",
+                        timestamp: new Date().toISOString(),
+                        status: "pending",
+                        proposalUrl: "/proposals/techflow-proposal.html"
+                    }
+                ];
+                
+                updateStats();
+                displayProposals();
+            } catch (error) {
+                console.error('Error loading proposals:', error);
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            document.getElementById('totalProposals').textContent = proposals.length;
+            document.getElementById('pendingReview').textContent = proposals.filter(p => p.status === 'pending').length;
+            document.getElementById('approvedToday').textContent = proposals.filter(p => p.status === 'approved').length;
+            
+            const avgScore = proposals.length > 0 
+                ? Math.round(proposals.reduce((sum, p) => sum + p.score, 0) / proposals.length)
+                : 0;
+            document.getElementById('avgScore').textContent = avgScore;
+        }
+
+        // Display proposals
+        function displayProposals() {
+            const container = document.getElementById('proposalsContainer');
+            let filteredProposals = proposals;
+
+            // Apply filter
+            switch(currentFilter) {
+                case 'must_apply':
+                    filteredProposals = proposals.filter(p => p.score >= 80);
+                    break;
+                case 'should_apply':
+                    filteredProposals = proposals.filter(p => p.score >= 60 && p.score < 80);
+                    break;
+                case 'consider':
+                    filteredProposals = proposals.filter(p => p.score >= 40 && p.score < 60);
+                    break;
+                case 'pending':
+                    filteredProposals = proposals.filter(p => p.status === 'pending');
+                    break;
+                case 'approved':
+                    filteredProposals = proposals.filter(p => p.status === 'approved');
+                    break;
+                case 'rejected':
+                    filteredProposals = proposals.filter(p => p.status === 'rejected');
+                    break;
+            }
+
+            if (filteredProposals.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <h3>No proposals found</h3>
+                        <p>Try changing your filter or wait for new proposals to arrive.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = filteredProposals.map(proposal => `
+                <div class="proposal-card" data-id="${proposal.id}">
+                    <div class="proposal-header">
+                        <div>
+                            <h3 class="proposal-title">${proposal.title}</h3>
+                            <p class="proposal-client">${proposal.client}</p>
+                        </div>
+                        <div class="proposal-score">
+                            <span class="score-badge ${getScoreClass(proposal.score)}">
+                                ${proposal.category.replace('_', ' ')}
+                            </span>
+                            <span style="font-size: 24px; font-weight: 700;">${proposal.score}</span>
+                        </div>
+                    </div>
+                    <p class="proposal-description">${proposal.description}</p>
+                    <div class="proposal-meta">
+                        <span>💰 ${proposal.budget}</span>
+                        <span>⏱️ ${proposal.timeline}</span>
+                        <span>📅 ${new Date(proposal.timestamp).toLocaleString()}</span>
+                    </div>
+                    <div class="proposal-actions">
+                        ${proposal.status === 'pending' ? `
+                            <button class="action-btn btn-approve" onclick="approveProposal(${proposal.id})">
+                                ✅ Approve & Send
+                            </button>
+                            <button class="action-btn btn-reject" onclick="rejectProposal(${proposal.id})">
+                                ❌ Reject
+                            </button>
+                        ` : `
+                            <span style="color: ${proposal.status === 'approved' ? '#00ff88' : '#ff4444'}">
+                                ${proposal.status === 'approved' ? '✅ Approved' : '❌ Rejected'}
+                            </span>
+                        `}
+                        <button class="action-btn btn-view" onclick="viewProposal('${proposal.proposalUrl}')">
+                            👁️ View Proposal
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Get score class
+        function getScoreClass(score) {
+            if (score >= 80) return 'score-must';
+            if (score >= 60) return 'score-should';
+            return 'score-consider';
+        }
+
+        // Filter proposals
+        function filterProposals(filter) {
+            currentFilter = filter;
+            
+            // Update active tab
+            document.querySelectorAll('.filter-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            displayProposals();
+        }
+
+        // Approve proposal
+        function approveProposal(id) {
+            const proposal = proposals.find(p => p.id === id);
+            if (proposal) {
+                proposal.status = 'approved';
+                updateStats();
+                displayProposals();
+                
+                // In production, send to API
+                console.log('Approved proposal:', id);
+            }
+        }
+
+        // Reject proposal
+        function rejectProposal(id) {
+            const proposal = proposals.find(p => p.id === id);
+            if (proposal) {
+                proposal.status = 'rejected';
+                updateStats();
+                displayProposals();
+                
+                // In production, send to API
+                console.log('Rejected proposal:', id);
+            }
+        }
+
+        // View proposal
+        function viewProposal(url) {
+            window.open('http://192.168.1.107' + url, '_blank');
+        }
+
+        // Refresh proposals
+        function refreshProposals() {
+            loadProposals();
+        }
+
+        // Load proposals on page load
+        loadProposals();
+
+        // Auto-refresh every 30 seconds
+        setInterval(loadProposals, 30000);
+    </script>
+</body>
+</html> 
