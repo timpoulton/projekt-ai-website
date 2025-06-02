@@ -1,7 +1,150 @@
 {
-  "generated_at": "2025-06-02T12:50:01.212544",
+  "generated_at": "2025-06-02T12:55:01.158390",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748868747",
+      "job_title": "Semantic search specialist",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Job Title: Semantic Search Specialist (Remote)\n\n\ud83d\udee0\ufe0f Key Responsibilities:\nDesign & Development: Architect and implement semantic search solutions utilizing Elasticsearch, Redis, and Azure Cognitive Search to enhance information retrieval capabilities.\n\nData Modeling: Develop and manage data models, including vector embeddings and indexing strategies, to support semantic search functionalities.\n\nIntegration: Integrate semantic search systems with existing platforms and services, ensuring seamless ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:52:27.463594",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Semantic-search-specialist-1748868747463.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868747",
+      "job_title": "Junior E-mail Designer/Marketer",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "No agencies please!!!!\n\nWe\u2019re looking for a strategic and design-savvy Email Designer & Marketer who combines creative thinking with data-driven execution. You won\u2019t just design emails\u2014you\u2019ll ask \u201cWhy?\u201d before \u201cWhat?\u201d, ensuring every campaign serves a purpose and drives results. From segmentation and automation to Figma design and A/B testing, you\u2019ll own the full email lifecycle with a focus on performance and exceptional UX.\n\nKey Responsibilities:\n\ud83d\udce9 Email Strategy & Execution\n\nPlan and execute ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:52:27.064653",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Junior-E-mail-DesignerMarketer-1748868747064.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868746",
+      "job_title": "Help Me Rebuild Stripe Subscription Integration (Webhook + Checkout Fix)",
+      "client_name": "Client",
+      "budget": "$50.00",
+      "description": "I'm looking for a developer to help clean up and finish our Stripe subscription setup in our dev environment (Replit-based app). The core pieces are there but not fully working.\n\nWhat's working:\nStripe test mode connected\nCheckout sessions for monthly/annual plans\nWebhook partially working\nDatabase has plan_status, customer_id, etc.\n\nWhat's missing:\nWebhook doesn't reliably update the DB\nStripe customer/subscription IDs not saving\nAuth/session issues during checkout\nNeeds proper dev vs prod sepa...",
+      "analysis": {
+        "tools": [
+          "Webhook"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T12:52:26.674421",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Help-Me-Rebuild-Stripe-Subscription-Integration-We-1748868746674.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868745",
+      "job_title": "Email Marketing Guru",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I run a marketing agency with clients across the coaching and digital courses space.\n\nI need an email marketing guru to help guide strategy, best practices and execution of sales emails, nurture emails and automations.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:52:25.420795",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email-Marketing-Guru-1748868745420.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868745",
+      "job_title": "Marketing & Web Development Specialist (WordPress, Webflow, AI Automation, Gohighlevel)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a highly skilled Marketing and Web Development Professional to join our team. The ideal candidate will have expertise in WordPress website development and integration, Webflow design, and AI-driven automation. Proficiency in creating high-converting landing pages using Gohighlevel and strong graphic design skills are essential. You will be responsible for building and optimizing our online presence, automating marketing workflows, and designing visually compelling digital assets. ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:52:25.024355",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Marketing--Web-Development-Specialist-WordPress-We-1748868745024.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748868743",
+      "job_title": "Develop a custom GPT and embed the tool on a website using an iframe",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We want to build a custom GPT that can be integrated into our website. The tool should be able to analyze a given text, assess its quality based on our predefined rules, and provide actionable recommendations for improvement.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:52:23.762167",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Develop-a-custom-GPT-and-embed-the-tool-on-a-websi-1748868743762.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748868438",
       "job_title": "Excel costing tool",
@@ -1046,150 +1189,6 @@
       "score": 70,
       "created_at": "2025-06-02T12:01:45.023178",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-vCloud-Director-104-vCD-consultant-or-subject-matt-1748865705023.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865703",
-      "job_title": "Intercom Full Set Up - Outbound Messages, Series",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Intercom Automation Specialist \u2014 Build Outbound Series, Fin AI Agent & Push-Marketing Workflows for Woi\n\nProject Snapshot\nWoi is a fast-growing \u201csuper-app\u201d that lets local businesses list services, events & products while customers book, pay, and discover what\u2019s happening around them. We need an Intercom pro to turn our raw customer data into smart, automated conversations that onboard, activate, and re-engage both consumers and businesses \u2014 at scale.\n\nWhat You\u2019ll Do \nKey Tasks\n\nOutbound Series ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:01:43.789606",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Intercom-Full-Set-Up---Outbound-Messages-Series-1748865703789.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865703",
-      "job_title": "Learning Management Systems (LMS) Manager \u2013 Content Integration & Product Development",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re seeking a skilled and reliable Learning Management Systems (LMS) Manager to help transform large volumes of raw educational content into polished, client-ready learning products. This is an exciting opportunity to contribute to a growing educational platform that supports students in a rigorous, science- and healthcare-based curriculum.\n\nYour primary responsibilities will include:\n\t\u2022\tOrganizing and importing raw materials (e.g., question banks, flashcards, worksheets, guided walkthroughs, ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "healthcare",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with automation needs in your healthcare.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:01:43.397241",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Learning-Management-Systems-LMS-Manager--Content-I-1748865703397.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865702",
-      "job_title": "Monday.com Implementation Consultant with Project/Program Management Expertise",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an experienced Monday.com consultant to set up and configure our account to reflect our organizational structure: Strategic Initiatives - Program Level - Initiatives - Project-Level - Task-Level. The ideal candidate will not only have deep technical knowledge of Monday.com but also possess a strong background in project or program management to provide strategic insights into workflow optimization and best practices.\n\nKey Responsibilities:\n\nSet up and configure Monday.com to mirro...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:01:42.990690",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Mondaycom-Implementation-Consultant-with-ProjectPr-1748865702990.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865104",
-      "job_title": "Full Stack Developer Needed for Dating App Platform",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "[PLEASE NOTE THE BUDGET IS VARIABLE, PLEASE IGNORE THE FIGURE AND PROVIDE YOUR REAL, FAIR ESTIMATES. HAPPY TO HIRE ONE PERSON OR MULTIPLE.]\n\nSummary: We are seeking a skilled full stack developer to assist in building a comprehensive dating-app style platform (can use existing templates if we're happy with them first). This includes creating a web app and mobile app, along with a robust backend CMS for admin management, matching functions, notification etc. All details are below! If you have exp...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:51:44.041403",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Full-Stack-Developer-Needed-for-Dating-App-Platfor-1748865104041.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865103",
-      "job_title": "PHP Web Development: Frontend and Backend Modifications",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "**Job Opportunity: PHP Developer**\n\nWe are seeking a skilled PHP Developer to join our team and contribute to exciting modifications on our website. This role encompasses a variety of tasks across both frontend and backend development, focusing on performance optimization, user experience enhancement, and the integration of new features. \n\nThe perfect candidate will possess a deep knowledge of PHP, as well as proficiency in HTML, CSS, and JavaScript. Experience with MySQL databases is also essen...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:51:43.636817",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-PHP-Web-Development-Frontend-and-Backend-Modificat-1748865103636.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748865102",
-      "job_title": "n8n Workflow Expert + AI + WhatsApp Integration (with CRM logging",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "how to set up an n8n workflow that performs the following tasks:\n\n\u2705 Core Workflow Requirements:\nNew Lead Trigger:\n\nTrigger when a new lead fills out a form or enters from a specific source (e.g. Typeform, website, webhook, etc.)\n\n\n communication must be 2-way\n\nIntegrate with AI Agent:\n\nConnect a conversational AI (OpenAI, Claude, RetellAI, etc.)\n\nThe AI agent should have memory and handle natural conversation with the client\n\nThe AI should be able to answer questions, guide the client, and escal...",
-      "analysis": {
-        "tools": [
-          "N8N",
-          "Webhook"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using N8N, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T11:51:42.372350",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-n8n-Workflow-Expert--AI--WhatsApp-Integration-with-1748865102372.html",
       "original_job_url": "",
       "status": "pending"
     }
