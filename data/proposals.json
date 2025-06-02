@@ -1,7 +1,56 @@
 {
-  "generated_at": "2025-06-02T13:05:01.475076",
+  "generated_at": "2025-06-02T13:10:01.399084",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748869658",
+      "job_title": "\ud83d\ude80 Automation + B2B Lead Expert Needed \u2013 Be the Growth Force Behind Atlas (SaaS for Construction)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83d\ude80 Help Us Build the B2B Growth Engine for \"Atlas\" \u2013 A Groundbreaking Construction Tech Software\n\nJob Type: Freelance \u2013 Long-Term\nCategory: Business Development | Sales Automation | B2B SaaS\n\n\n\ud83e\uddf1 About Atlas\nWe are an established company from the construction industry. We\u2019ve lived the chaos of daily operations on site \u2013 delays, paperwork, phone ping-pong. So we decided to solve it all.\n\nThat\u2019s why we created Atlas \u2013 a revolutionary project software that fully automates the day-to-day workflow of c...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "SaaS",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T13:07:38.795512",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal--Automation--B2B-Lead-Expert-Needed--Be-the-Growth-1748869658795.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748869658",
+      "job_title": "Fine-Tune GPT-3.5 on Hospitality Guest Emails (Inbox Extraction + Smart Gmail Replies)",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "We are a boutique hospitality group in South Africa that handles hundreds of highly personalised guest emails. These include booking questions, restaurant suggestions, wine tours, cancellation queries, and more.\n\nOur responses are warm, tailored, and based on the context of the guest\u2019s request \u2014 but our tone and knowledge are not documented. They live in our email history.\n\nWe are looking for an expert who can:\n\nAccess our inbox (via delegated Gmail access or .mbox files)\n\nExtract and clean 300\u2013...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "restaurant/hospitality",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your restaurant/hospitality.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T13:07:38.378577",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Fine-Tune-GPT-35-on-Hospitality-Guest-Emails-Inbox-1748869658378.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748869362",
       "job_title": "3D modeling of a Diamond Ring in Blender",
@@ -1142,54 +1191,6 @@
       "score": 70,
       "created_at": "2025-06-02T12:16:49.840796",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-MS-Power-Automate-1748866609840.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866306",
-      "job_title": "WordPress WooCommerce Integration and UI Enhancement",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking a skilled WordPress developer to help us integrate WooCommerce into our existing WordPress site. The ideal candidate will also assist with enhancing the user interface to improve overall aesthetics and functionality. You should have experience in customizing WooCommerce settings and a good eye for design to ensure a seamless user experience. If you are passionate about e-commerce and web design, we would love to hear from you!",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:11:46.136520",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-WordPress-WooCommerce-Integration-and-UI-Enhanceme-1748866306136.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748866305",
-      "job_title": "WordPress SEO and Website Migration from Bluehost",
-      "client_name": "Client",
-      "budget": "$15.00",
-      "description": "I am looking for an experienced WordPress professional to help with the following tasks:\n\n1. Website Migration \u2013 Migrate my existing website from Bluehost to a new WordPress hosting environment.\n\n2. Landing Page Integration \u2013 Set up and associate 7 landing pages with the main site.\n\n3. SEO Optimization \u2013 Customize and optimize the site for SEO to improve visibility and performance on search engines.\n\nThe ideal candidate should have experience in website migration, landing page setup, and WordPre...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T12:11:45.743068",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-WordPress-SEO-and-Website-Migration-from-Bluehost-1748866305743.html",
       "original_job_url": "",
       "status": "pending"
     }
