@@ -1,7 +1,126 @@
 {
-  "generated_at": "2025-06-02T10:45:01.206702",
+  "generated_at": "2025-06-02T10:50:01.104900",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748861172",
+      "job_title": "Looking for YT_DLP Expert",
+      "client_name": "Client",
+      "budget": "$15,000.00",
+      "description": "Hi,\nWe\u2019re looking for a skilled freelancer with deep experience in yt_dlp, YouTube anti-bot mechanisms, and proxy/cookie handling.\n\nObjective:\nBuild or improve a safe, scalable yt_dlp-based downloader that avoids YouTube rate limits, CAPTCHA walls, login blocks, and \"Sign in to confirm you're not a bot\" errors.\n\nWhat we need help with:\n\nBypassing YouTube's bot detection safely\n\nRotating real browser cookies (logged-in or guest) with downloads\n\nIntelligent proxy rotation (residential, mobile, or ...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T10:46:12.778229",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Looking-for-YT_DLP-Expert-1748861172778.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748861171",
+      "job_title": "GHL - Automation Review and set up of New and Resubmitted Leads Internal Notifications",
+      "client_name": "Client",
+      "budget": "$40.00",
+      "description": "We require the review of a Sub Account (Quickly) current lead sources (Website with multiple forms, Meta In Platform Leads, Live Chat, Reception Retell) to standardise how leads are;\n- Updated within a Single Pipeline\n- Sent internally to assigned staff\n- Pushed to Slack \n\nRequest review, suggestions on best practice and roll out.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:46:11.520718",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-GHL---Automation-Review-and-set-up-of-New-and-Resu-1748861171520.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748861170",
+      "job_title": "Shopify Store Development, SEO and optimization",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I need someone who can develop an interactive and optimized shopify store. If it works well I will keep the same guy to manage the store for me with Meta Ads and Google Ads management",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:46:10.275464",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Store-Development-SEO-and-optimization-1748861170275.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748861169",
+      "job_title": "Great for Rising Talents: Motion Graphics Artist Needed",
+      "client_name": "Client",
+      "budget": "$5.00",
+      "description": "We\u2019re a creative studio currently developing a series of short-form motion graphics pieces for a showcase reel. We're looking for a reliable motion designer who can deliver multiple clean, concept-driven animations based on pre-defined themes and briefs.\n\n\ud83d\uddd3 Deadline: June 5th\n\ud83c\udfaf Tools: After Effects (main), Illustrator (for shape/asset preparation)\n\ud83d\udcf9 Deliverable: One final .mp4 reel (1920x1080) combining all animations\n\n\ud83e\udde9 Scope of Work:\nYou will be responsible for producing the following segments...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:46:09.038954",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Great-for-Rising-Talents-Motion-Graphics-Artist-Ne-1748861169038.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748861168",
+      "job_title": "Digital Marketing Specialist for A Construction Business",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Digital Marketing Team For Lead Generation - Sydney Custom Home Builder\n\nAbout Us:\nWe're a Sydney-based custom home builder specializing in energy-efficient and sustainable homes. Our team is currently building five homes simultaneously, with capacity for 10. To grow, we need consistent lead generation\u2014ideally, one qualified client per month.\n\nWhat We Need:\nWe're looking for a full-circle digital agency that focuses on delivering RESULTS, not just data. We need partners who strategically find ma...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:46:08.636580",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Digital-Marketing-Specialist-for-A-Construction-Bu-1748861168636.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748860858",
       "job_title": "Zoho One Expert Needed for Implementation and Support",
@@ -1073,126 +1192,6 @@
       "score": 70,
       "created_at": "2025-06-02T09:55:27.335912",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Finish--Launch-Flutter-App-with-Firebase-and-Strip-1748858127335.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748858126",
-      "job_title": "Create Github Awesome list based on some web scraping",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I\u2019m looking for a skilled freelancer to create a high-quality Awesome List in Markdown, to be published on GitHub. The list will curate top resources (tools, libraries, tutorials, etc.) on a specific topic and should be structured for clarity and visual appeal.",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T09:55:26.939821",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Create-Github-Awesome-list-based-on-some-web-scrap-1748858126939.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748858126",
-      "job_title": "Crypto-sniper",
-      "client_name": "Client",
-      "budget": "$1,000.00",
-      "description": "Hello, a client on a cryptocurrency project has agreed to fully work. Here are the final TOR. \n\nExplanation: \n- The client chose option 1 for address generation.(a bit mixed) Work described in an additional message. \n- Also selected option A for virtual balance. In the attached message it is described in detail. \n- will need a rental microservice. Described in the file for what \n- In the 4th item you can choose any convenient for you option \n- Add-ons for a special surcharge client has not selec...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T09:55:26.527892",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Crypto-sniper-1748858126527.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748858125",
-      "job_title": "Python Developer for MT5 Integration and Database Management",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are seeking an experienced Python developer to complete an existing application that reads open positions in MT5 and creates a database with money management rules. The project involves integrating functionalities to publish queries online effectively. If you have a strong background in financial trading systems and database management, we want to hear from you. Please provide examples of previous work related to similar tasks.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T09:55:25.276969",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Python-Developer-for-MT5-Integration-and-Database--1748858125276.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748858124",
-      "job_title": "Setup Private AI Search for Urdu Books",
-      "client_name": "Client",
-      "budget": "$100.00",
-      "description": "We are looking for an experienced developer to set up a private AI search system for 10 Urdu books stored in MySQL. The ideal candidate will create a searchable interface similar to ChatGPT, tailored for our specific needs. This project involves data extraction from MySQL and integrating AI capabilities for efficient search and retrieval of book content. Strong proficiency in database management and AI technologies is essential. If you have a passion for language processing and experience with s...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T09:55:24.852572",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Setup-Private-AI-Search-for-Urdu-Books-1748858124852.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748857214",
-      "job_title": "Notion + Make.com + Shopify Automation Expert for Financial Dashboard Setup",
-      "client_name": "Client",
-      "budget": "$50.00",
-      "description": "I\u2019m looking for an experienced automation specialist to help me set up an automated financial dashboard in Notion, using Make.com to connect with my Shopify store.\n\nThe goal is to track key financial data from my webshop on a daily and monthly basis, with as much automation as possible.\n\n\u2705 What I need:\n1. Daily financial data synced to Notion:\n\nRevenue (automatically pulled from Shopify)\n\nRefunds (automatically pulled from Shopify)\n\nCost of goods (entered manually)\n\nAdvertising costs (entered ma...",
-      "analysis": {
-        "tools": [
-          "Make.Com",
-          "Integromat",
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Make.Com, Integromat, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T09:40:14.294926",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Notion--Makecom--Shopify-Automation-Expert-for-Fin-1748857214294.html",
       "original_job_url": "",
       "status": "pending"
     }
