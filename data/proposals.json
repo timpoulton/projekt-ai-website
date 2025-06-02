@@ -1,7 +1,54 @@
 {
-  "generated_at": "2025-06-02T06:10:01.473720",
+  "generated_at": "2025-06-02T06:15:01.315277",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748844857",
+      "job_title": "Online Course Launch & Marketing for Online Course",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Virtual Assistant for Online Course Launch \u2013 Squarespace, Funnels, Marketing and Sales, Email List & QA \nIndependent Filipino VA preferred due to time zone (AEST)  \nNO AGENCIES please.\n\nMust have: Experience promoting in the field of Mental Health, Women's Wellness, or Coaching. The course has been created by 2 Relationship Therapists. \nWe need a tech-savy sales driven marketer who understands the field. \n\nResponsibilities include designing the course landing page, creating engaging marketing ma...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T06:14:17.064047",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Online-Course-Launch--Marketing-for-Online-Course-1748844857064.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748844844",
+      "job_title": "Draftsman ArchiCAD Specialist",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are currently seeking an experienced ArchiCAD Specialist to join our team and work closely\nwith one of our valued clients in the Australian building industry. This role offers the chance to\ncontribute to large-scale building projects and make a lasting impact through precise and\ninnovative architectural design.\nAs an ArchiCAD Specialist, you will be embedded within the client\u2019s team, providing expert\narchitectural design support. You will be responsible for creating detailed drawings and mode...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T06:14:04.126267",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Draftsman-ArchiCAD-Specialist-1748844844126.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748844545",
       "job_title": "Automation Specialist for Zapier and Notion Integration",
@@ -3170,128 +3217,6 @@
         "custom_approach": "My approach will focus on understanding your specific needs, then designing and implementing a solution that maximizes efficiency and user friendliness. I'll leverage the power of automation to streamline your referral process and improve overall effectiveness."
       },
       "created_at": "2025-06-01T23:39:29.891831"
-    },
-    {
-      "title": "HubSpot Consultant (ABM & Nurture Systems Specialist)",
-      "budget": "N/A",
-      "client_name": "Team",
-      "score": 67,
-      "priority": "should_apply",
-      "filename": "proposal-HubSpot-Consultant-ABM-Nurture-Systems-Specialist-1748821153.html",
-      "message": "Hi Team!\n\nYour CRM automation project caught my attention. I've created a tailored solution approach: https://projekt-ai.net/proposals/proposal-HubSpot-Consultant-ABM-Nurture-Systems-Specialist-1748821153.html\n\nI specialize in automation systems and have extensive experience with similar implementations.\n\nSpecifically for your project: I will take a deep dive into your current system and understand your specific needs. I will then leverage my expertise in HubSpot, automation, and integration to design and implement a system that optimizes your B2B marketing and sales motion, ensuring efficiency and effectiveness.\n\nHappy to discuss your requirements and timeline.\n\nBest regards,\nTim Poulton",
-      "url": "https://projekt-ai.net/proposals/proposal-HubSpot-Consultant-ABM-Nurture-Systems-Specialist-1748821153.html",
-      "analysis": {
-        "current_process": "The client is currently working on a B2B marketing and sales motion system, using HubSpot as the main platform, and is in need of a system thinker to build and maintain the CRM, outbound, and nurture infrastructure.",
-        "desired_outcome": "The client desires to have scalable pipelines, well-planned segmentation logic, and contact properties, effective lead magnet to email sequence workflows, campaign execution and reporting support, and real-time collaboration.",
-        "tools": "HubSpot, Slack, Make.com, n8n, Zapier, API integrations",
-        "workflow_steps": [
-          {
-            "title": "CRM and Pipeline Architecture",
-            "description": "Building scalable pipelines, segmentation logic, and contact properties to support account-based marketing (ABM)"
-          },
-          {
-            "title": "Email Sequence Workflows",
-            "description": "Connecting landing pages to forms, routing leads into lists, and building automated nurture flows within HubSpot"
-          },
-          {
-            "title": "Campaign Execution and Reporting Support",
-            "description": "Quality assurance for workflows, assigning leads to sequences, and structuring data for easy engagement and outcomes reporting"
-          },
-          {
-            "title": "Real-Time Collaboration",
-            "description": "Being readily available on Slack to troubleshoot, iterate, and support fast-turnaround projects, specifically during launch windows"
-          }
-        ],
-        "services": [
-          "HubSpot CRM setup and maintenance",
-          "Outbound and nurture infrastructure development",
-          "Account-based marketing support",
-          "Lead magnet to email sequence workflows creation",
-          "Campaign execution and reporting assistance"
-        ],
-        "process_items": [
-          {
-            "title": "Understanding the Current System",
-            "description": "Analyze the existing system, identify pain points, and understand the desired outcomes"
-          },
-          {
-            "title": "Planning and Designing",
-            "description": "Design a HubSpot-literate system that meets the client's specific needs"
-          },
-          {
-            "title": "Implementation and Testing",
-            "description": "Implement the designed system, conduct rigorous testing, and fine-tune as needed"
-          },
-          {
-            "title": "Maintenance and Support",
-            "description": "Offer ongoing support and maintenance, troubleshooting issues as they arise, and optimizing the system for efficiency"
-          }
-        ],
-        "unique_value": "With my extensive experience in HubSpot, automation, and system thinking, I am confident in building and maintaining the CRM, outbound, and nurture infrastructure that you need. I also have a proven track record in real-time collaboration, making me a reliable partner for fast-turnaround projects.",
-        "custom_approach": "I will take a deep dive into your current system and understand your specific needs. I will then leverage my expertise in HubSpot, automation, and integration to design and implement a system that optimizes your B2B marketing and sales motion, ensuring efficiency and effectiveness."
-      },
-      "created_at": "2025-06-01T23:39:13.235259"
-    },
-    {
-      "title": "General administrative/operations at US investment bank",
-      "budget": "$2,000.00",
-      "client_name": "Team",
-      "score": 112,
-      "priority": "must_apply",
-      "filename": "proposal-General-administrativeoperations-at-US-investment-1748821136.html",
-      "message": "Hi Team!\n\nI've analyzed your CRM automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: https://projekt-ai.net/proposals/proposal-General-administrativeoperations-at-US-investment-1748821136.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nSpecifically for your project: I'll start by conducting a thorough analysis of your existing operations and identifying areas for automation. Once identified, I'll leverage my expertise in Make.com, n8n, and Zapier to design custom automation workflows. I'll ensure these solutions are seamlessly integrated with your existing systems, providing continuous support and optimization to ensure maximum efficiency.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "https://projekt-ai.net/proposals/proposal-General-administrativeoperations-at-US-investment-1748821136.html",
-      "analysis": {
-        "current_process": "The client is currently managing a diverse range of operations across multiple sectors, with tasks including administrative support, email management, meeting coordination, and document handling.",
-        "desired_outcome": "The client seeks to streamline and automate their administrative and operational processes, improving efficiency and allowing for more effective task management.",
-        "tools": "Make.com, n8n, Zapier, Google Workspace, Microsoft Office 365, Slack, Trello",
-        "workflow_steps": [
-          {
-            "title": "Email Management",
-            "description": "Automate and streamline email correspondence across entities, with prioritization of critical matters."
-          },
-          {
-            "title": "Meeting Coordination",
-            "description": "Automate the scheduling and coordination of meetings, including video conferencing and calendar management."
-          },
-          {
-            "title": "Document Management",
-            "description": "Establish an automated document management system for contracts, reports, presentations, and confidential materials."
-          },
-          {
-            "title": "Agenda Preparation",
-            "description": "Automate the preparation of meeting agendas and minutes for internal and external discussion."
-          }
-        ],
-        "services": [
-          "Process automation consultation",
-          "Email management automation",
-          "Meeting coordination automation",
-          "Document management automation",
-          "Agenda preparation automation"
-        ],
-        "process_items": [
-          {
-            "title": "Needs Assessment",
-            "description": "Understand the client's specific needs and areas for automation."
-          },
-          {
-            "title": "Solution Design",
-            "description": "Design custom automation solutions leveraging Make.com, n8n, and Zapier."
-          },
-          {
-            "title": "Implementation",
-            "description": "Implement the designed automation solutions and integrate them with the client's existing systems."
-          },
-          {
-            "title": "Monitoring & Optimization",
-            "description": "Monitor the implemented solutions for efficiency and optimize them as necessary."
-          }
-        ],
-        "unique_value": "As a seasoned automation consultant with a deep understanding of Make.com, n8n, Zapier, and API integrations, I can provide bespoke solutions that are tailored to your specific needs. My extensive experience in financial and investment banking environments allows me to comprehend the unique challenges you face, ensuring a seamless and efficient process.",
-        "custom_approach": "I'll start by conducting a thorough analysis of your existing operations and identifying areas for automation. Once identified, I'll leverage my expertise in Make.com, n8n, and Zapier to design custom automation workflows. I'll ensure these solutions are seamlessly integrated with your existing systems, providing continuous support and optimization to ensure maximum efficiency."
-      },
-      "created_at": "2025-06-01T23:38:56.525627"
     }
   ]
 }
