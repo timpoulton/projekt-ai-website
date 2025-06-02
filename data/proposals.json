@@ -1,7 +1,79 @@
 {
-  "generated_at": "2025-06-02T05:55:01.329225",
+  "generated_at": "2025-06-02T06:00:01.767389",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748843928",
+      "job_title": "Build n8n Workflow to Extract PDF Purchase Order Data (Using Azure Document Intelligence or OpenAI)",
+      "client_name": "Client",
+      "budget": "$70.00",
+      "description": "I\u2019m looking for an experienced n8n developer to build a workflow to read PDF Purchase Orders\n\n--------------------------------------------------\n\ud83d\udee0\ufe0f PROJECT OVERVIEW\n--------------------------------------------------\nThe goal is to create an n8n workflow that:\n\n- Accepts PDF Purchase Orders via an input form\n- Uses **Azure Document Intelligence** or OpenAI to extract data\n- Outputs a **CSV file** with extracted data\n- Emails the CSV to a specified email address\n\n----------------------------------...",
+      "analysis": {
+        "tools": [
+          "N8N",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using N8N, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T05:58:48.412454",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-n8n-Workflow-to-Extract-PDF-Purchase-Order-D-1748843928412.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748843927",
+      "job_title": "Shopify Pro",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I am looking for a Shopify expert to achieve the following objectives for my e-Commerce brand.\n- Shopify setup, with ongoing maintenance and optimisation\n- Mobile-first and lightning-fast performance\n- Product bridging, advertorial, landing, and sales pages designed for high conversion\n- Upsells/downsells, and subscribe and save offers to increase AOV\n- Pre-sale and post-sale workflow funnels (SMS and EMAIL)\n\nPotential for long-term partnership based on results.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:58:47.979840",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Pro-1748843927979.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748843927",
+      "job_title": "YouTube Automation Channel Creator for How-To Videos",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "I am looking for a talented individual to help launch a YouTube automation channel focused on how-to videos. The role involves producing 8 videos per day, including video creation and thumbnail design, with a budget of $1 per video. Ideal candidates should have experience in video editing, content creation, and a strong understanding of YouTube best practices. If you're new here, wanting for that one opportunity to land, this is it. Show how you work and you'll have opportunity for partnership i...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:58:47.558119",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-YouTube-Automation-Channel-Creator-for-How-To-Vide-1748843927558.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748843628",
       "job_title": "Senior Data Modeler (40+hours a week / United states / contract)",
@@ -3368,199 +3440,6 @@
         "custom_approach": "I propose to use a combination of automation tools and my expertise in data scraping to identify the channels that meet your criteria and extract the necessary information. This data will then be cleaned, verified, and used to populate a comprehensive, high-quality database that meets your needs."
       },
       "created_at": "2025-06-01T23:33:44.041287"
-    },
-    {
-      "title": "n8n Integration Project",
-      "budget": "$1,500",
-      "client_name": "Client",
-      "score": 100,
-      "priority": "must_apply",
-      "filename": "proposal-n8n-Integration-Project-1748820549.html",
-      "message": "Hi Client!\n\nI've analyzed your workflow automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: https://projekt-ai.net/proposals/proposal-n8n-Integration-Project-1748820549.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nSpecifically for your project: My approach will involve a deep-dive into your current workflows to understand the pain points. I will then design new workflows that leverage the power of n8n, Zapier, Make.com, and API integrations to automate processes and increase efficiency. The final step will be thorough testing and adjustments to ensure optimal performance.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "https://projekt-ai.net/proposals/proposal-n8n-Integration-Project-1748820549.html",
-      "analysis": {
-        "current_process": "The client is currently facing challenges with their workflow processes.",
-        "desired_outcome": "The client wants to efficiently automate and integrate their workflows.",
-        "tools": "n8n, Zapier, Make.com, API integrations",
-        "workflow_steps": [
-          {
-            "title": "Workflow Analysis",
-            "description": "Thoroughly review and understand your current workflow challenges."
-          },
-          {
-            "title": "Design Efficient Workflows",
-            "description": "Design and propose new, efficient workflows using n8n and other applicable tools."
-          },
-          {
-            "title": "Implementation",
-            "description": "Implement the new workflows, integrating all necessary systems."
-          },
-          {
-            "title": "Testing and Adjustment",
-            "description": "Perform comprehensive testing and make necessary adjustments to ensure optimal operation."
-          }
-        ],
-        "services": [
-          {
-            "service": "Workflow Design and Automation"
-          },
-          {
-            "service": "n8n Integration"
-          },
-          {
-            "service": "API Integration"
-          },
-          {
-            "service": "Zapier Integration"
-          },
-          {
-            "service": "Make.com Automation"
-          }
-        ],
-        "process_items": [
-          {
-            "title": "Initial Consultation",
-            "description": "Understanding your specific needs and challenges in detail."
-          },
-          {
-            "title": "Design Phase",
-            "description": "Creating efficient workflow designs and presenting them for review."
-          },
-          {
-            "title": "Integration and Automation Phase",
-            "description": "Integrating n8n, Zapier, Make.com, and APIs as per the approved workflow design."
-          },
-          {
-            "title": "Testing and Finalization",
-            "description": "Testing the new workflows and making final adjustments for optimal performance."
-          }
-        ],
-        "unique_value": "With my extensive experience in automation and integration using n8n, Zapier, Make.com, and APIs, I can provide unique, efficient, and effective solutions for your workflow challenges. I prioritize understanding your specific needs to deliver tailored solutions that drive process efficiencies.",
-        "custom_approach": "My approach will involve a deep-dive into your current workflows to understand the pain points. I will then design new workflows that leverage the power of n8n, Zapier, Make.com, and API integrations to automate processes and increase efficiency. The final step will be thorough testing and adjustments to ensure optimal performance."
-      },
-      "created_at": "2025-06-01T23:29:09.880663"
-    },
-    {
-      "title": "Zapier Workflow for E-commerce Inventory Management",
-      "budget": "$1,200",
-      "client_name": "RetailCorp needs to automate inventory updates between Shopify",
-      "score": 100,
-      "priority": "must_apply",
-      "filename": "proposal-Zapier-Workflow-for-Ecommerce-Inventory-Management-1748820529.html",
-      "message": "Hi RetailCorp needs to automate inventory updates between Shopify!\n\nI've analyzed your workflow automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: https://projekt-ai.net/proposals/proposal-Zapier-Workflow-for-Ecommerce-Inventory-Management-1748820529.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nSpecifically for your project: My approach involves a deep dive into your current processes to identify key areas for automation and integration. Post this, I will design a customized Zapier workflow that fits your needs perfectly. I'll also ensure thorough testing and optimization post-implementation for an efficient, real-time inventory update system.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "https://projekt-ai.net/proposals/proposal-Zapier-Workflow-for-Ecommerce-Inventory-Management-1748820529.html",
-      "analysis": {
-        "current_process": "The client is manually updating stock levels between Shopify and their warehouse management system.",
-        "desired_outcome": "The client aims to sync inventory between Shopify and the warehouse management system in real-time using Zapier workflows.",
-        "tools": "Shopify, Warehouse Management System, Zapier",
-        "workflow_steps": [
-          {
-            "title": "Inventory Data Assessment",
-            "description": "Assess the current inventory data structure in both Shopify and the warehouse management system to understand the data flow and integration requirements."
-          },
-          {
-            "title": "Zapier Workflow Design",
-            "description": "Design a custom Zapier workflow that triggers every time an inventory update occurs in either system, ensuring real-time data sync."
-          },
-          {
-            "title": "Zapier Workflow Implementation",
-            "description": "Implement the designed Zapier workflow, connecting both Shopify and the warehouse management system."
-          },
-          {
-            "title": "Testing & Optimization",
-            "description": "Conduct comprehensive testing to ensure the workflow is functioning as expected and optimize for efficiency and reliability."
-          }
-        ],
-        "services": [
-          "Inventory Data Analysis",
-          "Zapier Workflow Development",
-          "Workflow Implementation",
-          "System Integration",
-          "Testing and Optimization"
-        ],
-        "process_items": [
-          {
-            "title": "Requirement Analysis",
-            "description": "Understanding your specific needs and assessing the existing inventory systems."
-          },
-          {
-            "title": "Workflow Design and Development",
-            "description": "Designing and developing a custom Zapier workflow based on the requirement analysis."
-          },
-          {
-            "title": "Implementation and Integration",
-            "description": "Implementing the workflow and integrating Shopify with your warehouse management system."
-          },
-          {
-            "title": "Testing and Optimization",
-            "description": "Ensuring the workflow functions effectively and optimizing it for better efficiency."
-          }
-        ],
-        "unique_value": "As an expert in automation and integration with a deep understanding of e-commerce dynamics, I can provide a robust, efficient, and scalable solution. I have extensive experience with Zapier, Shopify, and various warehouse management systems, ensuring a seamless, error-free implementation.",
-        "custom_approach": "My approach involves a deep dive into your current processes to identify key areas for automation and integration. Post this, I will design a customized Zapier workflow that fits your needs perfectly. I'll also ensure thorough testing and optimization post-implementation for an efficient, real-time inventory update system."
-      },
-      "created_at": "2025-06-01T23:28:49.799160"
-    },
-    {
-      "title": "Make.com Automation Expert Needed - Connect CRM to Email Marketing",
-      "budget": "$2,500",
-      "client_name": "Sarah Johnson",
-      "score": 167,
-      "priority": "must_apply",
-      "filename": "proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748820509.html",
-      "message": "Hi Sarah Johnson!\n\nI've analyzed your CRM automation requirements and created a comprehensive solution blueprint specifically for your needs.\n\n\ud83d\ude80 I've prepared a detailed project breakdown with timeline, technical approach, and expected outcomes: https://projekt-ai.net/proposals/proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748820509.html\n\nWith 20+ years of automation experience and $16M+ in successful implementations, I specialize in creating robust solutions that scale with your business.\n\nSpecifically for your project: I will start by gaining a deep understanding of your current processes and desired outcomes, then design a custom workflow tailored to your needs. Utilizing Make.com or n8n, I will automate the data transfer between HubSpot and Mailchimp, ensuring new leads are accurately assigned to their appropriate email sequences.\n\nI'm available to start immediately and can have the initial framework ready within 48 hours.\n\nBest regards,\nTim Poulton\nAutomation Specialist | projekt-ai.net",
-      "url": "https://projekt-ai.net/proposals/proposal-Makecom-Automation-Expert-Needed-Connect-CRM-to-E-1748820509.html",
-      "analysis": {
-        "current_process": "The client manually exports leads from HubSpot and import them to Mailchimp every week.",
-        "desired_outcome": "The client wants new leads to be automatically added to appropriate email sequences based on their source and lead score.",
-        "tools": "Make.com, n8n, Zapier, API integrations, HubSpot, Mailchimp",
-        "workflow_steps": [
-          {
-            "title": "Analysis",
-            "description": "Understand the current process in-depth and assess the specific requirements for new lead allocation."
-          },
-          {
-            "title": "Design",
-            "description": "Design a robust workflow that will assign new leads to their respective email sequences based on source and lead score."
-          },
-          {
-            "title": "Automation Setup",
-            "description": "Use Make.com or n8n to automate the integration between HubSpot CRM and Mailchimp, eliminating the need for manual data transfer."
-          },
-          {
-            "title": "Testing and Deployment",
-            "description": "Test the new system thoroughly to ensure accuracy and efficiency before deploying it."
-          }
-        ],
-        "services": [
-          "Custom workflow design",
-          "Automation setup using Make.com or n8n",
-          "Integration of HubSpot and Mailchimp",
-          "System testing and verification",
-          "Ongoing support and optimization"
-        ],
-        "process_items": [
-          {
-            "title": "Initial Consultation",
-            "description": "Discuss specific needs, desired outcomes, and timelines."
-          },
-          {
-            "title": "Workflow Design and Approval",
-            "description": "Design a custom workflow and get approval before implementation."
-          },
-          {
-            "title": "Implementation and Testing",
-            "description": "Set up the automation, integrate the tools, and conduct thorough testing."
-          },
-          {
-            "title": "Deployment and Monitoring",
-            "description": "Deploy the solution and monitor its performance, making necessary adjustments for optimization."
-          }
-        ],
-        "unique_value": "As an expert in Make.com, n8n, Zapier, and API integrations, I am well-equipped to create a robust and efficient automation system for your needs. I have extensive experience in CRM and email marketing automation, ensuring I understand your challenges and can create an effective solution.",
-        "custom_approach": "I will start by gaining a deep understanding of your current processes and desired outcomes, then design a custom workflow tailored to your needs. Utilizing Make.com or n8n, I will automate the data transfer between HubSpot and Mailchimp, ensuring new leads are accurately assigned to their appropriate email sequences."
-      },
-      "created_at": "2025-06-01T23:28:29.694398"
     }
   ]
 }
