@@ -1,7 +1,196 @@
 {
-  "generated_at": "2025-06-02T14:45:01.229339",
+  "generated_at": "2025-06-02T14:50:01.223679",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748875703",
+      "job_title": "C++ Control Module Developer Needed",
+      "client_name": "Client",
+      "budget": "$40.00",
+      "description": "We are seeking an experienced C++ developer to create and implement control modules for our software applications. The ideal candidate will have a strong background in C++ programming, along with practical experience in designing and optimizing control systems. You will work closely with our engineering team to ensure seamless integration and functionality. If you are passionate about coding and have a proven track record in control module development, we would love to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nSaw you're looking for someone to build control modules, and the bit about needing seamless integration definitely jumped out at me. I remember years ago, spent a week tracking down a memory leak in a system where the modules weren't playing nice - nightmare.\n\nFor your project, I'd start by taking a deep dive into your existing architecture to really understand how the new modules need to fit in. Then, based on that, I'd propose a modular C++ design focusing on clean interfaces for easy updates down the road. Finally, rigorous testing, of course, to catch any integration gremlins before they cause bigger problems.\n\nWould be happy to chat more about your specific needs and see if my experience could be a good fit. Let me know if you're free for a quick call.",
+      "score": 70,
+      "created_at": "2025-06-02T14:48:23.928431",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-C-Control-Module-Developer-Needed-1748875703928.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875702",
+      "job_title": "Email Marketing Expert For Cold Outreach",
+      "client_name": "Client",
+      "budget": "$1,500.00",
+      "description": "We're seeking an experienced Email Marketing Expert to manage a cold outreach campaign tailored to the online gambling industry. This role involves creating and warming up email accounts, designing high-conversion emails based on industry research, managing large-scale email sends, and reporting progress.\n\n1. Email Account Creation & Warm-Up:\nSet up multiple email accounts specifically for cold outreach.\nWarm up each email account using best practices to ensure deliverability.\nDocument email det...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\nSaw you're looking for someone to manage the whole cold outreach process, from account setup to sending. That's a beast of a project! I remember helping a small SaaS company a while back. They skipped the proper warm-up and ended up with *all* their emails landing in spam. Lesson learned the hard way!\n\nFor you, I'd suggest a staged approach: First, meticulously setting up and warming the accounts (documenting everything, as you mentioned). Second, crafting hyper-targeted email sequences based on industry insights (I'm quite good at the research bit!). And third, carefully monitoring and adjusting the campaign based on deliverability and open rates.\n\nI'd love to chat more about your specific needs and how I could make this a success. Maybe we can hop on a quick call?",
+      "score": 70,
+      "created_at": "2025-06-02T14:48:22.079752",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Email-Marketing-Expert-For-Cold-Outreach-1748875702079.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875700",
+      "job_title": "Fullstack JavaScript mini\u2011dashboard ( React frontend , Node.js backend )",
+      "client_name": "Client",
+      "budget": "$275.00",
+      "description": "Scope: build a proof\u2011of\u2011concept KPI dashboard using React (hooks, Context API) for UI and Node.js for a lightweight API proxy. Deployed to Vercel with Next.js for server\u2011side rendering. Pure JavaScript stack; no TypeScript required. Delivered responsive UI, JWT auth stub, and chart component in one sprint. Great blend of React / Next.js / Node.js skills.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\n\"Manual processes\" \u2013 I hear you loud and clear. I spent a good chunk of last year untangling a reporting system for a small logistics company that was being held together with spreadsheets and crossed fingers. It's amazing the time you get back when things just *flow*.\n\nFor your dashboard, I'm thinking we start with a quick chat about the *exact* KPIs you need to visualize, then build a basic React/Node.js foundation on Vercel, focusing on that responsive UI and JWT stub you mentioned. Finally, we'd flesh out the chart component, making sure it's feeding from the API correctly.\n\nSounds like a fun, focused project. I'm happy to jump on a quick call if you want to chat through the details and see if my approach resonates.",
+      "score": 80,
+      "created_at": "2025-06-02T14:48:20.279950",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Fullstack-JavaScript-minidashboard--React-frontend-1748875700279.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875697",
+      "job_title": "Node.js, Python & AWS Developer to Build Microsoft Teams Meeting SDK Integration",
+      "client_name": "Client",
+      "budget": "$1,500.00",
+      "description": "We will give a base codebase to start from which already has most of the implementation, has to repurposed into our architecture\n\nCore Technical Requirements\n1. Web Automation & Selenium Expertise\nThe candidate must demonstrate proficiency in:\n- Selenium WebDriver for browser automation\n- Chrome DevTools Protocol (CDP) for advanced browser control\n- WebDriver management including ChromeOptions configuration\n- Element location strategies using CSS selectors, XPath, and data attributes\n- Exception...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T14:48:17.607703",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Nodejs-Python--AWS-Developer-to-Build-Microsoft-Te-1748875697607.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875697",
+      "job_title": "Playwright/Selenium script needed",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "here you have a folder with .png files.\n\nhttps://www.dropbox.com/scl/fo/d9wldvxwag0nzau2ncaxh/ABuAS5GcwB_CC93HBIXkFrg?rlkey=wzl7utkfa2g8fvx17hxur2g5c&dl=0\n\n1. The script will upload each to chatgpt. The speed should be adjustable on the GUI(1 file every 5-10 minutes for example).\n\n2. The .png will be sent to chatgpt with the following prompt: \"transcribe verbatim but remove all grammatical labels\"\n\n3. Prompt: download in .txt file (or the freelancer could use any other method to download it in ....",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\n\"Transcribe verbatim but remove all grammatical labels\" \u2013 that's a really interesting challenge! I saw the .pngs in the Dropbox link. Makes sense wanting to automate that.\n\nReminds me of a project I did last year where I had to pull data from images for a legal archive. The key was finding a reliable OCR engine and then massaging the data into the right format. Ended up building a little UI for them so they could tweak the settings.\n\nFor your project, I'd start by setting up a Selenium script to handle the ChatGPT interaction. Then, I'd build in that adjustable speed setting right into a simple GUI, so you can control the pace of uploads (5-10 mins, as you mentioned). Finally, I'd handle the .txt file download directly.\n\nWould be happy to hop on a quick call to chat more about how I\u2019d approach this specifically and answer any questions you might have.",
+      "score": 70,
+      "created_at": "2025-06-02T14:48:17.049493",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-PlaywrightSelenium-script-needed-1748875697049.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875695",
+      "job_title": "React Developer",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Role Responsibilities\n\nCollaborating with the development team to create robust mobile applications for iOS and Android.\nBuilding internal products and solutions for clients.\nDeveloping new features within existing systems.\nCoding critical components of the system.\nContributing at a high level within the technology team to continuously improve development processes.\nParticipating in Scrum development methodology.\nEnsuring consistency of work across various clients.\nCandidate Requirements\n\nStrong...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "Hey there,\n\nSaw you're looking for a React Developer to help with, \"building internal products and solutions for clients,\" and developing new features. I especially noticed the bit about consistency across various clients.\n\nI've been a solo automation specialist for 20 years and one thing that\u2019s always struck me is how easily processes can diverge if there's no solid foundation. Remember helping a medical client with a similar issue. They were using a paper system. So, the same thing happening to a development process is very understandable.\n\nWith your project, I'd initially focus on reviewing your existing codebase, focusing on areas where manual processes are creeping in. Next, I'd help build or standardize reusable components within React to streamline development. Finally, I'd work on ensuring a unified UI/UX across all client solutions.\n\nWould love to chat briefly about your project, get a better understanding of the challenges, and share some concrete ideas. Hit me up if you're available.",
+      "score": 80,
+      "created_at": "2025-06-02T14:48:15.115853",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-React-Developer-1748875695115.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875692",
+      "job_title": "Photo Editor",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "TYPICAL MULTI-EVENT WEDDING \n\nPRE-EVENTS \n\u2014\u2014\u2014\u2014\u2014\u2014\n- Couples Portraits 50-100 images \n- Family Portraits 50-100 images \n- Decor Images 50 images\n- Event Images 150-300 images\n\u2014\u2014\u2014\u2014\u2014\u2014\n300 to 550 approx. \n\nWEDDING \n\u2014\u2014\u2014\u2014\u2014\u2014\n- Bride Prep  50-100 images \n- Groom Prep  50-100 images \n- Morning Ceremonies  50-100 images \n- Couples Portraits 50-100 images \n- Bridal Party Portraits 50 images\n- Family Portraits 50-100 images \n- Decor Images 50 images\n- Barat/Milni 50-150 images \n- Ceremony Images 150-300 imag...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T14:48:12.530448",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Photo-Editor-1748875692530.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748875691",
+      "job_title": "Expert Writer for Offshore Outsourcing & Software Development Blog (Long-Term Collaboration)",
+      "client_name": "Client",
+      "budget": "$300.00",
+      "description": "Company:\u200b\u200b ahax.io - Global Software Solutions Platform\n\n\u200bProject Scope:\u200b\u200b\nLong-term blog series targeting tech professionals (CTOs, managers, startup founders). Core topics:\n\u2022 Offshore outsourcing strategies\n\u2022 Remote team management\n\u2022 Agile/Scrum methodologies\n\u2022 Tech talent recruitment & retention\n\u2022 Cross-cultural collaboration\n\n\u200bKey Requirements:\u200b\u200b\n\u2705 \u200bContent Quality\u200b\n\n100% human-centric writing (AI-generated content \u226410%)\n\u200b100% original content with plagiarism report per article\u200b\n1,000\u20131,500 ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nSaw you're focusing on \"manual processes\" and the challenges with offshore outsourcing. Been there! Early in my automation career, I worked with a team drowning in spreadsheets trying to track project progress across three time zones. It was a mess.\n\nI think we could tackle that head-on by first focusing on documenting your current workflow, then identifying those specific bottlenecks. Finally, based on that, suggesting some automation tweaks to streamline communication and reporting.\n\nWould be happy to chat more about the nuances of your current setup and how we can get things flowing more smoothly. Let me know if you're free for a quick call!",
+      "score": 70,
+      "created_at": "2025-06-02T14:48:11.951244",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Expert-Writer-for-Offshore-Outsourcing--Software-D-1748875691951.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748875401",
       "job_title": "Long\u2011term VA, Executive PA, Process Operator, Recruiter & Trainer V2",
@@ -1532,195 +1721,6 @@
       "score": 70,
       "created_at": "2025-06-02T14:09:00.383558",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Store-Setup-Needed-with-Custom-Theme-Integ-1748873340383.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873337",
-      "job_title": "Xano + Webflow Integration Expert - for Top 1% \ud83d\udc8e Upwork Partner",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "With over $2,100,000 spent on Upwork over 12 years and a 4.8-star rating, FCF is a 28-year young strategic flight information products company.\n\nProject Overview:\n\nWe're relatively new to Webflow and have been trying to integrate our content from Airtable. We thought Whalesync would be the perfect solution, but it turned out that our data structure, with many junction tables, was too complex. The result? Data that wouldn't sync properly and UI components that displayed incorrectly. We need a bet...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "Hey FCF team,\n\n\"Data that wouldn't sync properly and UI components that displayed incorrectly\" \u2013 I felt that! Been there, wrestled with that. I once spent a week trying to wrangle data with Zapier, only to realize a custom API connection was the only way to truly tame it.\n\nSeeing as Whalesync wasn\u2019t a perfect fit for your complex data, I'd suggest we first dive deep into your Xano setup and Webflow structure. Then, we could explore building custom Xano API endpoints specifically for your Webflow components. Finally, thorough testing to ensure a seamless experience.\n\nWould be happy to chat through the specifics and see if my experience could be helpful here.",
-      "score": 70,
-      "created_at": "2025-06-02T14:08:57.469445",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Xano--Webflow-Integration-Expert---for-Top-1--Upwo-1748873337469.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873334",
-      "job_title": "Cold Outreach Campaign Setup & Management - Email Marketing Expert",
-      "client_name": "Client",
-      "budget": "$20.00",
-      "description": "We are looking for an experienced Cold Email Outreach Specialist to help us identify, contact, and qualify leads through personalized email campaigns. You will be responsible for managing outreach tools, crafting engaging email sequences, and optimizing for conversions.\n\nResponsibilities:\nResearch and build targeted lead lists based on our ideal customer profile (ICP)\n\nWrite and personalize cold email sequences (including follow-ups)\n\nUse tools like Instantly.ai, Mailshake, Lemlist, or similar f...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "\"Saw you're looking for someone to wrangle those cold email campaigns and ditch the manual grind. I get it \u2013 I remember spending a week building a single lead list by hand once, never again!\n\nMy approach would be to first really nail down that ICP with you \u2013 a solid profile means better targeting and less wasted effort. Then, craft a sequence that feels genuinely personal, not just another generic email blast. Finally, A/B test everything to see what resonates and keep tweaking for better results.\n\nHappy to chat more about your specific needs and how I can help free you from those spreadsheets. Are you available for a quick call this week?\"",
-      "score": 80,
-      "created_at": "2025-06-02T14:08:54.744225",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Cold-Outreach-Campaign-Setup--Management---Email-M-1748873334744.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873333",
-      "job_title": "Infrastructure for Web Scraping and LLM",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I need someone to set up the following, end to end. Note, GPT generated this as I am not an architect. We can discuss tools etc. \n\nAlright, let\u2019s break it down into steps and tools:\n\nStep 1: Setting Up the Web Scraper Agent\n\t\u2022\tTool: Use a web scraping framework like Scrapy or a no-code solution like Octoparse if you prefer a visual interface.\n\t\u2022\tTask: Configure the scraper to crawl predefined domains that list toddler-friendly activities. Extract the relevant URLs and metadata (e.g., event name,...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hey there,\n\nI read your description about needing an end-to-end setup for web scraping and LLM integration, and the \"manual processes\" pain point definitely resonates. I remember automating a similar data extraction pipeline for a local historical society a few years back \u2013 what started as a simple scraping job quickly turned into a tangled web of configurations and data cleaning. Learned a lot!\n\nFor your project, I'm thinking we could start with a focused pilot: 1) nail down your target websites and preferred scraping tool (Scrapy or Octoparse \u2013 happy to discuss pros and cons), 2) then build a modular data pipeline to prep the extracted info for your LLM, and 3) finally, integrate everything with clear monitoring so you can tweak it as needed.\n\nWould love to chat more about the specific challenges you're anticipating. Let me know if you're free for a quick call sometime this week.",
-      "score": 80,
-      "created_at": "2025-06-02T14:08:53.046962",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Infrastructure-for-Web-Scraping-and-LLM-1748873333046.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873330",
-      "job_title": "Digital Display of Buffet Information",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We are looking for an experienced developer or agency to implement a digital solution for displaying food information at our buffets.\n\nInitial Situation\nWe currently label our buffets with paper signs. Information about food, allergens, etc. comes from the catering management software Sanalogic or is manually maintained in Word or Excel.\n\nProject Goal\nWe want to switch to digital screens that display the information automatically and in a visually appealing way. The content should be imported di...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "Hi there,\n\n\"Switching to digital screens that display the information automatically...\" That really resonated with me! I've seen firsthand how much time restaurants waste on manual updates. A while back, I helped a local cafe automate their daily specials board using a simple script and a Raspberry Pi; it was a game changer for them.\n\nFor your buffet, I'd suggest a phased approach: first, focus on connecting Sanalogic's data to a basic screen display. Then, we can explore incorporating data from your Word/Excel files into a more visually appealing interface. Finally, we can refine the display based on customer feedback.\n\nWould love to chat more about how to make this transition smooth and effective. Feel free to message me if you're free for a quick call.",
-      "score": 90,
-      "created_at": "2025-06-02T14:08:50.087825",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Digital-Display-of-Buffet-Information-1748873330087.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873327",
-      "job_title": "Shopify Store Setup for Cold Pressed Juices",
-      "client_name": "Client",
-      "budget": "$800.00",
-      "description": "Total Timeline: 10 Days\nReference Design: https://eatayoh.com\n\nUnruly Smoothie is launching a premium Shopify store rooted in Caribbean wellness, faith, and vibrant culture. The website must be fast, mobile-optimized, beautiful, and high-converting \u2014 with all core ecommerce and legal elements included.\n\n\u2705 Milestone 1: Brand Setup & Theme Integration\nWhat You Need to Do:\n\nInstall and configure a premium Shopify theme modeled after eatayoh.com\n\nUpload Unruly Smoothie\u2019s brand identity:\n\nLogo, color...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "e-commerce",
-        "score": 70
-      },
-      "message": "Hey there,\n\n\"Integration challenges\" - I hear you loud and clear! I once spent three days wrestling with a custom font that just refused to render correctly on mobile for a client selling organic teas. Drove me nuts!\n\nFor Unruly Smoothie, I'd start by carefully selecting a Shopify theme that not only mirrors eatayoh.com's aesthetic but also prioritizes speed and mobile responsiveness. Then, I'd meticulously integrate your vibrant brand identity \u2013 logo, colors, the whole shebang \u2013 ensuring it pops and resonates with your audience. Finally, I'd focus on setting up all the core e-commerce and legal bits, dotting every 'i' and crossing every 't' so you're good to go.\n\nWould love to chat more about your vision for Unruly Smoothie and how we can bring it to life.",
-      "score": 70,
-      "created_at": "2025-06-02T14:08:47.412978",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Store-Setup-for-Cold-Pressed-Juices-1748873327413.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873039",
-      "job_title": "Vibe coding to build web interfaces",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "NO AGENCIES PLEASE. Only looking for independent freelancers.\n\nWe\u2019re building a fast, functional web- UI prototype for an application. We need a vibe developer who can move fast, use AI tools to code and build, and deliver a working prototype within 5 days for phase 1. Thereafter, the project will continue with phase 2. This requires no heavy illustrations, just clean functional UI.\n \n\nWhat You\u2019ll Build (more will be shared upon discussion)\n\t\u2022\tLogin screen\n\t\u2022\tDashboard with visual flow of AI age...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "Hey there,\n\n\"Automation needs\" - I get it. Been there! Building quick, functional UIs is a sweet spot for me. Funny enough, just last month I was wrestling with a similar dashboard project. Spent hours tweaking the visual flow only to realize a simple colour change made all the difference.\n\nFor your prototype, I'd jump in by first getting a deep-dive into the 'AI age' visual flow you're aiming for. Then, I'd lean into AI coding tools to rapidly build out the login and dashboard, constantly bouncing ideas off you for feedback. Finally, make sure the UI is not just functional but visually intuitive, because sometimes the smallest tweak makes the biggest difference.\n\nIf you're up for a quick chat about this, let me know. Happy to brainstorm!",
-      "score": 80,
-      "created_at": "2025-06-02T14:03:59.869023",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Vibe-coding-to-build-web-interfaces-1748873039869.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873037",
-      "job_title": "Fractional Chief Learning and Content Officer for AI Training Platform",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Fractional Head of Content & Learning (AI Microlearning Platform)\n\nAbout Pedagogue\nPedagogue is a UK-based, AI-driven microlearning platform that turns company policies and SOPs into short, interactive 5-minute lessons on AI skills for non-technical workers. We\u2019re a lean team (1 FTE, growing to 2), backed by Microsoft for Startups and Barclays Accelerator. We sell a low-touch SaaS solution to mid-market firms/SMEs that need easy, jargon-free AI training.\n\nWe\u2019re looking for a fractional Head of C...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "SaaS",
-        "score": 80
-      },
-      "message": "Hey there,\n\n\"Easy, jargon-free AI training for non-technical workers\" \u2013 that really resonated with me. I spent a good chunk of last year helping a small manufacturing firm upskill their floor staff on using AI-powered quality control. They were completely intimidated at first, but breaking it down into bite-sized, relatable scenarios made all the difference.\n\nFor you guys, I'm thinking we could start by mapping out the core AI skills your platform targets. Then, we could look at optimizing the microlearning content creation process to maximize engagement. Finally, we can look at how automation can help you scale the content creation, distribution, and personalization process.\n\nI\u2019d be happy to chat about how my automation background could help Pedagogue streamline your operations and deliver even more impactful training. Let me know if you're open to a quick call.",
-      "score": 80,
-      "created_at": "2025-06-02T14:03:57.656226",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Fractional-Chief-Learning-and-Content-Officer-for--1748873037656.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748873034",
-      "job_title": "Creator Rate Card Web App",
-      "client_name": "Client",
-      "budget": "$2,000.00",
-      "description": "Description:\n\nWe're building BaseRates.io \u2014 a premium web platform that helps influencers and creators instantly generate accurate, data-driven rate cards using real-time social media data and a transparent pricing algorithm. This project requires a skilled full-stack developer or team to deliver a full-access product (no freemium/paywall logic) from the ground up.\n\n\ud83d\udcbc What is BaseRates.io?\nBaseRates.io is a professional pricing tool for creators, offering complete access to a structured rate car...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "SaaS",
-        "score": 80
-      },
-      "message": "Hi there,\n\n\"Integration challenges\" jumped out at me in your description. I spent a good chunk of last year untangling a *very* ambitious marketing automation setup where the data just wasn't flowing correctly between the platforms. It turned out a seemingly small API version mismatch was the culprit!\n\nFor BaseRates.io, I'd start by outlining the data integrations and logic you envision. Then, build the core rate card generation and display functionality. Finally, we'd focus on thorough testing and refining the user experience based on real creator feedback.\n\nThis sounds like a fun project and I'd be happy to chat about how my experience could help. Let me know if you're open to a quick call.",
-      "score": 80,
-      "created_at": "2025-06-02T14:03:54.810814",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Creator-Rate-Card-Web-App-1748873034810.html",
       "original_job_url": "",
       "status": "pending"
     }
