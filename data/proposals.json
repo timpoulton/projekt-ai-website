@@ -1,7 +1,201 @@
 {
-  "generated_at": "2025-06-02T11:35:01.488495",
+  "generated_at": "2025-06-02T11:40:01.293185",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748864208",
+      "job_title": "Webhook by zapier linking to meta account",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Description:\n\nI have a Google Sheet with active/inactive customers.\nI want to fully automate the removal of inactive customers from a Meta (Facebook) Custom Audience.\n\nI already have a basic Zapier flow set up, but I am running into issues with batching/removing multiple users at once.\n\n\n\nCurrent setup:\n\u2705 Google Sheet (column: email + status)\n\u2705 Combined sheet with Active / Inactive status\n\u2705 Zapier pulling inactive rows\n\u2705 Trying to use Webhook by Zapier to call Meta API \u2192 not working yet (token +...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api",
+          "Webhook"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:36:48.322544",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Webhook-by-zapier-linking-to-meta-account-1748864208322.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748864207",
+      "job_title": "Fitness App Developer \u2013 AI-Powered Workouts & Nutrition Tracking Flutter || NodeJS || React || AI",
+      "client_name": "Client",
+      "budget": "$7,500.00",
+      "description": "Summary\n\ud83d\ude80 We are looking for an experienced mobile app developer to build a fitness and wellness application with AI-generated workout and diet plans, trainer marketplace, real-time analytics, and subscription-based features. The app will integrate with Apple Health, Google Fit, and AI-powered recommendations for an interactive fitness experience.\n\n\ud83d\udd39 Key Features:\n\u2705 User Registration & Onboarding \u2013 Conversational onboarding, goal setup, and equipment selection\n\u2705 AI-Generated Workout & Diet Plans...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:36:47.904387",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Fitness-App-Developer--AI-Powered-Workouts--Nutrit-1748864207904.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748864206",
+      "job_title": "Administrative Manager",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Connecting your website to our CRM system.\n\nUsing the CRM's API to automatically send data (like leads) into the CRM.\n\nTesting the integration to ensure data flows correctly and securely.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:36:46.663764",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Administrative-Manager-1748864206663.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748864205",
+      "job_title": "Whatsapp Business Platform solution build",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We need someone who can help us building a solution for WABA utility.\n\nSome of the items in scope includes, Create business profile on meta, use cloud API, set up templates, set up notifications, marketing notifications, customer service notifications etc.",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:36:45.434253",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Whatsapp-Business-Platform-solution-build-1748864205434.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748864204",
+      "job_title": "Ongoing Bubble Support to Automate Key Workflows",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Hi all,\n\nI\u2019m looking for a Bubble expert to support and extend automation for my web app (bandejapadelclub.io) a platform that organizes weekly padel matches based on user preferences and subscriptions.\n\nThe app has been running running successfully for about 18 months now but there are still several manual steps we\u2019d like to automate. For example:\n\nWhen a player cancels, we want the system to automatically replace them with the next person on the waiting list, regenerate the match schedule, and...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes",
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T11:36:44.204507",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Ongoing-Bubble-Support-to-Automate-Key-Workflows-1748864204204.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748864203",
+      "job_title": "Design a Modular OTT Platform Stack (Live/VOD) \u2013 DevOps Brief & Roadmap",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "CONTEXT\nWe\u2019re building a modular OTT streaming architecture, combining live capture, smart orchestration, monetization dashboard, and archive integration, all from a sovereign or hybrid cloud setup (Swiss-based preferred).\n\nGoal of this assignment\nWe are looking for a senior freelance expert with DevOps + OTT + Cloud experience to help us:\n\t\u2022\tReview the overall technical feasibility of the project\n\t\u2022\tDraft a realistic development roadmap (Q3/Q4)\n\t\u2022\tDistinguish proprietary modules vs. licensed or...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T11:36:43.811286",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Design-a-Modular-OTT-Platform-Stack-LiveVOD--DevOp-1748864203811.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748864203",
+      "job_title": "Security Operations (SecOps) Analyst",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We\u2019re looking for a Security Operations Analyst to help scale and enhance our SecOps program. You\u2019ll report to the Technical Operations Director (who reports directly to the CEO) and work alongside our GRC lead to improve our vulnerability intake, threat response, darkweb posture, and internal security tooling. This is a hands-on role focused on triage, automation, and execution\u2014ideal for someone who thrives in a lean, high-impact environment.\n\nKey Responsibilities:\n\nTriage vulnerability reports...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Api"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T11:36:43.401223",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Security-Operations-SecOps-Analyst-1748864203401.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748864202",
+      "job_title": "Build an Automated Real Estate Presentation System (Stripe + GPT-4 + n8n)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Summary\nDescription:\nWe\u2019re looking for a reliable and creative automation expert (or team) to build an end-to-end workflow for real estate agents. The goal is to generate branded property presentations automatically, triggered by a simple form submission and integrated with payment and messaging systems.\n\nProject Overview:\nWe want to create a streamlined system where an agent can:\n- Submit basic property info (address, price, client details)\n- Instantly collect payment through a checkout interfa...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "N8N",
+          "Api",
+          "Webhook"
+        ],
+        "pain_points": [
+          "integration challenges",
+          "automation needs"
+        ],
+        "industry": "real estate",
+        "score": 90
+      },
+      "message": "I noticed you're struggling with integration challenges in your real estate.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, N8N, Api, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 90,
+      "created_at": "2025-06-02T11:36:42.084473",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-an-Automated-Real-Estate-Presentation-System-1748864202084.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748863906",
       "job_title": "Automated Test Case Development for Django Inventory Management Application",
@@ -1002,197 +1196,6 @@
       "score": 80,
       "created_at": "2025-06-02T10:56:30.666893",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-AI-Powered-Mobile-App-Developer-iOSAndroid-for-Pro-1748861790666.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748861789",
-      "job_title": "CSV Data Import Specialist for NetSuite",
-      "client_name": "Client",
-      "budget": "$25.00",
-      "description": "We are seeking a skilled freelancer to assist with importing vendor bills and employee expenses from CSV files into NetSuite. The ideal candidate will have a strong understanding of NetSuite data import processes and experience with CSV formatting. Attention to detail is crucial to ensure accurate data transfer. If you are organized and have a proven track record of successful data imports, we want to hear from you!",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:56:29.431923",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-CSV-Data-Import-Specialist-for-NetSuite-1748861789431.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748861789",
-      "job_title": "Django Developer",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Looking for an experienced Django developer \n\nPlus if have experience with a fresh stripe integration",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:56:29.022284",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Django-Developer-1748861789022.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748861787",
-      "job_title": "3D Modeler Needed for Detailed Tram Model in CARMaker/CARLA",
-      "client_name": "Client",
-      "budget": "$1,000.00",
-      "description": "I need a highly detailed, realistic tram model compatible with CARMaker and CARLA.\n\nKey Requirements:\n1. High-level detail and realism\n2. The model should be drivable on tracks supported by CARLA, CarMaker.....\n3. The model shall demonstrate closeness to the real world(view, behaviour...).\n4. Model should have possibilities to integrate sensors supported by platform (CARLA ex. Camera,\nRADAR, LIDAR, USS.....)\n5. Integration to CARLA(Tram/Train environment):\na. scene for 60 sec covering\ni. urban s...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:56:27.767490",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-3D-Modeler-Needed-for-Detailed-Tram-Model-in-CARMa-1748861787767.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748861786",
-      "job_title": "AI & Design Tool Researcher for E-Learning Animations and Technical Illustrations",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "\ud83d\udcdd Job Description:\nWe\u2019re looking for a creative technology consultant or visual design expert to help us identify the best tools (AI or otherwise) for producing animations and illustrations for technical e-learning modules.\n\nThis project is focused on building a toolkit we can use to efficiently create:\n\n\ud83d\udee0\ufe0f Technical illustrations (e.g. diagrams, equipment visuals, flow charts)\n\n\ud83c\udf9e\ufe0f Simple animations or GIFs (e.g. showing how machinery works, step-by-step processes)\n\n\ud83e\udde0 Ideally, tools that allow n...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:56:26.504795",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-AI--Design-Tool-Researcher-for-E-Learning-Animatio-1748861786504.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748861172",
-      "job_title": "Looking for YT_DLP Expert",
-      "client_name": "Client",
-      "budget": "$15,000.00",
-      "description": "Hi,\nWe\u2019re looking for a skilled freelancer with deep experience in yt_dlp, YouTube anti-bot mechanisms, and proxy/cookie handling.\n\nObjective:\nBuild or improve a safe, scalable yt_dlp-based downloader that avoids YouTube rate limits, CAPTCHA walls, login blocks, and \"Sign in to confirm you're not a bot\" errors.\n\nWhat we need help with:\n\nBypassing YouTube's bot detection safely\n\nRotating real browser cookies (logged-in or guest) with downloads\n\nIntelligent proxy rotation (residential, mobile, or ...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T10:46:12.778229",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Looking-for-YT_DLP-Expert-1748861172778.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748861171",
-      "job_title": "GHL - Automation Review and set up of New and Resubmitted Leads Internal Notifications",
-      "client_name": "Client",
-      "budget": "$40.00",
-      "description": "We require the review of a Sub Account (Quickly) current lead sources (Website with multiple forms, Meta In Platform Leads, Live Chat, Reception Retell) to standardise how leads are;\n- Updated within a Single Pipeline\n- Sent internally to assigned staff\n- Pushed to Slack \n\nRequest review, suggestions on best practice and roll out.",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:46:11.520718",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-GHL---Automation-Review-and-set-up-of-New-and-Resu-1748861171520.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748861170",
-      "job_title": "Shopify Store Development, SEO and optimization",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "I need someone who can develop an interactive and optimized shopify store. If it works well I will keep the same guy to manage the store for me with Meta Ads and Google Ads management",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:46:10.275464",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-Store-Development-SEO-and-optimization-1748861170275.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748861169",
-      "job_title": "Great for Rising Talents: Motion Graphics Artist Needed",
-      "client_name": "Client",
-      "budget": "$5.00",
-      "description": "We\u2019re a creative studio currently developing a series of short-form motion graphics pieces for a showcase reel. We're looking for a reliable motion designer who can deliver multiple clean, concept-driven animations based on pre-defined themes and briefs.\n\n\ud83d\uddd3 Deadline: June 5th\n\ud83c\udfaf Tools: After Effects (main), Illustrator (for shape/asset preparation)\n\ud83d\udcf9 Deliverable: One final .mp4 reel (1920x1080) combining all animations\n\n\ud83e\udde9 Scope of Work:\nYou will be responsible for producing the following segments...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T10:46:09.038954",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Great-for-Rising-Talents-Motion-Graphics-Artist-Ne-1748861169038.html",
       "original_job_url": "",
       "status": "pending"
     }
