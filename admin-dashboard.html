@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard - Projekt AI</title>
     <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -13,18 +16,15 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0a0a0a;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #1a1a1a;
             color: #ffffff;
             min-height: 100vh;
-            background-image: 
-                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(255, 119, 198, 0.1) 0%, transparent 50%);
         }
 
         /* Header */
         .header {
-            background: rgba(10, 10, 10, 0.8);
+            background: rgba(26, 26, 26, 0.8);
             backdrop-filter: blur(10px);
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             padding: 20px 0;
@@ -53,12 +53,12 @@
         }
 
         .admin-badge {
-            background: rgba(120, 119, 198, 0.2);
-            border: 1px solid rgba(120, 119, 198, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             padding: 8px 16px;
             border-radius: 20px;
             font-size: 14px;
-            color: #7877c6;
+            color: #fff;
         }
 
         .logout-btn {
@@ -88,9 +88,7 @@
             font-size: 48px;
             font-weight: 700;
             margin-bottom: 20px;
-            background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #fff;
         }
 
         .page-subtitle {
@@ -126,14 +124,14 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(135deg, rgba(120, 119, 198, 0.1) 0%, rgba(255, 119, 198, 0.1) 100%);
+            background: rgba(255, 255, 255, 0.05);
             opacity: 0;
             transition: opacity 0.3s ease;
         }
 
         .tool-card:hover {
             transform: translateY(-5px);
-            border-color: rgba(120, 119, 198, 0.3);
+            border-color: rgba(255, 255, 255, 0.3);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
         }
 
@@ -144,7 +142,7 @@
         .tool-icon {
             width: 60px;
             height: 60px;
-            background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
+            background: rgba(255, 255, 255, 0.1);
             border-radius: 16px;
             display: flex;
             align-items: center;
@@ -222,9 +220,7 @@
         .stat-value {
             font-size: 36px;
             font-weight: 700;
-            background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #fff;
         }
 
         .stat-label {
