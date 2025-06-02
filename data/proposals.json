@@ -1,7 +1,54 @@
 {
-  "generated_at": "2025-06-02T10:00:01.298191",
+  "generated_at": "2025-06-02T10:05:01.091362",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748858433",
+      "job_title": "Retail Marketing Specialist",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83d\udd38 Role: Retail Marketing Specialist\n\ud83d\udccd Location: Remote (U.S.-based only)\n\ud83d\udcb0 Compensation: Up to $10,000/month\n\ud83d\udd52 Type: Full-Time or Contract\n\nJoin a fast-growing health and wellness brand that\u2019s reshaping how people access and experience natural products. With strong momentum in both DTC and retail channels, they\u2019re expanding rapidly\u2014and retail marketing is a key growth focus.\n\nThey\u2019re hiring a Retail Marketing Specialist to help bridge the gap between digital performance and in-store sales. This ...",
+      "analysis": {
+        "tools": [
+          "Api"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 80
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 80,
+      "created_at": "2025-06-02T10:00:33.657366",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Retail-Marketing-Specialist-1748858433657.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748858432",
+      "job_title": "Automated Conversational Ordering System Development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled developer to create an automated conversational ordering system. This system should facilitate seamless customer interactions, enabling users to place orders through natural language processing. The ideal candidate will have experience in chatbot development and integration with payment systems. Your expertise will help us enhance customer experience and streamline our ordering process. If you are passionate about building intuitive conversational interfaces, we'd love t...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T10:00:32.426167",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Automated-Conversational-Ordering-System-Developme-1748858432426.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748858130",
       "job_title": "Automation Engineers N8n",
@@ -1143,56 +1190,6 @@
       "score": 70,
       "created_at": "2025-06-02T07:19:50.200175",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Video-Editor-for-Podcasts-and-Social-Media-Content-1748848790200.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748848490",
-      "job_title": "Development of Roommate/Shared-Living App (Beta + Final Version w/ Stripe & Badge System)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re looking for an experienced no-code or low-code developer (Bubble.io preferred) to build a shared-living/roommate app in two phases \u2014 first, a beta version for testing, and then a full-featured final version. We have completed UI designs in Figma and are now seeking a quote and timeline for both stages.\n\nOur app is focused on rent and roommate management, and is designed to make shared living easier \u2014 by helping roommates split rent, manage expenses, assign chores, and support each other wh...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T07:14:50.962386",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Development-of-RoommateShared-Living-App-Beta--Fin-1748848490962.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748848490",
-      "job_title": "Web developer - Connect a non integrated Merchant to a GHL Account via 3rd party software",
-      "client_name": "Client",
-      "budget": "$200.00",
-      "description": "We require Marketing Automation Specialist (or Web Integration Specialist) to link a new payment gateway to our website/landing page in Go High Level using zapier or equivalent\n\nJob Description:\nWe\u2019re seeking a skilled professional to integrate our merchant gateway with our landing page using Zapier. This role involves creating and managing automated workflows to ensure seamless transactions and data flow between our merchant gateway and our landing page.\n\nKey Responsibilities:\n\t\u2022\tSet up and con...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Api"
-        ],
-        "pain_points": [
-          "integration challenges",
-          "automation needs"
-        ],
-        "industry": "general business",
-        "score": 90
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 90,
-      "created_at": "2025-06-02T07:14:50.526675",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Web-developer---Connect-a-non-integrated-Merchant--1748848490526.html",
       "original_job_url": "",
       "status": "pending"
     }
