@@ -1,7 +1,31 @@
 {
-  "generated_at": "2025-06-02T05:25:01.941143",
+  "generated_at": "2025-06-02T05:30:01.328638",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748842086",
+      "job_title": "Performance Media Buyer \u2013 TrafficJunky Campaign Manager (Intimacy & Wellness Brand)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Performance Media Buyer \u2013 TrafficJunky Campaign Manager (Intimacy & Wellness Brand)\n\nWe\u2019re a fast-growing health & wellness brand in the intimacy and self-care space, and we\u2019re looking for a results-driven media buyer to take charge of our banner ad campaigns on TrafficJunky.\n\nWith proven creatives and optimized landing pages already in place, we\u2019re now ready to scale \u2014 and we need someone who knows how to manage paid traffic profitably.\n\nYour Core Responsibilities\nSet up and manage display/bann...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T05:28:06.733846",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Performance-Media-Buyer--TrafficJunky-Campaign-Man-1748842086733.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748841783",
       "job_title": "GSEN Knowledge Base Project - Phase 2 Development",
@@ -3433,17 +3457,6 @@
       "message": "Hi!\n\nI specialize in systems integration and would love to help with your project.\n\nI've prepared a detailed proposal showing how I'd approach your specific needs:\n\u2192 https://projekt-ai.net/proposals/fraud-prevention-proposal-1748819575902.html\n\nThe proposal includes my recommended workflow, timeline, and pricing.\n\nLet me know if you'd like to discuss further!\n\nBest,\nTim",
       "filename": "fraud-prevention-proposal-1748819575902.html",
       "timestamp": "2025-06-01T23:12:55.902699",
-      "priority": "should_apply"
-    },
-    {
-      "job_id": "",
-      "job_title": "Business Operations & Multi-Project Manager (Hybrid) \u2013 Right Hand to Serial Entrepreneur",
-      "client_name": "Your Company",
-      "score": 75,
-      "proposal_url": "https://projekt-ai.net/proposals/your-company-proposal-1748819575892.html",
-      "message": "Hi there!\n\nI noticed you need help with workflow automation. I've actually created a custom automation workflow and project breakdown specifically for your requirements.\n\nYou can view your personalized proposal here:\n\u2192 https://projekt-ai.net/proposals/your-company-proposal-1748819575892.html\n\nThis demonstrates exactly how I'd solve your specific challenges, including the tools, timeline, and investment required.\n\nI'm particularly excited about this project because it aligns perfectly with my expertise in building similar systems.\n\nLooking forward to discussing this with you!\n\nBest regards,\nTim",
-      "filename": "your-company-proposal-1748819575892.html",
-      "timestamp": "2025-06-01T23:12:55.893374",
       "priority": "should_apply"
     }
   ]
