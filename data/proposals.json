@@ -1,7 +1,127 @@
 {
-  "generated_at": "2025-06-02T12:10:01.313674",
+  "generated_at": "2025-06-02T12:15:01.222899",
   "total_proposals": 50,
   "proposals": [
+    {
+      "job_id": "job_1748866306",
+      "job_title": "WordPress WooCommerce Integration and UI Enhancement",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled WordPress developer to help us integrate WooCommerce into our existing WordPress site. The ideal candidate will also assist with enhancing the user interface to improve overall aesthetics and functionality. You should have experience in customizing WooCommerce settings and a good eye for design to ensure a seamless user experience. If you are passionate about e-commerce and web design, we would love to hear from you!",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:11:46.136520",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-WordPress-WooCommerce-Integration-and-UI-Enhanceme-1748866306136.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748866305",
+      "job_title": "WordPress SEO and Website Migration from Bluehost",
+      "client_name": "Client",
+      "budget": "$15.00",
+      "description": "I am looking for an experienced WordPress professional to help with the following tasks:\n\n1. Website Migration \u2013 Migrate my existing website from Bluehost to a new WordPress hosting environment.\n\n2. Landing Page Integration \u2013 Set up and associate 7 landing pages with the main site.\n\n3. SEO Optimization \u2013 Customize and optimize the site for SEO to improve visibility and performance on search engines.\n\nThe ideal candidate should have experience in website migration, landing page setup, and WordPre...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:11:45.743068",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-WordPress-SEO-and-Website-Migration-from-Bluehost-1748866305743.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748866305",
+      "job_title": "Jotform Integration with Airtable and Twilio",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are looking for a skilled freelancer to help us update our Jotform, Airtable and  Twilio automation. \n\nCurrent Flow Overview:\n\t1.\tCustomer submits job via Jotform\n\t2.\tJob is stored in Airtable (including postcode, job ID, etc.)\n\t3.\tNearest 3 subcontractors are fetched from Airtable based on proximity. Contractor response via sms to accept the job. \n\n####Update required###\nIf no contractor is found within 5-10min. \n\t4.\tSMS is sent via Twilio to The 3 subcontractors\n\t5.\tIf no one accepts within...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:11:45.323933",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Jotform-Integration-with-Airtable-and-Twilio-1748866305323.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748866304",
+      "job_title": "Mobile App Developer for Our Company App development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We're looking for a forward-thinking Mobile App Developer to join us in building our company\u2019s core app from the ground up. This isn\u2019t just a freelance gig \u2014 it\u2019s a chance to become a key part of a long-term project where your decisions and code will shape how our company connects with users.\n\nWhat You\u2019ll Do:\n\nLead the development of a robust, scalable mobile application.\n\nBuild features that enhance user experience, streamline functionality, and reflect our brand identity.\n\nWork closely with ou...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:11:44.075316",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Mobile-App-Developer-for-Our-Company-App-developme-1748866304075.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
+    {
+      "job_id": "job_1748866302",
+      "job_title": "Microsoft Power Platform App Development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking a skilled developer to assist in building a platform/app using Microsoft Power Platform. The ideal candidate will have experience in creating custom applications, automating workflows, and integrating data solutions. You will collaborate with our team to design and implement features that meet user needs. Strong knowledge of Power Apps, Power Automate, and Power BI is essential. If you are passionate about leveraging technology to enhance business processes, we would love to hear ...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "I noticed you're struggling with automation needs in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
+      "score": 70,
+      "created_at": "2025-06-02T12:11:42.781292",
+      "proposal_url": "https://projekt-ai.net/proposals/proposal-Microsoft-Power-Platform-App-Development-1748866302781.html",
+      "original_job_url": "",
+      "status": "pending"
+    },
     {
       "job_id": "job_1748866001",
       "job_title": "Expert in clay and other scripting and automation platforms",
@@ -1078,125 +1198,6 @@
       "score": 90,
       "created_at": "2025-06-02T11:31:44.454876",
       "proposal_url": "https://projekt-ai.net/proposals/proposal-Build-an-Automated-Real-Estate-Presentation-System-1748863904454.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863904",
-      "job_title": "Shopify App and API Developer",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We have a Shopify App integrated and launched into the Shopify App Store. However, it has been some time since the launch and we need to set it up again.\nWe have an application for commerce companies. Our app performs one of the commerce function. \n\nWe need you to: \n1. Launch the application on Shopify App Store\n2. Connect and authenticate any Shopify user who signs up from the Shopify App Store\n3. Read the webhooks of Order Fulfilment and pass the data to us in a structured format that our back...",
-      "analysis": {
-        "tools": [
-          "Api",
-          "Webhook"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api, Webhook\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T11:31:44.059946",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-App-and-API-Developer-1748863904059.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863902",
-      "job_title": "UI/UX Designer \u2013 AI-Powered Content Automation (SaaS)",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "About the Role:\nWe\u2019re building The Rebrander, a creative automation tool that transforms public content (YouTube, blogs, etc.) into beautifully rebranded media posts for Instagram, X, and newsletters. You\u2019ll be responsible for designing the core user experience\u2014from brand setup to AI-generated content dashboards.\n\nWhat You'll Do:\n\nDesign a sleek, intuitive UI that feels like a creative control room\n\nCreate wireframes, high-fidelity mockups, and component systems\n\nWork with product and frontend e...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "SaaS",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your SaaS.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:31:42.811823",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-UIUX-Designer--AI-Powered-Content-Automation-SaaS-1748863902811.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863902",
-      "job_title": "Shopify Admin/Developer/Manager Needed",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "We\u2019re a consulting company managing multiple Shopify stores and some WordPress sites. We need a long-term, part-time Developer & Manager to handle both frontend and backend tasks for Shopify and occasionally WordPress.\n\nResponsibilities:\n\nDevelop, customize, and maintain Shopify themes (Liquid, HTML, CSS, JavaScript)\nOptimize Shopify store performance, SEO, and conversion rates\nManage product listings, pricing updates, and inventory synchronization\nImplement and troubleshoot Shopify apps, APIs, ...",
-      "analysis": {
-        "tools": [
-          "Api"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 80
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Api\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 80,
-      "created_at": "2025-06-02T11:31:42.417760",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Shopify-AdminDeveloperManager-Needed-1748863902417.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863902",
-      "job_title": "Expert Salesforce Developer",
-      "client_name": "Client",
-      "budget": "N/A",
-      "description": "Looking for an expert to help with a basic Salesforce implementation complete with some custom objects and workflows. And also complete reporting and dashboards",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "manual processes"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with manual processes in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:31:42.017218",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-Expert-Salesforce-Developer-1748863902017.html",
-      "original_job_url": "",
-      "status": "pending"
-    },
-    {
-      "job_id": "job_1748863901",
-      "job_title": "VR Operation Theater Simulation \u2013 Unity/Unreal Developer Needed",
-      "client_name": "Client",
-      "budget": "$300.00",
-      "description": "We are looking for an experienced VR developer to help build a realistic operation theater simulation for medical training purposes. The goal is to create an immersive, interactive VR experience where doctors or students can learn how to perform surgeries and use medical equipment in a virtual environment.\n\nThis project focuses on medical accuracy, intuitive interaction, and VR immersion.\n\n\ud83c\udfaf Key Responsibilities:\nDevelop a VR-based surgical simulation (in Unity or Unreal Engine)\n\nCreate or integ...",
-      "analysis": {
-        "tools": [
-          "Zapier",
-          "Make.com"
-        ],
-        "pain_points": [
-          "integration challenges"
-        ],
-        "industry": "general business",
-        "score": 70
-      },
-      "message": "I noticed you're struggling with integration challenges in your general business.\n\nHaving automated 200+ similar businesses, I can help you save 15+ hours weekly through smart integrations.\n\nMy approach:\n1. Map your current workflow and identify bottlenecks\n2. Build custom automations using Zapier, Make.com\n3. Train your team and provide documentation\n\nLast month, I helped a similar client reduce manual work by 70% while improving accuracy.\n\nI'd love to discuss your specific needs. When would be a good time for a quick call?\n\nBest,\nTimothy",
-      "score": 70,
-      "created_at": "2025-06-02T11:31:41.615909",
-      "proposal_url": "https://projekt-ai.net/proposals/proposal-VR-Operation-Theater-Simulation--UnityUnreal-Devel-1748863901615.html",
       "original_job_url": "",
       "status": "pending"
     }
