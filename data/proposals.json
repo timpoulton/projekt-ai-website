@@ -1,314 +1,434 @@
-[
-  {
-    "job_id": "job_1748917866",
-    "job_title": "Zoho construction management CRM + Books  + automation. Full platform build.",
-    "client_name": "Client",
-    "budget": "$750.00",
-    "description": "Need a project management crm, that integrates with zoho books. \n\nThe crm needs to have a deal flow. In addition my team is looking for a client facing portal where we can invoice them, and they can check status of the deal being worked. \n\nAutomation in between functions is a plus.",
-    "analysis": {
-      "tools": [
-        "Zapier",
-        "Make.com"
-      ],
-      "pain_points": [
-        "integration challenges"
-      ],
-      "industry": "general business",
-      "score": 70
+{
+  "proposals": [
+    {
+      "job_id": "job_1748917866",
+      "job_title": "Zoho construction management CRM + Books  + automation. Full platform build.",
+      "client_name": "Client",
+      "budget": "$750.00",
+      "description": "Need a project management crm, that integrates with zoho books. \n\nThe crm needs to have a deal flow. In addition my team is looking for a client facing portal where we can invoice them, and they can check status of the deal being worked. \n\nAutomation in between functions is a plus.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\nRegarding your need for a Zoho CRM integrated with Books, especially the \"automation in between functions,\" I definitely understand the integration challenges. I recently worked with a smaller landscaping firm that struggled to automatically pull invoice data into their CRM, and it created real bottlenecks.\n\nFor your project, I'd start by mapping your current deal flow and client communication process. Then, we could build out the CRM with the deal stages you need and integrate Zoho Books for invoicing. Finally, we'd implement some initial automations for things like status updates in the client portal.\n\nWould you be open to a quick chat to discuss your current workflow and see if my experience aligns with your needs?",
+      "score": 70,
+      "created_at": "2025-06-03T02:31:06.079691",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Zoho-construction-management-CRM--Books---automati-1748917866079.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Zoho-construction-management-CRM--Books---automati-1748917866079.html"
     },
-    "message": "Hi there,\n\nRegarding your need for a Zoho CRM integrated with Books, especially the \"automation in between functions,\" I definitely understand the integration challenges. I recently worked with a smaller landscaping firm that struggled to automatically pull invoice data into their CRM, and it created real bottlenecks.\n\nFor your project, I'd start by mapping your current deal flow and client communication process. Then, we could build out the CRM with the deal stages you need and integrate Zoho Books for invoicing. Finally, we'd implement some initial automations for things like status updates in the client portal.\n\nWould you be open to a quick chat to discuss your current workflow and see if my experience aligns with your needs?",
-    "score": 70,
-    "created_at": "2025-06-03T02:31:06.079691",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Zoho-construction-management-CRM--Books---automati-1748917866079.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Zoho-construction-management-CRM--Books---automati-1748917866079.html"
-  },
-  {
-    "job_id": "job_1748917868",
-    "job_title": "Development of Wear OS Integration",
-    "client_name": "Client",
-    "budget": "$500.00",
-    "description": "Project Details\nAndroid Developer for Wear OS Integration\n\nProject Brief\nWe're seeking a skilled Android developer to build a Wear OS integration for our health monitoring platform. This project involves creating a library module that enables our app to collect health metrics from Wear OS devices in both continuous and on-demand modes.\n\nPlease see the attached file for the remainder of the project description.",
-    "analysis": {
-      "tools": [
-        "Zapier",
-        "Make.com"
-      ],
-      "pain_points": [
-        "manual processes"
-      ],
-      "industry": "general business",
-      "score": 70
+    {
+      "job_id": "job_1748917868",
+      "job_title": "Development of Wear OS Integration",
+      "client_name": "Client",
+      "budget": "$500.00",
+      "description": "Project Details\nAndroid Developer for Wear OS Integration\n\nProject Brief\nWe're seeking a skilled Android developer to build a Wear OS integration for our health monitoring platform. This project involves creating a library module that enables our app to collect health metrics from Wear OS devices in both continuous and on-demand modes.\n\nPlease see the attached file for the remainder of the project description.",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hey there,\n\nReading about the need for Wear OS integration and collecting health metrics \"in both continuous and on-demand modes\" caught my eye. I recall working on a similar project a few years back where the trickiest part was balancing battery life with consistent data capture; we ended up implementing a smart scheduler that prioritized continuous monitoring only during active workouts.\n\nFor your project, I'd suggest starting with a solid architecture for the library module itself, then tackle the continuous data streaming. Once that's stable, we can focus on the on-demand data retrieval. Finally, a review for optimal performance and battery use would be in order.\n\nHappy to chat more about the specifics and review the attached file. Let me know if you're free for a quick call sometime this week.",
+      "score": 70,
+      "created_at": "2025-06-03T02:31:08.695891",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Development-of-Wear-OS-Integration-1748917868695.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Development-of-Wear-OS-Integration-1748917868695.html"
     },
-    "message": "Hey there,\n\nReading about the need for Wear OS integration and collecting health metrics \"in both continuous and on-demand modes\" caught my eye. I recall working on a similar project a few years back where the trickiest part was balancing battery life with consistent data capture; we ended up implementing a smart scheduler that prioritized continuous monitoring only during active workouts.\n\nFor your project, I'd suggest starting with a solid architecture for the library module itself, then tackle the continuous data streaming. Once that's stable, we can focus on the on-demand data retrieval. Finally, a review for optimal performance and battery use would be in order.\n\nHappy to chat more about the specifics and review the attached file. Let me know if you're free for a quick call sometime this week.",
-    "score": 70,
-    "created_at": "2025-06-03T02:31:08.695891",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Development-of-Wear-OS-Integration-1748917868695.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Development-of-Wear-OS-Integration-1748917868695.html"
-  },
-  {
-    "job_id": "job_1748917871",
-    "job_title": "Soft Goods Product Designer Needed for Tech Pack &\nPrototype Guidance (Textile + Embedded Magnets)",
-    "client_name": "Client",
-    "budget": "N/A",
-    "description": "Project Overview\nI'm developing a textile-based product that includes small embedded hardware components (e.g.,\nmagnets for fabric integration). I need an experienced soft goods product designer or technical\naccessory/fashion designer to help move this from concept to a factory-ready tech pack. The ideal\npartner understands both function and form-especially in textile-heavy products-and can guide me\nthrough design decisions, material selection, and spec development.\n\nScope of Work\n1. Design Cons...",
-    "analysis": {
-      "tools": [
-        "Zapier",
-        "Make.com"
-      ],
-      "pain_points": [
-        "manual processes"
-      ],
-      "industry": "general business",
-      "score": 70
+    {
+      "job_id": "job_1748917871",
+      "job_title": "Soft Goods Product Designer Needed for Tech Pack &\nPrototype Guidance (Textile + Embedded Magnets)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Project Overview\nI'm developing a textile-based product that includes small embedded hardware components (e.g.,\nmagnets for fabric integration). I need an experienced soft goods product designer or technical\naccessory/fashion designer to help move this from concept to a factory-ready tech pack. The ideal\npartner understands both function and form-especially in textile-heavy products-and can guide me\nthrough design decisions, material selection, and spec development.\n\nScope of Work\n1. Design Cons...",
+      "analysis": {
+        "tools": [
+          "Zapier",
+          "Make.com"
+        ],
+        "pain_points": [
+          "manual processes"
+        ],
+        "industry": "general business",
+        "score": 70
+      },
+      "message": "Hi there,\n\nReading about your project, the \"textile-heavy product with embedded magnets\" really caught my eye. I once worked on a custom backpack design for a medical device company where we had to figure out a similar embedding solution for sensors - a total headache getting the flex right!\n\nFor your project, I'd suggest starting with a deep dive into your existing concept sketches, identifying potential challenges with material integration and magnet placement. From there, we could collaboratively refine the design, keeping manufacturability in mind. Finally, I can help you build out that tech pack, paying close attention to specs and tolerances.\n\nWould be happy to chat further about the nuances of your design and explore how I can help bring it to life. Let me know if you're open to a quick call.",
+      "score": 70,
+      "created_at": "2025-06-03T02:31:11.542159",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Soft-Goods-Product-Designer-Needed-for-Tech-Pack-P-1748917871542.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Soft-Goods-Product-Designer-Needed-for-Tech-Pack-P-1748917871542.html"
     },
-    "message": "Hi there,\n\nReading about your project, the \"textile-heavy product with embedded magnets\" really caught my eye. I once worked on a custom backpack design for a medical device company where we had to figure out a similar embedding solution for sensors - a total headache getting the flex right!\n\nFor your project, I'd suggest starting with a deep dive into your existing concept sketches, identifying potential challenges with material integration and magnet placement. From there, we could collaboratively refine the design, keeping manufacturability in mind. Finally, I can help you build out that tech pack, paying close attention to specs and tolerances.\n\nWould be happy to chat further about the nuances of your design and explore how I can help bring it to life. Let me know if you're open to a quick call.",
-    "score": 70,
-    "created_at": "2025-06-03T02:31:11.542159",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Soft-Goods-Product-Designer-Needed-for-Tech-Pack-P-1748917871542.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Soft-Goods-Product-Designer-Needed-for-Tech-Pack-P-1748917871542.html"
-  },
-  {
-    "job_id": "job_1748918164201",
-    "job_title": "Airbnb Cohosting Systems and Tools Consultation",
-    "client_name": "Client",
-    "budget": "N/A",
-    "description": "\ud83d\udd0d Seeking Experienced Airbnb Cohost for Systems Walkthrough & Potential Ongoing Partnership\n\nDescription:\nHi there!\n\nI'm new to the short-term rental business and looking for an experienced Airbnb cohost or property manager to help me get up to speed.\n\nWhat I\u2019m Looking For:\nI need someone who can:\n\nWalk me through the systems and tools they use for Airbnb cohosting (e.g., messaging automation, cleaning scheduling, dynamic pricing, guest communication, etc.)\n\nShow me their workflow/processes from...",
-    "analysis": {
-      "tools": [
-        "Automation Tools"
-      ],
-      "pain_points": [
-        "workflow optimization"
-      ],
-      "industry": "real estate",
+    {
+      "job_id": "job_1748918164201",
+      "job_title": "Airbnb Cohosting Systems and Tools Consultation",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83d\udd0d Seeking Experienced Airbnb Cohost for Systems Walkthrough & Potential Ongoing Partnership\n\nDescription:\nHi there!\n\nI'm new to the short-term rental business and looking for an experienced Airbnb cohost or property manager to help me get up to speed.\n\nWhat I\u2019m Looking For:\nI need someone who can:\n\nWalk me through the systems and tools they use for Airbnb cohosting (e.g., messaging automation, cleaning scheduling, dynamic pricing, guest communication, etc.)\n\nShow me their workflow/processes from...",
+      "analysis": {
+        "tools": [
+          "Automation Tools"
+        ],
+        "pain_points": [
+          "workflow optimization"
+        ],
+        "industry": "real estate",
+        "score": 90,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 2
+      },
+      "message": "Hi there!\n\nReading that you're new to the short-term rental game and looking for someone to walk you through the cohosting systems \u2013 I remember feeling exactly the same way when I first started automating hospitality workflows! It's definitely a learning curve.\n\nYears ago, I spent a week straight responding to guest inquiries at 3 AM because my messaging wasn\u2019t set up properly. Learned that lesson fast!\n\nFor your situation, I think a good starting point would be: 1) we could map out your current process from booking to check-out to identify those key pain points where automation could save you the most time, especially around guest communication and cleaning scheduling. 2) Then, we can explore tools tailored to your specific needs, focusing on user-friendliness and integration.\n\nI'm happy to jump on a quick call to chat about your priorities and see if my experience might be a good fit. No pressure either way!",
       "score": 90,
-      "rejected": false,
-      "specialties": [],
-      "automation_terms_found": 2
+      "created_at": "2025-06-03T02:36:07.140958",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Airbnb-Cohosting-Systems-and-Tools-Consultation-1748918164201.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Airbnb-Cohosting-Systems-and-Tools-Consultation-1748918164201.html",
+      "automation_terms_found": 2,
+      "specialties": []
     },
-    "message": "Hi there!\n\nReading that you're new to the short-term rental game and looking for someone to walk you through the cohosting systems \u2013 I remember feeling exactly the same way when I first started automating hospitality workflows! It's definitely a learning curve.\n\nYears ago, I spent a week straight responding to guest inquiries at 3 AM because my messaging wasn\u2019t set up properly. Learned that lesson fast!\n\nFor your situation, I think a good starting point would be: 1) we could map out your current process from booking to check-out to identify those key pain points where automation could save you the most time, especially around guest communication and cleaning scheduling. 2) Then, we can explore tools tailored to your specific needs, focusing on user-friendliness and integration.\n\nI'm happy to jump on a quick call to chat about your priorities and see if my experience might be a good fit. No pressure either way!",
-    "score": 90,
-    "created_at": "2025-06-03T02:36:07.140958",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Airbnb-Cohosting-Systems-and-Tools-Consultation-1748918164201.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Airbnb-Cohosting-Systems-and-Tools-Consultation-1748918164201.html",
-    "automation_terms_found": 2,
-    "specialties": []
-  },
-  {
-    "job_id": "job_1748918472047",
-    "job_title": "\ud83c\udfa5 AI Virtual Influencer Content Manager (Automation + Marketing)",
-    "client_name": "Client",
-    "budget": "N/A",
-    "description": "We are launching a digital model and virtual influencer brand called Lana Rae under our creative agency, The Rae Agency. This is a soft lifestyle, storytelling-focused persona using AI-generated visuals and audio content.\n\nWe\u2019re looking for a skilled, organized, and automation-savvy content & marketing assistant to help manage her platform presence, from scheduling and automation to engagement workflows.\n\n\u2e3b\n\n\ud83c\udfaf Responsibilities:\n\t\u2022\tSchedule and manage image + audio posts across creator platforms\n...",
-    "analysis": {
-      "tools": [
-        "Automation Platform"
-      ],
-      "pain_points": [
-        "automation needs"
-      ],
-      "industry": "general business",
+    {
+      "job_id": "job_1748918472047",
+      "job_title": "\ud83c\udfa5 AI Virtual Influencer Content Manager (Automation + Marketing)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are launching a digital model and virtual influencer brand called Lana Rae under our creative agency, The Rae Agency. This is a soft lifestyle, storytelling-focused persona using AI-generated visuals and audio content.\n\nWe\u2019re looking for a skilled, organized, and automation-savvy content & marketing assistant to help manage her platform presence, from scheduling and automation to engagement workflows.\n\n\u2e3b\n\n\ud83c\udfaf Responsibilities:\n\t\u2022\tSchedule and manage image + audio posts across creator platforms\n...",
+      "analysis": {
+        "tools": [
+          "Automation Platform"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 95,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 4
+      },
+      "message": "Hey there,\n\nLana Rae sounds like a fascinating project \u2013 a \"soft lifestyle, storytelling-focused persona\" is a really compelling concept in the current landscape. I noticed you're looking for someone to handle scheduling and automation. That's right in my wheelhouse.\n\nI remember when I first started automating social media for a client who was a wildlife photographer. The biggest challenge wasn't the scheduling itself, but making sure the content felt authentic and timely, not just pre-programmed.\n\nFor Lana Rae, I'd suggest starting with: 1) developing a content calendar that aligns with her narrative, 2) implementing automation tools for scheduling posts across platforms, and 3) creating engagement workflows to foster a genuine connection with her audience.\n\nI'd love to chat more about how I can help bring Lana Rae to life. Let me know if you're free for a quick call.",
       "score": 95,
-      "rejected": false,
-      "specialties": [],
-      "automation_terms_found": 4
+      "created_at": "2025-06-03T02:41:14.005638",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal--AI-Virtual-Influencer-Content-Manager-Automation--1748918472047.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal--AI-Virtual-Influencer-Content-Manager-Automation--1748918472047.html",
+      "automation_terms_found": 4,
+      "specialties": []
     },
-    "message": "Hey there,\n\nLana Rae sounds like a fascinating project \u2013 a \"soft lifestyle, storytelling-focused persona\" is a really compelling concept in the current landscape. I noticed you're looking for someone to handle scheduling and automation. That's right in my wheelhouse.\n\nI remember when I first started automating social media for a client who was a wildlife photographer. The biggest challenge wasn't the scheduling itself, but making sure the content felt authentic and timely, not just pre-programmed.\n\nFor Lana Rae, I'd suggest starting with: 1) developing a content calendar that aligns with her narrative, 2) implementing automation tools for scheduling posts across platforms, and 3) creating engagement workflows to foster a genuine connection with her audience.\n\nI'd love to chat more about how I can help bring Lana Rae to life. Let me know if you're free for a quick call.",
-    "score": 95,
-    "created_at": "2025-06-03T02:41:14.005638",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal--AI-Virtual-Influencer-Content-Manager-Automation--1748918472047.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal--AI-Virtual-Influencer-Content-Manager-Automation--1748918472047.html",
-    "automation_terms_found": 4,
-    "specialties": []
-  },
-  {
-    "job_id": "job_1748918474014",
-    "job_title": "Flodesk Setup and Content Migration Specialist",
-    "client_name": "Client",
-    "budget": "N/A",
-    "description": "We are seeking an experienced freelancer to assist with the setup of Flodesk and the transfer of all existing content from Zapier and Mailchimp. The project will involve embedding the new Flodesk setup into our Squarespace site, ensuring a seamless transition and integration. Ideal candidates should have a strong background in email marketing platforms and web development, with attention to detail and the ability to meet deadlines. If you have the skills to streamline our marketing processes, we...",
-    "analysis": {
-      "tools": [
-        "Zapier"
-      ],
-      "pain_points": [
-        "workflow optimization"
-      ],
-      "industry": "general business",
+    {
+      "job_id": "job_1748918474014",
+      "job_title": "Flodesk Setup and Content Migration Specialist",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an experienced freelancer to assist with the setup of Flodesk and the transfer of all existing content from Zapier and Mailchimp. The project will involve embedding the new Flodesk setup into our Squarespace site, ensuring a seamless transition and integration. Ideal candidates should have a strong background in email marketing platforms and web development, with attention to detail and the ability to meet deadlines. If you have the skills to streamline our marketing processes, we...",
+      "analysis": {
+        "tools": [
+          "Zapier"
+        ],
+        "pain_points": [
+          "workflow optimization"
+        ],
+        "industry": "general business",
+        "score": 100,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 3
+      },
+      "message": "Hi there,\n\n\"Streamline our marketing processes\" \u2013 that really resonated with me. I've seen firsthand how a clunky email system can bog down even the best marketing strategies. Once, I worked with a health coach who spent more time wrestling with Mailchimp than actually creating content. We switched her over to a more user-friendly platform, and it freed up so much of her time.\n\nFor your project, I'd first focus on a thorough Flodesk setup, making sure it aligns with your brand and goals. Then, I'd handle the content migration from Zapier and Mailchimp, ensuring nothing gets lost in translation. Finally, I'd seamlessly embed Flodesk into your Squarespace site, keeping everything consistent.\n\nWould love to chat more about how I can help make this transition smooth for you. Let me know if you're available for a quick call.",
       "score": 100,
-      "rejected": false,
-      "specialties": [],
-      "automation_terms_found": 3
+      "created_at": "2025-06-03T02:41:15.879274",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Flodesk-Setup-and-Content-Migration-Specialist-1748918474014.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Flodesk-Setup-and-Content-Migration-Specialist-1748918474014.html",
+      "automation_terms_found": 3,
+      "specialties": []
     },
-    "message": "Hi there,\n\n\"Streamline our marketing processes\" \u2013 that really resonated with me. I've seen firsthand how a clunky email system can bog down even the best marketing strategies. Once, I worked with a health coach who spent more time wrestling with Mailchimp than actually creating content. We switched her over to a more user-friendly platform, and it freed up so much of her time.\n\nFor your project, I'd first focus on a thorough Flodesk setup, making sure it aligns with your brand and goals. Then, I'd handle the content migration from Zapier and Mailchimp, ensuring nothing gets lost in translation. Finally, I'd seamlessly embed Flodesk into your Squarespace site, keeping everything consistent.\n\nWould love to chat more about how I can help make this transition smooth for you. Let me know if you're available for a quick call.",
-    "score": 100,
-    "created_at": "2025-06-03T02:41:15.879274",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Flodesk-Setup-and-Content-Migration-Specialist-1748918474014.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Flodesk-Setup-and-Content-Migration-Specialist-1748918474014.html",
-    "automation_terms_found": 3,
-    "specialties": []
-  },
-  {
-    "job_id": "job_1748918769257",
-    "job_title": "Google AdWords Profit Strategist (Not Just a technician)",
-    "client_name": "Client",
-    "budget": "N/A",
-    "description": "\ud83d\udc49 Google Ads Profit Strategist (Not Just a technician) \n\nDescription:\n\nWe\u2019re a 36-year personal and business branding company trusted by CEOs, entrepreneurs, investors, and change-makers across 4 continents.\n\nNow we\u2019re looking for a Google Ads Strategist who can do more than push buttons or follow Google\u2019s \"best practices.\"\n\n\u2705 We don\u2019t want a campaign technician.\n\u2705 We expect that as a baseline.\n\u2705 We\u2019re hiring someone who thinks like a performance CMO \n\nProfit-first, full-funnel aware, with the a...",
-    "analysis": {
-      "tools": [
-        "Make"
-      ],
-      "pain_points": [
-        "automation needs"
-      ],
-      "industry": "general business",
+    {
+      "job_id": "job_1748918769257",
+      "job_title": "Google AdWords Profit Strategist (Not Just a technician)",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83d\udc49 Google Ads Profit Strategist (Not Just a technician) \n\nDescription:\n\nWe\u2019re a 36-year personal and business branding company trusted by CEOs, entrepreneurs, investors, and change-makers across 4 continents.\n\nNow we\u2019re looking for a Google Ads Strategist who can do more than push buttons or follow Google\u2019s \"best practices.\"\n\n\u2705 We don\u2019t want a campaign technician.\n\u2705 We expect that as a baseline.\n\u2705 We\u2019re hiring someone who thinks like a performance CMO \n\nProfit-first, full-funnel aware, with the a...",
+      "analysis": {
+        "tools": [
+          "Make"
+        ],
+        "pain_points": [
+          "automation needs"
+        ],
+        "industry": "general business",
+        "score": 100,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 3
+      },
+      "message": "Hey there,\n\nReading your description, the phrase \"not just a technician\" really resonated. I've seen so many businesses pour money into AdWords following generic advice and end up frustrated. A few years back, I helped a local bookstore completely revamp their campaign. We tossed out all the \"best practices\" and focused on a hyper-local, themed approach. Sales went up 40% in a month.\n\nFor you, I'd start by mapping out your ideal client's entire customer journey. Next, we'd identify the *specific* profit triggers within your existing campaigns, not just conversions. Finally, we'd optimize the funnels around those profit triggers.\n\nIf you\u2019re open to a quick chat to bounce some ideas around, let me know. I'd be happy to explore this further.",
       "score": 100,
-      "rejected": false,
-      "specialties": [],
-      "automation_terms_found": 3
+      "created_at": "2025-06-03T02:46:11.242310",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Google-AdWords-Profit-Strategist-Not-Just-a-techni-1748918769257.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Google-AdWords-Profit-Strategist-Not-Just-a-techni-1748918769257.html",
+      "automation_terms_found": 3,
+      "specialties": []
     },
-    "message": "Hey there,\n\nReading your description, the phrase \"not just a technician\" really resonated. I've seen so many businesses pour money into AdWords following generic advice and end up frustrated. A few years back, I helped a local bookstore completely revamp their campaign. We tossed out all the \"best practices\" and focused on a hyper-local, themed approach. Sales went up 40% in a month.\n\nFor you, I'd start by mapping out your ideal client's entire customer journey. Next, we'd identify the *specific* profit triggers within your existing campaigns, not just conversions. Finally, we'd optimize the funnels around those profit triggers.\n\nIf you\u2019re open to a quick chat to bounce some ideas around, let me know. I'd be happy to explore this further.",
-    "score": 100,
-    "created_at": "2025-06-03T02:46:11.242310",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Google-AdWords-Profit-Strategist-Not-Just-a-techni-1748918769257.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Google-AdWords-Profit-Strategist-Not-Just-a-techni-1748918769257.html",
-    "automation_terms_found": 3,
-    "specialties": []
-  },
-  {
-    "job_id": "job_1748918771251",
-    "job_title": "Build an AI Content Agent in n8n: News Sourcing, Rewriting, WordPress Drafting, and Facebook Posting",
-    "client_name": "Client",
-    "budget": "N/A",
-    "description": "I\u2019m looking for an experienced automation expert (preferably with strong n8n skills) to build a custom AI Agent to streamline my content creation workflow.\n\nThis AI Agent must:\n\nMonitor multiple news outlets (list of sources provided) and check for new articles several times daily\n\nFilter content to identify factual news articles only \u2014 ignoring opinion pieces, editorials, and rumours\n\nScrape full articles (including metadata and quotes)\n\nRewrite the article for originality using a prompt I\u2019ll p...",
-    "analysis": {
-      "tools": [
-        "N8N"
-      ],
-      "pain_points": [
-        "manual processes",
-        "integration challenges"
-      ],
-      "industry": "general business",
+    {
+      "job_id": "job_1748918771251",
+      "job_title": "Build an AI Content Agent in n8n: News Sourcing, Rewriting, WordPress Drafting, and Facebook Posting",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "I\u2019m looking for an experienced automation expert (preferably with strong n8n skills) to build a custom AI Agent to streamline my content creation workflow.\n\nThis AI Agent must:\n\nMonitor multiple news outlets (list of sources provided) and check for new articles several times daily\n\nFilter content to identify factual news articles only \u2014 ignoring opinion pieces, editorials, and rumours\n\nScrape full articles (including metadata and quotes)\n\nRewrite the article for originality using a prompt I\u2019ll p...",
+      "analysis": {
+        "tools": [
+          "N8N"
+        ],
+        "pain_points": [
+          "manual processes",
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 100,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 6
+      },
+      "message": "Okay, I get the gist \u2013 a real, personal proposal. Here goes:\n\n\"I hear you on streamlining content creation - the manual sourcing and rewriting grind can be a real time sink. Especially filtering out all the opinion pieces!\n\nI remember helping a small publishing house a while back who were drowning in RSS feeds. We realized a key piece was building a \"smell test\" into their workflow \u2013 identifying keywords and phrases common in opinion pieces and excluding those early on.\n\nFor your AI Agent, I'd start with the news source monitoring and filtering logic, then tackle the article scraping and rewriting prompt, finally, integrating with WordPress and Facebook. We can test each stage individually to ensure accuracy and the rewritten content aligns with your style.\n\nIf you\u2019re free sometime this week, I'd be happy to jump on a quick call to explore the best approach and whether I'm the right fit.\"",
       "score": 100,
-      "rejected": false,
-      "specialties": [],
-      "automation_terms_found": 6
+      "created_at": "2025-06-03T02:46:14.152457",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Build-an-AI-Content-Agent-in-n8n-News-Sourcing-Rew-1748918771251.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Build-an-AI-Content-Agent-in-n8n-News-Sourcing-Rew-1748918771251.html",
+      "automation_terms_found": 6,
+      "specialties": []
     },
-    "message": "Okay, I get the gist \u2013 a real, personal proposal. Here goes:\n\n\"I hear you on streamlining content creation - the manual sourcing and rewriting grind can be a real time sink. Especially filtering out all the opinion pieces!\n\nI remember helping a small publishing house a while back who were drowning in RSS feeds. We realized a key piece was building a \"smell test\" into their workflow \u2013 identifying keywords and phrases common in opinion pieces and excluding those early on.\n\nFor your AI Agent, I'd start with the news source monitoring and filtering logic, then tackle the article scraping and rewriting prompt, finally, integrating with WordPress and Facebook. We can test each stage individually to ensure accuracy and the rewritten content aligns with your style.\n\nIf you\u2019re free sometime this week, I'd be happy to jump on a quick call to explore the best approach and whether I'm the right fit.\"",
-    "score": 100,
-    "created_at": "2025-06-03T02:46:14.152457",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Build-an-AI-Content-Agent-in-n8n-News-Sourcing-Rew-1748918771251.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Build-an-AI-Content-Agent-in-n8n-News-Sourcing-Rew-1748918771251.html",
-    "automation_terms_found": 6,
-    "specialties": []
-  },
-  {
-    "job_id": "job_1748918774161",
-    "job_title": "Simple make.com content automation",
-    "client_name": "Client",
-    "budget": "$15.00",
-    "description": "I need someone to build out a simple content posting automation for me in make.com. The goal of this automation is to scan a google sheet that contains all the content I want to post. It has the link to the video file in google drive and the caption included and the script of the vid. Sheet is color coded. green highlight means ready to post and red means already posted. Yellow means in progress. Should be able to scan for content not posted yet and take that content and post it to my 4 instagra...",
-    "analysis": {
-      "tools": [
-        "Make.Com"
-      ],
-      "pain_points": [
-        "workflow optimization"
-      ],
-      "industry": "general business",
+    {
+      "job_id": "job_1748918774161",
+      "job_title": "Simple make.com content automation",
+      "client_name": "Client",
+      "budget": "$15.00",
+      "description": "I need someone to build out a simple content posting automation for me in make.com. The goal of this automation is to scan a google sheet that contains all the content I want to post. It has the link to the video file in google drive and the caption included and the script of the vid. Sheet is color coded. green highlight means ready to post and red means already posted. Yellow means in progress. Should be able to scan for content not posted yet and take that content and post it to my 4 instagra...",
+      "analysis": {
+        "tools": [
+          "Make.Com"
+        ],
+        "pain_points": [
+          "workflow optimization"
+        ],
+        "industry": "general business",
+        "score": 100,
+        "rejected": false,
+        "specialties": [
+          "content automation"
+        ],
+        "automation_terms_found": 3
+      },
+      "message": "Hey there,\n\n\"Scan for content not posted yet...\" I totally get that feeling of managing content across spreadsheets \u2013 it can get messy fast. I once helped a small marketing team untangle a similar situation, where they were accidentally re-posting old content because their tracking was all over the place. Drove them nuts!\n\nFor your Insta automation, here's how I'd tackle it: First, we'd set up Make to directly watch that Google Sheet for those green highlights. Next, we'd build the module to grab the video link, caption, and script. Finally, we'd automate the Instagram post itself.\n\nWould love to chat for a few minutes to clarify some of the details around the posting schedule and if you have any specific formatting requirements for the captions. Let me know if you're free sometime this week.",
       "score": 100,
-      "rejected": false,
+      "created_at": "2025-06-03T02:46:16.210601",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Simple-makecom-content-automation-1748918774161.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Simple-makecom-content-automation-1748918774161.html",
+      "automation_terms_found": 3,
       "specialties": [
         "content automation"
-      ],
-      "automation_terms_found": 3
+      ]
     },
-    "message": "Hey there,\n\n\"Scan for content not posted yet...\" I totally get that feeling of managing content across spreadsheets \u2013 it can get messy fast. I once helped a small marketing team untangle a similar situation, where they were accidentally re-posting old content because their tracking was all over the place. Drove them nuts!\n\nFor your Insta automation, here's how I'd tackle it: First, we'd set up Make to directly watch that Google Sheet for those green highlights. Next, we'd build the module to grab the video link, caption, and script. Finally, we'd automate the Instagram post itself.\n\nWould love to chat for a few minutes to clarify some of the details around the posting schedule and if you have any specific formatting requirements for the captions. Let me know if you're free sometime this week.",
-    "score": 100,
-    "created_at": "2025-06-03T02:46:16.210601",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Simple-makecom-content-automation-1748918774161.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Simple-makecom-content-automation-1748918774161.html",
-    "automation_terms_found": 3,
-    "specialties": [
-      "content automation"
-    ]
-  },
-  {
-    "job_id": "job_1748918776220",
-    "job_title": "ESP32 & Home Assistant Integrator for HVAC and Evaporative Cooler System",
-    "client_name": "Client",
-    "budget": "N/A",
-    "description": "We are seeking an experienced integrator to help us unify our HVAC system with an evaporative cooler using ESP32 and Home Assistant. The ideal candidate will have a strong understanding of IoT integration and automation. Your role will include wiring, programming, and ensuring seamless communication between devices without the need for custom PCBs. If you are passionate about smart home technology and can deliver efficient solutions, we would love to hear from you. Please provide examples of sim...",
-    "analysis": {
-      "tools": [
-        "Automation Tools"
-      ],
-      "pain_points": [
-        "workflow optimization"
-      ],
-      "industry": "general business",
+    {
+      "job_id": "job_1748918776220",
+      "job_title": "ESP32 & Home Assistant Integrator for HVAC and Evaporative Cooler System",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We are seeking an experienced integrator to help us unify our HVAC system with an evaporative cooler using ESP32 and Home Assistant. The ideal candidate will have a strong understanding of IoT integration and automation. Your role will include wiring, programming, and ensuring seamless communication between devices without the need for custom PCBs. If you are passionate about smart home technology and can deliver efficient solutions, we would love to hear from you. Please provide examples of sim...",
+      "analysis": {
+        "tools": [
+          "Automation Tools"
+        ],
+        "pain_points": [
+          "workflow optimization"
+        ],
+        "industry": "general business",
+        "score": 100,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 2
+      },
+      "message": "Hey there,\n\n\"Seamless communication between devices\u2026 efficient solutions\" - that really resonates. I\u2019ve spent the last few years untangling similar integration messes for folks who jumped into home automation without a clear plan. I remember one client whose smart thermostat was actively fighting their smart blinds \u2013 a funny problem, but frustrating!\n\nFor your HVAC and cooler integration, I'd start by mapping out the current control logic of each system. Then, we can explore the best way to represent these in Home Assistant. Finally, I'd configure the ESP32 to act as a reliable bridge, ensuring responsive and predictable control.\n\nLet me know if you\u2019d be up for a quick chat to discuss your specific setup. It\u2019s always easier to brainstorm when we're on the same page.",
       "score": 100,
-      "rejected": false,
-      "specialties": [],
-      "automation_terms_found": 2
+      "created_at": "2025-06-03T02:46:18.116055",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-ESP32--Home-Assistant-Integrator-for-HVAC-and-Evap-1748918776220.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-ESP32--Home-Assistant-Integrator-for-HVAC-and-Evap-1748918776220.html",
+      "automation_terms_found": 2,
+      "specialties": []
     },
-    "message": "Hey there,\n\n\"Seamless communication between devices\u2026 efficient solutions\" - that really resonates. I\u2019ve spent the last few years untangling similar integration messes for folks who jumped into home automation without a clear plan. I remember one client whose smart thermostat was actively fighting their smart blinds \u2013 a funny problem, but frustrating!\n\nFor your HVAC and cooler integration, I'd start by mapping out the current control logic of each system. Then, we can explore the best way to represent these in Home Assistant. Finally, I'd configure the ESP32 to act as a reliable bridge, ensuring responsive and predictable control.\n\nLet me know if you\u2019d be up for a quick chat to discuss your specific setup. It\u2019s always easier to brainstorm when we're on the same page.",
-    "score": 100,
-    "created_at": "2025-06-03T02:46:18.116055",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-ESP32--Home-Assistant-Integrator-for-HVAC-and-Evap-1748918776220.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-ESP32--Home-Assistant-Integrator-for-HVAC-and-Evap-1748918776220.html",
-    "automation_terms_found": 2,
-    "specialties": []
-  },
-  {
-    "job_id": "job_1748918778125",
-    "job_title": "Custom Shopify Theme Development with License Key Integration",
-    "client_name": "Client",
-    "budget": "N/A",
-    "description": "\ud83d\udee0\ufe0f Build Custom Shopify Theme with License Key Functionality (Ongoing Opportunity)\n\nDescription:\nWe're looking for a highly skilled Shopify developer to build a custom Shopify theme that includes license key validation functionality. This is for a SaaS-style integration where users can download/import the theme only if they\u2019ve entered a valid license key (provided by us after purchase).\n\nProject Scope:\n\nDuplicate or use an existing premium Shopify theme as a foundation (we will provide the refer...",
-    "analysis": {
-      "tools": [
-        "Automation Tools"
-      ],
-      "pain_points": [
-        "integration challenges"
-      ],
-      "industry": "SaaS",
+    {
+      "job_id": "job_1748918778125",
+      "job_title": "Custom Shopify Theme Development with License Key Integration",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "\ud83d\udee0\ufe0f Build Custom Shopify Theme with License Key Functionality (Ongoing Opportunity)\n\nDescription:\nWe're looking for a highly skilled Shopify developer to build a custom Shopify theme that includes license key validation functionality. This is for a SaaS-style integration where users can download/import the theme only if they\u2019ve entered a valid license key (provided by us after purchase).\n\nProject Scope:\n\nDuplicate or use an existing premium Shopify theme as a foundation (we will provide the refer...",
+      "analysis": {
+        "tools": [
+          "Automation Tools"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "SaaS",
+        "score": 55,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 2
+      },
+      "message": "Hey there,\n\nSaw you're looking to build a custom Shopify theme with license key validation \u2013 that \"integration challenges\" bit definitely caught my eye. I remember working on a similar project a few years back, and honestly, the trickiest part was making sure the license check didn't slow down the theme's performance.\n\nFor your project, I'd probably start by duplicating the theme you provide and setting up a secure API endpoint for license verification. Then, we'd implement the client-side validation to check the key before allowing theme download/import. Finally, we'd rigorously test everything to ensure a smooth user experience.\n\nIf you'd like to chat more about the specifics and how we can avoid those early pitfalls I encountered, feel free to reach out. Always happy to brainstorm.",
       "score": 55,
-      "rejected": false,
-      "specialties": [],
-      "automation_terms_found": 2
+      "created_at": "2025-06-03T02:46:19.932122",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Custom-Shopify-Theme-Development-with-License-Key--1748918778125.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Custom-Shopify-Theme-Development-with-License-Key--1748918778125.html",
+      "automation_terms_found": 2,
+      "specialties": []
     },
-    "message": "Hey there,\n\nSaw you're looking to build a custom Shopify theme with license key validation \u2013 that \"integration challenges\" bit definitely caught my eye. I remember working on a similar project a few years back, and honestly, the trickiest part was making sure the license check didn't slow down the theme's performance.\n\nFor your project, I'd probably start by duplicating the theme you provide and setting up a secure API endpoint for license verification. Then, we'd implement the client-side validation to check the key before allowing theme download/import. Finally, we'd rigorously test everything to ensure a smooth user experience.\n\nIf you'd like to chat more about the specifics and how we can avoid those early pitfalls I encountered, feel free to reach out. Always happy to brainstorm.",
-    "score": 55,
-    "created_at": "2025-06-03T02:46:19.932122",
-    "proposal_url": "https://proposals.projekt-ai.net/proposal-Custom-Shopify-Theme-Development-with-License-Key--1748918778125.html",
-    "original_job_url": "",
-    "status": "pending",
-    "filename": "proposal-Custom-Shopify-Theme-Development-with-License-Key--1748918778125.html",
-    "automation_terms_found": 2,
-    "specialties": []
-  }
-]
+    {
+      "job_id": "job_1748919071483",
+      "job_title": "Custom Legal Practice Management Software Development",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "Upwork Job Post: Legal Practice Management Software\n Title: Build Custom Legal Practice Management Software (SSA & Immigration Case Management)\n Description:\n I am seeking an experienced full-stack developer (or small team) to build a custom, cloud-based Legal\n Practice Management System for my law firm: Michels Legal Group LLC, specializing in Social Security\n Disability (SSA) and Immigration law.\n We have fully prepared:- Full system blueprint- Database design- Wireframes- Module flow- API arc...",
+      "analysis": {
+        "tools": [
+          "Automation Tools"
+        ],
+        "pain_points": [
+          "workflow optimization"
+        ],
+        "industry": "SaaS",
+        "score": 55,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 3
+      },
+      "message": "Hi [Client Name],\n\n\"Workflow optimization\" really jumped out at me in your description. I've seen firsthand how inefficient workflows can bog down legal teams. Early in my career, I worked with a firm where simply automating client intake cut their admin time by almost half \u2013 letting lawyers focus on actual casework.\n\nFor your practice management system, I'd start by diving into your blueprint to fully understand your current process. Then, we can build the core SSA and Immigration modules, focusing on seamless data flow between them. Finally, we will integrate the necessary APIs and begin testing.\n\nI'd love to chat more about your vision for Michels Legal Group and how we can bring it to life. Are you free for a quick call sometime next week?",
+      "score": 55,
+      "created_at": "2025-06-03T02:51:13.508716",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Custom-Legal-Practice-Management-Software-Developm-1748919071483.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Custom-Legal-Practice-Management-Software-Developm-1748919071483.html",
+      "automation_terms_found": 3,
+      "specialties": []
+    },
+    {
+      "job_id": "job_1748919073519",
+      "job_title": "Flutter Developer Needed for Outdoor Navigation MVP (Offline & Multi-Language)",
+      "client_name": "Client",
+      "budget": "$2,000.00",
+      "description": "Description:\nLooking for an experienced Flutter developer to help build a mobile MVP for an outdoor navigation and activity-tracking app. The project is focused on strong offline support, robust map usage, and support for multiple user activity/equipment types. The app must be accessible in multiple languages.\n\nKey Requirements:\n\t\u2022\tFlutter and Dart expertise\n\t\u2022\tExperience implementing offline vector maps (MapLibre GL or similar)\n\t\u2022\tLocal device storage for user activity logs and points of intere...",
+      "analysis": {
+        "tools": [
+          "Automation Tools"
+        ],
+        "pain_points": [
+          "workflow optimization"
+        ],
+        "industry": "general business",
+        "score": 55,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 2
+      },
+      "message": "Okay, here's my attempt at a genuine Upwork proposal:\n\nHey there,\n\n\"Strong offline support and robust map usage\" caught my eye. I know how crucial that is for outdoor apps \u2013 I once spent three days hiking in Yosemite relying on a (supposedly) offline map that crapped out halfway through. Not fun!\n\nFor your MVP, I'd focus first on nailing the core offline map functionality with MapLibre GL. Then, we'd build out the activity tracking with local storage, and finally tackle the multi-language support. I've found that breaking it down that way makes the development process much smoother.\n\nInterested in chatting more about the specifics of your activity types and how you envision the user experience? Let me know if you'd like to set up a quick call.",
+      "score": 55,
+      "created_at": "2025-06-03T02:51:15.352409",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Flutter-Developer-Needed-for-Outdoor-Navigation-MV-1748919073519.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Flutter-Developer-Needed-for-Outdoor-Navigation-MV-1748919073519.html",
+      "automation_terms_found": 2,
+      "specialties": []
+    },
+    {
+      "job_id": "job_1748919075360",
+      "job_title": "Video Editing & AI-Generated Content for Youth Baseball Team Tribute**",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "**Project Description:**  \nI am seeking a skilled video editor with experience in managing and utilizing AI tools to create a dynamic tribute video for a youth baseball team. The final product will feature an anime-style comic book opening, AI-generated images for the closing, and seamless integration of photos and videos provided by me.\n\n**Key Focus:**  \n- Manage and effectively utilize AI tools for image and video generation  \n- Generate comic book-style slides, illustrations, and animations u...",
+      "analysis": {
+        "tools": [
+          "Automation Tools"
+        ],
+        "pain_points": [
+          "integration challenges"
+        ],
+        "industry": "general business",
+        "score": 65,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 2
+      },
+      "message": "Hey there,\n\n\"Seamless integration of photos and videos\" \u2013 I hear you loud and clear! That's often the trickiest part of these tribute videos. I once spent a week wrestling with a similar project where the client had all these amazing iPhone clips, but the frame rates were all over the place. Drove me nuts!\n\nFor your baseball team tribute, I'd start by experimenting with a few AI image generators to nail down the exact anime style you're looking for. Then, I'd build out the comic book opening, focusing on smooth transitions. Finally, integrate all the photos and videos, addressing any formatting issues as they arise.\n\nWould love to chat more about your vision for this project. Maybe we can hop on a quick call this week?",
+      "score": 65,
+      "created_at": "2025-06-03T02:51:17.069368",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Video-Editing--AI-Generated-Content-for-Youth-Base-1748919075360.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Video-Editing--AI-Generated-Content-for-Youth-Base-1748919075360.html",
+      "automation_terms_found": 2,
+      "specialties": []
+    },
+    {
+      "job_id": "job_1748919077079",
+      "job_title": "Fractional Chief Revenue Officer (CMO/CRO) \u2013 AI-Led Growth & Revenue Strategy for SaaS/Telematics Co",
+      "client_name": "Client",
+      "budget": "N/A",
+      "description": "We're a fast-growing SaaS and telematics company (Zenduit / GoFleet / Xentag) looking for a fractional Chief Revenue Officer (CRO) with a CMO background\u2014someone who can strategize and execute AI-driven revenue and demand generation strategies across marketing, sales, and channel enablement.\n\nWe're NOT just looking for a marketing strategist\u2014we want someone who understands how marketing, sales, and partnerships must work as one revenue engine.\n\nThis role is part-time/fractional and remote\u2014but req...",
+      "analysis": {
+        "tools": [
+          "Automation Tools"
+        ],
+        "pain_points": [
+          "workflow optimization"
+        ],
+        "industry": "hospitality",
+        "score": 60,
+        "rejected": false,
+        "specialties": [],
+        "automation_terms_found": 2
+      },
+      "message": "\"Seeing you're focused on workflow optimization resonated with me. I remember working with a smaller SaaS company a few years back that had brilliant tech but their sales and marketing teams were basically throwing stuff at the wall. We found that mapping out the entire customer journey, then automating the repetitive bits with Zapier and some clever AI tools, freed up their team to focus on actual relationships.\n\nFor Zenduit, GoFleet, and Xentag, I'd suggest we start by diving deep into your current sales funnel and customer data to identify bottlenecks. From there, we can explore where AI can genuinely enhance \u2013 not replace \u2013 the human touch in each stage, particularly around lead nurturing and personalized demos. Finally, we\u2019d test and iterate, constantly refining based on actual results.\n\nWould love to chat more about how this could translate into real growth for you.\"",
+      "score": 60,
+      "created_at": "2025-06-03T02:51:20.185955",
+      "proposal_url": "https://proposals.projekt-ai.net/proposal-Fractional-Chief-Revenue-Officer-CMOCRO--AI-Led-Gr-1748919077079.html",
+      "original_job_url": "",
+      "status": "pending",
+      "filename": "proposal-Fractional-Chief-Revenue-Officer-CMOCRO--AI-Led-Gr-1748919077079.html",
+      "automation_terms_found": 2,
+      "specialties": []
+    }
+  ],
+  "generated_at": "2025-06-03T02:51:58.093155",
+  "total_count": 15
+}
