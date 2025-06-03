@@ -611,40 +611,114 @@
         // Load proposals from the actual queue file
         async function loadProposals() {
             try {
+                console.log('🔄 Loading proposals...');
+                
                 // Load from static data file (updated periodically)
-                // Use local IP to bypass Cloudflare routing issues
+                // Add cache-busting parameter to bypass Cloudflare cache
                 const timestamp = new Date().getTime();
-                const response = await fetch(`http://192.168.1.107/data/proposals.json?v=${timestamp}&_=${Math.random()}`);
-                if (!response.ok) {
-                    throw new Error('Failed to load proposals');
+                
+                // Try multiple endpoints in order of preference
+                const endpoints = [
+                    `https://projekt-ai.net/data/proposals.json?v=${timestamp}&_=${Math.random()}`,
+                    `/data/proposals.json?v=${timestamp}&_=${Math.random()}`, // Fallback to relative URL
+                ];
+                
+                let data = null;
+                let lastError = null;
+                
+                for (const url of endpoints) {
+                    try {
+                        console.log('📡 Fetching from:', url);
+                        
+                        const response = await fetch(url);
+                        console.log('📊 Response status:', response.status, response.statusText);
+                        
+                        if (!response.ok) {
+                            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                        }
+                        
+                        data = await response.json();
+                        console.log('✅ Successfully loaded data from:', url);
+                        break; // Success, exit loop
+                        
+                    } catch (error) {
+                        console.warn(`❌ Failed to load from ${url}:`, error.message);
+                        lastError = error;
+                        continue; // Try next endpoint
+                    }
                 }
                 
-                const data = await response.json();
+                if (!data) {
+                    throw lastError || new Error('All endpoints failed');
+                }
+                
+                console.log('📋 Data received:', {
+                    hasProposals: !!data.proposals,
+                    proposalsLength: data.proposals ? data.proposals.length : 0,
+                    generatedAt: data.generated_at,
+                    totalCount: data.total_count
+                });
+                
                 const queueData = data.proposals || [];
                 
                 // Show last update time
                 if (data.generated_at) {
                     const updateTime = new Date(data.generated_at);
-                    console.log(`Data last updated: ${updateTime.toLocaleString()}`);
+                    console.log(`✅ Data last updated: ${updateTime.toLocaleString()}`);
+                }
+                
+                if (queueData.length === 0) {
+                    console.warn('⚠️ No proposals found in data');
+                    document.getElementById('proposalsContainer').innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <h3>No proposals available</h3>
+                            <p>The system is running but no proposals have been generated yet.</p>
+                            <p>Last data update: ${data.generated_at ? new Date(data.generated_at).toLocaleString() : 'Unknown'}</p>
+                            <button class="action-btn" onclick="loadProposals()">Refresh</button>
+                        </div>
+                    `;
+                    return;
                 }
                 
                 processProposalData(queueData);
+                console.log('✅ Proposals loaded and processed successfully');
                 
             } catch (error) {
-                console.error('Error loading proposals:', error);
-                // Show error state
+                console.error('❌ Error loading proposals:', error);
+                // Show detailed error state
                 document.getElementById('proposalsContainer').innerHTML = `
                     <div class="empty-state">
                         <div class="empty-icon">❌</div>
                         <h3>Failed to Load Proposals</h3>
-                        <p>Unable to connect to the proposal system. Please try again later.</p>
+                        <p><strong>Error:</strong> ${error.message}</p>
+                        <p>Unable to connect to the proposal system. This could be due to:</p>
+                        <ul style="text-align: left; margin: 10px 0; list-style: disc; padding-left: 20px;">
+                            <li>Network connectivity issues</li>
+                            <li>Server maintenance</li>
+                            <li>Browser cache problems</li>
+                            <li>Mixed content security restrictions</li>
+                        </ul>
+                        <p><strong>Try:</strong></p>
+                        <ul style="text-align: left; margin: 10px 0; list-style: disc; padding-left: 20px;">
+                            <li>Refreshing the page (Ctrl+F5)</li>
+                            <li>Clearing browser cache</li>
+                            <li>Checking your network connection</li>
+                            <li>Ensuring HTTPS is working properly</li>
+                        </ul>
                         <button class="action-btn" onclick="loadProposals()">Retry</button>
+                        <button class="action-btn" onclick="window.location.reload()">Hard Refresh</button>
                     </div>
                 `;
             }
         }
 
         function processProposalData(queueData) {
+            console.log('🔄 Processing proposal data...', {
+                inputLength: queueData.length,
+                sampleData: queueData[0] ? Object.keys(queueData[0]) : 'No data'
+            });
+            
             // Transform queue data to match our format
             proposals = queueData.map((item, index) => ({
                 id: item.job_id || `proposal-${index}`,
@@ -667,8 +741,20 @@
                 filename: item.filename || ''
             }));
             
+            console.log('📊 Transformed proposals:', {
+                count: proposals.length,
+                sampleProposal: proposals[0] ? {
+                    id: proposals[0].id,
+                    title: proposals[0].title,
+                    score: proposals[0].score,
+                    status: proposals[0].status
+                } : 'No proposals'
+            });
+            
             // Sort by timestamp (newest first)
             proposals.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+            
+            console.log('✅ Proposals processed and sorted');
             
             updateStats();
             displayProposals();
@@ -676,23 +762,39 @@
 
         // Update statistics
         function updateStats() {
+            console.log('📈 Updating statistics...');
+            
             const today = new Date().toDateString();
             const todayProposals = proposals.filter(p => 
                 new Date(p.timestamp).toDateString() === today
             );
             
-            document.getElementById('totalProposals').textContent = proposals.length;
-            document.getElementById('pendingReview').textContent = proposals.filter(p => p.status === 'pending').length;
-            document.getElementById('approvedToday').textContent = todayProposals.filter(p => p.status === 'approved').length;
+            const stats = {
+                total: proposals.length,
+                pending: proposals.filter(p => p.status === 'pending').length,
+                approvedToday: todayProposals.filter(p => p.status === 'approved').length,
+                avgScore: proposals.length > 0 
+                    ? Math.round(proposals.reduce((sum, p) => sum + p.score, 0) / proposals.length)
+                    : 0
+            };
             
-            const avgScore = proposals.length > 0 
-                ? Math.round(proposals.reduce((sum, p) => sum + p.score, 0) / proposals.length)
-                : 0;
-            document.getElementById('avgScore').textContent = avgScore;
+            console.log('📊 Statistics calculated:', stats);
+            
+            document.getElementById('totalProposals').textContent = stats.total;
+            document.getElementById('pendingReview').textContent = stats.pending;
+            document.getElementById('approvedToday').textContent = stats.approvedToday;
+            document.getElementById('avgScore').textContent = stats.avgScore;
+            
+            console.log('✅ Statistics updated in DOM');
         }
 
         // Display proposals
         function displayProposals() {
+            console.log('🖼️ Displaying proposals...', {
+                totalProposals: proposals.length,
+                currentFilter: currentFilter
+            });
+            
             const container = document.getElementById('proposalsContainer');
             let filteredProposals = proposals;
 
@@ -718,17 +820,28 @@
                     break;
             }
 
+            console.log('🔍 Filtered proposals:', {
+                filter: currentFilter,
+                beforeFilter: proposals.length,
+                afterFilter: filteredProposals.length
+            });
+
             if (filteredProposals.length === 0) {
+                console.log('📭 No proposals to display after filtering');
                 container.innerHTML = `
                     <div class="empty-state">
                         <div class="empty-icon">📭</div>
                         <h3>No proposals found</h3>
                         <p>Try changing your filter or wait for new proposals to arrive.</p>
+                        <p><strong>Current filter:</strong> ${currentFilter}</p>
+                        <p><strong>Total proposals:</strong> ${proposals.length}</p>
+                        <button class="action-btn" onclick="setFilter('all')">Show All</button>
                     </div>
                 `;
                 return;
             }
 
+            console.log('✅ Rendering proposal cards...');
             container.innerHTML = filteredProposals.map(proposal => `
                 <div class="proposal-card" data-id="${proposal.id}">
                     <div class="proposal-header">
@@ -916,11 +1029,14 @@
 
         // View proposal
         function viewProposal(url) {
-            // Use direct IP to bypass Cloudflare routing issues
-            if (url.startsWith('https://projekt-ai.net/')) {
-                url = url.replace('https://projekt-ai.net/', 'http://192.168.1.107/');
+            // Ensure proposal URLs use HTTPS for security
+            if (url.startsWith('/proposals/')) {
+                url = 'https://projekt-ai.net' + url;
+            } else if (url.startsWith('http://')) {
+                url = url.replace('http://', 'https://');
             }
-            window.open(url.startsWith('http') ? url : 'http://192.168.1.107' + url, '_blank');
+            
+            window.open(url, '_blank');
         }
 
         // View Upwork job
