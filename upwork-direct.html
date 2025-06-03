@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upwork Automation Dashboard - Direct</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
+            background: #0a0a0a; 
+            color: #ffffff; 
+            min-height: 100vh; 
+            padding: 20px;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        h1 { 
+            text-align: center; 
+            margin-bottom: 30px; 
+            background: linear-gradient(135deg, #7877c6 0%, #ff77c6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 32px;
+        }
+        .stats { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+            margin-bottom: 30px; 
+        }
+        .stat-card { 
+            background: rgba(255, 255, 255, 0.05); 
+            padding: 20px; 
+            border-radius: 10px; 
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .stat-number { font-size: 36px; font-weight: bold; color: #7877c6; }
+        .stat-label { color: rgba(255, 255, 255, 0.8); margin-top: 5px; }
+        .filters { 
+            display: flex; 
+            gap: 10px; 
+            margin-bottom: 20px; 
+            flex-wrap: wrap;
+        }
+        .filter-btn { 
+            padding: 10px 20px; 
+            background: rgba(255, 255, 255, 0.1); 
+            border: none; 
+            border-radius: 5px; 
+            color: white; 
+            cursor: pointer; 
+            transition: all 0.3s;
+        }
+        .filter-btn.active { background: #7877c6; }
+        .filter-btn:hover { background: rgba(120, 119, 198, 0.3); }
+        .proposals-grid { 
+            display: grid; 
+            gap: 20px; 
+        }
+        .proposal-card { 
+            background: rgba(255, 255, 255, 0.05); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            border-radius: 10px; 
+            padding: 20px; 
+            transition: all 0.3s;
+        }
+        .proposal-card:hover { 
+            background: rgba(255, 255, 255, 0.08); 
+            transform: translateY(-2px);
+        }
+        .proposal-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: flex-start; 
+            margin-bottom: 15px; 
+        }
+        .proposal-title { 
+            font-size: 18px; 
+            font-weight: 600; 
+            margin-bottom: 5px; 
+            color: #ffffff;
+        }
+        .proposal-client { 
+            color: rgba(255, 255, 255, 0.7); 
+            font-size: 14px; 
+        }
+        .score-badge { 
+            background: #7877c6; 
+            padding: 5px 15px; 
+            border-radius: 15px; 
+            font-size: 12px; 
+            font-weight: 600;
+        }
+        .score-number { 
+            font-size: 24px; 
+            font-weight: bold; 
+            margin-top: 5px; 
+        }
+        .proposal-description { 
+            color: rgba(255, 255, 255, 0.8); 
+            margin-bottom: 15px; 
+            line-height: 1.5;
+        }
+        .proposal-meta { 
+            display: flex; 
+            gap: 20px; 
+            margin-bottom: 15px; 
+            font-size: 14px; 
+            color: rgba(255, 255, 255, 0.6);
+        }
+        .proposal-actions { 
+            display: flex; 
+            gap: 10px; 
+            flex-wrap: wrap; 
+        }
+        .action-btn { 
+            padding: 8px 16px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 12px; 
+            transition: all 0.3s;
+        }
+        .btn-approve { background: #28a745; color: white; }
+        .btn-reject { background: #dc3545; color: white; }
+        .btn-edit { background: #ffc107; color: black; }
+        .btn-view { background: #17a2b8; color: white; }
+        .btn-upwork { background: #6f42c1; color: white; }
+        .action-btn:hover { opacity: 0.8; transform: translateY(-1px); }
+        .loading { text-align: center; padding: 50px; color: rgba(255, 255, 255, 0.6); }
+        .error { 
+            background: rgba(220, 53, 69, 0.1); 
+            border: 1px solid rgba(220, 53, 69, 0.3); 
+            padding: 20px; 
+            border-radius: 10px; 
+            margin: 20px 0; 
+            text-align: center;
+        }
+        .refresh-btn { 
+            background: #7877c6; 
+            color: white; 
+            border: none; 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Upwork Automation Dashboard</h1>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalProposals">-</div>
+                <div class="stat-label">Total Proposals</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="pendingReview">-</div>
+                <div class="stat-label">Pending Review</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="approvedToday">-</div>
+                <div class="stat-label">Approved Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="avgScore">-</div>
+                <div class="stat-label">Avg Score</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterProposals('all')">All</button>
+            <button class="filter-btn" onclick="filterProposals('must_apply')">Must Apply (80+)</button>
+            <button class="filter-btn" onclick="filterProposals('should_apply')">Should Apply (60-79)</button>
+            <button class="filter-btn" onclick="filterProposals('consider')">Consider (40-59)</button>
+            <button class="filter-btn" onclick="filterProposals('pending')">Pending</button>
+            <button class="filter-btn" onclick="filterProposals('approved')">Approved</button>
+            <button class="filter-btn" onclick="filterProposals('rejected')">Rejected</button>
+            <button class="refresh-btn" onclick="loadProposals()">🔄 Refresh</button>
+        </div>
+
+        <div id="status" class="loading">Loading proposals...</div>
+        <div id="proposalsContainer" class="proposals-grid"></div>
+    </div>
+
+    <script>
+        let proposals = [];
+        let currentFilter = 'all';
+
+        // Load proposals directly from local server API
+        async function loadProposals() {
+            document.getElementById('status').innerHTML = '🔄 Loading proposals...';
+            document.getElementById('proposalsContainer').innerHTML = '';
+            
+            try {
+                // Try multiple endpoints to find working one
+                let data = null;
+                const endpoints = [
+                    `/data/proposals.json?v=${Date.now()}&_=${Math.random()}`,
+                    `http://192.168.1.107:5001/data/proposals.json`,
+                    `/api/proposals`
+                ];
+                
+                for (const endpoint of endpoints) {
+                    try {
+                        console.log(`Trying endpoint: ${endpoint}`);
+                        const response = await fetch(endpoint);
+                        if (response.ok) {
+                            data = await response.json();
+                            console.log(`Success with: ${endpoint}`);
+                            break;
+                        }
+                    } catch (e) {
+                        console.log(`Failed: ${endpoint} - ${e.message}`);
+                    }
+                }
+                
+                if (!data) {
+                    throw new Error('All endpoints failed');
+                }
+                
+                // Handle different response formats
+                const queueData = data.proposals || data || [];
+                const totalCount = data.total_count || queueData.length;
+                
+                console.log(`Loaded ${totalCount} proposals`);
+                document.getElementById('status').innerHTML = `✅ Loaded ${totalCount} proposals`;
+                
+                processProposalData(queueData);
+                
+            } catch (error) {
+                console.error('Error loading proposals:', error);
+                document.getElementById('status').innerHTML = `
+                    <div class="error">
+                        ❌ Failed to load proposals: ${error.message}<br>
+                        <button class="refresh-btn" onclick="loadProposals()">Try Again</button>
+                    </div>
+                `;
+            }
+        }
+
+        function processProposalData(queueData) {
+            proposals = queueData.map((item, index) => ({
+                id: item.job_id || `proposal-${index}`,
+                title: item.title || item.job_title || 'Untitled Job',
+                client: item.client_name || 'Unknown Client',
+                description: item.analysis?.problem_analysis || item.message || item.description || 'No description available',
+                score: item.score || 0,
+                category: item.score >= 80 ? 'MUST_APPLY' : item.score >= 60 ? 'SHOULD_APPLY' : item.score >= 40 ? 'CONSIDER' : 'SKIP',
+                budget: item.budget || 'Not specified',
+                timeline: item.analysis?.timeline || 'To be determined',
+                timestamp: item.created_at || item.timestamp || new Date().toISOString(),
+                status: item.status || 'pending',
+                proposalUrl: item.url || item.proposal_url || `/proposals/${item.filename}`,
+                originalJobUrl: item.original_job_url || item.job_url || item.link || '',
+                message: item.message || '',
+                filename: item.filename || ''
+            }));
+            
+            proposals.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+            updateStats();
+            displayProposals();
+        }
+
+        function updateStats() {
+            const today = new Date().toDateString();
+            const todayProposals = proposals.filter(p => 
+                new Date(p.timestamp).toDateString() === today
+            );
+            
+            document.getElementById('totalProposals').textContent = proposals.length;
+            document.getElementById('pendingReview').textContent = proposals.filter(p => p.status === 'pending').length;
+            document.getElementById('approvedToday').textContent = todayProposals.filter(p => p.status === 'approved').length;
+            
+            const avgScore = proposals.length > 0 
+                ? Math.round(proposals.reduce((sum, p) => sum + p.score, 0) / proposals.length)
+                : 0;
+            document.getElementById('avgScore').textContent = avgScore;
+        }
+
+        function displayProposals() {
+            const container = document.getElementById('proposalsContainer');
+            let filteredProposals = proposals;
+
+            switch(currentFilter) {
+                case 'must_apply': filteredProposals = proposals.filter(p => p.score >= 80); break;
+                case 'should_apply': filteredProposals = proposals.filter(p => p.score >= 60 && p.score < 80); break;
+                case 'consider': filteredProposals = proposals.filter(p => p.score >= 40 && p.score < 60); break;
+                case 'pending': filteredProposals = proposals.filter(p => p.status === 'pending'); break;
+                case 'approved': filteredProposals = proposals.filter(p => p.status === 'approved'); break;
+                case 'rejected': filteredProposals = proposals.filter(p => p.status === 'rejected'); break;
+            }
+
+            if (filteredProposals.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 50px; color: rgba(255, 255, 255, 0.6);">
+                        📭 No proposals found for this filter
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = filteredProposals.map(proposal => `
+                <div class="proposal-card">
+                    <div class="proposal-header">
+                        <div>
+                            <div class="proposal-title">${escapeHtml(proposal.title)}</div>
+                            <div class="proposal-client">${escapeHtml(proposal.client)}</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="score-badge">${proposal.category.replace(/_/g, ' ')}</div>
+                            <div class="score-number">${proposal.score}</div>
+                        </div>
+                    </div>
+                    <div class="proposal-description">${escapeHtml(proposal.description.substring(0, 200))}...</div>
+                    <div class="proposal-meta">
+                        <span>💰 ${escapeHtml(proposal.budget)}</span>
+                        <span>⏱️ ${escapeHtml(proposal.timeline)}</span>
+                        <span>📅 ${formatDate(proposal.timestamp)}</span>
+                    </div>
+                    <div class="proposal-actions">
+                        ${proposal.status === 'pending' ? `
+                            <button class="action-btn btn-approve" onclick="approveProposal('${proposal.id}')">✅ Approve</button>
+                            <button class="action-btn btn-reject" onclick="rejectProposal('${proposal.id}')">❌ Reject</button>
+                            <button class="action-btn btn-edit" onclick="editProposal('${proposal.id}')">✏️ Edit</button>
+                        ` : `
+                            <span style="color: ${proposal.status === 'approved' ? '#28a745' : '#dc3545'}">
+                                ${proposal.status === 'approved' ? '✅ Approved' : '❌ Rejected'}
+                            </span>
+                        `}
+                        <button class="action-btn btn-view" onclick="viewProposal('${proposal.proposalUrl}')">👁️ View</button>
+                        ${proposal.originalJobUrl ? `
+                            <button class="action-btn btn-upwork" onclick="viewUpworkJob('${proposal.originalJobUrl}')">🔗 Upwork</button>
+                        ` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterProposals(filter) {
+            currentFilter = filter;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            displayProposals();
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text || '';
+            return div.innerHTML;
+        }
+
+        function formatDate(timestamp) {
+            const date = new Date(timestamp);
+            const now = new Date();
+            const diff = now - date;
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            
+            if (hours < 1) {
+                const minutes = Math.floor(diff / (1000 * 60));
+                return `${minutes} minutes ago`;
+            } else if (hours < 24) {
+                return `${hours} hours ago`;
+            } else {
+                return date.toLocaleDateString();
+            }
+        }
+
+        function approveProposal(id) { alert(`Approving proposal ${id}`); }
+        function rejectProposal(id) { alert(`Rejecting proposal ${id}`); }
+        function editProposal(id) { alert(`Editing proposal ${id}`); }
+        function viewProposal(url) { window.open(url, '_blank'); }
+        function viewUpworkJob(url) { window.open(url, '_blank'); }
+
+        // Load proposals on page load
+        window.onload = () => loadProposals();
+    </script>
+</body>
+</html> 
