@@ -530,7 +530,9 @@
 
     <!-- Main Content -->
     <div class="container">
-        <h1 class="page-title">Upwork Automation</h1>
+        <h1 class="page-title">Upwork Proposal Dashboard</h1>
+        <p style="font-size: 14px; color: #999;">Auto-refresh every 5 minutes</p>
+        <div class="filter-container">
         <p class="page-subtitle">AI-powered proposal generation and management system</p>
 
         <!-- Stats Bar -->
@@ -619,8 +621,9 @@
                 
                 // Try multiple endpoints in order of preference
                 const endpoints = [
-                    `https://projekt-ai.net/data/proposals.json?v=${timestamp}&_=${Math.random()}`,
-                    `/data/proposals.json?v=${timestamp}&_=${Math.random()}`, // Fallback to relative URL
+                    `https://api.projekt-ai.net/api/proposals?v=${timestamp}&_=${Math.random()}`,
+                    `https://api.projekt-ai.net/api/proposals?v=${timestamp}&_=${Math.random()}`,
+                    `/data/proposals.json?v=${timestamp}&_=${Math.random()}` // Fallback to relative URL
                 ];
                 
                 let data = null;
@@ -797,6 +800,7 @@
             
             const container = document.getElementById('proposalsContainer');
             let filteredProposals = proposals;
+            // No 15-proposal limit - Show ALL proposals that match the filter
 
             // Apply filter
             switch(currentFilter) {
@@ -823,7 +827,8 @@
             console.log('🔍 Filtered proposals:', {
                 filter: currentFilter,
                 beforeFilter: proposals.length,
-                afterFilter: filteredProposals.length
+                afterFilter: filteredProposals.length,
+                fullData: true // Debug flag to verify we're showing all data
             });
 
             if (filteredProposals.length === 0) {
@@ -937,17 +942,17 @@
         async function approveProposal(id) {
             const proposal = proposals.find(p => p.id === id);
             if (proposal) {
-                proposal.status = 'approved';
-                updateStats();
-                displayProposals();
-                
-                // Send to API
+                // Send approval to API
                 try {
                     await fetch('/api/proposals/approve', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ id, message: proposal.message })
                     });
+                    
+                    // Reload proposals to reflect approval
+                    await loadProposals();
+                    
                 } catch (error) {
                     console.error('Error approving proposal:', error);
                 }
@@ -958,17 +963,17 @@
         async function rejectProposal(id) {
             const proposal = proposals.find(p => p.id === id);
             if (proposal) {
-                proposal.status = 'rejected';
-                updateStats();
-                displayProposals();
-                
-                // Send to API
+                // Send rejection to API first
                 try {
                     await fetch('/api/proposals/reject', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ id })
                     });
+                    
+                    // Reload proposals to reflect removal
+                    await loadProposals();
+                    
                 } catch (error) {
                     console.error('Error rejecting proposal:', error);
                 }
@@ -1066,8 +1071,8 @@
         // Load proposals on page load
         loadProposals();
 
-        // Auto-refresh every 30 seconds
-        setInterval(loadProposals, 30000);
+        // Auto-refresh every 5 minutes (300000ms)
+        setInterval(loadProposals, 300000);
     </script>
 </body>
 </html> 
