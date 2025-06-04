@@ -863,6 +863,41 @@
                 margin-top: 10px;
             }
         }
+
+        /* Basic styles for chat widget */
+        #multi-model-chatbot-widget button.chat-toggle {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1000;
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            background: #222;
+            color: #fff;
+            font-size: 28px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        #multi-model-chatbot-widget .chat-window {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1001;
+            width: 340px;
+            max-height: 480px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
     </style>
     <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
 </head>
@@ -1027,6 +1062,12 @@
                     <p>Automated DJ set recording, scheduling, and file management with OBS Studio integration.</p>
                 </div>
             </a>
+            <a href="projects/manychat-guestlist-automation/index.html" class="project-card" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('assets/img/uploads/manychat-workflow.png'); background-size: cover; background-position: center;">
+                <div class="project-overlay">
+                    <h3>ManyChat Guestlist Automation</h3>
+                    <p>Automated guest management, ticketing, and messaging for Sydney nightclubs.</p>
+                </div>
+            </a>
             </div>
         </div>
     </section>
@@ -1083,6 +1124,14 @@
             </div>
         </div>
     </footer>
+
+    <!-- Multi-Model AI Chatbot Widget -->
+    <div id="multi-model-chatbot-widget"></div>
+    <script src="assets/main.3a35abec.js"></script>
+    <script>
+        // Ensure chat widget loads with correct backend URL
+        window.CHAT_API_ENDPOINT = 'http://192.168.1.107:5005/api/chat';
+    </script>
 
     <script>
 // Header Color Change on Scroll
