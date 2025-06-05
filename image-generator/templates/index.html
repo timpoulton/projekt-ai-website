@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt AI - Image Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #fff;
+            background: #1a1a1a;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 40px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: #222;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        
+        .dimensions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .dimensions input {
+            width: 50%;
+        }
+        
+        button {
+            background: #1dd1a1;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        button:hover {
+            background: #1bc192;
+            transform: translateY(-2px);
+        }
+        
+        button:disabled {
+            background: rgba(29, 209, 161, 0.4);
+            cursor: not-allowed;
+        }
+        
+        .status {
+            margin-top: 20px;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        
+        .status.success {
+            background: rgba(29, 209, 161, 0.1);
+            border: 1px solid rgba(29, 209, 161, 0.3);
+        }
+        
+        .status.error {
+            background: rgba(255, 107, 107, 0.1);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+            color: #ff6b6b;
+        }
+        
+        .status.loading {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .image-preview {
+            margin-top: 30px;
+        }
+        
+        .image-preview img {
+            max-width: 100%;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .image-preview p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .recent-images {
+            margin-top: 60px;
+        }
+        
+        .recent-images h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        
+        .image-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .image-item:hover {
+            transform: translateY(-4px);
+            border-color: rgba(29, 209, 161, 0.5);
+        }
+        
+        .image-item img {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .image-item .filename {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 8px;
+            font-size: 12px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        /* Loading spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: #1dd1a1;
+            animation: spin 1s ease-in-out infinite;
+            margin-right: 10px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Projekt AI - Image Generator</h1>
+        <p class="subtitle">Generate images for your portfolio using AI</p>
+        
+        <div class="form-group">
+            <label for="prompt">Image Description</label>
+            <textarea id="prompt" placeholder="Describe the image you want to generate..."></textarea>
+            <p style="color: rgba(255, 255, 255, 0.5); font-size: 13px; margin-top: -4px;">Be specific and detailed for best results</p>
+        </div>
+        
+        <div class="form-group">
+            <label for="filename">Filename</label>
+            <input type="text" id="filename" placeholder="e.g., dj-placeholder.jpg">
+            <p style="color: rgba(255, 255, 255, 0.5); font-size: 13px; margin-top: -4px;">Leave blank for auto-generated name</p>
+        </div>
+        
+        <div class="form-group">
+            <label>Dimensions</label>
+            <div class="dimensions">
+                <input type="number" id="width" placeholder="Width" value="1024">
+                <input type="number" id="height" placeholder="Height" value="768">
+            </div>
+        </div>
+        
+        <button id="generate-btn">Generate Image</button>
+        
+        <div id="status" class="status" style="display: none;"></div>
+        
+        <div id="image-preview" class="image-preview" style="display: none;">
+            <h2>Generated Image</h2>
+            <img id="preview-img" src="" alt="Generated image">
+            <p id="image-url"></p>
+        </div>
+        
+        <div class="recent-images">
+            <h2>Recent Images</h2>
+            <div id="image-grid" class="image-grid">
+                <!-- Images will be loaded here -->
+                <p id="loading-images">Loading...</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const generateBtn = document.getElementById('generate-btn');
+            const promptInput = document.getElementById('prompt');
+            const filenameInput = document.getElementById('filename');
+            const widthInput = document.getElementById('width');
+            const heightInput = document.getElementById('height');
+            const statusDiv = document.getElementById('status');
+            const imagePreview = document.getElementById('image-preview');
+            const previewImg = document.getElementById('preview-img');
+            const imageUrl = document.getElementById('image-url');
+            const imageGrid = document.getElementById('image-grid');
+            
+            // API endpoint (adjust if needed)
+            const API_URL = window.location.origin;
+            
+            // Check server status
+            fetch(`${API_URL}/status`)
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Server status:', data);
+                    if (!data.api_key_configured) {
+                        showStatus('Warning: No API key configured. Images will be mock generated.', 'error');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error checking server status:', error);
+                    showStatus('Error connecting to the server. Please check if the service is running.', 'error');
+                });
+            
+            // Load recent images
+            loadRecentImages();
+            
+            // Generate image on button click
+            generateBtn.addEventListener('click', function() {
+                const prompt = promptInput.value.trim();
+                if (!prompt) {
+                    showStatus('Please enter an image description', 'error');
+                    return;
+                }
+                
+                // Disable button and show loading
+                generateBtn.disabled = true;
+                showStatus('<div class="spinner"></div> Generating image... This may take up to 30 seconds.', 'loading');
+                
+                // Prepare request data
+                const data = {
+                    prompt: prompt,
+                    width: parseInt(widthInput.value) || 1024,
+                    height: parseInt(heightInput.value) || 768
+                };
+                
+                // Add filename if provided
+                if (filenameInput.value.trim()) {
+                    data.filename = filenameInput.value.trim();
+                }
+                
+                // Send request to generate image
+                fetch(`${API_URL}/generate`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Generation successful:', data);
+                    
+                    // Show success message
+                    showStatus('Image generated successfully!', 'success');
+                    
+                    // Show preview
+                    previewImg.src = `${API_URL}/images/${data.filename}?t=${new Date().getTime()}`; // Add timestamp to avoid caching
+                    imageUrl.textContent = `File saved to: ${data.url}`;
+                    imagePreview.style.display = 'block';
+                    
+                    // Reload recent images
+                    loadRecentImages();
+                })
+                .catch(error => {
+                    console.error('Error generating image:', error);
+                    showStatus(`Error generating image: ${error.message}`, 'error');
+                })
+                .finally(() => {
+                    // Re-enable button
+                    generateBtn.disabled = false;
+                });
+            });
+            
+            // Helper function to show status messages
+            function showStatus(message, type) {
+                statusDiv.innerHTML = message;
+                statusDiv.className = `status ${type}`;
+                statusDiv.style.display = 'block';
+            }
+            
+            // Load recent images
+            function loadRecentImages() {
+                fetch(`${API_URL}/images`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.images && data.images.length > 0) {
+                            // Clear loading message
+                            imageGrid.innerHTML = '';
+                            
+                            // Add images to grid
+                            data.images.forEach(image => {
+                                const item = document.createElement('div');
+                                item.className = 'image-item';
+                                
+                                const img = document.createElement('img');
+                                img.src = `${API_URL}/images/${image.filename}?t=${new Date().getTime()}`;
+                                img.alt = image.filename;
+                                
+                                const filename = document.createElement('div');
+                                filename.className = 'filename';
+                                filename.textContent = image.filename;
+                                
+                                item.appendChild(img);
+                                item.appendChild(filename);
+                                imageGrid.appendChild(item);
+                            });
+                        } else {
+                            imageGrid.innerHTML = '<p>No images generated yet</p>';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error loading recent images:', error);
+                        imageGrid.innerHTML = '<p>Error loading images</p>';
+                    });
+            }
+        });
+    </script>
+</body>
+</html> 

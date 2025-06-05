@@ -1,0 +1,63 @@
+﻿import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import { format } from 'date-fns';
+import { Loader2, Calendar, Clock, Trash2 } from 'lucide-react';
+import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
+import { Alert } from './ui/alert';
+
+const ScheduleManagement = () => {
+  const [schedules, setSchedules] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [name, setName] = useState('');
+  const [date, setDate] = useState('');
+  const [startTime, setStartTime] = useState('');
+  const [duration, setDuration] = useState(60);
+
+  useEffect(() => {
+    fetchSchedules();
+    const interval = setInterval(fetchSchedules, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const fetchSchedules = async () => {
+    try {
+      const response = await axios.get('http://localhost:3001/api/schedules');
+      setSchedules(response.data);
+      setError(null);
+    } catch (err) {
+      setError(err.response?.data?.error || 'Failed to fetch schedules');
+      console.error('Error fetching schedules:', err);
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError(null);
+    
+    try {
+      const response = await axios.post('http://localhost:3001/api/schedules', {
+        name,
+        date,
+        startTime,
+        duration: parseInt(duration)
+      });
+
+      if (response.data) {
+        setName('');
+        setDate('');
+        setStartTime('');
+        setDuration(60);
+        fetchSchedules();
+      }
+    } catch (err) {
+      console.error('Error creating schedule:', err);
+      setError(err.response?.data?.error || 'Failed to create schedule');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Rest of the component remains the same...
+

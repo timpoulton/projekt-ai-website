@@ -1029,6 +1029,31 @@
             margin: 8px 0;
             font-size: 13px;
         }
+
+        /* Subtle styling for software names */
+        .client-name {
+            font-size: 13px;
+            color: #888;
+            margin-top: 10px;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+            text-align: center;
+        }
+        @media (max-width: 1024px) {
+            .clients-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .clients-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .clients-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
     <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
 </head>
@@ -1133,13 +1158,66 @@
     <div class="container">
         <div class="clients-label">SOFTWARE & TOOLS I USE</div>
         <div class="clients-grid" id="software-logos-grid">
-            <div class="client-logo"><img src="assets/img/software-logos/openai.svg" alt="OpenAI"></div>
-            <div class="client-logo"><img src="assets/img/uploads/make-seeklogo.png" alt="Make.com"></div>
-            <div class="client-logo"><img src="assets/img/software-logos/n8n.svg" alt="n8n"></div>
-            <div class="client-logo"><img src="assets/img/software-logos/zapier.svg" alt="Zapier"></div>
-            <div class="client-logo"><img src="assets/img/software-logos/figma.svg" alt="Figma"></div>
-            <div class="client-logo"><img src="assets/img/software-logos/airtable.svg" alt="Airtable"></div>
-            <div class="client-logo"><img src="assets/img/software-logos/notion.svg" alt="Notion"></div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/adobe.png" alt="Adobe">
+                <div class="client-name">Adobe</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/anthropic__1_.png" alt="Anthropic">
+                <div class="client-name">Anthropic</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/aws.png" alt="AWS">
+                <div class="client-name">AWS</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/commanda.png" alt="Commanda">
+                <div class="client-name">Commanda</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/cursor.png" alt="Cursor">
+                <div class="client-name">Cursor</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/deepseek.png" alt="DeepSeek">
+                <div class="client-name">DeepSeek</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/gemini.png" alt="Gemini">
+                <div class="client-name">Gemini</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/github.png" alt="GitHub">
+                <div class="client-name">GitHub</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/huggingface.png" alt="Hugging Face">
+                <div class="client-name">Hugging Face</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/langchain.png" alt="LangChain">
+                <div class="client-name">LangChain</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/meta.png" alt="Meta">
+                <div class="client-name">Meta</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/midjourney.png" alt="Midjourney">
+                <div class="client-name">Midjourney</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/n8n.png" alt="n8n">
+                <div class="client-name">n8n</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/notion.png" alt="Notion">
+                <div class="client-name">Notion</div>
+            </div>
+            <div class="client-logo">
+                <img src="assets/img/uploads/openai.png" alt="OpenAI">
+                <div class="client-name">OpenAI</div>
+            </div>
         </div>
     </div>
 </section>

@@ -1,0 +1,6 @@
+watchdog==3.0.0
+python-dotenv==1.0.0
+pydub==0.25.1
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.21.1
+requests==2.31.0

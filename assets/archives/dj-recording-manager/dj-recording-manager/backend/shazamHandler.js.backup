@@ -1,0 +1,93 @@
+import { config } from "dotenv";
+import acrcloud from 'acrcloud';
+import fs from 'fs';
+import { createReadStream } from 'fs';
+config();
+
+export class ShazamHandler {
+    constructor() {
+        this.recognizer = new acrcloud({
+            host: process.env.ACRCLOUD_HOST,
+            access_key: process.env.ACRCLOUD_ACCESS_KEY,
+            access_secret: process.env.ACRCLOUD_ACCESS_SECRET,
+            data_type: 'audio',
+            audio_channels: 2
+        });
+        this.confidenceThreshold = 80;
+        this.segmentDuration = 60;  // seconds
+        this.overlapDuration = 30;  // seconds
+    }
+
+    async analyzeAudio(filePath) {
+        try {
+            console.log(`[ACR] Starting DJ mix analysis of: ${filePath}`);
+            const seenTracks = new Set();
+            const trackList = [];
+            let startSeconds = 0;
+            
+            // Calculate total duration from file size
+            const stats = fs.statSync(filePath);
+            // Assuming 44.1kHz, 16-bit, stereo WAV
+            const duration = Math.floor(stats.size / (44100 * 4));
+            console.log(`[ACR] Mix duration: ${duration} seconds`);
+
+            while (startSeconds < duration) {
+                console.log(`[ACR] Analyzing segment at ${startSeconds} seconds...`);
+                
+                try {
+                    const result = await this.recognizer.recognize_by_file(filePath, {
+                        start_seconds: startSeconds,
+                        rec_length: 20  // recognition length in seconds
+                    });
+
+                    if (result?.metadata?.music) {
+                        result.metadata.music.forEach(track => {
+                            if (track.score >= this.confidenceThreshold) {
+                                const artist = track.artists ? track.artists[0].name : "Unknown Artist";
+                                const title = track.title || "Unknown Track";
+                                const trackInfo = `${artist} - ${title}`;
+                                
+                                if (!seenTracks.has(trackInfo)) {
+                                    seenTracks.add(trackInfo);
+                                    trackList.push({
+                                        artist,
+                                        title,
+                                        confidence: track.score,
+                                        timestamp: startSeconds
+                                    });
+                                    console.log(`[ACR] Found track at ${startSeconds}s: ${trackInfo} (${track.score}%)`);
+                                }
+                            }
+                        });
+                    }
+                } catch (error) {
+                    console.error(`[ACR] Error analyzing segment at ${startSeconds}s:`, error);
+                    // Continue with next segment
+                }
+                
+                startSeconds += this.segmentDuration - this.overlapDuration;
+            }
+
+            console.log(`[ACR] Analysis complete. Found ${trackList.length} unique tracks.`);
+            
+            // Format results
+            return trackList.map(track => 
+                `${this.formatTimestamp(track.timestamp)} ${track.artist} - ${track.title} (${track.confidence}%)`
+            );
+
+        } catch (error) {
+            console.error("[ACR] Error analyzing mix:", error);
+            console.error("[ACR] Error details:", error.message);
+            throw error;
+        }
+    }
+
+    formatTimestamp(seconds) {
+        const hours = Math.floor(seconds / 3600);
+        const minutes = Math.floor((seconds % 3600) / 60);
+        const secs = seconds % 60;
+        return `[${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}]`;
+    }
+}
+
+export const shazamHandler = new ShazamHandler();

@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="cache-version" content="1748923207">
+    <title>Upwork Automation Dashboard - Projekt AI</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Header - Matching main website */
+        .header {
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        /* Add text logo styling */
+        a.logo {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            align-items: center;
+            height: auto;
+            transition: opacity 0.3s ease;
+        }
+
+        a.logo:hover {
+            opacity: 0.8;
+        }
+
+        .header-nav {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-btn {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        .page-title {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #fff;
+            letter-spacing: -0.02em;
+        }
+
+        .page-subtitle {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 40px;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .stat-label {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Filter Tabs */
+        .filter-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .filter-tab {
+            padding: 12px 24px;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .filter-tab.active {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.15);
+            color: #ffffff;
+        }
+
+        .filter-tab:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.02);
+            color: #ffffff;
+        }
+
+        /* Proposals List */
+        .proposals-container {
+            display: grid;
+            gap: 20px;
+        }
+
+        .proposal-card {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .proposal-card:hover {
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(255, 255, 255, 0.12);
+            transform: translateY(-2px);
+        }
+
+        .proposal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+
+        .proposal-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .proposal-client {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .proposal-score {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        .score-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .score-must {
+            background: rgba(76, 175, 80, 0.15);
+            color: #4CAF50;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+
+        .score-should {
+            background: rgba(255, 193, 7, 0.15);
+            color: #FFC107;
+            border: 1px solid rgba(255, 193, 7, 0.3);
+        }
+
+        .score-consider {
+            background: rgba(33, 150, 243, 0.15);
+            color: #2196F3;
+            border: 1px solid rgba(33, 150, 243, 0.3);
+        }
+
+        .proposal-description {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+
+        .proposal-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.5);
+            flex-wrap: wrap;
+        }
+
+        .proposal-meta span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .proposal-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .action-btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            border: 1px solid transparent;
+            background: transparent;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .btn-approve {
+            background: rgba(76, 175, 80, 0.1);
+            border-color: rgba(76, 175, 80, 0.3);
+            color: #4CAF50;
+        }
+
+        .btn-approve:hover {
+            background: rgba(76, 175, 80, 0.2);
+            border-color: rgba(76, 175, 80, 0.5);
+        }
+
+        .btn-reject {
+            background: rgba(244, 67, 54, 0.1);
+            border-color: rgba(244, 67, 54, 0.3);
+            color: #F44336;
+        }
+
+        .btn-reject:hover {
+            background: rgba(244, 67, 54, 0.2);
+            border-color: rgba(244, 67, 54, 0.5);
+        }
+
+        .btn-edit {
+            background: rgba(255, 193, 7, 0.1);
+            border-color: rgba(255, 193, 7, 0.3);
+            color: #FFC107;
+        }
+
+        .btn-edit:hover {
+            background: rgba(255, 193, 7, 0.2);
+            border-color: rgba(255, 193, 7, 0.5);
+        }
+
+        .btn-view {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-view:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-upwork {
+            background: rgba(108, 99, 255, 0.1);
+            border-color: rgba(108, 99, 255, 0.3);
+            color: #6C63FF;
+        }
+
+        .btn-upwork:hover {
+            background: rgba(108, 99, 255, 0.2);
+            border-color: rgba(108, 99, 255, 0.5);
+        }
+
+        /* Status Badge */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .status-approved {
+            background: rgba(76, 175, 80, 0.15);
+            color: #4CAF50;
+        }
+
+        .status-rejected {
+            background: rgba(244, 67, 54, 0.15);
+            color: #F44336;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .empty-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Edit Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #1a1a1a;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            margin-bottom: 30px;
+        }
+
+        .modal-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .modal-subtitle {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .form-textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+            font-family: inherit;
+            font-size: 14px;
+            resize: vertical;
+            transition: all 0.3s ease;
+        }
+
+        .form-textarea:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 30px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .page-title {
+                font-size: 32px;
+            }
+            
+            .stats-bar {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .proposal-header {
+                flex-direction: column;
+            }
+
+            .proposal-score {
+                align-self: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="/" class="logo">Projekt AI</a>
+            <div class="header-nav">
+                <button class="nav-btn" onclick="refreshProposals()">🔄 Refresh</button>
+                <a href="admin-dashboard.html" class="nav-btn">← Back to Dashboard</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1 class="page-title">Upwork Automation</h1>
+        <p class="page-subtitle">AI-powered proposal generation and management system</p>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-value" id="totalProposals">0</div>
+                <div class="stat-label">Total Proposals</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="pendingReview">0</div>
+                <div class="stat-label">Pending Review</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="approvedToday">0</div>
+                <div class="stat-label">Approved Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgScore">0</div>
+                <div class="stat-label">Average Score</div>
+            </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <div class="filter-tab active" onclick="filterProposals('all')">All Proposals</div>
+            <div class="filter-tab" onclick="filterProposals('must_apply')">Must Apply (80+)</div>
+            <div class="filter-tab" onclick="filterProposals('should_apply')">Should Apply (60-79)</div>
+            <div class="filter-tab" onclick="filterProposals('consider')">Consider (40-59)</div>
+            <div class="filter-tab" onclick="filterProposals('pending')">Pending Review</div>
+            <div class="filter-tab" onclick="filterProposals('approved')">Approved</div>
+            <div class="filter-tab" onclick="filterProposals('rejected')">Rejected</div>
+        </div>
+
+        <!-- Proposals Container -->
+        <div id="proposalsContainer" class="proposals-container">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading proposals... Please wait for all proposals to load.</p>
+                <p style="color: #FFC107; margin-top: 10px;">Fixed version: No 15-proposal limit</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Edit Proposal</h2>
+                <p class="modal-subtitle">Provide feedback to regenerate the proposal with AI</p>
+            </div>
+            <form id="editForm">
+                <div class="form-group">
+                    <label class="form-label">What changes would you like to make?</label>
+                    <textarea class="form-textarea" id="editFeedback" placeholder="e.g., Make it more technical, emphasize our experience with similar projects, adjust the timeline to 2 weeks, etc."></textarea>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="action-btn btn-view" onclick="closeEditModal()">Cancel</button>
+                    <button type="submit" class="action-btn btn-approve">Regenerate Proposal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Check authentication
+        function checkAuth() {
+            const isAuthenticated = sessionStorage.getItem('adminAuthenticated');
+            if (!isAuthenticated) {
+                window.location.href = 'admin-login.html';
+            }
+        }
+        checkAuth();
+
+        // Global variables
+        let proposals = [];
+        let currentFilter = 'all';
+        let editingProposalId = null;
+
+        // Load proposals from the actual queue file
+        async function loadProposals() {
+            try {
+                console.clear(); // Clear console for debugging
+                console.log('🔄 Loading proposals...');
+                
+                // Add refresh notification
+                document.getElementById('proposalsContainer').innerHTML = `
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Loading proposals... Please wait for all proposals to load.</p>
+                        <p style="color: #FFC107; margin-top: 10px;">Fixed version: No 15-proposal limit</p>
+                    </div>
+                `;
+                
+                // Load from static data file (updated periodically)
+                // Add cache-busting parameter to bypass Cloudflare cache
+                const timestamp = new Date().getTime();
+                
+                // Try multiple endpoints in order of preference - Fixed with cache-busting
+                const endpoints = [
+                    `/data/proposals.json?v=${timestamp}&_=${Math.random()}`, // Use relative URL first (less chance of CORS/mixed content)
+                    `https://projekt-ai.net/data/proposals.json?v=${timestamp}&_=${Math.random()}`,
+                    `https://projekt-ai.net/data/proposals-1748923595.json?v=${timestamp}&_=${Math.random()}`
+                ];
+                
+                let data = null;
+                let lastError = null;
+                
+                for (const url of endpoints) {
+                    try {
+                        console.log('📡 Fetching from:', url);
+                        
+                        const response = await fetch(url, {
+                            cache: 'no-store', // Force fresh fetch
+                            headers: {
+                                'Cache-Control': 'no-cache, no-store, must-revalidate',
+                                'Pragma': 'no-cache',
+                                'Expires': '0'
+                            }
+                        });
+                        
+                        console.log('📊 Response status:', response.status, response.statusText);
+                        
+                        if (!response.ok) {
+                            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                        }
+                        
+                        data = await response.json();
+                        console.log('✅ Successfully loaded data from:', url);
+                        console.log('📋 Raw data received:', {
+                            hasProposals: !!data.proposals,
+                            proposalsCount: data.proposals ? data.proposals.length : 0,
+                            totalCount: data.total_count,
+                            sample: data.proposals && data.proposals.length > 0 ? data.proposals[0].job_id : 'none'
+                        });
+                        break; // Success, exit loop
+                        
+                    } catch (error) {
+                        console.warn(`❌ Failed to load from ${url}:`, error.message);
+                        lastError = error;
+                        continue; // Try next endpoint
+                    }
+                }
+                
+                if (!data) {
+                    throw lastError || new Error('All endpoints failed');
+                }
+                
+                console.log('📋 Data received:', {
+                    hasProposals: !!data.proposals,
+                    proposalsLength: data.proposals ? data.proposals.length : 0,
+                    generatedAt: data.generated_at,
+                    totalCount: data.total_count
+                });
+                
+                const queueData = data.proposals || [];
+                console.log(`🔢 Number of proposals to process: ${queueData.length}`);
+                
+                // Show last update time
+                if (data.generated_at) {
+                    const updateTime = new Date(data.generated_at);
+                    console.log(`✅ Data last updated: ${updateTime.toLocaleString()}`);
+                }
+                
+                if (queueData.length === 0) {
+                    console.warn('⚠️ No proposals found in data');
+                    document.getElementById('proposalsContainer').innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <h3>No proposals available</h3>
+                            <p>The system is running but no proposals have been generated yet.</p>
+                            <p>Last data update: ${data.generated_at ? new Date(data.generated_at).toLocaleString() : 'Unknown'}</p>
+                            <button class="action-btn" onclick="loadProposals()">Refresh</button>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                processProposalData(queueData);
+                console.log(`✅ Processed ${proposals.length} proposals successfully`);
+                
+            } catch (error) {
+                console.error('❌ Error loading proposals:', error);
+                // Show detailed error state
+                document.getElementById('proposalsContainer').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">❌</div>
+                        <h3>Failed to Load Proposals</h3>
+                        <p><strong>Error:</strong> ${error.message}</p>
+                        <p>Unable to connect to the proposal system. This could be due to:</p>
+                        <ul style="text-align: left; margin: 10px 0; list-style: disc; padding-left: 20px;">
+                            <li>Network connectivity issues</li>
+                            <li>Server maintenance</li>
+                            <li>Browser cache problems</li>
+                            <li>Mixed content security restrictions</li>
+                        </ul>
+                        <p><strong>Try:</strong></p>
+                        <ul style="text-align: left; margin: 10px 0; list-style: disc; padding-left: 20px;">
+                            <li>Refreshing the page (Ctrl+F5)</li>
+                            <li>Clearing browser cache</li>
+                            <li>Checking your network connection</li>
+                            <li>Ensuring HTTPS is working properly</li>
+                        </ul>
+                        <button class="action-btn" onclick="loadProposals()">Retry</button>
+                        <button class="action-btn" onclick="window.location.reload()">Hard Refresh</button>
+                    </div>
+                `;
+            }
+        }
+
+        function processProposalData(queueData) {
+            console.log('🔄 Processing proposal data...', {
+                inputLength: queueData.length,
+                sampleData: queueData[0] ? Object.keys(queueData[0]) : 'No data'
+            });
+            
+            // Reset proposals array
+            proposals = [];
+            
+            // Transform queue data to match our format - Force process ALL proposals
+            proposals = queueData.map((item, index) => {
+                console.log(`Processing proposal ${index + 1}/${queueData.length}: ${item.job_id || 'unknown'}`);
+                return {
+                    id: item.job_id || `proposal-${index}`,
+                    title: item.title || item.job_title || 'Untitled Job',
+                    client: item.client_name || 'Unknown Client',
+                    description: item.analysis?.problem_analysis || item.message || 'No description available',
+                    score: item.score || 0,
+                    category: item.priority ? item.priority.toUpperCase() : (
+                        item.score >= 80 ? 'MUST_APPLY' :
+                        item.score >= 60 ? 'SHOULD_APPLY' :
+                        item.score >= 40 ? 'CONSIDER' : 'SKIP'
+                    ),
+                    budget: item.budget || 'Not specified',
+                    timeline: item.analysis?.timeline || 'To be determined',
+                    timestamp: item.created_at || item.timestamp || new Date().toISOString(),
+                    status: item.status || 'pending',
+                    proposalUrl: item.url || item.proposal_url || `/proposals/${item.filename}`,
+                    originalJobUrl: item.original_job_url || item.job_url || item.link || '',
+                    message: item.message || '',
+                    filename: item.filename || ''
+                };
+            });
+            
+            console.log('📊 Transformed proposals:', {
+                count: proposals.length,
+                sampleProposal: proposals[0] ? {
+                    id: proposals[0].id,
+                    title: proposals[0].title,
+                    score: proposals[0].score,
+                    status: proposals[0].status
+                } : 'No proposals'
+            });
+            
+            // Sort by timestamp (newest first)
+            proposals.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+            
+            console.log(`✅ All ${proposals.length} proposals processed and sorted`);
+            
+            updateStats();
+            displayProposals();
+        }
+
+        // Update statistics
+        function updateStats() {
+            console.log('📈 Updating statistics...');
+            
+            const today = new Date().toDateString();
+            const todayProposals = proposals.filter(p => 
+                new Date(p.timestamp).toDateString() === today
+            );
+            
+            const stats = {
+                total: proposals.length,
+                pending: proposals.filter(p => p.status === 'pending').length,
+                approvedToday: todayProposals.filter(p => p.status === 'approved').length,
+                avgScore: proposals.length > 0 
+                    ? Math.round(proposals.reduce((sum, p) => sum + p.score, 0) / proposals.length)
+                    : 0
+            };
+            
+            console.log('📊 Statistics calculated:', stats);
+            
+            document.getElementById('totalProposals').textContent = stats.total;
+            document.getElementById('pendingReview').textContent = stats.pending;
+            document.getElementById('approvedToday').textContent = stats.approvedToday;
+            document.getElementById('avgScore').textContent = stats.avgScore;
+            
+            console.log('✅ Statistics updated in DOM');
+        }
+
+        // Display proposals
+        function displayProposals() {
+            console.log('🖼️ Displaying proposals...', {
+                totalProposals: proposals.length,
+                currentFilter: currentFilter
+            });
+            
+            const container = document.getElementById('proposalsContainer');
+            let filteredProposals = proposals;
+
+            // Apply filter
+            switch(currentFilter) {
+                case 'must_apply':
+                    filteredProposals = proposals.filter(p => p.score >= 80);
+                    break;
+                case 'should_apply':
+                    filteredProposals = proposals.filter(p => p.score >= 60 && p.score < 80);
+                    break;
+                case 'consider':
+                    filteredProposals = proposals.filter(p => p.score >= 40 && p.score < 60);
+                    break;
+                case 'pending':
+                    filteredProposals = proposals.filter(p => p.status === 'pending');
+                    break;
+                case 'approved':
+                    filteredProposals = proposals.filter(p => p.status === 'approved');
+                    break;
+                case 'rejected':
+                    filteredProposals = proposals.filter(p => p.status === 'rejected');
+                    break;
+            }
+
+            console.log('🔍 Filtered proposals:', {
+                filter: currentFilter,
+                beforeFilter: proposals.length,
+                afterFilter: filteredProposals.length,
+                allProposalsWillBeShown: true
+            });
+
+            if (filteredProposals.length === 0) {
+                console.log('📭 No proposals to display after filtering');
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <h3>No proposals found</h3>
+                        <p>Try changing your filter or wait for new proposals to arrive.</p>
+                        <p><strong>Current filter:</strong> ${currentFilter}</p>
+                        <p><strong>Total proposals:</strong> ${proposals.length}</p>
+                        <button class="action-btn" onclick="setFilter('all')">Show All</button>
+                    </div>
+                `;
+                return;
+            }
+
+            console.log('✅ Rendering proposal cards...');
+            container.innerHTML = filteredProposals.map(proposal => `
+                <div class="proposal-card" data-id="${proposal.id}">
+                    <div class="proposal-header">
+                        <div style="flex: 1;">
+                            <h3 class="proposal-title">${escapeHtml(proposal.title)}</h3>
+                            <p class="proposal-client">${escapeHtml(proposal.client)}</p>
+                        </div>
+                        <div class="proposal-score">
+                            <span class="score-badge ${getScoreClass(proposal.score)}">
+                                ${proposal.category.replace(/_/g, ' ')}
+                            </span>
+                            <span style="font-size: 24px; font-weight: 700;">${proposal.score}</span>
+                        </div>
+                    </div>
+                    <p class="proposal-description">${escapeHtml(proposal.description.substring(0, 200))}...</p>
+                    <div class="proposal-meta">
+                        <span>💰 ${escapeHtml(proposal.budget)}</span>
+                        <span>⏱️ ${escapeHtml(proposal.timeline)}</span>
+                        <span>📅 ${formatDate(proposal.timestamp)}</span>
+                    </div>
+                    <div class="proposal-actions">
+                        ${proposal.status === 'pending' ? `
+                            <button class="action-btn btn-approve" onclick="approveProposal('${proposal.id}')">
+                                ✅ Approve & Send
+                            </button>
+                            <button class="action-btn btn-reject" onclick="rejectProposal('${proposal.id}')">
+                                ❌ Reject
+                            </button>
+                            <button class="action-btn btn-edit" onclick="editProposal('${proposal.id}')">
+                                ✏️ Edit
+                            </button>
+                        ` : `
+                            <span class="status-badge status-${proposal.status}">
+                                ${proposal.status === 'approved' ? '✅ Approved' : '❌ Rejected'}
+                            </span>
+                        `}
+                        <button class="action-btn btn-view" onclick="viewProposal('${proposal.proposalUrl}')">
+                            👁️ View Proposal
+                        </button>
+                        ${proposal.originalJobUrl && proposal.originalJobUrl !== '' && proposal.originalJobUrl.includes('upwork.com') ? `
+                            <button class="action-btn btn-upwork" onclick="viewUpworkJob('${proposal.originalJobUrl}')">
+                                🔗 Upwork Job
+                            </button>
+                        ` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Helper functions
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text || '';
+            return div.innerHTML;
+        }
+
+        function formatDate(timestamp) {
+            const date = new Date(timestamp);
+            const now = new Date();
+            const diff = now - date;
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            
+            if (hours < 1) {
+                const minutes = Math.floor(diff / (1000 * 60));
+                return `${minutes} minutes ago`;
+            } else if (hours < 24) {
+                return `${hours} hours ago`;
+            } else {
+                return date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+            }
+        }
+
+        function getScoreClass(score) {
+            if (score >= 80) return 'score-must';
+            if (score >= 60) return 'score-should';
+            return 'score-consider';
+        }
+
+        // Filter proposals
+        function filterProposals(filter) {
+            currentFilter = filter;
+            
+            // Update active tab
+            document.querySelectorAll('.filter-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            displayProposals();
+        }
+
+        // Approve proposal
+        async function approveProposal(id) {
+            const proposal = proposals.find(p => p.id === id);
+            if (proposal) {
+                // Send approval to API
+                try {
+                    await fetch('/api/proposals/approve', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ id, message: proposal.message })
+                    });
+                    
+                    // Reload proposals to reflect approval
+                    await loadProposals();
+                    
+                } catch (error) {
+                    console.error('Error approving proposal:', error);
+                }
+            }
+        }
+
+        // Reject proposal - updated with better error handling and visualization
+        async function rejectProposal(id) {
+            // Get the proposal card and add visual feedback
+            const proposalCard = document.querySelector(`[data-id="${id}"]`);
+            if (proposalCard) {
+                proposalCard.style.opacity = "0.5";
+                proposalCard.style.position = "relative";
+                
+                // Add overlay with loading spinner
+                const overlay = document.createElement('div');
+                overlay.style.position = "absolute";
+                overlay.style.top = "0";
+                overlay.style.left = "0";
+                overlay.style.width = "100%";
+                overlay.style.height = "100%";
+                overlay.style.display = "flex";
+                overlay.style.flexDirection = "column";
+                overlay.style.alignItems = "center";
+                overlay.style.justifyContent = "center";
+                overlay.style.background = "rgba(0,0,0,0.7)";
+                overlay.style.borderRadius = "16px";
+                overlay.style.zIndex = "5";
+                
+                const spinner = document.createElement('div');
+                spinner.className = "spinner";
+                spinner.style.width = "30px";
+                spinner.style.height = "30px";
+                
+                const text = document.createElement('p');
+                text.textContent = "Rejecting...";
+                text.style.color = "white";
+                text.style.marginTop = "10px";
+                
+                overlay.appendChild(spinner);
+                overlay.appendChild(text);
+                proposalCard.appendChild(overlay);
+            }
+            
+            console.log(`🗑️ Rejecting proposal ${id}...`);
+            
+            // Find the proposal details for logging
+            const proposal = proposals.find(p => p.id === id);
+            if (proposal) {
+                console.log(`   Title: ${proposal.title}`);
+                console.log(`   Client: ${proposal.client}`);
+                console.log(`   Score: ${proposal.score}`);
+            }
+            
+            // Try direct server endpoint first (most reliable)
+            try {
+                const response = await fetch('http://localhost:5001/api/proposals/reject', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ id })
+                });
+                
+                const responseData = await response.json();
+                
+                if (response.ok) {
+                    console.log(`✅ Server reported successful rejection: ${JSON.stringify(responseData)}`);
+                    
+                    // Remove from local array to update display immediately
+                    proposals = proposals.filter(p => p.id !== id);
+                    
+                    // Update stats
+                    updateStats();
+                    
+                    // Re-display proposals without the rejected one
+                    displayProposals();
+                    
+                    return;
+                } else {
+                    console.error(`❌ Server returned error: ${response.status}`);
+                    throw new Error(`Server rejected with status ${response.status}`);
+                }
+            } catch (error) {
+                console.error(`❌ Direct server endpoint failed: ${error.message}`);
+                
+                // Try alternative endpoints
+                try {
+                    const fallbackEndpoints = [
+                        'https://projekt-ai.net/api/proposals/reject',
+                        '/api/proposals/reject'
+                    ];
+                    
+                    for (const endpoint of fallbackEndpoints) {
+                        try {
+                            console.log(`🔄 Trying fallback endpoint: ${endpoint}`);
+                            
+                            const response = await fetch(endpoint, {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ id })
+                            });
+                            
+                            if (response.ok) {
+                                console.log(`✅ Fallback endpoint ${endpoint} succeeded`);
+                                
+                                // Remove from local array
+                                proposals = proposals.filter(p => p.id !== id);
+                                
+                                // Update stats and display
+                                updateStats();
+                                displayProposals();
+                                
+                                return;
+                            }
+                        } catch (err) {
+                            console.warn(`⚠️ Fallback ${endpoint} failed: ${err.message}`);
+                        }
+                    }
+                    
+                    // If we got here, all endpoints failed
+                    throw new Error("All rejection endpoints failed");
+                } catch (fallbackError) {
+                    // Update the UI to show the error
+                    if (proposalCard) {
+                        const overlay = proposalCard.querySelector('div[style*="position: absolute"]');
+                        if (overlay) {
+                            const spinner = overlay.querySelector('.spinner');
+                            if (spinner) spinner.style.display = 'none';
+                            
+                            overlay.style.background = "rgba(244, 67, 54, 0.8)";
+                            
+                            const text = overlay.querySelector('p');
+                            if (text) text.textContent = "Rejection failed - Try again";
+                            
+                            // Add retry button
+                            const retryBtn = document.createElement('button');
+                            retryBtn.textContent = "Retry";
+                            retryBtn.style.marginTop = "10px";
+                            retryBtn.style.padding = "5px 15px";
+                            retryBtn.style.border = "none";
+                            retryBtn.style.borderRadius = "4px";
+                            retryBtn.style.background = "#fff";
+                            retryBtn.style.cursor = "pointer";
+                            
+                            retryBtn.onclick = () => {
+                                overlay.remove();
+                                proposalCard.style.opacity = "1";
+                                setTimeout(() => rejectProposal(id), 500);
+                            };
+                            
+                            overlay.appendChild(retryBtn);
+                            
+                            // Remove after 10 seconds
+                            setTimeout(() => {
+                                proposalCard.style.opacity = "1";
+                                overlay.remove();
+                            }, 10000);
+                        }
+                    }
+                    
+                    console.error(`❌ All rejection attempts failed: ${fallbackError.message}`);
+                }
+            }
+        }
+
+        // Edit proposal
+        function editProposal(id) {
+            editingProposalId = id;
+            document.getElementById('editModal').classList.add('active');
+            document.getElementById('editFeedback').value = '';
+            document.getElementById('editFeedback').focus();
+        }
+
+        // Close edit modal
+        function closeEditModal() {
+            document.getElementById('editModal').classList.remove('active');
+            editingProposalId = null;
+        }
+
+        // Handle edit form submission
+        document.getElementById('editForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const feedback = document.getElementById('editFeedback').value.trim();
+            if (!feedback) return;
+            
+            const proposal = proposals.find(p => p.id === editingProposalId);
+            if (!proposal) return;
+            
+            // Send edit request to server
+            try {
+                const response = await fetch('/api/proposals/edit', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        id: editingProposalId,
+                        feedback: feedback,
+                        originalJob: {
+                            title: proposal.title,
+                            description: proposal.description,
+                            budget: proposal.budget,
+                            client: proposal.client
+                        }
+                    })
+                });
+                
+                if (response.ok) {
+                    // Reload proposals to get updated version
+                    await loadProposals();
+                    closeEditModal();
+                }
+            } catch (error) {
+                console.error('Error editing proposal:', error);
+                alert('Failed to update proposal. Please try again.');
+            }
+        });
+
+        // View proposal
+        function viewProposal(url) {
+            // Ensure proposal URLs use HTTPS for security
+            if (url.startsWith('/proposals/')) {
+                url = 'https://projekt-ai.net' + url;
+            } else if (url.startsWith('http://')) {
+                url = url.replace('http://', 'https://');
+            }
+            
+            window.open(url, '_blank');
+        }
+
+        // View Upwork job
+        function viewUpworkJob(url) {
+            window.open(url, '_blank');
+        }
+
+        // Refresh proposals
+        function refreshProposals() {
+            console.log('🔄 Manual refresh requested - clearing cache');
+            
+            // Add refresh notification
+            document.getElementById('proposalsContainer').innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Refreshing proposals... Please wait for all proposals to load.</p>
+                    <p style="color: #FFC107; margin-top: 10px;">Clearing cache and fetching fresh data...</p>
+                </div>
+            `;
+            
+            // Clear any cached data
+            proposals = [];
+            
+            // Use a unique timestamp to bust cache
+            const refreshTimestamp = new Date().getTime();
+            
+            // Force reload with cache-busting
+            fetch(`https://projekt-ai.net/data/proposals-1748923245.json?refresh=${refreshTimestamp}&_=${Math.random()}`, { 
+                cache: 'no-store',
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache',
+                    'Expires': '0'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('✅ Refresh successful - proposals count:', data.proposals ? data.proposals.length : 0);
+                processProposalData(data.proposals || []);
+            })
+            .catch(error => {
+                console.error('❌ Refresh failed:', error);
+                loadProposals(); // Fall back to normal loading
+            });
+        }
+
+        // Close modal on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && document.getElementById('editModal').classList.contains('active')) {
+                closeEditModal();
+            }
+        });
+
+        // Close modal on background click
+        document.getElementById('editModal').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                closeEditModal();
+            }
+        });
+
+        // Load proposals on page load
+        loadProposals();
+
+        // Auto-refresh every 5 minutes (300000ms)
+        setInterval(loadProposals, 300000);
+    </script>
+</body>
+</html> 

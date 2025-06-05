@@ -1,0 +1,65 @@
+﻿import OBSWebSocket from 'obs-websocket-js';
+export class OBSHandler {
+    constructor() {
+        if (!OBSHandler.instance) {
+            this.obs = new OBSWebSocket();
+            this.isConnected = false;
+            this.isRecording = false;
+            OBSHandler.instance = this;
+        }
+        return OBSHandler.instance;
+    }
+    async connect() {
+        if (this.isConnected) {
+            console.log('[OBS] Already connected');
+            return true;
+        }
+        try {
+            console.log('[OBS Debug] Attempting to connect to OBS...');
+            await this.obs.connect('ws://192.168.68.12:4444');
+            
+            // Add this event listener
+            this.obs.on('RecordStopped', (data) => {
+                console.log('[OBS Debug] Recording complete. File path:', data.outputPath);
+            });
+
+            console.log('[OBS Debug] Connected to OBS WebSocket');
+            this.isConnected = true;
+            return true;
+        } catch (err) {
+            console.error('[OBS Debug] Connection failed:', err.message);
+            this.isConnected = false;
+            return false;
+        }
+    }
+
+    // Rest of the file stays exactly the same
+    async startRecording() {
+        if (!this.isConnected) {
+            throw new Error('OBS not connected');
+        }
+        try {
+            await this.obs.call('StartRecord');
+            this.isRecording = true;
+            console.log('[OBS Debug] Recording started');
+        } catch (err) {
+            console.error('[OBS Debug] Failed to start recording:', err.message);
+            throw err;
+        }
+    }
+    async stopRecording() {
+        if (!this.isConnected) {
+            throw new Error('OBS not connected');
+        }
+        try {
+            await this.obs.call('StopRecord');
+            this.isRecording = false;
+            console.log('[OBS Debug] Recording stopped');
+        } catch (err) {
+            console.error('[OBS Debug] Failed to stop recording:', err.message);
+            throw err;
+        }
+    }
+}
+// Create and export a singleton instance
+export const obsHandler = new OBSHandler();

@@ -1,0 +1,35 @@
+import OBSWebSocket from 'obs-websocket-js';
+import FileManager from './fileManager.js';
+
+class OBSHandler {
+    constructor() {
+        this.obs = new OBSWebSocket();
+        this.isConnected = false;
+        this.fileManager = new FileManager();
+    }
+
+    async connect() {
+        try {
+            console.log("[OBS Debug] Attempting to connect to OBS...");
+            await this.obs.connect('ws://192.168.68.12:4444');
+            
+            this.obs.on("RecordStateChanged", async (data) => {
+                console.log("[OBS Debug] Record state changed event:", data);
+                console.log("[OBS Debug] Output state:", data.outputState);
+                if (data.outputPath) {
+                    console.log("[OBS Debug] Output path:", data.outputPath);
+                }
+            });
+
+            this.isConnected = true;
+            return true;
+        } catch (err) {
+            console.error("[OBS Debug] Connection failed - Full error:", err);
+            return false;
+        }
+    }
+
+    // Rest of your existing code remains exactly the same
+}
+
+export default OBSHandler;

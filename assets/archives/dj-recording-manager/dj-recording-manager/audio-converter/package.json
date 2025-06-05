@@ -1,0 +1,10 @@
+{
+  "name": "audio-converter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tool to convert audio files",
+  "main": "convertToWav.js",
+  "scripts": {
+    "convert": "node convertToWav.js"
+  }
+} 
