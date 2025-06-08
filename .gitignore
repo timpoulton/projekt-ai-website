@@ -31,3 +31,7 @@ build/
 # Local Netlify folder
 .netlify
 dist/
+
+# Ignore large zip files that exceed GitHub's 100MB limit
+assets/archives/dj-recording-manager.zip
+assets/archives/dj-recording-manager/dj-recording-manager/backend/Services/track_watcher/libs/acrcloud_sdk.zip
