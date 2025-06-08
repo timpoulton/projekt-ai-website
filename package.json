@@ -8,10 +8,13 @@
     "dev": "npm run start",
     
     "build": "npm run build:prod",
-    "build:dev": "npm run portfolio:generate && npm run quality:check",
-    "build:prod": "npm run portfolio:generate && npm run quality:validate-all && npm run seo:generate-sitemap",
-    "build:preview": "npm run portfolio:generate && npm run quality:check",
-    "build:branch": "npm run portfolio:generate && npm run quality:check",
+    "build:dev": "npm run clean:dist && npm run portfolio:generate && npm run quality:check && npm run copy:dist",
+    "build:prod": "npm run clean:dist && npm run portfolio:generate && npm run quality:validate-all && npm run seo:generate-sitemap && npm run copy:dist",
+    "build:preview": "npm run clean:dist && npm run portfolio:generate && npm run quality:check && npm run copy:dist",
+    "build:branch": "npm run clean:dist && npm run portfolio:generate && npm run quality:check && npm run copy:dist",
+    
+    "clean:dist": "rm -rf dist && mkdir -p dist",
+    "copy:dist": "cp -r *.html dist/ && cp -r assets dist/ && cp -r sitemap.xml dist/ && echo '✅ Files copied to dist directory'",
     
     "portfolio:generate": "node scripts/portfolio-generator.js generate",
     "portfolio:deploy": "node scripts/portfolio-generator.js deploy",
@@ -59,7 +62,8 @@
     "url": "https://github.com/timpoulton/projekt-ai-website.git"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "18.17.0",
+    "npm": "9.6.7"
   },
   "dependencies": {
     "serve": "^14.2.1",
