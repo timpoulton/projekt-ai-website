@@ -42,6 +42,12 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/api/proposals"
+  to = "/.netlify/functions/proposals"
+  status = 200
+  force = true
+
 # Headers for security and performance
 [[headers]]
   for = "/*"
@@ -115,10 +121,4 @@
   package = "@netlify/plugin-lighthouse"
   [plugins.inputs]
     performance_budget = 0.8
-    accessibility_threshold = 0.9
-
-[[redirects]]
-  from = "/api/proposals"
-  to = "/.netlify/functions/proposals"
-  status = 200
-  force = true 
+    accessibility_threshold = 0.9 
