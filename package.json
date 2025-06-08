@@ -24,7 +24,7 @@
     "project:deploy": "node scripts/project-lifecycle.js deploy",
     "project:archive": "node scripts/project-lifecycle.js archive",
     
-    "staging:preview": "echo 'Opening staging preview...' && python3 -m http.server 9000 & sleep 2 && open http://localhost:9000/staging/",
+    "staging:preview": "npx serve dist/staging",
     "staging:build-all": "npm run portfolio:generate && echo '✅ All staging versions built'",
     
     "deploy:full": "npm run portfolio:generate && git add . && git commit -m 'Full portfolio deployment' && git push",
@@ -62,11 +62,11 @@
     "node": ">=14.0.0"
   },
   "dependencies": {
-    "serve": "^14.2.1"
-  },
-  "devDependencies": {
+    "serve": "^14.2.1",
     "fs-extra": "^11.2.0",
-    "glob": "^10.3.10"
+    "glob": "^10.3.10",
+    "path": "^0.12.7",
+    "child_process": "^1.0.2"
   },
   "homepage": "https://projekt-ai.net"
 } 
