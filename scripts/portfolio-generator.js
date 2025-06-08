@@ -214,7 +214,7 @@ ${files.map(file => `echo "   - ${this.config.portfolio_system.base_url}/${file}
     getDefaultTemplate() {
         // For now, return the current Club77 template
         // In future, this would load from external template files
-        return fs.readFileSync('./club77-content-pipeline.html', 'utf8')
+        return fs.readFileSync('./case-study-club77-content-pipeline.html', 'utf8')
             .replace(/Club77 Content Pipeline/g, '{{TITLE}}')
             .replace(/Club77 Adelaide/g, '{{CLIENT}}')
             .replace(/AI-powered blog post generation and automated social media content creation system that transforms how Adelaide's premier nightlife venue engages with their audience\./g, '{{DESCRIPTION}}')
