@@ -4,7 +4,7 @@
   "description": "Comprehensive portfolio management system for Projekt AI website",
   "main": "index.html",
   "scripts": {
-    "start": "python3 -m http.server 9000",
+    "start": "npx serve dist",
     "dev": "npm run start",
     
     "build": "npm run build:prod",
@@ -56,12 +56,17 @@
   "license": "Private",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/projekt-ai-website.git"
+    "url": "https://github.com/timpoulton/projekt-ai-website.git"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10"
+  },
   "homepage": "https://projekt-ai.net"
 } 
