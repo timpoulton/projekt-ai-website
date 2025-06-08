@@ -1,10 +1,11 @@
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "npm install && npm run build:prod"
 
 [build.environment]
   NODE_VERSION = "18"
   NPM_VERSION = "9"
+  NODE_ENV = "production"
 
 [[redirects]]
   from = "/*"
@@ -43,21 +44,21 @@
   timeout = 15
 
 [context.development]
-  command = "npm run build:dev"
+  command = "npm install && npm run build:dev"
 
 [context.development.environment]
   NODE_ENV = "development"
   DEBUG = "true"
 
 [context.production]
-  command = "npm run build:prod"
+  command = "npm install && npm run build:prod"
 
 [context.production.environment]
   NODE_ENV = "production"
   DEBUG = "false"
 
 [context.deploy-preview]
-  command = "npm run build:preview"
+  command = "npm install && npm run build:preview"
 
 [context.branch-deploy]
-  command = "npm run build:branch"
+  command = "npm install && npm run build:branch"
