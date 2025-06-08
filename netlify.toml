@@ -40,6 +40,7 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+  force = true
 
 # Headers for security and performance
 [[headers]]
@@ -69,13 +70,13 @@
   directory = "functions"
   
   # Increase timeout for AI processing
-  [functions."ai-generator"]
+  [functions.ai-generator]
     timeout = 30
   
-  [functions."email-capture"]
+  [functions.email-capture]
     timeout = 10
     
-  [functions."blueprint-download"]
+  [functions.blueprint-download]
     timeout = 15
 
 # Custom form handling
@@ -119,11 +120,5 @@
 [[redirects]]
   from = "/api/proposals"
   to = "/.netlify/functions/proposals"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
   status = 200
   force = true 
