@@ -4,33 +4,11 @@
 
 [build.environment]
   NODE_VERSION = "18"
-  OPENAI_API_KEY = ""
-  SMTP_HOST = ""
-  SMTP_PORT = "587"
-  SMTP_USER = ""
-  SMTP_PASS = ""
-  GOOGLE_ANALYTICS_ID = ""
-  SITE_URL = "https://projekt-ai.net"
-  CONTACT_EMAIL = "hello@projekt-ai.net"
-  NETLIFY_ANALYTICS = "true"
-  SENTRY_DSN = ""
 
 [[redirects]]
-  from = "/workflows/*"
-  to = "/workflows/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 200
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/api/proposals"
-  to = "/.netlify/functions/proposals"
-  status = 200
-  force = true
 
 [[headers]]
   for = "/*"
