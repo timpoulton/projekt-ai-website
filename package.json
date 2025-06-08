@@ -7,6 +7,12 @@
     "start": "python3 -m http.server 9000",
     "dev": "npm run start",
     
+    "build": "npm run build:prod",
+    "build:dev": "npm run portfolio:generate && npm run quality:check",
+    "build:prod": "npm run portfolio:generate && npm run quality:validate-all && npm run seo:generate-sitemap",
+    "build:preview": "npm run portfolio:generate && npm run quality:check",
+    "build:branch": "npm run portfolio:generate && npm run quality:check",
+    
     "portfolio:generate": "node scripts/portfolio-generator.js generate",
     "portfolio:deploy": "node scripts/portfolio-generator.js deploy",
     "portfolio:update-main": "node scripts/portfolio-generator.js update-main",

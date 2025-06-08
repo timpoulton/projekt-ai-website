@@ -3,14 +3,32 @@
 
 [build]
   # Publish directory (where the built site files are located)
-  publish = "."
+  publish = "dist"
   
   # Build command (if using a build process)
-  # command = "npm run build"
+  command = "npm run build"
 
 [build.environment]
   # Node.js version for serverless functions
   NODE_VERSION = "18"
+  # OpenAI API for AI content generation
+  OPENAI_API_KEY = ""
+  # Email service configuration
+  SMTP_HOST = ""
+  SMTP_PORT = "587"
+  SMTP_USER = ""
+  SMTP_PASS = ""
+  # Analytics and tracking
+  GOOGLE_ANALYTICS_ID = ""
+  # Site configuration
+  SITE_URL = "https://projekt-ai.net"
+  CONTACT_EMAIL = "hello@projekt-ai.net"
+  # Netlify Analytics
+  NETLIFY_ANALYTICS = "true"
+  # Error tracking
+  SENTRY_DSN = ""
+  # Performance monitoring
+  LIGHTHOUSE_BUDGET = "true"
 
 # Redirect rules for clean URLs and SPA behavior
 [[redirects]]
@@ -61,24 +79,6 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Environment variables for serverless functions
-[build.environment]
-  # OpenAI API for AI content generation
-  OPENAI_API_KEY = ""
-  
-  # Email service configuration
-  SMTP_HOST = ""
-  SMTP_PORT = "587"
-  SMTP_USER = ""
-  SMTP_PASS = ""
-  
-  # Analytics and tracking
-  GOOGLE_ANALYTICS_ID = ""
-  
-  # Site configuration
-  SITE_URL = "https://projekt-ai.net"
-  CONTACT_EMAIL = "hello@projekt-ai.net"
-
 # Functions configuration for AI content generation
 [functions]
   directory = "functions"
@@ -93,10 +93,6 @@
   [functions."blueprint-download"]
     timeout = 15
 
-# Form submissions for lead generation
-[build.processing.html]
-  pretty_urls = true
-
 # Custom form handling
 [[redirects]]
   from = "/contact"
@@ -106,7 +102,7 @@
 
 # Development configuration
 [context.development]
-  command = "echo 'Development build'"
+  command = "npm run build:dev"
   
 [context.development.environment]
   NODE_ENV = "development"
@@ -114,7 +110,7 @@
 
 # Production configuration  
 [context.production]
-  command = "echo 'Production build'"
+  command = "npm run build:prod"
   
 [context.production.environment]
   NODE_ENV = "production"
@@ -122,11 +118,11 @@
 
 # Deploy previews for pull requests
 [context.deploy-preview]
-  command = "echo 'Deploy preview build'"
+  command = "npm run build:preview"
 
 # Branch-specific configuration
 [context.branch-deploy]
-  command = "echo 'Branch deploy build'"
+  command = "npm run build:branch"
 
 # Plugin configuration for additional functionality
 [[plugins]]
@@ -137,25 +133,14 @@
     performance_budget = 0.8
     accessibility_threshold = 0.9
 
-# Analytics and monitoring
-[build.environment]
-  # Netlify Analytics
-  NETLIFY_ANALYTICS = "true"
-  
-  # Error tracking
-  SENTRY_DSN = ""
-  
-  # Performance monitoring
-  LIGHTHOUSE_BUDGET = "true" 
-
 [[redirects]]
   from = "/api/proposals"
-  to = "http://192.168.1.107:5001/api/proposals"
+  to = "/.netlify/functions/proposals"
   status = 200
   force = true
 
 [[redirects]]
   from = "/api/*"
-  to = "http://192.168.1.107:5001/api/:splat"
+  to = "/.netlify/functions/:splat"
   status = 200
   force = true 
