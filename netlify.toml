@@ -41,21 +41,6 @@
   to = "/.netlify/functions/:splat"
   status = 200
 
-# Form handling for lead generation
-[build.processing]
-  skip_processing = false
-
-[build.processing.css]
-  bundle = true
-  minify = true
-
-[build.processing.js]
-  bundle = true
-  minify = true
-
-[build.processing.html]
-  pretty_urls = true
-
 # Headers for security and performance
 [[headers]]
   for = "/*"
@@ -127,8 +112,6 @@
 # Plugin configuration for additional functionality
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
-  
-  # Lighthouse performance monitoring
   [plugins.inputs]
     performance_budget = 0.8
     accessibility_threshold = 0.9
