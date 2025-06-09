@@ -1,37 +1,35 @@
-# System files
+# DJ Recording Manager files
+assets/archives/dj-recording-manager/
+projects/dj-recording-manager/
+
+# Node modules
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Editor directories and files
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Node modules if added later
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Build outputs
-dist/
-build/
-.cache/
-
-# Log files
-*.log 
-# Local Netlify folder
-.netlify
-dist/
-
-# Ignore large zip files that exceed GitHub's 100MB limit
-assets/archives/dj-recording-manager.zip
-assets/archives/dj-recording-manager/dj-recording-manager/backend/Services/track_watcher/libs/acrcloud_sdk.zip
+# Keep image generator files
+!assets/img/generator/
+!assets/img/uploads/
