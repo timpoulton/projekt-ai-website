@@ -2,6 +2,9 @@
 assets/archives/dj-recording-manager/
 projects/dj-recording-manager/
 
+# Backups directory
+backups/
+
 # Node modules
 node_modules/
 
