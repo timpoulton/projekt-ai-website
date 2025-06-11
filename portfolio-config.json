@@ -41,7 +41,7 @@
       "short_description": "AI Content Generation & Social Media Automation",
       "services": [
         "AI Content Generation",
-        "Workflow Automation", 
+        "Workflow Automation",
         "Social Media Integration",
         "Content Management Systems",
         "API Development"
@@ -50,7 +50,7 @@
       "portfolio_url": "/club77-content-pipeline.html",
       "featured": true,
       "card_size": "large",
-      "header_image": "assets/img/uploads/portfolio_header_image.jpg",
+      "header_image": "/assets/img/portfolio/club77-content-pipeline-card.jpg",
       "process_steps": [
         {
           "number": "01",
@@ -58,13 +58,13 @@
           "description": "Analyzed Club77's existing content, brand voice, and audience engagement patterns. Developed content templates and guidelines that maintain consistency while allowing for creative variation in automated posts."
         },
         {
-          "number": "02", 
+          "number": "02",
           "title": "AI Model Training & Integration",
           "description": "Configured and fine-tuned AI models to understand Club77's unique brand voice, event types, and target audience. Integrated with OpenAI's GPT models for natural language generation with custom prompts and guardrails."
         },
         {
           "number": "03",
-          "title": "Automation Pipeline Development", 
+          "title": "Automation Pipeline Development",
           "description": "Built a comprehensive automation system using n8n workflows that connects event data, generates content, formats posts for different platforms, and schedules publication across Instagram, Facebook, and the website blog."
         },
         {
@@ -83,7 +83,7 @@
           "description": "Seamless integration with Instagram, Facebook, and Club77's website blog ensures consistent messaging across all channels. The system automatically formats content for each platform's requirements, schedules posts for optimal engagement times, and maintains a content calendar that prevents conflicts or overlap. Each piece of content is optimized for platform-specific best practices."
         },
         {
-          "title": "Performance & Analytics", 
+          "title": "Performance & Analytics",
           "description": "Since implementation, Club77 has seen a 300% increase in content consistency, 75% reduction in content creation time, and 40% improvement in social media engagement rates. The system generates detailed analytics on content performance, suggesting optimizations and learning from successful posts to improve future content generation."
         }
       ],
@@ -91,12 +91,18 @@
       "approach": "I developed an intelligent automation pipeline that combines AI content generation with Club77's event data and brand guidelines. The system automatically creates blog posts, social media captions, and promotional content based on upcoming events, venue updates, and industry trends. The solution integrates seamlessly with their existing workflows and maintains consistent brand messaging across all platforms.",
       "results": [
         "300% increase in content consistency",
-        "75% reduction in content creation time", 
+        "75% reduction in content creation time",
         "40% improvement in social media engagement rates",
         "Automated content calendar management",
         "Cross-platform optimization and scheduling"
       ],
-      "technologies": ["OpenAI GPT", "n8n Workflows", "Instagram API", "Facebook API", "Content Management"],
+      "technologies": [
+        "OpenAI GPT",
+        "n8n Workflows",
+        "Instagram API",
+        "Facebook API",
+        "Content Management"
+      ],
       "project_date": "2024",
       "project_duration": "3 months",
       "created_at": "2025-05-31",
@@ -110,10 +116,19 @@
       "template_file": "templates/portfolio-dark-theme.html",
       "css_file": "templates/portfolio-dark-theme.css",
       "required_fields": [
-        "title", "client", "description", "services", "process_steps", "highlights"
+        "title",
+        "client",
+        "description",
+        "services",
+        "process_steps",
+        "highlights"
       ],
       "optional_fields": [
-        "live_url", "header_image", "challenge", "approach", "results"
+        "live_url",
+        "header_image",
+        "challenge",
+        "approach",
+        "results"
       ]
     }
   },
@@ -131,4 +146,4 @@
       "og_image": "assets/img/og-portfolio-default.jpg"
     }
   }
-} 
+}

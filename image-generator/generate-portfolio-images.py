@@ -11,7 +11,8 @@ import requests
 from pathlib import Path
 
 # Configuration
-API_URL = "http://localhost:5050/generate"
+PORT = os.getenv("PORT", "5050")
+API_URL = f"http://localhost:{PORT}/generate"
 API_BASE = API_URL.rsplit("/generate", 1)[0]
 OUTPUT_DIR = "../assets/img/portfolio"
 PORTFOLIO_CONFIG = "../portfolio-config.json"
@@ -22,13 +23,13 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Project prompts for image generation
 PROJECT_PROMPTS = {
-    "club77-content-pipeline": "A modern content pipeline system with flowing data streams and automated processing, digital art style",
-    "upwork-proposal-automation": "An AI-powered proposal writing system with glowing neural networks and document generation, cyberpunk style",
-    "blueprint-generator": "A blueprint generation tool with architectural designs and technical schematics, blueprint style",
-    "client-proposals": "A professional proposal management system with elegant UI and document workflows, corporate style",
-    "multi-model-chatbot": "A multi-model AI chatbot interface with glowing neural networks and conversation flows, futuristic style",
-    "dj-recording-manager": "A sleek, tech-y card mockup for a DJ Recording Manager tool. Feature a dark background with glowing audio waveforms, a stylized turntable silhouette, and an OBS Studio icon. Include a minimalist dashboard UI inset showing a recording session timeline and file-management icons. Cool blues and teals, glossy finish.",
-    "manychat-guestlist-automation": "A vibrant promotional card for a chatbot-powered guestlist system. Show chat bubbles emerging from a stylized \"M\" chatbot logo, a scrollable guest list UI with check-in toggles, and festive party icons (confetti, cocktail glass). Use a dark nightclub background with bright accent colors (electric pink, lime) and clean, modern interface elements."
+    "club77-content-pipeline": "A minimal portfolio card for Club77 Content Pipeline: AI Content Generation & Social Media Automation. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
+    "upwork-proposal-automation": "A minimal portfolio card for Upwork Proposal Automation: AI-powered proposal writing system with glowing neural networks and document generation. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
+    "blueprint-generator": "A minimal portfolio card for Blueprint Generator: Blueprint generation tool with architectural designs and technical schematics. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
+    "client-proposals": "A minimal portfolio card for Client Proposals: Professional proposal management system with elegant UI and document workflows. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
+    "multi-model-chatbot": "A minimal portfolio card for Multi-Model Chatbot: Multi-model AI chatbot interface with glowing neural networks and conversation flows. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
+    "dj-recording-manager": "A minimal portfolio card for DJ Recording Manager: Sleek, tech-y card mockup featuring audio waveforms, turntable silhouette, and a minimalist dashboard UI inset. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
+    "manychat-guestlist-automation": "A minimal portfolio card for ManyChat Guestlist Automation: Vibrant promotional card for a chatbot-powered guestlist system with chat bubbles, scrollable guest list UI, and festive party icons. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg."
 }
 
 def generate_image(project_id, prompt):
