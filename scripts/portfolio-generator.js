@@ -74,7 +74,7 @@ class PortfolioGenerator {
         html = html.replace(/{{SERVICES_LIST}}/g, servicesList);
 
         // Generate process steps
-        const processSteps = project.process_steps.map(step => `
+        const processSteps = (project.process_steps || []).map(step => `
             <div class="process-item">
                 <div class="process-number">${step.number}</div>
                 <h4>${step.title}</h4>
@@ -83,7 +83,7 @@ class PortfolioGenerator {
         html = html.replace(/{{PROCESS_STEPS}}/g, processSteps);
 
         // Generate highlights
-        const highlights = project.highlights.map(highlight => `
+        const highlights = (project.highlights || []).map(highlight => `
             <div class="highlight-item">
                 <div class="highlight-content">
                     <h3>${highlight.title}</h3>
@@ -145,7 +145,7 @@ class PortfolioGenerator {
 
         // Replace the **entire** projects-grid block, not just the first closing tag.
         // Greedy match ensures we capture everything up to the final </div> of the grid.
-        const portfolioGridRegex = /<div class="projects-grid">[\s\S]*?<\/div>/;
+        const portfolioGridRegex = /<div class="projects-grid">[\s\S]*<\/div>/;
         const newPortfolioGrid = `<div class="projects-grid">\n            ${portfolioCards}\n        </div>`;
         
         indexHtml = indexHtml.replace(portfolioGridRegex, newPortfolioGrid);
