@@ -143,9 +143,10 @@ class PortfolioGenerator {
             </a>`;
             }).join('\n            ');
 
-        // Replace portfolio grid
-        const portfolioGridRegex = /<div class="projects-grid">(.*?)<\/div>/s;
-        const newPortfolioGrid = `<div class="projects-grid">${portfolioCards}\n        </div>`;
+        // Replace the **entire** projects-grid block, not just the first closing tag.
+        // Greedy match ensures we capture everything up to the final </div> of the grid.
+        const portfolioGridRegex = /<div class="projects-grid">[\s\S]*?<\/div>/;
+        const newPortfolioGrid = `<div class="projects-grid">\n            ${portfolioCards}\n        </div>`;
         
         indexHtml = indexHtml.replace(portfolioGridRegex, newPortfolioGrid);
         
