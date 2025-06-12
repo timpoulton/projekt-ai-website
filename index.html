@@ -327,9 +327,16 @@
             white-space: nowrap;
         }
 
+        /* Button hover: gradient text + border, transparent background */
         .button:hover {
-            background: linear-gradient(120deg, #ff4fd8 0%, #ff00ff 50%, #d167ff 100%);
-            border-color: transparent;
+            color: transparent;
+            background: linear-gradient(120deg,#ff4fd8 0%,#ff00ff 50%,#d167ff 100%);
+            background-clip: text,border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border: 1px solid transparent;
+            background-origin: border-box;
+            box-shadow: 0 0 0 1px transparent;
             transform: translateY(-1px);
         }
 
@@ -1060,13 +1067,28 @@
             }
         }
 
-        /* Gradient link hover */
+        /* Gradient link hover (extended to email links) */
         .nav-links a:hover,
         .menu-nav a:hover,
-        .footer-nav a:hover {
-            background: linear-gradient(120deg, #ff4fd8 0%, #ff00ff 50%, #d167ff 100%);
+        .footer-nav a:hover,
+        a[href^="mailto:"]:hover {
+            background: linear-gradient(120deg,#ff4fd8 0%,#ff00ff 50%,#d167ff 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        /* Logo gradient on hover */
+        .logo {
+            transition: background-position 0.6s ease, -webkit-text-fill-color 0.3s ease;
+        }
+
+        .logo:hover {
+            background: linear-gradient(120deg,#ff4fd8 0%,#ff00ff 50%,#d167ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 200%;
+            background-position: 100% 0;
         }
     </style>
     <link rel="icon" type="image/svg+xml" href="assets/img/logos/favicon.svg">
