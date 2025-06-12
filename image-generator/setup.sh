@@ -28,7 +28,7 @@ cat > .env << EOL
 STABILITY_API_KEY=sk-BMmaD6i1JLMKD5Z4FwluEmfGyaTnDTqGEgsqCYSglaRZwDn8
 
 # Server Configuration
-PORT=5050
+PORT=5051
 OUTPUT_DIR=../assets/img/uploads
 FILE_FORMAT=jpg
 IMAGE_WIDTH=1024

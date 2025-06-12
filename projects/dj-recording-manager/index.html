@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Recording Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/portfolio.css">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            themeVariables: {
+                primaryColor: '#333',
+                primaryTextColor: '#fff',
+                primaryBorderColor: '#666',
+                lineColor: '#666',
+                sectionBkgColor: '#333',
+                altSectionBkgColor: '#444',
+                gridColor: '#666',
+                c0: '#1a1a1a',
+                c1: '#333',
+                c2: '#666',
+                c3: '#999'
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <a href="../../index.html" class="back-link">← Back to Projects</a>
+        <h1>DJ Recording Manager</h1>
+        <div class="subtitle">Automated DJ Set Recording, Scheduling & File Management</div>
+        <div class="meta">Full-stack Web App &nbsp;|&nbsp; Node.js, React, OBS Studio</div>
+        <div class="project-section">
+            <img src="../../assets/img/uploads/dj-placeholder.jpg" alt="DJ Recording Manager" class="project-img">
+            <p>A full-stack web application for managing and automating DJ set recordings using OBS Studio. Features include remote recording control, schedule automation, real-time status dashboard, file management, and REST API endpoints.</p>
+            <ul style="margin: 24px 0 32px 24px;">
+                <li>OBS integration (start/stop, monitor, manage recordings)</li>
+                <li>Schedule management with conflict prevention</li>
+                <li>Dynamic directory creation and file naming</li>
+                <li>Real-time UI and status dashboard</li>
+                <li>API endpoints for automation</li>
+            </ul>
+            <p><strong>Tech Stack:</strong> React, Vite, Tailwind CSS, Node.js, Express, obs-websocket-js, OBS Studio</p>
+        </div>
+        <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">React</span>
+            <span class="tag">OBS Studio</span>
+            <span class="tag">Automation</span>
+            <span class="tag">Scheduling</span>
+        </div>
+    </div>
+</body>
+</html> 

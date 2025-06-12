@@ -1,0 +1,341 @@
+/* DARK THEME PORTFOLIO - PROJEKT AI DESIGN */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: #1a1a1a;
+    overflow-x: hidden;
+}
+
+/* Container - Dark Theme */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+/* Header - Dark Theme */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(26, 26, 26, 0.95);
+    backdrop-filter: blur(20px);
+    z-index: 1000;
+    padding: 40px 0;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+/* Navigation Menu */
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 1001;
+    position: relative;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* Slide-out Menu */
+.slide-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.98);
+    backdrop-filter: blur(20px);
+    z-index: 10000;
+    transition: right 0.4s ease;
+    padding: 80px 60px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide-menu.active {
+    right: 0;
+}
+
+.menu-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    transition: all 0.3s ease;
+    display: block;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+}
+
+.menu-nav li:first-child {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-nav li:first-child a {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-nav a:hover {
+    color: #b0b0b0;
+    transform: translateX(6px);
+}
+
+.menu-nav li:first-child a:hover {
+    transform: translateX(-4px);
+}
+
+/* Main Content */
+main {
+    margin-top: 120px;
+}
+
+/* Hero Section */
+.hero {
+    background: #1a1a1a;
+    padding: 140px 0;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 120px;
+    align-items: start;
+    padding: 0 0 140px;
+}
+
+.hero-left {
+    text-align: right;
+}
+
+.client-name {
+    font-size: 16px;
+    color: #b0b0b0;
+    font-weight: 500;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.hero-left h1 {
+    font-size: clamp(48px, 6vw, 72px);
+    font-weight: 400;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 32px;
+    letter-spacing: -0.02em;
+}
+
+.hero-left .subtitle {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-bottom: 48px;
+    line-height: 1.6;
+}
+
+.hero-right {
+    text-align: left;
+}
+
+/* Workflow Section */
+.workflow-section {
+    padding: 140px 0;
+    background: #111;
+}
+
+.workflow-diagram {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.workflow-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.workflow-title h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+}
+
+.workflow-title p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+}
+
+.workflow-steps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.workflow-step {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 32px 24px;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    backdrop-filter: blur(20px);
+    transition: all 0.3s ease;
+}
+
+.workflow-step:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-4px);
+}
+
+.step-icon {
+    font-size: 32px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.step-content h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.step-content p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.4;
+}
+
+.workflow-arrow {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin: 0 16px;
+}
+
+.workflow-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    text-align: center;
+}
+
+.stat-item {
+    padding: 24px;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: 600;
+    color: #1dd1a1;
+    margin-bottom: 8px;
+    letter-spacing: -0.02em;
+}
+
+.stat-label {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+}
+
+/* Highlights Section */
+.highlights-section,
+.related-section {
+    padding: 140px 0;
+}
+
+.related-card,
+.project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.85));
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.button .arrow::after {
+    content: "→";
+    transition: transform 0.3s ease;
+}
+
+.button:hover .arrow::after {
+    transform: translateX(4px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container { padding: 0 30px; }
+    .hero-content { grid-template-columns: 1fr; gap: 60px; }
+    .section-header { grid-template-columns: 1fr; gap: 40px; }
+    .overview-content { grid-template-columns: 1fr; gap: 60px; }
+    .process-grid { grid-template-columns: 1fr; gap: 60px; }
+    .related-grid { grid-template-columns: 1fr; }
+    .workflow-steps { flex-direction: column; }
+    .workflow-stats { grid-template-columns: 1fr; gap: 32px; }
+} 

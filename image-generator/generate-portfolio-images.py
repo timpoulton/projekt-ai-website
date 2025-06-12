@@ -7,67 +7,76 @@ Generates images for portfolio projects using Stability AI's API
 import os
 import json
 import time
-import requests
-from pathlib import Path
+from io import BytesIO
+from PIL import Image
+from dotenv import load_dotenv
+import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
+from stability_sdk import client as stability_client
+
+# Load environment variables
+load_dotenv()
 
 # Configuration
-PORT = os.getenv("PORT", "5050")
-API_URL = f"http://localhost:{PORT}/generate"
-API_BASE = API_URL.rsplit("/generate", 1)[0]
+STABILITY_API_KEY = os.getenv("STABILITY_API_KEY")
+FILE_FORMAT = os.getenv("FILE_FORMAT", "png")
+IMAGE_WIDTH = int(os.getenv("IMAGE_WIDTH", 1024))
+IMAGE_HEIGHT = int(os.getenv("IMAGE_HEIGHT", 768))
 OUTPUT_DIR = "../assets/img/portfolio"
 PORTFOLIO_CONFIG = "../portfolio-config.json"
-FILE_FORMAT = "jpg"  # Default image format
+IMAGE_OUTPUT_DIR = os.path.join(os.path.dirname(__file__), OUTPUT_DIR)
+os.makedirs(IMAGE_OUTPUT_DIR, exist_ok=True)
 
-# Ensure output directory exists
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+# Base style prompt for consistency
+BASE_PROMPT = (
+    "dramatic side lighting, styled like Annie Leibovitz photography, professional DSLR, "
+    "sharp details, editorial quality, authentic moment, cinematic color grading"
+)
 
 # Project prompts for image generation
 PROJECT_PROMPTS = {
-    "club77-content-pipeline": "A minimal portfolio card for Club77 Content Pipeline: AI Content Generation & Social Media Automation. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
-    "upwork-proposal-automation": "A minimal portfolio card for Upwork Proposal Automation: AI-powered proposal writing system with glowing neural networks and document generation. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
-    "blueprint-generator": "A minimal portfolio card for Blueprint Generator: Blueprint generation tool with architectural designs and technical schematics. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
-    "client-proposals": "A minimal portfolio card for Client Proposals: Professional proposal management system with elegant UI and document workflows. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
-    "multi-model-chatbot": "A minimal portfolio card for Multi-Model Chatbot: Multi-model AI chatbot interface with glowing neural networks and conversation flows. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
-    "dj-recording-manager": "A minimal portfolio card for DJ Recording Manager: Sleek, tech-y card mockup featuring audio waveforms, turntable silhouette, and a minimalist dashboard UI inset. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg.",
-    "manychat-guestlist-automation": "A minimal portfolio card for ManyChat Guestlist Automation: Vibrant promotional card for a chatbot-powered guestlist system with chat bubbles, scrollable guest list UI, and festive party icons. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: flat vector illustration, no extra text or shadows. 1024×768, jpg."
+    "club77-content-pipeline": f"{BASE_PROMPT}, Young asian woman in dark nightclub similar berlin nightclub berghain, looking down at her phone in the scrolling motion, background people dancing in dark nightclub scene",
+    "upwork-proposal-automation": f"{BASE_PROMPT}, Young entrepreneur staring down at macbook laptop in an ultra modern office environment, the green colourway of the upwork design style reflected in his glasses, the logos of tech startup companies popping out of the screen",
+    "blueprint-generator": "A minimal portfolio card for Blueprint Generator: Blueprint generation tool with architectural designs and technical schematics. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: photorealistic, 8k resolution, Behance graphic design style, no text generation. 1024×768, jpg.",
+    "client-proposals": "A minimal portfolio card for Client Proposals: Professional proposal management system with elegant UI and document workflows. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: photorealistic, 8k resolution, Behance graphic design style, no text generation. 1024×768, jpg.",
+    "multi-model-chatbot": "A minimal portfolio card for Multi-Model Chatbot: Multi-model AI chatbot interface with glowing neural networks and conversation flows. Background: smooth vertical gradient from #000 (top) to #111 (bottom). Accents: thin line and icon highlights in #1dd1a1. Style: photorealistic, 8k resolution, Behance graphic design style, no text generation. 1024×768, jpg.",
+    "dj-recording-manager": f"{BASE_PROMPT}, Young startup woman entrepreneur standing at a console in a dark busy nightclub scene operating a panel with video controls",
+    "manychat-guestlist-automation": f"{BASE_PROMPT}, nightclub scene, new york style underground nightclub entrance with long line and people waiting to get into the club"
 }
 
 def generate_image(project_id, prompt):
-    """Generate an image for a portfolio project"""
+    """Generate an image via Stability SDK directly"""
+    if not STABILITY_API_KEY:
+        print(f"❌ STABILITY_API_KEY not set. Can't generate {project_id}.")
+        return None
     filename = f"{project_id}-card.{FILE_FORMAT}"
+    filepath = os.path.join(IMAGE_OUTPUT_DIR, filename)
     try:
-        # Prepare the request payload with filename
-        payload = {
-            "prompt": prompt,
-            "filename": filename,
-            "width": 1024,
-            "height": 768
-        }
-        
-        # Make the API request
-        response = requests.post(API_URL, json=payload)
-        response.raise_for_status()
-        
-        # Parse the response
-        result = response.json()
-        if not result.get("success"):
-            raise ValueError("API did not return success")
-        
-        # Download the generated image from the API
-        download_url = f"{API_BASE}/images/{filename}"
-        img_response = requests.get(download_url)
-        img_response.raise_for_status()
-        
-        # Save the image locally
-        filepath = os.path.join(OUTPUT_DIR, filename)
-        with open(filepath, "wb") as f:
-            f.write(img_response.content)
-        
+        # Set up stability client
+        stability_api = stability_client.StabilityInference(
+            key=STABILITY_API_KEY,
+            verbose=True
+        )
+        # Generate image
+        answers = stability_api.generate(
+            prompt=prompt,
+            width=IMAGE_WIDTH,
+            height=IMAGE_HEIGHT,
+            samples=1,
+            steps=30
+        )
+        # Save first image artifact
+        for resp in answers:
+            for artifact in resp.artifacts:
+                if artifact.finish_reason == generation.FILTER:
+                    print(f"❌ Prompt was filtered for {project_id}")
+                    return None
+                if artifact.type == generation.ARTIFACT_IMAGE:
+                    img = Image.open(BytesIO(artifact.binary))
+                    img.save(filepath, format=FILE_FORMAT.upper())
         print(f"✅ Generated image for {project_id}")
         return f"/assets/img/portfolio/{filename}"
-        
     except Exception as e:
-        print(f"❌ Error generating image for {project_id}: {str(e)}")
+        print(f"❌ Error generating image for {project_id}: {e}")
         return None
 
 def update_portfolio_config(image_urls):

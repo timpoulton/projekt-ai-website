@@ -1,0 +1,136 @@
+.log-viewer-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-divider);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.log-header h2 {
+  margin: 0;
+  font-size: var(--font-size-lg);
+}
+
+.connection-status {
+  font-size: var(--font-size-sm);
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.connected {
+  background-color: var(--color-success);
+  color: white;
+}
+
+.disconnected {
+  background-color: var(--color-error);
+  color: white;
+}
+
+.error-message {
+  color: var(--color-error);
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid var(--color-error);
+  border-radius: 4px;
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+.log-container {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid var(--color-divider);
+  border-radius: 4px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.dark-mode .log-container {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.no-logs {
+  color: var(--color-muted);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.log-entry {
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+}
+
+.log-timestamp {
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+
+.log-level {
+  font-weight: bold;
+  min-width: 70px;
+}
+
+.log-message {
+  word-break: break-word;
+}
+
+/* Log level styles */
+.log-entry.info {
+  background-color: rgba(2, 117, 216, 0.1);
+}
+
+.log-entry.success {
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+.log-entry.warning {
+  background-color: rgba(255, 193, 7, 0.1);
+}
+
+.log-entry.error {
+  background-color: rgba(220, 53, 69, 0.1);
+}
+
+.dark-mode .log-entry.info {
+  background-color: rgba(2, 117, 216, 0.2);
+}
+
+.dark-mode .log-entry.success {
+  background-color: rgba(40, 167, 69, 0.2);
+}
+
+.dark-mode .log-entry.warning {
+  background-color: rgba(255, 193, 7, 0.2);
+}
+
+.dark-mode .log-entry.error {
+  background-color: rgba(220, 53, 69, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+  .log-container {
+    height: 300px;
+  }
+  
+  .log-entry {
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .log-timestamp, .log-level {
+    margin-bottom: 4px;
+  }
+} 

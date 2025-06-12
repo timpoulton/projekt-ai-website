@@ -13,7 +13,7 @@ In Cursor, describe the client request like this:
 I need to create a client proposal for [CLIENT_NAME]. Here are the details:
 
 - **Client:** [CLIENT_NAME]
-- **Industry:** [e.g., Marketing Agency, Nightlife, etc.]
+
 - **Current Process:** [What they're doing manually now]
 - **Desired Outcome:** [What they want to achieve]
 - **Tools They Use:** [Current tools/systems]

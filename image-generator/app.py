@@ -118,6 +118,14 @@ def generate_image_with_stability(prompt, width, height, filename):
         
     return filename
 
+# Base style prompt for all images
+def get_full_prompt(subject_prompt):
+    base_prompt = (
+        "dramatic side lighting, styled like Annie Leibovitz photography, professional DSLR, "
+        "sharp details, editorial quality, authentic moment, cinematic color grading"
+    )
+    return f"{base_prompt}, {subject_prompt.strip()}"
+
 @app.route('/')
 def index():
     """Serve the HTML interface"""
@@ -141,7 +149,9 @@ def generate():
     if not data or 'prompt' not in data:
         return jsonify({"error": "Missing prompt parameter"}), 400
     
-    prompt = data.get('prompt')
+    # Use the new base prompt for all generations
+    subject_prompt = data.get('prompt')
+    prompt = get_full_prompt(subject_prompt)
     filename = data.get('filename', f"generated-{int(time.time())}.{FILE_FORMAT}")
     width = data.get('width', IMAGE_WIDTH)
     height = data.get('height', IMAGE_HEIGHT)

@@ -1,0 +1,125 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px 0;
+}
+
+/* Dark mode toggle */
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  color: var(--color-text);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+/* Add dark mode class for JS control */
+.dark-mode {
+  --color-bg: #1a1a1a;
+  --color-text: #ffffff;
+  --color-primary: #ffffff;
+  --color-accent: #ffffff;
+  --color-muted: #bbbbbb;
+  --color-divider: #666666;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.light-mode {
+  --color-bg: #ffffff;
+  --color-text: #333333;
+  --color-primary: #000000;
+  --color-accent: #000000;
+  --color-muted: #666666;
+  --color-divider: #cccccc;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Add container class if missing */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.main-nav {
+  background-color: var(--color-primary);
+  padding: 12px 0;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 24px;
+}
+
+.nav-links li a {
+  color: var(--color-bg);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: opacity 0.2s;
+}
+
+.nav-links li a:hover {
+  opacity: 0.8;
+}
+
+/* Dark mode adjustments */
+.dark-mode .main-nav {
+  background-color: #333;
+}

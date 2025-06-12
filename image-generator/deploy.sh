@@ -11,6 +11,11 @@ echo "🚀 Deploying Image Generator Service..."
 echo "🔧 Activating virtual environment..."
 source venv/bin/activate
 
+# Load environment variables from .env
+if [ -f .env ]; then
+  set -a; source .env; set +a
+fi
+
 # 2. Verify dependencies
 echo "📦 Verifying dependencies..."
 pip list | grep -E "flask|flask-cors|Pillow|requests|stability-sdk|python-dotenv|gunicorn"
@@ -34,7 +39,7 @@ pkill -f "gunicorn.*app:app" || true
 
 # 6. Start the service in the background
 echo "🚀 Starting Image Generator service..."
-nohup gunicorn --bind 0.0.0.0:5050 \
+nohup gunicorn --bind 0.0.0.0:${PORT:-5050} \
          --workers 4 \
          --timeout 120 \
          --access-logfile logs/access.log \
@@ -48,7 +53,7 @@ echo "⏳ Waiting for service to start..."
 sleep 5
 
 # 8. Check if service is running
-if curl -s http://localhost:5050/status > /dev/null; then
+if curl -s http://localhost:${PORT:-5050}/status > /dev/null; then
     echo "✅ Service is running!"
 else
     echo "❌ Service failed to start. Check logs/error.log for details."
@@ -60,7 +65,7 @@ echo "🎨 Generating portfolio images..."
 python3 generate-portfolio-images.py
 
 echo "✅ Image Generator Service deployed!"
-echo "📝 Service running on http://localhost:5050"
+echo "📝 Service running on http://localhost:${PORT:-5050}"
 echo "📝 API Documentation:"
 echo "   - POST /generate - Generate new image"
 echo "   - GET /images - List generated images"
