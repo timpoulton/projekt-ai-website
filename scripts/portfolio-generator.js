@@ -143,12 +143,20 @@ class PortfolioGenerator {
             </a>`;
             }).join('\n            ');
 
-        // Replace the **entire** projects-grid block, not just the first closing tag.
-        // Greedy match ensures we capture everything up to the final </div> of the grid.
-        const portfolioGridRegex = /<div class="projects-grid">[\s\S]*<\/div>/;
-        const newPortfolioGrid = `<div class="projects-grid">\n            ${portfolioCards}\n        </div>`;
-        
-        indexHtml = indexHtml.replace(portfolioGridRegex, newPortfolioGrid);
+        /*
+         * Replace ONLY the contents of the .projects-grid element.
+         * The previous greedy regex grabbed everything up to the LAST </div>,
+         * wiping out the Contact section, footer, and scripts that followed.
+         *
+         * We now capture lazily up to the grid's own closing tag but preserve the
+         * following markup by using a capture group for the first tag that comes
+         * right after the grid (usually <script> or the Contact section).
+         */
+        const portfolioGridRegex = /<div class="projects-grid">[\s\S]*?<\/div>(?=\s*<section id=\"contact\")/;
+
+        const newPortfolioGrid = `<div class=\"projects-grid\">\n            ${portfolioCards}\n        </div>`;
+
+        indexHtml = indexHtml.replace(portfolioGridRegex, `${newPortfolioGrid}`);
         
         fs.writeFileSync(indexPath, indexHtml);
         console.log('✅ Main page updated with portfolio links');
