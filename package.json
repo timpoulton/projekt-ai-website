@@ -14,7 +14,7 @@
     "build:branch": "npm run clean:dist && npm run portfolio:generate && npm run quality:check && npm run copy:dist",
     
     "clean:dist": "rm -rf dist && mkdir -p dist",
-    "copy:dist": "cp -r *.html dist/ && cp -r assets dist/ && cp -r sitemap.xml dist/ && echo '✅ Files copied to dist directory'",
+    "copy:dist": "cp -r *.html dist/ && cp -r assets dist/ && cp -r admin-dashboard dist/ && cp -r sitemap.xml dist/ && echo '✅ Files copied to dist directory'",
     
     "portfolio:generate": "node scripts/portfolio-generator.js generate",
     "portfolio:deploy": "node scripts/portfolio-generator.js deploy",
