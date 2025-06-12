@@ -188,10 +188,12 @@ Created: ${new Date().toLocaleDateString()}
         const issues = [];
 
         // Content validation
-        if (!project.challenge || project.challenge.length < 50) {
+        const challengeLen = (project.challenge || '').length;
+        const approachLen  = (project.approach  || '').length;
+        if (challengeLen < 50) {
             issues.push('❌ Challenge section too short or missing');
         }
-        if (!project.approach || project.approach.length < 50) {
+        if (approachLen < 50) {
             issues.push('❌ Approach section too short or missing');
         }
         const proc = project.process_steps || [];
@@ -221,6 +223,11 @@ Created: ${new Date().toLocaleDateString()}
             issues.push('❌ Project workspace missing');
         }
 
+        // Ensure directory exists before writing report
+        if (!fs.existsSync(projectDir)) {
+            fs.mkdirSync(projectDir, { recursive: true });
+        }
+
         // Generate review report
         const reviewReport = `
 # QUALITY REVIEW REPORT
@@ -233,8 +240,8 @@ Created: ${new Date().toLocaleDateString()}
 ${issues.map(issue => `- ${issue}`).join('\n')}
 
 ### Content Statistics:
-- Challenge: ${project.challenge.length} characters
-- Approach: ${project.approach.length} characters  
+- Challenge: ${challengeLen} characters
+- Approach: ${approachLen} characters  
 - Process Steps: ${proc.length}
 - Highlights: ${high.length}
 - Technologies: ${tech.length}
