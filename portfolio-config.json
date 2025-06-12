@@ -107,6 +107,71 @@
       "project_duration": "3 months",
       "created_at": "2025-05-31",
       "updated_at": "2025-05-31"
+    },
+    {
+      "id": "upwork_proposal_automation",
+      "status": "live",
+      "title": "Upwork Proposal Automation",
+      "client": "Internal Project",
+      "category": "AI Sales Automation",
+      "description": "End-to-end system that generates, personalises, and dispatches Upwork proposals automatically, boosting win rate and saving hours of manual work.",
+      "short_description": "AI-Powered Business Development",
+      "services": [
+        "OpenAI GPT Personalisation",
+        "Chrome Automation",
+        "Job Scraping",
+        "Email / Chat Integrations"
+      ],
+      "live_url": "#",
+      "portfolio_url": "/upwork-proposal-automation.html",
+      "featured": false,
+      "card_size": "standard",
+      "header_image": "/assets/img/portfolio/upwork-proposal-automation-card.png",
+      "technologies": ["OpenAI GPT","Puppeteer","n8n","Zapier"],
+      "project_date": "2024"
+    },
+    {
+      "id": "dj_recording_manager",
+      "status": "live",
+      "title": "DJ Recording Manager",
+      "client": "Club77 Adelaide",
+      "category": "Media Automation",
+      "description": "Automated system that records DJ sets, manages scheduling, and organises files using OBS Studio integrations and cloud storage.",
+      "short_description": "Automated DJ set recording & management",
+      "services": [
+        "OBS Studio Automation",
+        "Cloud Storage Integration",
+        "Scheduling Workflows"
+      ],
+      "live_url": "#",
+      "portfolio_url": "/projects/dj-recording-manager/index.html",
+      "featured": false,
+      "card_size": "standard",
+      "header_image": "/assets/img/portfolio/dj-recording-manager-card.png",
+      "technologies": ["Python","OBS API","n8n"],
+      "project_date": "2023"
+    },
+    {
+      "id": "manychat_guestlist_automation",
+      "status": "live",
+      "title": "ManyChat Guestlist Automation",
+      "client": "Various Nightclubs",
+      "category": "Customer Automation",
+      "description": "Chatbot-driven system for automated guest list management, ticketing, and messaging built on ManyChat and Google Sheets.",
+      "short_description": "Guestlist & Ticketing Automation",
+      "services": [
+        "ManyChat Flows",
+        "Google Sheets Integration",
+        "Payment Processing",
+        "SMS / Email Notifications"
+      ],
+      "live_url": "#",
+      "portfolio_url": "/projects/manychat-guestlist-automation/index.html",
+      "featured": false,
+      "card_size": "standard",
+      "header_image": "/assets/img/portfolio/manychat-guestlist-automation-card.png",
+      "technologies": ["ManyChat","Google Apps Script","Twilio"],
+      "project_date": "2022"
     }
   ],
   "portfolio_templates": {
