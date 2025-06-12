@@ -36,3 +36,15 @@ yarn-error.log*
 # Keep image generator files
 !assets/img/generator/
 !assets/img/uploads/
+# Don't commit virtual-envs, build artefacts, or archives
+venv/
+dist/
+assets/archives/**/*.zip
+node_modules/
+*.log
+
+# Ignore virtual environments, build outputs, and large archives
+venv/
+node_modules/
+dist/
+assets/archives/**/*.zip
