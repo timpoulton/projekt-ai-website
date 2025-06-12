@@ -7,6 +7,9 @@ echo "🚀 Deploying Projekt AI Portfolio..."
 
 # Add generated files to git
 git add club77-content-pipeline.html
+git add upwork-proposal-automation.html
+git add dj-recording-manager.html
+git add manychat-guestlist-automation.html
 git add index.html
 git add portfolio-config.json
 
@@ -23,3 +26,6 @@ git push
 echo "✅ Portfolio deployed to: https://projekt-ai.net"
 echo "📋 Portfolio pages:"
 echo "   - https://projekt-ai.net/club77-content-pipeline.html"
+echo "   - https://projekt-ai.net/upwork-proposal-automation.html"
+echo "   - https://projekt-ai.net/dj-recording-manager.html"
+echo "   - https://projekt-ai.net/manychat-guestlist-automation.html"
