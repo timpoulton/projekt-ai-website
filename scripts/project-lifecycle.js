@@ -194,10 +194,12 @@ Created: ${new Date().toLocaleDateString()}
         if (!project.approach || project.approach.length < 50) {
             issues.push('❌ Approach section too short or missing');
         }
-        if (project.process_steps.length < 3) {
+        const proc = project.process_steps || [];
+        const high = project.highlights || [];
+        if (proc.length < 3) {
             issues.push('❌ Need at least 3 process steps');
         }
-        if (project.highlights.length < 2) {
+        if (high.length < 2) {
             issues.push('❌ Need at least 2 highlights');
         }
         if (!project.header_image) {
@@ -208,7 +210,8 @@ Created: ${new Date().toLocaleDateString()}
         if (project.description.length < 120 || project.description.length > 160) {
             issues.push('⚠️ Description should be 120-160 characters for SEO');
         }
-        if (project.technologies.length === 0) {
+        const tech = project.technologies || [];
+        if (tech.length === 0) {
             issues.push('❌ No technologies listed');
         }
 
@@ -232,13 +235,13 @@ ${issues.map(issue => `- ${issue}`).join('\n')}
 ### Content Statistics:
 - Challenge: ${project.challenge.length} characters
 - Approach: ${project.approach.length} characters  
-- Process Steps: ${project.process_steps.length}
-- Highlights: ${project.highlights.length}
-- Technologies: ${project.technologies.length}
+- Process Steps: ${proc.length}
+- Highlights: ${high.length}
+- Technologies: ${tech.length}
 
 ### SEO Check:
 - Description Length: ${project.description.length} characters
-- Keywords: ${project.technologies.join(', ')}
+- Keywords: ${tech.join(', ')}
 - Header Image: ${project.header_image ? '✅' : '❌'}
 
 ### Next Steps:
