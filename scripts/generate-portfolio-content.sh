@@ -34,8 +34,17 @@ echo "   - $PROJECT_DIR/assets/img/uploads/${PROJECT_NAME,,}-workflow.png"
 echo "   - $PROJECT_DIR/assets/img/uploads/${PROJECT_NAME,,}-result.png"
 echo "   - $PROJECT_DIR/assets/img/projects/${PROJECT_NAME,,}-thumb.jpg"
 
-# Create HTML file from template
-cp "$PROJECT_DIR/projects/template.html" "$PROJECT_DIR/projects/$PROJECT_NAME/index.html"
+# Create HTML file from the new template location
+NEW_TEMPLATE_HTML="$PROJECT_DIR/project-template.html"
+
+# Fallback check in case the template cannot be found
+if [[ ! -f "$NEW_TEMPLATE_HTML" ]]; then
+    echo "❌ New portfolio template not found at $NEW_TEMPLATE_HTML"
+    exit 1
+fi
+
+# Copy the new template to the project directory
+cp "$NEW_TEMPLATE_HTML" "$PROJECT_DIR/projects/$PROJECT_NAME/index.html"
 
 echo "✅ HTML template created at: $PROJECT_DIR/projects/$PROJECT_NAME/index.html"
 echo ""

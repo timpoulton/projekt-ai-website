@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManyChat Guestlist Automation - Projekt AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* PORTFOLIO PROJECT TEMPLATE - EXTRA MEDIUM INSPIRED */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 60px;
+        }
+
+        /* Header - Consistent with main site */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: 40px 0;
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 500;
+            color: #333;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 48px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #333;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #1dd1a1;
+        }
+
+        .back-link {
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #1dd1a1;
+        }
+
+        /* Hero Section */
+        .project-hero {
+            padding: 180px 0 120px;
+            background: #f9f9f9;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 120px;
+            align-items: start;
+        }
+
+        .hero-left h1 {
+            font-size: clamp(48px, 6vw, 72px);
+            font-weight: 400;
+            line-height: 1.1;
+            color: #333;
+            margin-bottom: 24px;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-left .subtitle {
+            font-size: 20px;
+            color: #666;
+            font-weight: 400;
+            margin-bottom: 48px;
+        }
+
+        .collaboration {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .collaboration span {
+            font-size: 14px;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .collaboration .client {
+            font-size: 16px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .hero-right .services {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+        }
+
+        .services h3 {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #999;
+            margin-bottom: 24px;
+        }
+
+        .services ul {
+            list-style: none;
+        }
+
+        .services li {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 12px;
+            font-weight: 400;
+        }
+
+        .live-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #1dd1a1;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 32px;
+            transition: all 0.3s ease;
+        }
+
+        .live-link:hover {
+            transform: translateX(4px);
+        }
+
+        /* Project Image */
+        .project-image {
+            padding: 80px 0;
+        }
+
+        .project-image img {
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 8px 48px rgba(0,0,0,0.12);
+        }
+
+        /* Overview Section */
+        .overview-section {
+            padding: 120px 0;
+            background: #f9f9f9;
+        }
+
+        .section-header {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 120px;
+            margin-bottom: 80px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #999;
+        }
+
+        .overview-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+        }
+
+        .overview-content h3 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 24px;
+        }
+
+        .overview-content p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* Process Section */
+        .process-section {
+            padding: 120px 0;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 48px;
+            margin-top: 80px;
+        }
+
+        .process-item {
+            padding: 40px;
+            background: #f9f9f9;
+            border-radius: 16px;
+        }
+
+        .process-number {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1dd1a1;
+            margin-bottom: 16px;
+        }
+
+        .process-item h4 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 16px;
+        }
+
+        .process-item p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* Highlights Section */
+        .highlights-section {
+            padding: 120px 0;
+            background: #f9f9f9;
+        }
+
+        .highlight-item {
+            margin-bottom: 80px;
+            padding-bottom: 80px;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .highlight-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .highlight-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 80px;
+            align-items: start;
+        }
+
+        .highlight-content h3 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 24px;
+        }
+
+        .highlight-content p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* Related Projects Section */
+        .related-section {
+            padding: 120px 0;
+        }
+
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-top: 80px;
+        }
+
+        .related-card {
+            background: #f9f9f9;
+            border-radius: 16px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .related-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .related-card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+        }
+
+        .related-card-content {
+            padding: 32px;
+        }
+
+        .related-card h4 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .related-card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        .related-card .view-link {
+            font-size: 14px;
+            color: #1dd1a1;
+            font-weight: 500;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: #1a1a1a;
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: clamp(36px, 5vw, 56px);
+            font-weight: 400;
+            line-height: 1.2;
+            color: #fff;
+            margin-bottom: 48px;
+            letter-spacing: -0.02em;
+        }
+
+        .contact-section p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 640px;
+            margin: 0 auto 48px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 32px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            background: transparent;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background: rgba(29, 209, 161, 0.1);
+            border-color: #1dd1a1;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a1a;
+            padding: 60px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 32px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #1dd1a1;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 24px;
+            }
+
+            .hero-content,
+            .section-header,
+            .overview-content,
+            .highlight-content {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .related-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .project-hero {
+                padding: 140px 0 80px;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="container">
+        <a href="index.html" class="logo">Projekt AI®</a>
+        <ul class="nav-links">
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <a href="index.html#work" class="back-link">← Back to Work</a>
+    </nav>
+</header>
+
+<!-- Project Hero -->
+<section class="project-hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="collaboration">
+                    <span>In collaboration with</span>
+                    <div class="client">Sydney Nightclub</div>
+                </div>
+                
+                <h1>ManyChat Guestlist Automation</h1>
+                <p class="subtitle">Automated guest list, ticketing & messaging system leveraging ManyChat and Google Sheets</p>
+                
+                <!-- No public live link available -->
+            </div>
+            
+            <div class="hero-right">
+                <div class="services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Chatbot Automation</li>
+                        <li>API Integration</li>
+                        <li>Guestlist Management</li>
+                        <li>Data Sync & Analytics</li>
+                        <li>Automated Messaging</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Image -->
+<section class="project-image">
+    <div class="container">
+        <img src="../../assets/img/uploads/manychat-workflow.png" alt="ManyChat Guestlist Automation Workflow" />
+    </div>
+</section>
+
+<!-- Overview Section -->
+<section class="overview-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-title">Overview</div>
+            <div></div>
+        </div>
+        
+        <div class="overview-content">
+            <div>
+                <h3>Challenge</h3>
+                <p>Managing nightly guest lists, ticketing, and last-minute changes was entirely manual, error-prone, and slow. Staff juggled spreadsheets, SMS threads, and club management software—all while doors were opening.</p>
+            </div>
+            <div>
+                <h3>Approach</h3>
+                <p>We designed a ManyChat-driven workflow that pulls event data from the booking API, collects guest details in Messenger, synchronises everything to Google Sheets, and issues dynamic QR tickets via Twilio—all without human intervention.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Process Section -->
+<section class="process-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-title">Process</div>
+            <div></div>
+        </div>
+        
+        <div class="process-grid">
+            <div class="process-item">
+                <div class="process-number">01</div>
+                <h4>Discovery & Requirements</h4>
+                <p>Interviewed venue staff, mapped existing processes, and defined automation success metrics.</p>
+            </div>
+            <div class="process-item">
+                <div class="process-number">02</div>
+                <h4>Chatbot Architecture</h4>
+                <p>Built a modular ManyChat flow handling guest sign-up, ticket issuance, and status updates.</p>
+            </div>
+            <div class="process-item">
+                <div class="process-number">03</div>
+                <h4>API Integration</h4>
+                <p>Connected booking software and Google Sheets via Apps Script, ensuring real-time data sync.</p>
+            </div>
+            <div class="process-item">
+                <div class="process-number">04</div>
+                <h4>Testing & Launch</h4>
+                <p>Executed test runs during off-peak nights, iterated on feedback, and rolled out to live events.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Highlights -->
+<section class="highlights-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-title">Project Highlights</div>
+            <div></div>
+        </div>
+        
+        <div class="highlight-item">
+            <div class="highlight-content">
+                <h3>85% Less Manual Work</h3>
+                <p>Door staff shifted focus from spreadsheets to service as guest check-ins became automatic.</p>
+            </div>
+        </div>
+        
+        <div class="highlight-item">
+            <div class="highlight-content">
+                <h3>Patron Rating System</h3>
+                <p>Automated point system ranks guests based on engagement, enabling VIP targeting.</p>
+            </div>
+        </div>
+        
+        <div class="highlight-item">
+            <div class="highlight-content">
+                <h3>Revenue Uplift &#x2191;</h3>
+                <p>Improved repeat-visit rates by 23% through timely post-event marketing sequences.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Related Projects -->
+<section class="related-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-title">Related Projects</div>
+            <h2>More work from passionate projects</h2>
+        </div>
+        
+        <div class="related-grid">
+            <a href="../dj-recording-manager/index.html" class="related-card">
+                <img src="../../assets/img/uploads/recording-manager-thumb.jpg" alt="DJ Recording Manager" />
+                <div class="related-card-content">
+                    <h4>DJ Recording Manager</h4>
+                    <p>Web App Automation</p>
+                    <span class="view-link">View Case Study</span>
+                </div>
+            </a>
+            
+            <a href="../club77-content-pipeline/index.html" class="related-card">
+                <img src="../../assets/img/uploads/club77-thumb.jpg" alt="Club77 Content Pipeline" />
+                <div class="related-card-content">
+                    <h4>Club77 Content Pipeline</h4>
+                    <p>AI Content Automation</p>
+                    <span class="view-link">View Case Study</span>
+                </div>
+            </a>
+            
+            <a href="../upwork_proposal_automation/index.html" class="related-card">
+                <img src="../../assets/img/uploads/upwork-thumb.jpg" alt="Upwork Proposal Automation" />
+                <div class="related-card-content">
+                    <h4>Upwork Proposal Automation</h4>
+                    <p>AI Copy Automation</p>
+                    <span class="view-link">View Case Study</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section">
+    <div class="container">
+        <h2>Ready to start your next project?</h2>
+        <p>Whether you know a little or a lot about your next automation project, want to collaborate, or have questions about my services - let's chat.</p>
+        <a href="mailto:tim@projekt-ai.net" class="button">Contact me</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p><strong>Timothy Poulton - Projekt AI®</strong> | PROJEKT AI © 2025</p>
+            <div class="footer-links">
+                <a href="index.html#work">Work</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html> 
