@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio Generator | Projekt AI Admin</title>
+  <link rel="stylesheet" href="../assets/css/admin.css">
+  <style>
+    body{font-family:Inter,Arial,sans-serif;max-width:900px;margin:60px auto;padding:20px}
+    label{display:block;margin:12px 0;font-weight:500}
+    input,textarea{width:100%;padding:8px;border:1px solid #ccc;border-radius:4px}
+    textarea{min-height:90px}
+    button{margin-top:20px;padding:10px 24px;border:none;background:#1dd1a1;color:#fff;border-radius:4px;cursor:pointer}
+    button:disabled{opacity:.5;cursor:not-allowed}
+    pre{background:#f9f9f9;padding:12px;border-radius:6px;white-space:pre-wrap}
+  </style>
+</head>
+<body>
+  <h1>New Portfolio Entry</h1>
+  <form id="pf">
+    <label>Title <input name="title" required></label>
+    <label>Client <input name="client"></label>
+    <label>Overview / Description <textarea name="description" required></textarea></label>
+    <label>Services (comma-separated) <input name="services"></label>
+    <label>Process steps (JSON array) <textarea name="process_steps">[
+  {"number":"01","title":"Discovery","description":""},
+  {"number":"02","title":"Build","description":""}
+]</textarea></label>
+    <label>Highlights (JSON array) <textarea name="highlights">[
+  {"title":"90% time saved","description":""}
+]</textarea></label>
+    <label>Header image URL / path <input name="header_image"></label>
+    <button type="submit">Generate Page via AI</button>
+  </form>
+  <pre id="out"></pre>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  const out=document.getElementById('out');
+  document.getElementById('pf').onsubmit=async e=>{
+    e.preventDefault();
+    out.textContent='⏳ sending to AI…';
+    const d=Object.fromEntries(new FormData(e.target).entries());
+    d.services=(d.services||'').split(',').map(s=>s.trim()).filter(Boolean);
+    try{
+      d.process_steps=JSON.parse(d.process_steps||'[]');
+      d.highlights=JSON.parse(d.highlights||'[]');
+    }catch(err){out.textContent='❌ Invalid JSON in steps/highlights';return;}
+    try{
+      const r=await axios.post('/api/portfolio/ai',d);
+      if(r.data.ok){out.textContent=`✅ Generated ${r.data.file}`;}
+      else{out.textContent='❌ '+r.data.error;}
+    }catch(err){out.textContent='❌ '+err.message;}
+  };
+</script>
+</body>
+</html> 
