@@ -1,0 +1,107 @@
+/* Dark Theme Portfolio Styles - extracted from Together Agency proposal template */
+/* Base Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: #1a1a1a;
+    overflow-x: hidden;
+}
+/* Container */
+.container { max-width: 1400px; margin: 0 auto; padding: 0 60px; }
+/* Header */
+header {
+    position: fixed; top: 0; left: 0; right: 0;
+    background: rgba(26, 26, 26, 0.95);
+    backdrop-filter: blur(20px);
+    z-index: 1000; padding: 40px 0; transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+nav { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 20px; font-weight: 500; color: #fff; text-decoration: none; letter-spacing: 0.02em; }
+/* Navigation links still used on other pages */
+.nav-links{display:flex;gap:48px;list-style:none}
+.nav-links a{color:#fff;text-decoration:none;font-size:16px;font-weight:400;transition:color .3s ease}
+.nav-links a:hover{color:#1dd1a1}
+.back-link{color:#b0b0b0;text-decoration:none;font-size:14px;display:flex;align-items:center;gap:8px;transition:color .3s ease}
+.back-link:hover{color:#1dd1a1}
+/* Main content spacer */
+main{margin-top:120px}
+/* Hero */
+.hero{background:#1a1a1a;padding:140px 0}
+.hero-content{display:grid;grid-template-columns:2fr 1fr;gap:120px;align-items:start}
+.hero-left{text-align:right}
+.client-name{font-size:16px;color:#b0b0b0;font-weight:500;margin-bottom:24px;text-transform:uppercase;letter-spacing:.12em}
+.hero-left h1{font-size:clamp(48px,6vw,72px);font-weight:400;line-height:1.1;color:#fff;margin-bottom:32px;letter-spacing:-0.02em}
+.hero-left .subtitle{font-size:17px;color:rgba(255,255,255,0.8);font-weight:400;margin-bottom:48px;line-height:1.6}
+.hero-right{text-align:left}
+.services{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:40px;backdrop-filter:blur(20px)}
+.services h3{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,0.6);margin-bottom:32px}
+.services ul{list-style:none}
+.services li{font-size:16px;color:#fff;margin-bottom:16px;font-weight:400}
+/* Project Image */
+.project-image{padding:80px 0}
+.project-image img{width:100%;border-radius:16px;box-shadow:0 8px 48px rgba(0,0,0,0.4)}
+/* Section Header shared */
+.section-header{display:grid;grid-template-columns:1fr 2fr;gap:120px;margin-bottom:100px}
+.section-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,0.6)}
+/* Workflow Section (not used yet but available) */
+.workflow-section{padding:140px 0;background:#111}
+.workflow-title{text-align:center;margin-bottom:80px}
+.workflow-title h3{font-size:32px;font-weight:500;color:#fff;margin-bottom:16px;letter-spacing:-0.01em}
+.workflow-title p{font-size:18px;color:rgba(255,255,255,0.7);font-weight:400}
+.workflow-steps{display:flex;align-items:center;justify-content:space-between;margin-bottom:80px;flex-wrap:wrap;gap:24px}
+.workflow-step{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:32px 24px;text-align:center;flex:1;min-width:200px;backdrop-filter:blur(20px);transition:all .3s ease}
+.workflow-step:hover{background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.2);transform:translateY(-4px)}
+.step-icon{font-size:32px;margin-bottom:16px;display:block}
+.step-content h4{font-size:18px;font-weight:500;color:#fff;margin-bottom:8px}
+.step-content p{font-size:14px;color:rgba(255,255,255,0.7);line-height:1.4}
+.workflow-arrow{font-size:24px;color:rgba(255,255,255,0.5);font-weight:300;margin:0 16px}
+.workflow-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:48px;text-align:center}
+.stat-number{font-size:48px;font-weight:600;color:#1dd1a1;margin-bottom:8px;letter-spacing:-0.02em}
+.stat-label{font-size:16px;color:rgba(255,255,255,0.8);font-weight:400}
+/* Overview */
+.overview-section{padding:140px 0;background:#111}
+.overview-content{display:grid;grid-template-columns:1fr 1fr;gap:120px}
+.overview-content h3{font-size:20px;font-weight:500;color:#fff;margin-bottom:24px}
+.overview-content p{font-size:17px;line-height:1.6;color:rgba(255,255,255,0.8)}
+/* Process */
+.process-section{padding:140px 0;background:#1a1a1a}
+.process-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px 120px}
+.process-item{}
+.process-number{font-size:14px;font-weight:600;color:rgba(255,255,255,0.6);margin-bottom:24px;letter-spacing:.12em}
+.process-item h4{font-size:20px;font-weight:500;color:#fff;margin-bottom:16px;line-height:1.3}
+.process-item p{font-size:17px;line-height:1.6;color:rgba(255,255,255,0.8)}
+/* Highlights section (retain but dark) */
+.highlights-section{padding:140px 0;background:#111}
+.highlight-item{margin-bottom:80px;padding-bottom:80px;border-bottom:1px solid rgba(255,255,255,0.1)}
+.highlight-item:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.highlight-content{display:grid;grid-template-columns:1fr 2fr;gap:80px;align-items:start}
+.highlight-content h3{font-size:24px;font-weight:500;color:#fff;margin-bottom:24px}
+.highlight-content p{font-size:16px;line-height:1.6;color:rgba(255,255,255,0.8)}
+/* Related */
+.related-section{padding:140px 0}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:32px;margin-top:80px}
+.related-card{background:#111;border-radius:16px;overflow:hidden;transition:transform .3s ease;text-decoration:none;color:inherit}
+.related-card:hover{transform:translateY(-8px)}
+.related-card img{width:100%;height:240px;object-fit:cover}
+.related-card-content{padding:32px}
+.related-card h4{font-size:18px;font-weight:500;color:#fff;margin-bottom:8px}
+.related-card p{font-size:14px;color:rgba(255,255,255,0.8);margin-bottom:16px}
+.related-card .view-link{font-size:14px;color:#1dd1a1;font-weight:500}
+/* Contact */
+.contact-section{background:#1a1a1a;padding:120px 0;text-align:center}
+.contact-section h2{font-size:clamp(36px,5vw,56px);font-weight:400;line-height:1.2;color:#fff;margin-bottom:48px;letter-spacing:-0.02em}
+.contact-section p{font-size:18px;line-height:1.6;color:rgba(255,255,255,0.8);max-width:640px;margin:0 auto 48px}
+.button{display:inline-flex;align-items:center;gap:12px;padding:16px 32px;border:1px solid rgba(255,255,255,0.3);border-radius:50px;background:transparent;color:#fff;text-decoration:none;font-size:16px;font-weight:400;transition:all .3s ease}
+.button:hover{background:rgba(29,209,161,0.1);border-color:#1dd1a1;transform:translateY(-2px)}
+/* Footer */
+.footer{background:#1a1a1a;padding:60px 0;border-top:1px solid rgba(255,255,255,0.1)}
+.footer-content{display:flex;justify-content:space-between;align-items:center}
+.footer p{color:rgba(255,255,255,0.6);font-size:14px}
+.footer-links{display:flex;gap:32px}
+.footer-links a{color:rgba(255,255,255,0.6);text-decoration:none;font-size:14px;transition:color .3s ease}
+.footer-links a:hover{color:#1dd1a1}
+/* Responsive */
+@media(max-width:768px){.container{padding:0 30px}.hero-content{grid-template-columns:1fr;gap:60px}.section-header{grid-template-columns:1fr;gap:40px}.overview-content{grid-template-columns:1fr;gap:60px}.process-grid{grid-template-columns:1fr;gap:60px}.workflow-steps{flex-direction:column}.workflow-stats{grid-template-columns:1fr;gap:32px}.related-grid{grid-template-columns:1fr}.footer-content{flex-direction:column;gap:24px;text-align:center}} 
