@@ -6,46 +6,35 @@
   "scripts": {
     "start": "npx serve dist",
     "dev": "npm run start",
-    
     "build": "npm run build:prod",
     "build:dev": "npm run clean:dist && npm run portfolio:generate && npm run quality:check && npm run copy:dist",
     "build:prod": "npm run clean:dist && npm run portfolio:generate && npm run quality:validate-all && npm run seo:generate-sitemap && npm run copy:dist",
     "build:preview": "npm run clean:dist && npm run portfolio:generate && npm run quality:check && npm run copy:dist",
     "build:branch": "npm run clean:dist && npm run portfolio:generate && npm run quality:check && npm run copy:dist",
-    
     "clean:dist": "rm -rf dist && mkdir -p dist",
     "copy:dist": "cp -r *.html dist/ && cp -r assets dist/ && cp -r admin-dashboard dist/ && cp -r sitemap.xml dist/ && echo '✅ Files copied to dist directory'",
-    
     "portfolio:generate": "node scripts/portfolio-generator.js generate",
     "portfolio:deploy": "node scripts/portfolio-generator.js deploy",
     "portfolio:update-main": "node scripts/portfolio-generator.js update-main",
-    
     "project:list": "node scripts/project-lifecycle.js list",
     "project:develop": "node scripts/project-lifecycle.js develop",
     "project:build": "node scripts/project-lifecycle.js build",
-    "project:review": "node scripts/project-lifecycle.js review", 
+    "project:review": "node scripts/project-lifecycle.js review",
     "project:deploy": "node scripts/project-lifecycle.js deploy",
     "project:archive": "node scripts/project-lifecycle.js archive",
-    
     "staging:preview": "npx serve dist/staging",
     "staging:build-all": "npm run portfolio:generate && echo '✅ All staging versions built'",
-    
     "deploy:full": "npm run portfolio:generate && git add . && git commit -m 'Full portfolio deployment' && git push",
     "deploy:backup": "cp -r . ../backup-$(date +%Y%m%d-%H%M%S) && echo '💾 Backup created before deployment'",
     "deploy:safe": "npm run deploy:backup && npm run deploy:full",
-    
     "quality:check": "echo '🔍 Running quality checks...' && npm run project:review",
     "quality:validate-all": "node -e \"const mgr = require('./scripts/project-lifecycle.js'); const manager = new mgr(); manager.config.portfolio_projects.forEach(p => manager.reviewProject(p.id));\"",
-    
     "seo:check": "echo '🔍 SEO validation...' && node -e \"const config = require('./portfolio-config.json'); config.portfolio_projects.forEach(p => console.log(p.title + ': ' + p.description.length + ' chars'));\"",
     "seo:generate-sitemap": "node -e \"const config = require('./portfolio-config.json'); const urls = config.portfolio_projects.filter(p => p.status === 'live').map(p => config.portfolio_system.base_url + p.portfolio_url); console.log('<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\n<urlset xmlns=\\\"http://www.sitemaps.org/schemas/sitemap/0.9\\\">'); urls.forEach(url => console.log('  <url><loc>' + url + '</loc></url>')); console.log('</urlset>');\" > sitemap.xml",
-    
     "maintenance:clean": "rm -rf staging/* && rm -rf temp/* && echo '🧹 Cleaned temporary files'",
     "maintenance:backup-config": "cp portfolio-config.json backups/portfolio-config-$(date +%Y%m%d-%H%M%S).json",
     "maintenance:validate-config": "node -e \"try { JSON.parse(require('fs').readFileSync('portfolio-config.json', 'utf8')); console.log('✅ Configuration valid'); } catch(e) { console.error('❌ Configuration invalid:', e.message); process.exit(1); }\"",
-    
     "analytics:generate-report": "node -e \"const config = require('./portfolio-config.json'); const live = config.portfolio_projects.filter(p => p.status === 'live'); console.log('📊 Portfolio Analytics:\\n'); console.log('Live Projects:', live.length); console.log('Total Projects:', config.portfolio_projects.length); console.log('Categories:', [...new Set(config.portfolio_projects.map(p => p.category))].join(', '));\"",
-    
     "help": "echo '\n🎯 PROJEKT AI PORTFOLIO SYSTEM\n\n📋 Portfolio Management:\n  npm run portfolio:generate    # Generate all portfolio pages\n  npm run portfolio:deploy      # Deploy to production\n  npm run portfolio:update-main # Update main page only\n\n🔧 Project Lifecycle:\n  npm run project:list          # List all projects\n  npm run project:develop <id>  # Enter development mode\n  npm run project:build <id>    # Build staging version\n  npm run project:review <id>   # Quality review\n  npm run project:deploy <id>   # Deploy specific project\n\n🚀 Quick Commands:\n  npm start                     # Start local server\n  npm run deploy:safe           # Safe deployment with backup\n  npm run quality:validate-all  # Check all projects\n  npm run help                  # Show this help\n'"
   },
   "keywords": [
@@ -59,18 +48,27 @@
   "license": "Private",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timpoulton/projekt-ai-website.git"
+    "url": "git+https://github.com/timpoulton/projekt-ai-website.git"
   },
   "engines": {
     "node": "18.17.0",
     "npm": "9.6.7"
   },
   "dependencies": {
-    "serve": "^14.2.1",
+    "body-parser": "^2.2.0",
+    "child_process": "^1.0.2",
+    "express": "^5.1.0",
     "fs-extra": "^11.2.0",
     "glob": "^10.3.10",
     "path": "^0.12.7",
-    "child_process": "^1.0.2"
+    "serve": "^14.2.1"
   },
-  "homepage": "https://projekt-ai.net"
-} 
+  "homepage": "https://projekt-ai.net",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/timpoulton/projekt-ai-website/issues"
+  }
+}

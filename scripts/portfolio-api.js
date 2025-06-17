@@ -41,6 +41,9 @@ function mergeAIJson(aiJsonPath){
 const app = express();
 app.use(bodyParser.json({limit:'2mb'}));
 
+// Serve static files so that /admin-dashboard/portfolio-generator.html and others work in development
+app.use(express.static(REPO_ROOT));
+
 app.post('/api/portfolio/ai', (req,res)=>{
   const { title, description, client, services, process_steps, highlights, header_image } = req.body;
   if(!title||!description){return res.status(400).json({ok:false,error:'title and description required'});}  

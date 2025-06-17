@@ -3,29 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ManyChat Guestlist Automation | Projekt AI</title>
+    <title>{{TITLE}} | Projekt AI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Shared dark CSS -->
     <link rel="stylesheet" href="assets/css/portfolio-dark.css">
-    
-    <meta name="description" content="Chatbot-driven system for automated guest list management, ticketing, and messaging built on ManyChat and Google Sheets.">
-    <meta name="keywords" content="ManyChat, Google Apps Script, Twilio, automation, AI, hospitality, nightlife, content generation">
-    <meta name="author" content="Timothy Poulton - Projekt AI">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="ManyChat Guestlist Automation - Projekt AI">
-    <meta property="og:description" content="Chatbot-driven system for automated guest list management, ticketing, and messaging built on ManyChat and Google Sheets.">
-    <meta property="og:image" content="https://projekt-ai.net//assets/img/portfolio/manychat-guestlist-automation-card.png">
-    <meta property="og:url" content="https://projekt-ai.net/projects/manychat-guestlist-automation/index.html">
-    <meta property="og:type" content="website">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ManyChat Guestlist Automation - Projekt AI">
-    <meta name="twitter:description" content="Chatbot-driven system for automated guest list management, ticketing, and messaging built on ManyChat and Google Sheets.">
-    <meta name="twitter:image" content="https://projekt-ai.net//assets/img/portfolio/manychat-guestlist-automation-card.png">
 </head>
 <body>
 <!-- Header (homepage slide-menu identical) -->
@@ -48,18 +31,15 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-left">
-                    <div class="client-name">Various Nightclubs</div>
-                    <h1>ManyChat Guestlist Automation</h1>
-                    <p class="subtitle">Chatbot-driven system for automated guest list management, ticketing, and messaging built on ManyChat and Google Sheets.</p>
+                    <div class="client-name">{{CLIENT}}</div>
+                    <h1>{{TITLE}}</h1>
+                    <p class="subtitle">{{DESCRIPTION}}</p>
                 </div>
                 <div class="hero-right">
                     <div class="services">
                         <h3>Services</h3>
                         <ul>
-                            <li>ManyChat Flows</li>
-                        <li>Google Sheets Integration</li>
-                        <li>Payment Processing</li>
-                        <li>SMS / Email Notifications</li>
+                            {{SERVICES_LIST}}
                         </ul>
                     </div>
                 </div>
@@ -68,16 +48,15 @@
     </section>
 
     <!-- Header image / optional -->
-    
-        <section class="project-image"><div class="container"><img src="/assets/img/portfolio/manychat-guestlist-automation-card.png" alt="ManyChat Guestlist Automation header image"/></div></section>
+    {{HEADER_IMAGE_SECTION}}
 
     <!-- Overview Section -->
     <section class="overview-section">
         <div class="container">
             <div class="section-header"><div class="section-title">Overview</div><div></div></div>
             <div class="overview-content">
-                <div><h3>Challenge</h3><p>undefined</p></div>
-                <div><h3>Approach</h3><p>undefined</p></div>
+                <div><h3>Challenge</h3><p>{{CHALLENGE}}</p></div>
+                <div><h3>Approach</h3><p>{{APPROACH}}</p></div>
             </div>
         </div>
     </section>
@@ -86,12 +65,12 @@
     <section class="process-section">
         <div class="container">
             <div class="section-header"><div class="section-title">Process</div><div></div></div>
-            <div class="process-grid"></div>
+            <div class="process-grid">{{PROCESS_STEPS}}</div>
         </div>
     </section>
 
     <!-- Highlights Section -->
-    <section class="highlights-section"><div class="container"><div class="section-header"><div class="section-title">Highlights</div><div></div></div></div></section>
+    <section class="highlights-section"><div class="container"><div class="section-header"><div class="section-title">Highlights</div><div></div></div>{{HIGHLIGHTS}}</div></section>
 </main>
 
 <!-- Footer -->

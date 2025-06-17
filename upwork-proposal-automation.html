@@ -3,61 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club 77 Content Pipeline - AI Automation Case Study | Projekt AI</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="See how Club 77 automated their content creation process, saving 90% time and creating 6 pieces of content from one command. AI-powered content pipeline case study.">
-    <meta name="keywords" content="AI automation, content creation, social media automation, business automation, Club 77, content pipeline, GPT-4">
-    <meta name="author" content="Projekt AI">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Club 77 Content Pipeline - AI Automation Case Study">
-    <meta property="og:description" content="From 45 minutes to 5 minutes: How AI automation transformed Club 77's content creation process">
-    <meta property="og:image" content="assets/img/club77-automation-hero.png">
-    <meta property="og:url" content="https://projekt-ai.net/case-study-club77-content-pipeline.html">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="Projekt AI">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Club 77 Content Pipeline - AI Automation Case Study">
-    <meta name="twitter:description" content="90% time saved, 6 content pieces, 100% brand consistency - See the automation in action">
-    <meta name="twitter:image" content="assets/img/club77-automation-hero.png">
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/case-study.css">
+    <title>Upwork Proposal Automation | Projekt AI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Structured Data Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Club 77 Content Pipeline - AI Automation Case Study",
-        "description": "See how Club 77 automated their content creation process, saving 90% time and creating 6 pieces of content from one command.",
-        "image": "https://projekt-ai.net/assets/img/club77-automation-hero.png",
-        "author": {
-            "@type": "Organization",
-            "name": "Projekt AI"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Projekt AI",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://projekt-ai.net/assets/img/logo.png"
-            }
-        },
-        "datePublished": "2024-01-01",
-        "dateModified": "2024-01-01",
-        "articleSection": "Case Studies",
-        "keywords": "AI automation, content creation, social media automation, business automation, Club 77, content pipeline, GPT-4"
-    }
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Shared dark CSS -->
+    <link rel="stylesheet" href="assets/css/portfolio-dark.css">
     
     <meta name="description" content="End-to-end system that generates, personalises, and dispatches Upwork proposals automatically, boosting win rate and saving hours of manual work.">
     <meta name="keywords" content="OpenAI GPT, Puppeteer, n8n, Zapier, automation, AI, hospitality, nightlife, content generation">
@@ -77,549 +28,76 @@
     <meta name="twitter:image" content="https://projekt-ai.net//assets/img/portfolio/upwork-proposal-automation-card.png">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Projekt<span>AI</span></div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#services">Services</a></li>
-                <li><a href="index.html#workflow">Workflows</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-            <div class="nav-buttons">
-                <a href="#get-blueprint" class="btn btn-primary">Get Blueprint</a>
-            </div>
-        </nav>
-    </header>
+<!-- Header (homepage slide-menu identical) -->
+<header>
+    <nav class="container">
+        <a href="/" class="logo">Projekt AI®</a>
+        <button class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></button>
+    </nav>
+</header>
+<div class="menu-overlay" id="menuOverlay"></div>
+<div class="slide-menu" id="slideMenu">
+    <div class="menu-header"><div class="menu-logo">Projekt AI®</div><button class="close-btn" id="closeMenu">✕</button></div>
+    <nav class="menu-nav"><ul><li><a href="/index.html#work">Work</a></li><li><a href="/index.html#about">About</a></li><li><a href="/index.html#contact">Contact</a></li></ul></nav>
+    <div class="menu-footer"></div>
+</div>
 
-    <section id="case-study-hero">
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="container">
-            <div class="case-study-header">
-                <div class="back-link">
-                    <a href="index.html#workflow"><i class="fas fa-arrow-left"></i> Back to Workflows</a>
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="client-name">Internal Project</div>
+                    <h1>Upwork Proposal Automation</h1>
+                    <p class="subtitle">End-to-end system that generates, personalises, and dispatches Upwork proposals automatically, boosting win rate and saving hours of manual work.</p>
                 </div>
-                <div class="case-study-content">
-                    <div class="case-study-info">
-                        <div class="case-study-category">
-                            <span class="category-tag">Content Automation</span>
-                            <span class="industry-tag">Nightlife & Entertainment</span>
-                        </div>
-                        <h1>AI-Powered Content Publishing Pipeline</h1>
-                        <p class="case-study-subtitle">From news article to multi-platform branded content in under 5 minutes. One Telegram command creates 6 pieces of content across blog, social media, and visual assets.</p>
-                        
-                        <div class="results-preview">
-                            <div class="result-stat">
-                                <span class="stat-number">90%</span>
-                                <span class="stat-label">Time Saved</span>
-                            </div>
-                            <div class="result-stat">
-                                <span class="stat-number">6</span>
-                                <span class="stat-label">Content Pieces</span>
-                            </div>
-                            <div class="result-stat">
-                                <span class="stat-number">3</span>
-                                <span class="stat-label">Platforms</span>
-                            </div>
-                            <div class="result-stat">
-                                <span class="stat-number">100%</span>
-                                <span class="stat-label">Brand Consistency</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="case-study-visual">
-                        <div class="workflow-preview-large">
-                            <img src="assets/img/club77-automation-hero.png" alt="Club 77 Content Pipeline Visualization" class="hero-workflow-image">
-                        </div>
+                <div class="hero-right">
+                    <div class="services">
+                        <h3>Services</h3>
+                        <ul>
+                            <li>OpenAI GPT Personalisation</li>
+                        <li>Chrome Automation</li>
+                        <li>Job Scraping</li>
+                        <li>Email / Chat Integrations</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="problem-solution">
+    <!-- Header image / optional -->
+    
+        <section class="project-image"><div class="container"><img src="/assets/img/portfolio/upwork-proposal-automation-card.png" alt="Upwork Proposal Automation header image"/></div></section>
+
+    <!-- Overview Section -->
+    <section class="overview-section">
         <div class="container">
-            <div class="problem-solution-grid">
-                <div class="problem-section">
-                    <div class="section-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </div>
-                    <h2>The Challenge</h2>
-                    <div class="challenge-points">
-                        <div class="challenge-point">
-                            <i class="fas fa-clock"></i>
-                            <div>
-                                <h4>Time-Intensive Process</h4>
-                                <p>Creating blog posts from news articles took 45+ minutes of manual work per piece</p>
-                            </div>
-                        </div>
-                        <div class="challenge-point">
-                            <i class="fas fa-copy"></i>
-                            <div>
-                                <h4>Inconsistent Brand Voice</h4>
-                                <p>Manual content creation led to varying tone and style across publications</p>
-                            </div>
-                        </div>
-                        <div class="challenge-point">
-                            <i class="fas fa-share-alt"></i>
-                            <div>
-                                <h4>Multi-Platform Publishing</h4>
-                                <p>Required separate manual processes for blog, Facebook, Instagram, and visual content</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="solution-section">
-                    <div class="section-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h2>The Solution</h2>
-                    <div class="solution-points">
-                        <div class="solution-point">
-                            <i class="fas fa-robot"></i>
-                            <div>
-                                <h4>AI-Powered Content Generation</h4>
-                                <p>Automated article rewriting in Club 77's specific tone and style using GPT-4</p>
-                            </div>
-                        </div>
-                        <div class="solution-point">
-                            <i class="fas fa-magic"></i>
-                            <div>
-                                <h4>One-Command Publishing</h4>
-                                <p>Single Telegram command triggers entire content creation and publishing pipeline</p>
-                            </div>
-                        </div>
-                        <div class="solution-point">
-                            <i class="fas fa-palette"></i>
-                            <div>
-                                <h4>Automated Visual Assets</h4>
-                                <p>AI-generated graphics and social media visuals with consistent branding</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="section-header"><div class="section-title">Overview</div><div></div></div>
+            <div class="overview-content">
+                <div><h3>Challenge</h3><p>undefined</p></div>
+                <div><h3>Approach</h3><p>undefined</p></div>
             </div>
         </div>
     </section>
 
-    <section id="workflow-breakdown">
+    <!-- Process Section -->
+    <section class="process-section">
         <div class="container">
-            <div class="section-header">
-                <h2>How It <span class="gradient-text">Works</span></h2>
-                <p class="section-subtitle">A detailed breakdown of the automation workflow showing each step from input to published content</p>
-            </div>
-            
-            <div class="workflow-steps">
-                <div class="workflow-step">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <div class="step-info">
-                            <h3>Telegram Input</h3>
-                            <p>User sends <code>/blogpost</code> command with article URL and 2 images via Telegram bot</p>
-                            <div class="step-details">
-                                <span class="detail-tag">Platform: Telegram</span>
-                                <span class="detail-tag">Input: URL + Images</span>
-                                <span class="detail-tag">Time: 30 seconds</span>
-                            </div>
-                        </div>
-                        <div class="step-visual">
-                            <div class="telegram-mockup">
-                                <div class="telegram-message">
-                                    <strong>/blogpost</strong><br>
-                                    🔗 News article URL<br>
-                                    📸 Image 1<br>
-                                    📸 Image 2
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="workflow-step">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <div class="step-info">
-                            <h3>Content Extraction</h3>
-                            <p>Apify web scraper extracts article content, cleans HTML, and structures data for AI processing</p>
-                            <div class="step-details">
-                                <span class="detail-tag">Tool: Apify</span>
-                                <span class="detail-tag">Process: Web Scraping</span>
-                                <span class="detail-tag">Time: 15 seconds</span>
-                            </div>
-                        </div>
-                        <div class="step-visual">
-                            <div class="extraction-visual">
-                                <i class="fas fa-globe"></i>
-                                <i class="fas fa-arrow-right"></i>
-                                <i class="fas fa-file-text"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="workflow-step">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <div class="step-info">
-                            <h3>AI Content Generation</h3>
-                            <p>Multiple GPT-4 calls rewrite content in Club 77's voice, create titles, summaries, and key points</p>
-                            <div class="step-details">
-                                <span class="detail-tag">AI: GPT-4 & GPT-4-mini</span>
-                                <span class="detail-tag">Tasks: 5 AI Operations</span>
-                                <span class="detail-tag">Time: 45 seconds</span>
-                            </div>
-                        </div>
-                        <div class="step-visual">
-                            <div class="ai-process">
-                                <div class="ai-task">Title Rewrite</div>
-                                <div class="ai-task">Article Rewrite</div>
-                                <div class="ai-task">Summary Creation</div>
-                                <div class="ai-task">Key Points</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="workflow-step">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <div class="step-info">
-                            <h3>Visual Content Creation</h3>
-                            <p>Creatomate generates 3 branded graphics for social media with dynamic text and images</p>
-                            <div class="step-details">
-                                <span class="detail-tag">Tool: Creatomate</span>
-                                <span class="detail-tag">Output: 3 Graphics</span>
-                                <span class="detail-tag">Time: 30 seconds</span>
-                            </div>
-                        </div>
-                        <div class="step-visual">
-                            <div class="visual-creation">
-                                <div class="graphic-template">📱 Title Card</div>
-                                <div class="graphic-template">📄 Info Slide</div>
-                                <div class="graphic-template">📋 Key Points</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="workflow-step">
-                    <div class="step-number">5</div>
-                    <div class="step-content">
-                        <div class="step-info">
-                            <h3>Multi-Platform Publishing</h3>
-                            <p>Simultaneous publishing to Webflow blog, Facebook page, and Instagram carousel with auto-generated content</p>
-                            <div class="step-details">
-                                <span class="detail-tag">Webflow: Blog Post</span>
-                                <span class="detail-tag">Facebook: Link Share</span>
-                                <span class="detail-tag">Instagram: 4-Slide Carousel</span>
-                            </div>
-                        </div>
-                        <div class="step-visual">
-                            <div class="publishing-platforms">
-                                <div class="platform-icon">🌐</div>
-                                <div class="platform-icon">📘</div>
-                                <div class="platform-icon">📸</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="section-header"><div class="section-title">Process</div><div></div></div>
+            <div class="process-grid"></div>
         </div>
     </section>
 
-    <section id="results-showcase">
-        <div class="container">
-            <div class="section-header">
-                <h2>Results & <span class="gradient-text">Impact</span></h2>
-                <p class="section-subtitle">Real examples of content created by this automation, showing the quality and consistency achieved</p>
-            </div>
-            
-            <div class="results-grid">
-                <div class="result-card blog-result">
-                    <div class="result-header">
-                        <i class="fas fa-globe"></i>
-                        <h3>Blog Post</h3>
-                    </div>
-                    <div class="result-preview">
-                        <div class="blog-mockup">
-                            <div class="blog-title">Bass Music Pioneer Announces Sydney Return</div>
-                            <div class="blog-content">
-                                <p>The electronic music scene is buzzing with anticipation as one of bass music's most influential...</p>
-                                <div class="blog-meta">Published: club77.com.au | Author: Club 77</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="result-stats">
-                        <span>SEO Optimized</span>
-                        <span>Brand Voice Consistent</span>
-                        <span>Auto-Published</span>
-                    </div>
-                </div>
+    <!-- Highlights Section -->
+    <section class="highlights-section"><div class="container"><div class="section-header"><div class="section-title">Highlights</div><div></div></div></div></section>
+</main>
 
-                <div class="result-card social-result">
-                    <div class="result-header">
-                        <i class="fab fa-facebook"></i>
-                        <h3>Facebook Post</h3>
-                    </div>
-                    <div class="result-preview">
-                        <div class="facebook-mockup">
-                            <div class="fb-post">
-                                <div class="fb-text">Bass music pioneer announces return to Sydney's underground scene...</div>
-                                <div class="fb-link">🔗 Read full article</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="result-stats">
-                        <span>Auto-Linked</span>
-                        <span>Engagement Ready</span>
-                        <span>Brand Consistent</span>
-                    </div>
-                </div>
+<!-- Footer -->
+<footer class="footer"><div class="container"><div class="footer-content"><p>© 2025 Projekt AI. Transforming businesses through intelligent automation.</p></div></div></footer>
 
-                <div class="result-card instagram-result">
-                    <div class="result-header">
-                        <i class="fab fa-instagram"></i>
-                        <h3>Instagram Carousel</h3>
-                    </div>
-                    <div class="result-preview">
-                        <div class="instagram-mockup">
-                            <div class="carousel-slides">
-                                <div class="carousel-slide active">📱 Title</div>
-                                <div class="carousel-slide">📄 Info</div>
-                                <div class="carousel-slide">📋 Points</div>
-                                <div class="carousel-slide">🎵 CTA</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="result-stats">
-                        <span>4 Slides</span>
-                        <span>Branded Graphics</span>
-                        <span>Story-Ready</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="impact-metrics">
-                <div class="metric-card">
-                    <div class="metric-icon">⚡</div>
-                    <div class="metric-content">
-                        <h4>Time Efficiency</h4>
-                        <p>45 minutes → 5 minutes</p>
-                        <span class="metric-improvement">90% faster</span>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon">🎯</div>
-                    <div class="metric-content">
-                        <h4>Content Volume</h4>
-                        <p>1 input → 6 outputs</p>
-                        <span class="metric-improvement">600% more content</span>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon">🎨</div>
-                    <div class="metric-content">
-                        <h4>Brand Consistency</h4>
-                        <p>100% voice compliance</p>
-                        <span class="metric-improvement">Perfect consistency</span>
-                    </div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon">💰</div>
-                    <div class="metric-content">
-                        <h4>Cost Savings</h4>
-                        <p>$75/hour saved</p>
-                        <span class="metric-improvement">ROI within 1 week</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="technical-details">
-        <div class="container">
-            <div class="section-header">
-                <h2>Technical <span class="gradient-text">Architecture</span></h2>
-                <p class="section-subtitle">The tools and integrations that power this automation</p>
-            </div>
-            
-            <div class="tech-stack">
-                <div class="tech-category">
-                    <h3>Trigger & Control</h3>
-                    <div class="tech-tools">
-                        <div class="tech-tool">
-                            <i class="fab fa-telegram"></i>
-                            <span>Telegram Bot</span>
-                        </div>
-                        <div class="tech-tool">
-                            <i class="fas fa-webhook"></i>
-                            <span>Webhooks</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tech-category">
-                    <h3>AI & Processing</h3>
-                    <div class="tech-tools">
-                        <div class="tech-tool">
-                            <i class="fas fa-brain"></i>
-                            <span>OpenAI GPT-4</span>
-                        </div>
-                        <div class="tech-tool">
-                            <i class="fas fa-spider"></i>
-                            <span>Apify Scraper</span>
-                        </div>
-                        <div class="tech-tool">
-                            <i class="fas fa-palette"></i>
-                            <span>Creatomate</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tech-category">
-                    <h3>Publishing Platforms</h3>
-                    <div class="tech-tools">
-                        <div class="tech-tool">
-                            <i class="fas fa-globe"></i>
-                            <span>Webflow CMS</span>
-                        </div>
-                        <div class="tech-tool">
-                            <i class="fab fa-facebook"></i>
-                            <span>Facebook API</span>
-                        </div>
-                        <div class="tech-tool">
-                            <i class="fab fa-instagram"></i>
-                            <span>Instagram API</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="get-blueprint" class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <div class="cta-text">
-                    <h2>Get This Automation Blueprint</h2>
-                    <p>Download the complete Make.com blueprint, setup guide, and AI prompts used in this automation. Perfect for nightlife, entertainment, and content-focused businesses.</p>
-                    
-                    <div class="blueprint-includes">
-                        <div class="include-item">
-                            <i class="fas fa-check"></i>
-                            <span>Complete Make.com scenario file</span>
-                        </div>
-                        <div class="include-item">
-                            <i class="fas fa-check"></i>
-                            <span>AI prompt library (Club 77 voice)</span>
-                        </div>
-                        <div class="include-item">
-                            <i class="fas fa-check"></i>
-                            <span>Step-by-step setup guide</span>
-                        </div>
-                        <div class="include-item">
-                            <i class="fas fa-check"></i>
-                            <span>Creatomate template designs</span>
-                        </div>
-                        <div class="include-item">
-                            <i class="fas fa-check"></i>
-                            <span>Customization instructions</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="cta-form">
-                    <form class="blueprint-form">
-                        <h3>Free Download</h3>
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="business" name="business" placeholder="Business/Industry" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-download"></i>
-                            Download Blueprint
-                        </button>
-                        <p class="form-note">We'll send you the complete blueprint package and occasionally share automation tips. No spam, unsubscribe anytime.</p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="related-automations">
-        <div class="container">
-            <div class="section-header">
-                <h2>More <span class="gradient-text">Automations</span></h2>
-                <p class="section-subtitle">Explore other automation solutions for your industry</p>
-            </div>
-            
-            <div class="related-grid">
-                <div class="related-card">
-                    <div class="related-preview">
-                        <i class="fas fa-calendar-alt"></i>
-                    </div>
-                    <h3>Event Promotion Pipeline</h3>
-                    <p>Automated event marketing across 5 platforms with personalized content generation</p>
-                    <a href="#" class="related-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
-                </div>
-                
-                <div class="related-card">
-                    <div class="related-preview">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Guest List Management</h3>
-                    <p>End-to-end guest management with automated check-ins and social media integration</p>
-                    <a href="#" class="related-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
-                </div>
-                
-                <div class="related-card">
-                    <div class="related-preview">
-                        <i class="fas fa-music"></i>
-                    </div>
-                    <h3>Music Release Campaign</h3>
-                    <p>Complete artist promotion automation from release to playlist placement</p>
-                    <a href="#" class="related-link">Coming Soon <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <div class="footer-logo">Projekt<span>AI</span></div>
-                    <p>Transforming businesses through intelligent automation and AI integration.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="index.html#services">Process Automation</a></li>
-                        <li><a href="index.html#services">AI Integration</a></li>
-                        <li><a href="index.html#workflow">Workflow Solutions</a></li>
-                        <li><a href="index.html#contact">Custom Development</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="mailto:hello@projekt-ai.net">hello@projekt-ai.net</a></li>
-                        <li><a href="index.html#contact">Get Started</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Projekt AI. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="assets/js/case-study.js"></script>
+<!-- Menu JS (compact) -->
+<script>function initMenu(){const t=e=>document.getElementById(e),m=t("menuToggle"),s=t("slideMenu"),o=t("menuOverlay"),c=t("closeMenu"),a=()=>{s.classList.add("active"),o.classList.add("active"),m.classList.add("active"),document.body.style.overflow="hidden"},n=()=>{s.classList.remove("active"),o.classList.remove("active"),m.classList.remove("active"),document.body.style.overflow=""};m&&m.addEventListener("click",a),c&&c.addEventListener("click",n),o&&o.addEventListener("click",n),document.querySelectorAll('.menu-nav a').forEach(l=>l.addEventListener('click',n))}document.addEventListener('DOMContentLoaded',initMenu);</script>
 </body>
 </html> 
