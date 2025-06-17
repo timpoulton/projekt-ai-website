@@ -49,7 +49,9 @@ class PortfolioGenerator {
             throw new Error(`Template not found for theme: ${theme}`);
         }
 
-        return this.getDefaultTemplate(); // For now, return embedded template
+        // Read the HTML template file specified in config
+        const templatePath = path.join(__dirname, '..', templateConfig.template_file);
+        return fs.readFileSync(templatePath, 'utf8');
     }
 
     populateTemplate(template, project) {
@@ -91,6 +93,11 @@ class PortfolioGenerator {
                 </div>
             </div>`).join('\n            ');
         html = html.replace(/{{HIGHLIGHTS}}/g, highlights);
+
+        // Header image section (optional)
+        const headerSection = project.header_image ? `
+        <section class="project-image"><div class="container"><img src="${project.header_image}" alt="${project.title} header image"/></div></section>` : '';
+        html = html.replace(/{{HEADER_IMAGE_SECTION}}/g, headerSection);
 
         // Add SEO meta tags
         html = this.addSEOTags(html, project);

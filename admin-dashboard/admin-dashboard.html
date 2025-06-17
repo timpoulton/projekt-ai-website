@@ -308,6 +308,17 @@
                 </div>
             </div>
 
+            <!-- Portfolio Generator -->
+            <div class="tool-card" onclick="openTool('portfolio')">
+                <div class="tool-icon">🖼️</div>
+                <h3 class="tool-title">Portfolio Generator</h3>
+                <p class="tool-description">Create dark-theme case studies with AI-assisted content.</p>
+                <div class="tool-status">
+                    <span class="status-dot"></span>
+                    <span>Active on port 5000</span>
+                </div>
+            </div>
+
             <!-- Blueprint Generator -->
             <div class="tool-card" onclick="openTool('blueprint')">
                 <div class="tool-icon">🏗️</div>
@@ -384,6 +395,9 @@
                     break;
                 case 'club77':
                     window.open('http://192.168.1.107:3005', '_blank');
+                    break;
+                case 'portfolio':
+                    window.open('http://192.168.1.107:5000/admin-dashboard/portfolio-generator.html','_blank');
                     break;
                 case 'blueprint':
                     window.open('http://192.168.1.107:3004', '_blank');
