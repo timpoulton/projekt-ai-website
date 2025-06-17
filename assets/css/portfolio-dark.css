@@ -105,3 +105,25 @@ main{margin-top:120px}
 .footer-links a:hover{color:#1dd1a1}
 /* Responsive */
 @media(max-width:768px){.container{padding:0 30px}.hero-content{grid-template-columns:1fr;gap:60px}.section-header{grid-template-columns:1fr;gap:40px}.overview-content{grid-template-columns:1fr;gap:60px}.process-grid{grid-template-columns:1fr;gap:60px}.workflow-steps{flex-direction:column}.workflow-stats{grid-template-columns:1fr;gap:32px}.related-grid{grid-template-columns:1fr}.footer-content{flex-direction:column;gap:24px;text-align:center}} 
+
+/* --- Navigation Menu Styles copied from homepage for consistency --- */
+.menu-toggle{background:none;border:none;color:#fff;font-size:16px;cursor:pointer;padding:8px;display:flex;flex-direction:column;gap:4px;z-index:1001;position:relative}
+.menu-toggle span{width:25px;height:2px;background:#fff;display:block;transition:all .3s ease}
+.menu-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.menu-toggle.active span:nth-child(2){opacity:0}
+.menu-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.menu-overlay{position:fixed;top:0;left:0;width:100%;height:100vh;background:rgba(0,0,0,0.5);backdrop-filter:blur(4px);opacity:0;pointer-events:none;transition:opacity .4s ease;z-index:9999}
+.menu-overlay.active{opacity:1;pointer-events:all}
+.slide-menu{position:fixed;top:0;right:-100%;width:100%;max-width:400px;height:100vh;background:rgba(0,0,0,0.98);backdrop-filter:blur(20px);z-index:10000;transition:right .4s ease;padding:80px 60px 60px;display:flex;flex-direction:column}
+.slide-menu.active{right:0}
+.menu-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:80px}
+.menu-logo{font-size:18px;font-weight:500;color:#fff;letter-spacing:0.02em}
+.close-btn{background:none;border:none;color:#fff;font-size:24px;cursor:pointer;padding:0;line-height:1;font-weight:300}
+.menu-nav{flex:1}
+.menu-nav ul{list-style:none;padding:0;margin:0}
+.menu-nav li{margin-bottom:24px}
+.menu-nav a{color:#fff;text-decoration:none;font-size:28px;font-weight:400;line-height:1.2;transition:all .3s ease;display:block;letter-spacing:-0.01em}
+.menu-nav a:hover{color:#1dd1a1;transform:translateX(6px)}
+.menu-footer{border-top:1px solid rgba(255,255,255,0.1);padding-top:32px;margin-top:40px}
+.menu-footer a{color:rgba(255,255,255,0.6);text-decoration:none;font-size:16px;font-weight:400;transition:color .3s ease;letter-spacing:0.01em}
+.menu-footer a:hover{color:#1dd1a1} 
